@@ -1673,7 +1673,9 @@ class PlayerModel(BaseModel):
         ..., json_schema_extra={FFILL_KEY: True}, alias=PLAYER_COLLEGES_COLUMN
     )
     headshot: str | None = Field(
-        ..., json_schema_extra={FFILL_KEY: True}, alias=PLAYER_HEADSHOT_COLUMN
+        ...,
+        json_schema_extra={FFILL_KEY: True, TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_HEADSHOT_COLUMN,
     )
     forced_fumbles: float | None = Field(
         ...,

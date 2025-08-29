@@ -13,6 +13,7 @@ import pytest_is_running
 import requests_cache
 
 from ...cache import MEMORY
+from ..combined.most_interesting import more_interesting
 from ..google.google_news_model import create_google_news_models
 from ..league import League
 from ..odds_model import OddsModel
@@ -85,7 +86,6 @@ def _create_espn_team_model(
     total_clearances = None
     centre_clearances = None
     stoppage_clearances = None
-    rebound_50s = None
     goal_assists = None
     goal_accuracy = None
     rushed_behinds = None
@@ -326,545 +326,1153 @@ def _create_espn_team_model(
     innings = None
     assists = None
     extra_bases = None
+    blocks = None
+    defensive_rebounds = None
+    steals = None
+    turnover_points = None
+    average_defensive_rebounds = None
+    average_blocks = None
+    average_steals = None
+    average_48_defensive_rebounds = None
+    average_48_blocks = None
+    average_48_steals = None
+    largest_lead = None
+    disqualifications = None
+    flagrant_fouls = None
+    fouls = None
+    ejections = None
+    technical_fouls = None
+    rebounds = None
+    vorp = None
+    average_minutes = None
+    nba_rating = None
+    average_rebounds = None
+    average_fouls = None
+    average_flagrant_fouls = None
+    average_technical_fouls = None
+    average_ejections = None
+    average_disqualifications = None
+    assist_turnover_ratio = None
+    steal_foul_ratio = None
+    block_foul_ratio = None
+    average_team_rebounds = None
+    total_rebounds = None
+    total_technical_fouls = None
+    team_assist_turnover_ratio = None
+    steal_turnover_ratio = None
+    average_48_rebounds = None
+    average_48_fouls = None
+    average_48_flagrant_fouls = None
+    average_48_technical_fouls = None
+    average_48_ejections = None
+    average_48_disqualifications = None
+    double_double = None
+    triple_double = None
+    field_goals = None
+    field_goals_attempted = None
+    field_goals_made = None
+    field_goal_percentage = None
+    free_throws = None
+    free_throw_percentage = None
+    free_throws_attempted = None
+    free_throws_made = None
+    offensive_rebounds = None
+    turnovers = None
+    three_point_percentage = None
+    three_point_field_goals_attempted = None
+    three_point_field_goals_made = None
+    team_turnovers = None
+    total_turnovers = None
+    points_in_paint = None
+    brick_index = None
+    fast_break_points = None
+    average_field_goals_made = None
+    average_field_goals_attempted = None
+    average_three_point_field_goals_made = None
+    average_three_point_field_goals_attempted = None
+    average_free_throws_made = None
+    average_free_throws_attempted = None
+    average_points = None
+    average_offensive_rebounds = None
+    average_assists = None
+    average_turnovers = None
+    offensive_rebound_percentage = None
+    estimated_possessions = None
+    average_estimated_possessions = None
+    points_per_estimated_possessions = None
+    average_team_turnovers = None
+    average_total_turnovers = None
+    three_point_field_goal_percentage = None
+    two_point_field_goals_made = None
+    two_point_field_goals_attempted = None
+    average_two_point_field_goals_made = None
+    average_two_point_field_goals_attempted = None
+    two_point_field_goal_percentage = None
+    shooting_efficiency = None
+    scoring_efficiency = None
+    average_48_field_goals_made = None
+    average_48_field_goals_attempted = None
+    average_48_three_point_field_goals_made = None
+    average_48_three_point_field_goals_attempted = None
+    average_48_free_throws_made = None
+    average_48_free_throws_attempted = None
+    average_48_points = None
+    average_48_offensive_rebounds = None
+    average_48_assists = None
+    average_48_turnovers = None
     if "splits" in statistics_dict:
         for category in statistics_dict["splits"]["categories"]:
             for stat in category["stats"]:
                 if stat["name"] == "kicks":
-                    kicks = stat["value"]
+                    kicks = more_interesting(kicks, stat["value"])
                 elif stat["name"] == "handballs":
-                    handballs = stat["value"]
+                    handballs = more_interesting(handballs, stat["value"])
                 elif stat["name"] == "disposals":
-                    disposals = stat["value"]
+                    disposals = more_interesting(disposals, stat["value"])
                 elif stat["name"] == "marks":
-                    marks = stat["value"]
+                    marks = more_interesting(marks, stat["value"])
                 elif stat["name"] == "bounces":
-                    bounces = stat["value"]
+                    bounces = more_interesting(bounces, stat["value"])
                 elif stat["name"] == "tackles":
-                    tackles = stat["value"]
+                    tackles = more_interesting(tackles, stat["value"])
                 elif stat["name"] == "tacklesInside50":
-                    tackles_inside_50 = stat["value"]
+                    tackles_inside_50 = more_interesting(
+                        tackles_inside_50, stat["value"]
+                    )
                 elif stat["name"] == "contestedPossessions":
-                    contested_possessions = stat["value"]
+                    contested_possessions = more_interesting(
+                        contested_possessions, stat["value"]
+                    )
                 elif stat["name"] == "uncontestedPossessions":
-                    uncontested_possessions = stat["value"]
+                    uncontested_possessions = more_interesting(
+                        uncontested_possessions, stat["value"]
+                    )
                 elif stat["name"] == "totalPossessions":
-                    total_possessions = stat["value"]
+                    total_possessions = more_interesting(
+                        total_possessions, stat["value"]
+                    )
                 elif stat["name"] == "inside50s":
-                    inside_50s = stat["value"]
+                    inside_50s = more_interesting(inside_50s, stat["value"])
                 elif stat["name"] == "marksInside50":
-                    marks_inside_50 = stat["value"]
+                    marks_inside_50 = more_interesting(marks_inside_50, stat["value"])
                 elif stat["name"] == "contestedMarks":
-                    contested_marks = stat["value"]
+                    contested_marks = more_interesting(contested_marks, stat["value"])
                 elif stat["name"] == "uncontestedMarks":
-                    uncontested_marks = stat["value"]
+                    uncontested_marks = more_interesting(
+                        uncontested_marks, stat["value"]
+                    )
                 elif stat["name"] == "hitouts":
-                    hitouts = stat["value"]
+                    hitouts = more_interesting(hitouts, stat["value"])
                 elif stat["name"] == "onePercenters":
-                    one_percenters = stat["value"]
+                    one_percenters = more_interesting(one_percenters, stat["value"])
                 elif stat["name"] == "disposalEfficiency":
-                    disposal_efficiency = stat["value"]
+                    disposal_efficiency = more_interesting(
+                        disposal_efficiency, stat["value"]
+                    )
                 elif stat["name"] == "clangers":
-                    clangers = stat["value"]
+                    clangers = more_interesting(clangers, stat["value"])
                 elif stat["name"] == "goals":
-                    goals = stat["value"]
+                    goals = more_interesting(goals, stat["value"])
                 elif stat["name"] == "behinds":
-                    behinds = stat["value"]
+                    behinds = more_interesting(behinds, stat["value"])
                 elif stat["name"] == "freesFor":
-                    frees_for = stat["value"]
+                    frees_for = more_interesting(frees_for, stat["value"])
                 elif stat["name"] == "freesAgainst":
-                    frees_against = stat["value"]
+                    frees_against = more_interesting(frees_against, stat["value"])
                 elif stat["name"] == "totalClearances":
-                    total_clearances = stat["value"]
+                    total_clearances = more_interesting(total_clearances, stat["value"])
                 elif stat["name"] == "centreClearances":
-                    centre_clearances = stat["value"]
+                    centre_clearances = more_interesting(
+                        centre_clearances, stat["value"]
+                    )
                 elif stat["name"] == "stoppageClearances":
-                    stoppage_clearances = stat["value"]
+                    stoppage_clearances = more_interesting(
+                        stoppage_clearances, stat["value"]
+                    )
                 elif stat["name"] == "rebound50s":
-                    rebound_50s = stat["value"]
+                    rebounds = more_interesting(rebounds, stat["value"])
                 elif stat["name"] == "goalAssists":
-                    goal_assists = stat["value"]
+                    goal_assists = more_interesting(goal_assists, stat["value"])
                 elif stat["name"] == "goalAccuracy":
-                    goal_accuracy = stat["value"]
+                    goal_accuracy = more_interesting(goal_accuracy, stat["value"])
                 elif stat["name"] == "rushedBehinds":
-                    rushed_behinds = stat["value"]
+                    rushed_behinds = more_interesting(rushed_behinds, stat["value"])
                 elif stat["name"] == "touchedBehinds":
-                    touched_behinds = stat["value"]
+                    touched_behinds = more_interesting(touched_behinds, stat["value"])
                 elif stat["name"] == "leftBehinds":
-                    left_behinds = stat["value"]
+                    left_behinds = more_interesting(left_behinds, stat["value"])
                 elif stat["name"] == "leftPosters":
-                    left_posters = stat["value"]
+                    left_posters = more_interesting(left_posters, stat["value"])
                 elif stat["name"] == "rightBehinds":
-                    right_behinds = stat["value"]
+                    right_behinds = more_interesting(right_behinds, stat["value"])
                 elif stat["name"] == "rightPosters":
-                    right_posters = stat["value"]
+                    right_posters = more_interesting(right_posters, stat["value"])
                 elif stat["name"] == "totalInterchangeCount":
-                    total_interchange_count = stat["value"]
+                    total_interchange_count = more_interesting(
+                        total_interchange_count, stat["value"]
+                    )
                 elif stat["name"] == "interchangeCountQ1":
-                    interchange_count_q1 = stat["value"]
+                    interchange_count_q1 = more_interesting(
+                        interchange_count_q1, stat["value"]
+                    )
                 elif stat["name"] == "interchangeCountQ2":
-                    interchange_count_q2 = stat["value"]
+                    interchange_count_q2 = more_interesting(
+                        interchange_count_q2, stat["value"]
+                    )
                 elif stat["name"] == "interchangeCountQ3":
-                    interchange_count_q3 = stat["value"]
+                    interchange_count_q3 = more_interesting(
+                        interchange_count_q3, stat["value"]
+                    )
                 elif stat["name"] == "interchangeCountQ4":
-                    interchange_count_q4 = stat["value"]
+                    interchange_count_q4 = more_interesting(
+                        interchange_count_q4, stat["value"]
+                    )
                 elif stat["name"] == "blockedShots":
-                    blocked_shots = stat["value"]
+                    blocked_shots = more_interesting(blocked_shots, stat["value"])
                 elif stat["name"] == "effectiveClearance":
-                    effective_clearances = stat["value"]
+                    effective_clearances = more_interesting(
+                        effective_clearances, stat["value"]
+                    )
                 elif stat["name"] == "effectiveTackles":
-                    effective_tackles = stat["value"]
+                    effective_tackles = more_interesting(
+                        effective_tackles, stat["value"]
+                    )
                 elif stat["name"] == "inneffectiveTackles":
-                    ineffective_tackles = stat["value"]
+                    ineffective_tackles = more_interesting(
+                        ineffective_tackles, stat["value"]
+                    )
                 elif stat["name"] == "interceptions":
-                    interceptions = stat["value"]
+                    interceptions = more_interesting(interceptions, stat["value"])
                 elif stat["name"] == "tacklePct":
-                    tackle_percentage = stat["value"]
+                    tackle_percentage = more_interesting(
+                        tackle_percentage, stat["value"]
+                    )
                 elif stat["name"] == "totalClearance":
-                    total_clearances = stat["value"]
+                    total_clearances = more_interesting(total_clearances, stat["value"])
                 elif stat["name"] == "totalTackles":
-                    tackles = stat["value"]
+                    tackles = more_interesting(tackles, stat["value"])
                 elif stat["name"] == "appearances":
-                    appearances = stat["value"]
+                    appearances = more_interesting(appearances, stat["value"])
                 elif stat["name"] == "avgRatingFromCorrespondent":
-                    average_rating_from_correspondent = stat["value"]
+                    average_rating_from_correspondent = more_interesting(
+                        average_rating_from_correspondent, stat["value"]
+                    )
                 elif stat["name"] == "avgRatingFromDataFeed":
-                    average_rating_from_data_feed = stat["value"]
+                    average_rating_from_data_feed = more_interesting(
+                        average_rating_from_data_feed, stat["value"]
+                    )
                 elif stat["name"] == "avgRatingFromEditor":
-                    average_rating_from_editor = stat["value"]
+                    average_rating_from_editor = more_interesting(
+                        average_rating_from_editor, stat["value"]
+                    )
                 elif stat["name"] == "avgRatingFromUser":
-                    average_rating_from_user = stat["value"]
+                    average_rating_from_user = more_interesting(
+                        average_rating_from_user, stat["value"]
+                    )
                 elif stat["name"] == "dnp":
-                    did_not_play = stat["value"]
+                    did_not_play = more_interesting(did_not_play, stat["value"])
                 elif stat["name"] == "draws":
-                    draws = stat["value"]
+                    draws = more_interesting(draws, stat["value"])
                 elif stat["name"] == "foulsCommitted":
-                    fouls_committed = stat["value"]
+                    fouls_committed = more_interesting(fouls_committed, stat["value"])
                 elif stat["name"] == "foulsSuffered":
-                    fouls_suffered = stat["value"]
+                    fouls_suffered = more_interesting(fouls_suffered, stat["value"])
                 elif stat["name"] == "goalDifference":
-                    goal_difference = stat["value"]
+                    goal_difference = more_interesting(goal_difference, stat["value"])
                 elif stat["name"] == "handBalls":
-                    handballs = stat["value"]
+                    handballs = more_interesting(handballs, stat["value"])
                 elif stat["name"] == "losses":
-                    losses = stat["value"]
+                    losses = more_interesting(losses, stat["value"])
                 elif stat["name"] == "lostCorners":
-                    lost_corners = stat["value"]
+                    lost_corners = more_interesting(lost_corners, stat["value"])
                 elif stat["name"] == "minutes":
-                    minutes = stat["value"]
+                    minutes = more_interesting(minutes, stat["value"])
                 elif stat["name"] == "ownGoals":
-                    own_goals = stat["value"]
+                    own_goals = more_interesting(own_goals, stat["value"])
                 elif stat["name"] == "passPct":
-                    pass_percentage = stat["value"]
+                    pass_percentage = more_interesting(pass_percentage, stat["value"])
                 elif stat["name"] == "redCards":
-                    red_cards = stat["value"]
+                    red_cards = more_interesting(red_cards, stat["value"])
                 elif stat["name"] == "starts":
-                    starts = stat["value"]
+                    starts = more_interesting(starts, stat["value"])
                 elif stat["name"] == "subIns":
-                    sub_ins = stat["value"]
+                    sub_ins = more_interesting(sub_ins, stat["value"])
                 elif stat["name"] == "subOuts":
-                    sub_outs = stat["value"]
+                    sub_outs = more_interesting(sub_outs, stat["value"])
                 elif stat["name"] == "suspensions":
-                    suspensions = stat["value"]
+                    suspensions = more_interesting(suspensions, stat["value"])
                 elif stat["name"] == "timeEnded":
-                    time_ended = stat["value"]
+                    time_ended = more_interesting(time_ended, stat["value"])
                 elif stat["name"] == "timeStarted":
-                    time_started = stat["value"]
+                    time_started = more_interesting(time_started, stat["value"])
                 elif stat["name"] == "winPct":
-                    win_percentage = stat["value"]
+                    win_percentage = more_interesting(win_percentage, stat["value"])
                 elif stat["name"] == "wins":
-                    wins = stat["value"]
+                    wins = more_interesting(wins, stat["value"])
                 elif stat["name"] == "wonCorners":
-                    won_corners = stat["value"]
+                    won_corners = more_interesting(won_corners, stat["value"])
                 elif stat["name"] == "yellowCards":
-                    yellow_cards = stat["value"]
+                    yellow_cards = more_interesting(yellow_cards, stat["value"])
                 elif stat["name"] == "cleanSheet":
-                    clean_sheet = stat["value"]
+                    clean_sheet = more_interesting(clean_sheet, stat["value"])
                 elif stat["name"] == "crossesCaught":
-                    crosses_caught = stat["value"]
+                    crosses_caught = more_interesting(crosses_caught, stat["value"])
                 elif stat["name"] == "goalsConceded":
-                    goals_conceded = stat["value"]
+                    goals_conceded = more_interesting(goals_conceded, stat["value"])
                 elif stat["name"] == "partialCleenSheet":
-                    partial_clean_sheet = stat["value"]
+                    partial_clean_sheet = more_interesting(
+                        partial_clean_sheet, stat["value"]
+                    )
                 elif stat["name"] == "penaltyKickConceded":
-                    penalty_kick_conceded = stat["value"]
+                    penalty_kick_conceded = more_interesting(
+                        penalty_kick_conceded, stat["value"]
+                    )
                 elif stat["name"] == "penaltyKickSavePct":
-                    penalty_kick_save_percentage = stat["value"]
+                    penalty_kick_save_percentage = more_interesting(
+                        penalty_kick_save_percentage, stat["value"]
+                    )
                 elif stat["name"] == "penaltyKicksFaced":
-                    penalty_kicks_faced = stat["value"]
+                    penalty_kicks_faced = more_interesting(
+                        penalty_kicks_faced, stat["value"]
+                    )
                 elif stat["name"] == "penaltyKicksSaved":
-                    penalty_kicks_saved = stat["value"]
+                    penalty_kicks_saved = more_interesting(
+                        penalty_kicks_saved, stat["value"]
+                    )
                 elif stat["name"] == "punches":
-                    punches = stat["value"]
+                    punches = more_interesting(punches, stat["value"])
                 elif stat["name"] == "saves":
-                    saves = stat["value"]
+                    saves = more_interesting(saves, stat["value"])
                 elif stat["name"] == "shootOutKicksFaced":
-                    shoot_out_kicks_faced = stat["value"]
+                    shoot_out_kicks_faced = more_interesting(
+                        shoot_out_kicks_faced, stat["value"]
+                    )
                 elif stat["name"] == "shootOutKicksSaved":
-                    shoot_out_kicks_saved = stat["value"]
+                    shoot_out_kicks_saved = more_interesting(
+                        shoot_out_kicks_saved, stat["value"]
+                    )
                 elif stat["name"] == "shootOutSavePct":
-                    shoot_out_save_percentage = stat["value"]
+                    shoot_out_save_percentage = more_interesting(
+                        shoot_out_save_percentage, stat["value"]
+                    )
                 elif stat["name"] == "shotsFaced":
-                    shots_faced = stat["value"]
+                    shots_faced = more_interesting(shots_faced, stat["value"])
                 elif stat["name"] == "smothers":
-                    smothers = stat["value"]
+                    smothers = more_interesting(smothers, stat["value"])
                 elif stat["name"] == "unclaimedCrosses":
-                    unclaimed_crosses = stat["value"]
+                    unclaimed_crosses = more_interesting(
+                        unclaimed_crosses, stat["value"]
+                    )
                 elif stat["name"] == "accurateCrosses":
-                    accurate_crosses = stat["value"]
+                    accurate_crosses = more_interesting(accurate_crosses, stat["value"])
                 elif stat["name"] == "accurateLongBalls":
-                    accurate_long_balls = stat["value"]
+                    accurate_long_balls = more_interesting(
+                        accurate_long_balls, stat["value"]
+                    )
                 elif stat["name"] == "accuratePasses":
-                    accurate_passes = stat["value"]
+                    accurate_passes = more_interesting(accurate_passes, stat["value"])
                 elif stat["name"] == "accurateThroughBalls":
-                    accurate_through_balls = stat["value"]
+                    accurate_through_balls = more_interesting(
+                        accurate_through_balls, stat["value"]
+                    )
                 elif stat["name"] == "crossPct":
-                    cross_percentage = stat["value"]
+                    cross_percentage = more_interesting(cross_percentage, stat["value"])
                 elif stat["name"] == "freeKickGoals":
-                    free_kick_goals = stat["value"]
+                    free_kick_goals = more_interesting(free_kick_goals, stat["value"])
                 elif stat["name"] == "freeKickPct":
-                    free_kick_percentage = stat["value"]
+                    free_kick_percentage = more_interesting(
+                        free_kick_percentage, stat["value"]
+                    )
                 elif stat["name"] == "freeKickShots":
-                    free_kick_shots = stat["value"]
+                    free_kick_shots = more_interesting(free_kick_shots, stat["value"])
                 elif stat["name"] == "gameWinningAssists":
-                    game_winning_assists = stat["value"]
+                    game_winning_assists = more_interesting(
+                        game_winning_assists, stat["value"]
+                    )
                 elif stat["name"] == "gameWinningGoals":
-                    game_winning_goals = stat["value"]
+                    game_winning_goals = more_interesting(
+                        game_winning_goals, stat["value"]
+                    )
                 elif stat["name"] == "headedGoals":
-                    headed_goals = stat["value"]
+                    headed_goals = more_interesting(headed_goals, stat["value"])
                 elif stat["name"] == "inaccurateCrosses":
-                    inaccurate_crosses = stat["value"]
+                    inaccurate_crosses = more_interesting(
+                        inaccurate_crosses, stat["value"]
+                    )
                 elif stat["name"] == "inaccurateLongBalls":
-                    inaccurate_long_balls = stat["value"]
+                    inaccurate_long_balls = more_interesting(
+                        inaccurate_long_balls, stat["value"]
+                    )
                 elif stat["name"] == "inaccuratePasses":
-                    inaccurate_passes = stat["value"]
+                    inaccurate_passes = more_interesting(
+                        inaccurate_passes, stat["value"]
+                    )
                 elif stat["name"] == "inaccurateThroughBalls":
-                    inaccurate_through_balls = stat["value"]
+                    inaccurate_through_balls = more_interesting(
+                        inaccurate_through_balls, stat["value"]
+                    )
                 elif stat["name"] == "leftFootedShots":
-                    left_footed_shots = stat["value"]
+                    left_footed_shots = more_interesting(
+                        left_footed_shots, stat["value"]
+                    )
                 elif stat["name"] == "longballPct":
-                    longball_percentage = stat["value"]
+                    longball_percentage = more_interesting(
+                        longball_percentage, stat["value"]
+                    )
                 elif stat["name"] == "offsides":
-                    offsides = stat["value"]
+                    offsides = more_interesting(offsides, stat["value"])
                 elif stat["name"] == "penaltyKickGoals":
-                    penalty_kick_goals = stat["value"]
+                    penalty_kick_goals = more_interesting(
+                        penalty_kick_goals, stat["value"]
+                    )
                 elif stat["name"] == "penaltyKickPct":
-                    penalty_kick_percentage = stat["value"]
+                    penalty_kick_percentage = more_interesting(
+                        penalty_kick_percentage, stat["value"]
+                    )
                 elif stat["name"] == "penaltyKickShots":
-                    penalty_kick_shots = stat["value"]
+                    penalty_kick_shots = more_interesting(
+                        penalty_kick_shots, stat["value"]
+                    )
                 elif stat["name"] == "penaltyKicksMissed":
-                    penalty_kicks_missed = stat["value"]
+                    penalty_kicks_missed = more_interesting(
+                        penalty_kicks_missed, stat["value"]
+                    )
                 elif stat["name"] == "possessionPct":
-                    possession_percentage = stat["value"]
+                    possession_percentage = more_interesting(
+                        possession_percentage, stat["value"]
+                    )
                 elif stat["name"] == "possessionTime":
-                    possession_time = stat["value"]
+                    possession_time = more_interesting(possession_time, stat["value"])
                 elif stat["name"] == "rightFootedShots":
-                    right_footed_shots = stat["value"]
+                    right_footed_shots = more_interesting(
+                        right_footed_shots, stat["value"]
+                    )
                 elif stat["name"] == "shootOutGoals":
-                    shoot_out_goals = stat["value"]
+                    shoot_out_goals = more_interesting(shoot_out_goals, stat["value"])
                 elif stat["name"] == "shootOutMisses":
-                    shoot_out_misses = stat["value"]
+                    shoot_out_misses = more_interesting(shoot_out_misses, stat["value"])
                 elif stat["name"] == "shootOutPct":
-                    shoot_out_percentage = stat["value"]
+                    shoot_out_percentage = more_interesting(
+                        shoot_out_percentage, stat["value"]
+                    )
                 elif stat["name"] == "shotAssists":
-                    shot_assists = stat["value"]
+                    shot_assists = more_interesting(shot_assists, stat["value"])
                 elif stat["name"] == "shotPct":
-                    shot_percentage = stat["value"]
+                    shot_percentage = more_interesting(shot_percentage, stat["value"])
                 elif stat["name"] == "shotsHeaded":
-                    shots_headed = stat["value"]
+                    shots_headed = more_interesting(shots_headed, stat["value"])
                 elif stat["name"] == "shotsOffTarget":
-                    shots_off_target = stat["value"]
+                    shots_off_target = more_interesting(shots_off_target, stat["value"])
                 elif stat["name"] == "shotsOnPost":
-                    shots_on_post = stat["value"]
+                    shots_on_post = more_interesting(shots_on_post, stat["value"])
                 elif stat["name"] == "shotsOnTarget":
-                    shots_on_target = stat["value"]
+                    shots_on_target = more_interesting(shots_on_target, stat["value"])
                 elif stat["name"] == "throughBallPct":
-                    through_ball_percentage = stat["value"]
+                    through_ball_percentage = more_interesting(
+                        through_ball_percentage, stat["value"]
+                    )
                 elif stat["name"] == "totalCrosses":
-                    total_crosses = stat["value"]
+                    total_crosses = more_interesting(total_crosses, stat["value"])
                 elif stat["name"] == "totalGoals":
-                    total_goals = stat["value"]
+                    total_goals = more_interesting(total_goals, stat["value"])
                 elif stat["name"] == "totalLongBalls":
-                    total_long_balls = stat["value"]
+                    total_long_balls = more_interesting(total_long_balls, stat["value"])
                 elif stat["name"] == "totalPasses":
-                    total_passes = stat["value"]
+                    total_passes = more_interesting(total_passes, stat["value"])
                 elif stat["name"] == "totalShots":
-                    total_shots = stat["value"]
+                    total_shots = more_interesting(total_shots, stat["value"])
                 elif stat["name"] == "totalThroughBalls":
-                    total_through_balls = stat["value"]
+                    total_through_balls = more_interesting(
+                        total_through_balls, stat["value"]
+                    )
                 elif stat["name"] == "hitByPitch":
-                    hit_by_pitch = stat["value"]
+                    hit_by_pitch = more_interesting(hit_by_pitch, stat["value"])
                 elif stat["name"] == "groundBalls":
-                    ground_balls = stat["value"]
+                    ground_balls = more_interesting(ground_balls, stat["value"])
                 elif stat["name"] == "strikeouts":
-                    strikeouts = stat["value"]
+                    strikeouts = more_interesting(strikeouts, stat["value"])
                 elif stat["name"] == "RBIs":
-                    rbis = stat["value"]
+                    rbis = more_interesting(rbis, stat["value"])
                 elif stat["name"] == "sacHits":
-                    sac_hits = stat["value"]
+                    sac_hits = more_interesting(sac_hits, stat["value"])
                 elif stat["name"] == "hits":
-                    hits = stat["value"]
+                    hits = more_interesting(hits, stat["value"])
                 elif stat["name"] == "stolenBases":
-                    stolen_bases = stat["value"]
+                    stolen_bases = more_interesting(stolen_bases, stat["value"])
                 elif stat["name"] == "walks":
-                    walks = stat["value"]
+                    walks = more_interesting(walks, stat["value"])
                 elif stat["name"] == "catcherInterference":
-                    catcher_interference = stat["value"]
+                    catcher_interference = more_interesting(
+                        catcher_interference, stat["value"]
+                    )
                 elif stat["name"] == "runs":
-                    runs = stat["value"]
+                    runs = more_interesting(runs, stat["value"])
                 elif stat["name"] == "GIDPs":
-                    gidps = stat["value"]
+                    gidps = more_interesting(gidps, stat["value"])
                 elif stat["name"] == "sacFlies":
-                    sacrifice_flies = stat["value"]
+                    sacrifice_flies = more_interesting(sacrifice_flies, stat["value"])
                 elif stat["name"] == "atBats":
-                    at_bats = stat["value"]
+                    at_bats = more_interesting(at_bats, stat["value"])
                 elif stat["name"] == "homeRuns":
-                    home_runs = stat["value"]
+                    home_runs = more_interesting(home_runs, stat["value"])
                 elif stat["name"] == "grandSlamHomeRuns":
-                    grand_slam_home_runs = stat["value"]
+                    grand_slam_home_runs = more_interesting(
+                        grand_slam_home_runs, stat["value"]
+                    )
                 elif stat["name"] == "runnersLeftOnBase":
-                    runners_left_on_base = stat["value"]
+                    runners_left_on_base = more_interesting(
+                        runners_left_on_base, stat["value"]
+                    )
                 elif stat["name"] == "triples":
-                    triples = stat["value"]
+                    triples = more_interesting(triples, stat["value"])
                 elif stat["name"] == "gameWinningRBIs":
-                    game_winning_rbis = stat["value"]
+                    game_winning_rbis = more_interesting(
+                        game_winning_rbis, stat["value"]
+                    )
                 elif stat["name"] == "intentionalWalks":
-                    intentional_walks = stat["value"]
+                    intentional_walks = more_interesting(
+                        intentional_walks, stat["value"]
+                    )
                 elif stat["name"] == "doubles":
-                    doubles = stat["value"]
+                    doubles = more_interesting(doubles, stat["value"])
                 elif stat["name"] == "flyBalls":
-                    fly_balls = stat["value"]
+                    fly_balls = more_interesting(fly_balls, stat["value"])
                 elif stat["name"] == "caughtStealing":
-                    caught_stealing = stat["value"]
+                    caught_stealing = more_interesting(caught_stealing, stat["value"])
                 elif stat["name"] == "pitches":
-                    pitches = stat["value"]
+                    pitches = more_interesting(pitches, stat["value"])
                 elif stat["name"] == "gamesStarted":
-                    games_started = stat["value"]
+                    games_started = more_interesting(games_started, stat["value"])
                 elif stat["name"] == "pinchAtBats":
-                    pinch_at_bats = stat["value"]
+                    pinch_at_bats = more_interesting(pinch_at_bats, stat["value"])
                 elif stat["name"] == "pinchHits":
-                    pinch_hits = stat["value"]
+                    pinch_hits = more_interesting(pinch_hits, stat["value"])
                 elif stat["name"] == "playerRating":
-                    player_rating = stat["value"]
+                    player_rating = more_interesting(player_rating, stat["value"])
                 elif stat["name"] == "isQualified":
-                    is_qualified = stat["value"]
+                    is_qualified = more_interesting(is_qualified, stat["value"])
                 elif stat["name"] == "isQualifiedSteals":
-                    is_qualified_steals = stat["value"]
+                    is_qualified_steals = more_interesting(
+                        is_qualified_steals, stat["value"]
+                    )
                 elif stat["name"] == "totalBases":
-                    total_bases = stat["value"]
+                    total_bases = more_interesting(total_bases, stat["value"])
                 elif stat["name"] == "plateAppearances":
-                    plate_appearances = stat["value"]
+                    plate_appearances = more_interesting(
+                        plate_appearances, stat["value"]
+                    )
                 elif stat["name"] == "projectedHomeRuns":
-                    projected_home_runs = stat["value"]
+                    projected_home_runs = more_interesting(
+                        projected_home_runs, stat["value"]
+                    )
                 elif stat["name"] == "extraBaseHits":
-                    extra_base_hits = stat["value"]
+                    extra_base_hits = more_interesting(extra_base_hits, stat["value"])
                 elif stat["name"] == "runsCreated":
-                    runs_created = stat["value"]
+                    runs_created = more_interesting(runs_created, stat["value"])
                 elif stat["name"] == "avg":
-                    batting_average = stat["value"]
+                    batting_average = more_interesting(batting_average, stat["value"])
                 elif stat["name"] == "pinchAvg":
-                    pinch_average = stat["value"]
+                    pinch_average = more_interesting(pinch_average, stat["value"])
                 elif stat["name"] == "slugAvg":
-                    slug_average = stat["value"]
+                    slug_average = more_interesting(slug_average, stat["value"])
                 elif stat["name"] == "secondaryAvg":
-                    secondary_average = stat["value"]
+                    secondary_average = more_interesting(
+                        secondary_average, stat["value"]
+                    )
                 elif stat["name"] == "onBasePct":
-                    on_base_percentage = stat["value"]
+                    on_base_percentage = more_interesting(
+                        on_base_percentage, stat["value"]
+                    )
                 elif stat["name"] == "OPS":
-                    ops = stat["value"]
+                    ops = more_interesting(ops, stat["value"])
                 elif stat["name"] == "groundToFlyRatio":
-                    ground_to_fly_ratio = stat["value"]
+                    ground_to_fly_ratio = more_interesting(
+                        ground_to_fly_ratio, stat["value"]
+                    )
                 elif stat["name"] == "runsCreatedPer27Outs":
-                    runs_created_per_27_outs = stat["value"]
+                    runs_created_per_27_outs = more_interesting(
+                        runs_created_per_27_outs, stat["value"]
+                    )
                 elif stat["name"] == "batterRating":
-                    batter_rating = stat["value"]
+                    batter_rating = more_interesting(batter_rating, stat["value"])
                 elif stat["name"] == "atBatsPerHomeRun":
-                    at_bats_per_home_run = stat["value"]
+                    at_bats_per_home_run = more_interesting(
+                        at_bats_per_home_run, stat["value"]
+                    )
                 elif stat["name"] == "stolenBasePct":
-                    stolen_base_percentage = stat["value"]
+                    stolen_base_percentage = more_interesting(
+                        stolen_base_percentage, stat["value"]
+                    )
                 elif stat["name"] == "pitchesPerPlateAppearance":
-                    pitches_per_plate_appearance = stat["value"]
+                    pitches_per_plate_appearance = more_interesting(
+                        pitches_per_plate_appearance, stat["value"]
+                    )
                 elif stat["name"] == "isolatedPower":
-                    isolated_power = stat["value"]
+                    isolated_power = more_interesting(isolated_power, stat["value"])
                 elif stat["name"] == "walkToStrikeoutRatio":
-                    walk_to_strikeout_ratio = stat["value"]
+                    walk_to_strikeout_ratio = more_interesting(
+                        walk_to_strikeout_ratio, stat["value"]
+                    )
                 elif stat["name"] == "walksPerPlateAppearance":
-                    walks_per_plate_appearance = stat["value"]
+                    walks_per_plate_appearance = more_interesting(
+                        walks_per_plate_appearance, stat["value"]
+                    )
                 elif stat["name"] == "secondaryAvgMinusBA":
-                    secondary_average_minus_batting_average = stat["value"]
+                    secondary_average_minus_batting_average = more_interesting(
+                        secondary_average_minus_batting_average, stat["value"]
+                    )
                 elif stat["name"] == "runsProduced":
-                    runs_produced = stat["value"]
+                    runs_produced = more_interesting(runs_produced, stat["value"])
                 elif stat["name"] == "runsRatio":
-                    runs_ratio = stat["value"]
+                    runs_ratio = more_interesting(runs_ratio, stat["value"])
                 elif stat["name"] == "patienceRatio":
-                    patience_ratio = stat["value"]
+                    patience_ratio = more_interesting(patience_ratio, stat["value"])
                 elif stat["name"] == "BIPA":
-                    balls_in_play_average = stat["value"]
+                    balls_in_play_average = more_interesting(
+                        balls_in_play_average, stat["value"]
+                    )
                 elif stat["name"] == "MLBRating":
-                    mlb_rating = stat["value"]
+                    mlb_rating = more_interesting(mlb_rating, stat["value"])
                 elif stat["name"] == "offWARBR":
-                    offensive_wins_above_replacement = stat["value"]
+                    offensive_wins_above_replacement = more_interesting(
+                        offensive_wins_above_replacement, stat["value"]
+                    )
                 elif stat["name"] == "WARBR":
-                    wins_above_replacement = stat["value"]
+                    wins_above_replacement = more_interesting(
+                        wins_above_replacement, stat["value"]
+                    )
                 elif stat["name"] == "earnedRuns":
-                    earned_runs = stat["value"]
+                    earned_runs = more_interesting(earned_runs, stat["value"])
                 elif stat["name"] == "battersHit":
-                    batters_hit = stat["value"]
+                    batters_hit = more_interesting(batters_hit, stat["value"])
                 elif stat["name"] == "sacBunts":
-                    sacrifice_bunts = stat["value"]
+                    sacrifice_bunts = more_interesting(sacrifice_bunts, stat["value"])
                 elif stat["name"] == "saveOpportunities":
-                    save_opportunities = stat["value"]
+                    save_opportunities = more_interesting(
+                        save_opportunities, stat["value"]
+                    )
                 elif stat["name"] == "finishes":
-                    finishes = stat["value"]
+                    finishes = more_interesting(finishes, stat["value"])
                 elif stat["name"] == "balks":
-                    balks = stat["value"]
+                    balks = more_interesting(balks, stat["value"])
                 elif stat["name"] == "battersFaced":
-                    batters_faced = stat["value"]
+                    batters_faced = more_interesting(batters_faced, stat["value"])
                 elif stat["name"] == "holds":
-                    holds = stat["value"]
+                    holds = more_interesting(holds, stat["value"])
                 elif stat["name"] == "completeGames":
-                    complete_games = stat["value"]
+                    complete_games = more_interesting(complete_games, stat["value"])
                 elif stat["name"] == "perfectGames":
-                    perfect_games = stat["value"]
+                    perfect_games = more_interesting(perfect_games, stat["value"])
                 elif stat["name"] == "wildPitches":
-                    wild_pitches = stat["value"]
+                    wild_pitches = more_interesting(wild_pitches, stat["value"])
                 elif stat["name"] == "thirdInnings":
-                    third_innings = stat["value"]
+                    third_innings = more_interesting(third_innings, stat["value"])
                 elif stat["name"] == "teamEarnedRuns":
-                    team_earned_runs = stat["value"]
+                    team_earned_runs = more_interesting(team_earned_runs, stat["value"])
                 elif stat["name"] == "shutouts":
-                    shutouts = stat["value"]
+                    shutouts = more_interesting(shutouts, stat["value"])
                 elif stat["name"] == "pickoffAttempts":
-                    pickoff_attempts = stat["value"]
+                    pickoff_attempts = more_interesting(pickoff_attempts, stat["value"])
                 elif stat["name"] == "pitches":
-                    pitches = stat["value"]
+                    pitches = more_interesting(pitches, stat["value"])
                 elif stat["name"] == "runSupport":
-                    run_support = stat["value"]
+                    run_support = more_interesting(run_support, stat["value"])
                 elif stat["name"] == "catcherInterference":
-                    catcher_interference = stat["value"]
+                    catcher_interference = more_interesting(
+                        catcher_interference, stat["value"]
+                    )
                 elif stat["name"] == "pitchesAsStarter":
-                    pitches_as_starter = stat["value"]
+                    pitches_as_starter = more_interesting(
+                        pitches_as_starter, stat["value"]
+                    )
                 elif stat["name"] == "avgGameScore":
-                    average_game_score = stat["value"]
+                    average_game_score = more_interesting(
+                        average_game_score, stat["value"]
+                    )
                 elif stat["name"] == "qualityStarts":
-                    quality_starts = stat["value"]
+                    quality_starts = more_interesting(quality_starts, stat["value"])
                 elif stat["name"] == "inheritedRunners":
-                    inherited_runners = stat["value"]
+                    inherited_runners = more_interesting(
+                        inherited_runners, stat["value"]
+                    )
                 elif stat["name"] == "inheritedRunnersScored":
-                    inherited_runners_scored = stat["value"]
+                    inherited_runners_scored = more_interesting(
+                        inherited_runners_scored, stat["value"]
+                    )
                 elif stat["name"] == "opponentTotalBases":
-                    opponent_total_bases = stat["value"]
+                    opponent_total_bases = more_interesting(
+                        opponent_total_bases, stat["value"]
+                    )
                 elif stat["name"] == "isQualifiedSaves":
-                    is_qualified_saves = stat["value"]
+                    is_qualified_saves = more_interesting(
+                        is_qualified_saves, stat["value"]
+                    )
                 elif stat["name"] == "fullInnings":
-                    full_innings = stat["value"]
+                    full_innings = more_interesting(full_innings, stat["value"])
                 elif stat["name"] == "partInnings":
-                    part_innings = stat["value"]
+                    part_innings = more_interesting(part_innings, stat["value"])
                 elif stat["name"] == "blownSaves":
-                    blown_saves = stat["value"]
+                    blown_saves = more_interesting(blown_saves, stat["value"])
                 elif stat["name"] == "innings":
-                    innings = stat["value"]
+                    innings = more_interesting(innings, stat["value"])
                 elif stat["name"] == "ERA":
-                    era = stat["value"]
+                    era = more_interesting(era, stat["value"])
                 elif stat["name"] == "WHIP":
-                    whip = stat["value"]
+                    whip = more_interesting(whip, stat["value"])
                 elif stat["name"] == "caughtStealingPct":
-                    caught_stealing_percentage = stat["value"]
+                    caught_stealing_percentage = more_interesting(
+                        caught_stealing_percentage, stat["value"]
+                    )
                 elif stat["name"] == "pitchesPerStart":
-                    pitches_per_start = stat["value"]
+                    pitches_per_start = more_interesting(
+                        pitches_per_start, stat["value"]
+                    )
                 elif stat["name"] == "pitchesPerInning":
-                    pitches_per_inning = stat["value"]
+                    pitches_per_inning = more_interesting(
+                        pitches_per_inning, stat["value"]
+                    )
                 elif stat["name"] == "pitchesPerPlateAppearance":
-                    pitches_per_plate_appearance = stat["value"]
+                    pitches_per_plate_appearance = more_interesting(
+                        pitches_per_plate_appearance, stat["value"]
+                    )
                 elif stat["name"] == "runSupportAvg":
-                    run_support_average = stat["value"]
+                    run_support_average = more_interesting(
+                        run_support_average, stat["value"]
+                    )
                 elif stat["name"] == "opponentAvg":
-                    opponent_average = stat["value"]
+                    opponent_average = more_interesting(opponent_average, stat["value"])
                 elif stat["name"] == "opponentSlugAvg":
-                    opponent_slug_average = stat["value"]
+                    opponent_slug_average = more_interesting(
+                        opponent_slug_average, stat["value"]
+                    )
                 elif stat["name"] == "opponentOnBasePct":
-                    opponent_on_base_percentage = stat["value"]
+                    opponent_on_base_percentage = more_interesting(
+                        opponent_on_base_percentage, stat["value"]
+                    )
                 elif stat["name"] == "opponentOPS":
-                    opponent_ops = stat["value"]
+                    opponent_ops = more_interesting(opponent_ops, stat["value"])
                 elif stat["name"] == "savePct":
-                    save_percentage = stat["value"]
+                    save_percentage = more_interesting(save_percentage, stat["value"])
                 elif stat["name"] == "strikeoutsPerNineInnings":
-                    strikeouts_per_nine_innings = stat["value"]
+                    strikeouts_per_nine_innings = more_interesting(
+                        strikeouts_per_nine_innings, stat["value"]
+                    )
                 elif stat["name"] == "strikeoutToWalkRatio":
-                    strikeout_to_walk_ratio = stat["value"]
+                    strikeout_to_walk_ratio = more_interesting(
+                        strikeout_to_walk_ratio, stat["value"]
+                    )
                 elif stat["name"] == "toughLosses":
-                    tough_losses = stat["value"]
+                    tough_losses = more_interesting(tough_losses, stat["value"])
                 elif stat["name"] == "cheapWins":
-                    cheap_wins = stat["value"]
+                    cheap_wins = more_interesting(cheap_wins, stat["value"])
                 elif stat["name"] == "saveOpportunitiesPerWin":
-                    save_opportunities_per_win = stat["value"]
+                    save_opportunities_per_win = more_interesting(
+                        save_opportunities_per_win, stat["value"]
+                    )
                 elif stat["name"] == "pitchCount":
-                    pitch_count = stat["value"]
+                    pitch_count = more_interesting(pitch_count, stat["value"])
                 elif stat["name"] == "strikes":
-                    strikes = stat["value"]
+                    strikes = more_interesting(strikes, stat["value"])
                 elif stat["name"] == "strikePitchRatio":
-                    strike_pitch_ratio = stat["value"]
+                    strike_pitch_ratio = more_interesting(
+                        strike_pitch_ratio, stat["value"]
+                    )
                 elif stat["name"] == "gamesPlayed":
-                    games_played = stat["value"]
+                    games_played = more_interesting(games_played, stat["value"])
                 elif stat["name"] == "teamGamesPlayed":
-                    team_games_played = stat["value"]
+                    team_games_played = more_interesting(
+                        team_games_played, stat["value"]
+                    )
                 elif stat["name"] == "doublePlays":
-                    double_plays = stat["value"]
+                    double_plays = more_interesting(double_plays, stat["value"])
                 elif stat["name"] == "opportunities":
-                    opportunities = stat["value"]
+                    opportunities = more_interesting(opportunities, stat["value"])
                 elif stat["name"] == "errors":
-                    errors = stat["value"]
+                    errors = more_interesting(errors, stat["value"])
                 elif stat["name"] == "passedBalls":
-                    passed_balls = stat["value"]
+                    passed_balls = more_interesting(passed_balls, stat["value"])
                 elif stat["name"] == "assists":
-                    assists = stat["value"]
+                    assists = more_interesting(assists, stat["value"])
                 elif stat["name"] == "outfieldAssists":
-                    outfield_assists = stat["value"]
+                    outfield_assists = more_interesting(outfield_assists, stat["value"])
                 elif stat["name"] == "pickoffs":
-                    pickoffs = stat["value"]
+                    pickoffs = more_interesting(pickoffs, stat["value"])
                 elif stat["name"] == "putouts":
-                    putouts = stat["value"]
+                    putouts = more_interesting(putouts, stat["value"])
                 elif stat["name"] == "outsOnField":
-                    outs_on_field = stat["value"]
+                    outs_on_field = more_interesting(outs_on_field, stat["value"])
                 elif stat["name"] == "triplePlays":
-                    triple_plays = stat["value"]
+                    triple_plays = more_interesting(triple_plays, stat["value"])
                 elif stat["name"] == "ballsInZone":
-                    balls_in_zone = stat["value"]
+                    balls_in_zone = more_interesting(balls_in_zone, stat["value"])
                 elif stat["name"] == "extraBases":
-                    extra_bases = stat["value"]
+                    extra_bases = more_interesting(extra_bases, stat["value"])
                 elif stat["name"] == "outsMade":
-                    outs_made = stat["value"]
+                    outs_made = more_interesting(outs_made, stat["value"])
                 elif stat["name"] == "catcherThirdInningsPlayed":
-                    catcher_third_innings_played = stat["value"]
+                    catcher_third_innings_played = more_interesting(
+                        catcher_third_innings_played, stat["value"]
+                    )
                 elif stat["name"] == "catcherCaughtStealing":
-                    catcher_caught_stealing = stat["value"]
+                    catcher_caught_stealing = more_interesting(
+                        catcher_caught_stealing, stat["value"]
+                    )
                 elif stat["name"] == "catcherStolenBasesAllowed":
-                    catcher_stolen_bases_allowed = stat["value"]
+                    catcher_stolen_bases_allowed = more_interesting(
+                        catcher_stolen_bases_allowed, stat["value"]
+                    )
                 elif stat["name"] == "catcherEarnedRuns":
-                    catcher_earned_runs = stat["value"]
+                    catcher_earned_runs = more_interesting(
+                        catcher_earned_runs, stat["value"]
+                    )
                 elif stat["name"] == "isQualifiedCatcher":
-                    is_qualified_catcher = stat["value"]
+                    is_qualified_catcher = more_interesting(
+                        is_qualified_catcher, stat["value"]
+                    )
                 elif stat["name"] == "isQualifiedPitcher":
-                    is_qualified_pitcher = stat["value"]
+                    is_qualified_pitcher = more_interesting(
+                        is_qualified_pitcher, stat["value"]
+                    )
                 elif stat["name"] == "successfulChances":
-                    successful_chances = stat["value"]
+                    successful_chances = more_interesting(
+                        successful_chances, stat["value"]
+                    )
                 elif stat["name"] == "totalChances":
-                    total_chances = stat["value"]
+                    total_chances = more_interesting(total_chances, stat["value"])
                 elif stat["name"] == "fullInningsPlayed":
-                    full_innings_played = stat["value"]
+                    full_innings_played = more_interesting(
+                        full_innings_played, stat["value"]
+                    )
                 elif stat["name"] == "partInningsPlayed":
-                    part_innings_played = stat["value"]
+                    part_innings_played = more_interesting(
+                        part_innings_played, stat["value"]
+                    )
                 elif stat["name"] == "fieldingPct":
-                    fielding_percentage = stat["value"]
+                    fielding_percentage = more_interesting(
+                        fielding_percentage, stat["value"]
+                    )
                 elif stat["name"] == "rangeFactor":
-                    range_factor = stat["value"]
+                    range_factor = more_interesting(range_factor, stat["value"])
                 elif stat["name"] == "zoneRating":
-                    zone_rating = stat["value"]
+                    zone_rating = more_interesting(zone_rating, stat["value"])
                 elif stat["name"] == "catcherCaughtStealingPct":
-                    catcher_caught_stealing_percentage = stat["value"]
+                    catcher_caught_stealing_percentage = more_interesting(
+                        catcher_caught_stealing_percentage, stat["value"]
+                    )
                 elif stat["name"] == "catcherERA":
-                    catcher_era = stat["value"]
+                    catcher_era = more_interesting(catcher_era, stat["value"])
                 elif stat["name"] == "defWARBR":
-                    def_warbr = stat["value"]
+                    def_warbr = more_interesting(def_warbr, stat["value"])
+                elif stat["name"] == "blocks":
+                    blocks = more_interesting(blocks, stat["value"])
+                elif stat["name"] == "defensiveRebounds":
+                    defensive_rebounds = more_interesting(
+                        defensive_rebounds, stat["value"]
+                    )
+                elif stat["name"] == "steals":
+                    steals = more_interesting(steals, stat["value"])
+                elif stat["name"] == "turnoverPoints":
+                    turnover_points = more_interesting(turnover_points, stat["value"])
+                elif stat["name"] == "avgDefensiveRebounds":
+                    average_defensive_rebounds = more_interesting(
+                        average_defensive_rebounds, stat["value"]
+                    )
+                elif stat["name"] == "avgBlocks":
+                    average_blocks = more_interesting(average_blocks, stat["value"])
+                elif stat["name"] == "avgSteals":
+                    average_steals = more_interesting(average_steals, stat["value"])
+                elif stat["name"] == "avg48DefensiveRebounds":
+                    average_48_defensive_rebounds = more_interesting(
+                        average_48_defensive_rebounds, stat["value"]
+                    )
+                elif stat["name"] == "avg48Blocks":
+                    average_48_blocks = more_interesting(
+                        average_48_blocks, stat["value"]
+                    )
+                elif stat["name"] == "avg48Steals":
+                    average_48_steals = more_interesting(
+                        average_48_steals, stat["value"]
+                    )
+                elif stat["name"] == "largestLead":
+                    largest_lead = more_interesting(largest_lead, stat["value"])
+                elif stat["name"] == "disqualifications":
+                    disqualifications = more_interesting(
+                        disqualifications, stat["value"]
+                    )
+                elif stat["name"] == "flagrantFouls":
+                    flagrant_fouls = more_interesting(flagrant_fouls, stat["value"])
+                elif stat["name"] == "fouls":
+                    fouls = more_interesting(fouls, stat["value"])
+                elif stat["name"] == "ejections":
+                    ejections = more_interesting(ejections, stat["value"])
+                elif stat["name"] == "technicalFouls":
+                    technical_fouls = more_interesting(technical_fouls, stat["value"])
+                elif stat["name"] == "rebounds":
+                    rebounds = more_interesting(rebounds, stat["value"])
+                elif stat["name"] == "VORP":
+                    vorp = more_interesting(vorp, stat["value"])
+                elif stat["name"] == "avgMinutes":
+                    average_minutes = more_interesting(average_minutes, stat["value"])
+                elif stat["name"] == "NBARating":
+                    nba_rating = more_interesting(nba_rating, stat["value"])
+                elif stat["name"] == "avgRebounds":
+                    average_rebounds = more_interesting(average_rebounds, stat["value"])
+                elif stat["name"] == "avgFouls":
+                    average_fouls = more_interesting(average_fouls, stat["value"])
+                elif stat["name"] == "avgFlagrantFouls":
+                    average_flagrant_fouls = more_interesting(
+                        average_flagrant_fouls, stat["value"]
+                    )
+                elif stat["name"] == "avgTechnicalFouls":
+                    average_technical_fouls = more_interesting(
+                        average_technical_fouls, stat["value"]
+                    )
+                elif stat["name"] == "avgEjections":
+                    average_ejections = more_interesting(
+                        average_ejections, stat["value"]
+                    )
+                elif stat["name"] == "avgDisqualifications":
+                    average_disqualifications = more_interesting(
+                        average_disqualifications, stat["value"]
+                    )
+                elif stat["name"] == "assistTurnoverRatio":
+                    assist_turnover_ratio = more_interesting(
+                        assist_turnover_ratio, stat["value"]
+                    )
+                elif stat["name"] == "stealFoulRatio":
+                    steal_foul_ratio = more_interesting(steal_foul_ratio, stat["value"])
+                elif stat["name"] == "blockFoulRatio":
+                    block_foul_ratio = more_interesting(block_foul_ratio, stat["value"])
+                elif stat["name"] == "avgTeamRebounds":
+                    average_team_rebounds = more_interesting(
+                        average_team_rebounds, stat["value"]
+                    )
+                elif stat["name"] == "totalRebounds":
+                    total_rebounds = more_interesting(total_rebounds, stat["value"])
+                elif stat["name"] == "totalTechnicalFouls":
+                    total_technical_fouls = more_interesting(
+                        total_technical_fouls, stat["value"]
+                    )
+                elif stat["name"] == "teamAssistTurnoverRatio":
+                    team_assist_turnover_ratio = more_interesting(
+                        team_assist_turnover_ratio, stat["value"]
+                    )
+                elif stat["name"] == "stealTurnoverRatio":
+                    steal_turnover_ratio = more_interesting(
+                        steal_turnover_ratio, stat["value"]
+                    )
+                elif stat["name"] == "avg48Rebounds":
+                    average_48_rebounds = more_interesting(
+                        average_48_rebounds, stat["value"]
+                    )
+                elif stat["name"] == "avg48Fouls":
+                    average_48_fouls = more_interesting(average_48_fouls, stat["value"])
+                elif stat["name"] == "avg48FlagrantFouls":
+                    average_48_flagrant_fouls = more_interesting(
+                        average_48_flagrant_fouls, stat["value"]
+                    )
+                elif stat["name"] == "avg48TechnicalFouls":
+                    average_48_technical_fouls = more_interesting(
+                        average_48_technical_fouls, stat["value"]
+                    )
+                elif stat["name"] == "avg48Ejections":
+                    average_48_ejections = more_interesting(
+                        average_48_ejections, stat["value"]
+                    )
+                elif stat["name"] == "avg48Disqualifications":
+                    average_48_disqualifications = more_interesting(
+                        average_48_disqualifications, stat["value"]
+                    )
+                elif stat["name"] == "doubleDouble":
+                    double_double = more_interesting(double_double, stat["value"])
+                elif stat["name"] == "tripleDouble":
+                    triple_double = more_interesting(triple_double, stat["value"])
+                elif stat["name"] == "fieldGoals":
+                    field_goals = more_interesting(field_goals, stat["value"])
+                elif stat["name"] == "fieldGoalsAttempted":
+                    field_goals_attempted = more_interesting(
+                        field_goals_attempted, stat["value"]
+                    )
+                elif stat["name"] == "fieldGoalsMade":
+                    field_goals_made = more_interesting(field_goals_made, stat["value"])
+                elif stat["name"] == "fieldGoalPct":
+                    field_goal_percentage = more_interesting(
+                        field_goal_percentage, stat["value"]
+                    )
+                elif stat["name"] == "freeThrows":
+                    free_throws = more_interesting(free_throws, stat["value"])
+                elif stat["name"] == "freeThrowPct":
+                    free_throw_percentage = more_interesting(
+                        free_throw_percentage, stat["value"]
+                    )
+                elif stat["name"] == "freeThrowsAttempted":
+                    free_throws_attempted = more_interesting(
+                        free_throws_attempted, stat["value"]
+                    )
+                elif stat["name"] == "freeThrowsMade":
+                    free_throws_made = more_interesting(free_throws_made, stat["value"])
+                elif stat["name"] == "offensiveRebounds":
+                    offensive_rebounds = more_interesting(
+                        offensive_rebounds, stat["value"]
+                    )
+                elif stat["name"] == "turnovers":
+                    turnovers = more_interesting(turnovers, stat["value"])
+                elif stat["name"] == "threePointPct":
+                    three_point_percentage = more_interesting(
+                        three_point_percentage, stat["value"]
+                    )
+                elif stat["name"] == "threePointFieldGoalsAttempted":
+                    three_point_field_goals_attempted = more_interesting(
+                        three_point_field_goals_attempted, stat["value"]
+                    )
+                elif stat["name"] == "threePointFieldGoalsMade":
+                    three_point_field_goals_made = more_interesting(
+                        three_point_field_goals_made, stat["value"]
+                    )
+                elif stat["name"] == "teamTurnovers":
+                    team_turnovers = more_interesting(team_turnovers, stat["value"])
+                elif stat["name"] == "totalTurnovers":
+                    total_turnovers = more_interesting(total_turnovers, stat["value"])
+                elif stat["name"] == "pointsInPaint":
+                    points_in_paint = more_interesting(points_in_paint, stat["value"])
+                elif stat["name"] == "brickIndex":
+                    brick_index = more_interesting(brick_index, stat["value"])
+                elif stat["name"] == "fastBreakPoints":
+                    fast_break_points = more_interesting(
+                        fast_break_points, stat["value"]
+                    )
+                elif stat["name"] == "avgFieldGoalsMade":
+                    average_field_goals_made = more_interesting(
+                        average_field_goals_made, stat["value"]
+                    )
+                elif stat["name"] == "avgFieldGoalsAttempted":
+                    average_field_goals_attempted = more_interesting(
+                        average_field_goals_attempted, stat["value"]
+                    )
+                elif stat["name"] == "avgThreePointFieldGoalsMade":
+                    average_three_point_field_goals_made = more_interesting(
+                        average_three_point_field_goals_made, stat["value"]
+                    )
+                elif stat["name"] == "avgThreePointFieldGoalsAttempted":
+                    average_three_point_field_goals_attempted = more_interesting(
+                        average_three_point_field_goals_attempted, stat["value"]
+                    )
+                elif stat["name"] == "avgFreeThrowsMade":
+                    average_free_throws_made = more_interesting(
+                        average_free_throws_made, stat["value"]
+                    )
+                elif stat["name"] == "avgFreeThrowsAttempted":
+                    average_free_throws_attempted = more_interesting(
+                        average_free_throws_attempted, stat["value"]
+                    )
+                elif stat["name"] == "avgPoints":
+                    average_points = more_interesting(average_points, stat["value"])
+                elif stat["name"] == "avgOffensiveRebounds":
+                    average_offensive_rebounds = more_interesting(
+                        average_offensive_rebounds, stat["value"]
+                    )
+                elif stat["name"] == "avgAssists":
+                    average_assists = more_interesting(average_assists, stat["value"])
+                elif stat["name"] == "avgTurnovers":
+                    average_turnovers = more_interesting(
+                        average_turnovers, stat["value"]
+                    )
+                elif stat["name"] == "offensiveReboundPct":
+                    offensive_rebound_percentage = more_interesting(
+                        offensive_rebound_percentage, stat["value"]
+                    )
+                elif stat["name"] == "estimatedPossessions":
+                    estimated_possessions = more_interesting(
+                        estimated_possessions, stat["value"]
+                    )
+                elif stat["name"] == "avgEstimatedPossessions":
+                    average_estimated_possessions = more_interesting(
+                        average_estimated_possessions, stat["value"]
+                    )
+                elif stat["name"] == "pointsPerEstimatedPossessions":
+                    points_per_estimated_possessions = more_interesting(
+                        points_per_estimated_possessions, stat["value"]
+                    )
+                elif stat["name"] == "avgTeamTurnovers":
+                    average_team_turnovers = more_interesting(
+                        average_team_turnovers, stat["value"]
+                    )
+                elif stat["name"] == "avgTotalTurnovers":
+                    average_total_turnovers = more_interesting(
+                        average_total_turnovers, stat["value"]
+                    )
+                elif stat["name"] == "threePointFieldGoalPct":
+                    three_point_field_goal_percentage = more_interesting(
+                        three_point_field_goal_percentage, stat["value"]
+                    )
+                elif stat["name"] == "twoPointFieldGoalsMade":
+                    two_point_field_goals_made = more_interesting(
+                        two_point_field_goals_made, stat["value"]
+                    )
+                elif stat["name"] == "twoPointFieldGoalsAttempted":
+                    two_point_field_goals_attempted = more_interesting(
+                        two_point_field_goals_attempted, stat["value"]
+                    )
+                elif stat["name"] == "avgTwoPointFieldGoalsMade":
+                    average_two_point_field_goals_made = more_interesting(
+                        average_two_point_field_goals_made, stat["value"]
+                    )
+                elif stat["name"] == "avgTwoPointFieldGoalsAttempted":
+                    average_two_point_field_goals_attempted = more_interesting(
+                        average_two_point_field_goals_attempted, stat["value"]
+                    )
+                elif stat["name"] == "twoPointFieldGoalPct":
+                    two_point_field_goal_percentage = more_interesting(
+                        two_point_field_goal_percentage, stat["value"]
+                    )
+                elif stat["name"] == "shootingEfficiency":
+                    shooting_efficiency = more_interesting(
+                        shooting_efficiency, stat["value"]
+                    )
+                elif stat["name"] == "scoringEfficiency":
+                    scoring_efficiency = more_interesting(
+                        scoring_efficiency, stat["value"]
+                    )
+                elif stat["name"] == "avg48FieldGoalsMade":
+                    average_48_field_goals_made = more_interesting(
+                        average_48_field_goals_made, stat["value"]
+                    )
+                elif stat["name"] == "avg48FieldGoalsAttempted":
+                    average_48_field_goals_attempted = more_interesting(
+                        average_48_field_goals_attempted, stat["value"]
+                    )
+                elif stat["name"] == "avg48ThreePointFieldGoalsMade":
+                    average_48_three_point_field_goals_made = more_interesting(
+                        average_48_three_point_field_goals_made, stat["value"]
+                    )
+                elif stat["name"] == "avg48ThreePointFieldGoalsAttempted":
+                    average_48_three_point_field_goals_attempted = more_interesting(
+                        average_48_three_point_field_goals_attempted, stat["value"]
+                    )
+                elif stat["name"] == "avg48FreeThrowsMade":
+                    average_48_free_throws_made = more_interesting(
+                        average_48_free_throws_made, stat["value"]
+                    )
+                elif stat["name"] == "avg48FreeThrowsAttempted":
+                    average_48_free_throws_attempted = more_interesting(
+                        average_48_free_throws_attempted, stat["value"]
+                    )
+                elif stat["name"] == "avg48Points":
+                    average_48_points = more_interesting(
+                        average_48_points, stat["value"]
+                    )
+                elif stat["name"] == "avg48OffensiveRebounds":
+                    average_48_offensive_rebounds = more_interesting(
+                        average_48_offensive_rebounds, stat["value"]
+                    )
+                elif stat["name"] == "avg48Assists":
+                    average_48_assists = more_interesting(
+                        average_48_assists, stat["value"]
+                    )
+                elif stat["name"] == "avg48Turnovers":
+                    average_48_turnovers = more_interesting(
+                        average_48_turnovers, stat["value"]
+                    )
 
     return TeamModel(
         identifier=identifier,
@@ -876,7 +1484,7 @@ def _create_espn_team_model(
         ladder_rank=None,
         news=create_google_news_models(name, session, dt, league),
         social=create_x_social_model(identifier, session, dt),
-        field_goals=None,
+        field_goals=field_goals,
         coaches=[create_espn_coach_model(session, dt, x) for x in coaches_urls],
         lbw=None,
         end_dt=None,
@@ -919,7 +1527,7 @@ def _create_espn_team_model(
         clearances=total_clearances,
         centre_clearances=centre_clearances,
         stoppage_clearances=stoppage_clearances,
-        rebounds=rebound_50s,
+        rebounds=rebounds,
         goal_assists=goal_assists,
         goal_accuracy=goal_accuracy,
         rushed_behinds=rushed_behinds,
@@ -1156,6 +1764,98 @@ def _create_espn_team_model(
         catcher_era=catcher_era,
         def_warbr=def_warbr,
         average_game_score=average_game_score,
+        blocks=blocks,
+        defensive_rebounds=defensive_rebounds,
+        steals=steals,
+        turnover_points=turnover_points,
+        average_defensive_rebounds=average_defensive_rebounds,
+        average_blocks=average_blocks,
+        average_steals=average_steals,
+        average_48_defensive_rebounds=average_48_defensive_rebounds,
+        average_48_blocks=average_48_blocks,
+        average_48_steals=average_48_steals,
+        largest_lead=largest_lead,
+        disqualifications=disqualifications,
+        flagrant_fouls=flagrant_fouls,
+        fouls=fouls,
+        ejections=ejections,
+        technical_fouls=technical_fouls,
+        vorp=vorp,
+        average_minutes=average_minutes,
+        nba_rating=nba_rating,
+        average_rebounds=average_rebounds,
+        average_fouls=average_fouls,
+        average_flagrant_fouls=average_flagrant_fouls,
+        average_technical_fouls=average_technical_fouls,
+        average_ejections=average_ejections,
+        average_disqualifications=average_disqualifications,
+        assist_turnover_ratio=assist_turnover_ratio,
+        steal_foul_ratio=steal_foul_ratio,
+        block_foul_ratio=block_foul_ratio,
+        average_team_rebounds=average_team_rebounds,
+        total_rebounds=total_rebounds,
+        total_technical_fouls=total_technical_fouls,
+        team_assist_turnover_ratio=team_assist_turnover_ratio,
+        steal_turnover_ratio=steal_turnover_ratio,
+        average_48_rebounds=average_48_rebounds,
+        average_48_fouls=average_48_fouls,
+        average_48_flagrant_fouls=average_48_flagrant_fouls,
+        average_48_technical_fouls=average_48_technical_fouls,
+        average_48_ejections=average_48_ejections,
+        average_48_disqualifications=average_48_disqualifications,
+        double_double=double_double,
+        triple_double=triple_double,
+        field_goals_attempted=field_goals_attempted,
+        field_goals_made=field_goals_made,
+        field_goals_percentage=field_goal_percentage,
+        free_throws=free_throws,
+        free_throws_percentage=free_throw_percentage,
+        free_throws_attempted=free_throws_attempted,
+        free_throws_made=free_throws_made,
+        offensive_rebounds=offensive_rebounds,
+        turnovers=turnovers,
+        three_point_percentage=three_point_percentage,
+        three_point_field_goals_attempted=three_point_field_goals_attempted,
+        three_point_field_goals_made=three_point_field_goals_made,
+        team_turnovers=team_turnovers,
+        total_turnovers=total_turnovers,
+        points_in_paint=points_in_paint,
+        brick_index=brick_index,
+        fast_break_points=fast_break_points,
+        average_field_goals_made=average_field_goals_made,
+        average_field_goals_attempted=average_field_goals_attempted,
+        average_three_point_field_goals_made=average_three_point_field_goals_made,
+        average_three_point_field_goals_attempted=average_three_point_field_goals_attempted,
+        average_free_throws_made=average_free_throws_made,
+        average_free_throws_attempted=average_free_throws_attempted,
+        average_points=average_points,
+        average_offensive_rebounds=average_offensive_rebounds,
+        average_assists=average_assists,
+        average_turnovers=average_turnovers,
+        offensive_rebound_percentage=offensive_rebound_percentage,
+        estimated_possessions=estimated_possessions,
+        average_estimated_possessions=average_estimated_possessions,
+        points_per_estimated_possessions=points_per_estimated_possessions,
+        average_team_turnovers=average_team_turnovers,
+        average_total_turnovers=average_total_turnovers,
+        three_point_field_goals_percentage=three_point_field_goal_percentage,
+        two_point_field_goals_made=two_point_field_goals_made,
+        two_point_field_goals_attempted=two_point_field_goals_attempted,
+        average_two_point_field_goals_made=average_two_point_field_goals_made,
+        average_two_point_field_goals_attempted=average_two_point_field_goals_attempted,
+        two_point_field_goal_percentage=two_point_field_goal_percentage,
+        shooting_efficiency=shooting_efficiency,
+        scoring_efficiency=scoring_efficiency,
+        average_48_field_goals_made=average_48_field_goals_made,
+        average_48_field_goals_attempted=average_48_field_goals_attempted,
+        average_48_three_point_field_goals_made=average_48_three_point_field_goals_made,
+        average_48_three_point_field_goals_attempted=average_48_three_point_field_goals_attempted,
+        average_48_free_throws_made=average_48_free_throws_made,
+        average_48_free_throws_attempted=average_48_free_throws_attempted,
+        average_48_points=average_48_points,
+        average_48_offensive_rebounds=average_48_offensive_rebounds,
+        average_48_assists=average_48_assists,
+        average_48_turnovers=average_48_turnovers,
     )
 
 

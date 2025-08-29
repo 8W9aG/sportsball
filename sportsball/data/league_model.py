@@ -141,10 +141,7 @@ def _print_memory_usage(df: pd.DataFrame) -> None:
     mem_usage = df.memory_usage(deep=True, index=False)
     summary = pd.DataFrame({"dtype": df.dtypes, "memory_usage_bytes": mem_usage})
     summary["memory_usage_MB"] = summary["memory_usage_bytes"] / (1024**2)
-
-    # Sort by memory usage, descending
     summary_sorted = summary.sort_values("memory_usage_bytes", ascending=False)
-
     logging.info(summary_sorted.head(50))
 
 

@@ -440,6 +440,169 @@ TEAM_PLATE_APPEARANCES_COLUMN: Literal["plate_appearances"] = "plate_appearances
 TEAM_PROJECTED_HOME_RUNS_COLUMN: Literal["projected_home_runs"] = "projected_home_runs"
 TEAM_EXTRA_BASE_HITS_COLUMN: Literal["extra_base_hits"] = "extra_base_hits"
 TEAM_AVERAGE_GAME_SCORE_COLUMN: Literal["average_game_score"] = "average_game_score"
+TEAM_AVERAGE_FIELD_GOALS_ATTEMPTED_COLUMN: Literal["average_field_goals_attempted"] = (
+    "average_field_goals_attempted"
+)
+TEAM_AVERAGE_THREE_POINT_FIELD_GOALS_MADE_COLUMN: Literal[
+    "average_three_point_field_goals_made"
+] = "average_three_point_field_goals_made"
+TEAM_AVERAGE_THREE_POINT_FIELD_GOALS_ATTEMPTED_COLUMN: Literal[
+    "average_three_point_field_goals_attempted"
+] = "average_three_point_field_goals_attempted"
+TEAM_AVERAGE_FREE_THROWS_MADE_COLUMN: Literal["average_free_throws_made"] = (
+    "average_free_throws_made"
+)
+TEAM_AVERAGE_FREE_THROWS_ATTEMPTED_COLUMN: Literal["average_free_throws_attempted"] = (
+    "average_free_throws_attempted"
+)
+TEAM_AVERAGE_POINTS_COLUMN: Literal["average_points"] = "average_points"
+TEAM_AVERAGE_OFFENSIVE_REBOUNDS_COLUMN: Literal["average_offensive_rebounds"] = (
+    "average_offensive_rebounds"
+)
+TEAM_AVERAGE_ASSISTS_COLUMN: Literal["average_assists"] = "average_assists"
+TEAM_AVERAGE_TURNOVERS_COLUMN: Literal["average_turnovers"] = "average_turnovers"
+TEAM_OFFENSIVE_REBOUND_PERCENTAGE_COLUMN: Literal["offensive_rebound_percentage"] = (
+    "offensive_rebound_percentage"
+)
+TEAM_ESTIMATED_POSSESSIONS_COLUMN: Literal["estimated_possessions"] = (
+    "estimated_possessions"
+)
+TEAM_AVERAGE_ESTIMATED_POSSESSIONS_COLUMN: Literal["average_estimated_possessions"] = (
+    "average_estimated_possessions"
+)
+TEAM_POINTS_PER_ESTIMATED_POSSESSIONS_COLUMN: Literal[
+    "points_per_estimated_possessions"
+] = "points_per_estimated_possessions"
+TEAM_AVERAGE_TEAM_TURNOVERS_COLUMN: Literal["average_team_turnovers"] = (
+    "average_team_turnovers"
+)
+TEAM_AVERAGE_TOTAL_TURNOVERS_COLUMN: Literal["average_total_turnovers"] = (
+    "average_total_turnovers"
+)
+TEAM_TWO_POINT_FIELD_GOALS_MADE_COLUMN: Literal["two_point_field_goals_made"] = (
+    "two_point_field_goals_made"
+)
+TEAM_TWO_POINT_FIELD_GOALS_ATTEMPTED_COLUMN: Literal[
+    "two_point_field_goals_attempted"
+] = "two_point_field_goals_attempted"
+TEAM_AVERAGE_TWO_POINT_FIELD_GOALS_MADE_COLUMN: Literal[
+    "average_two_point_field_goals_made"
+] = "average_two_point_field_goals_made"
+TEAM_AVERAGE_TWO_POINT_FIELD_GOALS_ATTEMPTED_COLUMN: Literal[
+    "average_two_point_field_goals_attempted"
+] = "average_two_point_field_goals_attempted"
+TEAM_TWO_POINT_FIELD_GOAL_PERCENTAGE_COLUMN: Literal[
+    "two_point_field_goal_percentage"
+] = "two_point_field_goal_percentage"
+TEAM_SHOOTING_EFFICIENCY_COLUMN: Literal["shooting_efficiency"] = "shooting_efficiency"
+TEAM_SCORING_EFFICIENCY_COLUMN: Literal["scoring_efficiency"] = "scoring_efficiency"
+TEAM_AVERAGE_48_FIELD_GOALS_MADE_COLUMN: Literal["average_48_field_goals_made"] = (
+    "average_48_field_goals_made"
+)
+TEAM_AVERAGE_48_FIELD_GOALS_ATTEMPTED_COLUMN: Literal[
+    "average_48_field_goals_attempted"
+] = "average_48_field_goals_attempted"
+TEAM_AVERAGE_48_THREE_POINT_FIELD_GOALS_MADE_COLUMN: Literal[
+    "average_48_three_point_field_goals_made"
+] = "average_48_three_point_field_goals_made"
+TEAM_AVERAGE_48_THREE_POINT_FIELD_GOALS_ATTEMPTED_COLUMN: Literal[
+    "average_48_three_point_field_goals_attempted"
+] = "average_48_three_point_field_goals_attempted"
+TEAM_AVERAGE_48_FREE_THROWS_MADE_COLUMN: Literal["average_48_free_throws_made"] = (
+    "average_48_free_throws_made"
+)
+TEAM_AVERAGE_48_FREE_THROWS_ATTEMPTED_COLUMN: Literal[
+    "average_48_free_throws_attempted"
+] = "average_48_free_throws_attempted"
+TEAM_AVERAGE_48_POINTS_COLUMN: Literal["average_48_points"] = "average_48_points"
+TEAM_AVERAGE_48_OFFENSIVE_REBOUNDS_COLUMN: Literal["average_48_offensive_rebounds"] = (
+    "average_48_offensive_rebounds"
+)
+TEAM_AVERAGE_48_ASSISTS_COLUMN: Literal["average_48_assists"] = "average_48_assists"
+TEAM_AVERAGE_48_TURNOVERS_COLUMN: Literal["average_48_turnovers"] = (
+    "average_48_turnovers"
+)
+TEAM_AVERAGE_REBOUNDS_COLUMN: Literal["average_rebounds"] = "average_rebounds"
+TEAM_AVERAGE_FOULS_COLUMN: Literal["average_fouls"] = "average_fouls"
+TEAM_AVERAGE_FLAGRANT_FOULS_COLUMN: Literal["average_flagrant_fouls"] = (
+    "average_flagrant_fouls"
+)
+TEAM_AVERAGE_TECHNICAL_FOULS_COLUMN: Literal["average_technical_fouls"] = (
+    "average_technical_fouls"
+)
+TEAM_AVERAGE_EJECTIONS_COLUMN: Literal["average_ejections"] = "average_ejections"
+TEAM_AVERAGE_DISQUALIFICATIONS_COLUMN: Literal["average_disqualifications"] = (
+    "average_disqualifications"
+)
+TEAM_ASSIST_TURNOVER_RATIO_COLUMN: Literal["assist_turnover_ratio"] = (
+    "assist_turnover_ratio"
+)
+TEAM_STEAL_FOUL_RATIO_COLUMN: Literal["steal_foul_ratio"] = "steal_foul_ratio"
+TEAM_BLOCK_FOUL_RATIO_COLUMN: Literal["block_foul_ratio"] = "block_foul_ratio"
+TEAM_AVERAGE_TEAM_REBOUNDS_COLUMN: Literal["average_team_rebounds"] = (
+    "average_team_rebounds"
+)
+TEAM_TOTAL_TECHNICAL_FOULS_COLUMN: Literal["total_technical_fouls"] = (
+    "total_technical_fouls"
+)
+TEAM_TEAM_ASSIST_TURNOVER_RATIO_COLUMN: Literal["team_assist_turnover_ratio"] = (
+    "team_assist_turnover_ratio"
+)
+TEAM_STEAL_TURNOVER_RATIO_COLUMN: Literal["steal_turnover_ratio"] = (
+    "steal_turnover_ratio"
+)
+TEAM_AVERAGE_48_REBOUNDS_COLUMN: Literal["average_48_rebounds"] = "average_48_rebounds"
+TEAM_AVERAGE_48_FOULS_COLUMN: Literal["average_48_fouls"] = "average_48_fouls"
+TEAM_AVERAGE_48_FLAGRANT_FOULS_COLUMN: Literal["average_48_flagrant_fouls"] = (
+    "average_48_flagrant_fouls"
+)
+TEAM_AVERAGE_48_TECHNICAL_FOULS_COLUMN: Literal["average_48_technical_fouls"] = (
+    "average_48_technical_fouls"
+)
+TEAM_AVERAGE_48_EJECTIONS_COLUMN: Literal["average_48_ejections"] = (
+    "average_48_ejections"
+)
+TEAM_AVERAGE_48_DISQUALIFICATIONS_COLUMN: Literal["average_48_disqualifications"] = (
+    "average_48_disqualifications"
+)
+TEAM_DOUBLE_DOUBLE_COLUMN: Literal["double_double"] = "double_double"
+TEAM_TRIPLE_DOUBLE_COLUMN: Literal["triple_double"] = "triple_double"
+TEAM_FIELD_GOALS_MADE_COLUMN: Literal["field_goals_made"] = "field_goals_made"
+TEAM_FREE_THROWS_MADE_COLUMN: Literal["free_throws_made"] = "free_throws_made"
+TEAM_THREE_POINT_PERCENTAGE_COLUMN: Literal["three_point_percentage"] = (
+    "three_point_percentage"
+)
+TEAM_THREE_POINT_FIELD_GOALS_MADE_COLUMN: Literal["three_point_field_goals_made"] = (
+    "three_point_field_goals_made"
+)
+TEAM_TEAM_TURNOVERS_COLUMN: Literal["team_turnovers"] = "team_turnovers"
+TEAM_TOTAL_TURNOVERS_COLUMN: Literal["total_turnovers"] = "total_turnovers"
+TEAM_POINTS_IN_PAINT_COLUMN: Literal["points_in_paint"] = "points_in_paint"
+TEAM_BRICK_INDEX_COLUMN: Literal["brick_index"] = "brick_index"
+TEAM_FAST_BREAK_POINTS_COLUMN: Literal["fast_break_points"] = "fast_break_points"
+TEAM_AVERAGE_FIELD_GOALS_MADE_COLUMN: Literal["average_field_goals_made"] = (
+    "average_field_goals_made"
+)
+TEAM_TURNOVER_POINTS_COLUMN: Literal["turnover_points"] = "turnover_points"
+TEAM_AVERAGE_DEFENSIVE_REBOUNDS_COLUMN: Literal["average_defensive_rebounds"] = (
+    "average_defensive_rebounds"
+)
+TEAM_AVERAGE_BLOCKS_COLUMN: Literal["average_blocks"] = "average_blocks"
+TEAM_AVERAGE_STEALS_COLUMN: Literal["average_steals"] = "average_steals"
+TEAM_AVERAGE_48_DEFENSIVE_REBOUNDS_COLUMN: Literal["average_48_defensive_rebounds"] = (
+    "average_48_defensive_rebounds"
+)
+TEAM_AVERAGE_48_BLOCKS_COLUMN: Literal["average_48_blocks"] = "average_48_blocks"
+TEAM_AVERAGE_48_STEALS_COLUMN: Literal["average_48_steals"] = "average_48_steals"
+TEAM_LARGEST_LEAD_COLUMN: Literal["largest_lead"] = "largest_lead"
+TEAM_DISQUALIFICATIONS_COLUMN: Literal["disqualifications"] = "disqualifications"
+TEAM_FLAGRANT_FOULS_COLUMN: Literal["flagrant_fouls"] = "flagrant_fouls"
+TEAM_FOULS_COLUMN: Literal["fouls"] = "fouls"
+TEAM_EJECTIONS_COLUMN: Literal["ejections"] = "ejections"
+TEAM_TECHNICAL_FOULS_COLUMN: Literal["technical_fouls"] = "technical_fouls"
+TEAM_VORP_COLUMN: Literal["vorp"] = "vorp"
+TEAM_AVERAGE_MINUTES_COLUMN: Literal["average_minutes"] = "average_minutes"
+TEAM_NBA_RATING_COLUMN: Literal["nba_rating"] = "nba_rating"
 VERSION = DELIMITER.join(["0.0.4", PLAYER_VERSION, COACH_VERSION])
 
 
@@ -2532,5 +2695,400 @@ class TeamModel(BaseModel):
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_AVERAGE_GAME_SCORE_COLUMN,
+    )
+    average_field_goals_attempted: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_FIELD_GOALS_ATTEMPTED_COLUMN,
+    )
+    average_three_point_field_goals_made: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_THREE_POINT_FIELD_GOALS_MADE_COLUMN,
+    )
+    average_three_point_field_goals_attempted: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_THREE_POINT_FIELD_GOALS_ATTEMPTED_COLUMN,
+    )
+    average_free_throws_made: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_FREE_THROWS_MADE_COLUMN,
+    )
+    average_free_throws_attempted: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_FREE_THROWS_ATTEMPTED_COLUMN,
+    )
+    average_points: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_POINTS_COLUMN,
+    )
+    average_offensive_rebounds: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_OFFENSIVE_REBOUNDS_COLUMN,
+    )
+    average_assists: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_ASSISTS_COLUMN,
+    )
+    average_turnovers: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_TURNOVERS_COLUMN,
+    )
+    offensive_rebound_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_OFFENSIVE_REBOUND_PERCENTAGE_COLUMN,
+    )
+    estimated_possessions: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_ESTIMATED_POSSESSIONS_COLUMN,
+    )
+    average_estimated_possessions: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_ESTIMATED_POSSESSIONS_COLUMN,
+    )
+    points_per_estimated_possessions: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_POINTS_PER_ESTIMATED_POSSESSIONS_COLUMN,
+    )
+    average_team_turnovers: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_TEAM_TURNOVERS_COLUMN,
+    )
+    average_total_turnovers: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_TOTAL_TURNOVERS_COLUMN,
+    )
+    two_point_field_goals_made: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_TWO_POINT_FIELD_GOALS_MADE_COLUMN,
+    )
+    two_point_field_goals_attempted: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_TWO_POINT_FIELD_GOALS_ATTEMPTED_COLUMN,
+    )
+    average_two_point_field_goals_made: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_TWO_POINT_FIELD_GOALS_MADE_COLUMN,
+    )
+    average_two_point_field_goals_attempted: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_TWO_POINT_FIELD_GOALS_ATTEMPTED_COLUMN,
+    )
+    two_point_field_goal_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_TWO_POINT_FIELD_GOAL_PERCENTAGE_COLUMN,
+    )
+    shooting_efficiency: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_SHOOTING_EFFICIENCY_COLUMN,
+    )
+    scoring_efficiency: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_SCORING_EFFICIENCY_COLUMN,
+    )
+    average_48_field_goals_made: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_48_FIELD_GOALS_MADE_COLUMN,
+    )
+    average_48_field_goals_attempted: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_48_FIELD_GOALS_ATTEMPTED_COLUMN,
+    )
+    average_48_three_point_field_goals_made: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_48_THREE_POINT_FIELD_GOALS_MADE_COLUMN,
+    )
+    average_48_three_point_field_goals_attempted: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_48_THREE_POINT_FIELD_GOALS_ATTEMPTED_COLUMN,
+    )
+    average_48_free_throws_made: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_48_FREE_THROWS_MADE_COLUMN,
+    )
+    average_48_free_throws_attempted: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_48_FREE_THROWS_ATTEMPTED_COLUMN,
+    )
+    average_48_points: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_48_POINTS_COLUMN,
+    )
+    average_48_offensive_rebounds: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_48_OFFENSIVE_REBOUNDS_COLUMN,
+    )
+    average_48_assists: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_48_ASSISTS_COLUMN,
+    )
+    average_48_turnovers: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_48_TURNOVERS_COLUMN,
+    )
+    average_rebounds: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_REBOUNDS_COLUMN,
+    )
+    average_fouls: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_FOULS_COLUMN,
+    )
+    average_flagrant_fouls: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_FLAGRANT_FOULS_COLUMN,
+    )
+    average_technical_fouls: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_TECHNICAL_FOULS_COLUMN,
+    )
+    average_ejections: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_EJECTIONS_COLUMN,
+    )
+    average_disqualifications: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_DISQUALIFICATIONS_COLUMN,
+    )
+    assist_turnover_ratio: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_ASSIST_TURNOVER_RATIO_COLUMN,
+    )
+    steal_foul_ratio: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_STEAL_FOUL_RATIO_COLUMN,
+    )
+    block_foul_ratio: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_BLOCK_FOUL_RATIO_COLUMN,
+    )
+    average_team_rebounds: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_TEAM_REBOUNDS_COLUMN,
+    )
+    total_technical_fouls: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_TOTAL_TECHNICAL_FOULS_COLUMN,
+    )
+    team_assist_turnover_ratio: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_TEAM_ASSIST_TURNOVER_RATIO_COLUMN,
+    )
+    steal_turnover_ratio: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_STEAL_TURNOVER_RATIO_COLUMN,
+    )
+    average_48_rebounds: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_48_REBOUNDS_COLUMN,
+    )
+    average_48_fouls: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_48_FOULS_COLUMN,
+    )
+    average_48_flagrant_fouls: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_48_FLAGRANT_FOULS_COLUMN,
+    )
+    average_48_technical_fouls: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_48_TECHNICAL_FOULS_COLUMN,
+    )
+    average_48_ejections: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_48_EJECTIONS_COLUMN,
+    )
+    average_48_disqualifications: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_48_DISQUALIFICATIONS_COLUMN,
+    )
+    double_double: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_DOUBLE_DOUBLE_COLUMN,
+    )
+    triple_double: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_TRIPLE_DOUBLE_COLUMN,
+    )
+    field_goals_made: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_FIELD_GOALS_MADE_COLUMN,
+    )
+    free_throws_made: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_FREE_THROWS_MADE_COLUMN,
+    )
+    three_point_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_THREE_POINT_PERCENTAGE_COLUMN,
+    )
+    three_point_field_goals_made: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_THREE_POINT_FIELD_GOALS_MADE_COLUMN,
+    )
+    team_turnovers: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_TEAM_TURNOVERS_COLUMN,
+    )
+    total_turnovers: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_TOTAL_TURNOVERS_COLUMN,
+    )
+    points_in_paint: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_POINTS_IN_PAINT_COLUMN,
+    )
+    brick_index: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_BRICK_INDEX_COLUMN,
+    )
+    fast_break_points: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_FAST_BREAK_POINTS_COLUMN,
+    )
+    average_field_goals_made: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_FIELD_GOALS_MADE_COLUMN,
+    )
+    turnover_points: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_TURNOVER_POINTS_COLUMN,
+    )
+    average_defensive_rebounds: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_DEFENSIVE_REBOUNDS_COLUMN,
+    )
+    average_blocks: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_BLOCKS_COLUMN,
+    )
+    average_steals: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_STEALS_COLUMN,
+    )
+    average_48_defensive_rebounds: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_48_DEFENSIVE_REBOUNDS_COLUMN,
+    )
+    average_48_blocks: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_48_BLOCKS_COLUMN,
+    )
+    average_48_steals: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_48_STEALS_COLUMN,
+    )
+    largest_lead: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_LARGEST_LEAD_COLUMN,
+    )
+    disqualifications: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_DISQUALIFICATIONS_COLUMN,
+    )
+    flagrant_fouls: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_FLAGRANT_FOULS_COLUMN,
+    )
+    fouls: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_FOULS_COLUMN,
+    )
+    ejections: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_EJECTIONS_COLUMN,
+    )
+    technical_fouls: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_TECHNICAL_FOULS_COLUMN,
+    )
+    vorp: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_VORP_COLUMN,
+    )
+    average_minutes: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_AVERAGE_MINUTES_COLUMN,
+    )
+    nba_rating: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_NBA_RATING_COLUMN,
     )
     version: str = Field(..., json_schema_extra={TYPE_KEY: FieldType.CATEGORICAL})

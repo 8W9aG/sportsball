@@ -305,6 +305,85 @@ def create_combined_team_model(
     projected_home_runs = None
     extra_base_hits = None
     average_game_score = None
+    average_field_goals_attempted = None
+    average_three_point_field_goals_made = None
+    average_three_point_field_goals_attempted = None
+    average_free_throws_made = None
+    average_free_throws_attempted = None
+    average_points = None
+    average_offensive_rebounds = None
+    average_assists = None
+    average_turnovers = None
+    offensive_rebound_percentage = None
+    estimated_possessions = None
+    average_estimated_possessions = None
+    points_per_estimated_possessions = None
+    average_team_turnovers = None
+    average_total_turnovers = None
+    two_point_field_goals_made = None
+    two_point_field_goals_attempted = None
+    average_two_point_field_goals_made = None
+    average_two_point_field_goals_attempted = None
+    two_point_field_goal_percentage = None
+    shooting_efficiency = None
+    scoring_efficiency = None
+    average_48_field_goals_made = None
+    average_48_field_goals_attempted = None
+    average_48_three_point_field_goals_made = None
+    average_48_three_point_field_goals_attempted = None
+    average_48_free_throws_made = None
+    average_48_free_throws_attempted = None
+    average_48_points = None
+    average_48_offensive_rebounds = None
+    average_48_assists = None
+    average_48_turnovers = None
+    average_rebounds = None
+    average_fouls = None
+    average_flagrant_fouls = None
+    average_technical_fouls = None
+    average_ejections = None
+    average_disqualifications = None
+    assist_turnover_ratio = None
+    steal_foul_ratio = None
+    block_foul_ratio = None
+    average_team_rebounds = None
+    total_technical_fouls = None
+    team_assist_turnover_ratio = None
+    steal_turnover_ratio = None
+    average_48_rebounds = None
+    average_48_fouls = None
+    average_48_flagrant_fouls = None
+    average_48_technical_fouls = None
+    average_48_ejections = None
+    average_48_disqualifications = None
+    double_double = None
+    triple_double = None
+    field_goals_made = None
+    free_throws_made = None
+    three_point_percentage = None
+    three_point_field_goals_made = None
+    team_turnovers = None
+    total_turnovers = None
+    points_in_paint = None
+    brick_index = None
+    fast_break_points = None
+    average_field_goals_made = None
+    turnover_points = None
+    average_defensive_rebounds = None
+    average_blocks = None
+    average_steals = None
+    average_48_defensive_rebounds = None
+    average_48_blocks = None
+    average_48_steals = None
+    largest_lead = None
+    disqualifications = None
+    flagrant_fouls = None
+    fouls = None
+    ejections = None
+    technical_fouls = None
+    vorp = None
+    average_minutes = None
+    nba_rating = None
     for team_model in team_models:
         location = more_interesting(location, team_model.location)
         for player_model in team_model.players:
@@ -819,6 +898,212 @@ def create_combined_team_model(
         average_game_score = more_interesting(
             average_game_score, team_model.average_game_score
         )
+        average_field_goals_attempted = more_interesting(
+            average_field_goals_attempted, team_model.average_field_goals_attempted
+        )
+        average_three_point_field_goals_made = more_interesting(
+            average_three_point_field_goals_made,
+            team_model.average_three_point_field_goals_made,
+        )
+        average_three_point_field_goals_attempted = more_interesting(
+            average_three_point_field_goals_attempted,
+            team_model.average_three_point_field_goals_attempted,
+        )
+        average_free_throws_made = more_interesting(
+            average_free_throws_made, team_model.average_free_throws_made
+        )
+        average_free_throws_attempted = more_interesting(
+            average_free_throws_attempted, team_model.average_free_throws_attempted
+        )
+        average_points = more_interesting(average_points, team_model.average_points)
+        average_offensive_rebounds = more_interesting(
+            average_offensive_rebounds, team_model.average_offensive_rebounds
+        )
+        average_assists = more_interesting(average_assists, team_model.average_assists)
+        average_turnovers = more_interesting(
+            average_turnovers, team_model.average_turnovers
+        )
+        offensive_rebound_percentage = more_interesting(
+            offensive_rebound_percentage, team_model.offensive_rebound_percentage
+        )
+        estimated_possessions = more_interesting(
+            estimated_possessions, team_model.estimated_possessions
+        )
+        average_estimated_possessions = more_interesting(
+            average_estimated_possessions, team_model.average_estimated_possessions
+        )
+        points_per_estimated_possessions = more_interesting(
+            points_per_estimated_possessions,
+            team_model.points_per_estimated_possessions,
+        )
+        average_team_turnovers = more_interesting(
+            average_team_turnovers, team_model.average_team_turnovers
+        )
+        average_total_turnovers = more_interesting(
+            average_total_turnovers, team_model.average_total_turnovers
+        )
+        two_point_field_goals_made = more_interesting(
+            two_point_field_goals_made, team_model.two_point_field_goals_made
+        )
+        two_point_field_goals_attempted = more_interesting(
+            two_point_field_goals_attempted, team_model.two_point_field_goals_attempted
+        )
+        average_two_point_field_goals_made = more_interesting(
+            average_two_point_field_goals_made,
+            team_model.average_two_point_field_goals_made,
+        )
+        average_two_point_field_goals_attempted = more_interesting(
+            average_two_point_field_goals_attempted,
+            team_model.average_two_point_field_goals_attempted,
+        )
+        two_point_field_goal_percentage = more_interesting(
+            two_point_field_goal_percentage, team_model.two_point_field_goal_percentage
+        )
+        shooting_efficiency = more_interesting(
+            shooting_efficiency, team_model.shooting_efficiency
+        )
+        scoring_efficiency = more_interesting(
+            scoring_efficiency, team_model.scoring_efficiency
+        )
+        average_48_field_goals_made = more_interesting(
+            average_48_field_goals_made, team_model.average_48_field_goals_made
+        )
+        average_48_field_goals_attempted = more_interesting(
+            average_48_field_goals_attempted,
+            team_model.average_48_field_goals_attempted,
+        )
+        average_48_three_point_field_goals_made = more_interesting(
+            average_48_three_point_field_goals_made,
+            team_model.average_48_three_point_field_goals_made,
+        )
+        average_48_three_point_field_goals_attempted = more_interesting(
+            average_48_three_point_field_goals_attempted,
+            team_model.average_48_three_point_field_goals_attempted,
+        )
+        average_48_free_throws_made = more_interesting(
+            average_48_free_throws_made, team_model.average_48_free_throws_made
+        )
+        average_48_free_throws_attempted = more_interesting(
+            average_48_free_throws_attempted,
+            team_model.average_48_free_throws_attempted,
+        )
+        average_48_points = more_interesting(
+            average_48_points, team_model.average_48_points
+        )
+        average_48_offensive_rebounds = more_interesting(
+            average_48_offensive_rebounds, team_model.average_48_offensive_rebounds
+        )
+        average_48_assists = more_interesting(
+            average_48_assists, team_model.average_48_assists
+        )
+        average_48_turnovers = more_interesting(
+            average_48_turnovers, team_model.average_48_turnovers
+        )
+        average_rebounds = more_interesting(
+            average_rebounds, team_model.average_rebounds
+        )
+        average_fouls = more_interesting(average_fouls, team_model.average_fouls)
+        average_flagrant_fouls = more_interesting(
+            average_flagrant_fouls, team_model.average_flagrant_fouls
+        )
+        average_technical_fouls = more_interesting(
+            average_technical_fouls, team_model.average_technical_fouls
+        )
+        average_ejections = more_interesting(
+            average_ejections, team_model.average_ejections
+        )
+        average_disqualifications = more_interesting(
+            average_disqualifications, team_model.average_disqualifications
+        )
+        assist_turnover_ratio = more_interesting(
+            assist_turnover_ratio, team_model.assist_turnover_ratio
+        )
+        steal_foul_ratio = more_interesting(
+            steal_foul_ratio, team_model.steal_foul_ratio
+        )
+        block_foul_ratio = more_interesting(
+            block_foul_ratio, team_model.block_foul_ratio
+        )
+        average_team_rebounds = more_interesting(
+            average_team_rebounds, team_model.average_team_rebounds
+        )
+        total_technical_fouls = more_interesting(
+            total_technical_fouls, team_model.total_technical_fouls
+        )
+        team_assist_turnover_ratio = more_interesting(
+            team_assist_turnover_ratio, team_model.team_assist_turnover_ratio
+        )
+        steal_turnover_ratio = more_interesting(
+            steal_turnover_ratio, team_model.steal_turnover_ratio
+        )
+        average_48_rebounds = more_interesting(
+            average_48_rebounds, team_model.average_48_rebounds
+        )
+        average_48_fouls = more_interesting(
+            average_48_fouls, team_model.average_48_fouls
+        )
+        average_48_flagrant_fouls = more_interesting(
+            average_48_flagrant_fouls, team_model.average_48_flagrant_fouls
+        )
+        average_48_technical_fouls = more_interesting(
+            average_48_technical_fouls, team_model.average_48_technical_fouls
+        )
+        average_48_ejections = more_interesting(
+            average_48_ejections, team_model.average_48_ejections
+        )
+        average_48_disqualifications = more_interesting(
+            average_48_disqualifications, team_model.average_48_disqualifications
+        )
+        double_double = more_interesting(double_double, team_model.double_double)
+        triple_double = more_interesting(triple_double, team_model.triple_double)
+        field_goals_made = more_interesting(
+            field_goals_made, team_model.field_goals_made
+        )
+        free_throws_made = more_interesting(
+            free_throws_made, team_model.free_throws_made
+        )
+        three_point_percentage = more_interesting(
+            three_point_percentage, team_model.three_point_percentage
+        )
+        three_point_field_goals_made = more_interesting(
+            three_point_field_goals_made, team_model.three_point_field_goals_made
+        )
+        team_turnovers = more_interesting(team_turnovers, team_model.team_turnovers)
+        total_turnovers = more_interesting(total_turnovers, team_model.total_turnovers)
+        points_in_paint = more_interesting(points_in_paint, team_model.points_in_paint)
+        brick_index = more_interesting(brick_index, team_model.brick_index)
+        fast_break_points = more_interesting(
+            fast_break_points, team_model.fast_break_points
+        )
+        average_field_goals_made = more_interesting(
+            average_field_goals_made, team_model.average_field_goals_made
+        )
+        turnover_points = more_interesting(turnover_points, team_model.turnover_points)
+        average_defensive_rebounds = more_interesting(
+            average_defensive_rebounds, team_model.average_defensive_rebounds
+        )
+        average_blocks = more_interesting(average_blocks, team_model.average_blocks)
+        average_steals = more_interesting(average_steals, team_model.average_steals)
+        average_48_defensive_rebounds = more_interesting(
+            average_48_defensive_rebounds, team_model.average_48_defensive_rebounds
+        )
+        average_48_blocks = more_interesting(
+            average_48_blocks, team_model.average_48_blocks
+        )
+        average_48_steals = more_interesting(
+            average_48_steals, team_model.average_48_steals
+        )
+        largest_lead = more_interesting(largest_lead, team_model.largest_lead)
+        disqualifications = more_interesting(
+            disqualifications, team_model.disqualifications
+        )
+        flagrant_fouls = more_interesting(flagrant_fouls, team_model.flagrant_fouls)
+        fouls = more_interesting(fouls, team_model.fouls)
+        ejections = more_interesting(ejections, team_model.ejections)
+        technical_fouls = more_interesting(technical_fouls, team_model.technical_fouls)
+        vorp = more_interesting(vorp, team_model.vorp)
+        average_minutes = more_interesting(average_minutes, team_model.average_minutes)
+        nba_rating = more_interesting(nba_rating, team_model.nba_rating)
 
     player_list = [
         create_combined_player_model(v, k, player_ffill) for k, v in players.items()
@@ -1094,6 +1379,85 @@ def create_combined_team_model(
         projected_home_runs=projected_home_runs,
         extra_base_hits=extra_base_hits,
         average_game_score=average_game_score,
+        average_field_goals_attempted=average_field_goals_attempted,
+        average_three_point_field_goals_made=average_three_point_field_goals_made,
+        average_three_point_field_goals_attempted=average_three_point_field_goals_attempted,
+        average_free_throws_made=average_free_throws_made,
+        average_free_throws_attempted=average_free_throws_attempted,
+        average_points=average_points,
+        average_offensive_rebounds=average_offensive_rebounds,
+        average_assists=average_assists,
+        average_turnovers=average_turnovers,
+        offensive_rebound_percentage=offensive_rebound_percentage,
+        estimated_possessions=estimated_possessions,
+        average_estimated_possessions=average_estimated_possessions,
+        points_per_estimated_possessions=points_per_estimated_possessions,
+        average_team_turnovers=average_team_turnovers,
+        average_total_turnovers=average_total_turnovers,
+        two_point_field_goals_made=two_point_field_goals_made,
+        two_point_field_goals_attempted=two_point_field_goals_attempted,
+        average_two_point_field_goals_made=average_two_point_field_goals_made,
+        average_two_point_field_goals_attempted=average_two_point_field_goals_attempted,
+        two_point_field_goal_percentage=two_point_field_goal_percentage,
+        shooting_efficiency=shooting_efficiency,
+        scoring_efficiency=scoring_efficiency,
+        average_48_field_goals_made=average_48_field_goals_made,
+        average_48_field_goals_attempted=average_48_field_goals_attempted,
+        average_48_three_point_field_goals_made=average_48_three_point_field_goals_made,
+        average_48_three_point_field_goals_attempted=average_48_three_point_field_goals_attempted,
+        average_48_free_throws_made=average_48_free_throws_made,
+        average_48_free_throws_attempted=average_48_free_throws_attempted,
+        average_48_points=average_48_points,
+        average_48_offensive_rebounds=average_48_offensive_rebounds,
+        average_48_assists=average_48_assists,
+        average_48_turnovers=average_48_turnovers,
+        average_rebounds=average_rebounds,
+        average_fouls=average_fouls,
+        average_flagrant_fouls=average_flagrant_fouls,
+        average_technical_fouls=average_technical_fouls,
+        average_ejections=average_ejections,
+        average_disqualifications=average_disqualifications,
+        assist_turnover_ratio=assist_turnover_ratio,
+        steal_foul_ratio=steal_foul_ratio,
+        block_foul_ratio=block_foul_ratio,
+        average_team_rebounds=average_team_rebounds,
+        total_technical_fouls=total_technical_fouls,
+        team_assist_turnover_ratio=team_assist_turnover_ratio,
+        steal_turnover_ratio=steal_turnover_ratio,
+        average_48_rebounds=average_48_rebounds,
+        average_48_fouls=average_48_fouls,
+        average_48_flagrant_fouls=average_48_flagrant_fouls,
+        average_48_technical_fouls=average_48_technical_fouls,
+        average_48_ejections=average_48_ejections,
+        average_48_disqualifications=average_48_disqualifications,
+        double_double=double_double,
+        triple_double=triple_double,
+        field_goals_made=field_goals_made,
+        free_throws_made=free_throws_made,
+        three_point_percentage=three_point_percentage,
+        three_point_field_goals_made=three_point_field_goals_made,
+        team_turnovers=team_turnovers,
+        total_turnovers=total_turnovers,
+        points_in_paint=points_in_paint,
+        brick_index=brick_index,
+        fast_break_points=fast_break_points,
+        average_field_goals_made=average_field_goals_made,
+        turnover_points=turnover_points,
+        average_defensive_rebounds=average_defensive_rebounds,
+        average_blocks=average_blocks,
+        average_steals=average_steals,
+        average_48_defensive_rebounds=average_48_defensive_rebounds,
+        average_48_blocks=average_48_blocks,
+        average_48_steals=average_48_steals,
+        largest_lead=largest_lead,
+        disqualifications=disqualifications,
+        flagrant_fouls=flagrant_fouls,
+        fouls=fouls,
+        ejections=ejections,
+        technical_fouls=technical_fouls,
+        vorp=vorp,
+        average_minutes=average_minutes,
+        nba_rating=nba_rating,
         version=VERSION,
     )
 
