@@ -1,6 +1,6 @@
 """Openmeteo weather model."""
 
-# pylint: disable=too-many-statements,too-many-locals,line-too-long,duplicate-code,too-many-arguments
+# pylint: disable=too-many-statements,too-many-locals,line-too-long,duplicate-code,too-many-arguments,too-many-positional-arguments
 import datetime
 import struct
 

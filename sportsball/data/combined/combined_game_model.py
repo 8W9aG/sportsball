@@ -1,6 +1,6 @@
 """Combined game model."""
 
-# pylint: disable=too-many-locals,line-too-long,too-many-arguments,too-many-branches,too-many-statements
+# pylint: disable=too-many-locals,line-too-long,too-many-arguments,too-many-branches,too-many-statements,too-many-positional-arguments
 import datetime
 import logging
 from typing import Any

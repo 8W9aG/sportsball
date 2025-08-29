@@ -516,6 +516,201 @@ def create_combined_player_model(
     shots_foot_errors_percentage = None
     shots_unknown_percentage = None
     points_won_percentage = None
+    centre_clearances = None
+    disposal_efficiency = None
+    tackles_inside_50 = None
+    total_possessions = None
+    score_involvements = None
+    goal_accuracy = None
+    stoppage_clearances = None
+    uncontested_marks = None
+    accurate_crosses = None
+    accurate_long_balls = None
+    accurate_passes = None
+    accurate_through_balls = None
+    cross_percentage = None
+    free_kick_goals = None
+    free_kick_percentage = None
+    free_kick_shots = None
+    game_winning_assists = None
+    headed_goals = None
+    inaccurate_crosses = None
+    inaccurate_long_balls = None
+    inaccurate_passes = None
+    inaccurate_through_balls = None
+    left_footed_shots = None
+    long_ball_percentage = None
+    penalty_kick_goals = None
+    penalty_kick_percentage = None
+    penalty_kicks_missed = None
+    possession_percentage = None
+    possession_time = None
+    right_footed_shots = None
+    shoot_out_goals = None
+    shoot_out_misses = None
+    shoot_out_percentage = None
+    shot_assists = None
+    shot_percentage = None
+    shots_headed = None
+    shots_off_target = None
+    shots_on_post = None
+    through_ball_percentage = None
+    long_balls = None
+    total_passes = None
+    average_rating_from_editor = None
+    average_rating_from_user = None
+    did_not_play = None
+    draws = None
+    goal_difference = None
+    losses = None
+    lost_corners = None
+    minutes = None
+    pass_percentage = None
+    starts = None
+    sub_ins = None
+    sub_outs = None
+    suspensions = None
+    time_ended = None
+    time_started = None
+    win_percentage = None
+    wins = None
+    won_corners = None
+    clean_sheet = None
+    crosses_caught = None
+    goals_conceded = None
+    partial_clean_sheet = None
+    penalty_kick_conceded = None
+    penalty_kick_save_percentage = None
+    penalty_kicks_faced = None
+    penalty_kicks_saved = None
+    punches = None
+    shoot_out_kicks_faced = None
+    shoot_out_kicks_saved = None
+    shoot_out_save_percentage = None
+    shots_faced = None
+    smothers = None
+    unclaimed_crosses = None
+    effective_clearances = None
+    effective_tackles = None
+    ineffective_tackles = None
+    tackle_percentage = None
+    appearances = None
+    average_rating_from_correspondent = None
+    average_rating_from_data_feed = None
+    games_played = None
+    team_games_played = None
+    hit_by_pitch = None
+    rbis = None
+    sac_hits = None
+    stolen_bases = None
+    walks = None
+    catcher_interference = None
+    gidps = None
+    sac_flies = None
+    grand_slam_home_runs = None
+    runners_left_on_base = None
+    triples = None
+    game_winning_rbis = None
+    intentional_walks = None
+    doubles = None
+    caught_stealing = None
+    games_started = None
+    pinch_at_bats = None
+    pinch_hits = None
+    player_rating = None
+    is_qualified = None
+    is_qualified_steals = None
+    total_bases = None
+    projected_home_runs = None
+    extra_base_hits = None
+    runs_created = None
+    batting_average = None
+    pinch_average = None
+    slug_average = None
+    secondary_average = None
+    on_base_percentage = None
+    ground_to_fly_ratio = None
+    runs_created_per_27_outs = None
+    batter_rating = None
+    at_bats_per_home_run = None
+    stolen_base_percentage = None
+    pitches_per_plate_appearance = None
+    isolated_power = None
+    walk_to_strikeout_ratio = None
+    walks_per_plate_appearance = None
+    secondary_average_minus_batting_average = None
+    runs_produced = None
+    runs_ratio = None
+    patience_ratio = None
+    balls_in_play_average = None
+    mlb_rating = None
+    offensive_wins_above_replacement = None
+    wins_above_replacement = None
+    batters_hit = None
+    sacrifice_bunts = None
+    save_opportunities = None
+    finishes = None
+    balks = None
+    holds = None
+    complete_games = None
+    perfect_games = None
+    wild_pitches = None
+    third_innings = None
+    team_earned_runs = None
+    pickoff_attempts = None
+    run_support = None
+    pitches_as_starter = None
+    average_game_score = None
+    quality_starts = None
+    inherited_runners_scored = None
+    opponent_total_bases = None
+    is_qualified_saves = None
+    full_innings = None
+    part_innings = None
+    blown_saves = None
+    innings = None
+    whip = None
+    caught_stealing_percentage = None
+    pitches_per_start = None
+    pitches_per_inning = None
+    run_support_average = None
+    opponent_average = None
+    opponent_slug_average = None
+    opponent_on_base_percentage = None
+    opponent_ops = None
+    strikeouts_per_nine_innings = None
+    strikeout_to_walk_ratio = None
+    tough_losses = None
+    cheap_wins = None
+    save_opportunities_per_win = None
+    pitch_count = None
+    strike_pitch_ratio = None
+    double_plays = None
+    opportunities = None
+    passed_balls = None
+    outfield_assists = None
+    pickoffs = None
+    outs_on_field = None
+    triple_plays = None
+    balls_in_zone = None
+    extra_bases = None
+    outs_made = None
+    catcher_third_innings_played = None
+    catcher_caught_stealing = None
+    catcher_stolen_bases_allowed = None
+    catcher_earned_runs = None
+    is_qualified_catcher = None
+    is_qualified_pitcher = None
+    successful_chances = None
+    total_chances = None
+    full_innings_played = None
+    part_innings_played = None
+    fielding_percentage = None
+    range_factor = None
+    zone_rating = None
+    catcher_caught_stealing_percentage = None
+    catcher_era = None
+    def_warbr = None
     for player_model in player_models:
         jersey = more_interesting(jersey, player_model.jersey)
         kicks = more_interesting(kicks, player_model.kicks)
@@ -1729,6 +1924,423 @@ def create_combined_player_model(
         points_won_percentage = more_interesting(
             points_won_percentage, player_model.points_won_percentage
         )
+        centre_clearances = more_interesting(
+            centre_clearances, player_model.centre_clearances
+        )
+        disposal_efficiency = more_interesting(
+            disposal_efficiency, player_model.disposal_efficiency
+        )
+        tackles_inside_50 = more_interesting(
+            tackles_inside_50, player_model.tackles_inside_50
+        )
+        total_possessions = more_interesting(
+            total_possessions, player_model.total_possessions
+        )
+        score_involvements = more_interesting(
+            score_involvements, player_model.score_involvements
+        )
+        goal_accuracy = more_interesting(goal_accuracy, player_model.goal_accuracy)
+        stoppage_clearances = more_interesting(
+            stoppage_clearances, player_model.stoppage_clearances
+        )
+        uncontested_marks = more_interesting(
+            uncontested_marks, player_model.uncontested_marks
+        )
+        accurate_crosses = more_interesting(
+            accurate_crosses, player_model.accurate_crosses
+        )
+        accurate_long_balls = more_interesting(
+            accurate_long_balls, player_model.accurate_long_balls
+        )
+        accurate_passes = more_interesting(
+            accurate_passes, player_model.accurate_passes
+        )
+        accurate_through_balls = more_interesting(
+            accurate_through_balls, player_model.accurate_through_balls
+        )
+        cross_percentage = more_interesting(
+            cross_percentage, player_model.cross_percentage
+        )
+        free_kick_goals = more_interesting(
+            free_kick_goals, player_model.free_kick_goals
+        )
+        free_kick_percentage = more_interesting(
+            free_kick_percentage, player_model.free_kick_percentage
+        )
+        free_kick_shots = more_interesting(
+            free_kick_shots, player_model.free_kick_shots
+        )
+        game_winning_assists = more_interesting(
+            game_winning_assists, player_model.game_winning_assists
+        )
+        headed_goals = more_interesting(headed_goals, player_model.headed_goals)
+        inaccurate_crosses = more_interesting(
+            inaccurate_crosses, player_model.inaccurate_crosses
+        )
+        inaccurate_long_balls = more_interesting(
+            inaccurate_long_balls, player_model.inaccurate_long_balls
+        )
+        inaccurate_passes = more_interesting(
+            inaccurate_passes, player_model.inaccurate_passes
+        )
+        inaccurate_through_balls = more_interesting(
+            inaccurate_through_balls, player_model.inaccurate_through_balls
+        )
+        left_footed_shots = more_interesting(
+            left_footed_shots, player_model.left_footed_shots
+        )
+        long_ball_percentage = more_interesting(
+            long_ball_percentage, player_model.long_ball_percentage
+        )
+        penalty_kick_goals = more_interesting(
+            penalty_kick_goals, player_model.penalty_kick_goals
+        )
+        penalty_kick_percentage = more_interesting(
+            penalty_kick_percentage, player_model.penalty_kick_percentage
+        )
+        penalty_kicks_missed = more_interesting(
+            penalty_kicks_missed, player_model.penalty_kicks_missed
+        )
+        possession_percentage = more_interesting(
+            possession_percentage, player_model.possession_percentage
+        )
+        possession_time = more_interesting(
+            possession_time, player_model.possession_time
+        )
+        right_footed_shots = more_interesting(
+            right_footed_shots, player_model.right_footed_shots
+        )
+        shoot_out_goals = more_interesting(
+            shoot_out_goals, player_model.shoot_out_goals
+        )
+        shoot_out_misses = more_interesting(
+            shoot_out_misses, player_model.shoot_out_misses
+        )
+        shoot_out_percentage = more_interesting(
+            shoot_out_percentage, player_model.shoot_out_percentage
+        )
+        shot_assists = more_interesting(shot_assists, player_model.shot_assists)
+        shot_percentage = more_interesting(
+            shot_percentage, player_model.shot_percentage
+        )
+        shots_headed = more_interesting(shots_headed, player_model.shots_headed)
+        shots_off_target = more_interesting(
+            shots_off_target, player_model.shots_off_target
+        )
+        shots_on_post = more_interesting(shots_on_post, player_model.shots_on_post)
+        through_ball_percentage = more_interesting(
+            through_ball_percentage, player_model.through_ball_percentage
+        )
+        long_balls = more_interesting(long_balls, player_model.long_balls)
+        total_passes = more_interesting(total_passes, player_model.total_passes)
+        average_rating_from_editor = more_interesting(
+            average_rating_from_editor, player_model.average_rating_from_editor
+        )
+        average_rating_from_user = more_interesting(
+            average_rating_from_user, player_model.average_rating_from_user
+        )
+        did_not_play = more_interesting(did_not_play, player_model.did_not_play)
+        draws = more_interesting(draws, player_model.draws)
+        goal_difference = more_interesting(
+            goal_difference, player_model.goal_difference
+        )
+        losses = more_interesting(losses, player_model.losses)
+        lost_corners = more_interesting(lost_corners, player_model.lost_corners)
+        minutes = more_interesting(minutes, player_model.minutes)
+        pass_percentage = more_interesting(
+            pass_percentage, player_model.pass_percentage
+        )
+        starts = more_interesting(starts, player_model.starts)
+        sub_ins = more_interesting(sub_ins, player_model.sub_ins)
+        sub_outs = more_interesting(sub_outs, player_model.sub_outs)
+        suspensions = more_interesting(suspensions, player_model.suspensions)
+        time_ended = more_interesting(time_ended, player_model.time_ended)
+        time_started = more_interesting(time_started, player_model.time_started)
+        win_percentage = more_interesting(win_percentage, player_model.win_percentage)
+        wins = more_interesting(wins, player_model.wins)
+        won_corners = more_interesting(won_corners, player_model.won_corners)
+        clean_sheet = more_interesting(clean_sheet, player_model.clean_sheet)
+        crosses_caught = more_interesting(crosses_caught, player_model.crosses_caught)
+        goals_conceded = more_interesting(goals_conceded, player_model.goals_conceded)
+        partial_clean_sheet = more_interesting(
+            partial_clean_sheet, player_model.partial_clean_sheet
+        )
+        penalty_kick_conceded = more_interesting(
+            penalty_kick_conceded, player_model.penalty_kick_conceded
+        )
+        penalty_kick_save_percentage = more_interesting(
+            penalty_kick_save_percentage, player_model.penalty_kick_save_percentage
+        )
+        penalty_kicks_faced = more_interesting(
+            penalty_kicks_faced, player_model.penalty_kicks_faced
+        )
+        penalty_kicks_saved = more_interesting(
+            penalty_kicks_saved, player_model.penalty_kicks_saved
+        )
+        punches = more_interesting(punches, player_model.punches)
+        shoot_out_kicks_faced = more_interesting(
+            shoot_out_kicks_faced, player_model.shoot_out_kicks_faced
+        )
+        shoot_out_kicks_saved = more_interesting(
+            shoot_out_kicks_saved, player_model.shoot_out_kicks_saved
+        )
+        shoot_out_save_percentage = more_interesting(
+            shoot_out_save_percentage, player_model.shoot_out_save_percentage
+        )
+        shots_faced = more_interesting(shots_faced, player_model.shots_faced)
+        smothers = more_interesting(smothers, player_model.smothers)
+        unclaimed_crosses = more_interesting(
+            unclaimed_crosses, player_model.unclaimed_crosses
+        )
+        effective_clearances = more_interesting(
+            effective_clearances, player_model.effective_clearances
+        )
+        effective_tackles = more_interesting(
+            effective_tackles, player_model.effective_tackles
+        )
+        ineffective_tackles = more_interesting(
+            ineffective_tackles, player_model.ineffective_tackles
+        )
+        tackle_percentage = more_interesting(
+            tackle_percentage, player_model.tackle_percentage
+        )
+        appearances = more_interesting(appearances, player_model.appearances)
+        average_rating_from_correspondent = more_interesting(
+            average_rating_from_correspondent,
+            player_model.average_rating_from_correspondent,
+        )
+        average_rating_from_data_feed = more_interesting(
+            average_rating_from_data_feed, player_model.average_rating_from_data_feed
+        )
+        games_played = more_interesting(games_played, player_model.games_played)
+        team_games_played = more_interesting(
+            team_games_played, player_model.team_games_played
+        )
+        hit_by_pitch = more_interesting(hit_by_pitch, player_model.hit_by_pitch)
+        rbis = more_interesting(rbis, player_model.rbis)
+        sac_hits = more_interesting(sac_hits, player_model.sac_hits)
+        stolen_bases = more_interesting(stolen_bases, player_model.stolen_bases)
+        walks = more_interesting(walks, player_model.walks)
+        catcher_interference = more_interesting(
+            catcher_interference, player_model.catcher_interference
+        )
+        gidps = more_interesting(gidps, player_model.gidps)
+        sac_flies = more_interesting(sac_flies, player_model.sac_flies)
+        grand_slam_home_runs = more_interesting(
+            grand_slam_home_runs, player_model.grand_slam_home_runs
+        )
+        runners_left_on_base = more_interesting(
+            runners_left_on_base, player_model.runners_left_on_base
+        )
+        triples = more_interesting(triples, player_model.triples)
+        game_winning_rbis = more_interesting(
+            game_winning_rbis, player_model.game_winning_rbis
+        )
+        intentional_walks = more_interesting(
+            intentional_walks, player_model.intentional_walks
+        )
+        doubles = more_interesting(doubles, player_model.doubles)
+        caught_stealing = more_interesting(
+            caught_stealing, player_model.caught_stealing
+        )
+        games_started = more_interesting(games_started, player_model.games_started)
+        pinch_at_bats = more_interesting(pinch_at_bats, player_model.pinch_at_bats)
+        pinch_hits = more_interesting(pinch_hits, player_model.pinch_hits)
+        player_rating = more_interesting(player_rating, player_model.player_rating)
+        is_qualified = more_interesting(is_qualified, player_model.is_qualified)
+        is_qualified_steals = more_interesting(
+            is_qualified_steals, player_model.is_qualified_steals
+        )
+        total_bases = more_interesting(total_bases, player_model.total_bases)
+        projected_home_runs = more_interesting(
+            projected_home_runs, player_model.projected_home_runs
+        )
+        extra_base_hits = more_interesting(
+            extra_base_hits, player_model.extra_base_hits
+        )
+        runs_created = more_interesting(runs_created, player_model.runs_created)
+        batting_average = more_interesting(
+            batting_average, player_model.batting_average
+        )
+        pinch_average = more_interesting(pinch_average, player_model.pinch_average)
+        slug_average = more_interesting(slug_average, player_model.slug_average)
+        secondary_average = more_interesting(
+            secondary_average, player_model.secondary_average
+        )
+        on_base_percentage = more_interesting(
+            on_base_percentage, player_model.on_base_percentage
+        )
+        ground_to_fly_ratio = more_interesting(
+            ground_to_fly_ratio, player_model.ground_to_fly_ratio
+        )
+        runs_created_per_27_outs = more_interesting(
+            runs_created_per_27_outs, player_model.runs_created_per_27_outs
+        )
+        batter_rating = more_interesting(batter_rating, player_model.batter_rating)
+        at_bats_per_home_run = more_interesting(
+            at_bats_per_home_run, player_model.at_bats_per_home_run
+        )
+        stolen_base_percentage = more_interesting(
+            stolen_base_percentage, player_model.stolen_base_percentage
+        )
+        pitches_per_plate_appearance = more_interesting(
+            pitches_per_plate_appearance, player_model.pitches_per_plate_appearance
+        )
+        isolated_power = more_interesting(isolated_power, player_model.isolated_power)
+        walk_to_strikeout_ratio = more_interesting(
+            walk_to_strikeout_ratio, player_model.walk_to_strikeout_ratio
+        )
+        walks_per_plate_appearance = more_interesting(
+            walks_per_plate_appearance, player_model.walks_per_plate_appearance
+        )
+        secondary_average_minus_batting_average = more_interesting(
+            secondary_average_minus_batting_average,
+            player_model.secondary_average_minus_batting_average,
+        )
+        runs_produced = more_interesting(runs_produced, player_model.runs_produced)
+        runs_ratio = more_interesting(runs_ratio, player_model.runs_ratio)
+        patience_ratio = more_interesting(patience_ratio, player_model.patience_ratio)
+        balls_in_play_average = more_interesting(
+            balls_in_play_average, player_model.balls_in_play_average
+        )
+        mlb_rating = more_interesting(mlb_rating, player_model.mlb_rating)
+        offensive_wins_above_replacement = more_interesting(
+            offensive_wins_above_replacement,
+            player_model.offensive_wins_above_replacement,
+        )
+        wins_above_replacement = more_interesting(
+            wins_above_replacement, player_model.wins_above_replacement
+        )
+        batters_hit = more_interesting(batters_hit, player_model.batters_hit)
+        sacrifice_bunts = more_interesting(
+            sacrifice_bunts, player_model.sacrifice_bunts
+        )
+        save_opportunities = more_interesting(
+            save_opportunities, player_model.save_opportunities
+        )
+        finishes = more_interesting(finishes, player_model.finishes)
+        balks = more_interesting(balks, player_model.balks)
+        holds = more_interesting(holds, player_model.holds)
+        complete_games = more_interesting(complete_games, player_model.complete_games)
+        perfect_games = more_interesting(perfect_games, player_model.perfect_games)
+        wild_pitches = more_interesting(wild_pitches, player_model.wild_pitches)
+        third_innings = more_interesting(third_innings, player_model.third_innings)
+        team_earned_runs = more_interesting(
+            team_earned_runs, player_model.team_earned_runs
+        )
+        pickoff_attempts = more_interesting(
+            pickoff_attempts, player_model.pickoff_attempts
+        )
+        run_support = more_interesting(run_support, player_model.run_support)
+        pitches_as_starter = more_interesting(
+            pitches_as_starter, player_model.pitches_as_starter
+        )
+        average_game_score = more_interesting(
+            average_game_score, player_model.average_game_score
+        )
+        quality_starts = more_interesting(quality_starts, player_model.quality_starts)
+        inherited_runners_scored = more_interesting(
+            inherited_runners_scored, player_model.inherited_runners_scored
+        )
+        opponent_total_bases = more_interesting(
+            opponent_total_bases, player_model.opponent_total_bases
+        )
+        is_qualified_saves = more_interesting(
+            is_qualified_saves, player_model.is_qualified_saves
+        )
+        full_innings = more_interesting(full_innings, player_model.full_innings)
+        part_innings = more_interesting(part_innings, player_model.part_innings)
+        blown_saves = more_interesting(blown_saves, player_model.blown_saves)
+        innings = more_interesting(innings, player_model.innings)
+        whip = more_interesting(whip, player_model.whip)
+        caught_stealing_percentage = more_interesting(
+            caught_stealing_percentage, player_model.caught_stealing_percentage
+        )
+        pitches_per_start = more_interesting(
+            pitches_per_start, player_model.pitches_per_start
+        )
+        pitches_per_inning = more_interesting(
+            pitches_per_inning, player_model.pitches_per_inning
+        )
+        run_support_average = more_interesting(
+            run_support_average, player_model.run_support_average
+        )
+        opponent_average = more_interesting(
+            opponent_average, player_model.opponent_average
+        )
+        opponent_slug_average = more_interesting(
+            opponent_slug_average, player_model.opponent_slug_average
+        )
+        opponent_on_base_percentage = more_interesting(
+            opponent_on_base_percentage, player_model.opponent_on_base_percentage
+        )
+        opponent_ops = more_interesting(opponent_ops, player_model.opponent_ops)
+        strikeouts_per_nine_innings = more_interesting(
+            strikeouts_per_nine_innings, player_model.strikeouts_per_nine_inning
+        )
+        strikeout_to_walk_ratio = more_interesting(
+            strikeout_to_walk_ratio, player_model.strikeout_to_walk_ratio
+        )
+        tough_losses = more_interesting(tough_losses, player_model.tough_losses)
+        cheap_wins = more_interesting(cheap_wins, player_model.cheap_wins)
+        save_opportunities_per_win = more_interesting(
+            save_opportunities_per_win, player_model.save_opportunities_per_win
+        )
+        pitch_count = more_interesting(pitch_count, player_model.pitch_count)
+        strike_pitch_ratio = more_interesting(
+            strike_pitch_ratio, player_model.strike_pitch_ratio
+        )
+        double_plays = more_interesting(double_plays, player_model.double_plays)
+        opportunities = more_interesting(opportunities, player_model.opportunities)
+        passed_balls = more_interesting(passed_balls, player_model.passed_balls)
+        outfield_assists = more_interesting(
+            outfield_assists, player_model.outfield_assists
+        )
+        pickoffs = more_interesting(pickoffs, player_model.pickoffs)
+        outs_on_field = more_interesting(outs_on_field, player_model.outs_on_field)
+        triple_plays = more_interesting(triple_plays, player_model.triple_plays)
+        balls_in_zone = more_interesting(balls_in_zone, player_model.balls_in_zone)
+        extra_bases = more_interesting(extra_bases, player_model.extra_bases)
+        outs_made = more_interesting(outs_made, player_model.outs_made)
+        catcher_third_innings_played = more_interesting(
+            catcher_third_innings_played, player_model.catcher_third_innings_played
+        )
+        catcher_caught_stealing = more_interesting(
+            catcher_caught_stealing, player_model.catcher_caught_stealing
+        )
+        catcher_stolen_bases_allowed = more_interesting(
+            catcher_stolen_bases_allowed, player_model.catcher_stolen_bases_allowed
+        )
+        catcher_earned_runs = more_interesting(
+            catcher_earned_runs, player_model.catcher_earned_runs
+        )
+        is_qualified_catcher = more_interesting(
+            is_qualified_catcher, player_model.is_qualified_catcher
+        )
+        is_qualified_pitcher = more_interesting(
+            is_qualified_pitcher, player_model.is_qualified_pitcher
+        )
+        successful_chances = more_interesting(
+            successful_chances, player_model.successful_chances
+        )
+        total_chances = more_interesting(total_chances, player_model.total_chances)
+        full_innings_played = more_interesting(
+            full_innings_played, player_model.full_innings_played
+        )
+        part_innings_played = more_interesting(
+            part_innings_played, player_model.part_innings_played
+        )
+        fielding_percentage = more_interesting(
+            fielding_percentage, player_model.fielding_percentage
+        )
+        range_factor = more_interesting(range_factor, player_model.range_factor)
+        zone_rating = more_interesting(zone_rating, player_model.zone_rating)
+        catcher_caught_stealing_percentage = more_interesting(
+            catcher_caught_stealing_percentage,
+            player_model.catcher_caught_stealing_percentage,
+        )
+        catcher_era = more_interesting(catcher_era, player_model.catcher_era)
+        def_warbr = more_interesting(def_warbr, player_model.def_warbr)
     if name is None:
         raise ValueError("name is null")
     if species is None:
@@ -2239,6 +2851,201 @@ def create_combined_player_model(
         shots_foot_errors_percentage=shots_foot_errors_percentage,
         shots_unknown_percentage=shots_unknown_percentage,
         points_won_percentage=points_won_percentage,
+        centre_clearances=centre_clearances,
+        disposal_efficiency=disposal_efficiency,
+        tackles_inside_50=tackles_inside_50,
+        total_possessions=total_possessions,
+        score_involvements=score_involvements,
+        goal_accuracy=goal_accuracy,
+        stoppage_clearances=stoppage_clearances,
+        uncontested_marks=uncontested_marks,
+        accurate_crosses=accurate_crosses,
+        accurate_long_balls=accurate_long_balls,
+        accurate_passes=accurate_passes,
+        accurate_through_balls=accurate_through_balls,
+        cross_percentage=cross_percentage,
+        free_kick_goals=free_kick_goals,
+        free_kick_percentage=free_kick_percentage,
+        free_kick_shots=free_kick_shots,
+        game_winning_assists=game_winning_assists,
+        headed_goals=headed_goals,
+        inaccurate_crosses=inaccurate_crosses,
+        inaccurate_long_balls=inaccurate_long_balls,
+        inaccurate_passes=inaccurate_passes,
+        inaccurate_through_balls=inaccurate_through_balls,
+        left_footed_shots=left_footed_shots,
+        long_ball_percentage=long_ball_percentage,
+        penalty_kick_goals=penalty_kick_goals,
+        penalty_kick_percentage=penalty_kick_percentage,
+        penalty_kicks_missed=penalty_kicks_missed,
+        possession_percentage=possession_percentage,
+        possession_time=possession_time,
+        right_footed_shots=right_footed_shots,
+        shoot_out_goals=shoot_out_goals,
+        shoot_out_misses=shoot_out_misses,
+        shoot_out_percentage=shoot_out_percentage,
+        shot_assists=shot_assists,
+        shot_percentage=shot_percentage,
+        shots_headed=shots_headed,
+        shots_off_target=shots_off_target,
+        shots_on_post=shots_on_post,
+        through_ball_percentage=through_ball_percentage,
+        long_balls=long_balls,
+        total_passes=total_passes,
+        average_rating_from_editor=average_rating_from_editor,
+        average_rating_from_user=average_rating_from_user,
+        did_not_play=did_not_play,
+        draws=draws,
+        goal_difference=goal_difference,
+        losses=losses,
+        lost_corners=lost_corners,
+        minutes=minutes,
+        pass_percentage=pass_percentage,
+        starts=starts,
+        sub_ins=sub_ins,
+        sub_outs=sub_outs,
+        suspensions=suspensions,
+        time_ended=time_ended,
+        time_started=time_started,
+        win_percentage=win_percentage,
+        wins=wins,
+        won_corners=won_corners,
+        clean_sheet=clean_sheet,
+        crosses_caught=crosses_caught,
+        goals_conceded=goals_conceded,
+        partial_clean_sheet=partial_clean_sheet,
+        penalty_kick_conceded=penalty_kick_conceded,
+        penalty_kick_save_percentage=penalty_kick_save_percentage,
+        penalty_kicks_faced=penalty_kicks_faced,
+        penalty_kicks_saved=penalty_kicks_saved,
+        punches=punches,
+        shoot_out_kicks_faced=shoot_out_kicks_faced,
+        shoot_out_kicks_saved=shoot_out_kicks_saved,
+        shoot_out_save_percentage=shoot_out_save_percentage,
+        shots_faced=shots_faced,
+        smothers=smothers,
+        unclaimed_crosses=unclaimed_crosses,
+        effective_clearances=effective_clearances,
+        effective_tackles=effective_tackles,
+        ineffective_tackles=ineffective_tackles,
+        tackle_percentage=tackle_percentage,
+        appearances=appearances,
+        average_rating_from_correspondent=average_rating_from_correspondent,
+        average_rating_from_data_feed=average_rating_from_data_feed,
+        games_played=games_played,
+        team_games_played=team_games_played,
+        hit_by_pitch=hit_by_pitch,
+        rbis=rbis,
+        sac_hits=sac_hits,
+        stolen_bases=stolen_bases,
+        walks=walks,
+        catcher_interference=catcher_interference,
+        gidps=gidps,
+        sac_flies=sac_flies,
+        grand_slam_home_runs=grand_slam_home_runs,
+        runners_left_on_base=runners_left_on_base,
+        triples=triples,
+        game_winning_rbis=game_winning_rbis,
+        intentional_walks=intentional_walks,
+        doubles=doubles,
+        caught_stealing=caught_stealing,
+        games_started=games_started,
+        pinch_at_bats=pinch_at_bats,
+        pinch_hits=pinch_hits,
+        player_rating=player_rating,
+        is_qualified=is_qualified,
+        is_qualified_steals=is_qualified_steals,
+        total_bases=total_bases,
+        projected_home_runs=projected_home_runs,
+        extra_base_hits=extra_base_hits,
+        runs_created=runs_created,
+        batting_average=batting_average,
+        pinch_average=pinch_average,
+        slug_average=slug_average,
+        secondary_average=secondary_average,
+        on_base_percentage=on_base_percentage,
+        ground_to_fly_ratio=ground_to_fly_ratio,
+        runs_created_per_27_outs=runs_created_per_27_outs,
+        batter_rating=batter_rating,
+        at_bats_per_home_run=at_bats_per_home_run,
+        stolen_base_percentage=stolen_base_percentage,
+        pitches_per_plate_appearance=pitches_per_plate_appearance,
+        isolated_power=isolated_power,
+        walk_to_strikeout_ratio=walk_to_strikeout_ratio,
+        walks_per_plate_appearance=walks_per_plate_appearance,
+        secondary_average_minus_batting_average=secondary_average_minus_batting_average,
+        runs_produced=runs_produced,
+        runs_ratio=runs_ratio,
+        patience_ratio=patience_ratio,
+        balls_in_play_average=balls_in_play_average,
+        mlb_rating=mlb_rating,
+        offensive_wins_above_replacement=offensive_wins_above_replacement,
+        wins_above_replacement=wins_above_replacement,
+        batters_hit=batters_hit,
+        sacrifice_bunts=sacrifice_bunts,
+        save_opportunities=save_opportunities,
+        finishes=finishes,
+        balks=balks,
+        holds=holds,
+        complete_games=complete_games,
+        perfect_games=perfect_games,
+        wild_pitches=wild_pitches,
+        third_innings=third_innings,
+        team_earned_runs=team_earned_runs,
+        pickoff_attempts=pickoff_attempts,
+        run_support=run_support,
+        pitches_as_starter=pitches_as_starter,
+        average_game_score=average_game_score,
+        quality_starts=quality_starts,
+        inherited_runners_scored=inherited_runners_scored,
+        opponent_total_bases=opponent_total_bases,
+        is_qualified_saves=is_qualified_saves,
+        full_innings=full_innings,
+        part_innings=part_innings,
+        blown_saves=blown_saves,
+        innings=innings,
+        whip=whip,
+        caught_stealing_percentage=caught_stealing_percentage,
+        pitches_per_start=pitches_per_start,
+        pitches_per_inning=pitches_per_inning,
+        run_support_average=run_support_average,
+        opponent_average=opponent_average,
+        opponent_slug_average=opponent_slug_average,
+        opponent_on_base_percentage=opponent_on_base_percentage,
+        opponent_ops=opponent_ops,
+        strikeouts_per_nine_innings=strikeouts_per_nine_innings,
+        strikeout_to_walk_ratio=strikeout_to_walk_ratio,
+        tough_losses=tough_losses,
+        cheap_wins=cheap_wins,
+        save_opportunities_per_win=save_opportunities_per_win,
+        pitch_count=pitch_count,
+        strike_pitch_ratio=strike_pitch_ratio,
+        double_plays=double_plays,
+        opportunities=opportunities,
+        passed_balls=passed_balls,
+        outfield_assists=outfield_assists,
+        pickoffs=pickoffs,
+        outs_on_field=outs_on_field,
+        triple_plays=triple_plays,
+        balls_in_zone=balls_in_zone,
+        extra_bases=extra_bases,
+        outs_made=outs_made,
+        catcher_third_innings_played=catcher_third_innings_played,
+        catcher_caught_stealing=catcher_caught_stealing,
+        catcher_stolen_bases_allowed=catcher_stolen_bases_allowed,
+        catcher_earned_runs=catcher_earned_runs,
+        is_qualified_catcher=is_qualified_catcher,
+        is_qualified_pitcher=is_qualified_pitcher,
+        successful_chances=successful_chances,
+        total_chances=total_chances,
+        full_innings_played=full_innings_played,
+        part_innings_played=part_innings_played,
+        fielding_percentage=fielding_percentage,
+        range_factor=range_factor,
+        zone_rating=zone_rating,
+        catcher_caught_stealing_percentage=catcher_caught_stealing_percentage,
+        catcher_era=catcher_era,
+        def_warbr=def_warbr,
     )
 
     ffill(player_ffill, identifier, player_model)

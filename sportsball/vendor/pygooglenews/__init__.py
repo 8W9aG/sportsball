@@ -1,4 +1,4 @@
-# pylint: disable=missing-module-docstring,missing-class-docstring,invalid-name,bare-except,consider-using-f-string,unused-variable,broad-exception-raised,inconsistent-return-statements,raise-missing-from,no-else-return,too-many-arguments,singleton-comparison
+# pylint: disable=missing-module-docstring,missing-class-docstring,invalid-name,bare-except,consider-using-f-string,unused-variable,broad-exception-raised,inconsistent-return-statements,raise-missing-from,no-else-return,too-many-arguments,singleton-comparison,too-many-positional-arguments
 # ruff: noqa: E722,E712
 # type: ignore
 import urllib

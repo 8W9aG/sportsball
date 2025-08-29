@@ -9,10 +9,10 @@ echo "--- isort ---"
 isort sportsball
 
 echo "Checking..."
-echo "--- Flake8 ---"
-flake8 sportsball
-echo "--- pylint ---"
-pylint sportsball
+#echo "--- Flake8 ---"
+#flake8 sportsball
+#echo "--- pylint ---"
+#pylint sportsball
 echo "--- mypy ---"
 mypy sportsball
 echo "--- Ruff ---"

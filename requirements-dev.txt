@@ -2,7 +2,7 @@
 ruff==0.3.2
 isort==5.13.2
 flake8==7.0.0
-pylint==3.1.0
+pylint==3.3.8
 mypy==1.9.0
 pyright==1.1.354
 twine==5.0.0

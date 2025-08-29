@@ -1009,7 +1009,328 @@ PLAYER_SHOTS_UNKNOWN_PERCENTAGE_COLUMN: Literal["shots_unknown_percentage"] = (
 PLAYER_POINTS_WON_PERCENTAGE_COLUMN: Literal["points_won_percentage"] = (
     "points_won_percentage"
 )
-VERSION = DELIMITER.join(["0.0.8", ADDRESS_VERSION, OWNER_VERSION, VENUE_VERSION])
+PLAYER_TACKLES_INSIDE_50_COLUMN: Literal["tackles_inside_50"] = "tackles_inside_50"
+PLAYER_TOTAL_POSSESSIONS_COLUMN: Literal["total_possessions"] = "total_possessions"
+PLAYER_SCORE_INVOLVEMENTS_COLUMN: Literal["score_involvements"] = "score_involvements"
+PLAYER_GOAL_ACCURACY_COLUMN: Literal["goal_accuracy"] = "goal_accuracy"
+PLAYER_STOPPAGE_CLEARANCES_COLUMN: Literal["stoppage_clearances"] = (
+    "stoppage_clearances"
+)
+PLAYER_UNCONTESTED_MARKS_COLUMN: Literal["uncontested_marks"] = "uncontested_marks"
+PLAYER_DISPOSAL_EFFICIENCY_COLUMN: Literal["disposal_efficiency"] = (
+    "disposal_efficiency"
+)
+PLAYER_CENTRE_CLEARANCES_COLUMN: Literal["centre_clearances"] = "centre_clearances"
+PLAYER_ACCURATE_CROSSES_COLUMN: Literal["accurate_crosses"] = "accurate_crosses"
+PLAYER_ACCURATE_LONG_BALLS_COLUMN: Literal["accurate_long_balls"] = (
+    "accurate_long_balls"
+)
+PLAYER_ACCURATE_PASSES_COLUMN: Literal["accurate_passes"] = "accurate_passes"
+PLAYER_ACCURATE_THROUGH_BALLS_COLUMN: Literal["accurate_through_balls"] = (
+    "accurate_through_balls"
+)
+PLAYER_CROSS_PERCENTAGE_COLUMN: Literal["cross_percentage"] = "cross_percentage"
+PLAYER_FREE_KICK_GOALS_COLUMN: Literal["free_kick_goals"] = "free_kick_goals"
+PLAYER_FREE_KICK_PERCENTAGE_COLUMN: Literal["free_kick_percentage"] = (
+    "free_kick_percentage"
+)
+PLAYER_FREE_KICK_SHOTS_COLUMN: Literal["free_kick_shots"] = "free_kick_shots"
+PLAYER_GAME_WINNING_ASSISTS_COLUMN: Literal["game_winning_assists"] = (
+    "game_winning_assists"
+)
+PLAYER_HEADED_GOALS_COLUMN: Literal["headed_goals"] = "headed_goals"
+PLAYER_INACCURATE_CROSSES_COLUMN: Literal["inaccurate_crosses"] = "inaccurate_crosses"
+PLAYER_INACCURATE_LONG_BALLS_COLUMN: Literal["inaccurate_long_balls"] = (
+    "inaccurate_long_balls"
+)
+PLAYER_INACCURATE_PASSES_COLUMN: Literal["inaccurate_passes"] = "inaccurate_passes"
+PLAYER_INACCURATE_THROUGH_BALLS_COLUMN: Literal["inaccurate_through_balls"] = (
+    "inaccurate_through_balls"
+)
+PLAYER_LEFT_FOOTED_SHOTS_COLUMN: Literal["left_footed_shots"] = "left_footed_shots"
+PLAYER_LONG_BALL_PERCENTAGE_COLUMN: Literal["long_ball_percentage"] = (
+    "long_ball_percentage"
+)
+PLAYER_PENALTY_KICK_GOALS_COLUMN: Literal["penalty_kick_goals"] = "penalty_kick_goals"
+PLAYER_PENALTY_KICK_PERCENTAGE_COLUMN: Literal["penalty_kick_percentage"] = (
+    "penalty_kick_percentage"
+)
+PLAYER_PENALTY_KICKS_MISSED_COLUMN: Literal["penalty_kicks_missed"] = (
+    "penalty_kicks_missed"
+)
+PLAYER_POSSESSION_PERCENTAGE_COLUMN: Literal["possession_percentage"] = (
+    "possession_percentage"
+)
+PLAYER_POSSESSION_TIME_COLUMN: Literal["possession_time"] = "possession_time"
+PLAYER_RIGHT_FOOTED_SHOTS_COLUMN: Literal["right_footed_shots"] = "right_footed_shots"
+PLAYER_SHOOT_OUT_GOALS_COLUMN: Literal["shoot_out_goals"] = "shoot_out_goals"
+PLAYER_SHOOT_OUT_MISSES_COLUMN: Literal["shoot_out_misses"] = "shoot_out_misses"
+PLAYER_SHOOT_OUT_PERCENTAGE_COLUMN: Literal["shoot_out_percentage"] = (
+    "shoot_out_percentage"
+)
+PLAYER_SHOT_ASSISTS_COLUMN: Literal["shot_assists"] = "shot_assists"
+PLAYER_SHOT_PERCENTAGE_COLUMN: Literal["shot_percentage"] = "shot_percentage"
+PLAYER_SHOTS_HEADED_COLUMN: Literal["shots_headed"] = "shots_headed"
+PLAYER_SHOTS_OFF_TARGET_COLUMN: Literal["shots_off_target"] = "shots_off_target"
+PLAYER_SHOTS_ON_POST_COLUMN: Literal["shots_on_post"] = "shots_on_post"
+PLAYER_THROUGH_BALL_PERCENTAGE_COLUMN: Literal["through_ball_percentage"] = (
+    "through_ball_percentage"
+)
+PLAYER_LONG_BALLS_COLUMN: Literal["long_balls"] = "long_balls"
+PLAYER_TOTAL_PASSES_COLUMN: Literal["total_passes"] = "total_passes"
+PLAYER_AVERAGE_RATING_FROM_EDITOR_COLUMN: Literal["average_rating_from_editor"] = (
+    "average_rating_from_editor"
+)
+PLAYER_AVERAGE_RATING_FROM_USER_COLUMN: Literal["average_rating_from_user"] = (
+    "average_rating_from_user"
+)
+PLAYER_DID_NOT_PLAY_COLUMN: Literal["did_not_play"] = "did_not_play"
+PLAYER_DRAWS_COLUMN: Literal["draws"] = "draws"
+PLAYER_GOAL_DIFFERENCE_COLUMN: Literal["goal_difference"] = "goal_difference"
+PLAYER_LOSSES_COLUMN: Literal["losses"] = "losses"
+PLAYER_LOST_CORNERS_COLUMN: Literal["lost_corners"] = "lost_corners"
+PLAYER_MINUTES_COLUMN: Literal["minutes"] = "minutes"
+PLAYER_PASS_PERCENTAGE_COLUMN: Literal["pass_percentage"] = "pass_percentage"
+PLAYER_STARTS_COLUMN: Literal["starts"] = "starts"
+PLAYER_SUB_INS_COLUMN: Literal["sub_ins"] = "sub_ins"
+PLAYER_SUB_OUTS_COLUMN: Literal["sub_outs"] = "sub_outs"
+PLAYER_SUSPENSIONS_COLUMN: Literal["suspensions"] = "suspensions"
+PLAYER_TIME_ENDED_COLUMN: Literal["time_ended"] = "time_ended"
+PLAYER_TIME_STARTED_COLUMN: Literal["time_started"] = "time_started"
+PLAYER_WIN_PERCENTAGE_COLUMN: Literal["win_percentage"] = "win_percentage"
+PLAYER_WINS_COLUMN: Literal["wins"] = "wins"
+PLAYER_WON_CORNERS_COLUMN: Literal["won_corners"] = "won_corners"
+PLAYER_CLEAN_SHEET_COLUMN: Literal["clean_sheet"] = "clean_sheet"
+PLAYER_CROSSES_CAUGHT_COLUMN: Literal["crosses_caught"] = "crosses_caught"
+PLAYER_GOALS_CONCEDED_COLUMN: Literal["goals_conceded"] = "goals_conceded"
+PLAYER_PARTIAL_CLEAN_SHEET_COLUMN: Literal["partial_clean_sheet"] = (
+    "partial_clean_sheet"
+)
+PLAYER_PENALTY_KICK_CONCEDED_COLUMN: Literal["penalty_kick_conceded"] = (
+    "penalty_kick_conceded"
+)
+PLAYER_PENALTY_KICK_SAVE_PERCENTAGE_COLUMN: Literal["penalty_kick_save_percentage"] = (
+    "penalty_kick_save_percentage"
+)
+PLAYER_PENALTY_KICKS_FACED_COLUMN: Literal["penalty_kicks_faced"] = (
+    "penalty_kicks_faced"
+)
+PLAYER_PENALTY_KICKS_SAVED_COLUMN: Literal["penalty_kicks_saved"] = (
+    "penalty_kicks_saved"
+)
+PLAYER_PUNCHES_COLUMN: Literal["punches"] = "punches"
+PLAYER_SHOOT_OUT_KICKS_FACED_COLUMN: Literal["shoot_out_kicks_faced"] = (
+    "shoot_out_kicks_faced"
+)
+PLAYER_SHOOT_OUT_KICKS_SAVED_COLUMN: Literal["shoot_out_kicks_saved"] = (
+    "shoot_out_kicks_saved"
+)
+PLAYER_SHOOT_OUT_SAVE_PERCENTAGE_COLUMN: Literal["shoot_out_save_percentage"] = (
+    "shoot_out_save_percentage"
+)
+PLAYER_SHOTS_FACED_COLUMN: Literal["shots_faced"] = "shots_faced"
+PLAYER_SMOTHERS_COLUMN: Literal["smothers"] = "smothers"
+PLAYER_UNCLAIMED_CROSSES_COLUMN: Literal["unclaimed_crosses"] = "unclaimed_crosses"
+PLAYER_EFFECTIVE_CLEARANCES_COLUMN: Literal["effective_clearances"] = (
+    "effective_clearances"
+)
+PLAYER_EFFECTIVE_TACKLES_COLUMN: Literal["effective_tackles"] = "effective_tackles"
+PLAYER_INEFFECTIVE_TACKLES_COLUMN: Literal["ineffective_tackles"] = (
+    "ineffective_tackles"
+)
+PLAYER_TACKLE_PERCENTAGE_COLUMN: Literal["tackle_percentage"] = "tackle_percentage"
+PLAYER_APPEARANCES_COLUMN: Literal["appearances"] = "appearances"
+PLAYER_AVERAGE_RATING_FROM_CORRESPONDENT_COLUMN: Literal[
+    "average_rating_from_correspondent"
+] = "average_rating_from_correspondent"
+PLAYER_AVERAGE_RATING_FROM_DATA_FEED_COLUMN: Literal[
+    "average_rating_from_data_feed"
+] = "average_rating_from_data_feed"
+PLAYER_STRIKEOUTS_PER_NINE_INNINGS_COLUMN: Literal["strikeouts_per_nine_innings"] = (
+    "strikeouts_per_nine_innings"
+)
+PLAYER_STRIKEOUT_TO_WALK_RATIO_COLUMN: Literal["strikeout_to_walk_ratio"] = (
+    "strikeout_to_walk_ratio"
+)
+PLAYER_TOUGH_LOSSES_COLUMN: Literal["tough_losses"] = "tough_losses"
+PLAYER_CHEAP_WINS_COLUMN: Literal["cheap_wins"] = "cheap_wins"
+PLAYER_SAVE_OPPORTUNITIES_PER_WIN_COLUMN: Literal["save_opportunities_per_win"] = (
+    "save_opportunities_per_win"
+)
+PLAYER_PITCH_COUNT_COLUMN: Literal["pitch_count"] = "pitch_count"
+PLAYER_STRIKE_PITCH_RATIO_COLUMN: Literal["strike_pitch_ratio"] = "strike_pitch_ratio"
+PLAYER_DOUBLE_PLAYS_COLUMN: Literal["double_plays"] = "double_plays"
+PLAYER_OPPORTUNITIES_COLUMN: Literal["opportunities"] = "opportunities"
+PLAYER_PASSED_BALLS_COLUMN: Literal["passed_balls"] = "passed_balls"
+PLAYER_OUTFIELD_ASSISTS_COLUMN: Literal["outfield_assists"] = "outfield_assists"
+PLAYER_PICKOFFS_COLUMN: Literal["pickoffs"] = "pickoffs"
+PLAYER_OUTS_ON_FIELD_COLUMN: Literal["outs_on_field"] = "outs_on_field"
+PLAYER_TRIPLE_PLAYS_COLUMN: Literal["triple_plays"] = "triple_plays"
+PLAYER_BALLS_IN_ZONE_COLUMN: Literal["balls_in_zone"] = "balls_in_zone"
+PLAYER_EXTRA_BASES_COLUMN: Literal["extra_bases"] = "extra_bases"
+PLAYER_OUTS_MADE_COLUMN: Literal["outs_made"] = "outs_made"
+PLAYER_CATCHER_THIRD_INNINGS_PLAYED_COLUMN: Literal["catcher_third_innings_played"] = (
+    "catcher_third_innings_played"
+)
+PLAYER_CATCHER_CAUGHT_STEALING_COLUMN: Literal["catcher_caught_stealing"] = (
+    "catcher_caught_stealing"
+)
+PLAYER_CATCHER_STOLEN_BASES_ALLOWED_COLUMN: Literal["catcher_stolen_bases_allowed"] = (
+    "catcher_stolen_bases_allowed"
+)
+PLAYER_CATCHER_EARNED_RUNS_COLUMN: Literal["catcher_earned_runs"] = (
+    "catcher_earned_runs"
+)
+PLAYER_IS_QUALIFIED_CATCHER_COLUMN: Literal["is_qualified_catcher"] = (
+    "is_qualified_catcher"
+)
+PLAYER_IS_QUALIFIED_PITCHER_COLUMN: Literal["is_qualified_pitcher"] = (
+    "is_qualified_pitcher"
+)
+PLAYER_SUCCESSFUL_CHANCES_COLUMN: Literal["successful_chances"] = "successful_chances"
+PLAYER_TOTAL_CHANCES_COLUMN: Literal["total_chances"] = "total_chances"
+PLAYER_FULL_INNINGS_PLAYED_COLUMN: Literal["full_innings_played"] = (
+    "full_innings_played"
+)
+PLAYER_PART_INNINGS_PLAYED_COLUMN: Literal["part_innings_played"] = (
+    "part_innings_played"
+)
+PLAYER_FIELDING_PERCENTAGE_COLUMN: Literal["fielding_percentage"] = (
+    "fielding_percentage"
+)
+PLAYER_RANGE_FACTOR_COLUMN: Literal["range_factor"] = "range_factor"
+PLAYER_ZONE_RATING_COLUMN: Literal["zone_rating"] = "zone_rating"
+PLAYER_CATCHER_CAUGHT_STEALING_PERCENTAGE_COLUMN: Literal[
+    "catcher_caught_stealing_percentage"
+] = "catcher_caught_stealing_percentage"
+PLAYER_CATCHER_ERA_COLUMN: Literal["catcher_era"] = "catcher_era"
+PLAYER_DEF_WARBR_COLUMN: Literal["def_warbr"] = "def_warbr"
+PLAYER_WINS_ABOVE_REPLACEMENT_COLUMN: Literal["wins_above_replacement"] = (
+    "wins_above_replacement"
+)
+PLAYER_BATTERS_HIT_COLUMN: Literal["batters_hit"] = "batters_hit"
+PLAYER_SACRIFICE_BUNTS_COLUMN: Literal["sacrifice_bunts"] = "sacrifice_bunts"
+PLAYER_SAVE_OPPORTUNITIES_COLUMN: Literal["save_opportunities"] = "save_opportunities"
+PLAYER_FINISHES_COLUMN: Literal["finishes"] = "finishes"
+PLAYER_BALKS_COLUMN: Literal["balks"] = "balks"
+PLAYER_HOLDS_COLUMN: Literal["holds"] = "holds"
+PLAYER_COMPLETE_GAMES_COLUMN: Literal["complete_games"] = "complete_games"
+PLAYER_PERFECT_GAMES_COLUMN: Literal["perfect_games"] = "perfect_games"
+PLAYER_WILD_PITCHES_COLUMN: Literal["wild_pitches"] = "wild_pitches"
+PLAYER_THIRD_INNINGS_COLUMN: Literal["third_innings"] = "third_innings"
+PLAYER_TEAM_EARNED_RUNS_COLUMN: Literal["team_earned_runs"] = "team_earned_runs"
+PLAYER_PICKOFF_ATTEMPTS_COLUMN: Literal["pickoff_attempts"] = "pickoff_attempts"
+PLAYER_RUN_SUPPORT_COLUMN: Literal["run_support"] = "run_support"
+PLAYER_PITCHES_AS_STARTER_COLUMN: Literal["pitches_as_starter"] = "pitches_as_starter"
+PLAYER_AVERAGE_GAME_SCORE_COLUMN: Literal["average_game_score"] = "average_game_score"
+PLAYER_QUALITY_STARTS_COLUMN: Literal["quality_starts"] = "quality_starts"
+PLAYER_INHERITED_RUNNERS_SCORED_COLUMN: Literal["inherited_runners_scored"] = (
+    "inherited_runners_scored"
+)
+PLAYER_OPPONENT_TOTAL_BASES_COLUMN: Literal["opponent_total_bases"] = (
+    "opponent_total_bases"
+)
+PLAYER_IS_QUALIFIED_SAVES_COLUMN: Literal["is_qualified_saves"] = "is_qualified_saves"
+PLAYER_FULL_INNINGS_COLUMN: Literal["full_innings"] = "full_innings"
+PLAYER_PART_INNINGS_COLUMN: Literal["part_innings"] = "part_innings"
+PLAYER_BLOWN_SAVES_COLUMN: Literal["blown_saves"] = "blown_saves"
+PLAYER_INNINGS_COLUMN: Literal["innings"] = "innings"
+PLAYER_WHIP_COLUMN: Literal["whip"] = "whip"
+PLAYER_CAUGHT_STEALING_PERCENTAGE_COLUMN: Literal["caught_stealing_percentage"] = (
+    "caught_stealing_percentage"
+)
+PLAYER_PITCHES_PER_START_COLUMN: Literal["pitches_per_start"] = "pitches_per_start"
+PLAYER_PITCHES_PER_INNING_COLUMN: Literal["pitches_per_inning"] = "pitches_per_inning"
+PLAYER_RUN_SUPPORT_AVERAGE_COLUMN: Literal["run_support_average"] = (
+    "run_support_average"
+)
+PLAYER_OPPONENT_AVERAGE_COLUMN: Literal["opponent_average"] = "opponent_average"
+PLAYER_OPPONENT_SLUG_AVERAGE_COLUMN: Literal["opponent_slug_average"] = (
+    "opponent_slug_average"
+)
+PLAYER_OPPONENT_ON_BASE_PERCENTAGE_COLUMN: Literal["opponent_on_base_percentage"] = (
+    "opponent_on_base_percentage"
+)
+PLAYER_OPPONENT_OPS_COLUMN: Literal["opponent_ops"] = "opponent_ops"
+PLAYER_DOUBLES_COLUMN: Literal["doubles"] = "doubles"
+PLAYER_CAUGHT_STEALING_COLUMN: Literal["caught_stealing"] = "caught_stealing"
+PLAYER_GAMES_STARTED_COLUMN: Literal["games_started"] = "games_started"
+PLAYER_PINCH_AT_BATS_COLUMN: Literal["pinch_at_bats"] = "pinch_at_bats"
+PLAYER_PINCH_HITS_COLUMN: Literal["pinch_hits"] = "pinch_hits"
+PLAYER_PLAYER_RATING_COLUMN: Literal["player_rating"] = "player_rating"
+PLAYER_IS_QUALIFIED_COLUMN: Literal["is_qualified"] = "is_qualified"
+PLAYER_IS_QUALIFIED_STEALS_COLUMN: Literal["is_qualified_steals"] = (
+    "is_qualified_steals"
+)
+PLAYER_TOTAL_BASES_COLUMN: Literal["total_bases"] = "total_bases"
+PLAYER_PROJECTED_HOME_RUNS_COLUMN: Literal["projected_home_runs"] = (
+    "projected_home_runs"
+)
+PLAYER_EXTRA_BASE_HITS_COLUMN: Literal["extra_base_hits"] = "extra_base_hits"
+PLAYER_RUNS_CREATED_COLUMN: Literal["runs_created"] = "runs_created"
+PLAYER_BATTING_AVERAGE_COLUMN: Literal["batting_average"] = "batting_average"
+PLAYER_PINCH_AVERAGE_COLUMN: Literal["pinch_average"] = "pinch_average"
+PLAYER_SLUG_AVERAGE_COLUMN: Literal["slug_average"] = "slug_average"
+PLAYER_SECONDARY_AVERAGE_COLUMN: Literal["secondary_average"] = "secondary_average"
+PLAYER_ON_BASE_PERCENTAGE_COLUMN: Literal["on_base_percentage"] = "on_base_percentage"
+PLAYER_GROUND_TO_FLY_RATIO_COLUMN: Literal["ground_to_fly_ratio"] = (
+    "ground_to_fly_ratio"
+)
+PLAYER_RUNS_CREATED_PER_27_OUTS_COLUMN: Literal["runs_created_per_27_outs"] = (
+    "runs_created_per_27_outs"
+)
+PLAYER_BATTER_RATING_COLUNN: Literal["batter_rating"] = "batter_rating"
+PLAYER_AT_BATS_PER_HOME_RUN_COLUMN: Literal["at_bats_per_home_run"] = (
+    "at_bats_per_home_run"
+)
+PLAYER_STOLEN_BASE_PERCENTAGE_COLUMN: Literal["stolen_base_percentage"] = (
+    "stolen_base_percentage"
+)
+PLAYER_PITCHES_PER_PLATE_APPEARANCE_COLUMN: Literal["pitches_per_plate_appearance"] = (
+    "pitches_per_plate_appearance"
+)
+PLAYER_ISOLATED_POWER_COLUMN: Literal["isolated_power"] = "isolated_power"
+PLAYER_WALK_TO_STRIKEOUT_RATIO_COLUMN: Literal["walk_to_strikeout_ratio"] = (
+    "walk_to_strikeout_ratio"
+)
+PLAYER_WALKS_PER_PLATE_APPEARANCE_COLUMN: Literal["walks_per_plate_appearance"] = (
+    "walks_per_plate_appearance"
+)
+PLAYER_SECONDARY_AVERAGE_MINUS_BATTING_AVERAGE_COLUMN: Literal[
+    "secondary_average_minus_batting_average"
+] = "secondary_average_minus_batting_average"
+PLAYER_RUNS_PRODUCED_COLUMN: Literal["runs_produced"] = "runs_produced"
+PLAYER_RUNS_RATIO_COLUMN: Literal["runs_ratio"] = "runs_ratio"
+PLAYER_PATIENCE_RATIO_COLUMN: Literal["patience_ratio"] = "patience_ratio"
+PLAYER_BALLS_IN_PLAY_AVERAGE_COLUMN: Literal["balls_in_play_average"] = (
+    "balls_in_play_average"
+)
+PLAYER_MLB_RATING_COLUMN: Literal["mlb_rating"] = "mlb_rating"
+PLAYER_OFFENSIVE_WINS_ABOVE_REPLACEMENT_COLUMN: Literal[
+    "offensive_wins_above_replacement"
+] = "offensive_wins_above_replacement"
+PLAYER_GAMES_PLAYED_COLUMN: Literal["games_played"] = "games_played"
+PLAYER_TEAM_GAMES_PLAYED_COLUMN: Literal["team_games_played"] = "team_games_played"
+PLAYER_HIT_BY_PITCH_COLUMN: Literal["hit_by_pitch"] = "hit_by_pitch"
+PLAYER_RBIS_COLUMN: Literal["rbis"] = "rbis"
+PLAYER_SAC_HITS_COLUMN: Literal["sac_hits"] = "sac_hits"
+PLAYER_STOLEN_BASES_COLUMN: Literal["stolen_bases"] = "stolen_bases"
+PLAYER_WALKS_COLUMN: Literal["walks"] = "walks"
+PLAYER_CATCHER_INTERFERENCE_COLUMN: Literal["catcher_interference"] = (
+    "catcher_interference"
+)
+PLAYER_GIDPS_COLUMN: Literal["gidps"] = "gidps"
+PLAYER_SAC_FLIES_COLUMN: Literal["sac_flies"] = "sac_flies"
+PLAYER_GRAND_SLAM_HOME_RUNS_COLUMN: Literal["grand_slam_home_runs"] = (
+    "grand_slam_home_runs"
+)
+PLAYER_RUNNERS_LEFT_ON_BASE_COLUMN: Literal["runners_left_on_base"] = (
+    "runners_left_on_base"
+)
+PLAYER_TRIPLES_COLUMN: Literal["triples"] = "triples"
+PLAYER_GAME_WINNING_RBIS_COLUMN: Literal["game_winning_rbis"] = "game_winning_rbis"
+PLAYER_INTENTIONAL_WALKS_COLUMN: Literal["intentional_walks"] = "intentional_walks"
+VERSION = DELIMITER.join(["0.0.9", ADDRESS_VERSION, OWNER_VERSION, VENUE_VERSION])
 
 
 def _guess_sex(data: dict[str, Any]) -> str | None:
@@ -3576,4 +3897,979 @@ class PlayerModel(BaseModel):
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=PLAYER_POINTS_WON_PERCENTAGE_COLUMN,
+    )
+    tackles_inside_50: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TACKLES_INSIDE_50_COLUMN,
+    )
+    total_possessions: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TOTAL_POSSESSIONS_COLUMN,
+    )
+    score_involvements: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SCORE_INVOLVEMENTS_COLUMN,
+    )
+    goal_accuracy: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_GOAL_ACCURACY_COLUMN,
+    )
+    stoppage_clearances: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_STOPPAGE_CLEARANCES_COLUMN,
+    )
+    uncontested_marks: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_UNCONTESTED_MARKS_COLUMN,
+    )
+    disposal_efficiency: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_DISPOSAL_EFFICIENCY_COLUMN,
+    )
+    centre_clearances: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_CENTRE_CLEARANCES_COLUMN,
+    )
+    accurate_crosses: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_ACCURATE_CROSSES_COLUMN,
+    )
+    accurate_long_balls: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_ACCURATE_LONG_BALLS_COLUMN,
+    )
+    accurate_passes: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_ACCURATE_PASSES_COLUMN,
+    )
+    accurate_through_balls: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_ACCURATE_THROUGH_BALLS_COLUMN,
+    )
+    cross_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_CROSS_PERCENTAGE_COLUMN,
+    )
+    free_kick_goals: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_FREE_KICK_GOALS_COLUMN,
+    )
+    free_kick_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_FREE_KICK_PERCENTAGE_COLUMN,
+    )
+    free_kick_shots: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_FREE_KICK_SHOTS_COLUMN,
+    )
+    game_winning_assists: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_GAME_WINNING_ASSISTS_COLUMN,
+    )
+    headed_goals: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_HEADED_GOALS_COLUMN,
+    )
+    inaccurate_crosses: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_INACCURATE_CROSSES_COLUMN,
+    )
+    inaccurate_long_balls: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_INACCURATE_LONG_BALLS_COLUMN,
+    )
+    inaccurate_passes: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_INACCURATE_PASSES_COLUMN,
+    )
+    inaccurate_through_balls: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_INACCURATE_THROUGH_BALLS_COLUMN,
+    )
+    left_footed_shots: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_LEFT_FOOTED_SHOTS_COLUMN,
+    )
+    long_ball_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_LONG_BALL_PERCENTAGE_COLUMN,
+    )
+    penalty_kick_goals: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PENALTY_KICK_GOALS_COLUMN,
+    )
+    penalty_kick_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PENALTY_KICK_PERCENTAGE_COLUMN,
+    )
+    penalty_kicks_missed: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PENALTY_KICKS_MISSED_COLUMN,
+    )
+    possession_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_POSSESSION_PERCENTAGE_COLUMN,
+    )
+    possession_time: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_POSSESSION_TIME_COLUMN,
+    )
+    right_footed_shots: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_RIGHT_FOOTED_SHOTS_COLUMN,
+    )
+    shoot_out_goals: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOOT_OUT_GOALS_COLUMN,
+    )
+    shoot_out_misses: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOOT_OUT_MISSES_COLUMN,
+    )
+    shoot_out_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOOT_OUT_PERCENTAGE_COLUMN,
+    )
+    shot_assists: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOT_ASSISTS_COLUMN,
+    )
+    shot_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOT_PERCENTAGE_COLUMN,
+    )
+    shots_headed: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOTS_HEADED_COLUMN,
+    )
+    shots_off_target: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOTS_OFF_TARGET_COLUMN,
+    )
+    shots_on_post: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOTS_ON_POST_COLUMN,
+    )
+    through_ball_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_THROUGH_BALL_PERCENTAGE_COLUMN,
+    )
+    long_balls: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_LONG_BALLS_COLUMN,
+    )
+    total_passes: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TOTAL_PASSES_COLUMN,
+    )
+    average_rating_from_editor: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_AVERAGE_RATING_FROM_EDITOR_COLUMN,
+    )
+    average_rating_from_user: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_AVERAGE_RATING_FROM_USER_COLUMN,
+    )
+    did_not_play: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_DID_NOT_PLAY_COLUMN,
+    )
+    draws: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_DRAWS_COLUMN,
+    )
+    goal_difference: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_GOAL_DIFFERENCE_COLUMN,
+    )
+    losses: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_LOSSES_COLUMN,
+    )
+    lost_corners: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_LOST_CORNERS_COLUMN,
+    )
+    minutes: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_MINUTES_COLUMN,
+    )
+    pass_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PASS_PERCENTAGE_COLUMN,
+    )
+    starts: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_STARTS_COLUMN,
+    )
+    sub_ins: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SUB_INS_COLUMN,
+    )
+    sub_outs: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SUB_OUTS_COLUMN,
+    )
+    suspensions: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SUSPENSIONS_COLUMN,
+    )
+    time_ended: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TIME_ENDED_COLUMN,
+    )
+    time_started: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TIME_STARTED_COLUMN,
+    )
+    win_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_WIN_PERCENTAGE_COLUMN,
+    )
+    wins: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_WINS_COLUMN,
+    )
+    won_corners: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_WON_CORNERS_COLUMN,
+    )
+    clean_sheet: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_CLEAN_SHEET_COLUMN,
+    )
+    crosses_caught: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_CROSSES_CAUGHT_COLUMN,
+    )
+    goals_conceded: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_GOALS_CONCEDED_COLUMN,
+    )
+    partial_clean_sheet: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PARTIAL_CLEAN_SHEET_COLUMN,
+    )
+    penalty_kick_conceded: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PENALTY_KICK_CONCEDED_COLUMN,
+    )
+    penalty_kick_save_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PENALTY_KICK_SAVE_PERCENTAGE_COLUMN,
+    )
+    penalty_kicks_faced: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PENALTY_KICKS_FACED_COLUMN,
+    )
+    penalty_kicks_saved: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PENALTY_KICKS_SAVED_COLUMN,
+    )
+    punches: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PUNCHES_COLUMN,
+    )
+    shoot_out_kicks_faced: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOOT_OUT_KICKS_FACED_COLUMN,
+    )
+    shoot_out_kicks_saved: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOOT_OUT_KICKS_SAVED_COLUMN,
+    )
+    shoot_out_save_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOOT_OUT_SAVE_PERCENTAGE_COLUMN,
+    )
+    shots_faced: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOTS_FACED_COLUMN,
+    )
+    smothers: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SMOTHERS_COLUMN,
+    )
+    unclaimed_crosses: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_UNCLAIMED_CROSSES_COLUMN,
+    )
+    effective_clearances: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_EFFECTIVE_CLEARANCES_COLUMN,
+    )
+    effective_tackles: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_EFFECTIVE_TACKLES_COLUMN,
+    )
+    ineffective_tackles: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_INEFFECTIVE_TACKLES_COLUMN,
+    )
+    tackle_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TACKLE_PERCENTAGE_COLUMN,
+    )
+    appearances: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_APPEARANCES_COLUMN,
+    )
+    average_rating_from_correspondent: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_AVERAGE_RATING_FROM_CORRESPONDENT_COLUMN,
+    )
+    average_rating_from_data_feed: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_AVERAGE_RATING_FROM_DATA_FEED_COLUMN,
+    )
+    strikeouts_per_nine_inning: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_STRIKEOUTS_PER_NINE_INNINGS_COLUMN,
+    )
+    strikeout_to_walk_ratio: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_STRIKEOUT_TO_WALK_RATIO_COLUMN,
+    )
+    tough_losses: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TOUGH_LOSSES_COLUMN,
+    )
+    cheap_wins: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_CHEAP_WINS_COLUMN,
+    )
+    save_opportunities_per_win: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SAVE_OPPORTUNITIES_PER_WIN_COLUMN,
+    )
+    pitch_count: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PITCH_COUNT_COLUMN,
+    )
+    strike_pitch_ratio: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_STRIKE_PITCH_RATIO_COLUMN,
+    )
+    double_plays: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_DOUBLE_PLAYS_COLUMN,
+    )
+    opportunities: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_OPPORTUNITIES_COLUMN,
+    )
+    passed_balls: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PASSED_BALLS_COLUMN,
+    )
+    outfield_assists: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_OUTFIELD_ASSISTS_COLUMN,
+    )
+    pickoffs: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PICKOFFS_COLUMN,
+    )
+    outs_on_field: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_OUTS_ON_FIELD_COLUMN,
+    )
+    triple_plays: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TRIPLE_PLAYS_COLUMN,
+    )
+    balls_in_zone: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_BALLS_IN_ZONE_COLUMN,
+    )
+    extra_bases: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_EXTRA_BASES_COLUMN,
+    )
+    outs_made: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_OUTS_MADE_COLUMN,
+    )
+    catcher_third_innings_played: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_CATCHER_THIRD_INNINGS_PLAYED_COLUMN,
+    )
+    catcher_caught_stealing: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_CATCHER_CAUGHT_STEALING_COLUMN,
+    )
+    catcher_stolen_bases_allowed: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_CATCHER_STOLEN_BASES_ALLOWED_COLUMN,
+    )
+    catcher_earned_runs: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_CATCHER_EARNED_RUNS_COLUMN,
+    )
+    is_qualified_catcher: bool | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_IS_QUALIFIED_CATCHER_COLUMN,
+    )
+    is_qualified_pitcher: bool | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_IS_QUALIFIED_PITCHER_COLUMN,
+    )
+    successful_chances: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SUCCESSFUL_CHANCES_COLUMN,
+    )
+    total_chances: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TOTAL_CHANCES_COLUMN,
+    )
+    full_innings_played: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_FULL_INNINGS_PLAYED_COLUMN,
+    )
+    part_innings_played: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PART_INNINGS_PLAYED_COLUMN,
+    )
+    fielding_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_FIELDING_PERCENTAGE_COLUMN,
+    )
+    range_factor: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_RANGE_FACTOR_COLUMN,
+    )
+    zone_rating: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_ZONE_RATING_COLUMN,
+    )
+    catcher_caught_stealing_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_CATCHER_CAUGHT_STEALING_PERCENTAGE_COLUMN,
+    )
+    catcher_era: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_CATCHER_ERA_COLUMN,
+    )
+    def_warbr: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_DEF_WARBR_COLUMN,
+    )
+    wins_above_replacement: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_WINS_ABOVE_REPLACEMENT_COLUMN,
+    )
+    batters_hit: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_BATTERS_HIT_COLUMN,
+    )
+    sacrifice_bunts: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SACRIFICE_BUNTS_COLUMN,
+    )
+    save_opportunities: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SAVE_OPPORTUNITIES_COLUMN,
+    )
+    finishes: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_FINISHES_COLUMN,
+    )
+    balks: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_BALKS_COLUMN,
+    )
+    holds: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_HOLDS_COLUMN,
+    )
+    complete_games: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_COMPLETE_GAMES_COLUMN,
+    )
+    perfect_games: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PERFECT_GAMES_COLUMN,
+    )
+    wild_pitches: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_WILD_PITCHES_COLUMN,
+    )
+    third_innings: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_THIRD_INNINGS_COLUMN,
+    )
+    team_earned_runs: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TEAM_EARNED_RUNS_COLUMN,
+    )
+    pickoff_attempts: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PICKOFF_ATTEMPTS_COLUMN,
+    )
+    run_support: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_RUN_SUPPORT_COLUMN,
+    )
+    pitches_as_starter: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PITCHES_AS_STARTER_COLUMN,
+    )
+    average_game_score: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_AVERAGE_GAME_SCORE_COLUMN,
+    )
+    quality_starts: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_QUALITY_STARTS_COLUMN,
+    )
+    inherited_runners_scored: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_INHERITED_RUNNERS_SCORED_COLUMN,
+    )
+    opponent_total_bases: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_OPPONENT_TOTAL_BASES_COLUMN,
+    )
+    is_qualified_saves: bool | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_IS_QUALIFIED_SAVES_COLUMN,
+    )
+    full_innings: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_FULL_INNINGS_COLUMN,
+    )
+    part_innings: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PART_INNINGS_COLUMN,
+    )
+    blown_saves: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_BLOWN_SAVES_COLUMN,
+    )
+    innings: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_INNINGS_COLUMN,
+    )
+    whip: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_WHIP_COLUMN,
+    )
+    caught_stealing_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_CAUGHT_STEALING_PERCENTAGE_COLUMN,
+    )
+    pitches_per_start: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PITCHES_PER_START_COLUMN,
+    )
+    pitches_per_inning: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PITCHES_PER_INNING_COLUMN,
+    )
+    run_support_average: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_RUN_SUPPORT_AVERAGE_COLUMN,
+    )
+    opponent_average: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_OPPONENT_AVERAGE_COLUMN,
+    )
+    opponent_slug_average: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_OPPONENT_SLUG_AVERAGE_COLUMN,
+    )
+    opponent_on_base_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_OPPONENT_ON_BASE_PERCENTAGE_COLUMN,
+    )
+    opponent_ops: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_OPPONENT_OPS_COLUMN,
+    )
+    doubles: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_DOUBLES_COLUMN,
+    )
+    caught_stealing: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_CAUGHT_STEALING_COLUMN,
+    )
+    games_started: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_GAMES_STARTED_COLUMN,
+    )
+    pinch_at_bats: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PINCH_AT_BATS_COLUMN,
+    )
+    pinch_hits: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PINCH_HITS_COLUMN,
+    )
+    player_rating: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PLAYER_RATING_COLUMN,
+    )
+    is_qualified: bool | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_IS_QUALIFIED_COLUMN,
+    )
+    is_qualified_steals: bool | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_IS_QUALIFIED_STEALS_COLUMN,
+    )
+    total_bases: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TOTAL_BASES_COLUMN,
+    )
+    projected_home_runs: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PROJECTED_HOME_RUNS_COLUMN,
+    )
+    extra_base_hits: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_EXTRA_BASE_HITS_COLUMN,
+    )
+    runs_created: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_RUNS_CREATED_COLUMN,
+    )
+    batting_average: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_BATTING_AVERAGE_COLUMN,
+    )
+    pinch_average: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PINCH_AVERAGE_COLUMN,
+    )
+    slug_average: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SLUG_AVERAGE_COLUMN,
+    )
+    secondary_average: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SECONDARY_AVERAGE_COLUMN,
+    )
+    on_base_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_ON_BASE_PERCENTAGE_COLUMN,
+    )
+    ground_to_fly_ratio: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_GROUND_TO_FLY_RATIO_COLUMN,
+    )
+    runs_created_per_27_outs: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_RUNS_CREATED_PER_27_OUTS_COLUMN,
+    )
+    batter_rating: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_BATTER_RATING_COLUNN,
+    )
+    at_bats_per_home_run: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_AT_BATS_PER_HOME_RUN_COLUMN,
+    )
+    stolen_base_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_STOLEN_BASE_PERCENTAGE_COLUMN,
+    )
+    pitches_per_plate_appearance: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PITCHES_PER_PLATE_APPEARANCE_COLUMN,
+    )
+    isolated_power: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_ISOLATED_POWER_COLUMN,
+    )
+    walk_to_strikeout_ratio: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_WALK_TO_STRIKEOUT_RATIO_COLUMN,
+    )
+    walks_per_plate_appearance: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_WALKS_PER_PLATE_APPEARANCE_COLUMN,
+    )
+    secondary_average_minus_batting_average: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SECONDARY_AVERAGE_MINUS_BATTING_AVERAGE_COLUMN,
+    )
+    runs_produced: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_RUNS_PRODUCED_COLUMN,
+    )
+    runs_ratio: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_RUNS_RATIO_COLUMN,
+    )
+    patience_ratio: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PATIENCE_RATIO_COLUMN,
+    )
+    balls_in_play_average: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_BALLS_IN_PLAY_AVERAGE_COLUMN,
+    )
+    mlb_rating: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_MLB_RATING_COLUMN,
+    )
+    offensive_wins_above_replacement: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_OFFENSIVE_WINS_ABOVE_REPLACEMENT_COLUMN,
+    )
+    games_played: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_GAMES_PLAYED_COLUMN,
+    )
+    team_games_played: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TEAM_GAMES_PLAYED_COLUMN,
+    )
+    hit_by_pitch: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_HIT_BY_PITCH_COLUMN,
+    )
+    rbis: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_RBIS_COLUMN,
+    )
+    sac_hits: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SAC_HITS_COLUMN,
+    )
+    stolen_bases: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_STOLEN_BASES_COLUMN,
+    )
+    walks: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_WALKS_COLUMN,
+    )
+    catcher_interference: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_CATCHER_INTERFERENCE_COLUMN,
+    )
+    gidps: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_GIDPS_COLUMN,
+    )
+    sac_flies: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SAC_FLIES_COLUMN,
+    )
+    grand_slam_home_runs: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_GRAND_SLAM_HOME_RUNS_COLUMN,
+    )
+    runners_left_on_base: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_RUNNERS_LEFT_ON_BASE_COLUMN,
+    )
+    triples: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TRIPLES_COLUMN,
+    )
+    game_winning_rbis: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_GAME_WINNING_RBIS_COLUMN,
+    )
+    intentional_walks: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_INTENTIONAL_WALKS_COLUMN,
     )
