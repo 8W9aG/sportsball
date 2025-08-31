@@ -2,7 +2,7 @@
 
 from typing import Literal
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 from .delimiter import DELIMITER
 from .field_type import TYPE_KEY, FieldType
@@ -18,6 +18,13 @@ VERSION = DELIMITER.join(["0.0.1", WEATHER_VERSION])
 
 class AddressModel(BaseModel):
     """The class for representing an address."""
+
+    model_config = ConfigDict(
+        validate_assignment=False,
+        revalidate_instances="never",
+        extra="ignore",
+        from_attributes=False,
+    )
 
     city: str = Field(..., json_schema_extra={TYPE_KEY: FieldType.CATEGORICAL})
     state: str = Field(..., json_schema_extra={TYPE_KEY: FieldType.CATEGORICAL})

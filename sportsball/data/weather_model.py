@@ -2,7 +2,7 @@
 
 from typing import Literal
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 from .field_type import TYPE_KEY, FieldType
 
@@ -11,6 +11,13 @@ VERSION: Literal["0.0.1"] = "0.0.1"
 
 class WeatherModel(BaseModel):
     """The serialisable class for representing weather."""
+
+    model_config = ConfigDict(
+        validate_assignment=False,
+        revalidate_instances="never",
+        extra="ignore",
+        from_attributes=False,
+    )
 
     temperature: float | None
     relative_humidity: float | None

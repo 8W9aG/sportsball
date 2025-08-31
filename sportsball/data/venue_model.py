@@ -2,7 +2,7 @@
 
 from typing import Literal
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 from .address_model import VERSION as ADDRESS_VERSION
 from .address_model import AddressModel
@@ -18,6 +18,13 @@ VERSION = DELIMITER.join(["0.0.1", ADDRESS_VERSION])
 
 class VenueModel(BaseModel):
     """The serialisable venue class."""
+
+    model_config = ConfigDict(
+        validate_assignment=False,
+        revalidate_instances="never",
+        extra="ignore",
+        from_attributes=False,
+    )
 
     identifier: str = Field(
         ...,

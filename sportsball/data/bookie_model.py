@@ -2,7 +2,7 @@
 
 from typing import Literal
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 from .field_type import TYPE_KEY, FieldType
 
@@ -11,6 +11,13 @@ BOOKIE_IDENTIFIER_COLUMN: Literal["identifier"] = "identifier"
 
 class BookieModel(BaseModel):
     """The serialisable bookie class."""
+
+    model_config = ConfigDict(
+        validate_assignment=False,
+        revalidate_instances="never",
+        extra="ignore",
+        from_attributes=False,
+    )
 
     identifier: str = Field(
         ...,

@@ -36,7 +36,7 @@ def create_combined_venue_model(
         is_indoor = more_interesting(is_indoor, venue_model.is_indoor)
         is_turf = more_interesting(is_turf, venue_model.is_turf)
         is_dirt = more_interesting(is_dirt, venue_model.is_dirt)
-    return VenueModel(
+    return VenueModel.model_construct(
         identifier=identifier,
         name=venue_models[0].name,
         address=create_combined_address_model(address_models),  # type: ignore

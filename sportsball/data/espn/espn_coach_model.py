@@ -1,6 +1,7 @@
 """ESPN coach model."""
 
 import datetime
+from typing import Any
 
 import pytest_is_running
 import requests_cache
@@ -13,7 +14,7 @@ def _create_espn_coach_model(
     session: requests_cache.CachedSession,
     url: str,
     version: str,
-) -> CoachModel:
+) -> dict[str, Any]:
     response = session.get(url)
     response.raise_for_status()
     data = response.json()
@@ -23,7 +24,7 @@ def _create_espn_coach_model(
         birth_date=None,
         age=None,
         version=version,
-    )
+    ).model_dump()
 
 
 @MEMORY.cache(ignore=["session"])
@@ -31,7 +32,7 @@ def _cached_create_espn_coach_model(
     session: requests_cache.CachedSession,
     url: str,
     version: str,
-) -> CoachModel:
+) -> dict[str, Any]:
     return _create_espn_coach_model(session=session, url=url, version=version)
 
 
@@ -45,8 +46,10 @@ def create_espn_coach_model(
         not pytest_is_running.is_running()
         and dt.date() < datetime.datetime.today().date() - datetime.timedelta(days=7)
     ):
-        return _cached_create_espn_coach_model(
-            session=session, url=url, version=VERSION
+        return CoachModel.model_construct(
+            **_cached_create_espn_coach_model(session=session, url=url, version=VERSION)
         )
     with session.cache_disabled():
-        return _create_espn_coach_model(session=session, url=url, version=VERSION)
+        return CoachModel.model_construct(
+            **_create_espn_coach_model(session=session, url=url, version=VERSION)
+        )

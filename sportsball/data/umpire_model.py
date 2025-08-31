@@ -4,7 +4,7 @@
 import datetime
 from typing import Any, Literal
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 from .address_model import VERSION as ADDRESS_VERSION
 from .address_model import AddressModel
@@ -39,6 +39,13 @@ def _guess_sex(data: dict[str, Any]) -> str | None:
 
 class UmpireModel(BaseModel):
     """The serialisable umpire class."""
+
+    model_config = ConfigDict(
+        validate_assignment=False,
+        revalidate_instances="never",
+        extra="ignore",
+        from_attributes=False,
+    )
 
     identifier: str = Field(
         ...,

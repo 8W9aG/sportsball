@@ -29,7 +29,7 @@ def create_combined_umpire_model(
     if name is None:
         raise ValueError("name is null")
 
-    umpire_model = UmpireModel(
+    umpire_model = UmpireModel.model_construct(
         identifier=identifier,
         name=name,
         sex=sex,

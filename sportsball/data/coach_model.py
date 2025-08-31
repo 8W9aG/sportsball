@@ -3,7 +3,7 @@
 import datetime
 from typing import Any, Literal
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 from .field_type import FFILL_KEY, TYPE_KEY, FieldType
 from .sex import (FEMALE_GENDERS, GENDER_DETECTOR, MALE_GENDERS,
@@ -31,6 +31,13 @@ def _guess_sex(data: dict[str, Any]) -> str | None:
 
 class CoachModel(BaseModel):
     """The serialisable coach class."""
+
+    model_config = ConfigDict(
+        validate_assignment=False,
+        revalidate_instances="never",
+        extra="ignore",
+        from_attributes=False,
+    )
 
     identifier: str = Field(
         ...,

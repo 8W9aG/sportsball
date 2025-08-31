@@ -7,6 +7,7 @@ import multiprocessing
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Any, Iterator
 
+import tqdm
 from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
 from ..game_model import GameModel
@@ -116,7 +117,7 @@ class CombinedLeagueModel(LeagueModel):
         coach_ffill: dict[str, dict[str, Any]] = {}
         umpire_ffill: dict[str, dict[str, Any]] = {}
         last_game_number = None
-        for game_models in games.values():
+        for game_models in tqdm.tqdm(games.values(), desc="Combining Game Models"):
             game_model = create_combined_game_model(  # type: ignore
                 game_models=game_models,
                 venue_identity_map=self.venue_identity_map(),

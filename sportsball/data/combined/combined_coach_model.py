@@ -24,7 +24,7 @@ def create_combined_coach_model(
         sex = more_interesting(sex, coach_model.sex)
     if name is None:
         raise ValueError("name is null.")
-    coach_model = CoachModel(
+    coach_model = CoachModel.model_construct(
         identifier=identifier,
         name=name,
         birth_date=birth_date,

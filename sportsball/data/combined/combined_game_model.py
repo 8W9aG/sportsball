@@ -158,7 +158,7 @@ def create_combined_game_model(
     if game_number is None and last_game_number is not None:
         game_number = last_game_number + 1
 
-    return GameModel(
+    return GameModel.model_construct(
         dt=dt,
         week=week,
         game_number=game_number,

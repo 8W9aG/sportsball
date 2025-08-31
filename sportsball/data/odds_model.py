@@ -3,7 +3,7 @@
 import datetime
 from typing import Literal
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 from .bookie_model import BookieModel
 from .field_type import TYPE_KEY, FieldType
@@ -17,6 +17,13 @@ ODDS_BET_COLUMN: Literal["bet"] = "bet"
 
 class OddsModel(BaseModel):
     """The serialisable odds class."""
+
+    model_config = ConfigDict(
+        validate_assignment=False,
+        revalidate_instances="never",
+        extra="ignore",
+        from_attributes=False,
+    )
 
     odds: float = Field(
         ..., json_schema_extra={TYPE_KEY: FieldType.ODDS}, alias=ODDS_ODDS_COLUMN

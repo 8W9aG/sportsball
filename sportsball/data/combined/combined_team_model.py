@@ -1110,7 +1110,7 @@ def create_combined_team_model(
     ]
     player_list.sort(key=functools.cmp_to_key(_compare_player_models))
 
-    team_model = TeamModel(
+    team_model = TeamModel.model_construct(
         identifier=identifier,
         name=team_models[0].name,
         location=location,

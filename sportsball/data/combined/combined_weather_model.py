@@ -236,7 +236,7 @@ def create_combined_weather_model(
             weather_model.daily_reference_evapotranspiration,
         )
 
-    return WeatherModel(
+    return WeatherModel.model_construct(
         temperature=temperature,
         relative_humidity=relative_humidity,
         dew_point=dew_point,

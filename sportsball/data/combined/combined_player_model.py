@@ -2346,7 +2346,7 @@ def create_combined_player_model(
     if species is None:
         raise ValueError("species is null")
 
-    player_model = PlayerModel(
+    player_model = PlayerModel.model_construct(
         identifier=identifier,
         jersey=jersey,
         kicks=kicks,

@@ -4,7 +4,7 @@
 import datetime
 from typing import Any, Literal
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 from .coach_model import VERSION as COACH_VERSION
 from .coach_model import CoachModel
@@ -1190,6 +1190,13 @@ def _calculate_fumbles_touchdowns(data: dict[str, Any]) -> float | None:
 
 class TeamModel(BaseModel):
     """The serialisable team class."""
+
+    model_config = ConfigDict(
+        validate_assignment=False,
+        revalidate_instances="never",
+        extra="ignore",
+        from_attributes=False,
+    )
 
     identifier: str = Field(
         ...,

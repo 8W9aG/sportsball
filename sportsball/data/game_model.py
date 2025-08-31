@@ -4,7 +4,7 @@ import datetime
 from typing import Literal
 
 import pytz
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 from .delimiter import DELIMITER
 from .dividend_model import DividendModel
@@ -54,6 +54,13 @@ def localize(venue: VenueModel | None, dt: datetime.datetime) -> datetime.dateti
 
 class GameModel(BaseModel):
     """The serialisable representation of a game."""
+
+    model_config = ConfigDict(
+        validate_assignment=False,
+        revalidate_instances="never",
+        extra="ignore",
+        from_attributes=False,
+    )
 
     dt: datetime.datetime
     week: int | None = Field(..., alias=GAME_WEEK_COLUMN)

@@ -25,7 +25,7 @@ def create_combined_address_model(
         if not is_null(address_model_weather):
             weather_models.append(address_model_weather)
         altitude = more_interesting(altitude, address_model.altitude)
-    return AddressModel(
+    return AddressModel.model_construct(
         city=address_models[0].city,
         state=address_models[0].state,
         zipcode=address_models[0].zipcode,
