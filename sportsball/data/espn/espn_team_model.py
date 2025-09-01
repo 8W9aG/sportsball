@@ -420,6 +420,250 @@ def _create_espn_team_model(
     average_48_offensive_rebounds = None
     average_48_assists = None
     average_48_turnovers = None
+    fumbles = None
+    fumbles_lost = None
+    fumbles_forced = None
+    fumbles_recovered = None
+    fumbles_recovered_yards = None
+    fumbles_touchdowns = None
+    offensive_two_point_returns = None
+    offensive_fumbles_touchdowns = None
+    defensive_fumbles_touchdowns = None
+    average_gain = None
+    completion_percentage = None
+    completions = None
+    espn_qb_rating = None
+    interception_percentage = None
+    long_passing = None
+    misc_yards = None
+    net_passing_yards = None
+    net_passing_yards_per_game = None
+    net_total_yards = None
+    net_yards_per_game = None
+    passing_attempts = None
+    passing_big_plays = None
+    passing_first_downs = None
+    passing_fumbles = None
+    passing_fumbles_lost = None
+    passing_touchdown_percentage = None
+    passing_touchdowns = None
+    passing_yards = None
+    passing_yards_after_catch = None
+    passing_yards_at_catch = None
+    passing_yards_per_game = None
+    qb_rating = None
+    sacks = None
+    sack_yards_lost = None
+    net_passing_attempts = None
+    total_offensive_plays = None
+    total_points = None
+    total_points_per_game = None
+    total_touchdowns = None
+    total_yards = None
+    total_yards_from_scrimmage = None
+    two_point_pass_convs = None
+    two_point_pass = None
+    two_point_pass_attempts = None
+    yards_from_scrimmage_per_game = None
+    yards_per_completion = None
+    yards_per_game = None
+    yards_per_pass_attempt = None
+    net_yards_per_pass_attempt = None
+    quarterback_rating = None
+    espn_rb_rating = None
+    long_rushing = None
+    rushing_attempts = None
+    rushing_big_plays = None
+    rushing_first_downs = None
+    rushing_fumbles = None
+    rushing_fumbles_lost = None
+    rushing_touchdowns = None
+    rushing_yards = None
+    rushing_yards_per_game = None
+    stuffs = None
+    stuff_yards_lost = None
+    two_point_rush_conversions = None
+    two_point_rush = None
+    two_point_rush_attempts = None
+    yards_per_rush_attempt = None
+    espn_wr_rating = None
+    long_reception = None
+    receiving_big_plays = None
+    receiving_first_downs = None
+    receiving_fumbles = None
+    receiving_fumbles_lost = None
+    receiving_targets = None
+    receiving_touchdowns = None
+    receiving_yards = None
+    receiving_yards_after_catch = None
+    receiving_yards_at_catch = None
+    receiving_yards_per_game = None
+    receptions = None
+    two_point_rec_conversions = None
+    two_point_reception = None
+    two_point_reception_attempts = None
+    yards_per_reception = None
+    assist_tackles = None
+    average_interception_yards = None
+    average_sack_yards = None
+    average_stuff_yards = None
+    blocked_field_goal_touchdowns = None
+    blocked_punt_touchdowns = None
+    defensive_touchdowns = None
+    hurries = None
+    kicks_blocked = None
+    long_interception = None
+    misc_touchdowns = None
+    passes_batted_down = None
+    passes_defended = None
+    qb_hits = None
+    two_point_returns = None
+    sacks_assisted = None
+    sacks_unassisted = None
+    sack_yards = None
+    safeties = None
+    solo_tackles = None
+    stuff_yards = None
+    tackles_for_loss = None
+    tackles_yards_lost = None
+    yards_allowed = None
+    points_allowed = None
+    one_point_safeties_made = None
+    missed_field_goal_return_td = None
+    blocked_punt_ez_rec_td = None
+    interception_touchdowns = None
+    interception_yards = None
+    average_kickoff_return_yards = None
+    average_kickoff_yards = None
+    extra_point_attempts = None
+    extra_point_percentage = None
+    extra_points_blocked = None
+    extra_points_blocked_percentage = None
+    extra_points_made = None
+    fair_catches = None
+    fair_catch_percentage = None
+    field_goal_attempts = None
+    field_goal_attempts_1_19 = None
+    field_goal_attempts_20_29 = None
+    field_goal_attempts_30_39 = None
+    field_goal_attempts_40_49 = None
+    field_goal_attempts_50_59 = None
+    field_goal_attempts_60_99 = None
+    field_goal_attempts_50 = None
+    field_goal_attempt_yards = None
+    field_goals_blocked = None
+    field_goals_blocked_percentage = None
+    field_goals_made_1_19 = None
+    field_goals_made_20_29 = None
+    field_goals_made_30_39 = None
+    field_goals_made_40_49 = None
+    field_goals_made_50_59 = None
+    field_goals_made_60_99 = None
+    field_goals_made_50 = None
+    field_goals_made_yards = None
+    field_goals_missed_yards = None
+    kickoff_ob = None
+    kickoff_returns = None
+    kickoff_return_touchdowns = None
+    kickoff_return_yards = None
+    kickoffs = None
+    kickoff_yards = None
+    long_field_goal_attempt = None
+    long_field_goal_made = None
+    long_kickoff = None
+    total_kicking_points = None
+    touchback_percentage = None
+    touchbacks = None
+    def_fumble_returns = None
+    def_fumble_return_yards = None
+    fumble_recoveries = None
+    fumble_recovery_yards = None
+    kick_return_fair_catches = None
+    kick_return_fair_catch_percentage = None
+    kick_return_fumbles = None
+    kick_return_fumbles_lost = None
+    kick_returns = None
+    kick_return_touchdowns = None
+    kick_return_yards = None
+    long_kick_return = None
+    long_punt_return = None
+    misc_fumble_returns = None
+    misc_fumble_return_yards = None
+    opp_fumble_recoveries = None
+    opp_fumble_recovery_yards = None
+    opp_special_team_fumble_returns = None
+    opp_special_team_fumble_return_yards = None
+    punt_return_fair_catches = None
+    punt_return_fair_catch_percentage = None
+    punt_return_fumbles = None
+    punt_return_fumbles_lost = None
+    punt_returns = None
+    punt_returns_started_inside_the_10 = None
+    punt_returns_started_inside_the_20 = None
+    punt_return_touchdowns = None
+    punt_return_yards = None
+    special_team_fumble_returns = None
+    special_team_fumble_return_yards = None
+    yards_per_kick_return = None
+    yards_per_punt_return = None
+    yards_per_return = None
+    average_punt_return_yards = None
+    gross_average_punt_yards = None
+    long_punt = None
+    net_average_punt_yards = None
+    punts = None
+    punts_blocked = None
+    punts_blocked_percentage = None
+    punts_inside_10 = None
+    punts_inside_10_percentage = None
+    punts_inside_20 = None
+    punts_inside_20_percentage = None
+    punts_over_50 = None
+    punt_yards = None
+    defensive_points = None
+    kick_extra_points = None
+    kick_extra_points_made = None
+    misc_points = None
+    return_touchdowns = None
+    total_two_point_conversions = None
+    first_downs = None
+    first_downs_passing = None
+    first_downs_penalty = None
+    first_downs_per_game = None
+    first_downs_rushing = None
+    fourth_down_attempts = None
+    fourth_down_conversion_percentage = None
+    fourth_down_conversions = None
+    possession_time_seconds = None
+    redzone_attempt_points = None
+    redzone_attempts = None
+    redzone_conversions = None
+    redzone_efficiency_percentage = None
+    redzone_end_downs = None
+    redzone_end_game = None
+    redzone_end_half = None
+    redzone_field_goal_percentage = None
+    redzone_field_goal_points = None
+    redzone_field_goals = None
+    redzone_field_goals_missed = None
+    redzone_fumble = None
+    redzone_interception = None
+    redzone_scoring_percentage = None
+    redzone_total_points = None
+    redzone_touchdown_pass = None
+    redzone_touchdown_percentage = None
+    redzone_touchdown_points = None
+    redzone_touchdown_rush = None
+    redzone_touchdowns = None
+    third_down_attempts = None
+    third_down_conversion_percentage = None
+    third_down_conversions = None
+    timeouts_used = None
+    total_penalties = None
+    total_penalty_yards = None
+    total_plays = None
+    total_drives = None
+    turn_over_differential = None
     if "splits" in statistics_dict:
         for category in statistics_dict["splits"]["categories"]:
             for stat in category["stats"]:
@@ -1473,6 +1717,828 @@ def _create_espn_team_model(
                     average_48_turnovers = more_interesting(
                         average_48_turnovers, stat["value"]
                     )
+                elif stat["name"] == "fumbles":
+                    fumbles = more_interesting(fumbles, stat["value"])
+                elif stat["name"] == "fumblesLost":
+                    fumbles_lost = more_interesting(fumbles_lost, stat["value"])
+                elif stat["name"] == "fumblesForced":
+                    fumbles_forced = more_interesting(fumbles_forced, stat["value"])
+                elif stat["name"] == "fumblesRecovered":
+                    fumbles_recovered = more_interesting(
+                        fumbles_recovered, stat["value"]
+                    )
+                elif stat["name"] == "fumblesRecoveredYards":
+                    fumbles_recovered_yards = more_interesting(
+                        fumbles_recovered_yards, stat["value"]
+                    )
+                elif stat["name"] == "fumblesTouchdowns":
+                    fumbles_touchdowns = more_interesting(
+                        fumbles_touchdowns, stat["value"]
+                    )
+                elif stat["name"] == "offensiveTwoPtReturns":
+                    offensive_two_point_returns = more_interesting(
+                        offensive_two_point_returns, stat["value"]
+                    )
+                elif stat["name"] == "offensiveFumblesTouchdowns":
+                    offensive_fumbles_touchdowns = more_interesting(
+                        offensive_fumbles_touchdowns, stat["value"]
+                    )
+                elif stat["name"] == "defensiveFumblesTouchdowns":
+                    defensive_fumbles_touchdowns = more_interesting(
+                        defensive_fumbles_touchdowns, stat["value"]
+                    )
+                elif stat["name"] == "avgGain":
+                    average_gain = more_interesting(average_gain, stat["value"])
+                elif stat["name"] == "completionPct":
+                    completion_percentage = more_interesting(
+                        completion_percentage, stat["value"]
+                    )
+                elif stat["name"] == "completions":
+                    completions = more_interesting(completions, stat["value"])
+                elif stat["name"] == "ESPNQBRating":
+                    espn_qb_rating = more_interesting(espn_qb_rating, stat["value"])
+                elif stat["name"] == "interceptionPct":
+                    interception_percentage = more_interesting(
+                        interception_percentage, stat["value"]
+                    )
+                elif stat["name"] == "longPassing":
+                    long_passing = more_interesting(long_passing, stat["value"])
+                elif stat["name"] == "miscYards":
+                    misc_yards = more_interesting(misc_yards, stat["value"])
+                elif stat["name"] == "netPassingYards":
+                    net_passing_yards = more_interesting(
+                        net_passing_yards, stat["value"]
+                    )
+                elif stat["name"] == "netPassingYardsPerGame":
+                    net_passing_yards_per_game = more_interesting(
+                        net_passing_yards_per_game, stat["value"]
+                    )
+                elif stat["name"] == "netTotalYards":
+                    net_total_yards = more_interesting(net_total_yards, stat["value"])
+                elif stat["name"] == "netYardsPerGame":
+                    net_yards_per_game = more_interesting(
+                        net_yards_per_game, stat["value"]
+                    )
+                elif stat["name"] == "passingAttempts":
+                    passing_attempts = more_interesting(passing_attempts, stat["value"])
+                elif stat["name"] == "passingBigPlays":
+                    passing_big_plays = more_interesting(
+                        passing_big_plays, stat["value"]
+                    )
+                elif stat["name"] == "passingFirstDowns":
+                    passing_first_downs = more_interesting(
+                        passing_first_downs, stat["value"]
+                    )
+                elif stat["name"] == "passingFumbles":
+                    passing_fumbles = more_interesting(passing_fumbles, stat["value"])
+                elif stat["name"] == "passingFumblesLost":
+                    passing_fumbles_lost = more_interesting(
+                        passing_fumbles_lost, stat["value"]
+                    )
+                elif stat["name"] == "passingTouchdownPct":
+                    passing_touchdown_percentage = more_interesting(
+                        passing_touchdown_percentage, stat["value"]
+                    )
+                elif stat["name"] == "passingTouchdowns":
+                    passing_touchdowns = more_interesting(
+                        passing_touchdowns, stat["value"]
+                    )
+                elif stat["name"] == "passingYards":
+                    passing_yards = more_interesting(passing_yards, stat["value"])
+                elif stat["name"] == "passingYardsAfterCatch":
+                    passing_yards_after_catch = more_interesting(
+                        passing_yards_after_catch, stat["value"]
+                    )
+                elif stat["name"] == "passingYardsAtCatch":
+                    passing_yards_at_catch = more_interesting(
+                        passing_yards_at_catch, stat["value"]
+                    )
+                elif stat["name"] == "passingYardsPerGame":
+                    passing_yards_per_game = more_interesting(
+                        passing_yards_per_game, stat["value"]
+                    )
+                elif stat["name"] == "QBRating":
+                    qb_rating = more_interesting(qb_rating, stat["value"])
+                elif stat["name"] == "sacks":
+                    sacks = more_interesting(sacks, stat["value"])
+                elif stat["name"] == "sackYardsLost":
+                    sack_yards_lost = more_interesting(sack_yards_lost, stat["value"])
+                elif stat["name"] == "netPassingAttempts":
+                    net_passing_attempts = more_interesting(
+                        net_passing_attempts, stat["value"]
+                    )
+                elif stat["name"] == "totalOffensivePlays":
+                    total_offensive_plays = more_interesting(
+                        total_offensive_plays, stat["value"]
+                    )
+                elif stat["name"] == "totalPoints":
+                    total_points = more_interesting(total_points, stat["value"])
+                elif stat["name"] == "totalPointsPerGame":
+                    total_points_per_game = more_interesting(
+                        total_points_per_game, stat["value"]
+                    )
+                elif stat["name"] == "totalTouchdowns":
+                    total_touchdowns = more_interesting(total_touchdowns, stat["value"])
+                elif stat["name"] == "totalYards":
+                    total_yards = more_interesting(total_yards, stat["value"])
+                elif stat["name"] == "totalYardsFromScrimmage":
+                    total_yards_from_scrimmage = more_interesting(
+                        total_yards_from_scrimmage, stat["value"]
+                    )
+                elif stat["name"] == "twoPointPassConvs":
+                    two_point_pass_convs = more_interesting(
+                        two_point_pass_convs, stat["value"]
+                    )
+                elif stat["name"] == "twoPtPass":
+                    two_point_pass = more_interesting(two_point_pass, stat["value"])
+                elif stat["name"] == "twoPtPassAttempts":
+                    two_point_pass_attempts = more_interesting(
+                        two_point_pass_attempts, stat["value"]
+                    )
+                elif stat["name"] == "yardsFromScrimmagePerGame":
+                    yards_from_scrimmage_per_game = more_interesting(
+                        yards_from_scrimmage_per_game, stat["value"]
+                    )
+                elif stat["name"] == "yardsPerCompletion":
+                    yards_per_completion = more_interesting(
+                        yards_per_completion, stat["value"]
+                    )
+                elif stat["name"] == "yardsPerGame":
+                    yards_per_game = more_interesting(yards_per_game, stat["value"])
+                elif stat["name"] == "yardsPerPassAttempt":
+                    yards_per_pass_attempt = more_interesting(
+                        yards_per_pass_attempt, stat["value"]
+                    )
+                elif stat["name"] == "netYardsPerPassAttempt":
+                    net_yards_per_pass_attempt = more_interesting(
+                        net_yards_per_pass_attempt, stat["value"]
+                    )
+                elif stat["name"] == "quarterbackRating":
+                    quarterback_rating = more_interesting(
+                        quarterback_rating, stat["value"]
+                    )
+                elif stat["name"] == "ESPNRBRating":
+                    espn_rb_rating = more_interesting(espn_rb_rating, stat["value"])
+                elif stat["name"] == "longRushing":
+                    long_rushing = more_interesting(long_rushing, stat["value"])
+                elif stat["name"] == "rushingAttempts":
+                    rushing_attempts = more_interesting(rushing_attempts, stat["value"])
+                elif stat["name"] == "rushingBigPlays":
+                    rushing_big_plays = more_interesting(
+                        rushing_big_plays, stat["value"]
+                    )
+                elif stat["name"] == "rushingFirstDowns":
+                    rushing_first_downs = more_interesting(
+                        rushing_first_downs, stat["value"]
+                    )
+                elif stat["name"] == "rushingFumbles":
+                    rushing_fumbles = more_interesting(rushing_fumbles, stat["value"])
+                elif stat["name"] == "rushingFumblesLost":
+                    rushing_fumbles_lost = more_interesting(
+                        rushing_fumbles_lost, stat["value"]
+                    )
+                elif stat["name"] == "rushingTouchdowns":
+                    rushing_touchdowns = more_interesting(
+                        rushing_touchdowns, stat["value"]
+                    )
+                elif stat["name"] == "rushingYards":
+                    rushing_yards = more_interesting(rushing_yards, stat["value"])
+                elif stat["name"] == "rushingYardsPerGame":
+                    rushing_yards_per_game = more_interesting(
+                        rushing_yards_per_game, stat["value"]
+                    )
+                elif stat["name"] == "stuffs":
+                    stuffs = more_interesting(stuffs, stat["value"])
+                elif stat["name"] == "stuffYardsLost":
+                    stuff_yards_lost = more_interesting(stuff_yards_lost, stat["value"])
+                elif stat["name"] == "twoPointRushConvs":
+                    two_point_rush_conversions = more_interesting(
+                        two_point_rush_conversions, stat["value"]
+                    )
+                elif stat["name"] == "twoPtRush":
+                    two_point_rush = more_interesting(two_point_rush, stat["value"])
+                elif stat["name"] == "twoPtRushAttempts":
+                    two_point_rush_attempts = more_interesting(
+                        two_point_rush_attempts, stat["value"]
+                    )
+                elif stat["name"] == "yardsPerRushAttempt":
+                    yards_per_rush_attempt = more_interesting(
+                        yards_per_rush_attempt, stat["value"]
+                    )
+                elif stat["name"] == "ESPNWRRating":
+                    espn_wr_rating = more_interesting(espn_wr_rating, stat["value"])
+                elif stat["name"] == "longReception":
+                    long_reception = more_interesting(long_reception, stat["value"])
+                elif stat["name"] == "receivingBigPlays":
+                    receiving_big_plays = more_interesting(
+                        receiving_big_plays, stat["value"]
+                    )
+                elif stat["name"] == "receivingFirstDowns":
+                    receiving_first_downs = more_interesting(
+                        receiving_first_downs, stat["value"]
+                    )
+                elif stat["name"] == "receivingFumbles":
+                    receiving_fumbles = more_interesting(
+                        receiving_fumbles, stat["value"]
+                    )
+                elif stat["name"] == "receivingFumblesLost":
+                    receiving_fumbles_lost = more_interesting(
+                        receiving_fumbles_lost, stat["value"]
+                    )
+                elif stat["name"] == "receivingTargets":
+                    receiving_targets = more_interesting(
+                        receiving_targets, stat["value"]
+                    )
+                elif stat["name"] == "receivingTouchdowns":
+                    receiving_touchdowns = more_interesting(
+                        receiving_touchdowns, stat["value"]
+                    )
+                elif stat["name"] == "receivingYards":
+                    receiving_yards = more_interesting(receiving_yards, stat["value"])
+                elif stat["name"] == "receivingYardsAfterCatch":
+                    receiving_yards_after_catch = more_interesting(
+                        receiving_yards_after_catch, stat["value"]
+                    )
+                elif stat["name"] == "receivingYardsAtCatch":
+                    receiving_yards_at_catch = more_interesting(
+                        receiving_yards_at_catch, stat["value"]
+                    )
+                elif stat["name"] == "receivingYardsPerGame":
+                    receiving_yards_per_game = more_interesting(
+                        receiving_yards_per_game, stat["value"]
+                    )
+                elif stat["name"] == "receptions":
+                    receptions = more_interesting(receptions, stat["value"])
+                elif stat["name"] == "twoPointRecConvs":
+                    two_point_rec_conversions = more_interesting(
+                        two_point_rec_conversions, stat["value"]
+                    )
+                elif stat["name"] == "twoPtReception":
+                    two_point_reception = more_interesting(
+                        two_point_reception, stat["value"]
+                    )
+                elif stat["name"] == "twoPtReceptionAttempts":
+                    two_point_reception_attempts = more_interesting(
+                        two_point_reception_attempts, stat["value"]
+                    )
+                elif stat["name"] == "yardsPerReception":
+                    yards_per_reception = more_interesting(
+                        yards_per_reception, stat["value"]
+                    )
+                elif stat["name"] == "assistTackles":
+                    assist_tackles = more_interesting(assist_tackles, stat["value"])
+                elif stat["name"] == "avgInterceptionYards":
+                    average_interception_yards = more_interesting(
+                        average_interception_yards, stat["value"]
+                    )
+                elif stat["name"] == "avgSackYards":
+                    average_sack_yards = more_interesting(
+                        average_sack_yards, stat["value"]
+                    )
+                elif stat["name"] == "avgStuffYards":
+                    average_stuff_yards = more_interesting(
+                        average_stuff_yards, stat["value"]
+                    )
+                elif stat["name"] == "blockedFieldGoalTouchdowns":
+                    blocked_field_goal_touchdowns = more_interesting(
+                        blocked_field_goal_touchdowns, stat["value"]
+                    )
+                elif stat["name"] == "blockedPuntTouchdowns":
+                    blocked_punt_touchdowns = more_interesting(
+                        blocked_punt_touchdowns, stat["value"]
+                    )
+                elif stat["name"] == "defensiveTouchdowns":
+                    defensive_touchdowns = more_interesting(
+                        defensive_touchdowns, stat["value"]
+                    )
+                elif stat["name"] == "hurries":
+                    hurries = more_interesting(hurries, stat["value"])
+                elif stat["name"] == "kicksBlocked":
+                    kicks_blocked = more_interesting(kicks_blocked, stat["value"])
+                elif stat["name"] == "longInterception":
+                    long_interception = more_interesting(
+                        long_interception, stat["value"]
+                    )
+                elif stat["name"] == "miscTouchdowns":
+                    misc_touchdowns = more_interesting(misc_touchdowns, stat["value"])
+                elif stat["name"] == "passesBattedDown":
+                    passes_batted_down = more_interesting(
+                        passes_batted_down, stat["value"]
+                    )
+                elif stat["name"] == "passesDefended":
+                    passes_defended = more_interesting(passes_defended, stat["value"])
+                elif stat["name"] == "QBHits":
+                    qb_hits = more_interesting(qb_hits, stat["value"])
+                elif stat["name"] == "twoPtReturns":
+                    two_point_returns = more_interesting(
+                        two_point_returns, stat["value"]
+                    )
+                elif stat["name"] == "sacksAssisted":
+                    sacks_assisted = more_interesting(sacks_assisted, stat["value"])
+                elif stat["name"] == "sacksUnassisted":
+                    sacks_unassisted = more_interesting(sacks_unassisted, stat["value"])
+                elif stat["name"] == "sackYards":
+                    sack_yards = more_interesting(sack_yards, stat["value"])
+                elif stat["name"] == "safeties":
+                    safeties = more_interesting(safeties, stat["value"])
+                elif stat["name"] == "soloTackles":
+                    solo_tackles = more_interesting(solo_tackles, stat["value"])
+                elif stat["name"] == "stuffYards":
+                    stuff_yards = more_interesting(stuff_yards, stat["value"])
+                elif stat["name"] == "tacklesForLoss":
+                    tackles_for_loss = more_interesting(tackles_for_loss, stat["value"])
+                elif stat["name"] == "tacklesYardsLost":
+                    tackles_yards_lost = more_interesting(
+                        tackles_yards_lost, stat["value"]
+                    )
+                elif stat["name"] == "yardsAllowed":
+                    yards_allowed = more_interesting(yards_allowed, stat["value"])
+                elif stat["name"] == "pointsAllowed":
+                    points_allowed = more_interesting(points_allowed, stat["value"])
+                elif stat["name"] == "onePtSafetiesMade":
+                    one_point_safeties_made = more_interesting(
+                        one_point_safeties_made, stat["value"]
+                    )
+                elif stat["name"] == "missedFieldGoalReturnTd":
+                    missed_field_goal_return_td = more_interesting(
+                        missed_field_goal_return_td, stat["value"]
+                    )
+                elif stat["name"] == "blockedPuntEzRecTd":
+                    blocked_punt_ez_rec_td = more_interesting(
+                        blocked_punt_ez_rec_td, stat["value"]
+                    )
+                elif stat["name"] == "interceptionTouchdowns":
+                    interception_touchdowns = more_interesting(
+                        interception_touchdowns, stat["value"]
+                    )
+                elif stat["name"] == "interceptionYards":
+                    interception_yards = more_interesting(
+                        interception_yards, stat["value"]
+                    )
+                elif stat["name"] == "avgKickoffReturnYards":
+                    average_kickoff_return_yards = more_interesting(
+                        average_kickoff_return_yards, stat["value"]
+                    )
+                elif stat["name"] == "avgKickoffYards":
+                    average_kickoff_yards = more_interesting(
+                        average_kickoff_yards, stat["value"]
+                    )
+                elif stat["name"] == "extraPointAttempts":
+                    extra_point_attempts = more_interesting(
+                        extra_point_attempts, stat["value"]
+                    )
+                elif stat["name"] == "extraPointPct":
+                    extra_point_percentage = more_interesting(
+                        extra_point_percentage, stat["value"]
+                    )
+                elif stat["name"] == "extraPointsBlocked":
+                    extra_points_blocked = more_interesting(
+                        extra_points_blocked, stat["value"]
+                    )
+                elif stat["name"] == "extraPointsBlockedPct":
+                    extra_points_blocked_percentage = more_interesting(
+                        extra_points_blocked_percentage, stat["value"]
+                    )
+                elif stat["name"] == "extraPointsMade":
+                    extra_points_made = more_interesting(
+                        extra_points_made, stat["value"]
+                    )
+                elif stat["name"] == "fairCatches":
+                    fair_catches = more_interesting(fair_catches, stat["value"])
+                elif stat["name"] == "fairCatchPct":
+                    fair_catch_percentage = more_interesting(
+                        fair_catch_percentage, stat["value"]
+                    )
+                elif stat["name"] == "fieldGoalAttempts":
+                    field_goal_attempts = more_interesting(
+                        field_goal_attempts, stat["value"]
+                    )
+                elif stat["name"] == "fieldGoalAttempts1_19":
+                    field_goal_attempts_1_19 = more_interesting(
+                        field_goal_attempts_1_19, stat["value"]
+                    )
+                elif stat["name"] == "fieldGoalAttempts20_29":
+                    field_goal_attempts_20_29 = more_interesting(
+                        field_goal_attempts_20_29, stat["value"]
+                    )
+                elif stat["name"] == "fieldGoalAttempts30_39":
+                    field_goal_attempts_30_39 = more_interesting(
+                        field_goal_attempts_30_39, stat["value"]
+                    )
+                elif stat["name"] == "fieldGoalAttempts40_49":
+                    field_goal_attempts_40_49 = more_interesting(
+                        field_goal_attempts_40_49, stat["value"]
+                    )
+                elif stat["name"] == "fieldGoalAttempts50_59":
+                    field_goal_attempts_50_59 = more_interesting(
+                        field_goal_attempts_50_59, stat["value"]
+                    )
+                elif stat["name"] == "fieldGoalAttempts60_99":
+                    field_goal_attempts_60_99 = more_interesting(
+                        field_goal_attempts_60_99, stat["value"]
+                    )
+                elif stat["name"] == "fieldGoalAttempts50":
+                    field_goal_attempts_50 = more_interesting(
+                        field_goal_attempts_50, stat["value"]
+                    )
+                elif stat["name"] == "fieldGoalAttemptYards":
+                    field_goal_attempt_yards = more_interesting(
+                        field_goal_attempt_yards, stat["value"]
+                    )
+                elif stat["name"] == "fieldGoalsBlocked":
+                    field_goals_blocked = more_interesting(
+                        field_goals_blocked, stat["value"]
+                    )
+                elif stat["name"] == "fieldGoalsBlockedPct":
+                    field_goals_blocked_percentage = more_interesting(
+                        field_goals_blocked_percentage, stat["value"]
+                    )
+                elif stat["name"] == "fieldGoalsMade1_19":
+                    field_goals_made_1_19 = more_interesting(
+                        field_goals_made_1_19, stat["value"]
+                    )
+                elif stat["name"] == "fieldGoalsMade20_29":
+                    field_goals_made_20_29 = more_interesting(
+                        field_goals_made_20_29, stat["value"]
+                    )
+                elif stat["name"] == "fieldGoalsMade30_39":
+                    field_goals_made_30_39 = more_interesting(
+                        field_goals_made_30_39, stat["value"]
+                    )
+                elif stat["name"] == "fieldGoalsMade40_49":
+                    field_goals_made_40_49 = more_interesting(
+                        field_goals_made_40_49, stat["value"]
+                    )
+                elif stat["name"] == "fieldGoalsMade50_59":
+                    field_goals_made_50_59 = more_interesting(
+                        field_goals_made_50_59, stat["value"]
+                    )
+                elif stat["name"] == "fieldGoalsMade60_99":
+                    field_goals_made_60_99 = more_interesting(
+                        field_goals_made_60_99, stat["value"]
+                    )
+                elif stat["name"] == "fieldGoalsMade50":
+                    field_goals_made_50 = more_interesting(
+                        field_goals_made_50, stat["value"]
+                    )
+                elif stat["name"] == "fieldGoalsMadeYards":
+                    field_goals_made_yards = more_interesting(
+                        field_goals_made_yards, stat["value"]
+                    )
+                elif stat["name"] == "fieldGoalsMissedYards":
+                    field_goals_missed_yards = more_interesting(
+                        field_goals_missed_yards, stat["value"]
+                    )
+                elif stat["name"] == "kickoffOB":
+                    kickoff_ob = more_interesting(kickoff_ob, stat["value"])
+                elif stat["name"] == "kickoffReturns":
+                    kickoff_returns = more_interesting(kickoff_returns, stat["value"])
+                elif stat["name"] == "kickoffReturnTouchdowns":
+                    kickoff_return_touchdowns = more_interesting(
+                        kickoff_return_touchdowns, stat["value"]
+                    )
+                elif stat["name"] == "kickoffReturnYards":
+                    kickoff_return_yards = more_interesting(
+                        kickoff_return_yards, stat["value"]
+                    )
+                elif stat["name"] == "kickoffs":
+                    kickoffs = more_interesting(kickoffs, stat["value"])
+                elif stat["name"] == "kickoffYards":
+                    kickoff_yards = more_interesting(kickoff_yards, stat["value"])
+                elif stat["name"] == "longFieldGoalAttempt":
+                    long_field_goal_attempt = more_interesting(
+                        long_field_goal_attempt, stat["value"]
+                    )
+                elif stat["name"] == "longFieldGoalMade":
+                    long_field_goal_made = more_interesting(
+                        long_field_goal_made, stat["value"]
+                    )
+                elif stat["name"] == "longKickoff":
+                    long_kickoff = more_interesting(long_kickoff, stat["value"])
+                elif stat["name"] == "totalKickingPoints":
+                    total_kicking_points = more_interesting(
+                        total_kicking_points, stat["value"]
+                    )
+                elif stat["name"] == "touchbackPct":
+                    touchback_percentage = more_interesting(
+                        touchback_percentage, stat["value"]
+                    )
+                elif stat["name"] == "touchbacks":
+                    touchbacks = more_interesting(touchbacks, stat["value"])
+                elif stat["name"] == "defFumbleReturns":
+                    def_fumble_returns = more_interesting(
+                        def_fumble_returns, stat["value"]
+                    )
+                elif stat["name"] == "defFumbleReturnYards":
+                    def_fumble_return_yards = more_interesting(
+                        def_fumble_return_yards, stat["value"]
+                    )
+                elif stat["name"] == "fumbleRecoveries":
+                    fumble_recoveries = more_interesting(
+                        fumble_recoveries, stat["value"]
+                    )
+                elif stat["name"] == "fumbleRecoveryYards":
+                    fumble_recovery_yards = more_interesting(
+                        fumble_recovery_yards, stat["value"]
+                    )
+                elif stat["name"] == "kickReturnFairCatches":
+                    kick_return_fair_catches = more_interesting(
+                        kick_return_fair_catches, stat["value"]
+                    )
+                elif stat["name"] == "kickReturnFairCatchPct":
+                    kick_return_fair_catch_percentage = more_interesting(
+                        kick_return_fair_catch_percentage, stat["value"]
+                    )
+                elif stat["name"] == "kickReturnFumbles":
+                    kick_return_fumbles = more_interesting(
+                        kick_return_fumbles, stat["value"]
+                    )
+                elif stat["name"] == "kickReturnFumblesLost":
+                    kick_return_fumbles_lost = more_interesting(
+                        kick_return_fumbles_lost, stat["value"]
+                    )
+                elif stat["name"] == "kickReturns":
+                    kick_returns = more_interesting(kick_returns, stat["value"])
+                elif stat["name"] == "kickReturnTouchdowns":
+                    kick_return_touchdowns = more_interesting(
+                        kick_return_touchdowns, stat["value"]
+                    )
+                elif stat["name"] == "kickReturnYards":
+                    kick_return_yards = more_interesting(
+                        kick_return_yards, stat["value"]
+                    )
+                elif stat["name"] == "longKickReturn":
+                    long_kick_return = more_interesting(long_kick_return, stat["value"])
+                elif stat["name"] == "longPuntReturn":
+                    long_punt_return = more_interesting(long_punt_return, stat["value"])
+                elif stat["name"] == "miscFumbleReturns":
+                    misc_fumble_returns = more_interesting(
+                        misc_fumble_returns, stat["value"]
+                    )
+                elif stat["name"] == "miscFumbleReturnYards":
+                    misc_fumble_return_yards = more_interesting(
+                        misc_fumble_return_yards, stat["value"]
+                    )
+                elif stat["name"] == "oppFumbleRecoveries":
+                    opp_fumble_recoveries = more_interesting(
+                        opp_fumble_recoveries, stat["value"]
+                    )
+                elif stat["name"] == "oppFumbleRecoveryYards":
+                    opp_fumble_recovery_yards = more_interesting(
+                        opp_fumble_recovery_yards, stat["value"]
+                    )
+                elif stat["name"] == "oppSpecialTeamFumbleReturns":
+                    opp_special_team_fumble_returns = more_interesting(
+                        opp_special_team_fumble_returns, stat["value"]
+                    )
+                elif stat["name"] == "oppSpecialTeamFumbleReturnYards":
+                    opp_special_team_fumble_return_yards = more_interesting(
+                        opp_special_team_fumble_return_yards, stat["value"]
+                    )
+                elif stat["name"] == "puntReturnFairCatches":
+                    punt_return_fair_catches = more_interesting(
+                        punt_return_fair_catches, stat["value"]
+                    )
+                elif stat["name"] == "puntReturnFairCatchPct":
+                    punt_return_fair_catch_percentage = more_interesting(
+                        punt_return_fair_catch_percentage, stat["value"]
+                    )
+                elif stat["name"] == "puntReturnFumbles":
+                    punt_return_fumbles = more_interesting(
+                        punt_return_fumbles, stat["value"]
+                    )
+                elif stat["name"] == "puntReturnFumblesLost":
+                    punt_return_fumbles_lost = more_interesting(
+                        punt_return_fumbles_lost, stat["value"]
+                    )
+                elif stat["name"] == "puntReturns":
+                    punt_returns = more_interesting(punt_returns, stat["value"])
+                elif stat["name"] == "puntReturnsStartedInsideThe10":
+                    punt_returns_started_inside_the_10 = more_interesting(
+                        punt_returns_started_inside_the_10, stat["value"]
+                    )
+                elif stat["name"] == "puntReturnsStartedInsideThe20":
+                    punt_returns_started_inside_the_20 = more_interesting(
+                        punt_returns_started_inside_the_20, stat["value"]
+                    )
+                elif stat["name"] == "puntReturnTouchdowns":
+                    punt_return_touchdowns = more_interesting(
+                        punt_return_touchdowns, stat["value"]
+                    )
+                elif stat["name"] == "puntReturnYards":
+                    punt_return_yards = more_interesting(
+                        punt_return_yards, stat["value"]
+                    )
+                elif stat["name"] == "specialTeamFumbleReturns":
+                    special_team_fumble_returns = more_interesting(
+                        special_team_fumble_returns, stat["value"]
+                    )
+                elif stat["name"] == "specialTeamFumbleReturnYards":
+                    special_team_fumble_return_yards = more_interesting(
+                        special_team_fumble_return_yards, stat["value"]
+                    )
+                elif stat["name"] == "yardsPerKickReturn":
+                    yards_per_kick_return = more_interesting(
+                        yards_per_kick_return, stat["value"]
+                    )
+                elif stat["name"] == "yardsPerPuntReturn":
+                    yards_per_punt_return = more_interesting(
+                        yards_per_punt_return, stat["value"]
+                    )
+                elif stat["name"] == "yardsPerReturn":
+                    yards_per_return = more_interesting(yards_per_return, stat["value"])
+                elif stat["name"] == "avgPuntReturnYards":
+                    average_punt_return_yards = more_interesting(
+                        average_punt_return_yards, stat["value"]
+                    )
+                elif stat["name"] == "grossAvgPuntYards":
+                    gross_average_punt_yards = more_interesting(
+                        gross_average_punt_yards, stat["value"]
+                    )
+                elif stat["name"] == "longPunt":
+                    long_punt = more_interesting(long_punt, stat["value"])
+                elif stat["name"] == "netAvgPuntYards":
+                    net_average_punt_yards = more_interesting(
+                        net_average_punt_yards, stat["value"]
+                    )
+                elif stat["name"] == "punts":
+                    punts = more_interesting(punts, stat["value"])
+                elif stat["name"] == "puntsBlocked":
+                    punts_blocked = more_interesting(punts_blocked, stat["value"])
+                elif stat["name"] == "puntsBlockedPct":
+                    punts_blocked_percentage = more_interesting(
+                        punts_blocked_percentage, stat["value"]
+                    )
+                elif stat["name"] == "puntsInside10":
+                    punts_inside_10 = more_interesting(punts_inside_10, stat["value"])
+                elif stat["name"] == "puntsInside10Pct":
+                    punts_inside_10_percentage = more_interesting(
+                        punts_inside_10_percentage, stat["value"]
+                    )
+                elif stat["name"] == "puntsInside20":
+                    punts_inside_20 = more_interesting(punts_inside_20, stat["value"])
+                elif stat["name"] == "puntsInside20Pct":
+                    punts_inside_20_percentage = more_interesting(
+                        punts_inside_20_percentage, stat["value"]
+                    )
+                elif stat["name"] == "puntsOver50":
+                    punts_over_50 = more_interesting(punts_over_50, stat["value"])
+                elif stat["name"] == "puntYards":
+                    punt_yards = more_interesting(punt_yards, stat["value"])
+                elif stat["name"] == "defensivePoints":
+                    defensive_points = more_interesting(defensive_points, stat["value"])
+                elif stat["name"] == "kickExtraPoints":
+                    kick_extra_points = more_interesting(
+                        kick_extra_points, stat["value"]
+                    )
+                elif stat["name"] == "kickExtraPointsMade":
+                    kick_extra_points_made = more_interesting(
+                        kick_extra_points_made, stat["value"]
+                    )
+                elif stat["name"] == "miscPoints":
+                    misc_points = more_interesting(misc_points, stat["value"])
+                elif stat["name"] == "returnTouchdowns":
+                    return_touchdowns = more_interesting(
+                        return_touchdowns, stat["value"]
+                    )
+                elif stat["name"] == "totalTwoPointConvs":
+                    total_two_point_conversions = more_interesting(
+                        total_two_point_conversions, stat["value"]
+                    )
+                elif stat["name"] == "firstDowns":
+                    first_downs = more_interesting(first_downs, stat["value"])
+                elif stat["name"] == "firstDownsPassing":
+                    first_downs_passing = more_interesting(
+                        first_downs_passing, stat["value"]
+                    )
+                elif stat["name"] == "firstDownsPenalty":
+                    first_downs_penalty = more_interesting(
+                        first_downs_penalty, stat["value"]
+                    )
+                elif stat["name"] == "firstDownsPerGame":
+                    first_downs_per_game = more_interesting(
+                        first_downs_per_game, stat["value"]
+                    )
+                elif stat["name"] == "firstDownsRushing":
+                    first_downs_rushing = more_interesting(
+                        first_downs_rushing, stat["value"]
+                    )
+                elif stat["name"] == "fourthDownAttempts":
+                    fourth_down_attempts = more_interesting(
+                        fourth_down_attempts, stat["value"]
+                    )
+                elif stat["name"] == "fourthDownConvPct":
+                    fourth_down_conversion_percentage = more_interesting(
+                        fourth_down_conversion_percentage, stat["value"]
+                    )
+                elif stat["name"] == "fourthDownConvs":
+                    fourth_down_conversions = more_interesting(
+                        fourth_down_conversions, stat["value"]
+                    )
+                elif stat["name"] == "possessionTimeSeconds":
+                    possession_time_seconds = more_interesting(
+                        possession_time_seconds, stat["value"]
+                    )
+                elif stat["name"] == "redzoneAttemptPoints":
+                    redzone_attempt_points = more_interesting(
+                        redzone_attempt_points, stat["value"]
+                    )
+                elif stat["name"] == "redzoneAttempts":
+                    redzone_attempts = more_interesting(redzone_attempts, stat["value"])
+                elif stat["name"] == "redzoneConversion":
+                    redzone_conversions = more_interesting(
+                        redzone_conversions, stat["value"]
+                    )
+                elif stat["name"] == "redzoneEfficiencyPct":
+                    redzone_efficiency_percentage = more_interesting(
+                        redzone_efficiency_percentage, stat["value"]
+                    )
+                elif stat["name"] == "redzoneEndDowns":
+                    redzone_end_downs = more_interesting(
+                        redzone_end_downs, stat["value"]
+                    )
+                elif stat["name"] == "redzoneEndGame":
+                    redzone_end_game = more_interesting(redzone_end_game, stat["value"])
+                elif stat["name"] == "redzoneEndHalf":
+                    redzone_end_half = more_interesting(redzone_end_half, stat["value"])
+                elif stat["name"] == "redzoneFieldGoalPct":
+                    redzone_field_goal_percentage = more_interesting(
+                        redzone_field_goal_percentage, stat["value"]
+                    )
+                elif stat["name"] == "redzoneFieldGoalPoints":
+                    redzone_field_goal_points = more_interesting(
+                        redzone_field_goal_points, stat["value"]
+                    )
+                elif stat["name"] == "redzoneFieldGoals":
+                    redzone_field_goals = more_interesting(
+                        redzone_field_goals, stat["value"]
+                    )
+                elif stat["name"] == "redzoneFieldGoalsMissed":
+                    redzone_field_goals_missed = more_interesting(
+                        redzone_field_goals_missed, stat["value"]
+                    )
+                elif stat["name"] == "redzoneFumble":
+                    redzone_fumble = more_interesting(redzone_fumble, stat["value"])
+                elif stat["name"] == "redzoneInterception":
+                    redzone_interception = more_interesting(
+                        redzone_interception, stat["value"]
+                    )
+                elif stat["name"] == "redzoneScoringPct":
+                    redzone_scoring_percentage = more_interesting(
+                        redzone_scoring_percentage, stat["value"]
+                    )
+                elif stat["name"] == "redzoneTotalPoints":
+                    redzone_total_points = more_interesting(
+                        redzone_total_points, stat["value"]
+                    )
+                elif stat["name"] == "redzoneTouchdownPass":
+                    redzone_touchdown_pass = more_interesting(
+                        redzone_touchdown_pass, stat["value"]
+                    )
+                elif stat["name"] == "redzoneTouchdownPct":
+                    redzone_touchdown_percentage = more_interesting(
+                        redzone_touchdown_percentage, stat["value"]
+                    )
+                elif stat["name"] == "redzoneTouchdownPoints":
+                    redzone_touchdown_points = more_interesting(
+                        redzone_touchdown_points, stat["value"]
+                    )
+                elif stat["name"] == "redzoneTouchdownRush":
+                    redzone_touchdown_rush = more_interesting(
+                        redzone_touchdown_rush, stat["value"]
+                    )
+                elif stat["name"] == "redzoneTouchdowns":
+                    redzone_touchdowns = more_interesting(
+                        redzone_touchdowns, stat["value"]
+                    )
+                elif stat["name"] == "thirdDownAttempts":
+                    third_down_attempts = more_interesting(
+                        third_down_attempts, stat["value"]
+                    )
+                elif stat["name"] == "thirdDownConvPct":
+                    third_down_conversion_percentage = more_interesting(
+                        third_down_conversion_percentage, stat["value"]
+                    )
+                elif stat["name"] == "thirdDownConvs":
+                    third_down_conversions = more_interesting(
+                        third_down_conversions, stat["value"]
+                    )
+                elif stat["name"] == "timeoutsUsed":
+                    timeouts_used = more_interesting(timeouts_used, stat["value"])
+                elif stat["name"] == "totalPenalties":
+                    total_penalties = more_interesting(total_penalties, stat["value"])
+                elif stat["name"] == "totalPenaltyYards":
+                    total_penalty_yards = more_interesting(
+                        total_penalty_yards, stat["value"]
+                    )
+                elif stat["name"] == "totalPlays":
+                    total_plays = more_interesting(total_plays, stat["value"])
+                elif stat["name"] == "totalDrives":
+                    total_drives = more_interesting(total_drives, stat["value"])
+                elif stat["name"] == "turnOverDifferential":
+                    turn_over_differential = more_interesting(
+                        turn_over_differential, stat["value"]
+                    )
 
     return TeamModel(
         identifier=identifier,
@@ -1856,6 +2922,250 @@ def _create_espn_team_model(
         average_48_offensive_rebounds=average_48_offensive_rebounds,
         average_48_assists=average_48_assists,
         average_48_turnovers=average_48_turnovers,
+        fumbles=fumbles,
+        fumbles_lost=fumbles_lost,
+        fumbles_forced=fumbles_forced,
+        fumbles_recovered=fumbles_recovered,
+        fumbles_recovered_yards=fumbles_recovered_yards,
+        fumbles_touchdowns=fumbles_touchdowns,
+        offensive_two_point_returns=offensive_two_point_returns,
+        offensive_fumbles_touchdowns=offensive_fumbles_touchdowns,
+        defensive_fumbles_touchdowns=defensive_fumbles_touchdowns,
+        average_gain=average_gain,
+        completion_percentage=completion_percentage,
+        completions=completions,
+        espn_qb_rating=espn_qb_rating,
+        interception_percentage=interception_percentage,
+        long_passing=long_passing,
+        misc_yards=misc_yards,
+        net_passing_yards=net_passing_yards,
+        net_passing_yards_per_game=net_passing_yards_per_game,
+        net_total_yards=net_total_yards,
+        net_yards_per_game=net_yards_per_game,
+        passing_attempts=passing_attempts,
+        passing_big_plays=passing_big_plays,
+        passing_first_downs=passing_first_downs,
+        passing_fumbles=passing_fumbles,
+        passing_fumbles_lost=passing_fumbles_lost,
+        passing_touchdown_percentage=passing_touchdown_percentage,
+        passing_touchdowns=passing_touchdowns,
+        passing_yards=passing_yards,
+        passing_yards_after_catch=passing_yards_after_catch,
+        passing_yards_at_catch=passing_yards_at_catch,
+        passing_yards_per_game=passing_yards_per_game,
+        qb_rating=qb_rating,
+        sacks=sacks,
+        sack_yards_lost=sack_yards_lost,
+        net_passing_attempts=net_passing_attempts,
+        total_offensive_plays=total_offensive_plays,
+        total_points=total_points,
+        total_points_per_game=total_points_per_game,
+        total_touchdowns=total_touchdowns,
+        total_yards=total_yards,
+        total_yards_from_scrimmage=total_yards_from_scrimmage,
+        two_point_pass_convs=two_point_pass_convs,
+        two_point_pass=two_point_pass,
+        two_point_pass_attempts=two_point_pass_attempts,
+        yards_from_scrimmage_per_game=yards_from_scrimmage_per_game,
+        yards_per_completion=yards_per_completion,
+        yards_per_game=yards_per_game,
+        yards_per_pass_attempt=yards_per_pass_attempt,
+        net_yards_per_pass_attempt=net_yards_per_pass_attempt,
+        quarterback_rating=quarterback_rating,
+        espn_rb_rating=espn_rb_rating,
+        long_rushing=long_rushing,
+        rushing_attempts=rushing_attempts,
+        rushing_big_plays=rushing_big_plays,
+        rushing_first_downs=rushing_first_downs,
+        rushing_fumbles=rushing_fumbles,
+        rushing_fumbles_lost=rushing_fumbles_lost,
+        rushing_touchdowns=rushing_touchdowns,
+        rushing_yards=rushing_yards,
+        rushing_yards_per_game=rushing_yards_per_game,
+        stuffs=stuffs,
+        stuff_yards_lost=stuff_yards_lost,
+        two_point_rush_conversions=two_point_rush_conversions,
+        two_point_rush=two_point_rush,
+        two_point_rush_attempts=two_point_rush_attempts,
+        yards_per_rush_attempt=yards_per_rush_attempt,
+        espn_wr_rating=espn_wr_rating,
+        long_reception=long_reception,
+        receiving_big_plays=receiving_big_plays,
+        receiving_first_downs=receiving_first_downs,
+        receiving_fumbles=receiving_fumbles,
+        receiving_fumbles_lost=receiving_fumbles_lost,
+        receiving_targets=receiving_targets,
+        receiving_touchdowns=receiving_touchdowns,
+        receiving_yards=receiving_yards,
+        receiving_yards_after_catch=receiving_yards_after_catch,
+        receiving_yards_at_catch=receiving_yards_at_catch,
+        receiving_yards_per_game=receiving_yards_per_game,
+        receptions=receptions,
+        two_point_rec_conversions=two_point_rec_conversions,
+        two_point_reception=two_point_reception,
+        two_point_reception_attempts=two_point_reception_attempts,
+        yards_per_reception=yards_per_reception,
+        assist_tackles=assist_tackles,
+        average_interception_yards=average_interception_yards,
+        average_sack_yards=average_sack_yards,
+        average_stuff_yards=average_stuff_yards,
+        blocked_field_goal_touchdowns=blocked_field_goal_touchdowns,
+        blocked_punt_touchdowns=blocked_punt_touchdowns,
+        defensive_touchdowns=defensive_touchdowns,
+        hurries=hurries,
+        kicks_blocked=kicks_blocked,
+        long_interception=long_interception,
+        misc_touchdowns=misc_touchdowns,
+        passes_batted_down=passes_batted_down,
+        passes_defended=passes_defended,
+        qb_hits=qb_hits,
+        two_point_returns=two_point_returns,
+        sacks_assisted=sacks_assisted,
+        sacks_unassisted=sacks_unassisted,
+        sack_yards=sack_yards,
+        safeties=safeties,
+        solo_tackles=solo_tackles,
+        stuff_yards=stuff_yards,
+        tackles_for_loss=tackles_for_loss,
+        tackles_yards_lost=tackles_yards_lost,
+        yards_allowed=yards_allowed,
+        points_allowed=points_allowed,
+        one_point_safeties_made=one_point_safeties_made,
+        missed_field_goal_return_td=missed_field_goal_return_td,
+        blocked_punt_ez_rec_td=blocked_punt_ez_rec_td,
+        interception_touchdowns=interception_touchdowns,
+        interception_yards=interception_yards,
+        average_kickoff_return_yards=average_kickoff_return_yards,
+        average_kickoff_yards=average_kickoff_yards,
+        extra_point_attempts=extra_point_attempts,
+        extra_point_percentage=extra_point_percentage,
+        extra_points_blocked=extra_points_blocked,
+        extra_points_blocked_percentage=extra_points_blocked_percentage,
+        extra_points_made=extra_points_made,
+        fair_catches=fair_catches,
+        fair_catch_percentage=fair_catch_percentage,
+        field_goal_attempts=field_goal_attempts,
+        field_goal_attempts_1_19=field_goal_attempts_1_19,
+        field_goal_attempts_20_29=field_goal_attempts_20_29,
+        field_goal_attempts_30_39=field_goal_attempts_30_39,
+        field_goal_attempts_40_49=field_goal_attempts_40_49,
+        field_goal_attempts_50_59=field_goal_attempts_50_59,
+        field_goal_attempts_60_99=field_goal_attempts_60_99,
+        field_goal_attempts_50=field_goal_attempts_50,
+        field_goal_attempt_yards=field_goal_attempt_yards,
+        field_goals_blocked=field_goals_blocked,
+        field_goals_blocked_percentage=field_goals_blocked_percentage,
+        field_goals_made_1_19=field_goals_made_1_19,
+        field_goals_made_20_29=field_goals_made_20_29,
+        field_goals_made_30_39=field_goals_made_30_39,
+        field_goals_made_40_49=field_goals_made_40_49,
+        field_goals_made_50_59=field_goals_made_50_59,
+        field_goals_made_60_99=field_goals_made_60_99,
+        field_goals_made_50=field_goals_made_50,
+        field_goals_made_yards=field_goals_made_yards,
+        field_goals_missed_yards=field_goals_missed_yards,
+        kickoff_ob=kickoff_ob,
+        kickoff_returns=kickoff_returns,
+        kickoff_return_touchdowns=kickoff_return_touchdowns,
+        kickoff_return_yards=kickoff_return_yards,
+        kickoffs=kickoffs,
+        kickoff_yards=kickoff_yards,
+        long_field_goal_attempt=long_field_goal_attempt,
+        long_field_goal_made=long_field_goal_made,
+        long_kickoff=long_kickoff,
+        total_kicking_points=total_kicking_points,
+        touchback_percentage=touchback_percentage,
+        touchbacks=touchbacks,
+        def_fumble_returns=def_fumble_returns,
+        def_fumble_return_yards=def_fumble_return_yards,
+        fumble_recoveries=fumble_recoveries,
+        fumble_recovery_yards=fumble_recovery_yards,
+        kick_return_fair_catches=kick_return_fair_catches,
+        kick_return_fair_catch_percentage=kick_return_fair_catch_percentage,
+        kick_return_fumbles=kick_return_fumbles,
+        kick_return_fumbles_lost=kick_return_fumbles_lost,
+        kick_returns=kick_returns,
+        kick_return_touchdowns=kick_return_touchdowns,
+        kick_return_yards=kick_return_yards,
+        long_kick_return=long_kick_return,
+        long_punt_return=long_punt_return,
+        misc_fumble_returns=misc_fumble_returns,
+        misc_fumble_return_yards=misc_fumble_return_yards,
+        opp_fumble_recoveries=opp_fumble_recoveries,
+        opp_fumble_recovery_yards=opp_fumble_recovery_yards,
+        opp_special_team_fumble_returns=opp_special_team_fumble_returns,
+        opp_special_team_fumble_return_yards=opp_special_team_fumble_return_yards,
+        punt_return_fair_catches=punt_return_fair_catches,
+        punt_return_fair_catch_percentage=punt_return_fair_catch_percentage,
+        punt_return_fumbles=punt_return_fumbles,
+        punt_return_fumbles_lost=punt_return_fumbles_lost,
+        punt_returns=punt_returns,
+        punt_returns_started_inside_the_10=punt_returns_started_inside_the_10,
+        punt_returns_started_inside_the_20=punt_returns_started_inside_the_20,
+        punt_return_touchdowns=punt_return_touchdowns,
+        punt_return_yards=punt_return_yards,
+        special_team_fumble_returns=special_team_fumble_returns,
+        special_team_fumble_return_yards=special_team_fumble_return_yards,
+        yards_per_kick_return=yards_per_kick_return,
+        yards_per_punt_return=yards_per_punt_return,
+        yards_per_return=yards_per_return,
+        average_punt_return_yards=average_punt_return_yards,
+        gross_average_punt_yards=gross_average_punt_yards,
+        long_punt=long_punt,
+        net_average_punt_yards=net_average_punt_yards,
+        punts=punts,
+        punts_blocked=punts_blocked,
+        punts_blocked_percentage=punts_blocked_percentage,
+        punts_inside_10=punts_inside_10,
+        punts_inside_10_percentage=punts_inside_10_percentage,
+        punts_inside_20=punts_inside_20,
+        punts_inside_20_percentage=punts_inside_20_percentage,
+        punts_over_50=punts_over_50,
+        punt_yards=punt_yards,
+        defensive_points=defensive_points,
+        kick_extra_points=kick_extra_points,
+        kick_extra_points_made=kick_extra_points_made,
+        misc_points=misc_points,
+        return_touchdowns=return_touchdowns,
+        total_two_point_conversions=total_two_point_conversions,
+        first_downs=first_downs,
+        first_downs_passing=first_downs_passing,
+        first_downs_penalty=first_downs_penalty,
+        first_downs_per_game=first_downs_per_game,
+        first_downs_rushing=first_downs_rushing,
+        fourth_down_attempts=fourth_down_attempts,
+        fourth_down_conversion_percentage=fourth_down_conversion_percentage,
+        fourth_down_conversions=fourth_down_conversions,
+        possession_time_seconds=possession_time_seconds,
+        redzone_attempt_points=redzone_attempt_points,
+        redzone_attempts=redzone_attempts,
+        redzone_conversions=redzone_conversions,
+        redzone_efficiency_percentage=redzone_efficiency_percentage,
+        redzone_end_downs=redzone_end_downs,
+        redzone_end_game=redzone_end_game,
+        redzone_end_half=redzone_end_half,
+        redzone_field_goal_percentage=redzone_field_goal_percentage,
+        redzone_field_goal_points=redzone_field_goal_points,
+        redzone_field_goals=redzone_field_goals,
+        redzone_field_goals_missed=redzone_field_goals_missed,
+        redzone_fumble=redzone_fumble,
+        redzone_interception=redzone_interception,
+        redzone_scoring_percentage=redzone_scoring_percentage,
+        redzone_total_points=redzone_total_points,
+        redzone_touchdown_pass=redzone_touchdown_pass,
+        redzone_touchdown_percentage=redzone_touchdown_percentage,
+        redzone_touchdown_points=redzone_touchdown_points,
+        redzone_touchdown_rush=redzone_touchdown_rush,
+        redzone_touchdowns=redzone_touchdowns,
+        third_down_attempts=third_down_attempts,
+        third_down_conversion_percentage=third_down_conversion_percentage,
+        third_down_conversions=third_down_conversions,
+        timeouts_used=timeouts_used,
+        total_penalties=total_penalties,
+        total_penalty_yards=total_penalty_yards,
+        total_plays=total_plays,
+        total_drives=total_drives,
+        turn_over_differential=turn_over_differential,
     )
 
 

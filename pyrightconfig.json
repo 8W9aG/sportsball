@@ -1,6 +1,7 @@
 {
   "exclude": [
     "sportsball/data/sportsreference/sportsreference_game_model.py",
-    "sportsball/data/espn/espn_player_model.py"
+    "sportsball/data/espn/espn_player_model.py",
+    "sportsball/data/espn/espn_team_model.py"
   ]
 }
