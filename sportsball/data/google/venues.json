@@ -8419,6 +8419,16 @@
             "housenumber": "75702",
             "country": "USA",
             "type": "venue"
+        },
+        "22999dc7-3697-423e-9637-3563377d1ec6": {
+            "city": "Queens",
+            "state": "NY",
+            "postal": "",
+            "lat": 40.75,
+            "lng": -73.8475,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -9592,6 +9602,7 @@
         "Hamburg": "85078a0f-1b54-43ec-88ab-cedc2eb199de",
         "Hamburg, Germany": "85078a0f-1b54-43ec-88ab-cedc2eb199de",
         "Dubai International Cricket Stadium, Dubai, United Arab Emirates": "c8bb86ff-96ef-4af9-a793-49c5962dd203",
+        "Dubai International Cricket Stadium": "c8bb86ff-96ef-4af9-a793-49c5962dd203",
         "Pete Mathews Coliseum, Jacksonville, Alabama": "3db40c5d-1ac7-499a-a05f-8be3f9028ca3",
         "Great Lakes, Illinois": "6a18775c-a717-430d-9cc9-8f4c1bcba02b",
         "Atlantic Union Bank Center, Harrisonburg, Virginia": "acff9642-eac6-44eb-85d3-25019ec1bebe",
@@ -10099,6 +10110,7 @@
         "Quinnipiac": "a457787a-1f19-4490-9602-2ea2b7a3fd5c",
         "Reed Arena, College Station, Texas": "bca4e947-f792-4843-9233-72a3410e6e41",
         "Reed Arena - College Station, Texas, USA - United States": "bca4e947-f792-4843-9233-72a3410e6e41",
+        "Reed Arena - College Station - TX": "bca4e947-f792-4843-9233-72a3410e6e41",
         "Humphrey Coliseum, Starkville, Mississippi": "e8c72cb1-4d31-4e59-b68e-efcd9f38ae31",
         "Lahaina Civic Center, Lahaina, Hawaii": "91c76ed1-88a6-489a-acb2-54a71e136f73",
         "Lahaina Civic Center - Maui - HI": "91c76ed1-88a6-489a-acb2-54a71e136f73",
@@ -10113,6 +10125,7 @@
         "UNI-Dome - Cedar Falls - IA - 50614": "35154d14-d957-4e39-bcab-c3578a0884fa",
         "Ed Smith Stadium - Sarasota - Florida - 34278": "28679de3-70c4-4da9-a4d6-b86e1381fd13",
         "Acrisure Arena, Thousand Palms, California": "712fa430-ad57-431e-abd5-44fe54250c2b",
-        "Acrisure Arena - Palm Springs - CA": "712fa430-ad57-431e-abd5-44fe54250c2b"
+        "Acrisure Arena - Palm Springs - CA": "712fa430-ad57-431e-abd5-44fe54250c2b",
+        "US Open": "22999dc7-3697-423e-9637-3563377d1ec6"
     }
 }

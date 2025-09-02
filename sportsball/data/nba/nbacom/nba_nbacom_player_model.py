@@ -877,4 +877,6 @@ def create_nba_nbacom_player_model(player_dict: dict[str, Any]) -> PlayerModel:
         two_point_returns=None,
         field_goal_attempts=None,
         special_team_fumble_return_yards=None,
+        kick_extra_points=None,
+        kick_extra_points_made=None,
     )

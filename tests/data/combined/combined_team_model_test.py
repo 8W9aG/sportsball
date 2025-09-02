@@ -955,7 +955,6 @@ class TestCombinedTeamModel(unittest.TestCase):
                 two_point_pass_attempts=None,
                 yards_from_scrimmage_per_game=None,
                 yards_per_completion=None,
-                fumbles=None,
                 fumbles_lost=None,
                 fumbles_forced=None,
                 fumbles_recovered_yards=None,
@@ -1054,6 +1053,8 @@ class TestCombinedTeamModel(unittest.TestCase):
                 two_point_returns=None,
                 field_goal_attempts=None,
                 special_team_fumble_return_yards=None,
+                kick_extra_points=None,
+                kick_extra_points_made=None,
             )]
             team_models = [TeamModel(
                 identifier="a",
@@ -2730,6 +2731,8 @@ class TestCombinedTeamModel(unittest.TestCase):
                 two_point_returns=None,
                 field_goal_attempts=None,
                 special_team_fumble_return_yards=None,
+                kick_extra_points=None,
+                kick_extra_points_made=None,
             )]
             team_models_2 = [TeamModel(
                 identifier="a",
@@ -4415,6 +4418,8 @@ class TestCombinedTeamModel(unittest.TestCase):
                 two_point_returns=None,
                 field_goal_attempts=None,
                 special_team_fumble_return_yards=None,
+                kick_extra_points=None,
+                kick_extra_points_made=None,
             )]
             team_models = [TeamModel(
                 identifier="a",
@@ -6091,6 +6096,8 @@ class TestCombinedTeamModel(unittest.TestCase):
                 two_point_returns=None,
                 field_goal_attempts=None,
                 special_team_fumble_return_yards=None,
+                kick_extra_points=None,
+                kick_extra_points_made=None,
             )]
             team_models_2 = [TeamModel(
                 identifier="a",

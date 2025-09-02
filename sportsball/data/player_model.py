@@ -1653,7 +1653,11 @@ PLAYER_TWO_POINT_RETURNS_COLUMN: Literal["two_point_returns"] = "two_point_retur
 PLAYER_FIELD_GOAL_ATTEMPTS_COLUMN: Literal["field_goal_attempts"] = (
     "field_goal_attempts"
 )
-VERSION = DELIMITER.join(["0.0.9", ADDRESS_VERSION, OWNER_VERSION, VENUE_VERSION])
+PLAYER_KICK_EXTRA_POINTS_COLUMN: Literal["kick_extra_points"] = "kick_extra_points"
+PLAYER_KICK_EXTRA_POINTS_MADE_COLUMN: Literal["kick_extra_points_made"] = (
+    "kick_extra_points_made"
+)
+VERSION = DELIMITER.join(["0.0.10", ADDRESS_VERSION, OWNER_VERSION, VENUE_VERSION])
 
 
 def _guess_sex(data: dict[str, Any]) -> str | None:
@@ -1747,7 +1751,7 @@ class PlayerModel(BaseModel):
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=PLAYER_FUMBLES_LOST_COLUMN,
     )
-    field_goals: int | None = Field(
+    field_goals: float | None = Field(
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=FIELD_GOALS_COLUMN,
@@ -5020,7 +5024,7 @@ class PlayerModel(BaseModel):
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=PLAYER_EXTRA_BASE_HITS_COLUMN,
     )
-    runs_created: int | None = Field(
+    runs_created: float | None = Field(
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=PLAYER_RUNS_CREATED_COLUMN,
@@ -6034,4 +6038,14 @@ class PlayerModel(BaseModel):
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=PLAYER_SPECIAL_TEAM_FUMBLE_RETURN_YARDS_COLUMN,
+    )
+    kick_extra_points: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_KICK_EXTRA_POINTS_COLUMN,
+    )
+    kick_extra_points_made: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_KICK_EXTRA_POINTS_MADE_COLUMN,
     )
