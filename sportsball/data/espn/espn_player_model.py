@@ -676,8 +676,22 @@ def _create_espn_player_model(
     goalie_interference_penalties = None
     elbowing_penalties = None
     diving_penalties = None
+    net_passing_yards_per_game = None
+    net_yards_per_game = None
+    passing_yards_per_game = None
+    total_points_per_game = None
+    yards_from_scrimmage_per_game = None
+    yards_per_game = None
+    quarterback_rating = None
+    espn_rb_rating = None
+    rushing_yards_per_game = None
+    receiving_yards_per_game = None
+    two_point_returns = None
+    field_goal_attempts = None
+    special_team_fumble_return_yards = None
     if "statistics" in player:
-        statistics_response = session.get(player["statistics"]["$ref"])
+        stats_url = player["statistics"]["$ref"]
+        statistics_response = session.get(stats_url)
         if statistics_response.ok:
             statistics_dict = statistics_response.json()
             fumbles = None
@@ -2815,6 +2829,58 @@ def _create_espn_player_model(
                         diving_penalties = more_interesting(
                             diving_penalties, stat["value"]
                         )
+                    elif stat["name"] == "netPassingYardsPerGame":
+                        net_passing_yards_per_game = more_interesting(
+                            net_passing_yards_per_game, stat["value"]
+                        )
+                    elif stat["name"] == "netYardsPerGame":
+                        net_yards_per_game = more_interesting(
+                            net_yards_per_game, stat["value"]
+                        )
+                    elif stat["name"] == "passingYardsPerGame":
+                        passing_yards_per_game = more_interesting(
+                            passing_yards_per_game, stat["value"]
+                        )
+                    elif stat["name"] == "totalPointsPerGame":
+                        total_points_per_game = more_interesting(
+                            total_points_per_game, stat["value"]
+                        )
+                    elif stat["name"] == "yardsFromScrimmagePerGame":
+                        yards_from_scrimmage_per_game = more_interesting(
+                            yards_from_scrimmage_per_game, stat["value"]
+                        )
+                    elif stat["name"] == "yardsPerGame":
+                        yards_per_game = more_interesting(yards_per_game, stat["value"])
+                    elif stat["name"] == "quarterbackRating":
+                        quarterback_rating = more_interesting(
+                            quarterback_rating, stat["value"]
+                        )
+                    elif stat["name"] == "ESPNRBRating":
+                        espn_rb_rating = more_interesting(espn_rb_rating, stat["value"])
+                    elif stat["name"] == "rushingYardsPerGame":
+                        rushing_yards_per_game = more_interesting(
+                            rushing_yards_per_game, stat["value"]
+                        )
+                    elif stat["name"] == "receivingYardsPerGame":
+                        receiving_yards_per_game = more_interesting(
+                            receiving_yards_per_game, stat["value"]
+                        )
+                    elif stat["name"] == "twoPtReturns":
+                        two_point_returns = more_interesting(
+                            two_point_returns, stat["value"]
+                        )
+                    elif stat["name"] == "fieldGoalAttempts":
+                        field_goal_attempts = more_interesting(
+                            field_goal_attempts, stat["value"]
+                        )
+                    elif stat["name"] == "specialTeamFumbleReturnYards":
+                        special_team_fumble_return_yards = more_interesting(
+                            special_team_fumble_return_yards, stat["value"]
+                        )
+                    else:
+                        raise ValueError(
+                            f"Failed to account for statistic: {stat['name']} on {stats_url}"
+                        )
 
     athlete_dict = {}
     athelete_url = player["athlete"]["$ref"]
@@ -3744,6 +3810,18 @@ def _create_espn_player_model(
         goalie_interference_penalties=goalie_interference_penalties,
         elbowing_penalties=elbowing_penalties,
         diving_penalties=diving_penalties,
+        net_passing_yards_per_game=net_passing_yards_per_game,
+        net_yards_per_game=net_yards_per_game,
+        passing_yards_per_game=passing_yards_per_game,
+        total_points_per_game=total_points_per_game,
+        yards_from_scrimmage_per_game=yards_from_scrimmage_per_game,
+        yards_per_game=yards_per_game,
+        espn_rb_rating=espn_rb_rating,
+        rushing_yards_per_game=rushing_yards_per_game,
+        receiving_yards_per_game=receiving_yards_per_game,
+        two_point_returns=two_point_returns,
+        field_goal_attempts=field_goal_attempts,
+        special_team_fumble_return_yards=special_team_fumble_return_yards,
     )
 
 

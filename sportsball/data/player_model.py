@@ -1628,6 +1628,31 @@ PLAYER_EMPTY_NET_GOALS_AGAINST_COLUMN: Literal["empty_net_goals_against"] = (
     "empty_net_goals_against"
 )
 PLAYER_OVERTIME_LOSSES_COLUMN: Literal["overtime_losses"] = "overtime_losses"
+PLAYER_NET_PASSING_YARDS_PER_GAME_COLUMN: Literal["net_passing_yards_per_game"] = (
+    "net_passing_yards_per_game"
+)
+PLAYER_NET_YARDS_PER_GAME_COLUMN: Literal["net_yards_per_game"] = "net_yards_per_game"
+PLAYER_PASSING_YARDS_PER_GAME_COLUMN: Literal["passing_yards_per_game"] = (
+    "passing_yards_per_game"
+)
+PLAYER_TOTAL_POINTS_PER_GAME_COLUMN: Literal["total_points_per_game"] = (
+    "total_points_per_game"
+)
+PLAYER_YARDS_FROM_SCRIMMAGE_PER_GAME_COLUMN: Literal[
+    "yards_from_scrimmage_per_game"
+] = "yards_from_scrimmage_per_game"
+PLAYER_YARDS_PER_GAME_COLUMN: Literal["yards_per_game"] = "yards_per_game"
+PLAYER_ESPN_RB_RATING_COLUMN: Literal["espn_rb_rating"] = "espn_rb_rating"
+PLAYER_RUSHING_YARDS_PER_GAME_COLUMN: Literal["rushing_yards_per_game"] = (
+    "rushing_yards_per_game"
+)
+PLAYER_RECEIVING_YARDS_PER_GAME_COLUMN: Literal["receiving_yards_per_game"] = (
+    "receiving_yards_per_game"
+)
+PLAYER_TWO_POINT_RETURNS_COLUMN: Literal["two_point_returns"] = "two_point_returns"
+PLAYER_FIELD_GOAL_ATTEMPTS_COLUMN: Literal["field_goal_attempts"] = (
+    "field_goal_attempts"
+)
 VERSION = DELIMITER.join(["0.0.9", ADDRESS_VERSION, OWNER_VERSION, VENUE_VERSION])
 
 
@@ -5949,4 +5974,64 @@ class PlayerModel(BaseModel):
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=PLAYER_SHOTS_MISSED_COLUMN,
+    )
+    net_passing_yards_per_game: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_NET_PASSING_YARDS_PER_GAME_COLUMN,
+    )
+    net_yards_per_game: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_NET_YARDS_PER_GAME_COLUMN,
+    )
+    passing_yards_per_game: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PASSING_YARDS_PER_GAME_COLUMN,
+    )
+    total_points_per_game: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TOTAL_POINTS_PER_GAME_COLUMN,
+    )
+    yards_from_scrimmage_per_game: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_YARDS_FROM_SCRIMMAGE_PER_GAME_COLUMN,
+    )
+    yards_per_game: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_YARDS_PER_GAME_COLUMN,
+    )
+    espn_rb_rating: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_ESPN_RB_RATING_COLUMN,
+    )
+    rushing_yards_per_game: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_RUSHING_YARDS_PER_GAME_COLUMN,
+    )
+    receiving_yards_per_game: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_RECEIVING_YARDS_PER_GAME_COLUMN,
+    )
+    two_point_returns: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TWO_POINT_RETURNS_COLUMN,
+    )
+    field_goal_attempts: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_FIELD_GOAL_ATTEMPTS_COLUMN,
+    )
+    special_team_fumble_return_yards: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SPECIAL_TEAM_FUMBLE_RETURN_YARDS_COLUMN,
     )

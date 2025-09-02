@@ -632,7 +632,6 @@ def _create_espn_team(
             completion_percentage=None,
             completions=None,
             espn_qb_rating=None,
-            #
             power_play_time_on_ice=None,
             short_handed_time_on_ice=None,
             even_strength_time_on_ice=None,

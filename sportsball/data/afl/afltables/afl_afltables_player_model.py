@@ -933,6 +933,18 @@ def _create_afl_afltables_player_model(
         penalty_minutes=None,
         penalty_minutes_against=None,
         major_penalties=None,
+        net_passing_yards_per_game=None,
+        net_yards_per_game=None,
+        passing_yards_per_game=None,
+        total_points_per_game=None,
+        yards_from_scrimmage_per_game=None,
+        yards_per_game=None,
+        espn_rb_rating=None,
+        rushing_yards_per_game=None,
+        receiving_yards_per_game=None,
+        two_point_returns=None,
+        field_goal_attempts=None,
+        special_team_fumble_return_yards=None,
     )
 
 

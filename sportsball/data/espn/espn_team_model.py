@@ -2741,6 +2741,10 @@ def _create_espn_team_model(
                     penalties = more_interesting(penalties, stat["value"])
                 elif stat["name"] == "penaltyMinutes":
                     penalty_minutes = more_interesting(penalty_minutes, stat["value"])
+                else:
+                    raise ValueError(
+                        f"Failed to account for statistic: {stat['name']} on {statistics_dict['$ref']}"
+                    )
 
     return TeamModel(
         identifier=identifier,

@@ -4,7 +4,7 @@
 import datetime
 import logging
 import threading
-from typing import Any, Iterator, get_args, get_origin
+from typing import Any, Callable, Iterator, Type, get_args, get_origin
 
 import pandas as pd
 import tqdm
@@ -88,7 +88,9 @@ def _normalize_tz(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def _find_nested_paths(
-    field_type: str, model_class: type[BaseModel], cols: list[str]
+    checker: Callable[[Any], bool],
+    model_class: type[BaseModel],
+    cols: list[str],
 ) -> list[str]:
     def any_column_contains(substr: str) -> bool:
         for col in cols:
@@ -98,12 +100,7 @@ def _find_nested_paths(
 
     nested_paths = []
     for field_name, field in model_class.model_fields.items():
-        nested_field_type = (
-            field.json_schema_extra.get("type")  # type: ignore
-            if field.json_schema_extra
-            else None
-        )
-        if nested_field_type == field_type:
+        if checker(field):
             nested_paths.append(field_name)
         else:
             if issubclass(
@@ -114,7 +111,7 @@ def _find_nested_paths(
                     [
                         DELIMITER.join([field_name, x])
                         for x in _find_nested_paths(
-                            field_type,
+                            checker,
                             field.annotation,  # type: ignore
                             cols,
                         )  # type: ignore
@@ -129,12 +126,35 @@ def _find_nested_paths(
                         [
                             DELIMITER.join([field_name, str(i), x])
                             for x in _find_nested_paths(
-                                field_type, get_args(field.annotation)[0], cols
+                                checker, get_args(field.annotation)[0], cols
                             )
                         ]
                     )
                     i += 1
     return nested_paths
+
+
+def _find_nested_field_type_paths(
+    field_type: str, model_class: type[BaseModel], cols: list[str]
+) -> list[str]:
+    def _check_field_type(field: Any) -> bool:
+        nested_field_type = (
+            field.json_schema_extra.get("type")  # type: ignore
+            if field.json_schema_extra
+            else None
+        )
+        return nested_field_type == field_type
+
+    return _find_nested_paths(_check_field_type, model_class, cols)
+
+
+def _find_nested_field_typing_paths(
+    field_typing: Type, model_class: type[BaseModel], cols: list[str]
+) -> list[str]:
+    def _check_field_typing(field: Any) -> bool:
+        return field.annotation == field_typing
+
+    return _find_nested_paths(_check_field_typing, model_class, cols)
 
 
 def _print_memory_usage(df: pd.DataFrame) -> None:
@@ -197,14 +217,17 @@ class LeagueModel(Model):
                 data[col].append(json_dict.get(col))
 
         categorical_cols = set(
-            _find_nested_paths(FieldType.CATEGORICAL, GameModel, list(cols))
+            _find_nested_field_type_paths(FieldType.CATEGORICAL, GameModel, list(cols))
         )
         for k in data:
             if k in categorical_cols:
                 data[k] = pd.Categorical(data[k])
 
         datetime_cols = set(
-            _find_nested_paths(FieldType.DATETIME, GameModel, list(cols))
+            _find_nested_field_typing_paths(datetime.datetime, GameModel, list(cols))
+        )
+        datetime_cols |= set(
+            _find_nested_field_typing_paths(datetime.date, GameModel, list(cols))
         )
         for k in data:
             if k in datetime_cols:
@@ -215,7 +238,7 @@ class LeagueModel(Model):
         df.attrs[str(FieldType.LOOKAHEAD)] = list(
             set(df.columns.values)
             & set(
-                _find_nested_paths(
+                _find_nested_field_type_paths(
                     FieldType.LOOKAHEAD, GameModel, df.columns.values.tolist()
                 )
             )
@@ -223,7 +246,7 @@ class LeagueModel(Model):
         df.attrs[str(FieldType.ODDS)] = list(
             set(df.columns.values)
             & set(
-                _find_nested_paths(
+                _find_nested_field_type_paths(
                     FieldType.ODDS, GameModel, df.columns.values.tolist()
                 )
             )
@@ -231,7 +254,7 @@ class LeagueModel(Model):
         df.attrs[str(FieldType.POINTS)] = list(
             set(df.columns.values)
             & set(
-                _find_nested_paths(
+                _find_nested_field_type_paths(
                     FieldType.POINTS, GameModel, df.columns.values.tolist()
                 )
             )
@@ -239,7 +262,7 @@ class LeagueModel(Model):
         df.attrs[str(FieldType.TEXT)] = list(
             set(df.columns.values)
             & set(
-                _find_nested_paths(
+                _find_nested_field_type_paths(
                     FieldType.TEXT, GameModel, df.columns.values.tolist()
                 )
             )
