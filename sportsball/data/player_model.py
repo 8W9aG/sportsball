@@ -1496,6 +1496,138 @@ PLAYER_TECHNICAL_FOULS_COLUMN: Literal["technical_fouls"] = "technical_fouls"
 PLAYER_AVERAGE_MINUTES_COLUMN: Literal["average_minutes"] = "average_minutes"
 PLAYER_NBA_RATING_COLUMN: Literal["nba_rating"] = "nba_rating"
 PLAYER_PLUS_MINUS_COLUMN: Literal["plus_minus"] = "plus_minus"
+PLAYER_FACEOFFS_WON_COLUMN: Literal["faceoffs_won"] = "faceoffs_won"
+PLAYER_FACEOFFS_LOST_COLUMN: Literal["faceoffs_lost"] = "faceoffs_lost"
+PLAYER_FACEOFF_PERCENTAGE_COLUMN: Literal["faceoff_percentage"] = "faceoff_percentage"
+PLAYER_UNASSISTED_GOALS_COLUMN: Literal["unassisted_goals"] = "unassisted_goals"
+PLAYER_GAME_TYING_GOALS_COLUMN: Literal["game_tying_goals"] = "game_tying_goals"
+PLAYER_GIVEAWAYS_COLUMN: Literal["giveaways"] = "giveaways"
+PLAYER_PENALTIES_COLUMN: Literal["penalties"] = "penalties"
+PLAYER_PENALTY_MINUTES_COLUMN: Literal["penalty_minutes"] = "penalty_minutes"
+PLAYER_PENALTY_MINUTES_AGAINST_COLUMN: Literal["penalty_minutes_against"] = (
+    "penalty_minutes_against"
+)
+PLAYER_MAJOR_PENALTIES_COLUMN: Literal["major_penalties"] = "major_penalties"
+PLAYER_MINOR_PENALTIES_COLUMN: Literal["minor_penalties"] = "minor_penalties"
+PLAYER_MATCH_PENALTIES_COLUMN: Literal["match_penalties"] = "match_penalties"
+PLAYER_MISCONDUCTS_COLUMN: Literal["misconducts"] = "misconducts"
+PLAYER_GAME_MISCONDUCTS_COLUMN: Literal["game_misconducts"] = "game_misconducts"
+PLAYER_BOARDING_PENALTIES_COLUMN: Literal["boarding_penalties"] = "boarding_penalties"
+PLAYER_UNSPORTSMANLIKE_PENALTIES_COLUMN: Literal["unsportsmanlike_penalties"] = (
+    "unsportsmanlike_penalties"
+)
+PLAYER_FIGHTING_PENALTIES_COLUMN: Literal["fighting_penalties"] = "fighting_penalties"
+PLAYER_AVERAGE_FIGHTS_COLUMN: Literal["average_fights"] = "average_fights"
+PLAYER_TIME_BETWEEN_FIGHTS_COLUMN: Literal["time_between_fights"] = (
+    "time_between_fights"
+)
+PLAYER_INSTIGATOR_PENALTIES_COLUMN: Literal["instigator_penalties"] = (
+    "instigator_penalties"
+)
+PLAYER_CHARGING_PENALTIES_COLUMN: Literal["charging_penalties"] = "charging_penalties"
+PLAYER_HOOKING_PENALTIES_COLUMN: Literal["hooking_penalties"] = "hooking_penalties"
+PLAYER_TRIPPING_PENALTIES_COLUMN: Literal["tripping_penalties"] = "tripping_penalties"
+PLAYER_ROUGHING_PENALTIES_COLUMN: Literal["roughing_penalties"] = "roughing_penalties"
+PLAYER_HOLDING_PENALTIES_COLUMN: Literal["holding_penalties"] = "holding_penalties"
+PLAYER_INTERFERENCE_PENALTIES_COLUMN: Literal["interference_penalties"] = (
+    "interference_penalties"
+)
+PLAYER_SLASHING_PENALTIES_COLUMN: Literal["slashing_penalties"] = "slashing_penalties"
+PLAYER_HIGH_STICKING_PENALTIES_COLUMN: Literal["high_sticking_penalties"] = (
+    "high_sticking_penalties"
+)
+PLAYER_CROSS_CHECKING_PENALTIES_COLUMN: Literal["cross_checking_penalties"] = (
+    "cross_checking_penalties"
+)
+PLAYER_STICK_HOLDING_PENALTIES_COLUMN: Literal["stick_holding_penalties"] = (
+    "stick_holding_penalties"
+)
+PLAYER_GOALIE_INTERFERENCE_PENALTIES_COLUMN: Literal[
+    "goalie_interference_penalties"
+] = "goalie_interference_penalties"
+PLAYER_ELBOWING_PENALTIES_COLUMN: Literal["elbowing_penalties"] = "elbowing_penalties"
+PLAYER_DIVING_PENALTIES_COLUMN: Literal["diving_penalties"] = "diving_penalties"
+PLAYER_TAKEAWAYS_COLUMN: Literal["takeaways"] = "takeaways"
+PLAYER_EVEN_STRENGTH_SAVES_COLUMN: Literal["even_strength_saves"] = (
+    "even_strength_saves"
+)
+PLAYER_POWER_PLAY_SAVES_COLUMN: Literal["power_play_saves"] = "power_play_saves"
+PLAYER_SHORT_HANDED_SAVES_COLUMN: Literal["short_handed_saves"] = "short_handed_saves"
+PLAYER_GAMES_COLUMN: Literal["games"] = "games"
+PLAYER_GAME_STARTED_COLUMN: Literal["game_started"] = "game_started"
+PLAYER_TIES_COLUMN: Literal["ties"] = "ties"
+PLAYER_TIME_ON_ICE_PER_GAME_COLUMN: Literal["time_on_ice_per_game"] = (
+    "time_on_ice_per_game"
+)
+PLAYER_POWER_PLAY_TIME_ON_ICE_COLUMN: Literal["power_play_time_on_ice"] = (
+    "power_play_time_on_ice"
+)
+PLAYER_SHORT_HANDED_TIME_ON_ICE_COLUMN: Literal["short_handed_time_on_ice"] = (
+    "short_handed_time_on_ice"
+)
+PLAYER_EVEN_STRENGTH_TIME_ON_ICE_COLUMN: Literal["even_strength_time_on_ice"] = (
+    "even_strength_time_on_ice"
+)
+PLAYER_SHIFTS_PER_GAME_COLUMN: Literal["shifts_per_game"] = "shifts_per_game"
+PLAYER_PRODUCTION_COLUMN: Literal["production"] = "production"
+PLAYER_SHOT_DIFFERENTIAL_COLUMN: Literal["shot_differential"] = "shot_differential"
+PLAYER_GOAL_DIFFERENTIAL_COLUMN: Literal["goal_differential"] = "goal_differential"
+PLAYER_PIM_DIFFERENTIAL_COLUMN: Literal["pim_differential"] = "pim_differential"
+PLAYER_RATING_COLUMN: Literal["rating"] = "rating"
+PLAYER_AVERAGE_GOALS_COLUMN: Literal["average_goals"] = "average_goals"
+PLAYER_YTD_GOALS_COLUMN: Literal["ytd_goals"] = "ytd_goals"
+PLAYER_SHOTS_IN_FIRST_PERIOD_COLUMN: Literal["shots_in_first_period"] = (
+    "shots_in_first_period"
+)
+PLAYER_SHOTS_IN_SECOND_PERIOD_COLUMN: Literal["shots_in_second_period"] = (
+    "shots_in_second_period"
+)
+PLAYER_SHOTS_IN_THIRD_PERIOD_COLUMN: Literal["shots_in_third_period"] = (
+    "shots_in_third_period"
+)
+PLAYER_SHOTS_OVERTIME_COLUMN: Literal["shots_overtime"] = "shots_overtime"
+PLAYER_SHOTS_MISSED_COLUMN: Literal["shots_missed"] = "shots_missed"
+PLAYER_AVERAGE_SHOTS_COLUMN: Literal["average_shots"] = "average_shots"
+PLAYER_POINTS_PER_GAME_COLUMN: Literal["points_per_game"] = "points_per_game"
+PLAYER_POWER_PLAY_OPPORTUNITIES_COLUMN: Literal["power_play_opportunities"] = (
+    "power_play_opportunities"
+)
+PLAYER_POWER_PLAY_PERCENTAGE_COLUMN: Literal["power_play_percentage"] = (
+    "power_play_percentage"
+)
+PLAYER_SHOOTOUT_ATTEMPTS_COLUMN: Literal["shootout_attempts"] = "shootout_attempts"
+PLAYER_SHOOTOUT_SHOT_PERCENTAGE_COLUMN: Literal["shootout_shot_percentage"] = (
+    "shootout_shot_percentage"
+)
+PLAYER_EMPTY_NET_GOALS_FOR_COLUMN: Literal["empty_net_goals_for"] = (
+    "empty_net_goals_for"
+)
+PLAYER_SHUTOUTS_AGAINST_COLUMN: Literal["shutouts_against"] = "shutouts_against"
+PLAYER_TOTAL_FACE_OFFS_COLUMN: Literal["total_face_offs"] = "total_face_offs"
+PLAYER_AVERAGE_GOALS_AGAINST_COLUMN: Literal["average_goals_against"] = (
+    "average_goals_against"
+)
+PLAYER_AVERAGE_SHOTS_AGAINST_COLUMN: Literal["average_shots_against"] = (
+    "average_shots_against"
+)
+PLAYER_PENALTY_KILL_PERCENTAGE_COLUMN: Literal["penalty_kill_percentage"] = (
+    "penalty_kill_percentage"
+)
+PLAYER_POWER_PLAY_GOALS_AGAINST_COLUMN: Literal["power_play_goals_against"] = (
+    "power_play_goals_against"
+)
+PLAYER_SHORT_HANDED_GOALS_AGAINST_COLUMN: Literal["short_handed_goals_against"] = (
+    "short_handed_goals_against"
+)
+PLAYER_SHOOTOUT_SAVES_COLUMN: Literal["shootout_saves"] = "shootout_saves"
+PLAYER_SHOOTOUT_SHOTS_AGAINST_COLUMN: Literal["shootout_shots_against"] = (
+    "shootout_shots_against"
+)
+PLAYER_TIMES_SHORT_HANDED_COLUMN: Literal["times_short_handed"] = "times_short_handed"
+PLAYER_EMPTY_NET_GOALS_AGAINST_COLUMN: Literal["empty_net_goals_against"] = (
+    "empty_net_goals_against"
+)
+PLAYER_OVERTIME_LOSSES_COLUMN: Literal["overtime_losses"] = "overtime_losses"
 VERSION = DELIMITER.join(["0.0.9", ADDRESS_VERSION, OWNER_VERSION, VENUE_VERSION])
 
 
@@ -5437,4 +5569,384 @@ class PlayerModel(BaseModel):
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=PLAYER_PLUS_MINUS_COLUMN,
+    )
+    faceoffs_won: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_FACEOFFS_WON_COLUMN,
+    )
+    faceoffs_lost: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_FACEOFFS_LOST_COLUMN,
+    )
+    faceoff_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_FACEOFF_PERCENTAGE_COLUMN,
+    )
+    unassisted_goals: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_UNASSISTED_GOALS_COLUMN,
+    )
+    game_tying_goals: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_GAME_TYING_GOALS_COLUMN,
+    )
+    giveaways: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_GIVEAWAYS_COLUMN,
+    )
+    penalties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PENALTIES_COLUMN,
+    )
+    penalty_minutes: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PENALTY_MINUTES_COLUMN,
+    )
+    penalty_minutes_against: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PENALTY_MINUTES_AGAINST_COLUMN,
+    )
+    major_penalties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_MAJOR_PENALTIES_COLUMN,
+    )
+    minor_penalties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_MINOR_PENALTIES_COLUMN,
+    )
+    match_penalties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_MATCH_PENALTIES_COLUMN,
+    )
+    misconducts: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_MISCONDUCTS_COLUMN,
+    )
+    game_misconducts: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_GAME_MISCONDUCTS_COLUMN,
+    )
+    boarding_penalties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_BOARDING_PENALTIES_COLUMN,
+    )
+    unsportsmanlike_penalties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_UNSPORTSMANLIKE_PENALTIES_COLUMN,
+    )
+    fighting_penalties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_FIGHTING_PENALTIES_COLUMN,
+    )
+    average_fights: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_AVERAGE_FIGHTS_COLUMN,
+    )
+    time_between_fights: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TIME_BETWEEN_FIGHTS_COLUMN,
+    )
+    instigator_penalties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_INSTIGATOR_PENALTIES_COLUMN,
+    )
+    charging_penalties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_CHARGING_PENALTIES_COLUMN,
+    )
+    hooking_penalties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_HOOKING_PENALTIES_COLUMN,
+    )
+    tripping_penalties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TRIPPING_PENALTIES_COLUMN,
+    )
+    roughing_penalties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_ROUGHING_PENALTIES_COLUMN,
+    )
+    holding_penalties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_HOLDING_PENALTIES_COLUMN,
+    )
+    interference_penalties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_INTERFERENCE_PENALTIES_COLUMN,
+    )
+    slashing_penalties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SLASHING_PENALTIES_COLUMN,
+    )
+    high_sticking_penalties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_HIGH_STICKING_PENALTIES_COLUMN,
+    )
+    cross_checking_penalties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_CROSS_CHECKING_PENALTIES_COLUMN,
+    )
+    stick_holding_penalties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_STICK_HOLDING_PENALTIES_COLUMN,
+    )
+    goalie_interference_penalties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_GOALIE_INTERFERENCE_PENALTIES_COLUMN,
+    )
+    elbowing_penalties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_ELBOWING_PENALTIES_COLUMN,
+    )
+    diving_penalties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_DIVING_PENALTIES_COLUMN,
+    )
+    takeaways: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TAKEAWAYS_COLUMN,
+    )
+    even_strength_saves: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_EVEN_STRENGTH_SAVES_COLUMN,
+    )
+    power_play_saves: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_POWER_PLAY_SAVES_COLUMN,
+    )
+    short_handed_saves: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHORT_HANDED_SAVES_COLUMN,
+    )
+    games: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_GAMES_COLUMN,
+    )
+    game_started: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_GAME_STARTED_COLUMN,
+    )
+    ties: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TIES_COLUMN,
+    )
+    time_on_ice_per_game: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TIME_ON_ICE_PER_GAME_COLUMN,
+    )
+    power_play_time_on_ice: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_POWER_PLAY_TIME_ON_ICE_COLUMN,
+    )
+    short_handed_time_on_ice: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHORT_HANDED_TIME_ON_ICE_COLUMN,
+    )
+    even_strength_time_on_ice: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_EVEN_STRENGTH_TIME_ON_ICE_COLUMN,
+    )
+    shifts_per_game: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHIFTS_PER_GAME_COLUMN,
+    )
+    production: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PRODUCTION_COLUMN,
+    )
+    shot_differential: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOT_DIFFERENTIAL_COLUMN,
+    )
+    goal_differential: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_GOAL_DIFFERENTIAL_COLUMN,
+    )
+    pim_differential: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PIM_DIFFERENTIAL_COLUMN,
+    )
+    rating: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_RATING_COLUMN,
+    )
+    average_goals: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_AVERAGE_GOALS_COLUMN,
+    )
+    ytd_goals: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_YTD_GOALS_COLUMN,
+    )
+    shots_in_first_period: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOTS_IN_FIRST_PERIOD_COLUMN,
+    )
+    shots_in_second_period: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOTS_IN_SECOND_PERIOD_COLUMN,
+    )
+    shots_in_third_period: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOTS_IN_THIRD_PERIOD_COLUMN,
+    )
+    shots_overtime: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOTS_OVERTIME_COLUMN,
+    )
+    average_shots: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_AVERAGE_SHOTS_COLUMN,
+    )
+    points_per_game: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_POINTS_PER_GAME_COLUMN,
+    )
+    power_play_opportunities: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_POWER_PLAY_OPPORTUNITIES_COLUMN,
+    )
+    power_play_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_POWER_PLAY_PERCENTAGE_COLUMN,
+    )
+    shootout_attempts: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOOTOUT_ATTEMPTS_COLUMN,
+    )
+    shootout_shot_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOOTOUT_SHOT_PERCENTAGE_COLUMN,
+    )
+    empty_net_goals_for: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_EMPTY_NET_GOALS_FOR_COLUMN,
+    )
+    shutouts_against: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHUTOUTS_AGAINST_COLUMN,
+    )
+    total_face_offs: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TOTAL_FACE_OFFS_COLUMN,
+    )
+    average_goals_against: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_AVERAGE_GOALS_AGAINST_COLUMN,
+    )
+    average_shots_against: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_AVERAGE_SHOTS_AGAINST_COLUMN,
+    )
+    penalty_kill_percentage: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_PENALTY_KILL_PERCENTAGE_COLUMN,
+    )
+    power_play_goals_against: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_POWER_PLAY_GOALS_AGAINST_COLUMN,
+    )
+    short_handed_goals_against: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHORT_HANDED_GOALS_AGAINST_COLUMN,
+    )
+    shootout_saves: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOOTOUT_SAVES_COLUMN,
+    )
+    shootout_shots_against: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOOTOUT_SHOTS_AGAINST_COLUMN,
+    )
+    times_short_handed: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TIMES_SHORT_HANDED_COLUMN,
+    )
+    empty_net_goals_against: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_EMPTY_NET_GOALS_AGAINST_COLUMN,
+    )
+    overtime_losses: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_OVERTIME_LOSSES_COLUMN,
+    )
+    shots_missed: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SHOTS_MISSED_COLUMN,
     )

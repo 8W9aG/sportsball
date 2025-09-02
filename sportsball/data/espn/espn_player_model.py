@@ -591,6 +591,91 @@ def _create_espn_player_model(
     average_48_turnovers = None
     p40 = None
     a40 = None
+    goals_against = None
+    average_goals_against = None
+    shots_against = None
+    average_shots_against = None
+    penalty_kill_percentage = None
+    power_play_goals_against = None
+    short_handed_goals_against = None
+    shootout_saves = None
+    shootout_shots_against = None
+    times_short_handed = None
+    empty_net_goals_against = None
+    overtime_losses = None
+    takeaways = None
+    even_strength_saves = None
+    power_play_saves = None
+    short_handed_saves = None
+    games = None
+    game_started = None
+    ties = None
+    time_on_ice = None
+    time_on_ice_per_game = None
+    power_play_time_on_ice = None
+    short_handed_time_on_ice = None
+    even_strength_time_on_ice = None
+    shifts = None
+    shifts_per_game = None
+    production = None
+    shot_differential = None
+    goal_differential = None
+    pim_differential = None
+    rating = None
+    average_goals = None
+    ytd_goals = None
+    shots_in_first_period = None
+    shots_in_second_period = None
+    shots_in_third_period = None
+    shots_overtime = None
+    shots_missed = None
+    average_shots = None
+    points_per_game = None
+    power_play_goals = None
+    power_play_assists = None
+    power_play_opportunities = None
+    power_play_percentage = None
+    short_handed_goals = None
+    short_handed_assists = None
+    shootout_attempts = None
+    shootout_shot_percentage = None
+    empty_net_goals_for = None
+    shutouts_against = None
+    shooting_percentage = None
+    total_face_offs = None
+    faceoffs_won = None
+    faceoffs_lost = None
+    faceoff_percentage = None
+    unassisted_goals = None
+    game_tying_goals = None
+    giveaways = None
+    penalties = None
+    penalty_minutes = None
+    penalty_minutes_against = None
+    major_penalties = None
+    minor_penalties = None
+    match_penalties = None
+    misconducts = None
+    game_misconducts = None
+    boarding_penalties = None
+    unsportsmanlike_penalties = None
+    fighting_penalties = None
+    average_fights = None
+    time_between_fights = None
+    instigator_penalties = None
+    charging_penalties = None
+    hooking_penalties = None
+    tripping_penalties = None
+    roughing_penalties = None
+    holding_penalties = None
+    interference_penalties = None
+    slashing_penalties = None
+    high_sticking_penalties = None
+    cross_checking_penalties = None
+    stick_holding_penalties = None
+    goalie_interference_penalties = None
+    elbowing_penalties = None
+    diving_penalties = None
     if "statistics" in player:
         statistics_response = session.get(player["statistics"]["$ref"])
         if statistics_response.ok:
@@ -2424,6 +2509,312 @@ def _create_espn_player_model(
                         p40 = more_interesting(p40, stat["value"])
                     elif stat["name"] == "a40":
                         a40 = more_interesting(a40, stat["value"])
+                    elif stat["name"] == "goalsAgainst":
+                        goals_against = more_interesting(goals_against, stat["value"])
+                    elif stat["name"] == "avgGoalsAgainst":
+                        average_goals_against = more_interesting(
+                            average_goals_against, stat["value"]
+                        )
+                    elif stat["name"] == "shotsAgainst":
+                        shots_against = more_interesting(shots_against, stat["value"])
+                    elif stat["name"] == "avgShotsAgainst":
+                        average_shots_against = more_interesting(
+                            average_shots_against, stat["value"]
+                        )
+                    elif stat["name"] == "penaltyKillPct":
+                        penalty_kill_percentage = more_interesting(
+                            penalty_kill_percentage, stat["value"]
+                        )
+                    elif stat["name"] == "powerPlayGoalsAgainst":
+                        power_play_goals_against = more_interesting(
+                            power_play_goals_against, stat["value"]
+                        )
+                    elif stat["name"] == "shortHandedGoalsAgainst":
+                        short_handed_goals_against = more_interesting(
+                            short_handed_goals_against, stat["value"]
+                        )
+                    elif stat["name"] == "shootoutSaves":
+                        shootout_saves = more_interesting(shootout_saves, stat["value"])
+                    elif stat["name"] == "shootoutShotsAgainst":
+                        shootout_shots_against = more_interesting(
+                            shootout_shots_against, stat["value"]
+                        )
+                    elif stat["name"] == "shootoutSavePct":
+                        shoot_out_save_percentage = more_interesting(
+                            shoot_out_save_percentage, stat["value"]
+                        )
+                    elif stat["name"] == "timesShortHanded":
+                        times_short_handed = more_interesting(
+                            times_short_handed, stat["value"]
+                        )
+                    elif stat["name"] == "emptyNetGoalsAgainst":
+                        empty_net_goals_against = more_interesting(
+                            empty_net_goals_against, stat["value"]
+                        )
+                    elif stat["name"] == "overtimeLosses":
+                        overtime_losses = more_interesting(
+                            overtime_losses, stat["value"]
+                        )
+                    elif stat["name"] == "takeaways":
+                        takeaways = more_interesting(takeaways, stat["value"])
+                    elif stat["name"] == "evenStrengthSaves":
+                        even_strength_saves = more_interesting(
+                            even_strength_saves, stat["value"]
+                        )
+                    elif stat["name"] == "powerPlaySaves":
+                        power_play_saves = more_interesting(
+                            power_play_saves, stat["value"]
+                        )
+                    elif stat["name"] == "shortHandedSaves":
+                        short_handed_saves = more_interesting(
+                            short_handed_saves, stat["value"]
+                        )
+                    elif stat["name"] == "games":
+                        games = more_interesting(games, stat["value"])
+                    elif stat["name"] == "gameStarted":
+                        game_started = more_interesting(game_started, stat["value"])
+                    elif stat["name"] == "ties":
+                        ties = more_interesting(ties, stat["value"])
+                    elif stat["name"] == "timeOnIce":
+                        time_on_ice = more_interesting(time_on_ice, stat["value"])
+                    elif stat["name"] == "timeOnIcePerGame":
+                        time_on_ice_per_game = more_interesting(
+                            time_on_ice_per_game, stat["value"]
+                        )
+                    elif stat["name"] == "powerPlayTimeOnIce":
+                        power_play_time_on_ice = more_interesting(
+                            power_play_time_on_ice, stat["value"]
+                        )
+                    elif stat["name"] == "shortHandedTimeOnIce":
+                        short_handed_time_on_ice = more_interesting(
+                            short_handed_time_on_ice, stat["value"]
+                        )
+                    elif stat["name"] == "evenStrengthTimeOnIce":
+                        even_strength_time_on_ice = more_interesting(
+                            even_strength_time_on_ice, stat["value"]
+                        )
+                    elif stat["name"] == "shifts":
+                        shifts = more_interesting(shifts, stat["value"])
+                    elif stat["name"] == "shiftsPerGame":
+                        shifts_per_game = more_interesting(
+                            shifts_per_game, stat["value"]
+                        )
+                    elif stat["name"] == "production":
+                        production = more_interesting(production, stat["value"])
+                    elif stat["name"] == "shotDifferential":
+                        shot_differential = more_interesting(
+                            shot_differential, stat["value"]
+                        )
+                    elif stat["name"] == "goalDifferential":
+                        goal_differential = more_interesting(
+                            goal_differential, stat["value"]
+                        )
+                    elif stat["name"] == "PIMDifferential":
+                        pim_differential = more_interesting(
+                            pim_differential, stat["value"]
+                        )
+                    elif stat["name"] == "rating":
+                        rating = more_interesting(rating, stat["value"])
+                    elif stat["name"] == "avgGoals":
+                        average_goals = more_interesting(average_goals, stat["value"])
+                    elif stat["name"] == "ytdGoals":
+                        ytd_goals = more_interesting(ytd_goals, stat["value"])
+                    elif stat["name"] == "shotsIn1stPeriod":
+                        shots_in_first_period = more_interesting(
+                            shots_in_first_period, stat["value"]
+                        )
+                    elif stat["name"] == "shotsIn2ndPeriod":
+                        shots_in_second_period = more_interesting(
+                            shots_in_second_period, stat["value"]
+                        )
+                    elif stat["name"] == "shotsIn3rdPeriod":
+                        shots_in_third_period = more_interesting(
+                            shots_in_third_period, stat["value"]
+                        )
+                    elif stat["name"] == "shotsOT":
+                        shots_overtime = more_interesting(shots_overtime, stat["value"])
+                    elif stat["name"] == "shotsTotal":
+                        total_shots = more_interesting(total_shots, stat["value"])
+                    elif stat["name"] == "shotsMissed":
+                        shots_missed = more_interesting(shots_missed, stat["value"])
+                    elif stat["name"] == "avgShots":
+                        average_shots = more_interesting(average_shots, stat["value"])
+                    elif stat["name"] == "pointsPerGame":
+                        points_per_game = more_interesting(
+                            points_per_game, stat["value"]
+                        )
+                    elif stat["name"] == "powerPlayGoals":
+                        power_play_goals = more_interesting(
+                            power_play_goals, stat["value"]
+                        )
+                    elif stat["name"] == "powerPlayAssists":
+                        power_play_assists = more_interesting(
+                            power_play_assists, stat["value"]
+                        )
+                    elif stat["name"] == "powerPlayOpportunities":
+                        power_play_opportunities = more_interesting(
+                            power_play_opportunities, stat["value"]
+                        )
+                    elif stat["name"] == "powerPlayPct":
+                        power_play_percentage = more_interesting(
+                            power_play_percentage, stat["value"]
+                        )
+                    elif stat["name"] == "shortHandedGoals":
+                        short_handed_goals = more_interesting(
+                            short_handed_goals, stat["value"]
+                        )
+                    elif stat["name"] == "shortHandedAssists":
+                        short_handed_assists = more_interesting(
+                            short_handed_assists, stat["value"]
+                        )
+                    elif stat["name"] == "shootoutAttempts":
+                        shootout_attempts = more_interesting(
+                            shootout_attempts, stat["value"]
+                        )
+                    elif stat["name"] == "shootoutGoals":
+                        shoot_out_goals = more_interesting(
+                            shoot_out_goals, stat["value"]
+                        )
+                    elif stat["name"] == "shootoutShotPct":
+                        shootout_shot_percentage = more_interesting(
+                            shootout_shot_percentage, stat["value"]
+                        )
+                    elif stat["name"] == "emptyNetGoalsFor":
+                        empty_net_goals_for = more_interesting(
+                            empty_net_goals_for, stat["value"]
+                        )
+                    elif stat["name"] == "shutoutsAgainst":
+                        shutouts_against = more_interesting(
+                            shutouts_against, stat["value"]
+                        )
+                    elif stat["name"] == "shootingPct":
+                        shooting_percentage = more_interesting(
+                            shooting_percentage, stat["value"]
+                        )
+                    elif stat["name"] == "totalFaceOffs":
+                        total_face_offs = more_interesting(
+                            total_face_offs, stat["value"]
+                        )
+                    elif stat["name"] == "faceoffsWon":
+                        faceoffs_won = more_interesting(faceoffs_won, stat["value"])
+                    elif stat["name"] == "faceoffsLost":
+                        faceoffs_lost = more_interesting(faceoffs_lost, stat["value"])
+                    elif stat["name"] == "faceoffPercent":
+                        faceoff_percentage = more_interesting(
+                            faceoff_percentage, stat["value"]
+                        )
+                    elif stat["name"] == "unassistedGoals":
+                        unassisted_goals = more_interesting(
+                            unassisted_goals, stat["value"]
+                        )
+                    elif stat["name"] == "gameTyingGoals":
+                        game_tying_goals = more_interesting(
+                            game_tying_goals, stat["value"]
+                        )
+                    elif stat["name"] == "giveaways":
+                        giveaways = more_interesting(giveaways, stat["value"])
+                    elif stat["name"] == "penalties":
+                        penalties = more_interesting(penalties, stat["value"])
+                    elif stat["name"] == "penaltyMinutes":
+                        penalty_minutes = more_interesting(
+                            penalty_minutes, stat["value"]
+                        )
+                    elif stat["name"] == "penaltyMinutesAgainst":
+                        penalty_minutes_against = more_interesting(
+                            penalty_minutes_against, stat["value"]
+                        )
+                    elif stat["name"] == "majorPenalties":
+                        major_penalties = more_interesting(
+                            major_penalties, stat["value"]
+                        )
+                    elif stat["name"] == "minorPenalties":
+                        minor_penalties = more_interesting(
+                            minor_penalties, stat["value"]
+                        )
+                    elif stat["name"] == "matchPenalties":
+                        match_penalties = more_interesting(
+                            match_penalties, stat["value"]
+                        )
+                    elif stat["name"] == "misconducts":
+                        misconducts = more_interesting(misconducts, stat["value"])
+                    elif stat["name"] == "gameMisconducts":
+                        game_misconducts = more_interesting(
+                            game_misconducts, stat["value"]
+                        )
+                    elif stat["name"] == "boardingPenalties":
+                        boarding_penalties = more_interesting(
+                            boarding_penalties, stat["value"]
+                        )
+                    elif stat["name"] == "unsportsmanlikePenalties":
+                        unsportsmanlike_penalties = more_interesting(
+                            unsportsmanlike_penalties, stat["value"]
+                        )
+                    elif stat["name"] == "fightingPenalties":
+                        fighting_penalties = more_interesting(
+                            fighting_penalties, stat["value"]
+                        )
+                    elif stat["name"] == "avgFights":
+                        average_fights = more_interesting(average_fights, stat["value"])
+                    elif stat["name"] == "timeBetweenFights":
+                        time_between_fights = more_interesting(
+                            time_between_fights, stat["value"]
+                        )
+                    elif stat["name"] == "instigatorPenalties":
+                        instigator_penalties = more_interesting(
+                            instigator_penalties, stat["value"]
+                        )
+                    elif stat["name"] == "chargingPenalties":
+                        charging_penalties = more_interesting(
+                            charging_penalties, stat["value"]
+                        )
+                    elif stat["name"] == "hookingPenalties":
+                        hooking_penalties = more_interesting(
+                            hooking_penalties, stat["value"]
+                        )
+                    elif stat["name"] == "trippingPenalties":
+                        tripping_penalties = more_interesting(
+                            tripping_penalties, stat["value"]
+                        )
+                    elif stat["name"] == "roughingPenalties":
+                        roughing_penalties = more_interesting(
+                            roughing_penalties, stat["value"]
+                        )
+                    elif stat["name"] == "holdingPenalties":
+                        holding_penalties = more_interesting(
+                            holding_penalties, stat["value"]
+                        )
+                    elif stat["name"] == "interferencePenalties":
+                        interference_penalties = more_interesting(
+                            interference_penalties, stat["value"]
+                        )
+                    elif stat["name"] == "slashingPenalties":
+                        slashing_penalties = more_interesting(
+                            slashing_penalties, stat["value"]
+                        )
+                    elif stat["name"] == "highStickingPenalties":
+                        high_sticking_penalties = more_interesting(
+                            high_sticking_penalties, stat["value"]
+                        )
+                    elif stat["name"] == "crossCheckingPenalties":
+                        cross_checking_penalties = more_interesting(
+                            cross_checking_penalties, stat["value"]
+                        )
+                    elif stat["name"] == "stickHoldingPenalties":
+                        stick_holding_penalties = more_interesting(
+                            stick_holding_penalties, stat["value"]
+                        )
+                    elif stat["name"] == "goalieInterferencePenalties":
+                        goalie_interference_penalties = more_interesting(
+                            goalie_interference_penalties, stat["value"]
+                        )
+                    elif stat["name"] == "elbowingPenalties":
+                        elbowing_penalties = more_interesting(
+                            elbowing_penalties, stat["value"]
+                        )
+                    elif stat["name"] == "divingPenalties":
+                        diving_penalties = more_interesting(
+                            diving_penalties, stat["value"]
+                        )
 
     athlete_dict = {}
     athelete_url = player["athlete"]["$ref"]
@@ -2764,19 +3155,19 @@ def _create_espn_player_model(
         rushing_touchdowns_above_50_yards=rushing_touchdowns_above_50_yards,
         penalties_in_minutes=None,
         even_strength_goals=None,
-        power_play_goals=None,
-        short_handed_goals=None,
+        power_play_goals=power_play_goals,
+        short_handed_goals=short_handed_goals,
         game_winning_goals=game_winning_goals,
         even_strength_assists=None,
-        power_play_assists=None,
-        short_handed_assists=None,
+        power_play_assists=power_play_assists,
+        short_handed_assists=short_handed_assists,
         shots_on_goal=None,
-        shooting_percentage=None,
-        shifts=None,
-        time_on_ice=None,
+        shooting_percentage=shooting_percentage,
+        shifts=shifts,
+        time_on_ice=time_on_ice,
         decision=None,
-        goals_against=None,
-        shots_against=None,
+        goals_against=goals_against,
+        shots_against=shots_against,
         saves=saves,
         save_percentage=save_percentage,
         shutouts=shutouts,
@@ -3277,6 +3668,82 @@ def _create_espn_player_model(
         average_48_turnovers=average_48_turnovers,
         p40=p40,
         a40=a40,
+        average_goals_against=average_goals_against,
+        average_shots_against=average_shots_against,
+        penalty_kill_percentage=penalty_kill_percentage,
+        power_play_goals_against=power_play_goals_against,
+        short_handed_goals_against=short_handed_goals_against,
+        shootout_saves=shootout_saves,
+        shootout_shots_against=shootout_shots_against,
+        times_short_handed=times_short_handed,
+        empty_net_goals_against=empty_net_goals_against,
+        overtime_losses=overtime_losses,
+        takeaways=takeaways,
+        even_strength_saves=even_strength_saves,
+        power_play_saves=power_play_saves,
+        short_handed_saves=short_handed_saves,
+        games=games,
+        game_started=game_started,
+        ties=ties,
+        time_on_ice_per_game=time_on_ice_per_game,
+        power_play_time_on_ice=power_play_time_on_ice,
+        short_handed_time_on_ice=short_handed_time_on_ice,
+        even_strength_time_on_ice=even_strength_time_on_ice,
+        shifts_per_game=shifts_per_game,
+        production=production,
+        shot_differential=shot_differential,
+        goal_differential=goal_differential,
+        pim_differential=pim_differential,
+        rating=rating,
+        average_goals=average_goals,
+        ytd_goals=ytd_goals,
+        shots_in_first_period=shots_in_first_period,
+        shots_in_second_period=shots_in_second_period,
+        shots_in_third_period=shots_in_third_period,
+        shots_overtime=shots_overtime,
+        shots_missed=shots_missed,
+        average_shots=average_shots,
+        points_per_game=points_per_game,
+        power_play_opportunities=power_play_opportunities,
+        power_play_percentage=power_play_percentage,
+        shootout_attempts=shootout_attempts,
+        shootout_shot_percentage=shootout_shot_percentage,
+        empty_net_goals_for=empty_net_goals_for,
+        shutouts_against=shutouts_against,
+        total_face_offs=total_face_offs,
+        faceoffs_won=faceoffs_won,
+        faceoffs_lost=faceoffs_lost,
+        faceoff_percentage=faceoff_percentage,
+        unassisted_goals=unassisted_goals,
+        game_tying_goals=game_tying_goals,
+        giveaways=giveaways,
+        penalties=penalties,
+        penalty_minutes=penalty_minutes,
+        penalty_minutes_against=penalty_minutes_against,
+        major_penalties=major_penalties,
+        minor_penalties=minor_penalties,
+        match_penalties=match_penalties,
+        misconducts=misconducts,
+        game_misconducts=game_misconducts,
+        boarding_penalties=boarding_penalties,
+        unsportsmanlike_penalties=unsportsmanlike_penalties,
+        fighting_penalties=fighting_penalties,
+        average_fights=average_fights,
+        time_between_fights=time_between_fights,
+        instigator_penalties=instigator_penalties,
+        charging_penalties=charging_penalties,
+        hooking_penalties=hooking_penalties,
+        tripping_penalties=tripping_penalties,
+        roughing_penalties=roughing_penalties,
+        holding_penalties=holding_penalties,
+        interference_penalties=interference_penalties,
+        slashing_penalties=slashing_penalties,
+        high_sticking_penalties=high_sticking_penalties,
+        cross_checking_penalties=cross_checking_penalties,
+        stick_holding_penalties=stick_holding_penalties,
+        goalie_interference_penalties=goalie_interference_penalties,
+        elbowing_penalties=elbowing_penalties,
+        diving_penalties=diving_penalties,
     )
 
 
