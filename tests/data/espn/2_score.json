@@ -1,0 +1,11 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/scores/2?lang=en&region=us",
+    "displayValue": "6",
+    "source": {
+        "description": "feed",
+        "id": "2",
+        "state": "full"
+    },
+    "value": 6.0,
+    "winner": true
+}

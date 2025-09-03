@@ -1539,6 +1539,7 @@ class TestCombinedTeamModel(unittest.TestCase):
                 time_on_ice=None,
                 total_giveaways=None,
                 total_takeaways=None,
+                fantasy_rating=None,
                 version=VERSION,
             )]
             team_model = create_combined_team_model(
@@ -3065,6 +3066,7 @@ class TestCombinedTeamModel(unittest.TestCase):
                 time_on_ice=None,
                 total_giveaways=None,
                 total_takeaways=None,
+                fantasy_rating=None,
                 version=VERSION,
             )]
             team_model_2 = create_combined_team_model(
@@ -4600,6 +4602,7 @@ class TestCombinedTeamModel(unittest.TestCase):
                 time_on_ice=None,
                 total_giveaways=None,
                 total_takeaways=None,
+                fantasy_rating=None,
                 version=VERSION,
             )]
             team_model = create_combined_team_model(
@@ -6126,6 +6129,7 @@ class TestCombinedTeamModel(unittest.TestCase):
                 time_on_ice=None,
                 total_giveaways=None,
                 total_takeaways=None,
+                fantasy_rating=None,
                 version=VERSION,
             )]
             team_model_2 = create_combined_team_model(
@@ -6789,6 +6793,7 @@ class TestCombinedTeamModel(unittest.TestCase):
             time_on_ice=None,
             total_giveaways=None,
             total_takeaways=None,
+            fantasy_rating=None,
             version=VERSION,
         )]
         team_model = create_combined_team_model(
@@ -7437,6 +7442,7 @@ class TestCombinedTeamModel(unittest.TestCase):
             time_on_ice=None,
             total_giveaways=None,
             total_takeaways=None,
+            fantasy_rating=None,
             version=VERSION,
         )]
         next_team_model = create_combined_team_model(

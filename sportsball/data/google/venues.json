@@ -8529,6 +8529,46 @@
             "housenumber": "",
             "country": "UAE",
             "type": "venue"
+        },
+        "72d9f1da-5841-4b32-8c0c-9fd206900865": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 47.0,
+            "lng": 20.0,
+            "housenumber": "",
+            "country": "Hungary",
+            "type": "country"
+        },
+        "2d6e2867-f1fc-416e-b633-a9bef97e0f7d": {
+            "city": "Liverpool",
+            "state": "",
+            "postal": "",
+            "lat": 53.4251,
+            "lng": -3.0028,
+            "housenumber": "",
+            "country": "UK",
+            "type": "venue"
+        },
+        "3ed06afd-66c3-4750-9e12-a23712f96a88": {
+            "city": "Moscow",
+            "state": "",
+            "postal": "",
+            "lat": 55.715833,
+            "lng": 37.553611,
+            "housenumber": "",
+            "country": "Russia",
+            "type": "venue"
+        },
+        "22c41188-0590-45f3-93a8-14b7d7e2f115": {
+            "city": "Cranbourne East",
+            "state": "VIC",
+            "postal": "",
+            "lat": -38.120556,
+            "lng": 145.309167,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
         }
     },
     "searches": {
@@ -9716,6 +9756,7 @@
         "Cincinnati, Ohio": "4055a1d3-a085-4a7c-bd2c-5e12a7d9ca1d",
         "Cincinnati, OH, USA": "4055a1d3-a085-4a7c-bd2c-5e12a7d9ca1d",
         "Cincinnati, USA": "4055a1d3-a085-4a7c-bd2c-5e12a7d9ca1d",
+        "Cincinnati": "4055a1d3-a085-4a7c-bd2c-5e12a7d9ca1d",
         "Ellis Corbett Sports Center, Greensboro, North Carolina": "94ce6715-c9d5-4622-85e9-1497798bb2de",
         "Corbett Sports Center, Greensboro, North Carolina": "94ce6715-c9d5-4622-85e9-1497798bb2de",
         "Trask Coliseum, Wilmington, North Carolina": "18f74dc5-fb94-44c9-a83e-28b165a6ddef",
@@ -10244,6 +10285,10 @@
         "Auburn University": "a3a7f05b-d2d8-4411-8d89-ee8f47fd4d44",
         "Auburn": "a3a7f05b-d2d8-4411-8d89-ee8f47fd4d44",
         "Fremantle Oval": "0c508a23-2456-4683-8f0e-7d7dbaaf97c4",
-        "Sheikh Zayed Cricket Stadium": "a6a48c5a-cced-4922-a63d-8c63fd5a6e66"
+        "Sheikh Zayed Cricket Stadium": "a6a48c5a-cced-4922-a63d-8c63fd5a6e66",
+        "HUN": "72d9f1da-5841-4b32-8c0c-9fd206900865",
+        "Hill Dickinson Stadium - Liverpool": "2d6e2867-f1fc-416e-b633-a9bef97e0f7d",
+        "Luzhniki Stadium - Moscow": "3ed06afd-66c3-4750-9e12-a23712f96a88",
+        "Casey Fields": "22c41188-0590-45f3-93a8-14b7d7e2f115"
     }
 }

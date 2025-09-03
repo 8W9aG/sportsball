@@ -681,6 +681,7 @@ def _create_espn_team(
             time_on_ice=None,
             total_giveaways=None,
             total_takeaways=None,
+            fantasy_rating=None,
             version=TEAM_VERSION,
         )
 

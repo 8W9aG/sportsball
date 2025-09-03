@@ -694,6 +694,7 @@ def _create_hkjc_hkjc_team_model(
         time_on_ice=None,
         total_giveaways=None,
         total_takeaways=None,
+        fantasy_rating=None,
         version=version,
     )
 

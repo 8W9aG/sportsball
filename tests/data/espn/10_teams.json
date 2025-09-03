@@ -1,0 +1,318 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/10?lang=en&region=us",
+    "abbreviation": "NYY",
+    "alternateColor": "c4ced4",
+    "alternateIds": {
+        "sdr": "58"
+    },
+    "athletes": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/10/athletes?lang=en&region=us"
+    },
+    "awards": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/10/awards?lang=en&region=us"
+    },
+    "coaches": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/10/coaches?lang=en&region=us"
+    },
+    "color": "132448",
+    "depthCharts": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/10/depthcharts?lang=en&region=us"
+    },
+    "displayName": "New York Yankees",
+    "events": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/10/events?lang=en&region=us"
+    },
+    "franchise": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/franchises/10?lang=en&region=us"
+    },
+    "groups": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/types/2/groups/1?lang=en&region=us"
+    },
+    "guid": "2b9cedf3-ce60-0bcf-fafe-8cd055255685",
+    "id": "10",
+    "injuries": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/teams/10/injuries?lang=en&region=us"
+    },
+    "isActive": true,
+    "isAllStar": false,
+    "leaders": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/types/2/teams/10/leaders?lang=en&region=us"
+    },
+    "links": [
+        {
+            "href": "https://www.espn.com/mlb/team/_/name/nyy/new-york-yankees",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "clubhouse",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Clubhouse",
+            "text": "Clubhouse"
+        },
+        {
+            "href": "https://www.espn.com/mlb/team/roster/_/name/nyy/new-york-yankees",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "roster",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Roster",
+            "text": "Roster"
+        },
+        {
+            "href": "https://www.espn.com/mlb/team/stats/_/name/nyy/new-york-yankees",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "stats",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Statistics",
+            "text": "Statistics"
+        },
+        {
+            "href": "https://www.espn.com/mlb/team/schedule/_/name/nyy",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "schedule",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Schedule",
+            "text": "Schedule"
+        },
+        {
+            "href": "https://www.espn.com/mlb/team/photos/_/name/nyy",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "photos",
+                "desktop",
+                "team"
+            ],
+            "shortText": "photos",
+            "text": "photos"
+        },
+        {
+            "href": "https://www.vividseats.com/new-york-yankees-tickets--sports-mlb-baseball/performer/607?wsUser=717",
+            "isExternal": true,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "tickets",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Tickets",
+            "text": "Tickets"
+        },
+        {
+            "href": "https://www.espn.com/mlb/team/transactions/_/name/nyy",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "transactions",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Transactions",
+            "text": "Transactions"
+        },
+        {
+            "href": "https://www.espn.com/mlb/team/injuries/_/name/nyy",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "injuries",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Injuries",
+            "text": "Injuries"
+        },
+        {
+            "href": "https://www.espn.com/mlb/team/depth/_/name/nyy",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "depthchart",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Depth Chart",
+            "text": "Depth Chart"
+        }
+    ],
+    "location": "New York",
+    "logos": [
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/mlb/500/nyy.png",
+            "lastUpdated": "2024-07-01T17:48Z",
+            "rel": [
+                "full",
+                "default"
+            ],
+            "width": 500
+        },
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/mlb/500-dark/nyy.png",
+            "lastUpdated": "2024-07-01T17:49Z",
+            "rel": [
+                "full",
+                "dark"
+            ],
+            "width": 500
+        },
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png",
+            "lastUpdated": "2024-07-01T17:48Z",
+            "rel": [
+                "full",
+                "scoreboard"
+            ],
+            "width": 500
+        },
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/mlb/500-dark/scoreboard/nyy.png",
+            "lastUpdated": "2024-07-01T17:49Z",
+            "rel": [
+                "full",
+                "scoreboard",
+                "dark"
+            ],
+            "width": 500
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/2b9cedf3-ce60-0bcf-fafe-8cd055255685/logos/primary_logo_on_white_color.png",
+            "lastUpdated": "2024-12-03T19:56Z",
+            "rel": [
+                "full",
+                "primary_logo_on_white_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/2b9cedf3-ce60-0bcf-fafe-8cd055255685/logos/primary_logo_on_black_color.png",
+            "lastUpdated": "2024-12-03T19:56Z",
+            "rel": [
+                "full",
+                "primary_logo_on_black_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/2b9cedf3-ce60-0bcf-fafe-8cd055255685/logos/primary_logo_on_primary_color.png",
+            "lastUpdated": "2024-12-03T19:56Z",
+            "rel": [
+                "full",
+                "primary_logo_on_primary_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/2b9cedf3-ce60-0bcf-fafe-8cd055255685/logos/primary_logo_on_secondary_color.png",
+            "lastUpdated": "2024-12-03T19:56Z",
+            "rel": [
+                "full",
+                "primary_logo_on_secondary_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/2b9cedf3-ce60-0bcf-fafe-8cd055255685/logos/secondary_logo_on_white_color.png",
+            "lastUpdated": "2024-12-03T19:56Z",
+            "rel": [
+                "full",
+                "secondary_logo_on_white_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/2b9cedf3-ce60-0bcf-fafe-8cd055255685/logos/secondary_logo_on_black_color.png",
+            "lastUpdated": "2024-12-03T19:56Z",
+            "rel": [
+                "full",
+                "secondary_logo_on_black_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/2b9cedf3-ce60-0bcf-fafe-8cd055255685/logos/secondary_logo_on_primary_color.png",
+            "lastUpdated": "2024-12-03T19:56Z",
+            "rel": [
+                "full",
+                "secondary_logo_on_primary_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/2b9cedf3-ce60-0bcf-fafe-8cd055255685/logos/secondary_logo_on_secondary_color.png",
+            "lastUpdated": "2024-12-03T19:56Z",
+            "rel": [
+                "full",
+                "secondary_logo_on_secondary_color"
+            ],
+            "width": 4096
+        }
+    ],
+    "name": "Yankees",
+    "notes": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/teams/10/notes?lang=en&region=us"
+    },
+    "oddsRecords": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/types/0/teams/10/odds-records?lang=en&region=us"
+    },
+    "ranks": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/10/ranks?lang=en&region=us"
+    },
+    "record": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/types/2/teams/10/record?lang=en&region=us"
+    },
+    "shortDisplayName": "Yankees",
+    "slug": "new-york-yankees",
+    "statistics": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/types/2/teams/10/statistics?lang=en&region=us"
+    },
+    "transactions": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/10/transactions?lang=en&region=us"
+    },
+    "uid": "s:1~l:10~t:10"
+}

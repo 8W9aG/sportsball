@@ -714,6 +714,7 @@ def _create_espn_team_model(
     penalty_minutes = None
     total_giveaways = None
     total_takeaways = None
+    fantasy_rating = None
     if "splits" in statistics_dict:
         try:
             for category in statistics_dict["splits"]["categories"]:
@@ -1152,6 +1153,8 @@ def _create_espn_team_model(
                         at_bats = more_interesting(at_bats, stat["value"])
                     elif stat["name"] == "homeRuns":
                         home_runs = more_interesting(home_runs, stat["value"])
+                    elif stat["name"] == "homeruns":
+                        pass
                     elif stat["name"] == "grandSlamHomeRuns":
                         grand_slam_home_runs = more_interesting(
                             grand_slam_home_runs, stat["value"]
@@ -1309,7 +1312,8 @@ def _create_espn_team_model(
                     elif stat["name"] == "perfectGames":
                         perfect_games = more_interesting(perfect_games, stat["value"])
                     elif stat["name"] == "wildPitches":
-                        wild_pitches = more_interesting(wild_pitches, stat["value"])
+                        if "value" in stat:
+                            wild_pitches = more_interesting(wild_pitches, stat["value"])
                     elif stat["name"] == "thirdInnings":
                         third_innings = more_interesting(third_innings, stat["value"])
                     elif stat["name"] == "teamEarnedRuns":
@@ -1434,14 +1438,15 @@ def _create_espn_team_model(
                         games_played = more_interesting(games_played, stat["value"])
                     elif stat["name"] == "teamGamesPlayed":
                         team_games_played = more_interesting(
-                            team_games_played, stat["value"]
+                            team_games_played, stat.get("value", int(stat["displayValue"]))
                         )
                     elif stat["name"] == "doublePlays":
                         double_plays = more_interesting(double_plays, stat["value"])
                     elif stat["name"] == "opportunities":
                         opportunities = more_interesting(opportunities, stat["value"])
                     elif stat["name"] == "errors":
-                        errors = more_interesting(errors, stat["value"])
+                        if "value" in stat:
+                            errors = more_interesting(errors, stat["value"])
                     elif stat["name"] == "passedBalls":
                         passed_balls = more_interesting(passed_balls, stat["value"])
                     elif stat["name"] == "assists":
@@ -2760,15 +2765,15 @@ def _create_espn_team_model(
                         takeaways = more_interesting(takeaways, stat["value"])
                     elif stat["name"] == "evenStrengthSaves":
                         even_strength_saves = more_interesting(
-                            even_strength_saves, stat["value"]
+                            even_strength_saves, stat.get("value", int(stat["displayValue"]))
                         )
                     elif stat["name"] == "powerPlaySaves":
                         power_play_saves = more_interesting(
-                            power_play_saves, stat["value"]
+                            power_play_saves, stat.get("value", int(stat["displayValue"]))
                         )
                     elif stat["name"] == "shortHandedSaves":
                         short_handed_saves = more_interesting(
-                            short_handed_saves, stat["value"]
+                            short_handed_saves, stat.get("value", int(stat["displayValue"]))
                         )
                     elif stat["name"] == "timeOnIce":
                         time_on_ice = more_interesting(time_on_ice, stat["value"])
@@ -2799,7 +2804,7 @@ def _create_espn_team_model(
                             pim_differential, stat["value"]
                         )
                     elif stat["name"] == "rating":
-                        rating = more_interesting(rating, stat["value"])
+                        rating = more_interesting(rating, stat.get("value", float(stat["displayValue"])))
                     elif stat["name"] == "ytdGoals":
                         ytd_goals = more_interesting(ytd_goals, stat["value"])
                     elif stat["name"] == "shotsIn1stPeriod":
@@ -2815,14 +2820,14 @@ def _create_espn_team_model(
                             shots_in_third_period, stat["value"]
                         )
                     elif stat["name"] == "shotsOT":
-                        shots_ot = more_interesting(shots_ot, stat["value"])
+                        shots_ot = more_interesting(shots_ot, stat.get("value", int(stat["displayValue"])))
                     elif stat["name"] == "shotsTotal":
                         shots_total = more_interesting(shots_total, stat["value"])
                     elif stat["name"] == "shotsMissed":
                         shots_missed = more_interesting(shots_missed, stat["value"])
                     elif stat["name"] == "pointsPerGame":
                         points_per_game = more_interesting(
-                            points_per_game, stat["value"]
+                            points_per_game, stat.get("value", float(stat["displayValue"]))
                         )
                     elif stat["name"] == "powerPlayGoals":
                         power_play_goals = more_interesting(
@@ -2905,6 +2910,20 @@ def _create_espn_team_model(
                         total_takeaways = more_interesting(
                             total_takeaways, stat["value"]
                         )
+                    elif stat["name"] == "fantasyRating":
+                        fantasy_rating = more_interesting(fantasy_rating, stat["value"])
+                    elif stat["name"] == "rbi":
+                        pass
+                    elif stat["name"] == "2outRBI":
+                        pass
+                    elif stat["name"] == "gidp":
+                        pass
+                    elif stat["name"] == "teamLOB":
+                        pass
+                    elif stat["name"] == "teamRISP":
+                        pass
+                    elif stat["name"] == "runnersLeftScoringPosition2Outs":
+                        pass
                     else:
                         raise ValueError(
                             f"Failed to account for statistic: {stat['name']} on {statistics_dict['$ref']}"
@@ -3590,6 +3609,7 @@ def _create_espn_team_model(
         penalty_minutes=penalty_minutes,
         total_giveaways=total_giveaways,
         total_takeaways=total_takeaways,
+        fantasy_rating=fantasy_rating,
     )
 
 

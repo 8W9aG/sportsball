@@ -1,0 +1,13 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/scores/2?lang=en&region=us",
+    "displayValue": "4",
+    "errors": 2,
+    "hits": 9,
+    "source": {
+        "description": "feed",
+        "id": "2",
+        "state": "full"
+    },
+    "value": 4.0,
+    "winner": false
+}

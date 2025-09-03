@@ -1168,7 +1168,8 @@ TEAM_SHORT_HANDED_SAVES_COLUMN: Literal["short_handed_saves"] = "short_handed_sa
 TEAM_TIME_ON_ICE_COLUMN: Literal["time_on_ice"] = "time_on_ice"
 TEAM_TOTAL_GIVEAWAYS_COLUMN: Literal["total_giveaways"] = "total_giveaways"
 TEAM_TOTAL_TAKEAWAYS_COLUMN: Literal["total_takeaways"] = "total_takeaways"
-VERSION = DELIMITER.join(["0.0.5", PLAYER_VERSION, COACH_VERSION])
+TEAM_FANTASY_RATING_COLUMN: Literal["fantasy_rating"] = "fantasy_rating"
+VERSION = DELIMITER.join(["0.0.6", PLAYER_VERSION, COACH_VERSION])
 
 
 def _calculate_kicks(data: dict[str, Any]) -> int | None:
@@ -1787,7 +1788,7 @@ class TeamModel(BaseModel):
     )
     news: list[NewsModel] = Field(..., alias=TEAM_NEWS_COLUMN)
     social: list[SocialModel]
-    field_goals: int | None = Field(
+    field_goals: float | None = Field(
         default_factory=_calculate_field_goals,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=FIELD_GOALS_COLUMN,
@@ -1948,7 +1949,7 @@ class TeamModel(BaseModel):
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_THREE_POINT_FIELD_GOALS_PERCENTAGE_COLUMN,
     )
-    free_throws: int | None = Field(
+    free_throws: float | None = Field(
         default_factory=_calculate_free_throws,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_FREE_THROWS_COLUMN,
@@ -2938,7 +2939,7 @@ class TeamModel(BaseModel):
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_SAVE_OPPORTUNITIES_PER_WIN_COLUMN,
     )
-    runs_created: int | None = Field(
+    runs_created: float | None = Field(
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_RUNS_CREATED_COLUMN,
@@ -2978,7 +2979,7 @@ class TeamModel(BaseModel):
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_GROUND_TO_FLY_RATIO_COLUMN,
     )
-    runs_created_per_27_outs: int | None = Field(
+    runs_created_per_27_outs: float | None = Field(
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_RUNS_CREATED_PER_27_OUTS_COLUMN,
@@ -5117,5 +5118,10 @@ class TeamModel(BaseModel):
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_TOTAL_TAKEAWAYS_COLUMN,
+    )
+    fantasy_rating: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_FANTASY_RATING_COLUMN,
     )
     version: str = Field(..., json_schema_extra={TYPE_KEY: FieldType.CATEGORICAL})

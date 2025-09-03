@@ -1,0 +1,328 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/teams/2?lang=en&region=us",
+    "abbreviation": "BUF",
+    "alternateColor": "fdb71a",
+    "alternateIds": {
+        "sdr": "2598"
+    },
+    "athletes": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/teams/2/athletes?lang=en&region=us"
+    },
+    "awards": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/teams/2/awards?lang=en&region=us"
+    },
+    "coaches": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/teams/2/coaches?lang=en&region=us"
+    },
+    "color": "00468b",
+    "displayName": "Buffalo Sabres",
+    "events": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/teams/2/events?lang=en&region=us"
+    },
+    "franchise": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/franchises/2?lang=en&region=us"
+    },
+    "groups": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/types/2/groups/32?lang=en&region=us"
+    },
+    "guid": "06b99a18-3096-3b1f-d339-adab9ac51614",
+    "id": "2",
+    "injuries": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/teams/2/injuries?lang=en&region=us"
+    },
+    "isActive": true,
+    "isAllStar": false,
+    "leaders": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/types/2/teams/2/leaders?lang=en&region=us"
+    },
+    "links": [
+        {
+            "href": "https://www.espn.com/nhl/team/_/name/buf/buffalo-sabres",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "clubhouse",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Clubhouse",
+            "text": "Clubhouse"
+        },
+        {
+            "href": "https://m.espn.com/nhl/clubhouse?teamId=2",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "clubhouse",
+                "mobile",
+                "team"
+            ],
+            "shortText": "Clubhouse",
+            "text": "Clubhouse"
+        },
+        {
+            "href": "https://www.espn.com/nhl/team/roster/_/name/buf/buffalo-sabres",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "roster",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Roster",
+            "text": "Roster"
+        },
+        {
+            "href": "https://www.espn.com/nhl/team/stats/_/name/buf/buffalo-sabres",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "stats",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Statistics",
+            "text": "Statistics"
+        },
+        {
+            "href": "https://www.espn.com/nhl/team/schedule/_/name/buf",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "schedule",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Schedule",
+            "text": "Schedule"
+        },
+        {
+            "href": "https://www.espn.com/nhl/team/photos/_/name/buf",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "photos",
+                "desktop",
+                "team"
+            ],
+            "shortText": "photos",
+            "text": "photos"
+        },
+        {
+            "href": "https://www.vividseats.com/buffalo-sabres-tickets--sports-nhl-hockey/performer/129?wsUser=717",
+            "isExternal": true,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "tickets",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Tickets",
+            "text": "Tickets"
+        },
+        {
+            "href": "https://www.espn.com/nhl/team/transactions/_/name/buf",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "transactions",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Transactions",
+            "text": "Transactions"
+        },
+        {
+            "href": "https://www.espn.com/nhl/team/injuries/_/name/buf",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "injuries",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Injuries",
+            "text": "Injuries"
+        }
+    ],
+    "location": "Buffalo",
+    "logos": [
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nhl/500/buf.png",
+            "lastUpdated": "2024-07-02T15:51Z",
+            "rel": [
+                "full",
+                "default"
+            ],
+            "width": 500
+        },
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/buf.png",
+            "lastUpdated": "2024-07-02T15:46Z",
+            "rel": [
+                "full",
+                "dark"
+            ],
+            "width": 500
+        },
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png",
+            "lastUpdated": "2024-07-02T15:51Z",
+            "rel": [
+                "full",
+                "scoreboard"
+            ],
+            "width": 500
+        },
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/scoreboard/buf.png",
+            "lastUpdated": "2024-07-02T15:46Z",
+            "rel": [
+                "full",
+                "scoreboard",
+                "dark"
+            ],
+            "width": 500
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/06b99a18-3096-3b1f-d339-adab9ac51614/logos/primary_logo_on_white_color.png",
+            "lastUpdated": "2024-12-03T19:38Z",
+            "rel": [
+                "full",
+                "primary_logo_on_white_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/06b99a18-3096-3b1f-d339-adab9ac51614/logos/primary_logo_on_black_color.png",
+            "lastUpdated": "2024-12-03T19:38Z",
+            "rel": [
+                "full",
+                "primary_logo_on_black_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/06b99a18-3096-3b1f-d339-adab9ac51614/logos/primary_logo_on_primary_color.png",
+            "lastUpdated": "2024-12-03T19:38Z",
+            "rel": [
+                "full",
+                "primary_logo_on_primary_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/06b99a18-3096-3b1f-d339-adab9ac51614/logos/primary_logo_on_secondary_color.png",
+            "lastUpdated": "2024-12-03T19:38Z",
+            "rel": [
+                "full",
+                "primary_logo_on_secondary_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/06b99a18-3096-3b1f-d339-adab9ac51614/logos/secondary_logo_on_white_color.png",
+            "lastUpdated": "2024-12-03T19:38Z",
+            "rel": [
+                "full",
+                "secondary_logo_on_white_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/06b99a18-3096-3b1f-d339-adab9ac51614/logos/secondary_logo_on_black_color.png",
+            "lastUpdated": "2024-12-03T19:38Z",
+            "rel": [
+                "full",
+                "secondary_logo_on_black_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/06b99a18-3096-3b1f-d339-adab9ac51614/logos/secondary_logo_on_primary_color.png",
+            "lastUpdated": "2024-12-03T19:38Z",
+            "rel": [
+                "full",
+                "secondary_logo_on_primary_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/06b99a18-3096-3b1f-d339-adab9ac51614/logos/secondary_logo_on_secondary_color.png",
+            "lastUpdated": "2024-12-03T19:38Z",
+            "rel": [
+                "full",
+                "secondary_logo_on_secondary_color"
+            ],
+            "width": 4096
+        }
+    ],
+    "name": "Sabres",
+    "nickname": "Sabres",
+    "record": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/types/2/teams/2/record?lang=en&region=us"
+    },
+    "shortDisplayName": "Sabres",
+    "slug": "buffalo-sabres",
+    "statistics": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/types/2/teams/2/statistics?lang=en&region=us"
+    },
+    "uid": "s:70~l:90~t:2",
+    "venue": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/venues/1848?lang=en&region=us",
+        "address": {
+            "city": "Buffalo",
+            "country": "USA",
+            "state": "NY"
+        },
+        "fullName": "KeyBank Center",
+        "grass": false,
+        "id": "1848",
+        "images": [
+            {
+                "alt": "",
+                "height": 1125,
+                "href": "https://a.espncdn.com/i/venues/nhl/day/1848.jpg",
+                "rel": [
+                    "full",
+                    "day"
+                ],
+                "width": 2000
+            }
+        ],
+        "indoor": true
+    }
+}

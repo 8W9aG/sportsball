@@ -1,0 +1,32 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/coaches/165?lang=en&region=us",
+    "birthPlace": {
+        "city": "La Mesa",
+        "state": "CA"
+    },
+    "college": {
+        "$ref": "http://sports.core.api.espn.com/v2/colleges/30?lang=en&region=us"
+    },
+    "dateOfBirth": "1973-03-09T08:00Z",
+    "experience": 8,
+    "firstName": "Aaron",
+    "id": "165",
+    "lastName": "Boone",
+    "person": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/coaches/165?lang=en&region=us"
+    },
+    "records": [
+        {
+            "record": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/types/2/coaches/165/record?lang=en&region=us"
+            },
+            "team": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/10?lang=en&region=us"
+            }
+        }
+    ],
+    "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/10?lang=en&region=us"
+    },
+    "uid": "s:1~l:10~co:165"
+}

@@ -1,0 +1,1194 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/statistics/0?lang=en&region=us",
+    "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271?lang=en&region=us"
+    },
+    "splits": {
+        "abbreviation": "Season",
+        "categories": [
+            {
+                "abbreviation": "def",
+                "athletes": [
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/3115014?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/3115014/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/5149186?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/5149186/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4565225?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4565225/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/3042191?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/3042191/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4565228?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4565228/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/3942030?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/3942030/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/3900260?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/3900260/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4233705?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4233705/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4565238?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4565238/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/3151322?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/3151322/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4894487?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4894487/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4063240?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4063240/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4378669?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4378669/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4697438?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4697438/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4781556?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4781556/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4697389?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4697389/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4378656?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4378656/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4024988?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4024988/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/2593315?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/2593315/statistics/0?lang=en&region=us"
+                        }
+                    }
+                ],
+                "displayName": "Defensive",
+                "name": "defensive",
+                "shortDisplayName": "Defensive",
+                "stats": [
+                    {
+                        "abbreviation": "GA",
+                        "description": "Total goals against.",
+                        "displayName": "Goals Against",
+                        "displayValue": "1",
+                        "name": "goalsAgainst",
+                        "shortDisplayName": "Goals Against",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "SA",
+                        "description": "Total shots against.",
+                        "displayName": "Shots Against",
+                        "displayValue": "26",
+                        "name": "shotsAgainst",
+                        "shortDisplayName": "Shots Against",
+                        "value": 26.0
+                    },
+                    {
+                        "abbreviation": "PCT",
+                        "description": "Percentage of penalties killed.",
+                        "displayName": "Penalty Kill Percentage",
+                        "displayValue": "100.0",
+                        "name": "penaltyKillPct",
+                        "shortDisplayName": "Penalty Kill Percentage",
+                        "value": 100.0
+                    },
+                    {
+                        "abbreviation": "PPGA",
+                        "description": "Total power play goals against.",
+                        "displayName": "Power Play Goals Against",
+                        "displayValue": "1",
+                        "name": "powerPlayGoalsAgainst",
+                        "shortDisplayName": "Power Play Goals Against",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "SHGA",
+                        "description": "Total short handed goals against.",
+                        "displayName": "Short Handed Goals Against",
+                        "displayValue": "0",
+                        "name": "shortHandedGoalsAgainst",
+                        "shortDisplayName": "Short Against",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SOS",
+                        "description": "Total shootout saves.",
+                        "displayName": "Shootout Saves",
+                        "displayValue": "0",
+                        "name": "shootoutSaves",
+                        "shortDisplayName": "Shootout Saves",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SOSA",
+                        "description": "Total shootout shots against.",
+                        "displayName": "Shootout Shots Against",
+                        "displayValue": "0",
+                        "name": "shootoutShotsAgainst",
+                        "shortDisplayName": "Shootout Shots Against",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SOSPCT",
+                        "description": "Percentage of shootout shots saved.",
+                        "displayName": "Shootout Save Percentage",
+                        "displayValue": ".000",
+                        "name": "shootoutSavePct",
+                        "shortDisplayName": "Shootout Save Percentage",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TSH",
+                        "description": "Total short handed opportunities against.",
+                        "displayName": "Short Handed Opportunities Against",
+                        "displayValue": "2",
+                        "name": "timesShortHanded",
+                        "shortDisplayName": "Short Opportunities Against",
+                        "value": 2.0
+                    },
+                    {
+                        "abbreviation": "ENGA",
+                        "description": "Total empty net goals against.",
+                        "displayName": "Empty Net Goals Against",
+                        "displayValue": "0",
+                        "name": "emptyNetGoalsAgainst",
+                        "shortDisplayName": "Empty Goals Against",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SO",
+                        "description": "Total shutouts.",
+                        "displayName": "Shutouts",
+                        "displayValue": "0",
+                        "name": "shutouts",
+                        "shortDisplayName": "Shutouts",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SV",
+                        "description": "Total saves.",
+                        "displayName": "Saves",
+                        "displayValue": "25",
+                        "name": "saves",
+                        "shortDisplayName": "Saves",
+                        "value": 25.0
+                    },
+                    {
+                        "abbreviation": "SV%",
+                        "description": "Percentage of shots saved.",
+                        "displayName": "Save Percentage",
+                        "displayValue": ".962",
+                        "name": "savePct",
+                        "shortDisplayName": "Save Percentage",
+                        "value": 0.962
+                    },
+                    {
+                        "abbreviation": "BS",
+                        "description": "Total shots blocked.",
+                        "displayName": "Blocked Shots",
+                        "displayValue": "11",
+                        "name": "blockedShots",
+                        "shortDisplayName": "Blocked Shots",
+                        "value": 11.0
+                    },
+                    {
+                        "abbreviation": "HT",
+                        "description": "Total hits.",
+                        "displayName": "Hits",
+                        "displayValue": "23",
+                        "name": "hits",
+                        "shortDisplayName": "Hits",
+                        "value": 23.0
+                    },
+                    {
+                        "abbreviation": "TK",
+                        "description": "Total takeaways.",
+                        "displayName": "Takeaways",
+                        "displayValue": "5",
+                        "name": "takeaways",
+                        "shortDisplayName": "Takeaways",
+                        "value": 5.0
+                    },
+                    {
+                        "abbreviation": "ESSV",
+                        "description": "Saves made at even strength.",
+                        "displayName": "Even Strength Saves",
+                        "displayValue": "0",
+                        "name": "evenStrengthSaves",
+                        "shortDisplayName": "Even Strength Saves"
+                    },
+                    {
+                        "abbreviation": "PPSV",
+                        "description": "Saves made while in a power play.",
+                        "displayName": "Power Play Saves",
+                        "displayValue": "0",
+                        "name": "powerPlaySaves",
+                        "shortDisplayName": "Power Play Saves"
+                    },
+                    {
+                        "abbreviation": "SHSV",
+                        "description": "Saves made while shorthanded",
+                        "displayName": "Shorthanded Saves",
+                        "displayValue": "0",
+                        "name": "shortHandedSaves",
+                        "shortDisplayName": "Shorthanded Saves"
+                    }
+                ],
+                "summary": ""
+            },
+            {
+                "abbreviation": "gen",
+                "athletes": [
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/3115014?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/3115014/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/5149186?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/5149186/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4565225?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4565225/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/3042191?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/3042191/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4565228?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4565228/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/3942030?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/3942030/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/3900260?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/3900260/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4233705?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4233705/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4565238?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4565238/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/3151322?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/3151322/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4894487?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4894487/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4063240?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4063240/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4378669?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4378669/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4697438?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4697438/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4781556?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4781556/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4697389?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4697389/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4378656?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4378656/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4024988?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4024988/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/2593315?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/2593315/statistics/0?lang=en&region=us"
+                        }
+                    }
+                ],
+                "displayName": "General",
+                "name": "general",
+                "shortDisplayName": "General",
+                "stats": [
+                    {
+                        "abbreviation": "G",
+                        "description": "The number of games played by a team.",
+                        "displayName": "Team Games Played",
+                        "displayValue": "0",
+                        "name": "teamGamesPlayed",
+                        "shortDisplayName": "G",
+                        "type": "teamGamesPlayed"
+                    },
+                    {
+                        "abbreviation": "TOI",
+                        "description": "Total time on ice.",
+                        "displayName": "Time On Ice",
+                        "displayValue": "0:00",
+                        "name": "timeOnIce",
+                        "shortDisplayName": "Time On Ice",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PPTOI",
+                        "description": "Total power play time on ice.",
+                        "displayName": "Power Play Time On Ice",
+                        "displayValue": "0:00",
+                        "name": "powerPlayTimeOnIce",
+                        "shortDisplayName": "Power Play Time On Ice",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SHTOI",
+                        "description": "Total short handed time on ice.",
+                        "displayName": "Short Handed Time On Ice",
+                        "displayValue": "0:00",
+                        "name": "shortHandedTimeOnIce",
+                        "shortDisplayName": "Short Handed Time On Ice",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "ESTOI",
+                        "description": "Total even strength time on ice.",
+                        "displayName": "Even Strength Time On Ice",
+                        "displayValue": "0:00",
+                        "name": "evenStrengthTimeOnIce",
+                        "shortDisplayName": "Even Strength Time On Ice",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SHFT",
+                        "description": "Total shifts.",
+                        "displayName": "Shifts",
+                        "displayValue": "367",
+                        "name": "shifts",
+                        "shortDisplayName": "Shifts",
+                        "value": 367.0
+                    },
+                    {
+                        "abbreviation": "SDIFF",
+                        "description": "Shot Differential",
+                        "displayName": "Shot Differential",
+                        "displayValue": "03.0",
+                        "name": "shotDifferential",
+                        "shortDisplayName": "Shot Differential",
+                        "value": 3.0
+                    },
+                    {
+                        "abbreviation": "GDIFF",
+                        "description": "Goal Differential",
+                        "displayName": "Goal Differential",
+                        "displayValue": "5.00",
+                        "name": "goalDifferential",
+                        "shortDisplayName": "Goal Differential",
+                        "value": 5.0
+                    },
+                    {
+                        "abbreviation": "PIMDIFF",
+                        "description": "PIM Differential",
+                        "displayName": "Penality Minutes Differential",
+                        "displayValue": "-4",
+                        "name": "PIMDifferential",
+                        "shortDisplayName": "Penality Minutes Differential",
+                        "value": -4.0
+                    },
+                    {
+                        "abbreviation": "RAT",
+                        "description": "The rating of a player or team.",
+                        "displayName": "Rating",
+                        "displayValue": "0.0",
+                        "name": "rating",
+                        "shortDisplayName": "RAT"
+                    }
+                ],
+                "summary": ""
+            },
+            {
+                "abbreviation": "off",
+                "athletes": [
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/3115014?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/3115014/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/5149186?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/5149186/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4565225?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4565225/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/3042191?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/3042191/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4565228?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4565228/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/3942030?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/3942030/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/3900260?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/3900260/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4233705?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4233705/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4565238?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4565238/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/3151322?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/3151322/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4894487?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4894487/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4063240?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4063240/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4378669?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4378669/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4697438?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4697438/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4781556?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4781556/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4697389?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4697389/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4378656?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4378656/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4024988?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4024988/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/2593315?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/2593315/statistics/0?lang=en&region=us"
+                        }
+                    }
+                ],
+                "displayName": "Offensive",
+                "name": "offensive",
+                "shortDisplayName": "Offensive",
+                "stats": [
+                    {
+                        "abbreviation": "G",
+                        "description": "Total goals scored.",
+                        "displayName": "Goals",
+                        "displayValue": "6",
+                        "name": "goals",
+                        "shortDisplayName": "Goals",
+                        "value": 6.0
+                    },
+                    {
+                        "abbreviation": "YTDG",
+                        "description": "Year to date goals/",
+                        "displayName": "Year to Date Goals",
+                        "displayValue": "14",
+                        "name": "ytdGoals",
+                        "shortDisplayName": "Year to Date Goals",
+                        "value": 14.0
+                    },
+                    {
+                        "abbreviation": "A",
+                        "description": "Total goal assists.",
+                        "displayName": "Assists",
+                        "displayValue": "12",
+                        "name": "assists",
+                        "shortDisplayName": "Assists",
+                        "value": 12.0
+                    },
+                    {
+                        "abbreviation": "S1",
+                        "description": "Total shots in the 1st period.",
+                        "displayName": "Shots in 1st Period",
+                        "displayValue": "4",
+                        "name": "shotsIn1stPeriod",
+                        "shortDisplayName": "1st Period Shots",
+                        "value": 4.0
+                    },
+                    {
+                        "abbreviation": "S2",
+                        "description": "Total shots in the 2nd period.",
+                        "displayName": "Shots in 2nd Period",
+                        "displayValue": "11",
+                        "name": "shotsIn2ndPeriod",
+                        "shortDisplayName": "2nd Period Shots",
+                        "value": 11.0
+                    },
+                    {
+                        "abbreviation": "S3",
+                        "description": "Total shots in the 3rd period.",
+                        "displayName": "Shots in 3rd Period",
+                        "displayValue": "14",
+                        "name": "shotsIn3rdPeriod",
+                        "shortDisplayName": "3rd Period Shots",
+                        "value": 14.0
+                    },
+                    {
+                        "abbreviation": "SOT",
+                        "description": "Total overtime shots.",
+                        "displayName": "Overtime Shots",
+                        "displayValue": "0",
+                        "name": "shotsOT",
+                        "shortDisplayName": "OT Shots"
+                    },
+                    {
+                        "abbreviation": "S",
+                        "description": "Total shots.",
+                        "displayName": "Shots",
+                        "displayValue": "29",
+                        "name": "shotsTotal",
+                        "shortDisplayName": "Shots",
+                        "value": 29.0
+                    },
+                    {
+                        "abbreviation": "SM",
+                        "description": "Total missed shots.",
+                        "displayName": "Shots Missed",
+                        "displayValue": "23",
+                        "name": "shotsMissed",
+                        "shortDisplayName": "Shots Missed",
+                        "value": 23.0
+                    },
+                    {
+                        "abbreviation": "PTS",
+                        "description": "Points",
+                        "displayName": "Points",
+                        "displayValue": "18",
+                        "name": "points",
+                        "shortDisplayName": "Points",
+                        "value": 18.0
+                    },
+                    {
+                        "abbreviation": "PTS/G",
+                        "description": "Average Points per Game",
+                        "displayName": "Points per Game",
+                        "displayValue": "0.00",
+                        "name": "pointsPerGame",
+                        "shortDisplayName": "Points/Game"
+                    },
+                    {
+                        "abbreviation": "PPG",
+                        "description": "Total power play goals.",
+                        "displayName": "Power Play Goals",
+                        "displayValue": "1",
+                        "name": "powerPlayGoals",
+                        "shortDisplayName": "Power Play Goals",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "PPA",
+                        "description": "Total power play assists.",
+                        "displayName": "Power Play Assists",
+                        "displayValue": "2",
+                        "name": "powerPlayAssists",
+                        "shortDisplayName": "Power Play Assists",
+                        "value": 2.0
+                    },
+                    {
+                        "abbreviation": "PPO",
+                        "description": "Total power play opportunities.",
+                        "displayName": "Power Play Opportunities",
+                        "displayValue": "4",
+                        "name": "powerPlayOpportunities",
+                        "shortDisplayName": "Power Play Ops",
+                        "value": 4.0
+                    },
+                    {
+                        "abbreviation": "PCT",
+                        "description": "Percentage of power play scored on.",
+                        "displayName": "Power Play Percentage",
+                        "displayValue": "25.0",
+                        "name": "powerPlayPct",
+                        "shortDisplayName": "Power Play Percentage",
+                        "value": 25.0
+                    },
+                    {
+                        "abbreviation": "SHG",
+                        "description": "Total short handed goals.",
+                        "displayName": "Short Handed Goals",
+                        "displayValue": "0",
+                        "name": "shortHandedGoals",
+                        "shortDisplayName": "Short Handed Goals",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SHA",
+                        "description": "Total short handed assists.",
+                        "displayName": "Short Handed Assists",
+                        "displayValue": "0",
+                        "name": "shortHandedAssists",
+                        "shortDisplayName": "Short Handed Assists",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SOA",
+                        "description": "Total shootout attempts.",
+                        "displayName": "Shootout Attempts",
+                        "displayValue": "0",
+                        "name": "shootoutAttempts",
+                        "shortDisplayName": "Shootout Attempts",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SOG",
+                        "description": "Total shootout goals.",
+                        "displayName": "Shootout Goals",
+                        "displayValue": "0",
+                        "name": "shootoutGoals",
+                        "shortDisplayName": "Shootout Goals",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SOPCT",
+                        "description": "Percentage of shootout goals made.",
+                        "displayName": "Shootout Shot Percentage",
+                        "displayValue": "0.0",
+                        "name": "shootoutShotPct",
+                        "shortDisplayName": "Shootout Shot Percentage",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "ENGA",
+                        "description": "Total empty net goals.",
+                        "displayName": "Empty Net Goals",
+                        "displayValue": "0",
+                        "name": "emptyNetGoalsFor",
+                        "shortDisplayName": "Empty Goals",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SPCT",
+                        "description": "Percentage of shots scored.",
+                        "displayName": "Shooting Percentage",
+                        "displayValue": "20.7",
+                        "name": "shootingPct",
+                        "shortDisplayName": "Shooting Percentage",
+                        "value": 20.69
+                    },
+                    {
+                        "abbreviation": "FO",
+                        "description": "Total faceoffs.",
+                        "displayName": "Total Faceoffs",
+                        "displayValue": "53",
+                        "name": "totalFaceOffs",
+                        "shortDisplayName": "Faceoffs",
+                        "value": 53.0
+                    },
+                    {
+                        "abbreviation": "FW",
+                        "description": "Total faceoffs won.",
+                        "displayName": "Faceoffs Won",
+                        "displayValue": "29",
+                        "name": "faceoffsWon",
+                        "shortDisplayName": "Faceoffs Won",
+                        "value": 29.0
+                    },
+                    {
+                        "abbreviation": "FL",
+                        "description": "Total faceoffs lost.",
+                        "displayName": "Faceoffs Lost",
+                        "displayValue": "24",
+                        "name": "faceoffsLost",
+                        "shortDisplayName": "Faceoffs Lost",
+                        "value": 24.0
+                    },
+                    {
+                        "abbreviation": "FO%",
+                        "description": "Percentage of faceoffs won.",
+                        "displayName": "Faceoff Win Percent",
+                        "displayValue": "54.7",
+                        "name": "faceoffPercent",
+                        "shortDisplayName": "Faceoff Win Percent",
+                        "value": 54.717
+                    },
+                    {
+                        "abbreviation": "UG",
+                        "description": "Total unassisted goals.",
+                        "displayName": "Unassisted Goals",
+                        "displayValue": "0",
+                        "name": "unassistedGoals",
+                        "shortDisplayName": "Unassisted Goals",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "GV",
+                        "description": "Total giveaways.",
+                        "displayName": "Giveaways",
+                        "displayValue": "17",
+                        "name": "giveaways",
+                        "shortDisplayName": "Giveaways",
+                        "value": 17.0
+                    }
+                ],
+                "summary": ""
+            },
+            {
+                "abbreviation": "p",
+                "athletes": [
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/3115014?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/3115014/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/5149186?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/5149186/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4565225?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4565225/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/3042191?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/3042191/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4565228?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4565228/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/3942030?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/3942030/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/3900260?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/3900260/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4233705?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4233705/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4565238?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4565238/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/3151322?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/3151322/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4894487?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4894487/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4063240?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4063240/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4378669?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4378669/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4697438?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4697438/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4781556?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4781556/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4697389?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4697389/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4378656?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4378656/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/4024988?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/4024988/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/2593315?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685271/competitions/401685271/competitors/2/roster/2593315/statistics/0?lang=en&region=us"
+                        }
+                    }
+                ],
+                "displayName": "Penalties",
+                "name": "penalties",
+                "shortDisplayName": "Penalties",
+                "stats": [
+                    {
+                        "abbreviation": "PN",
+                        "description": "Total number of penalties.",
+                        "displayName": "Total Penalties",
+                        "displayValue": "2",
+                        "name": "penalties",
+                        "shortDisplayName": "Total Penalties",
+                        "value": 2.0
+                    },
+                    {
+                        "abbreviation": "PIM",
+                        "description": "Total penalty minutes.",
+                        "displayName": "Penalty Minutes",
+                        "displayValue": "4",
+                        "name": "penaltyMinutes",
+                        "shortDisplayName": "Penalty Minutes",
+                        "value": 4.0
+                    }
+                ],
+                "summary": ""
+            }
+        ],
+        "id": "0",
+        "name": "Season",
+        "type": "season"
+    },
+    "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/teams/2?lang=en&region=us"
+    }
+}

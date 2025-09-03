@@ -1,0 +1,961 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster?lang=en&region=us",
+    "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334?lang=en&region=us"
+    },
+    "entries": [
+        {
+            "active": false,
+            "atBats": [
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043340101990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043340502990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043340904990057?lang=en&region=us"
+                }
+            ],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/4683349?lang=en&region=us"
+            },
+            "batOrder": 1,
+            "displayName": "Wells",
+            "forPlayerId": 0,
+            "period": 6,
+            "playerId": 4683349,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/2?lang=en&region=us"
+            },
+            "recordNumber": 1,
+            "starter": true,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/4683349/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": true,
+                "replacementAthlete": {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5134021?lang=en&region=us"
+                }
+            },
+            "valid": true
+        },
+        {
+            "active": true,
+            "atBats": [
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341303990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341505990057?lang=en&region=us"
+                }
+            ],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5134021?lang=en&region=us"
+            },
+            "batOrder": 1,
+            "displayName": "Ellis",
+            "forPlayerId": 0,
+            "period": 6,
+            "playerId": 5134021,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/9?lang=en&region=us"
+            },
+            "recordNumber": 1014,
+            "starter": false,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/5134021/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": false
+            },
+            "valid": true
+        },
+        {
+            "active": false,
+            "atBats": [
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043340102990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043340503990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341101990057?lang=en&region=us"
+                }
+            ],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/33192?lang=en&region=us"
+            },
+            "batOrder": 2,
+            "displayName": "Judge",
+            "forPlayerId": 0,
+            "period": 6,
+            "playerId": 33192,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/10?lang=en&region=us"
+            },
+            "recordNumber": 2,
+            "starter": true,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/33192/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": true,
+                "replacementAthlete": {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/41252?lang=en&region=us"
+                }
+            },
+            "valid": true
+        },
+        {
+            "active": true,
+            "atBats": [
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341304990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341701990057?lang=en&region=us"
+                }
+            ],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/41252?lang=en&region=us"
+            },
+            "batOrder": 2,
+            "displayName": "Pereira",
+            "forPlayerId": 0,
+            "period": 6,
+            "playerId": 41252,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/10?lang=en&region=us"
+            },
+            "positions": [
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/10?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/12?lang=en&region=us"
+                }
+            ],
+            "recordNumber": 1123,
+            "starter": false,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/41252/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": false
+            },
+            "valid": true
+        },
+        {
+            "active": false,
+            "atBats": [
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043340103990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043340504990057?lang=en&region=us"
+                }
+            ],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/33912?lang=en&region=us"
+            },
+            "batOrder": 3,
+            "displayName": "Bellinger",
+            "forPlayerId": 0,
+            "period": 6,
+            "playerId": 33912,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/9?lang=en&region=us"
+            },
+            "recordNumber": 3,
+            "starter": true,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/33912/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": true,
+                "replacementAthlete": {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5016968?lang=en&region=us"
+                }
+            },
+            "valid": true
+        },
+        {
+            "active": true,
+            "atBats": [
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341102990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341305990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341702990057?lang=en&region=us"
+                }
+            ],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5016968?lang=en&region=us"
+            },
+            "batOrder": 3,
+            "displayName": "Rice",
+            "forPlayerId": 0,
+            "period": 6,
+            "playerId": 5016968,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/3?lang=en&region=us"
+            },
+            "recordNumber": 1015,
+            "starter": false,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/5016968/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": false
+            },
+            "valid": true
+        },
+        {
+            "active": false,
+            "atBats": [
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043340104990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043340701990057?lang=en&region=us"
+                }
+            ],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/31027?lang=en&region=us"
+            },
+            "batOrder": 4,
+            "displayName": "Goldschmidt",
+            "forPlayerId": 0,
+            "period": 6,
+            "playerId": 31027,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/3?lang=en&region=us"
+            },
+            "recordNumber": 4,
+            "starter": true,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/31027/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": false
+            },
+            "valid": true
+        },
+        {
+            "active": true,
+            "atBats": [
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341103990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341306990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341703990057?lang=en&region=us"
+                }
+            ],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/41644?lang=en&region=us"
+            },
+            "batOrder": 4,
+            "displayName": "Escarra",
+            "forPlayerId": 31027,
+            "period": 6,
+            "playerId": 41644,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/2?lang=en&region=us"
+            },
+            "recordNumber": 1012,
+            "starter": false,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/41644/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": true,
+                "replacementAthlete": {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/31027?lang=en&region=us"
+                }
+            },
+            "subbedOut": {
+                "didSub": false
+            },
+            "valid": true
+        },
+        {
+            "active": false,
+            "atBats": [
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043340105990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043340702990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341104990057?lang=en&region=us"
+                }
+            ],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/41433?lang=en&region=us"
+            },
+            "batOrder": 5,
+            "displayName": "Chisholm Jr.",
+            "forPlayerId": 0,
+            "period": 7,
+            "playerId": 41433,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/4?lang=en&region=us"
+            },
+            "recordNumber": 5,
+            "starter": true,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/41433/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": true,
+                "replacementAthlete": {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/42479?lang=en&region=us"
+                }
+            },
+            "valid": true
+        },
+        {
+            "active": true,
+            "atBats": [
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341307990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341704990057?lang=en&region=us"
+                }
+            ],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/42479?lang=en&region=us"
+            },
+            "batOrder": 5,
+            "displayName": "Peraza",
+            "forPlayerId": 0,
+            "period": 7,
+            "playerId": 42479,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/6?lang=en&region=us"
+            },
+            "recordNumber": 1217,
+            "starter": false,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/42479/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": false
+            },
+            "valid": true
+        },
+        {
+            "active": false,
+            "atBats": [
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043340301990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043340703990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341105990057?lang=en&region=us"
+                }
+            ],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/42547?lang=en&region=us"
+            },
+            "batOrder": 6,
+            "displayName": "Volpe",
+            "forPlayerId": 0,
+            "period": 7,
+            "playerId": 42547,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/6?lang=en&region=us"
+            },
+            "recordNumber": 6,
+            "starter": true,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/42547/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": true,
+                "replacementAthlete": {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/35247?lang=en&region=us"
+                }
+            },
+            "valid": true
+        },
+        {
+            "active": true,
+            "atBats": [
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341501990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341705990057?lang=en&region=us"
+                }
+            ],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/35247?lang=en&region=us"
+            },
+            "batOrder": 6,
+            "displayName": "Velazquez",
+            "forPlayerId": 42547,
+            "period": 7,
+            "playerId": 35247,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/4?lang=en&region=us"
+            },
+            "recordNumber": 1216,
+            "starter": false,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/35247/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": true,
+                "replacementAthlete": {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/42547?lang=en&region=us"
+                }
+            },
+            "subbedOut": {
+                "didSub": false
+            },
+            "valid": true
+        },
+        {
+            "active": false,
+            "atBats": [
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043340302990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043340901990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341106990057?lang=en&region=us"
+                }
+            ],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/42401?lang=en&region=us"
+            },
+            "batOrder": 7,
+            "displayName": "Domínguez",
+            "forPlayerId": 0,
+            "period": 7,
+            "playerId": 42401,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/7?lang=en&region=us"
+            },
+            "recordNumber": 7,
+            "starter": true,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/42401/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": true,
+                "replacementAthlete": {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5133454?lang=en&region=us"
+                }
+            },
+            "valid": true
+        },
+        {
+            "active": true,
+            "atBats": [
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341502990057?lang=en&region=us"
+                }
+            ],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5133454?lang=en&region=us"
+            },
+            "batOrder": 7,
+            "displayName": "Munguia",
+            "forPlayerId": 0,
+            "period": 7,
+            "playerId": 5133454,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/7?lang=en&region=us"
+            },
+            "recordNumber": 1218,
+            "starter": false,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/5133454/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": false
+            },
+            "valid": true
+        },
+        {
+            "active": false,
+            "atBats": [
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043340303990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043340902990057?lang=en&region=us"
+                }
+            ],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/34995?lang=en&region=us"
+            },
+            "batOrder": 8,
+            "displayName": "Grisham",
+            "forPlayerId": 0,
+            "period": 6,
+            "playerId": 34995,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/8?lang=en&region=us"
+            },
+            "recordNumber": 8,
+            "starter": true,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/34995/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": true,
+                "replacementAthlete": {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/4867424?lang=en&region=us"
+                }
+            },
+            "valid": true
+        },
+        {
+            "active": true,
+            "atBats": [
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341301990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341503990057?lang=en&region=us"
+                }
+            ],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/4867424?lang=en&region=us"
+            },
+            "batOrder": 8,
+            "displayName": "Jones",
+            "forPlayerId": 0,
+            "period": 6,
+            "playerId": 4867424,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/8?lang=en&region=us"
+            },
+            "recordNumber": 1019,
+            "starter": false,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/4867424/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": false
+            },
+            "valid": true
+        },
+        {
+            "active": false,
+            "atBats": [
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043340501990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043340903990057?lang=en&region=us"
+                }
+            ],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/40835?lang=en&region=us"
+            },
+            "batOrder": 9,
+            "displayName": "Cabrera",
+            "forPlayerId": 0,
+            "period": 7,
+            "playerId": 40835,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/5?lang=en&region=us"
+            },
+            "recordNumber": 9,
+            "starter": true,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/40835/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": false
+            },
+            "valid": true
+        },
+        {
+            "active": true,
+            "atBats": [
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341302990057?lang=en&region=us"
+                },
+                {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/plays/4017043341504990057?lang=en&region=us"
+                }
+            ],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/35439?lang=en&region=us"
+            },
+            "batOrder": 9,
+            "displayName": "Reyes",
+            "forPlayerId": 0,
+            "period": 7,
+            "playerId": 35439,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/5?lang=en&region=us"
+            },
+            "recordNumber": 1220,
+            "starter": false,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/35439/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": false
+            },
+            "valid": true
+        }
+    ],
+    "lastBatterOrder": "9",
+    "pitchers": [
+        {
+            "active": false,
+            "atBats": [],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/32081?lang=en&region=us"
+            },
+            "batOrder": 0,
+            "displayName": "Cole",
+            "forPlayerId": 0,
+            "notes": [
+                {
+                    "text": "L, 1-1",
+                    "type": "pitchingDecision"
+                }
+            ],
+            "period": 2,
+            "playerId": 32081,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/1?lang=en&region=us"
+            },
+            "recordNumber": 10,
+            "starter": true,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/32081/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": true,
+                "replacementAthlete": {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5270369?lang=en&region=us"
+                }
+            },
+            "valid": true
+        },
+        {
+            "active": false,
+            "atBats": [],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5270369?lang=en&region=us"
+            },
+            "batOrder": 0,
+            "displayName": "Brian",
+            "forPlayerId": 0,
+            "period": 2,
+            "playerId": 5270369,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/1?lang=en&region=us"
+            },
+            "recordNumber": 291,
+            "starter": false,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/5270369/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": true,
+                "replacementAthlete": {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/33770?lang=en&region=us"
+                }
+            },
+            "valid": true
+        },
+        {
+            "active": false,
+            "atBats": [],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/33770?lang=en&region=us"
+            },
+            "batOrder": 0,
+            "displayName": "Weaver",
+            "forPlayerId": 0,
+            "period": 4,
+            "playerId": 33770,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/1?lang=en&region=us"
+            },
+            "recordNumber": 621,
+            "starter": false,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/33770/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": true,
+                "replacementAthlete": {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/34068?lang=en&region=us"
+                }
+            },
+            "valid": true
+        },
+        {
+            "active": false,
+            "atBats": [],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/34068?lang=en&region=us"
+            },
+            "batOrder": 0,
+            "displayName": "Cruz",
+            "forPlayerId": 33770,
+            "period": 5,
+            "playerId": 34068,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/1?lang=en&region=us"
+            },
+            "recordNumber": 661,
+            "starter": false,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/34068/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": true,
+                "replacementAthlete": {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/33770?lang=en&region=us"
+                }
+            },
+            "subbedOut": {
+                "didSub": true,
+                "replacementAthlete": {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5270099?lang=en&region=us"
+                }
+            },
+            "valid": true
+        },
+        {
+            "active": false,
+            "atBats": [],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5270099?lang=en&region=us"
+            },
+            "batOrder": 0,
+            "displayName": "Kean",
+            "forPlayerId": 34068,
+            "period": 6,
+            "playerId": 5270099,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/1?lang=en&region=us"
+            },
+            "recordNumber": 861,
+            "starter": false,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/5270099/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": true,
+                "replacementAthlete": {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/34068?lang=en&region=us"
+                }
+            },
+            "subbedOut": {
+                "didSub": true,
+                "replacementAthlete": {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/36202?lang=en&region=us"
+                }
+            },
+            "valid": true
+        },
+        {
+            "active": false,
+            "atBats": [],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/36202?lang=en&region=us"
+            },
+            "batOrder": 0,
+            "displayName": "Leiter Jr.",
+            "forPlayerId": 0,
+            "period": 6,
+            "playerId": 36202,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/1?lang=en&region=us"
+            },
+            "recordNumber": 1021,
+            "starter": false,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/36202/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": true,
+                "replacementAthlete": {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/37005?lang=en&region=us"
+                }
+            },
+            "valid": true
+        },
+        {
+            "active": false,
+            "atBats": [],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/37005?lang=en&region=us"
+            },
+            "batOrder": 0,
+            "displayName": "Hill",
+            "forPlayerId": 0,
+            "period": 7,
+            "playerId": 37005,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/1?lang=en&region=us"
+            },
+            "recordNumber": 1221,
+            "starter": false,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/37005/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": true,
+                "replacementAthlete": {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/36025?lang=en&region=us"
+                }
+            },
+            "valid": true
+        },
+        {
+            "active": false,
+            "atBats": [],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/36025?lang=en&region=us"
+            },
+            "batOrder": 0,
+            "displayName": "Zastryzny",
+            "forPlayerId": 37005,
+            "period": 9,
+            "playerId": 36025,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/1?lang=en&region=us"
+            },
+            "recordNumber": 1421,
+            "starter": false,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/36025/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": true,
+                "replacementAthlete": {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/37005?lang=en&region=us"
+                }
+            },
+            "subbedOut": {
+                "didSub": true,
+                "replacementAthlete": {
+                    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/31939?lang=en&region=us"
+                }
+            },
+            "valid": true
+        },
+        {
+            "active": true,
+            "atBats": [],
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/31939?lang=en&region=us"
+            },
+            "batOrder": 0,
+            "displayName": "Rodríguez",
+            "forPlayerId": 0,
+            "period": 9,
+            "playerId": 31939,
+            "position": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/positions/1?lang=en&region=us"
+            },
+            "recordNumber": 1621,
+            "starter": false,
+            "statistics": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704334/competitions/401704334/competitors/10/roster/31939/statistics/0?lang=en&region=us"
+            },
+            "subbedIn": {
+                "didSub": false
+            },
+            "subbedOut": {
+                "didSub": false
+            },
+            "valid": true
+        }
+    ],
+    "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/10?lang=en&region=us"
+    }
+}

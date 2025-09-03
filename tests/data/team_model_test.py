@@ -645,6 +645,7 @@ class TestTeamModel(unittest.TestCase):
             time_on_ice=None,
             total_giveaways=None,
             total_takeaways=None,
+            fantasy_rating=None,
             version=VERSION,
         )
 
