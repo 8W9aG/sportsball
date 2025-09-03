@@ -1,0 +1,184 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4870857?lang=en&region=us",
+    "active": true,
+    "alternateIds": {
+        "sdr": "4870857"
+    },
+    "birthCountry": {
+        "abbreviation": "USA",
+        "alternateId": "1"
+    },
+    "birthPlace": {
+        "city": "Wichita",
+        "country": "USA",
+        "state": "KS"
+    },
+    "college": {
+        "$ref": "http://sports.core.api.espn.com/v2/colleges/2306?lang=en&region=us"
+    },
+    "displayHeight": "6' 3\"",
+    "displayName": "Avery Johnson",
+    "displayWeight": "196 lbs",
+    "eventLog": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4870857/eventlog?lang=en&region=us"
+    },
+    "experience": {
+        "abbreviation": "JR",
+        "displayValue": "Junior",
+        "years": 3
+    },
+    "firstName": "Avery",
+    "flag": {
+        "alt": "USA",
+        "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "rel": [
+            "country-flag"
+        ]
+    },
+    "fullName": "Avery Johnson",
+    "guid": "bb9ae1fe-a30a-3b48-8fd6-126adad27251",
+    "hand": {
+        "abbreviation": "R",
+        "displayValue": "Right",
+        "type": "RIGHT"
+    },
+    "headshot": {
+        "alt": "Avery Johnson",
+        "href": "https://a.espncdn.com/i/headshots/college-football/players/full/4870857.png"
+    },
+    "height": 75.0,
+    "id": "4870857",
+    "injuries": [],
+    "jersey": "2",
+    "lastName": "Johnson",
+    "linked": true,
+    "links": [
+        {
+            "href": "https://www.espn.com/college-football/player/_/id/4870857/avery-johnson",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "playercard",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Player Card",
+            "text": "Player Card"
+        },
+        {
+            "href": "https://www.espn.com/college-football/player/stats/_/id/4870857/avery-johnson",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "stats",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Stats",
+            "text": "Stats"
+        },
+        {
+            "href": "https://www.espn.com/college-football/player/splits/_/id/4870857/avery-johnson",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "splits",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Splits",
+            "text": "Splits"
+        },
+        {
+            "href": "https://www.espn.com/college-football/player/gamelog/_/id/4870857/avery-johnson",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "gamelog",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Game Log",
+            "text": "Game Log"
+        },
+        {
+            "href": "https://www.espn.com/college-football/player/news/_/id/4870857/avery-johnson",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "news",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "News",
+            "text": "News"
+        },
+        {
+            "href": "https://www.espn.com/college-football/player/bio/_/id/4870857/avery-johnson",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "bio",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Bio",
+            "text": "Bio"
+        },
+        {
+            "href": "https://www.espn.com/college-football/player/_/id/4870857/avery-johnson",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "overview",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Overview",
+            "text": "Overview"
+        }
+    ],
+    "notes": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4870857/notes?lang=en&region=us"
+    },
+    "position": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/positions/8?lang=en&region=us",
+        "abbreviation": "QB",
+        "displayName": "Quarterback",
+        "id": "8",
+        "leaf": true,
+        "name": "Quarterback",
+        "parent": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/positions/70?lang=en&region=us"
+        }
+    },
+    "shortName": "A. Johnson",
+    "slug": "avery-johnson",
+    "statistics": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/types/2/athletes/4870857/statistics?lang=en&region=us"
+    },
+    "status": {
+        "abbreviation": "Active",
+        "id": "1",
+        "name": "Active",
+        "type": "active"
+    },
+    "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/teams/2306?lang=en&region=us"
+    },
+    "teams": [
+        {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/teams/2306?lang=en&region=us"
+        }
+    ],
+    "type": "football",
+    "uid": "s:20~l:23~a:4870857",
+    "weight": 196.0
+}

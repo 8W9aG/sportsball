@@ -1657,7 +1657,12 @@ PLAYER_KICK_EXTRA_POINTS_COLUMN: Literal["kick_extra_points"] = "kick_extra_poin
 PLAYER_KICK_EXTRA_POINTS_MADE_COLUMN: Literal["kick_extra_points_made"] = (
     "kick_extra_points_made"
 )
-VERSION = DELIMITER.join(["0.0.10", ADDRESS_VERSION, OWNER_VERSION, VENUE_VERSION])
+PLAYER_ATTEMPTS_IN_BOX_COLUMN: Literal["attempts_in_box"] = "attempts_in_box"
+PLAYER_SECOND_ASSISTS_COLUMN: Literal["second_assists"] = "second_assists"
+PLAYER_QBR_COLUMN: Literal["qbr"] = "qbr"
+PLAYER_ATTEMPTS_OUT_BOX_COLUMN: Literal["attempts_out_box"] = "attempts_out_box"
+PLAYER_ADJUSTED_QBR_COLUMN: Literal["adjusted_qbr"] = "adjusted_qbr"
+VERSION = DELIMITER.join(["0.0.11", ADDRESS_VERSION, OWNER_VERSION, VENUE_VERSION])
 
 
 def _guess_sex(data: dict[str, Any]) -> str | None:
@@ -1944,7 +1949,7 @@ class PlayerModel(BaseModel):
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=PLAYER_THREE_POINT_FIELD_GOALS_PERCENTAGE_COLUMN,
     )
-    free_throws: int | None = Field(
+    free_throws: float | None = Field(
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=PLAYER_FREE_THROWS_COLUMN,
@@ -6048,4 +6053,29 @@ class PlayerModel(BaseModel):
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=PLAYER_KICK_EXTRA_POINTS_MADE_COLUMN,
+    )
+    attempts_in_box: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_ATTEMPTS_IN_BOX_COLUMN,
+    )
+    second_assists: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SECOND_ASSISTS_COLUMN,
+    )
+    qbr: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_QBR_COLUMN,
+    )
+    attempts_out_box: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_ATTEMPTS_OUT_BOX_COLUMN,
+    )
+    adjusted_qbr: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_ADJUSTED_QBR_COLUMN,
     )

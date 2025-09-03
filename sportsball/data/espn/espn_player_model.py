@@ -691,6 +691,11 @@ def _create_espn_player_model(
     special_team_fumble_return_yards = None
     kick_extra_point = None
     kick_extra_points_made = None
+    attempts_in_box = None
+    second_assists = None
+    qbr = None
+    attempts_out_box = None
+    adjusted_qbr = None
     if "statistics" in player:
         stats_url = player["statistics"]["$ref"]
         statistics_response = session.get(stats_url)
@@ -3023,12 +3028,22 @@ def _create_espn_player_model(
                             kick_extra_point = stat["value"]
                         elif stat["name"] == "kickExtraPointsMade":
                             kick_extra_points_made = stat["value"]
+                        elif stat["name"] == "attemptsInBox":
+                            attempts_in_box = stat["value"]
+                        elif stat["name"] == "secondAssists":
+                            second_assists = stat["value"]
+                        elif stat["name"] == "QBR":
+                            qbr = stat["value"]
+                        elif stat["name"] == "attemptsOutBox":
+                            attempts_out_box = stat["value"]
+                        elif stat["name"] == "adjQBR":
+                            adjusted_qbr = stat["value"]
                         else:
                             raise ValueError(
                                 f"Failed to account for statistic: {stat['name']} on {stats_url}"
                             )
-            except ValueError as exc:
-                logging.error("Value error for %s", stats_url)
+            except KeyError as exc:
+                logging.error("Key error for %s", stats_url)
                 raise exc
 
     athlete_dict = {}
@@ -3973,6 +3988,11 @@ def _create_espn_player_model(
         special_team_fumble_return_yards=special_team_fumble_return_yards,
         kick_extra_points=kick_extra_point,
         kick_extra_points_made=kick_extra_points_made,
+        attempts_in_box=attempts_in_box,
+        second_assists=second_assists,
+        qbr=qbr,
+        attempts_out_box=attempts_out_box,
+        adjusted_qbr=adjusted_qbr,
     )
 
 

@@ -1,0 +1,212 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/2022/athletes/141438?lang=en&region=us",
+    "active": true,
+    "age": 33,
+    "birthCountry": {
+        "abbreviation": "AUS",
+        "alternateId": "248"
+    },
+    "birthPlace": {
+        "city": "Plumpton",
+        "country": "Australia"
+    },
+    "citizenship": "Australia",
+    "citizenshipCountry": {
+        "abbreviation": "AUS",
+        "alternateId": "248"
+    },
+    "dateOfBirth": "1992-04-08T07:00Z",
+    "defaultLeague": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/ned.1?lang=en&region=us"
+    },
+    "defaultTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/teams/140?lang=en&region=us"
+    },
+    "displayHeight": "6' 0\"",
+    "displayName": "Mathew Ryan",
+    "displayWeight": "183 lbs",
+    "eventLog": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/2022/athletes/141438/eventlog?lang=en&region=us"
+    },
+    "events": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/athletes/141438/events?lang=en&region=us"
+    },
+    "firstName": "Mathew",
+    "flag": {
+        "alt": "Australia",
+        "href": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+        "rel": [
+            "country-flag"
+        ]
+    },
+    "fullName": "Mathew Ryan",
+    "gender": "MALE",
+    "guid": "9dd554fd-0c04-b61c-5077-8e63031fd294",
+    "headshot": {
+        "alt": "Mathew Ryan",
+        "href": "https://a.espncdn.com/i/headshots/soccer/players/full/141438.png"
+    },
+    "height": 72.0,
+    "id": "141438",
+    "injuries": [],
+    "jersey": "1",
+    "lastName": "Ryan",
+    "leagues": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/athletes/141438/leagues?lang=en&region=us"
+    },
+    "linked": true,
+    "links": [
+        {
+            "href": "https://www.espn.com/soccer/player/_/id/141438/mathew-ryan",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "playercard",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Player Card",
+            "text": "Player Card"
+        },
+        {
+            "href": "https://www.espn.com/soccer/player/stats/_/id/141438/mathew-ryan",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "stats",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Stats",
+            "text": "Stats"
+        },
+        {
+            "href": "https://www.espn.com/soccer/player/splits/_/id/141438/mathew-ryan",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "splits",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Splits",
+            "text": "Splits"
+        },
+        {
+            "href": "https://www.espn.com/soccer/player/matches/_/id/141438/mathew-ryan",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "gamelog",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Matches",
+            "text": "Matches"
+        },
+        {
+            "href": "https://www.espn.com/soccer/player/news/_/id/141438/mathew-ryan",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "news",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "News",
+            "text": "News"
+        },
+        {
+            "href": "https://www.espn.com/soccer/player/bio/_/id/141438/mathew-ryan",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "bio",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Bio",
+            "text": "Bio"
+        },
+        {
+            "href": "https://www.espn.com/soccer/player/_/id/141438/mathew-ryan",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "overview",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Overview",
+            "text": "Overview"
+        },
+        {
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/141438/mathew-ryan",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "transfers",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Transfers",
+            "text": "Transfers"
+        },
+        {
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/141438/mathew-ryan",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "transfers",
+                "mobile",
+                "athlete"
+            ],
+            "shortText": "Transfers",
+            "text": "Transfers"
+        }
+    ],
+    "notes": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/2022/athletes/141438/notes?lang=en&region=us"
+    },
+    "position": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/positions/1?lang=en&region=us",
+        "abbreviation": "G",
+        "displayName": "Goalkeeper",
+        "id": "1",
+        "leaf": true,
+        "name": "Goalkeeper"
+    },
+    "profiled": true,
+    "seasons": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/athletes/141438/seasons?lang=en&region=us"
+    },
+    "shortName": "M Ryan",
+    "slug": "mathew-ryan",
+    "statistics": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/2022/types/1/athletes/141438/statistics?lang=en&region=us"
+    },
+    "status": {
+        "abbreviation": "Active",
+        "id": "1",
+        "name": "Active",
+        "type": "active"
+    },
+    "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/2022/teams/628?lang=en&region=us"
+    },
+    "transactions": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/athletes/141438/transactions?lang=en&region=us"
+    },
+    "type": "soccer",
+    "uid": "s:600~a:141438",
+    "weight": 183.0
+}

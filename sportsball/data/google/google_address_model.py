@@ -10,7 +10,7 @@ from typing import Any
 
 import geocoder  # type: ignore
 import pytest_is_running
-import requests_cache
+from scrapesession.scrapesession import ScrapeSession  # type: ignore
 from timezonefinder import TimezoneFinder  # type: ignore
 
 from ...cache import MEMORY
@@ -399,15 +399,6 @@ O2_ARENA = SportsballGeocodeTuple(
     lng=0.0032,
     housenumber="",
     country="UK",
-)
-IMPERIAL_ARENA = SportsballGeocodeTuple(
-    city="Nassau",
-    state="",
-    postal="",
-    lat=25.0836,
-    lng=-77.318,
-    housenumber="1",
-    country="Bahamas",
 )
 HARRAHS_CHEROKEE_CENTER = SportsballGeocodeTuple(
     city="Asheville",
@@ -3686,7 +3677,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="3799",
         country="USA",
     ),
-    "Imperial Arena at Atlantis Resort, Nassau": IMPERIAL_ARENA,
     "State Farm Field House, Lake Buena Vista, Florida": STATE_FARM_FIELDHOUSE,
     "Boston Garden": BOSTON_GARDENS,
     "Cow Palace - Daly City, California - United States": SportsballGeocodeTuple(
@@ -4692,7 +4682,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="UK",
     ),
-    "Imperial Arena at Atlantis Resort, Paradise Island": IMPERIAL_ARENA,
     "Anaheim, California": SportsballGeocodeTuple(
         city="Anaheim",
         state="CA",
@@ -8245,7 +8234,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="Mexico",
     ),
-    "Atlantis Resort Arena, Nassau": IMPERIAL_ARENA,
     "Aventura Spa Palace Resort, Riviera Maya": SportsballGeocodeTuple(
         city="Playa del Carmen",
         state="QR",
@@ -13456,15 +13444,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Ole Miss College": SportsballGeocodeTuple(
-        city="Lafayette County",
-        state="MS",
-        postal="38677",
-        lat=34.3662492,
-        lng=-89.5379687,
-        housenumber="",
-        country="USA",
-    ),
     "Kansas State College": SportsballGeocodeTuple(
         city="Manhattan",
         state="KS",
@@ -17881,67 +17860,70 @@ def _load_cached_geocodes():
 
 
 def _create_google_address_model(
-    query: str, session: requests_cache.CachedSession, dt: datetime.datetime | None
+    query: str, session: ScrapeSession, dt: datetime.datetime | None
 ) -> AddressModel:
-    _load_cached_geocodes()
-    query = query.replace("\n", "").replace("&nbsp;", " ")
-    g = _CACHED_GEOCODES.get(query)
-    if g is None:
-        logging.warning("Failed to find query: %s", query)
-        g = geocoder.google(query, session=session)
-        _CACHED_GEOCODES[query] = g
-    latitude = g.lat
-    longitude = g.lng
-    weather_model = None
-    tz = "UTC"
-    altitude = None
-    if latitude is not None and longitude is not None:
-        tf = TimezoneFinder()
-        timezone = tf.timezone_at(lng=longitude, lat=latitude)
-        if timezone is not None:
-            tz = timezone
-        if dt is not None:
-            weather_model = create_mutli_weather_model(
-                session,
-                latitude,
-                longitude,
-                dt,  # pyright: ignore
-                tz,
+    with session.wayback_disabled():
+        _load_cached_geocodes()
+        query = query.replace("\n", "").replace("&nbsp;", " ")
+        g = _CACHED_GEOCODES.get(query)
+        if g is None:
+            logging.warning("Failed to find query: %s", query)
+            g = geocoder.google(query, session=session)
+            _CACHED_GEOCODES[query] = g
+        latitude = g.lat
+        longitude = g.lng
+        weather_model = None
+        tz = "UTC"
+        altitude = None
+        if latitude is not None and longitude is not None:
+            tf = TimezoneFinder()
+            timezone = tf.timezone_at(lng=longitude, lat=latitude)
+            if timezone is not None:
+                tz = timezone
+            if dt is not None:
+                weather_model = create_mutli_weather_model(
+                    session,
+                    latitude,
+                    longitude,
+                    dt,  # pyright: ignore
+                    tz,
+                )
+            if not pytest_is_running.is_running():
+                url = f"https://api.opentopodata.org/v1/aster30m?locations={latitude},{longitude}"
+                r = session.get(url)
+                r.raise_for_status()
+                data = r.json()
+                altitude = data["results"][0]["elevation"]
+        try:
+            return AddressModel(
+                city=g.city,
+                state=g.state,
+                zipcode=g.postal,
+                latitude=latitude,
+                longitude=longitude,
+                housenumber=g.housenumber,
+                weather=weather_model,  # pyright: ignore
+                timezone=tz,
+                country=g.country,
+                altitude=altitude,
+                version=VERSION,
             )
-        if not pytest_is_running.is_running():
-            url = f"https://api.opentopodata.org/v1/aster30m?locations={latitude},{longitude}"
-            r = session.get(url)
-            r.raise_for_status()
-            data = r.json()
-            altitude = data["results"][0]["elevation"]
-    try:
-        return AddressModel(
-            city=g.city,
-            state=g.state,
-            zipcode=g.postal,
-            latitude=latitude,
-            longitude=longitude,
-            housenumber=g.housenumber,
-            weather=weather_model,  # pyright: ignore
-            timezone=tz,
-            country=g.country,
-            altitude=altitude,
-            version=VERSION,
-        )
-    except Exception as exc:
-        logging.warning('Failed to retrieve address model for query "%s"', query)
-        raise AddressException(f'AddressModel failed to validate: "{query}"') from exc
+        except Exception as exc:
+            logging.warning('Failed to retrieve address model for query "%s"', query)
+            raise AddressException(
+                f'AddressModel failed to validate: "{query}"'
+            ) from exc
 
 
 @MEMORY.cache(ignore=["session"])
 def _cached_create_google_address_model(
-    query: str, session: requests_cache.CachedSession, dt: datetime.datetime | None
+    query: str, session: ScrapeSession, dt: datetime.datetime | None
 ) -> AddressModel:
     return _create_google_address_model(query=query, session=session, dt=dt)
 
 
 def create_google_address_model(
-    query: str, session: requests_cache.CachedSession, dt: datetime.datetime | None
+    query: str, session: ScrapeSession, dt: datetime.datetime | None
 ) -> AddressModel:
     """Create address model from google."""
     if not pytest_is_running.is_running():

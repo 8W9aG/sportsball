@@ -877,6 +877,11 @@ class TestPlayerModel(unittest.TestCase):
             special_team_fumble_return_yards=None,
             kick_extra_points=None,
             kick_extra_points_made=None,
+            attempts_in_box=None,
+            second_assists=None,
+            qbr=None,
+            attempts_out_box=None,
+            adjusted_qbr=None,
         )
 
     def test_field_goals_attempted(self):

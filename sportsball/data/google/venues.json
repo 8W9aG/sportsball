@@ -8429,6 +8429,36 @@
             "housenumber": "",
             "country": "USA",
             "type": "venue"
+        },
+        "eb828734-4db5-4654-a199-47efd65c42e5": {
+            "city": "Winston Salem",
+            "state": "NC",
+            "postal": "",
+            "lat": 36.102778,
+            "lng": -80.260833,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
+        },
+        "466672b7-2457-4906-96f0-dae4730eba21": {
+            "city": "Nassau",
+            "state": "",
+            "postal": "",
+            "lat": 25.0836,
+            "lng": -77.318,
+            "housenumber": "1",
+            "country": "Bahamas",
+            "type": "venue"
+        },
+        "bc8cd3fe-20ff-464e-a895-2284a97f8897": {
+            "city": "Lafayette County",
+            "state": "MS",
+            "postal": "38677",
+            "lat": 34.3662492,
+            "lng": -89.5379687,
+            "housenumber": "",
+            "country": "USA",
+            "type": "college"
         }
     },
     "searches": {
@@ -10126,6 +10156,13 @@
         "Ed Smith Stadium - Sarasota - Florida - 34278": "28679de3-70c4-4da9-a4d6-b86e1381fd13",
         "Acrisure Arena, Thousand Palms, California": "712fa430-ad57-431e-abd5-44fe54250c2b",
         "Acrisure Arena - Palm Springs - CA": "712fa430-ad57-431e-abd5-44fe54250c2b",
-        "US Open": "22999dc7-3697-423e-9637-3563377d1ec6"
+        "US Open": "22999dc7-3697-423e-9637-3563377d1ec6",
+        "Winston Salem": "eb828734-4db5-4654-a199-47efd65c42e5",
+        "Imperial Arena - Nassau - Bahamas": "466672b7-2457-4906-96f0-dae4730eba21",
+        "Imperial Arena at Atlantis Resort, Nassau": "466672b7-2457-4906-96f0-dae4730eba21",
+        "Imperial Arena at Atlantis Resort, Paradise Island": "466672b7-2457-4906-96f0-dae4730eba21",
+        "Atlantis Resort Arena, Nassau": "466672b7-2457-4906-96f0-dae4730eba21",
+        "Ole Miss": "bc8cd3fe-20ff-464e-a895-2284a97f8897",
+        "Ole Miss College": "bc8cd3fe-20ff-464e-a895-2284a97f8897"
     }
 }

@@ -4,7 +4,7 @@ import os
 import unittest
 
 import requests_mock
-import requests_cache
+from scrapesession.scrapesession import ScrapeSession
 from sportsball.data.sportsreference.sportsreference_player_model import create_sportsreference_player_model
 from sportsball.data.sex import Sex
 
@@ -12,7 +12,7 @@ from sportsball.data.sex import Sex
 class TestSportsReferencePlayerModel(unittest.TestCase):
 
     def setUp(self):
-        self.session = requests_cache.CachedSession(backend="memory")
+        self.session = ScrapeSession(backend="memory")
         self.dir = os.path.dirname(__file__)
 
     def test_field_goals(self):

@@ -5,7 +5,7 @@ import datetime
 from typing import Any
 
 import extruct  # type: ignore
-import requests_cache
+from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
 from ...game_model import GameModel
 from ...league import League
@@ -17,7 +17,7 @@ from .nba_nbacom_venue_model import create_nba_nbacom_venue_model
 
 def create_nba_nbacom_game_model(
     game: dict[str, Any],
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     version: str,
 ) -> GameModel:
     """Create a game model from AFL Tables."""

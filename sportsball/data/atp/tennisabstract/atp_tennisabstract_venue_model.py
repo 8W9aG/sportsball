@@ -3,7 +3,7 @@
 import datetime
 
 import pytest_is_running
-import requests_cache
+from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
 from ....cache import MEMORY
 from ...google.google_address_model import create_google_address_model
@@ -12,7 +12,7 @@ from ...venue_model import VERSION, VenueModel
 
 def _create_tennisabstract_venue_model(
     grounds: str,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     dt: datetime.datetime,
     version: str,
 ) -> VenueModel:
@@ -32,7 +32,7 @@ def _create_tennisabstract_venue_model(
 @MEMORY.cache(ignore=["session"])
 def _cached_create_tennisabstract_venue_model(
     grounds: str,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     dt: datetime.datetime,
     version: str,
 ) -> VenueModel:
@@ -43,7 +43,7 @@ def _cached_create_tennisabstract_venue_model(
 
 def create_tennisabstract_venue_model(
     grounds: str,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     dt: datetime.datetime,
 ) -> VenueModel:
     """Create a TennisAbstract venue model."""

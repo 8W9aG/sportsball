@@ -6,9 +6,9 @@ import urllib.parse
 from urllib.parse import urlparse
 
 import pytest_is_running
-import requests_cache
 from bs4 import BeautifulSoup, Tag
 from dateutil.parser import parse
+from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
 from ....cache import MEMORY
 from ...game_model import VERSION, GameModel
@@ -138,7 +138,7 @@ def _find_season_metadata(
 
 def _create_afl_afltables_game_model(
     game_number: int,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     url: str,
     last_round_number: int,
     last_ladder_ranks: dict[str, int] | None,
@@ -489,7 +489,7 @@ def _create_afl_afltables_game_model(
 @MEMORY.cache(ignore=["session"])
 def _cached_create_afl_afltables_game_model(
     game_number: int,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     url: str,
     last_round_number: int,
     last_ladder_ranks: dict[str, int] | None,
@@ -513,7 +513,7 @@ def _cached_create_afl_afltables_game_model(
 
 def create_afl_afltables_game_model(
     game_number: int,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     url: str,
     last_round_number: int,
     last_ladder_ranks: dict[str, int] | None,

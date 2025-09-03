@@ -3,7 +3,7 @@
 # pylint: disable=too-many-arguments
 import datetime
 
-import requests_cache
+from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
 from ....cache import MEMORY
 from ...google.google_address_model import create_google_address_model
@@ -20,7 +20,7 @@ ADDRESSES = {
 
 @MEMORY.cache(ignore=["session"])
 def create_hkjc_hkjc_venue_model(
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     dt: datetime.datetime,
     venue_code: str,
     race_track: str,

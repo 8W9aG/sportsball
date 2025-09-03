@@ -3,7 +3,7 @@ import unittest
 import os
 import datetime
 
-import requests_cache
+from scrapesession.scrapesession import ScrapeSession
 import requests_mock
 from sportsball.data.afl.afltables.afl_afltables_game_model import create_afl_afltables_game_model
 from sportsball.data.league import League
@@ -12,7 +12,7 @@ from sportsball.data.league import League
 class TestAFLTablesGameModel(unittest.TestCase):
 
     def setUp(self):
-        self._session = requests_cache.CachedSession(backend="memory")
+        self._session = ScrapeSession(backend="memory")
         self.dir = os.path.dirname(__file__)
 
     def test_player_identifier(self):

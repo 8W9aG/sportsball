@@ -7,10 +7,10 @@ import os
 from urllib.parse import urlparse
 
 import pytest_is_running
-import requests_cache
 from bs4 import BeautifulSoup
 from dateutil.parser import parse
 from dateutil.relativedelta import relativedelta
+from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
 from ...cache import MEMORY
 from ..google.address_exception import AddressException
@@ -21,7 +21,7 @@ from .sportsreference_venue_model import create_sportsreference_venue_model
 
 def _create_sportsreference_umpire_model(
     url: str,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     dt: datetime.datetime,
     version: str,
 ) -> UmpireModel:
@@ -96,7 +96,7 @@ def _create_sportsreference_umpire_model(
 @MEMORY.cache(ignore=["session"])
 def _cached_create_sportsreference_umpire_model(
     url: str,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     dt: datetime.datetime,
     version: str,
 ) -> UmpireModel:
@@ -107,7 +107,7 @@ def _cached_create_sportsreference_umpire_model(
 
 def create_sportsreference_umpire_model(
     url: str,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     dt: datetime.datetime,
 ) -> UmpireModel:
     """Create a sports reference umpire model."""

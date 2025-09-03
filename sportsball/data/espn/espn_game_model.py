@@ -5,8 +5,8 @@ import datetime
 from typing import Any, Dict
 
 import pytest_is_running
-import requests_cache
 from dateutil.parser import parse
+from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
 from ...cache import MEMORY
 from ..game_model import VERSION as GAME_VERSION
@@ -32,7 +32,7 @@ from .espn_venue_model import create_espn_venue_model
 def _create_espn_team(
     competitor: Dict[str, Any],
     odds_dict: Dict[str, Any],
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     dt: datetime.datetime,
     league: League,
     positions_validator: dict[str, str],
@@ -734,7 +734,7 @@ def _create_espn_team(
 
 def _create_venue(
     event: dict[str, Any],
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     dt: datetime.datetime,
     version: str,
 ) -> VenueModel | None:
@@ -757,7 +757,7 @@ def _create_venue(
 
 def _create_teams(
     event: dict[str, Any],
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     venue: VenueModel | None,
     dt: datetime.datetime,
     league: League,
@@ -816,7 +816,7 @@ def _create_espn_game_model(
     event: dict[str, Any],
     week: int | None,
     game_number: int,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     league: League,
     year: int | None,
     season_type: SeasonType | None,
@@ -856,7 +856,7 @@ def _cached_create_espn_game_model(
     event: dict[str, Any],
     week: int | None,
     game_number: int,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     league: League,
     year: int | None,
     season_type: SeasonType | None,
@@ -880,7 +880,7 @@ def create_espn_game_model(
     event: dict[str, Any],
     week: int | None,
     game_number: int,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     league: League,
     year: int | None,
     season_type: SeasonType | None,

@@ -4,14 +4,14 @@ import os
 import unittest
 
 import requests_mock
-import requests_cache
+from scrapesession.scrapesession import ScrapeSession
 from sportsball.data.sportsdb.sportsdb_venue_model import create_sportsdb_venue_model
 
 
 class TestSportsDBVenueModel(unittest.TestCase):
 
     def setUp(self):
-        self._session = requests_cache.CachedSession(backend="memory")
+        self._session = ScrapeSession(backend="memory")
         self.dir = os.path.dirname(__file__)
 
     def test_identifier(self):

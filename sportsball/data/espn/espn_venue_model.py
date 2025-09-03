@@ -3,7 +3,7 @@
 import datetime
 from typing import Any
 
-import requests_cache
+from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
 from ...cache import MEMORY
 from ..google.google_address_model import create_google_address_model
@@ -13,7 +13,7 @@ from ..venue_model import VenueModel
 @MEMORY.cache(ignore=["session"])
 def create_espn_venue_model(
     venue: dict[str, Any],
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     dt: datetime.datetime,
     version: str,
 ) -> VenueModel:

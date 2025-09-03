@@ -1,0 +1,8 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/positions/1?lang=en&region=us",
+    "abbreviation": "G",
+    "displayName": "Goalkeeper",
+    "id": "1",
+    "leaf": true,
+    "name": "Goalkeeper"
+}

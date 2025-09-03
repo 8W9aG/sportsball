@@ -4,14 +4,14 @@ import os
 import unittest
 
 import requests_mock
-import requests_cache
+from scrapesession.scrapesession import ScrapeSession
 from sportsball.data.espn.espn_player_model import create_espn_player_model
 
 
 class TestESPNPlayerModel(unittest.TestCase):
 
     def setUp(self):
-        self._session = requests_cache.CachedSession(backend="memory")
+        self._session = ScrapeSession(backend="memory")
         self.dir = os.path.dirname(__file__)
 
     def test_identifier(self):
@@ -149,3 +149,135 @@ class TestESPNPlayerModel(unittest.TestCase):
             )
 
             self.assertEqual(player_model.kick_extra_points, 0.0)
+
+    def test_attempts_in_box(self):
+        dt = datetime.datetime(2023, 9, 15, 0, 15)
+        identifier = "291609"
+        statistics_url = "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/events/740617/competitions/740617/competitors/331/roster/291609/statistics/0?lang=en&region=us"
+        athletes_url = "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2025/athletes/291609?lang=en&region=us"
+        position_url = "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/positions/1?lang=en&region=us"
+        college_url = "http://sports.core.api.espn.com/v2/colleges/2306?lang=en&region=us"
+        with requests_mock.Mocker() as m:
+            with open(os.path.join(self.dir, "0_statistics.json"), "rb") as f:
+                m.get(statistics_url, content=f.read())
+            with open(os.path.join(self.dir, "291609_athletes.json"), "rb") as f:
+                m.get(athletes_url, content=f.read())
+            with open(os.path.join(self.dir, "1_positions-2.json"), "rb") as f:
+                m.get(position_url, content=f.read())
+            player_model = create_espn_player_model(
+                session=self._session,
+                player={
+                    "playerId": identifier,
+                    "period": 0,
+                    "active": True,
+                    "starter": True,
+                    "jersey": "1",
+                    "athlete": {
+                        "$ref": athletes_url,
+                    },
+                    "position": {
+                        "$ref": position_url,
+                    },
+                    "statistics": {
+                        "$ref": statistics_url,
+                    },
+                    "subbedIn": {
+                        "didSub": False,
+                    },
+                    "subbedOut": {
+                        "didSub": False
+                    },
+                    "formationPlace": "1",
+                },
+                dt=dt,
+                positions_validator={"G": "G"},
+            )
+
+            self.assertEqual(player_model.attempts_in_box, 8)
+
+    def test_second_assists(self):
+        dt = datetime.datetime(2023, 9, 15, 0, 15)
+        identifier = "141438"
+        statistics_url = "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/events/633826/competitions/633826/competitors/628/roster/141438/statistics/0?lang=en&region=us"
+        athletes_url = "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/2022/athletes/141438?lang=en&region=us"
+        position_url = "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/positions/1?lang=en&region=us"
+        college_url = "http://sports.core.api.espn.com/v2/colleges/2306?lang=en&region=us"
+        with requests_mock.Mocker() as m:
+            with open(os.path.join(self.dir, "0_statistics-2.json"), "rb") as f:
+                m.get(statistics_url, content=f.read())
+            with open(os.path.join(self.dir, "141438_athletes.json"), "rb") as f:
+                m.get(athletes_url, content=f.read())
+            with open(os.path.join(self.dir, "1_positions-3.json"), "rb") as f:
+                m.get(position_url, content=f.read())
+            player_model = create_espn_player_model(
+                session=self._session,
+                player={
+                    "playerId": identifier,
+                    "period": 0,
+                    "active": True,
+                    "starter": True,
+                    "jersey": "1",
+                    "athlete": {
+                        "$ref": athletes_url,
+                    },
+                    "position": {
+                        "$ref": position_url,
+                    },
+                    "statistics": {
+                        "$ref": statistics_url,
+                    },
+                    "subbedIn": {
+                        "didSub": False,
+                    },
+                    "subbedOut": {
+                        "didSub": False
+                    },
+                    "formationPlace": "1",
+                },
+                dt=dt,
+                positions_validator={"G": "G"},
+            )
+            self.assertEqual(player_model.second_assists, 0.0)
+
+    def test_qbr(self):
+        dt = datetime.datetime(2023, 9, 15, 0, 15)
+        identifier = "4870857"
+        statistics_url = "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401756846/competitions/401756846/competitors/2306/roster/4870857/statistics/0?lang=en&region=us"
+        athletes_url = "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4870857?lang=en&region=us"
+        position_url = "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/positions/8?lang=en&region=us"
+        college_url = "http://sports.core.api.espn.com/v2/colleges/2306?lang=en&region=us"
+        with requests_mock.Mocker() as m:
+            with open(os.path.join(self.dir, "0_statistics-3.json"), "rb") as f:
+                m.get(statistics_url, content=f.read())
+            with open(os.path.join(self.dir, "4870857_athletes.json"), "rb") as f:
+                m.get(athletes_url, content=f.read())
+            with open(os.path.join(self.dir, "8_positions.json"), "rb") as f:
+                m.get(position_url, content=f.read())
+            with open(os.path.join(self.dir, "2306_colleges.json"), "rb") as f:
+                m.get(college_url, content=f.read())
+            player_model = create_espn_player_model(
+                session=self._session,
+                player={
+                    "playerId": identifier,
+                    "period": 0,
+                    "active": False,
+                    "starter": False,
+                    "forPlayerId": 0,
+                    "jersey": "2",
+                    "valid": False,
+                    "athlete": {
+                        "$ref": athletes_url,
+                    },
+                    "position": {
+                        "$ref": position_url,
+                    },
+                    "statistics": {
+                        "$ref": statistics_url,
+                    },
+                    "didNotPlay": False,
+                    "displayName": "Av. Johnson",
+                },
+                dt=dt,
+                positions_validator={"QB": "QB"},
+            )
+            self.assertEqual(player_model.qbr, 72.85)

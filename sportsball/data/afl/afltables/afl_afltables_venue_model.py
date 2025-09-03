@@ -6,8 +6,8 @@ import os
 from urllib.parse import urlparse
 
 import pytest_is_running
-import requests_cache
 from bs4 import BeautifulSoup
+from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
 from ....cache import MEMORY
 from ...google.google_address_model import create_google_address_model
@@ -16,7 +16,7 @@ from ...venue_model import VERSION, VenueModel
 
 def _create_afl_afltables_venue_model(
     url: str,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     dt: datetime.datetime,
     version: str,
 ) -> VenueModel:
@@ -45,7 +45,7 @@ def _create_afl_afltables_venue_model(
 
 @MEMORY.cache(ignore=["session"])
 def _cached_create_afl_afltables_venue_model(
-    url: str, session: requests_cache.CachedSession, dt: datetime.datetime, version: str
+    url: str, session: ScrapeSession, dt: datetime.datetime, version: str
 ) -> VenueModel:
     return _create_afl_afltables_venue_model(
         url=url, session=session, dt=dt, version=version
@@ -53,7 +53,7 @@ def _cached_create_afl_afltables_venue_model(
 
 
 def create_afl_afltables_venue_model(
-    url: str, session: requests_cache.CachedSession, dt: datetime.datetime
+    url: str, session: ScrapeSession, dt: datetime.datetime
 ) -> VenueModel:
     """Create a venue model from AFL tables."""
     if not pytest_is_running.is_running():

@@ -5,7 +5,7 @@ import datetime
 from typing import Any
 
 import pytest_is_running
-import requests_cache
+from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
 from ....cache import MEMORY
 from ...google.google_address_model import create_google_address_model
@@ -14,7 +14,7 @@ from ...venue_model import VERSION, VenueModel
 
 def _create_espncricinfo_venue_model(
     grounds: dict[str, Any],
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     dt: datetime.datetime,
     version: str,
 ) -> VenueModel:
@@ -35,7 +35,7 @@ def _create_espncricinfo_venue_model(
 @MEMORY.cache(ignore=["session"])
 def _cached_create_espncricinfo_venue_model(
     grounds: dict[str, Any],
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     dt: datetime.datetime,
     version: str,
 ) -> VenueModel:
@@ -46,7 +46,7 @@ def _cached_create_espncricinfo_venue_model(
 
 def create_espncricinfo_venue_model(
     grounds: dict[str, Any],
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     dt: datetime.datetime,
 ) -> VenueModel:
     """Create a sports reference venue model."""

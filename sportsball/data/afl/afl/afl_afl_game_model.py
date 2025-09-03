@@ -5,9 +5,9 @@ import datetime
 import re
 
 import pytest_is_running
-import requests_cache
 from bs4 import BeautifulSoup, Tag
 from playwright.sync_api import Playwright
+from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
 from ....playwright import ensure_install
 from ...game_model import GameModel
@@ -120,7 +120,7 @@ def create_afl_afl_game_model(
     players: list[list[tuple[str, str, str, str, Position]]],
     dt: datetime.datetime | None,
     venue_name: str,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     ladder: list[str],
     url: str | None,
     playwright: Playwright,

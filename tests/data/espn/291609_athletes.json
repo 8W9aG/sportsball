@@ -1,0 +1,202 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2025/athletes/291609?lang=en&region=us",
+    "active": true,
+    "age": 23,
+    "birthPlace": {},
+    "citizenship": "Netherlands",
+    "citizenshipCountry": {
+        "abbreviation": "NED",
+        "alternateId": "9"
+    },
+    "dateOfBirth": "2002-08-18T07:00Z",
+    "defaultLeague": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1?lang=en&region=us"
+    },
+    "defaultTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/teams/331?lang=en&region=us"
+    },
+    "displayHeight": "6' 4\"",
+    "displayName": "Bart Verbruggen",
+    "displayWeight": "146 lbs",
+    "eventLog": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2025/athletes/291609/eventlog?lang=en&region=us"
+    },
+    "events": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/athletes/291609/events?lang=en&region=us"
+    },
+    "firstName": "Bart",
+    "flag": {
+        "alt": "Netherlands",
+        "href": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+        "rel": [
+            "country-flag"
+        ]
+    },
+    "fullName": "Bart Verbruggen",
+    "gender": "MALE",
+    "guid": "25915a25-3933-6769-b4f4-052d205af5b1",
+    "height": 76.0,
+    "id": "291609",
+    "injuries": [],
+    "jersey": "1",
+    "lastName": "Verbruggen",
+    "leagues": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/athletes/291609/leagues?lang=en&region=us"
+    },
+    "linked": true,
+    "links": [
+        {
+            "href": "https://www.espn.com/soccer/player/_/id/291609/bart-verbruggen",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "playercard",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Player Card",
+            "text": "Player Card"
+        },
+        {
+            "href": "https://www.espn.com/soccer/player/stats/_/id/291609/bart-verbruggen",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "stats",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Stats",
+            "text": "Stats"
+        },
+        {
+            "href": "https://www.espn.com/soccer/player/splits/_/id/291609/bart-verbruggen",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "splits",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Splits",
+            "text": "Splits"
+        },
+        {
+            "href": "https://www.espn.com/soccer/player/matches/_/id/291609/bart-verbruggen",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "gamelog",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Matches",
+            "text": "Matches"
+        },
+        {
+            "href": "https://www.espn.com/soccer/player/news/_/id/291609/bart-verbruggen",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "news",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "News",
+            "text": "News"
+        },
+        {
+            "href": "https://www.espn.com/soccer/player/bio/_/id/291609/bart-verbruggen",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "bio",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Bio",
+            "text": "Bio"
+        },
+        {
+            "href": "https://www.espn.com/soccer/player/_/id/291609/bart-verbruggen",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "overview",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Overview",
+            "text": "Overview"
+        },
+        {
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/291609/bart-verbruggen",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "transfers",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Transfers",
+            "text": "Transfers"
+        },
+        {
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/291609/bart-verbruggen",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "transfers",
+                "mobile",
+                "athlete"
+            ],
+            "shortText": "Transfers",
+            "text": "Transfers"
+        }
+    ],
+    "middleName": "",
+    "notes": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2025/athletes/291609/notes?lang=en&region=us"
+    },
+    "position": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/positions/1?lang=en&region=us",
+        "abbreviation": "G",
+        "displayName": "Goalkeeper",
+        "id": "1",
+        "leaf": true,
+        "name": "Goalkeeper"
+    },
+    "profiled": false,
+    "seasons": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/athletes/291609/seasons?lang=en&region=us"
+    },
+    "shortName": "B Verbruggen",
+    "slug": "bart-verbruggen",
+    "statistics": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2025/types/1/athletes/291609/statistics?lang=en&region=us"
+    },
+    "status": {
+        "abbreviation": "Active",
+        "id": "1",
+        "name": "Active",
+        "type": "active"
+    },
+    "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2025/teams/331?lang=en&region=us"
+    },
+    "transactions": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/soccer/athletes/291609/transactions?lang=en&region=us"
+    },
+    "type": "soccer",
+    "uid": "s:600~a:291609",
+    "weight": 146.0
+}

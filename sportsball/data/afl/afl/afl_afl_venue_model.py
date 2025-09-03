@@ -3,7 +3,7 @@
 # pylint: disable=too-many-statements,protected-access,duplicate-code
 import datetime
 
-import requests_cache
+from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
 from ...google.google_address_model import create_google_address_model
 from ...venue_model import VenueModel
@@ -11,7 +11,7 @@ from ...venue_model import VenueModel
 
 def create_afl_afl_venue_model(
     venue_name: str,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     dt: datetime.datetime,
     version: str,
 ) -> VenueModel:

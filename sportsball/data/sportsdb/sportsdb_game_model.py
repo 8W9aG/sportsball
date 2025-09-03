@@ -5,8 +5,8 @@ import datetime
 from typing import Any
 
 import pytest_is_running
-import requests_cache
 from dateutil import parser
+from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
 from ...cache import MEMORY
 from ..game_model import VERSION, GameModel
@@ -17,7 +17,7 @@ from .sportsdb_venue_model import create_sportsdb_venue_model
 
 
 def _create_sportsdb_game_model(
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     game: dict[str, Any],
     week_number: int,
     game_number: int,
@@ -77,7 +77,7 @@ def _create_sportsdb_game_model(
 
 @MEMORY.cache(ignore=["session"])
 def _cached_create_sportsdb_game_model(
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     game: dict[str, Any],
     week_number: int,
     game_number: int,
@@ -101,7 +101,7 @@ def _cached_create_sportsdb_game_model(
 
 
 def create_sportsdb_game_model(
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     game: dict[str, Any],
     week_number: int,
     game_number: int,

@@ -8,10 +8,10 @@ from urllib.parse import unquote
 
 import extruct  # type: ignore
 import pytest_is_running
-import requests_cache
 from bs4 import BeautifulSoup
 from dateutil.parser import parse
 from dateutil.relativedelta import relativedelta
+from scrapesession.scrapesession import ScrapeSession  # type: ignore
 from scrapesession.session import DEFAULT_TIMEOUT  # type: ignore
 
 from ...cache import MEMORY
@@ -52,7 +52,7 @@ def _fix_url(url: str) -> str:
 
 
 def _create_sportsreference_player_model(
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     player_url: str,
     fg: dict[str, int],
     fga: dict[str, int],
@@ -1220,12 +1220,17 @@ def _create_sportsreference_player_model(
         special_team_fumble_return_yards=None,
         kick_extra_points=None,
         kick_extra_points_made=None,
+        attempts_in_box=None,
+        second_assists=None,
+        qbr=None,
+        attempts_out_box=None,
+        adjusted_qbr=None,
     )
 
 
 @MEMORY.cache(ignore=["session"])
 def _cached_create_sportsreference_player_model(
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     player_url: str,
     fg: dict[str, int],
     fga: dict[str, int],
@@ -1641,7 +1646,7 @@ def _cached_create_sportsreference_player_model(
 
 
 def create_sportsreference_player_model(
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     player_url: str,
     fg: dict[str, int],
     fga: dict[str, int],

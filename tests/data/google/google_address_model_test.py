@@ -2,14 +2,14 @@
 import datetime
 import unittest
 
-import requests_cache
+from scrapesession.scrapesession import ScrapeSession
 from sportsball.data.google.google_address_model import create_google_address_model
 
 
 class TestGoogleAddressModel(unittest.TestCase):
 
     def setUp(self):
-        self.session = requests_cache.CachedSession(backend="memory")
+        self.session = ScrapeSession(backend="memory")
 
     def test_city(self):
         dt = datetime.datetime(2010, 10, 10, 10, 10, 00)

@@ -4,7 +4,7 @@
 import datetime
 
 import pytest_is_running
-import requests_cache
+from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
 from ...cache import MEMORY
 from ..game_model import VERSION as GAME_VERSION
@@ -21,7 +21,7 @@ def _create_aussportsbetting_game_model(
     home_team: str,
     away_team: str,
     venue: str | None,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     home_points: float,
     away_points: float,
     home_odds: float,
@@ -80,7 +80,7 @@ def _cached_create_aussportsbetting_game_model(
     home_team: str,
     away_team: str,
     venue: str | None,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     home_points: float,
     away_points: float,
     home_odds: float,
@@ -110,7 +110,7 @@ def create_aussportsbetting_game_model(
     home_team: str,
     away_team: str,
     venue: str | None,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     home_points: float,
     away_points: float,
     home_odds: float,

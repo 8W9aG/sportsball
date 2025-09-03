@@ -1,0 +1,1312 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401756846/competitions/401756846/competitors/2306/roster/4870857/statistics/0?lang=en&region=us",
+    "athlete": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4870857?lang=en&region=us"
+    },
+    "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401756846/competitions/401756846?lang=en&region=us"
+    },
+    "splits": {
+        "abbreviation": "Game",
+        "categories": [
+            {
+                "abbreviation": "gen",
+                "displayName": "General",
+                "name": "general",
+                "shortDisplayName": "General",
+                "stats": [
+                    {
+                        "abbreviation": "FUM",
+                        "description": "The number of times a player/team has fumbled the ball",
+                        "displayName": "Fumbles",
+                        "displayValue": "0",
+                        "name": "fumbles",
+                        "shortDisplayName": "F",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "LST",
+                        "description": "The number of times a fumble is recovered by the opposing team",
+                        "displayName": "Fumbles Lost",
+                        "displayValue": "0",
+                        "name": "fumblesLost",
+                        "shortDisplayName": "FL",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FTD",
+                        "description": "The number of times a fumbles is recovered and returned for a touchdown.",
+                        "displayName": "Fumbles Touchdowns",
+                        "displayValue": "0",
+                        "name": "fumblesTouchdowns",
+                        "shortDisplayName": "FTD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "GP",
+                        "description": "Games Played",
+                        "displayName": "Games Played",
+                        "displayValue": "1",
+                        "name": "gamesPlayed",
+                        "shortDisplayName": "GP",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "2PTR",
+                        "description": "The number of two point attempts that is returned by the offense.",
+                        "displayName": "Two Point Returns",
+                        "displayValue": "0",
+                        "name": "offensiveTwoPtReturns",
+                        "shortDisplayName": "2PTR",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "OFTD",
+                        "description": "The number of times a fumbles is recovered and returned for a touchdown by the offense.",
+                        "displayName": "Fumbles Touchdowns",
+                        "displayValue": "0",
+                        "name": "offensiveFumblesTouchdowns",
+                        "shortDisplayName": "OFTD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "DFTD",
+                        "description": "The number of times a fumbles is recovered and returned for a touchdown by the defense.",
+                        "displayName": "Fumbles Touchdowns",
+                        "displayValue": "0",
+                        "name": "defensiveFumblesTouchdowns",
+                        "shortDisplayName": "DFTD",
+                        "value": 0.0
+                    }
+                ],
+                "summary": ""
+            },
+            {
+                "abbreviation": "pass",
+                "displayName": "Passing",
+                "name": "passing",
+                "shortDisplayName": "Passing",
+                "stats": [
+                    {
+                        "abbreviation": "AG",
+                        "description": "The average gained yards per position.",
+                        "displayName": "Average Gain",
+                        "displayValue": "0.0",
+                        "name": "avgGain",
+                        "shortDisplayName": "AG",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "CMP%",
+                        "description": "The percentage of completed passes.",
+                        "displayName": "Completion Percentage",
+                        "displayValue": "70.0",
+                        "name": "completionPct",
+                        "shortDisplayName": "CMP%",
+                        "value": 70.0
+                    },
+                    {
+                        "abbreviation": "CMP",
+                        "description": "The times a player completes a pass to another player who is eligible to catch a pass.",
+                        "displayName": "Completions",
+                        "displayValue": "21",
+                        "name": "completions",
+                        "shortDisplayName": "CMP",
+                        "value": 21.0
+                    },
+                    {
+                        "abbreviation": "EQBR",
+                        "description": "The quarterback rating used to compare overall offensive performance relative to other positions.",
+                        "displayName": "ESPN Quarterback Rating",
+                        "displayValue": "413.0",
+                        "name": "ESPNQBRating",
+                        "shortDisplayName": "ESPN Quarterback Rating",
+                        "value": 413.0
+                    },
+                    {
+                        "abbreviation": "INT%",
+                        "description": "The percentage of passes thrown that were intercepted by the opposing team.",
+                        "displayName": "Interception Percentage",
+                        "displayValue": "0.00",
+                        "name": "interceptionPct",
+                        "shortDisplayName": "INT%",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "INT",
+                        "description": "The number of passes thrown that were intercepted by the opposing team.",
+                        "displayName": "Interceptions",
+                        "displayValue": "0",
+                        "name": "interceptions",
+                        "shortDisplayName": "INT",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "LNG",
+                        "description": "The longest pass play completed in terms of yards.",
+                        "displayName": "Longest Pass",
+                        "displayValue": "65",
+                        "name": "longPassing",
+                        "shortDisplayName": "LONG",
+                        "value": 65.0
+                    },
+                    {
+                        "abbreviation": "MISC",
+                        "description": "The number of miscellaneous yards.",
+                        "displayName": "Miscellaneous Yards",
+                        "displayValue": "0",
+                        "name": "miscYards",
+                        "shortDisplayName": "MISC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "NYDS",
+                        "description": "The amount of net passing yards.",
+                        "displayName": "Net Passing Yards",
+                        "displayValue": "273",
+                        "name": "netPassingYards",
+                        "shortDisplayName": "NYDS",
+                        "value": 273.0
+                    },
+                    {
+                        "abbreviation": "NYDS/G",
+                        "description": "The amount of net passing yards per game.",
+                        "displayName": "Net Passing Yards Per Game",
+                        "displayValue": "273.0",
+                        "name": "netPassingYardsPerGame",
+                        "shortDisplayName": "NYDS/G",
+                        "value": 273.0
+                    },
+                    {
+                        "abbreviation": "NTYDS",
+                        "description": "The amount of net total yards.",
+                        "displayName": "Net Total Yards",
+                        "displayValue": "294",
+                        "name": "netTotalYards",
+                        "shortDisplayName": "NTYDS",
+                        "value": 294.0
+                    },
+                    {
+                        "abbreviation": "NTYDS/G",
+                        "description": "The amount of net total yards per game.",
+                        "displayName": "Net Yards Per Game",
+                        "displayValue": "294.0",
+                        "name": "netYardsPerGame",
+                        "shortDisplayName": "NTYDS/G",
+                        "value": 294.0
+                    },
+                    {
+                        "abbreviation": "ATT",
+                        "description": "The number of times a pass is attempted.",
+                        "displayName": "Passing Attempts",
+                        "displayValue": "30",
+                        "name": "passingAttempts",
+                        "shortDisplayName": "ATT",
+                        "value": 30.0
+                    },
+                    {
+                        "abbreviation": "BIGP",
+                        "description": "The number of times a pass results in a big play.",
+                        "displayName": "Passing Big Plays",
+                        "displayValue": "0",
+                        "name": "passingBigPlays",
+                        "shortDisplayName": "BIG",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FIRST",
+                        "description": "The number of times a pass results in a first down.",
+                        "displayName": "Passing 1st downs",
+                        "displayValue": "0",
+                        "name": "passingFirstDowns",
+                        "shortDisplayName": "FIRST",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FUM",
+                        "description": "The number of times the ball has been fumbled after a completed pass.",
+                        "displayName": "Passing Fumbles",
+                        "displayValue": "0",
+                        "name": "passingFumbles",
+                        "shortDisplayName": "F",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FL",
+                        "description": "The number of times the ball has been fumbled and lost to the opposing team after a completed pass.",
+                        "displayName": "Passing Fumbles Lost",
+                        "displayValue": "0",
+                        "name": "passingFumblesLost",
+                        "shortDisplayName": "FL",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TD%",
+                        "description": "The percentage of passes that result in a touchdown.",
+                        "displayName": "Passing Touchdown %",
+                        "displayValue": "6.67",
+                        "name": "passingTouchdownPct",
+                        "shortDisplayName": "TD%",
+                        "value": 6.667
+                    },
+                    {
+                        "abbreviation": "TD",
+                        "description": "The total number of passing touchdowns.",
+                        "displayName": "Passing Touchdowns",
+                        "displayValue": "2",
+                        "name": "passingTouchdowns",
+                        "shortDisplayName": "Touchdowns",
+                        "value": 2.0
+                    },
+                    {
+                        "abbreviation": "YDS",
+                        "description": "The total passing yards.",
+                        "displayName": "Passing Yards",
+                        "displayValue": "273",
+                        "name": "passingYards",
+                        "shortDisplayName": "Pass Yards",
+                        "value": 273.0
+                    },
+                    {
+                        "abbreviation": "PYAC",
+                        "description": "The amount of passing yards after catch.",
+                        "displayName": "Passing Yards After Catch",
+                        "displayValue": "0",
+                        "name": "passingYardsAfterCatch",
+                        "shortDisplayName": "PYAC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PY@C",
+                        "description": "The amount of passing yards when the catch is made.",
+                        "displayName": "Passing Yards At Catch",
+                        "displayValue": "273",
+                        "name": "passingYardsAtCatch",
+                        "shortDisplayName": "PY@C",
+                        "value": 273.0
+                    },
+                    {
+                        "abbreviation": "YDS/G",
+                        "description": "The number of passing yards per game.",
+                        "displayName": "Passing Yards Per Game",
+                        "displayValue": "273.0",
+                        "name": "passingYardsPerGame",
+                        "shortDisplayName": "PYDS/G",
+                        "value": 273.0
+                    },
+                    {
+                        "abbreviation": "RTG",
+                        "description": "Passer Rating",
+                        "displayName": "Passer Rating",
+                        "displayValue": "168.4",
+                        "name": "QBRating",
+                        "shortDisplayName": "RTG",
+                        "value": 168.44
+                    },
+                    {
+                        "abbreviation": "SACK",
+                        "description": "The total number of sacks.",
+                        "displayName": "Total Sacks",
+                        "displayValue": "1",
+                        "name": "sacks",
+                        "shortDisplayName": "Sacks",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "SYL",
+                        "description": "The amount of yards lost due to sacks.",
+                        "displayName": "Sack Yards Lost",
+                        "displayValue": "-12",
+                        "name": "sackYardsLost",
+                        "shortDisplayName": "SYL",
+                        "value": -12.0
+                    },
+                    {
+                        "abbreviation": "TGP",
+                        "description": "The amount of games played.",
+                        "displayName": "Team Games Played",
+                        "displayValue": "1",
+                        "name": "teamGamesPlayed",
+                        "shortDisplayName": "TGP",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "TOP",
+                        "description": "The number of total offensive plays.",
+                        "displayName": "Total Offensive Plays",
+                        "displayValue": "39",
+                        "name": "totalOffensivePlays",
+                        "shortDisplayName": "TOP",
+                        "value": 39.0
+                    },
+                    {
+                        "abbreviation": "PTS",
+                        "description": "The number of total points scored.",
+                        "displayName": "Total Points",
+                        "displayValue": "0",
+                        "name": "totalPoints",
+                        "shortDisplayName": "TP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TP",
+                        "description": "The number of points scored per game.",
+                        "displayName": "Total Points Per Game",
+                        "displayValue": "0.0",
+                        "name": "totalPointsPerGame",
+                        "shortDisplayName": "TP/G",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TD",
+                        "description": "The number of touchdowns scored in total.",
+                        "displayName": "Total Touchdowns",
+                        "displayValue": "3",
+                        "name": "totalTouchdowns",
+                        "shortDisplayName": "TTD",
+                        "value": 3.0
+                    },
+                    {
+                        "abbreviation": "TYDS",
+                        "description": "The number of yards accumulated in total.",
+                        "displayName": "Total Yards",
+                        "displayValue": "294",
+                        "name": "totalYards",
+                        "shortDisplayName": "TYDS",
+                        "value": 294.0
+                    },
+                    {
+                        "abbreviation": "CMP",
+                        "description": "The amound of total yards from the line of scrimmage.",
+                        "displayName": "Total Yards From Scrimmage",
+                        "displayValue": "21",
+                        "name": "totalYardsFromScrimmage",
+                        "shortDisplayName": "SCRIM",
+                        "value": 21.0
+                    },
+                    {
+                        "abbreviation": "2PTP",
+                        "description": "The number of times a pass was thrown for 2 points.",
+                        "displayName": "Two Point Pass",
+                        "displayValue": "0",
+                        "name": "twoPtPass",
+                        "shortDisplayName": "2PTP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "2PTPA",
+                        "description": "The number of times a pass was attempted on a 2-point conversion.",
+                        "displayName": "Two Point Pass Attempts",
+                        "displayValue": "0",
+                        "name": "twoPtPassAttempts",
+                        "shortDisplayName": "2PTPA",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SCRIM/G",
+                        "description": "The yards gained from scrimmage per game.",
+                        "displayName": "Yards From Scrimmage Per Game",
+                        "displayValue": "21",
+                        "name": "yardsFromScrimmagePerGame",
+                        "shortDisplayName": "SCRIM/G",
+                        "value": 21.0
+                    },
+                    {
+                        "abbreviation": "CMP",
+                        "description": "The average number of yards per pass completion.",
+                        "displayName": "Yards Per Completion",
+                        "displayValue": "13.0",
+                        "name": "yardsPerCompletion",
+                        "shortDisplayName": "YDS/CMP",
+                        "value": 13.0
+                    },
+                    {
+                        "abbreviation": "YDS/G",
+                        "description": "The average number of yards per game.",
+                        "displayName": "Yards Per Game",
+                        "displayValue": "294.0",
+                        "name": "yardsPerGame",
+                        "shortDisplayName": "YDS/G",
+                        "value": 294.0
+                    },
+                    {
+                        "abbreviation": "AVG",
+                        "description": "The average number yards per pass attempt.",
+                        "displayName": "Yards Per Pass Attempt",
+                        "displayValue": "9.1",
+                        "name": "yardsPerPassAttempt",
+                        "shortDisplayName": "AVG",
+                        "value": 9.1
+                    },
+                    {
+                        "abbreviation": "NYDS/PA",
+                        "description": "The average number net yards (taking sack yardage into account) per pass attempt.",
+                        "displayName": "Net Yards Per Pass Attempt",
+                        "displayValue": "8.8",
+                        "name": "netYardsPerPassAttempt",
+                        "shortDisplayName": "NYDS/PA",
+                        "value": 8.806451612903226
+                    },
+                    {
+                        "abbreviation": "QBR",
+                        "description": "Total Quarterback Rating, which values quarterback on all play types on a 0-to-100 scale.",
+                        "displayName": "Total QBR",
+                        "displayValue": "72.9",
+                        "name": "QBR",
+                        "shortDisplayName": "QBR",
+                        "value": 72.85
+                    },
+                    {
+                        "abbreviation": "QBR",
+                        "description": "Adjusted Quarterback Rating.",
+                        "displayName": "Adjusted QBR",
+                        "displayValue": "74.5",
+                        "name": "adjQBR",
+                        "shortDisplayName": "QBR",
+                        "value": 74.453
+                    },
+                    {
+                        "abbreviation": "RAT",
+                        "description": "Quarterback Rating.",
+                        "displayName": "Quarterback Rating",
+                        "displayValue": "64.6",
+                        "name": "quarterbackRating",
+                        "shortDisplayName": "Quarterback Rating",
+                        "value": 64.583
+                    }
+                ],
+                "summary": ""
+            },
+            {
+                "abbreviation": "rush",
+                "displayName": "Rushing",
+                "name": "rushing",
+                "shortDisplayName": "Rushing",
+                "stats": [
+                    {
+                        "abbreviation": "AG",
+                        "description": "The average gained yards per position.",
+                        "displayName": "Average Gain",
+                        "displayValue": "0.0",
+                        "name": "avgGain",
+                        "shortDisplayName": "AG",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "ESPNRB",
+                        "description": "The ESPN Widereceiver Rating.",
+                        "displayName": "ESPN RB Rating",
+                        "displayValue": "56.00",
+                        "name": "ESPNRBRating",
+                        "shortDisplayName": "ESPNRB",
+                        "value": 56.0
+                    },
+                    {
+                        "abbreviation": "LNG",
+                        "description": "The amount of yards for the longest run.",
+                        "displayName": "Long Rushing",
+                        "displayValue": "10",
+                        "name": "longRushing",
+                        "shortDisplayName": "LONG",
+                        "value": 10.0
+                    },
+                    {
+                        "abbreviation": "MISC",
+                        "description": "The amount of miscellaneous yards.",
+                        "displayName": "Miscellaneous Yards",
+                        "displayValue": "0",
+                        "name": "miscYards",
+                        "shortDisplayName": "MISC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "NTYDS",
+                        "description": "The amount of total net yards.",
+                        "displayName": "Net Total Yards",
+                        "displayValue": "294",
+                        "name": "netTotalYards",
+                        "shortDisplayName": "NTYDS",
+                        "value": 294.0
+                    },
+                    {
+                        "abbreviation": "CMP",
+                        "description": "The total net yards gained per game.",
+                        "displayName": "Net Yards Per Game",
+                        "displayValue": "294.0",
+                        "name": "netYardsPerGame",
+                        "shortDisplayName": "NYDS/G",
+                        "value": 294.0
+                    },
+                    {
+                        "abbreviation": "CAR",
+                        "description": "The total number of attempted rushes.",
+                        "displayName": "Rushing Attempts",
+                        "displayValue": "8",
+                        "name": "rushingAttempts",
+                        "shortDisplayName": "Rushing Attempts",
+                        "value": 8.0
+                    },
+                    {
+                        "abbreviation": "BIG",
+                        "description": "The number of rushing big plays gained.",
+                        "displayName": "20+ Yard Rushing Plays",
+                        "displayValue": "0",
+                        "name": "rushingBigPlays",
+                        "shortDisplayName": "BIG",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FD",
+                        "description": "The number of times a first down is picked up by a run.",
+                        "displayName": "Rushing 1st downs",
+                        "displayValue": "0",
+                        "name": "rushingFirstDowns",
+                        "shortDisplayName": "FIRST",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FUM",
+                        "description": "The number of times there is a run and then the ball is fumbled.",
+                        "displayName": "Rushing Fumbles",
+                        "displayValue": "0",
+                        "name": "rushingFumbles",
+                        "shortDisplayName": "F",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "LST",
+                        "description": "The number of times there is a run and then the ball is fumbled.",
+                        "displayName": "Rushing Fumbles Lost",
+                        "displayValue": "0",
+                        "name": "rushingFumblesLost",
+                        "shortDisplayName": "FL",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TD",
+                        "description": "The total number of rushing touchdowns.",
+                        "displayName": "Rushing Touchdowns",
+                        "displayValue": "1",
+                        "name": "rushingTouchdowns",
+                        "shortDisplayName": "Rushing Touchdowns",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "YDS",
+                        "description": "The total rushing yards.",
+                        "displayName": "Rushing Yards",
+                        "displayValue": "21",
+                        "name": "rushingYards",
+                        "shortDisplayName": "Rush Yards",
+                        "value": 21.0
+                    },
+                    {
+                        "abbreviation": "YDS/G",
+                        "description": "The average number of rushing yards per game.",
+                        "displayName": "Rushing Yards Per Game",
+                        "displayValue": "21.0",
+                        "name": "rushingYardsPerGame",
+                        "shortDisplayName": "YDS/G",
+                        "value": 21.0
+                    },
+                    {
+                        "abbreviation": "STF",
+                        "description": "The number of times a run is stopped at or behind the line of scrimmage.",
+                        "displayName": "Stuffs",
+                        "displayValue": "0",
+                        "name": "stuffs",
+                        "shortDisplayName": "STF",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SYDSL",
+                        "description": "The number of yards lost when a run is stuffed.",
+                        "displayName": "Stuff Yards Lost",
+                        "displayValue": "0",
+                        "name": "stuffYardsLost",
+                        "shortDisplayName": "SYDSL",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "GP",
+                        "description": "The numbers of team games played.",
+                        "displayName": "Team Games Played",
+                        "displayValue": "1",
+                        "name": "teamGamesPlayed",
+                        "shortDisplayName": "GP",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "OP",
+                        "description": "The number of offenseive plays run.",
+                        "displayName": "Total Offensive Plays",
+                        "displayValue": "39",
+                        "name": "totalOffensivePlays",
+                        "shortDisplayName": "OP",
+                        "value": 39.0
+                    },
+                    {
+                        "abbreviation": "PTS",
+                        "description": "The number of total points earned.",
+                        "displayName": "Total Points",
+                        "displayValue": "0",
+                        "name": "totalPoints",
+                        "shortDisplayName": "TP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TP/G",
+                        "description": "The average number of points scored per game.",
+                        "displayName": "Total Points Per Game",
+                        "displayValue": "0.0",
+                        "name": "totalPointsPerGame",
+                        "shortDisplayName": "TP/G",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TD",
+                        "description": "The number of total Touchdowns scored.",
+                        "displayName": "Total Touchdowns",
+                        "displayValue": "3",
+                        "name": "totalTouchdowns",
+                        "shortDisplayName": "TTD",
+                        "value": 3.0
+                    },
+                    {
+                        "abbreviation": "TYDS",
+                        "description": "The number of total yards gained.",
+                        "displayName": "Total Yards",
+                        "displayValue": "294",
+                        "name": "totalYards",
+                        "shortDisplayName": "TYDS",
+                        "value": 294.0
+                    },
+                    {
+                        "abbreviation": "SCRIM",
+                        "description": "The number of yards gained from the line of scrimmage.",
+                        "displayName": "Total Yards From Scrimmage",
+                        "displayValue": "21",
+                        "name": "totalYardsFromScrimmage",
+                        "shortDisplayName": "SCRIM",
+                        "value": 21.0
+                    },
+                    {
+                        "abbreviation": "2PTR",
+                        "description": "The number of rushes on 2-point attempts.",
+                        "displayName": "Two Point Rush",
+                        "displayValue": "0",
+                        "name": "twoPtRush",
+                        "shortDisplayName": "2PTR",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "CMP",
+                        "description": "The number of times a 2-point conversion is attempted with a rush.",
+                        "displayName": "Two Point Rush Attempts",
+                        "displayValue": "0",
+                        "name": "twoPtRushAttempts",
+                        "shortDisplayName": "2PTA",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SCRIM/G",
+                        "description": "The average number of yards gained from scrimmage per game.",
+                        "displayName": "Yards From Scrimmage Per Game",
+                        "displayValue": "21.0",
+                        "name": "yardsFromScrimmagePerGame",
+                        "shortDisplayName": "SCRIM/G",
+                        "value": 21.0
+                    },
+                    {
+                        "abbreviation": "YDS/G",
+                        "description": "The average number of yards per game.",
+                        "displayName": "Yards Per Game",
+                        "displayValue": "294.0",
+                        "name": "yardsPerGame",
+                        "shortDisplayName": "YDS/G",
+                        "value": 294.0
+                    },
+                    {
+                        "abbreviation": "AVG",
+                        "description": "The average number of yards per rush attempt.",
+                        "displayName": "Yards Per Rush Attempt",
+                        "displayValue": "2.6",
+                        "name": "yardsPerRushAttempt",
+                        "shortDisplayName": "YDS/RA",
+                        "value": 2.625
+                    }
+                ],
+                "summary": ""
+            },
+            {
+                "abbreviation": "rec",
+                "displayName": "Receiving",
+                "name": "receiving",
+                "shortDisplayName": "Receiving",
+                "stats": [
+                    {
+                        "abbreviation": "AG",
+                        "description": "The average gained yards per position.",
+                        "displayName": "Average Gain",
+                        "displayValue": "0.0",
+                        "name": "avgGain",
+                        "shortDisplayName": "AG",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "ESPNWR",
+                        "description": "The ESPN Widereceiver Rating.",
+                        "displayName": "ESPN Widereceiver Rating",
+                        "displayValue": "0.00",
+                        "name": "ESPNWRRating",
+                        "shortDisplayName": "ESPNWR",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "LNG",
+                        "description": "The amount of yards for the longest reception.",
+                        "displayName": "Long Reception",
+                        "displayValue": "0",
+                        "name": "longReception",
+                        "shortDisplayName": "LONG",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "MISC",
+                        "description": "The amount of miscellaneous yards.",
+                        "displayName": "Miscellaneous Yards",
+                        "displayValue": "0",
+                        "name": "miscYards",
+                        "shortDisplayName": "MISC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "NTYDS",
+                        "description": "The amount of total net yards.",
+                        "displayName": "Net Total Yards",
+                        "displayValue": "294",
+                        "name": "netTotalYards",
+                        "shortDisplayName": "NTYDS",
+                        "value": 294.0
+                    },
+                    {
+                        "abbreviation": "CMP",
+                        "description": "The total net yards gained per game.",
+                        "displayName": "Net Yards Per Game",
+                        "displayValue": "294.0",
+                        "name": "netYardsPerGame",
+                        "shortDisplayName": "NYDS/G",
+                        "value": 294.0
+                    },
+                    {
+                        "abbreviation": "BIG",
+                        "description": "The number of receiving big plays gained.",
+                        "displayName": "20+ Yard Receiving Plays",
+                        "displayValue": "0",
+                        "name": "receivingBigPlays",
+                        "shortDisplayName": "BIG",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FD",
+                        "description": "The number of times a first down is picked up by a reception.",
+                        "displayName": "Receiving First Downs",
+                        "displayValue": "0",
+                        "name": "receivingFirstDowns",
+                        "shortDisplayName": "FIRST",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FUM",
+                        "description": "The number of times a reception is made and then the ball is fumbled.",
+                        "displayName": "Receiving Fumbles",
+                        "displayValue": "0",
+                        "name": "receivingFumbles",
+                        "shortDisplayName": "F",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "LST",
+                        "description": "The number of times a reception is made and the balled is fumbled and recovered by the opposing team.",
+                        "displayName": "Receiving Fumbles Lost",
+                        "displayValue": "0",
+                        "name": "receivingFumblesLost",
+                        "shortDisplayName": "FL",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TGTS",
+                        "description": "The number of times a receiver is thrown to.",
+                        "displayName": "Receiving Targets",
+                        "displayValue": "0",
+                        "name": "receivingTargets",
+                        "shortDisplayName": "TGT",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TD",
+                        "description": "The total number of receiving touchdowns.",
+                        "displayName": "Receiving Touchdowns",
+                        "displayValue": "0",
+                        "name": "receivingTouchdowns",
+                        "shortDisplayName": "Receiving Touchdowns",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "YDS",
+                        "description": "The total receiving yards.",
+                        "displayName": "Receiving Yards",
+                        "displayValue": "0",
+                        "name": "receivingYards",
+                        "shortDisplayName": "Rec. Yards",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "YAC",
+                        "description": "The number of yards gained after the catch has been made.",
+                        "displayName": "Receiving Yards After Catch",
+                        "displayValue": "0",
+                        "name": "receivingYardsAfterCatch",
+                        "shortDisplayName": "YAC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "Y@C",
+                        "description": "The number of yards gained at the time the catch is made.",
+                        "displayName": "Receiving Yards At Catch",
+                        "displayValue": "0",
+                        "name": "receivingYardsAtCatch",
+                        "shortDisplayName": "Y@C",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "YDS/G",
+                        "description": "The average number of receiving yards per game.",
+                        "displayName": "Receiving Yards Per Game",
+                        "displayValue": "0.0",
+                        "name": "receivingYardsPerGame",
+                        "shortDisplayName": "YDS/G",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "REC",
+                        "description": "The total number of receptions.",
+                        "displayName": "Receptions",
+                        "displayValue": "0",
+                        "name": "receptions",
+                        "shortDisplayName": "Receptions",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "GP",
+                        "description": "The numbers of team games played.",
+                        "displayName": "Team Games Played",
+                        "displayValue": "1",
+                        "name": "teamGamesPlayed",
+                        "shortDisplayName": "GP",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "OP",
+                        "description": "The number of offenseive plays run.",
+                        "displayName": "Total Offensive Plays",
+                        "displayValue": "39",
+                        "name": "totalOffensivePlays",
+                        "shortDisplayName": "OP",
+                        "value": 39.0
+                    },
+                    {
+                        "abbreviation": "PTS",
+                        "description": "The number of total points earned.",
+                        "displayName": "Total Points",
+                        "displayValue": "0",
+                        "name": "totalPoints",
+                        "shortDisplayName": "TP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TP/G",
+                        "description": "The average number of points scored per game.",
+                        "displayName": "Total Points Per Game",
+                        "displayValue": "0.0",
+                        "name": "totalPointsPerGame",
+                        "shortDisplayName": "TP/G",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TD",
+                        "description": "The number of total Touchdowns scored.",
+                        "displayName": "Total Touchdowns",
+                        "displayValue": "3",
+                        "name": "totalTouchdowns",
+                        "shortDisplayName": "TTD",
+                        "value": 3.0
+                    },
+                    {
+                        "abbreviation": "TYDS",
+                        "description": "The number of total yards gained.",
+                        "displayName": "Total Yards",
+                        "displayValue": "294",
+                        "name": "totalYards",
+                        "shortDisplayName": "TYDS",
+                        "value": 294.0
+                    },
+                    {
+                        "abbreviation": "SCRIM",
+                        "description": "The number of yards gained from the line of scrimmage.",
+                        "displayName": "Total Yards From Scrimmage",
+                        "displayValue": "21",
+                        "name": "totalYardsFromScrimmage",
+                        "shortDisplayName": "SCRIM",
+                        "value": 21.0
+                    },
+                    {
+                        "abbreviation": "2PTR",
+                        "description": "The number of receptions on 2-point attempts.",
+                        "displayName": "Two Point Receptions",
+                        "displayValue": "0",
+                        "name": "twoPtReception",
+                        "shortDisplayName": "2PTR",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "CMP",
+                        "description": "The number of times a 2-point conversion is attempted with a reception.",
+                        "displayName": "Two Point Reception Attempts",
+                        "displayValue": "0",
+                        "name": "twoPtReceptionAttempts",
+                        "shortDisplayName": "2PTA",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SCRIM/G",
+                        "description": "The average number of yards gained from scrimmage per game.",
+                        "displayName": "Yards From Scrimmage Per Game",
+                        "displayValue": "21.0",
+                        "name": "yardsFromScrimmagePerGame",
+                        "shortDisplayName": "SCRIM/G",
+                        "value": 21.0
+                    },
+                    {
+                        "abbreviation": "YDS/G",
+                        "description": "The average number of yards per game.",
+                        "displayName": "Yards Per Game",
+                        "displayValue": "294.0",
+                        "name": "yardsPerGame",
+                        "shortDisplayName": "YDS/G",
+                        "value": 294.0
+                    },
+                    {
+                        "abbreviation": "AVG",
+                        "description": "The average number of yards per reception.",
+                        "displayName": "Yards Per Reception",
+                        "displayValue": "0.0",
+                        "name": "yardsPerReception",
+                        "shortDisplayName": "YDS/R",
+                        "value": 0.0
+                    }
+                ],
+                "summary": ""
+            },
+            {
+                "abbreviation": "s",
+                "displayName": "Scoring",
+                "name": "scoring",
+                "shortDisplayName": "Scoring",
+                "stats": [
+                    {
+                        "abbreviation": "DP",
+                        "description": "The number of points scored on defense.",
+                        "displayName": "Defensive Points",
+                        "displayValue": "0",
+                        "name": "defensivePoints",
+                        "shortDisplayName": "DP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FG",
+                        "description": "The number of field goals made.",
+                        "displayName": "Field Goals",
+                        "displayValue": "0",
+                        "name": "fieldGoals",
+                        "shortDisplayName": "FG",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PAT",
+                        "description": "The number of extra points made.",
+                        "displayName": "Kick Extra Points",
+                        "displayValue": "0",
+                        "name": "kickExtraPoints",
+                        "shortDisplayName": "XP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "XPM",
+                        "description": "The number of extra points made.",
+                        "displayName": "Kick Extra Points Made",
+                        "displayValue": "0",
+                        "name": "kickExtraPointsMade",
+                        "shortDisplayName": "XPM",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "MISP",
+                        "description": "The number of miscellaneous points scored.",
+                        "displayName": "Miscellaneous Points",
+                        "displayValue": "0",
+                        "name": "miscPoints",
+                        "shortDisplayName": "MISP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PASS",
+                        "description": "The total number of passing touchdowns.",
+                        "displayName": "Passing Touchdowns",
+                        "displayValue": "2",
+                        "name": "passingTouchdowns",
+                        "shortDisplayName": "Touchdowns",
+                        "value": 2.0
+                    },
+                    {
+                        "abbreviation": "REC",
+                        "description": "The total number of receiving touchdowns.",
+                        "displayName": "Receiving Touchdowns",
+                        "displayValue": "0",
+                        "name": "receivingTouchdowns",
+                        "shortDisplayName": "RECTD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RET",
+                        "description": "The total number of return touchdowns.",
+                        "displayName": "Return Touchdowns",
+                        "displayValue": "0",
+                        "name": "returnTouchdowns",
+                        "shortDisplayName": "RETTD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RUSH",
+                        "description": "The total number of rushing touchdowns.",
+                        "displayName": "Rushing Touchdowns",
+                        "displayValue": "1",
+                        "name": "rushingTouchdowns",
+                        "shortDisplayName": "RUSTD",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "PTS",
+                        "description": "The number of total points scored.",
+                        "displayName": "Total Points",
+                        "displayValue": "6",
+                        "name": "totalPoints",
+                        "shortDisplayName": "TP",
+                        "value": 6.0
+                    },
+                    {
+                        "abbreviation": "TP/G",
+                        "description": "The number of points scored per game.",
+                        "displayName": "Total Points Per Game",
+                        "displayValue": "6.0",
+                        "name": "totalPointsPerGame",
+                        "shortDisplayName": "TP/G",
+                        "value": 6.0
+                    },
+                    {
+                        "abbreviation": "TD",
+                        "description": "The number of touchdowns scored in total.",
+                        "displayName": "Total Touchdowns",
+                        "displayValue": "1",
+                        "name": "totalTouchdowns",
+                        "shortDisplayName": "TTD",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "2PT",
+                        "description": "The number of times a 2-point conversion is successful.",
+                        "displayName": "Total Two Point Conversions",
+                        "displayValue": "0",
+                        "name": "totalTwoPointConvs",
+                        "shortDisplayName": "2PTC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PASSTD0TO9",
+                        "description": "Passing Touchdowns of 0 to 9 yards.",
+                        "displayName": "Passing Touchdowns of 0 to 9 yards.",
+                        "displayValue": "0",
+                        "name": "passingTouchdownsOf0to9Yds",
+                        "shortDisplayName": "PASSTD0TO9",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PASSTD10TO19",
+                        "description": "Passing Touchdowns of 10 to 19 yards.",
+                        "displayName": "Passing Touchdowns of 10 to 19 yards.",
+                        "displayValue": "0",
+                        "name": "passingTouchdownsOf10to19Yds",
+                        "shortDisplayName": "PASSTD10TO19",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PASSTD20TO29",
+                        "description": "Passing Touchdowns of 20 to 29 yards.",
+                        "displayName": "Passing Touchdowns of 20 to 29 yards.",
+                        "displayValue": "0",
+                        "name": "passingTouchdownsOf20to29Yds",
+                        "shortDisplayName": "PASSTD20TO29",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PASSTD30TO39",
+                        "description": "Passing Touchdowns of 30 to 39 yards.",
+                        "displayName": "Passing Touchdowns of 30 to 39 yards.",
+                        "displayValue": "1",
+                        "name": "passingTouchdownsOf30to39Yds",
+                        "shortDisplayName": "PASSTD30TO39",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "PASSTD40TO49",
+                        "description": "Passing Touchdowns of 40 to 49 yards.",
+                        "displayName": "Passing Touchdowns of 40 to 49 yards.",
+                        "displayValue": "0",
+                        "name": "passingTouchdownsOf40to49Yds",
+                        "shortDisplayName": "PASSTD40TO49",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PASSTD50PLUS",
+                        "description": "Passing Touchdowns of 50+ yards",
+                        "displayName": "Passing Touchdowns of 50+ yards",
+                        "displayValue": "1",
+                        "name": "passingTouchdownsOf50PlusYds",
+                        "shortDisplayName": "PASSTD50PLUS",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "RECTD0TO9",
+                        "description": "Receiving Touchdowns of 0 to 9 yards.",
+                        "displayName": "Receiving Touchdowns of 0 to 9 yards.",
+                        "displayValue": "0",
+                        "name": "receivingTouchdownsOf0to9Yds",
+                        "shortDisplayName": "RECTD0TO9",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RECTD10TO19",
+                        "description": "Receiving Touchdowns of 10 to 19 yards.",
+                        "displayName": "Receiving Touchdowns of 10 to 19 yards.",
+                        "displayValue": "0",
+                        "name": "receivingTouchdownsOf10to19Yds",
+                        "shortDisplayName": "RECTD10TO19",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RECTD20TO29",
+                        "description": "Receiving Touchdowns of 20 to 29 yards.",
+                        "displayName": "Receiving Touchdowns of 20 to 29 yards.",
+                        "displayValue": "0",
+                        "name": "receivingTouchdownsOf20to29Yds",
+                        "shortDisplayName": "RECTD20TO29",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RECTD30TO39",
+                        "description": "Receiving Touchdowns of 30 to 39 yards.",
+                        "displayName": "Receiving Touchdowns of 30 to 39 yards.",
+                        "displayValue": "0",
+                        "name": "receivingTouchdownsOf30to39Yds",
+                        "shortDisplayName": "RECTD30TO39",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RECTD40TO49",
+                        "description": "Receiving Touchdowns of 40 to 49 yards.",
+                        "displayName": "Receiving Touchdowns of 40 to 49 yards.",
+                        "displayValue": "0",
+                        "name": "receivingTouchdownsOf40to49Yds",
+                        "shortDisplayName": "RECTD40TO49",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RECTD50PLUS",
+                        "description": "Receiving Touchdowns of 50+ yards",
+                        "displayName": "Receiving Touchdowns of 50+ yards",
+                        "displayValue": "0",
+                        "name": "receivingTouchdownsOf50PlusYds",
+                        "shortDisplayName": "RECTD50PLUS",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RUSHTD0TO9",
+                        "description": "Rushing Touchdowns of 0 to 9 yards.",
+                        "displayName": "Rushing Touchdowns of 0 to 9 yards.",
+                        "displayValue": "0",
+                        "name": "rushingTouchdownsOf0to9Yds",
+                        "shortDisplayName": "RUSHTD0TO9",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RUSHTD10TO19",
+                        "description": "Rushing Touchdowns of 10 to 19 yards.",
+                        "displayName": "Rushing Touchdowns of 10 to 19 yards.",
+                        "displayValue": "1",
+                        "name": "rushingTouchdownsOf10to19Yds",
+                        "shortDisplayName": "RUSHTD10TO19",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "RUSHTD20TO29",
+                        "description": "Rushing Touchdowns of 20 to 29 yards.",
+                        "displayName": "Rushing Touchdowns of 20 to 29 yards.",
+                        "displayValue": "0",
+                        "name": "rushingTouchdownsOf20to29Yds",
+                        "shortDisplayName": "RUSHTD20TO29",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RUSHTD30TO39",
+                        "description": "Rushing Touchdowns of 30 to 39 yards.",
+                        "displayName": "Rushing Touchdowns of 30 to 39 yards.",
+                        "displayValue": "0",
+                        "name": "rushingTouchdownsOf30to39Yds",
+                        "shortDisplayName": "RUSHTD30TO39",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RUSHTD40TO49",
+                        "description": "Rushing Touchdowns of 40 to 49 yards.",
+                        "displayName": "Rushing Touchdowns of 40 to 49 yards.",
+                        "displayValue": "0",
+                        "name": "rushingTouchdownsOf40to49Yds",
+                        "shortDisplayName": "RUSHTD40TO49",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RUSHTD50PLUS",
+                        "description": "Rushing Touchdowns of 50+ yards",
+                        "displayName": "Rushing Touchdowns of 50+ yards",
+                        "displayValue": "0",
+                        "name": "rushingTouchdownsOf50PlusYds",
+                        "shortDisplayName": "RUSHTD50PLUS",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "OPSM",
+                        "description": "One Point Safeties Made",
+                        "displayName": "One Point Safeties Made",
+                        "displayValue": "0",
+                        "name": "onePtSafetiesMade",
+                        "shortDisplayName": "OPSM",
+                        "value": 0.0
+                    }
+                ],
+                "summary": ""
+            }
+        ],
+        "id": "0",
+        "name": "game"
+    }
+}

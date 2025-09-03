@@ -7,7 +7,6 @@ from ...combined.combined_league_model import CombinedLeagueModel
 from ...league import League
 from ..espn.atp_espn_league_model import ATPESPNLeagueModel
 from ..oddsportal.atp_oddsportal_league_model import ATPOddsPortalLeagueModel
-from ..sportsdb.atp_sportsdb_league_model import ATPSportsDBLeagueModel
 from ..tennisabstract.atp_tennisabstract_league_model import \
     ATPTennisAbstractLeagueModel
 
@@ -24,10 +23,9 @@ class ATPCombinedLeagueModel(CombinedLeagueModel):
             session,
             League.ATP,
             [
-                ATPSportsDBLeagueModel(session, position=0),
-                ATPOddsPortalLeagueModel(session, position=1),
-                ATPTennisAbstractLeagueModel(session, position=2),
-                ATPESPNLeagueModel(session, position=3),
+                ATPOddsPortalLeagueModel(session, position=0),
+                ATPTennisAbstractLeagueModel(session, position=1),
+                ATPESPNLeagueModel(session, position=2),
             ],
             league_filter,
         )
