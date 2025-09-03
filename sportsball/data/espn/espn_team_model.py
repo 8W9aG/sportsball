@@ -1181,9 +1181,10 @@ def _create_espn_team_model(
                     elif stat["name"] == "flyBalls":
                         fly_balls = more_interesting(fly_balls, stat["value"])
                     elif stat["name"] == "caughtStealing":
-                        caught_stealing = more_interesting(
-                            caught_stealing, stat["value"]
-                        )
+                        if "value" in stat:
+                            caught_stealing = more_interesting(
+                                caught_stealing, stat["value"]
+                            )
                     elif stat["name"] == "pitches":
                         pitches = more_interesting(pitches, stat["value"])
                     elif stat["name"] == "gamesStarted":

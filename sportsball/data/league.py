@@ -19,6 +19,7 @@ class League(StrEnum):
     NCAAF = "ncaaf"
     NFL = "nfl"
     NHL = "nhl"
+    WNBA = "wnba"
 
 
 def long_name(league: League) -> str:
@@ -48,6 +49,8 @@ def long_name(league: League) -> str:
             return "National Football League"
         case League.NHL:
             return "National Hockey League"
+        case League.WNBA:
+            return "Womens National Basketball League"
 
 
 def league_from_str(league_str: str) -> League:
@@ -78,5 +81,7 @@ def league_from_str(league_str: str) -> League:
             return League.NFL
         case str(League.NHL):
             return League.NHL
+        case str(League.WNBA):
+            return League.WNBA
         case _:
             raise ValueError(f"Unrecognised League: {league_str}")

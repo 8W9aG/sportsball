@@ -72,6 +72,7 @@ The supported leagues are:
 * 🏈 [NCAAF](https://www.ncaa.com/sports/football/fbs)
 * 🏈 [NFL](https://www.nfl.com/)
 * 🏒 [NHL](https://www.nhl.com/)
+* 🏀 [WNBA](https://www.wnba.com/)
 
 ## Architecture :triangular_ruler:
 

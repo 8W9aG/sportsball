@@ -8639,6 +8639,36 @@
             "housenumber": "33800",
             "country": "Canada",
             "type": "venue"
+        },
+        "bc03cb40-638b-4300-ba77-beb54a8afd83": {
+            "city": "Samara",
+            "state": "",
+            "postal": "",
+            "lat": 53.277778,
+            "lng": 50.237222,
+            "housenumber": "",
+            "country": "Russia",
+            "type": "venue"
+        },
+        "9020ba3d-e257-4fff-92f2-c504ce093750": {
+            "city": "Atlanta",
+            "state": "GA",
+            "postal": "",
+            "lat": 33.757222,
+            "lng": -84.396389,
+            "housenumber": "1",
+            "country": "USA",
+            "type": "venue"
+        },
+        "23bf2130-71c6-4de7-b82b-b3933b1baf3e": {
+            "city": "Nashville",
+            "state": "TN",
+            "postal": "",
+            "lat": 36.159167,
+            "lng": -86.778611,
+            "housenumber": "501",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -8845,6 +8875,7 @@
         "Smoothie King Center - New Orleans, Louisiana, USA - United States": "b96a1332-d63b-45e0-9e1d-9f574adf386a",
         "Caesars Superdome, New Orleans, LA, USA": "b96a1332-d63b-45e0-9e1d-9f574adf386a",
         "New Orleans Arena, New Orleans, Louisiana": "b96a1332-d63b-45e0-9e1d-9f574adf386a",
+        "Smoothie King Center - New Orleans - LA": "b96a1332-d63b-45e0-9e1d-9f574adf386a",
         "Goodison Park, Liverpool, England": "eb777022-f027-41b7-9b78-27153091ff3d",
         "Goodison Park - Liverpool": "eb777022-f027-41b7-9b78-27153091ff3d",
         "Neo Química Arena": "23e7778f-d138-48c8-8401-5d2f275354c9",
@@ -9082,6 +9113,7 @@
         "Liberty Bowl Memorial Stadium": "3df1fc70-3152-4b5a-86f5-dbd2eec06baf",
         "Liberty Bowl Memorial Stadium - Memphis, Tennessee, USA - United States": "3df1fc70-3152-4b5a-86f5-dbd2eec06baf",
         "Turf Moor, Burnley, England": "b4cea94d-4cc5-4f7d-8012-ed541cf08a9d",
+        "Turf Moor - Burnley": "b4cea94d-4cc5-4f7d-8012-ed541cf08a9d",
         "RFK Stadium": "34440af5-4191-4ab7-82de-0415271403ff",
         "RFK Stadium - Washington DC - United States": "34440af5-4191-4ab7-82de-0415271403ff",
         "Scheumann Stadium - Muncie, Indiana, USA - United States": "c31a48c3-e895-4fe3-8f08-0564755ca51e",
@@ -10380,6 +10412,17 @@
         "Moda Center - Portland - OR": "d09a65d8-93bd-4d83-bd35-d6b0601f2fb2",
         "Boise State": "91eee299-68f6-496b-90d3-724075fe9220",
         "Boise State College": "91eee299-68f6-496b-90d3-724075fe9220",
-        "Abbotsford Centre - Abbotsford - BC": "af4f6b36-65b9-433a-9a95-6c106b4c4066"
+        "Abbotsford Centre - Abbotsford - BC": "af4f6b36-65b9-433a-9a95-6c106b4c4066",
+        "Solidarnost Samara Arena - Samara": "bc03cb40-638b-4300-ba77-beb54a8afd83",
+        "State Farm Arena, Atlanta, Georgia": "9020ba3d-e257-4fff-92f2-c504ce093750",
+        "Philips Arena": "9020ba3d-e257-4fff-92f2-c504ce093750",
+        "Philips Arena, Atlanta, Georgia": "9020ba3d-e257-4fff-92f2-c504ce093750",
+        "State Farm Arena, Atlanta, GA, USA": "9020ba3d-e257-4fff-92f2-c504ce093750",
+        "State Farm Arena - Atlanta, Georgia - United States": "9020ba3d-e257-4fff-92f2-c504ce093750",
+        "State Farm Arena - Atlanta - GA": "9020ba3d-e257-4fff-92f2-c504ce093750",
+        "Bridgestone Arena, Nashville, Tennessee": "23bf2130-71c6-4de7-b82b-b3933b1baf3e",
+        "Bridgestone Arena, Nashville, TN, USA": "23bf2130-71c6-4de7-b82b-b3933b1baf3e",
+        "Bridgestone Arena": "23bf2130-71c6-4de7-b82b-b3933b1baf3e",
+        "Bridgestone Arena - Nashville - TN - 37250": "23bf2130-71c6-4de7-b82b-b3933b1baf3e"
     }
 }

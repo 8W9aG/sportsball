@@ -49,15 +49,6 @@ ORLANDO_ARENA = SportsballGeocodeTuple(
     housenumber="600",
     country="USA",
 )
-STATE_FARM_ARENA = SportsballGeocodeTuple(
-    city="Atlanta",
-    state="GA",
-    postal="",
-    lat=33.757222,
-    lng=-84.396389,
-    housenumber="1",
-    country="USA",
-)
 FISERV_FORUM = SportsballGeocodeTuple(
     city="Milwaukee",
     state="WI",
@@ -2182,15 +2173,6 @@ CEDAR_FALLS = SportsballGeocodeTuple(
     housenumber="",
     country="USA",
 )
-BRIDGESTONE_ARENA = SportsballGeocodeTuple(
-    city="Nashville",
-    state="TN",
-    postal="",
-    lat=36.159167,
-    lng=-86.778611,
-    housenumber="501",
-    country="USA",
-)
 DODGER_STADIUM = SportsballGeocodeTuple(
     city="Los Angeles",
     state="CA",
@@ -3579,7 +3561,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "State Farm Arena, Atlanta, Georgia": STATE_FARM_ARENA,
     "Mississippi Coast Coliseum, Biloxi, Mississippi": MISSISSIPPI_COAST_COLISEUM,
     "Footprint Center, Phoenix, Arizona": AMERICA_WEST_ARENA,
     "Simmons Bank Arena, North Little Rock, Arkansas": SIMMONS_BANK_ARENA,
@@ -3847,7 +3828,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "FTX Arena": FTX_ARENA,
     "Rose Garden": ROSE_GARDEN,
     "Toyota Center - Kennewick, Washington - United States": TOYOTA_CENTER,
-    "Philips Arena": STATE_FARM_ARENA,
     "Saitama Super Arena - Saitama, Japan - Japan": SportsballGeocodeTuple(
         city="Saitama",
         state="",
@@ -3891,7 +3871,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "Talking Stick Resort Arena, Phoenix, Arizona": AMERICA_WEST_ARENA,
     "The O2 Arena, London, United Kingdom": O2_ARENA,
     "BMO Harris Bradley Center, Milwaukee, Wisconsin": BRADLEY_CENTER,
-    "Philips Arena, Atlanta, Georgia": STATE_FARM_ARENA,
     "Texas A&M–Commerce Field House, Commerce, Texas": TEXAS_AM_COMMERCE_FIELD_HOUSE,
     "Detroit, Michigan": DETROIT,
     "Charlotte, North Carolina": CHARLOTTE,
@@ -4424,7 +4403,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="UK",
     ),
-    "State Farm Arena, Atlanta, GA, USA": STATE_FARM_ARENA,
     "Footprint Center, Phoenix, AZ, USA": AMERICA_WEST_ARENA,
     "Crypto.com Arena, Los Angeles, CA, USA": STAPLES_CENTRE,
     "FedExForum, Memphis, TN, USA": FEDEX_FORUM,
@@ -4439,7 +4417,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "AdventHealth Arena, Orlando, FL, USA": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
     "Intuit Dome - Inglewood, California, U.S. - United States": INTUIT_DOME,
     "Rogers Arena - Vancouver, BC - Canada": ROGERS_ARENA,
-    "State Farm Arena - Atlanta, Georgia - United States": STATE_FARM_ARENA,
     "Footprint Center - Phoenix, Arizona - United States": AMERICA_WEST_ARENA,
     "Frost Bank Center - San Antonio, Texas - United States": FROST_BANK_CENTER,
     "BOK Center - Tulsa, Oklahoma - United States": BOK_CENTER,
@@ -4876,7 +4853,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Leonard E. Merrell Center, Katy, Texas": MERRELL_CENTER,
-    "Bridgestone Arena, Nashville, Tennessee": BRIDGESTONE_ARENA,
     "Comerica, Frisco, Texas": SportsballGeocodeTuple(
         city="Frisco",
         state="TX",
@@ -16164,7 +16140,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="Panama",
     ),
-    "Bridgestone Arena, Nashville, TN, USA": BRIDGESTONE_ARENA,
     "Dodger Stadium - Los Angeles, CA, USA - United States": DODGER_STADIUM,
     "Mississippi State University": SportsballGeocodeTuple(
         city="Mississippi State",
@@ -16915,7 +16890,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Bridgestone Arena": BRIDGESTONE_ARENA,
     "Temple University": SportsballGeocodeTuple(
         city="Philadelphia",
         state="PA",

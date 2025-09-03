@@ -26,8 +26,11 @@ def create_espn_venue_model(
         city = venue_address.get("city", "")
         state = venue_address.get("state", "")
         zipcode = venue_address.get("zipCode", "")
+        query = " - ".join([x for x in [name, city, state, zipcode] if x])
+        if not query:
+            query = venue_address["summary"]
         address = create_google_address_model(
-            " - ".join([x for x in [name, city, state, zipcode] if x]),
+            query,
             session,
             dt,
         )
