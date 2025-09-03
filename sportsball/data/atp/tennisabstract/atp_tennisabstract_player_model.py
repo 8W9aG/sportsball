@@ -105,7 +105,7 @@ def _create_tennisabstract_player_model(
                         script_line.split("var photog = '")[-1].split("';")[0].strip()
                     )
         if name is None:
-            raise ValueError("name is null")
+            raise ValueError(f"name for {url} is null")
 
         headshot_url = (
             "https://www.tennisabstract.com/photos/"

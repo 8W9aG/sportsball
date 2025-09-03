@@ -21,9 +21,8 @@ class TestESPNGameModel(unittest.TestCase):
         with requests_mock.Mocker() as m:
 
             game_model = create_espn_game_model(
-                event={
+                competition={
                     "date": dt.isoformat(),
-                    "competitions": [],
                 },
                 week=1,
                 game_number=1,

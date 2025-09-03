@@ -737,20 +737,20 @@ def _create_espn_team(
 
 
 def _create_venue(
-    event: dict[str, Any],
+    competition: dict[str, Any],
     session: ScrapeSession,
     dt: datetime.datetime,
     version: str,
 ) -> VenueModel | None:
     venue = None
-    if "venue" in event:
+    if "venue" in competition:
         venue = create_espn_venue_model(
-            venue=event["venue"], session=session, dt=dt, version=version
+            venue=competition["venue"], session=session, dt=dt, version=version
         )
-    if venue is None and "venues" in event:
-        venues = event["venues"]
+    if venue is None and "venues" in competition:
+        venues = competition["venues"]
         if venues:
-            venue_url = event["venues"][0]["$ref"]
+            venue_url = competition["venues"][0]["$ref"]
             venue_response = session.get(venue_url)
             venue_response.raise_for_status()
             venue = create_espn_venue_model(
@@ -760,7 +760,7 @@ def _create_venue(
 
 
 def _create_teams(
-    event: dict[str, Any],
+    competition: dict[str, Any],
     session: ScrapeSession,
     venue: VenueModel | None,
     dt: datetime.datetime,
@@ -772,52 +772,49 @@ def _create_teams(
     attendance = None
     end_dt = None
     umpires = []
-    for competition in event["competitions"]:
-        odds_dict = {}
-        if "odds" in competition:
-            odds_response = session.get(competition["odds"]["$ref"])
-            odds_response.raise_for_status()
-            odds_dict = odds_response.json()
+    odds_dict = {}
+    if "odds" in competition:
+        odds_response = session.get(competition["odds"]["$ref"])
+        odds_response.raise_for_status()
+        odds_dict = odds_response.json()
 
-        for competitor in competition["competitors"]:
-            if competitor[ID_KEY] in {"-1", "-2"}:
-                continue
-            teams.append(
-                _create_espn_team(
-                    competitor, odds_dict, session, dt, league, positions_validator
-                )
+    for competitor in competition.get("competitors", []):
+        if competitor[ID_KEY] in {"-1", "-2"}:
+            continue
+        teams.append(
+            _create_espn_team(
+                competitor, odds_dict, session, dt, league, positions_validator
             )
-        attendance = competition.get("attendance")
-        if "situation" in competition:
-            situation_url = competition["situation"]["$ref"]
-            situation_response = session.get(situation_url)
-            situation_response.raise_for_status()
-            situation = situation_response.json()
-            if "lastPlay" in situation:
-                last_play_response = session.get(situation["lastPlay"]["$ref"])
-                last_play_response.raise_for_status()
-                last_play = last_play_response.json()
-                if "wallclock" in last_play:
-                    end_dt = parse(last_play["wallclock"])
-        if venue is not None and end_dt is not None:
-            end_dt = localize(venue, end_dt)
+        )
+    attendance = competition.get("attendance")
+    if "situation" in competition:
+        situation_url = competition["situation"]["$ref"]
+        situation_response = session.get(situation_url)
+        situation_response.raise_for_status()
+        situation = situation_response.json()
+        if "lastPlay" in situation:
+            last_play_response = session.get(situation["lastPlay"]["$ref"])
+            last_play_response.raise_for_status()
+            last_play = last_play_response.json()
+            if "wallclock" in last_play:
+                end_dt = parse(last_play["wallclock"])
+    if venue is not None and end_dt is not None:
+        end_dt = localize(venue, end_dt)
 
-        if "officials" in competition:
-            officials_response = session.get(competition["officials"]["$ref"])
-            officials_response.raise_for_status()
-            officials_dict = officials_response.json()
-            for official in officials_dict["items"]:
-                umpires.append(
-                    create_espn_umpire_model(
-                        session=session, url=official["$ref"], dt=dt
-                    )
-                )
+    if "officials" in competition:
+        officials_response = session.get(competition["officials"]["$ref"])
+        officials_response.raise_for_status()
+        officials_dict = officials_response.json()
+        for official in officials_dict["items"]:
+            umpires.append(
+                create_espn_umpire_model(session=session, url=official["$ref"], dt=dt)
+            )
 
     return teams, attendance, end_dt, umpires
 
 
 def _create_espn_game_model(
-    event: dict[str, Any],
+    competition: dict[str, Any],
     week: int | None,
     game_number: int,
     session: ScrapeSession,
@@ -827,12 +824,12 @@ def _create_espn_game_model(
     positions_validator: dict[str, str],
     version: str,
 ) -> GameModel:
-    dt = parse(event["date"])
-    venue = _create_venue(event, session, dt, VENUE_VERSION)
+    dt = parse(competition["date"])
+    venue = _create_venue(competition, session, dt, VENUE_VERSION)
     if venue is not None:
         dt = localize(venue, dt)
     teams, attendance, end_dt, umpires = _create_teams(
-        event, session, venue, dt, league, positions_validator
+        competition, session, venue, dt, league, positions_validator
     )
     return GameModel(
         dt=dt,
@@ -857,7 +854,7 @@ def _create_espn_game_model(
 
 @MEMORY.cache(ignore=["session"])
 def _cached_create_espn_game_model(
-    event: dict[str, Any],
+    competition: dict[str, Any],
     week: int | None,
     game_number: int,
     session: ScrapeSession,
@@ -868,7 +865,7 @@ def _cached_create_espn_game_model(
     version: str,
 ) -> GameModel:
     return _create_espn_game_model(
-        event=event,
+        competition=competition,
         week=week,
         game_number=game_number,
         session=session,
@@ -881,7 +878,7 @@ def _cached_create_espn_game_model(
 
 
 def create_espn_game_model(
-    event: dict[str, Any],
+    competition: dict[str, Any],
     week: int | None,
     game_number: int,
     session: ScrapeSession,
@@ -891,13 +888,13 @@ def create_espn_game_model(
     positions_validator: dict[str, str],
 ) -> GameModel:
     """Creates an ESPN game model."""
-    dt = parse(event["date"])
+    dt = parse(competition["date"])
     if (
         not pytest_is_running.is_running()
         and dt.date() < datetime.datetime.now().date() - datetime.timedelta(days=7)
     ):
         return _cached_create_espn_game_model(
-            event=event,
+            competition=competition,
             week=week,
             game_number=game_number,
             session=session,
@@ -909,7 +906,7 @@ def create_espn_game_model(
         )
     with session.cache_disabled():
         return _create_espn_game_model(
-            event=event,
+            competition=competition,
             week=week,
             game_number=game_number,
             session=session,

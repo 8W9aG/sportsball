@@ -2816,7 +2816,9 @@ def _create_espn_team_model(
                             rating, stat.get("value", float(stat["displayValue"]))
                         )
                     elif stat["name"] == "ytdGoals":
-                        ytd_goals = more_interesting(ytd_goals, stat.get("value", int(stat["displayValue"])))
+                        ytd_goals = more_interesting(
+                            ytd_goals, stat.get("value", int(stat["displayValue"]))
+                        )
                     elif stat["name"] == "shotsIn1stPeriod":
                         shots_in_first_period = more_interesting(
                             shots_in_first_period, stat["value"]
@@ -2941,6 +2943,8 @@ def _create_espn_team_model(
                         second_chance_points = more_interesting(
                             second_chance_points, stat["value"]
                         )
+                    elif stat["name"] == "pitcherNotes":
+                        pass
                     else:
                         raise ValueError(
                             f"Failed to account for statistic: {stat['name']} on {statistics_dict['$ref']}"

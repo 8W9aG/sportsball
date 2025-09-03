@@ -1,0 +1,13 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704048/competitions/401704048/competitors/19/scores/2?lang=en&region=us",
+    "displayValue": "4",
+    "errors": 1,
+    "hits": 7,
+    "source": {
+        "description": "feed",
+        "id": "2",
+        "state": "full"
+    },
+    "value": 4.0,
+    "winner": false
+}

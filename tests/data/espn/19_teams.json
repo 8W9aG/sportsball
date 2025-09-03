@@ -1,0 +1,318 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/19?lang=en&region=us",
+    "abbreviation": "LAD",
+    "alternateColor": "ffffff",
+    "alternateIds": {
+        "sdr": "46"
+    },
+    "athletes": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/19/athletes?lang=en&region=us"
+    },
+    "awards": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/19/awards?lang=en&region=us"
+    },
+    "coaches": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/19/coaches?lang=en&region=us"
+    },
+    "color": "005a9c",
+    "depthCharts": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/19/depthcharts?lang=en&region=us"
+    },
+    "displayName": "Los Angeles Dodgers",
+    "events": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/19/events?lang=en&region=us"
+    },
+    "franchise": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/franchises/19?lang=en&region=us"
+    },
+    "groups": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/types/2/groups/6?lang=en&region=us"
+    },
+    "guid": "fb7cf413-5156-9fc2-abe0-2273b89f70db",
+    "id": "19",
+    "injuries": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/teams/19/injuries?lang=en&region=us"
+    },
+    "isActive": true,
+    "isAllStar": false,
+    "leaders": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/types/2/teams/19/leaders?lang=en&region=us"
+    },
+    "links": [
+        {
+            "href": "https://www.espn.com/mlb/team/_/name/lad/los-angeles-dodgers",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "clubhouse",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Clubhouse",
+            "text": "Clubhouse"
+        },
+        {
+            "href": "https://www.espn.com/mlb/team/roster/_/name/lad/los-angeles-dodgers",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "roster",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Roster",
+            "text": "Roster"
+        },
+        {
+            "href": "https://www.espn.com/mlb/team/stats/_/name/lad/los-angeles-dodgers",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "stats",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Statistics",
+            "text": "Statistics"
+        },
+        {
+            "href": "https://www.espn.com/mlb/team/schedule/_/name/lad",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "schedule",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Schedule",
+            "text": "Schedule"
+        },
+        {
+            "href": "https://www.espn.com/mlb/team/photos/_/name/lad",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "photos",
+                "desktop",
+                "team"
+            ],
+            "shortText": "photos",
+            "text": "photos"
+        },
+        {
+            "href": "https://www.vividseats.com/los-angeles-dodgers-tickets--sports-mlb-baseball/performer/481?wsUser=717",
+            "isExternal": true,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "tickets",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Tickets",
+            "text": "Tickets"
+        },
+        {
+            "href": "https://www.espn.com/mlb/team/transactions/_/name/lad",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "transactions",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Transactions",
+            "text": "Transactions"
+        },
+        {
+            "href": "https://www.espn.com/mlb/team/injuries/_/name/lad",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "injuries",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Injuries",
+            "text": "Injuries"
+        },
+        {
+            "href": "https://www.espn.com/mlb/team/depth/_/name/lad",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "depthchart",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Depth Chart",
+            "text": "Depth Chart"
+        }
+    ],
+    "location": "Los Angeles",
+    "logos": [
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/mlb/500/lad.png",
+            "lastUpdated": "2024-07-01T17:48Z",
+            "rel": [
+                "full",
+                "default"
+            ],
+            "width": 500
+        },
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/mlb/500-dark/lad.png",
+            "lastUpdated": "2024-07-01T17:49Z",
+            "rel": [
+                "full",
+                "dark"
+            ],
+            "width": 500
+        },
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/lad.png",
+            "lastUpdated": "2024-07-01T17:48Z",
+            "rel": [
+                "full",
+                "scoreboard"
+            ],
+            "width": 500
+        },
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/mlb/500-dark/scoreboard/lad.png",
+            "lastUpdated": "2024-07-01T17:49Z",
+            "rel": [
+                "full",
+                "scoreboard",
+                "dark"
+            ],
+            "width": 500
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/fb7cf413-5156-9fc2-abe0-2273b89f70db/logos/primary_logo_on_white_color.png",
+            "lastUpdated": "2024-12-03T19:56Z",
+            "rel": [
+                "full",
+                "primary_logo_on_white_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/fb7cf413-5156-9fc2-abe0-2273b89f70db/logos/primary_logo_on_black_color.png",
+            "lastUpdated": "2024-12-03T19:56Z",
+            "rel": [
+                "full",
+                "primary_logo_on_black_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/fb7cf413-5156-9fc2-abe0-2273b89f70db/logos/primary_logo_on_primary_color.png",
+            "lastUpdated": "2024-12-03T19:56Z",
+            "rel": [
+                "full",
+                "primary_logo_on_primary_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/fb7cf413-5156-9fc2-abe0-2273b89f70db/logos/primary_logo_on_secondary_color.png",
+            "lastUpdated": "2024-12-03T19:56Z",
+            "rel": [
+                "full",
+                "primary_logo_on_secondary_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/fb7cf413-5156-9fc2-abe0-2273b89f70db/logos/secondary_logo_on_white_color.png",
+            "lastUpdated": "2024-12-03T19:56Z",
+            "rel": [
+                "full",
+                "secondary_logo_on_white_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/fb7cf413-5156-9fc2-abe0-2273b89f70db/logos/secondary_logo_on_black_color.png",
+            "lastUpdated": "2024-12-03T19:56Z",
+            "rel": [
+                "full",
+                "secondary_logo_on_black_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/fb7cf413-5156-9fc2-abe0-2273b89f70db/logos/secondary_logo_on_primary_color.png",
+            "lastUpdated": "2024-12-03T19:56Z",
+            "rel": [
+                "full",
+                "secondary_logo_on_primary_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/fb7cf413-5156-9fc2-abe0-2273b89f70db/logos/secondary_logo_on_secondary_color.png",
+            "lastUpdated": "2024-12-03T19:56Z",
+            "rel": [
+                "full",
+                "secondary_logo_on_secondary_color"
+            ],
+            "width": 4096
+        }
+    ],
+    "name": "Dodgers",
+    "notes": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/teams/19/notes?lang=en&region=us"
+    },
+    "oddsRecords": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/types/0/teams/19/odds-records?lang=en&region=us"
+    },
+    "ranks": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/19/ranks?lang=en&region=us"
+    },
+    "record": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/types/2/teams/19/record?lang=en&region=us"
+    },
+    "shortDisplayName": "Dodgers",
+    "slug": "los-angeles-dodgers",
+    "statistics": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/types/2/teams/19/statistics?lang=en&region=us"
+    },
+    "transactions": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/19/transactions?lang=en&region=us"
+    },
+    "uid": "s:1~l:10~t:19"
+}

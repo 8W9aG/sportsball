@@ -8589,6 +8589,56 @@
             "housenumber": "301",
             "country": "USA",
             "type": "venue"
+        },
+        "f00bff37-5e73-4b5c-8724-d45d1d0f66af": {
+            "city": "Kazan",
+            "state": "",
+            "postal": "",
+            "lat": 55.821111,
+            "lng": 49.160833,
+            "housenumber": "",
+            "country": "Russia",
+            "type": "venue"
+        },
+        "c392202b-5dc9-49c9-a2b6-8de185e804c9": {
+            "city": "Sharjah",
+            "state": "",
+            "postal": "",
+            "lat": 25.330833,
+            "lng": 55.420833,
+            "housenumber": "",
+            "country": "UAE",
+            "type": "venue"
+        },
+        "d09a65d8-93bd-4d83-bd35-d6b0601f2fb2": {
+            "city": "Portland",
+            "state": "OR",
+            "postal": "",
+            "lat": 45.531667,
+            "lng": -122.666667,
+            "housenumber": "1",
+            "country": "USA",
+            "type": "venue"
+        },
+        "91eee299-68f6-496b-90d3-724075fe9220": {
+            "city": "Boise",
+            "state": "ID",
+            "postal": "",
+            "lat": 43.604,
+            "lng": -116.204,
+            "housenumber": "",
+            "country": "USA",
+            "type": "college"
+        },
+        "af4f6b36-65b9-433a-9a95-6c106b4c4066": {
+            "city": "Abbotsford",
+            "state": "BC",
+            "postal": "",
+            "lat": 49.030665,
+            "lng": -122.287145,
+            "housenumber": "33800",
+            "country": "Canada",
+            "type": "venue"
         }
     },
     "searches": {
@@ -9081,6 +9131,7 @@
         "Bristol Motor Speedway - Bristol - TN - 37620": "32c2d357-7cc8-4658-9d15-9d10e6a13bd2",
         "Municipal Stadium": "bc2c77db-532f-4ce6-973c-20e5f7b02392",
         "Craven Cottage, London, England": "19067b7e-f969-4740-af81-c90bea9f3783",
+        "Craven Cottage - London": "19067b7e-f969-4740-af81-c90bea9f3783",
         "Cotton Bowl": "4afa82ac-f580-4d26-9cb1-39cd65ecb504",
         "Cotton Bowl - Dallas, Texas - United States": "4afa82ac-f580-4d26-9cb1-39cd65ecb504",
         "Cotton Bowl - Dallas - TX - 75215": "4afa82ac-f580-4d26-9cb1-39cd65ecb504",
@@ -9553,6 +9604,7 @@
         "Waldo Stadium - Kalamazoo - MI - 49008": "bcae4326-1f01-44b2-83d2-619c7e1326b5",
         "Waldo Stadium": "bcae4326-1f01-44b2-83d2-619c7e1326b5",
         "InfoCision Stadium - Akron - OH - 44304": "182e29bd-212b-412f-96dc-7d81e1073a22",
+        "Summa Field at InfoCision Stadium": "182e29bd-212b-412f-96dc-7d81e1073a22",
         "Goodman Stadium": "993c0d39-9e3f-4c0f-b81f-fe596f86629a",
         "Rynearson Stadium - Ypsilanti - MI - 48197": "f89a77f6-60be-42eb-a99d-20adc19dd831",
         "Rynearson Stadium - Ypsilanti, Michigan, USA - United States": "f89a77f6-60be-42eb-a99d-20adc19dd831",
@@ -10035,6 +10087,7 @@
         "Wimbledon": "529391bf-bd42-423c-9420-1b45fb2f9be1",
         "Wimbledon Juniors": "529391bf-bd42-423c-9420-1b45fb2f9be1",
         "Cameron Indoor Stadium, Durham, North Carolina": "4232cf45-c30a-4a92-bc3a-1ab3b20e10f6",
+        "Cameron Indoor Stadium - Durham - NC": "4232cf45-c30a-4a92-bc3a-1ab3b20e10f6",
         "Stephen C. O'Connell Center, Gainesville, Florida": "eba1149e-5adb-401e-83ed-4ffaf11aa3cb",
         "Stephen C. O''Connell Center, Gainesville, Florida": "eba1149e-5adb-401e-83ed-4ffaf11aa3cb",
         "Wells Fargo Arena - Des Moines - IA": "41d2883d-107a-40c8-b566-31b1b79a3bc9",
@@ -10318,6 +10371,15 @@
         "Delta Center, Salt Lake City, UT, USA": "0ce6d69b-58d0-4111-9ef5-0cb260da6c0f",
         "EnergySolutions Arena, Salt Lake City, Utah": "0ce6d69b-58d0-4111-9ef5-0cb260da6c0f",
         "Delta Center": "0ce6d69b-58d0-4111-9ef5-0cb260da6c0f",
-        "Delta Center - Salt Lake City - UT": "0ce6d69b-58d0-4111-9ef5-0cb260da6c0f"
+        "Delta Center - Salt Lake City - UT": "0ce6d69b-58d0-4111-9ef5-0cb260da6c0f",
+        "Ak Bars Arena - Kazan": "f00bff37-5e73-4b5c-8724-d45d1d0f66af",
+        "Sharjah Cricket Stadium - Sharjah, Afghanistan - Afghanistan": "c392202b-5dc9-49c9-a2b6-8de185e804c9",
+        "Moda Center, Portland, Oregon": "d09a65d8-93bd-4d83-bd35-d6b0601f2fb2",
+        "Moda Center, Portland, OR, USA": "d09a65d8-93bd-4d83-bd35-d6b0601f2fb2",
+        "Moda Center - Portland, Oregon - United States": "d09a65d8-93bd-4d83-bd35-d6b0601f2fb2",
+        "Moda Center - Portland - OR": "d09a65d8-93bd-4d83-bd35-d6b0601f2fb2",
+        "Boise State": "91eee299-68f6-496b-90d3-724075fe9220",
+        "Boise State College": "91eee299-68f6-496b-90d3-724075fe9220",
+        "Abbotsford Centre - Abbotsford - BC": "af4f6b36-65b9-433a-9a95-6c106b4c4066"
     }
 }

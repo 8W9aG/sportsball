@@ -2,9 +2,11 @@
 
 # pylint: disable=too-many-locals,too-many-arguments,line-too-long,too-many-branches,too-many-statements
 import datetime
+import logging
 from typing import Any, Iterator
 from urllib.parse import urlparse
 
+import requests
 import tqdm
 from dateutil.parser import parse
 from scrapesession.scrapesession import ScrapeSession  # type: ignore
@@ -72,7 +74,7 @@ class ESPNLeagueModel(LeagueModel):
         game_number: int,
         season_type_json: dict[str, Any],
         pbar: tqdm.tqdm,
-    ) -> GameModel:
+    ) -> Iterator[GameModel]:
         if cache_disabled:
             with self.session.cache_disabled():
                 event_response = self.session.get(event_item["$ref"])
@@ -80,21 +82,23 @@ class ESPNLeagueModel(LeagueModel):
             event_response = self.session.get(event_item["$ref"])
         event_response.raise_for_status()
         event = event_response.json()
-        game_model = create_espn_game_model(
-            event,
-            week_count,
-            game_number,
-            self.session,
-            self.league,
-            season_type_json.get("year"),
-            _season_type_from_name(season_type_json["name"]),
-            self.position_validator(),
-        )
-        pbar.update(1)
-        pbar.set_description(
-            f"ESPN {game_model.year} - {game_model.season_type} - {game_model.dt}"
-        )
-        return game_model
+        for competition in event["competitions"]:
+            game_model = create_espn_game_model(
+                competition,
+                week_count,
+                game_number,
+                self.session,
+                self.league,
+                season_type_json.get("year"),
+                _season_type_from_name(season_type_json["name"]),
+                self.position_validator(),
+            )
+            game_number += 1
+            pbar.update(1)
+            pbar.set_description(
+                f"ESPN {game_model.year} - {game_model.season_type} - {game_model.dt}"
+            )
+            yield game_model
 
     def _produce_games(
         self,
@@ -115,15 +119,16 @@ class ESPNLeagueModel(LeagueModel):
             events_response.raise_for_status()
             events = events_response.json()
             for event_item in events["items"]:
-                yield self._produce_game(
+                for game_model in self._produce_game(
                     event_item=event_item,
                     game_number=events_count,
                     week_count=week_count,
                     cache_disabled=cache_disabled,
                     season_type_json=season_type_json,
                     pbar=pbar,
-                )
-                events_count += 1
+                ):
+                    events_count += 1
+                    yield game_model
             if events_page >= events["pageCount"]:
                 break
             events_page += 1
@@ -135,15 +140,16 @@ class ESPNLeagueModel(LeagueModel):
             qbr_response = self.session.get(week["qbr"]["$ref"] + f"&page={qbr_page}")
             qbr = qbr_response.json()
             for qbr_item in qbr["items"]:
-                yield self._produce_game(
+                for game_model in self._produce_game(
                     event_item=qbr_item["event"],
                     game_number=qbr_count,
                     week_count=week_count,
                     cache_disabled=cache_disabled,
                     season_type_json=season_type_json,
                     pbar=pbar,
-                )
-                qbr_count += 1
+                ):
+                    yield game_model
+                    qbr_count += 1
             if qbr_page >= qbr["pageCount"]:
                 break
             qbr_page += 1
@@ -210,33 +216,38 @@ class ESPNLeagueModel(LeagueModel):
                 ):
                     continue
                 dt = calendar_date.strftime("%Y%m%d")
-                scoreboard_response = self.session.get(
-                    f"https://site.api.espn.com/apis/site/v2/sports/{sport_slug}/{league_slug}/scoreboard?lang=en&region=us&calendartype=whitelist&limit=100&dates={dt}&league={league_slug}"
-                )
+                url = f"https://site.api.espn.com/apis/site/v2/sports/{sport_slug}/{league_slug}/scoreboard?lang=en&region=us&calendartype=whitelist&limit=100&dates={dt}&league={league_slug}"
+                scoreboard_response = self.session.get(url)
                 scoreboard_response.raise_for_status()
-                scoreboard = scoreboard_response.json()
-                calendar_list = scoreboard["leagues"][0]["calendar"]
-                if calendar_list:
-                    if isinstance(calendar_list[0], str):
-                        declared_calendar_dates = {
-                            parse(x).date() for x in calendar_list
-                        }
-                        calendar_dates &= declared_calendar_dates
-                for event in scoreboard["events"]:
-                    event_id = event["id"]
-                    event_response = self.session.get(
-                        f"https://sports.core.api.espn.com/v2/sports/{sport_slug}/leagues/{league_slug}/events/{event_id}?lang=en&region=us"
-                    )
-                    event_response.raise_for_status()
-                    yield self._produce_game(
-                        event_item=event_response.json(),
-                        game_number=events_count,
-                        season_type_json=season_type_json,
-                        pbar=pbar,
-                        cache_disabled=cache_disabled,
-                        week_count=None,
-                    )
-                    events_count += 1
+                try:
+                    scoreboard = scoreboard_response.json()
+                    calendar_list = scoreboard["leagues"][0]["calendar"]
+                    if calendar_list:
+                        if isinstance(calendar_list[0], str):
+                            declared_calendar_dates = {
+                                parse(x).date() for x in calendar_list
+                            }
+                            calendar_dates &= declared_calendar_dates
+                    for event in scoreboard["events"]:
+                        event_id = event["id"]
+                        event_response = self.session.get(
+                            f"https://sports.core.api.espn.com/v2/sports/{sport_slug}/leagues/{league_slug}/events/{event_id}?lang=en&region=us"
+                        )
+                        event_response.raise_for_status()
+                        for game_model in self._produce_game(
+                            event_item=event_response.json(),
+                            game_number=events_count,
+                            season_type_json=season_type_json,
+                            pbar=pbar,
+                            cache_disabled=cache_disabled,
+                            week_count=None,
+                        ):
+                            yield game_model
+                            events_count += 1
+                except requests.exceptions.JSONDecodeError as exc:
+                    logging.error(url)
+                    logging.error(str(exc))
+                    raise exc
 
     @property
     def games(self) -> Iterator[GameModel]:

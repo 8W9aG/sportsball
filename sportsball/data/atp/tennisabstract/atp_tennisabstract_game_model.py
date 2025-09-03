@@ -6,6 +6,7 @@ import logging
 import os
 import urllib
 import urllib.parse
+import warnings
 from urllib.parse import urlparse
 
 import numpy as np
@@ -36,6 +37,7 @@ def _create_tennisabstract_game_model(
     league: League,
     version: str,
 ) -> GameModel:
+    warnings.simplefilter("ignore", category=FutureWarning)
     try:
         o = urlparse(url)
         filename = os.path.basename(o.path)

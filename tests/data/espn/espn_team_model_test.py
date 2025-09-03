@@ -204,3 +204,33 @@ class TestESPNTeamModel(unittest.TestCase):
                 statistics_dict=statistics_dict,
             )
             self.assertEqual(team_model.ytd_goals, 0.0)
+
+    def test_pitcher_notes(self):
+        dt = datetime.datetime(2023, 9, 15, 0, 15)
+        statistics_dict = {}
+        with open(os.path.join(self.dir, "0_statistics-13.json")) as f:
+            statistics_dict = json.load(f)
+        score_dict = {}
+        with open(os.path.join(self.dir, "19_score.json")) as f:
+            score_dict = json.load(f)
+        team_dict = {}
+        with open(os.path.join(self.dir, "19_teams.json")) as f:
+            team_dict = json.load(f)
+        with requests_mock.Mocker() as m:
+            with open(os.path.join(self.dir, "19_coaches.json"), "rb") as f:
+                m.get("http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/19/coaches?lang=en&region=us", content=f.read())
+            with open(os.path.join(self.dir, "154_coaches.json"), "rb") as f:
+                m.get("http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/coaches/154?lang=en&region=us", content=f.read())
+            
+            team_model = create_espn_team_model(
+                session=self._session,
+                team=team_dict,
+                roster_dict={},
+                odds=[],
+                score_dict=score_dict,
+                dt=dt,
+                league=League.NHL,
+                positions_validator={},
+                statistics_dict=statistics_dict,
+            )
+            self.assertEqual(team_model.name, "Dodgers")
