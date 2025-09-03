@@ -1,0 +1,32 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/coaches/157?lang=en&region=us",
+    "birthPlace": {
+        "city": "Decatur",
+        "state": "IL"
+    },
+    "college": {
+        "$ref": "http://sports.core.api.espn.com/v2/colleges/2443?lang=en&region=us"
+    },
+    "dateOfBirth": "1955-10-17T08:00Z",
+    "experience": 10,
+    "firstName": "Brian",
+    "id": "157",
+    "lastName": "Snitker",
+    "person": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/coaches/157?lang=en&region=us"
+    },
+    "records": [
+        {
+            "record": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/types/2/coaches/157/record?lang=en&region=us"
+            },
+            "team": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/15?lang=en&region=us"
+            }
+        }
+    ],
+    "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/15?lang=en&region=us"
+    },
+    "uid": "s:1~l:10~co:157"
+}

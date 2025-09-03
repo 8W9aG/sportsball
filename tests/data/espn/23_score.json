@@ -1,0 +1,11 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/events/401685266/competitions/401685266/competitors/23/scores/1?lang=en&region=us",
+    "displayValue": "2",
+    "source": {
+        "description": "basic/manual",
+        "id": "1",
+        "state": "basic"
+    },
+    "value": 2.0,
+    "winner": false
+}

@@ -103,15 +103,6 @@ GOLDEN_1_CENTER = SportsballGeocodeTuple(
     housenumber="500",
     country="USA",
 )
-DELTA_CENTER = SportsballGeocodeTuple(
-    city="Salt Lake City",
-    state="UT",
-    postal="",
-    lat=40.768333,
-    lng=-111.901111,
-    housenumber="301",
-    country="USA",
-)
 ATT_CENTER = SportsballGeocodeTuple(
     city="San Antonio",
     state="TX",
@@ -3859,7 +3850,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="Japan",
     ),
     "Target Center - Minneapolis, Minnesota - United States": TARGET_CENTER,
-    "Delta Center - Salt Lake City, Utah - United States": DELTA_CENTER,
     "Yokohama Arena": YOKOHAMA_ARENA,
     "Anaheim Convention Center": ANAHEIM_CONVENTION_CENTER,
     "Amway Arena": ORLANDO_ARENA,
@@ -3896,7 +3886,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "Golden 1 Center, Sacramento, California": GOLDEN_1_CENTER,
     "Frost Bank Center, San Antonio, Texas": FROST_BANK_CENTER,
     "Intuit Dome, Inglewood, California": INTUIT_DOME,
-    "Delta Center, Salt Lake City, Utah": DELTA_CENTER,
     "AT&T Center, San Antonio, Texas": ATT_CENTER,
     "FTX Arena, Miami, Florida": FTX_ARENA,
     "Vivint Smart Home Arena, Salt Lake City, Utah": VIVINT_ARENA,
@@ -4453,7 +4442,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "Golden 1 Center, Sacramento, CA, USA": GOLDEN_1_CENTER,
     "Intuit Dome, Inglewood, CA, USA": INTUIT_DOME,
     "Moda Center, Portland, OR, USA": MODA_CENTER,
-    "Delta Center, Salt Lake City, UT, USA": DELTA_CENTER,
     "Toyota Center, Houston, TX, USA": TOYOTA_CENTRE,
     "Fiserv Forum, Milwaukee, WI, USA": FISERV_FORUM,
     "Chase Center, San Francisco, CA, USA": CHASE_CENTER,
@@ -4945,7 +4933,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "BankUnited Center, Coral Gables, Florida": WATSO_CENTER,
     "Binghamton University Events Center, Vestal, New York": BINGHAMPTON_UNIVERSITY_EVENTS_CENTER,
     "US Airways Center, Phoenix, Arizona": AMERICA_WEST_ARENA,
-    "EnergySolutions Arena, Salt Lake City, Utah": DELTA_CENTER,
     "Kaiser Permanente Arena, Santa Cruz, California": SportsballGeocodeTuple(
         city="Santa Cruz",
         state="CA",
@@ -17075,7 +17062,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Delta Center": DELTA_CENTER,
     "Northeastern University": SportsballGeocodeTuple(
         city="Boston",
         state="MA",

@@ -8569,6 +8569,26 @@
             "housenumber": "",
             "country": "Australia",
             "type": "venue"
+        },
+        "b44d1383-3d48-4af1-bb03-48ea352e1cd0": {
+            "city": "Sochi",
+            "state": "Krasnodar Krai",
+            "postal": "",
+            "lat": 43.402267,
+            "lng": 39.956111,
+            "housenumber": "",
+            "country": "Russia",
+            "type": "venue"
+        },
+        "0ce6d69b-58d0-4111-9ef5-0cb260da6c0f": {
+            "city": "Salt Lake City",
+            "state": "UT",
+            "postal": "",
+            "lat": 40.768333,
+            "lng": -111.901111,
+            "housenumber": "301",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -9168,6 +9188,7 @@
         "Adelaide Oval, Adelaide": "bf625f3c-5819-42b2-80ab-5a6d6e03be19",
         "Adelaide Oval - 5006": "bf625f3c-5819-42b2-80ab-5a6d6e03be19",
         "Etihad Stadium, Manchester, England": "8927ad43-5c93-4bc8-9a1c-6b0ef777a0af",
+        "Etihad Stadium - Manchester": "8927ad43-5c93-4bc8-9a1c-6b0ef777a0af",
         "Bellerive Oval - Australia": "dad0b6d0-43c9-411a-81b1-abc07001f0af",
         "Blundstone Arena": "dad0b6d0-43c9-411a-81b1-abc07001f0af",
         "Blundstone Arena, Hobart, Australia": "dad0b6d0-43c9-411a-81b1-abc07001f0af",
@@ -10012,6 +10033,7 @@
         "Lloyd Noble Center - Norman, Oklahoma, USA - United States": "2609c84a-7142-47c3-a052-d9ae9071469e",
         "Auburn Arena, Auburn, Alabama": "1264ca48-8d96-4412-b981-c713a05de9a6",
         "Wimbledon": "529391bf-bd42-423c-9420-1b45fb2f9be1",
+        "Wimbledon Juniors": "529391bf-bd42-423c-9420-1b45fb2f9be1",
         "Cameron Indoor Stadium, Durham, North Carolina": "4232cf45-c30a-4a92-bc3a-1ab3b20e10f6",
         "Stephen C. O'Connell Center, Gainesville, Florida": "eba1149e-5adb-401e-83ed-4ffaf11aa3cb",
         "Stephen C. O''Connell Center, Gainesville, Florida": "eba1149e-5adb-401e-83ed-4ffaf11aa3cb",
@@ -10289,6 +10311,13 @@
         "HUN": "72d9f1da-5841-4b32-8c0c-9fd206900865",
         "Hill Dickinson Stadium - Liverpool": "2d6e2867-f1fc-416e-b633-a9bef97e0f7d",
         "Luzhniki Stadium - Moscow": "3ed06afd-66c3-4750-9e12-a23712f96a88",
-        "Casey Fields": "22c41188-0590-45f3-93a8-14b7d7e2f115"
+        "Casey Fields": "22c41188-0590-45f3-93a8-14b7d7e2f115",
+        "Fisht Olympic Stadium - Sochi": "b44d1383-3d48-4af1-bb03-48ea352e1cd0",
+        "Delta Center - Salt Lake City, Utah - United States": "0ce6d69b-58d0-4111-9ef5-0cb260da6c0f",
+        "Delta Center, Salt Lake City, Utah": "0ce6d69b-58d0-4111-9ef5-0cb260da6c0f",
+        "Delta Center, Salt Lake City, UT, USA": "0ce6d69b-58d0-4111-9ef5-0cb260da6c0f",
+        "EnergySolutions Arena, Salt Lake City, Utah": "0ce6d69b-58d0-4111-9ef5-0cb260da6c0f",
+        "Delta Center": "0ce6d69b-58d0-4111-9ef5-0cb260da6c0f",
+        "Delta Center - Salt Lake City - UT": "0ce6d69b-58d0-4111-9ef5-0cb260da6c0f"
     }
 }

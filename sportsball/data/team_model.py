@@ -1169,7 +1169,10 @@ TEAM_TIME_ON_ICE_COLUMN: Literal["time_on_ice"] = "time_on_ice"
 TEAM_TOTAL_GIVEAWAYS_COLUMN: Literal["total_giveaways"] = "total_giveaways"
 TEAM_TOTAL_TAKEAWAYS_COLUMN: Literal["total_takeaways"] = "total_takeaways"
 TEAM_FANTASY_RATING_COLUMN: Literal["fantasy_rating"] = "fantasy_rating"
-VERSION = DELIMITER.join(["0.0.6", PLAYER_VERSION, COACH_VERSION])
+TEAM_SECOND_CHANCE_POINTS_COLUMN: Literal["second_chance_points"] = (
+    "second_chance_points"
+)
+VERSION = DELIMITER.join(["0.0.7", PLAYER_VERSION, COACH_VERSION])
 
 
 def _calculate_kicks(data: dict[str, Any]) -> int | None:
@@ -5123,5 +5126,10 @@ class TeamModel(BaseModel):
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_FANTASY_RATING_COLUMN,
+    )
+    second_chance_points: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_SECOND_CHANCE_POINTS_COLUMN,
     )
     version: str = Field(..., json_schema_extra={TYPE_KEY: FieldType.CATEGORICAL})

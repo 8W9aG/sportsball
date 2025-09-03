@@ -1,0 +1,24 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/coaches/71332?lang=en&region=us",
+    "experience": 19,
+    "firstName": "Bill",
+    "id": "71332",
+    "lastName": "Self",
+    "person": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/coaches/71332?lang=en&region=us"
+    },
+    "records": [
+        {
+            "record": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/types/2/coaches/71332/record?lang=en&region=us"
+            },
+            "team": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/teams/2305?lang=en&region=us"
+            }
+        }
+    ],
+    "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/teams/2305?lang=en&region=us"
+    },
+    "uid": "s:40~l:41~co:71332"
+}

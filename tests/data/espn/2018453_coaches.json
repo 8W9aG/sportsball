@@ -1,1 +1,16 @@
-{"$ref":"http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/coaches/2018453?lang=en&region=us","id":"2018453","uid":"s:70~l:90~co:2018453","firstName":"Lindy","lastName":"Ruff","dateOfBirth":"1960-02-17T08:00Z","headshot":{"href":"https://a.espncdn.com/i/headshots/nhl/coaches/65/2018453.jpg","alt":"Lindy Ruff"},"person":{"$ref":"http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/coaches/2018453?lang=en&region=us"},"experience":21}
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/coaches/2018453?lang=en&region=us",
+    "dateOfBirth": "1960-02-17T08:00Z",
+    "experience": 21,
+    "firstName": "Lindy",
+    "headshot": {
+        "alt": "Lindy Ruff",
+        "href": "https://a.espncdn.com/i/headshots/nhl/coaches/65/2018453.jpg"
+    },
+    "id": "2018453",
+    "lastName": "Ruff",
+    "person": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/coaches/2018453?lang=en&region=us"
+    },
+    "uid": "s:70~l:90~co:2018453"
+}

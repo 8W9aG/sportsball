@@ -1,0 +1,275 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/teams/2305?lang=en&region=us",
+    "abbreviation": "KU",
+    "againstTheSpreadRecords": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/types/3/teams/2305/ats?lang=en&region=us"
+    },
+    "alternateColor": "e8000d",
+    "alternateIds": {
+        "sdr": "6292"
+    },
+    "athletes": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/teams/2305/athletes?lang=en&region=us"
+    },
+    "awards": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/teams/2305/awards?lang=en&region=us"
+    },
+    "coaches": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/teams/2305/coaches?lang=en&region=us"
+    },
+    "college": {
+        "$ref": "http://sports.core.api.espn.com/v2/colleges/2305?lang=en&region=us"
+    },
+    "color": "0051ba",
+    "displayName": "Kansas Jayhawks",
+    "events": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/teams/2305/events?lang=en&region=us"
+    },
+    "franchise": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/franchises/2305?lang=en&region=us"
+    },
+    "groups": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/types/3/groups/8?lang=en&region=us"
+    },
+    "guid": "83fb6648-677a-1a40-715d-5fa16287399a",
+    "id": "2305",
+    "isActive": true,
+    "isAllStar": false,
+    "leaders": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/types/0/teams/2305/leaders?lang=en&region=us"
+    },
+    "links": [
+        {
+            "href": "https://www.espn.com/mens-college-basketball/team/_/id/2305/kansas-jayhawks",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "clubhouse",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Clubhouse",
+            "text": "Clubhouse"
+        },
+        {
+            "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/2305",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "roster",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Roster",
+            "text": "Roster"
+        },
+        {
+            "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/2305",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "stats",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Statistics",
+            "text": "Statistics"
+        },
+        {
+            "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2305",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "schedule",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Schedule",
+            "text": "Schedule"
+        },
+        {
+            "href": "https://www.espn.com/mens-college-basketball/team/photos/_/id/2305",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "photos",
+                "desktop",
+                "team"
+            ],
+            "shortText": "photos",
+            "text": "photos"
+        },
+        {
+            "href": "https://www.vividseats.com/kansas-jayhawks-mens-basketball-tickets--sports-ncaa-basketball/performer/3214?wsUser=717",
+            "isExternal": true,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "tickets",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Tickets",
+            "text": "Tickets"
+        }
+    ],
+    "location": "Kansas",
+    "logos": [
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+            "lastUpdated": "2023-02-22T17:01Z",
+            "rel": [
+                "full",
+                "default"
+            ],
+            "width": 500
+        },
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2305.png",
+            "lastUpdated": "2023-02-22T17:01Z",
+            "rel": [
+                "full",
+                "dark"
+            ],
+            "width": 500
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/83fb6648-677a-1a40-715d-5fa16287399a/logos/primary_logo_on_white_color.png",
+            "lastUpdated": "2024-11-11T01:26Z",
+            "rel": [
+                "full",
+                "primary_logo_on_white_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/83fb6648-677a-1a40-715d-5fa16287399a/logos/primary_logo_on_black_color.png",
+            "lastUpdated": "2024-11-11T01:25Z",
+            "rel": [
+                "full",
+                "primary_logo_on_black_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/83fb6648-677a-1a40-715d-5fa16287399a/logos/primary_logo_on_primary_color.png",
+            "lastUpdated": "2024-11-11T01:26Z",
+            "rel": [
+                "full",
+                "primary_logo_on_primary_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/83fb6648-677a-1a40-715d-5fa16287399a/logos/primary_logo_on_secondary_color.png",
+            "lastUpdated": "2024-11-11T01:26Z",
+            "rel": [
+                "full",
+                "primary_logo_on_secondary_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/83fb6648-677a-1a40-715d-5fa16287399a/logos/secondary_logo_on_white_color.png",
+            "lastUpdated": "2024-11-11T01:26Z",
+            "rel": [
+                "full",
+                "secondary_logo_on_white_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/83fb6648-677a-1a40-715d-5fa16287399a/logos/secondary_logo_on_black_color.png",
+            "lastUpdated": "2024-11-11T01:26Z",
+            "rel": [
+                "full",
+                "secondary_logo_on_black_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/83fb6648-677a-1a40-715d-5fa16287399a/logos/secondary_logo_on_primary_color.png",
+            "lastUpdated": "2024-11-11T01:26Z",
+            "rel": [
+                "full",
+                "secondary_logo_on_primary_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/83fb6648-677a-1a40-715d-5fa16287399a/logos/secondary_logo_on_secondary_color.png",
+            "lastUpdated": "2024-11-11T01:26Z",
+            "rel": [
+                "full",
+                "secondary_logo_on_secondary_color"
+            ],
+            "width": 4096
+        }
+    ],
+    "name": "Jayhawks",
+    "nickname": "Kansas",
+    "notes": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/teams/2305/notes?lang=en&region=us"
+    },
+    "ranks": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/teams/2305/ranks?lang=en&region=us"
+    },
+    "record": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/types/3/teams/2305/record?lang=en&region=us"
+    },
+    "shortDisplayName": "Kansas",
+    "slug": "kansas-jayhawks",
+    "statistics": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/types/0/teams/2305/statistics?lang=en&region=us"
+    },
+    "uid": "s:40~l:41~t:2305",
+    "venue": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/venues/2171?lang=en&region=us",
+        "address": {
+            "city": "Lawrence",
+            "state": "KS"
+        },
+        "fullName": "Allen Fieldhouse",
+        "grass": false,
+        "guid": "a66698b8-5759-30e0-a054-85995babc3e5",
+        "id": "2171",
+        "images": [
+            {
+                "alt": "",
+                "height": 1125,
+                "href": "https://a.espncdn.com/i/venues/mens-college-basketball/day/2171.jpg",
+                "rel": [
+                    "full",
+                    "day"
+                ],
+                "width": 2000
+            }
+        ],
+        "indoor": true
+    }
+}

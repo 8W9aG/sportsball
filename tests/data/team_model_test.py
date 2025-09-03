@@ -646,6 +646,7 @@ class TestTeamModel(unittest.TestCase):
             total_giveaways=None,
             total_takeaways=None,
             fantasy_rating=None,
+            second_chance_points=None,
             version=VERSION,
         )
 

@@ -1540,6 +1540,7 @@ class TestCombinedTeamModel(unittest.TestCase):
                 total_giveaways=None,
                 total_takeaways=None,
                 fantasy_rating=None,
+                second_chance_points=None,
                 version=VERSION,
             )]
             team_model = create_combined_team_model(
@@ -3067,6 +3068,7 @@ class TestCombinedTeamModel(unittest.TestCase):
                 total_giveaways=None,
                 total_takeaways=None,
                 fantasy_rating=None,
+                second_chance_points=None,
                 version=VERSION,
             )]
             team_model_2 = create_combined_team_model(
@@ -4603,6 +4605,7 @@ class TestCombinedTeamModel(unittest.TestCase):
                 total_giveaways=None,
                 total_takeaways=None,
                 fantasy_rating=None,
+                second_chance_points=None,
                 version=VERSION,
             )]
             team_model = create_combined_team_model(
@@ -6130,6 +6133,7 @@ class TestCombinedTeamModel(unittest.TestCase):
                 total_giveaways=None,
                 total_takeaways=None,
                 fantasy_rating=None,
+                second_chance_points=None,
                 version=VERSION,
             )]
             team_model_2 = create_combined_team_model(
@@ -6794,6 +6798,7 @@ class TestCombinedTeamModel(unittest.TestCase):
             total_giveaways=None,
             total_takeaways=None,
             fantasy_rating=None,
+            second_chance_points=None,
             version=VERSION,
         )]
         team_model = create_combined_team_model(
@@ -7443,6 +7448,7 @@ class TestCombinedTeamModel(unittest.TestCase):
             total_giveaways=None,
             total_takeaways=None,
             fantasy_rating=None,
+            second_chance_points=None,
             version=VERSION,
         )]
         next_team_model = create_combined_team_model(

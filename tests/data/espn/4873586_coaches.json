@@ -1,0 +1,11 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/coaches/4873586?lang=en&region=us",
+    "experience": 0,
+    "firstName": "Spencer",
+    "id": "4873586",
+    "lastName": "Carbery",
+    "person": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/coaches/4873586?lang=en&region=us"
+    },
+    "uid": "s:70~l:90~co:4873586"
+}
