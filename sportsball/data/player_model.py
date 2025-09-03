@@ -1662,7 +1662,14 @@ PLAYER_SECOND_ASSISTS_COLUMN: Literal["second_assists"] = "second_assists"
 PLAYER_QBR_COLUMN: Literal["qbr"] = "qbr"
 PLAYER_ATTEMPTS_OUT_BOX_COLUMN: Literal["attempts_out_box"] = "attempts_out_box"
 PLAYER_ADJUSTED_QBR_COLUMN: Literal["adjusted_qbr"] = "adjusted_qbr"
-VERSION = DELIMITER.join(["0.0.11", ADDRESS_VERSION, OWNER_VERSION, VENUE_VERSION])
+PLAYER_TURNOVER_POINTS_COLUMN: Literal["turnover_points"] = "turnover_points"
+PLAYER_FANTASY_RATING_COLUMN: Literal["fantasy_rating"] = "fantasy_rating"
+PLAYER_TEAM_TURNOVERS_COLUMN: Literal["team_turnovers"] = "team_turnovers"
+PLAYER_SECOND_CHANCE_POINTS_COLUMN: Literal["second_chance_points"] = (
+    "second_chance_points"
+)
+PLAYER_FAST_BREAK_POINTS_COLUMN: Literal["fast_break_points"] = "fast_break_points"
+VERSION = DELIMITER.join(["0.0.12", ADDRESS_VERSION, OWNER_VERSION, VENUE_VERSION])
 
 
 def _guess_sex(data: dict[str, Any]) -> str | None:
@@ -6078,4 +6085,29 @@ class PlayerModel(BaseModel):
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=PLAYER_ADJUSTED_QBR_COLUMN,
+    )
+    turnover_points: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TURNOVER_POINTS_COLUMN,
+    )
+    fantasy_rating: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_FANTASY_RATING_COLUMN,
+    )
+    team_turnovers: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_TEAM_TURNOVERS_COLUMN,
+    )
+    second_chance_points: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_SECOND_CHANCE_POINTS_COLUMN,
+    )
+    fast_break_points: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_FAST_BREAK_POINTS_COLUMN,
     )

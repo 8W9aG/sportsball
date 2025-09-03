@@ -712,6 +712,8 @@ def _create_espn_team_model(
     giveaways = None
     penalties = None
     penalty_minutes = None
+    total_giveaways = None
+    total_takeaways = None
     if "splits" in statistics_dict:
         try:
             for category in statistics_dict["splits"]["categories"]:
@@ -2892,6 +2894,17 @@ def _create_espn_team_model(
                         )
                     elif stat["name"] == "score":
                         pass
+                    elif stat["name"] == "points":
+                        pass
+                    elif stat["name"] == "totalGiveaways":
+                        total_giveaways = more_interesting(
+                            total_giveaways,
+                            stat["value"],
+                        )
+                    elif stat["name"] == "totalTakeaways":
+                        total_takeaways = more_interesting(
+                            total_takeaways, stat["value"]
+                        )
                     else:
                         raise ValueError(
                             f"Failed to account for statistic: {stat['name']} on {statistics_dict['$ref']}"
@@ -3575,6 +3588,8 @@ def _create_espn_team_model(
         unassisted_goals=unassisted_goals,
         giveaways=giveaways,
         penalty_minutes=penalty_minutes,
+        total_giveaways=total_giveaways,
+        total_takeaways=total_takeaways,
     )
 
 

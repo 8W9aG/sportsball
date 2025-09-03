@@ -696,6 +696,11 @@ def _create_espn_player_model(
     qbr = None
     attempts_out_box = None
     adjusted_qbr = None
+    turnover_points = None
+    fantasy_rating = None
+    team_turnovers = None
+    second_chance_points = None
+    fast_break_points = None
     if "statistics" in player:
         stats_url = player["statistics"]["$ref"]
         statistics_response = session.get(stats_url)
@@ -2662,15 +2667,18 @@ def _create_espn_player_model(
                             )
                         elif stat["name"] == "penaltyKillPct":
                             penalty_kill_percentage = more_interesting(
-                                penalty_kill_percentage, stat["value"]
+                                penalty_kill_percentage,
+                                stat.get("value", float(stat["displayValue"])),
                             )
                         elif stat["name"] == "powerPlayGoalsAgainst":
                             power_play_goals_against = more_interesting(
-                                power_play_goals_against, stat["value"]
+                                power_play_goals_against,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "shortHandedGoalsAgainst":
                             short_handed_goals_against = more_interesting(
-                                short_handed_goals_against, stat["value"]
+                                short_handed_goals_against,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "shootoutSaves":
                             shootout_saves = more_interesting(
@@ -2686,11 +2694,13 @@ def _create_espn_player_model(
                             )
                         elif stat["name"] == "timesShortHanded":
                             times_short_handed = more_interesting(
-                                times_short_handed, stat["value"]
+                                times_short_handed,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "emptyNetGoalsAgainst":
                             empty_net_goals_against = more_interesting(
-                                empty_net_goals_against, stat["value"]
+                                empty_net_goals_against,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "overtimeLosses":
                             overtime_losses = more_interesting(
@@ -2744,15 +2754,18 @@ def _create_espn_player_model(
                             production = more_interesting(production, stat["value"])
                         elif stat["name"] == "shotDifferential":
                             shot_differential = more_interesting(
-                                shot_differential, stat["value"]
+                                shot_differential,
+                                stat.get("value", float(stat["displayValue"])),
                             )
                         elif stat["name"] == "goalDifferential":
                             goal_differential = more_interesting(
-                                goal_differential, stat["value"]
+                                goal_differential,
+                                stat.get("value", float(stat["displayValue"])),
                             )
                         elif stat["name"] == "PIMDifferential":
                             pim_differential = more_interesting(
-                                pim_differential, stat["value"]
+                                pim_differential,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "rating":
                             rating = more_interesting(rating, stat["value"])
@@ -2764,19 +2777,23 @@ def _create_espn_player_model(
                             ytd_goals = more_interesting(ytd_goals, stat["value"])
                         elif stat["name"] == "shotsIn1stPeriod":
                             shots_in_first_period = more_interesting(
-                                shots_in_first_period, stat["value"]
+                                shots_in_first_period,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "shotsIn2ndPeriod":
                             shots_in_second_period = more_interesting(
-                                shots_in_second_period, stat["value"]
+                                shots_in_second_period,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "shotsIn3rdPeriod":
                             shots_in_third_period = more_interesting(
-                                shots_in_third_period, stat["value"]
+                                shots_in_third_period,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "shotsOT":
                             shots_overtime = more_interesting(
-                                shots_overtime, stat["value"]
+                                shots_overtime,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "shotsTotal":
                             total_shots = more_interesting(total_shots, stat["value"])
@@ -2800,11 +2817,13 @@ def _create_espn_player_model(
                             )
                         elif stat["name"] == "powerPlayOpportunities":
                             power_play_opportunities = more_interesting(
-                                power_play_opportunities, stat["value"]
+                                power_play_opportunities,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "powerPlayPct":
                             power_play_percentage = more_interesting(
-                                power_play_percentage, stat["value"]
+                                power_play_percentage,
+                                stat.get("value", float(stat["displayValue"])),
                             )
                         elif stat["name"] == "shortHandedGoals":
                             short_handed_goals = more_interesting(
@@ -2828,11 +2847,13 @@ def _create_espn_player_model(
                             )
                         elif stat["name"] == "emptyNetGoalsFor":
                             empty_net_goals_for = more_interesting(
-                                empty_net_goals_for, stat["value"]
+                                empty_net_goals_for,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "shutoutsAgainst":
                             shutouts_against = more_interesting(
-                                shutouts_against, stat["value"]
+                                shutouts_against,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "shootingPct":
                             shooting_percentage = more_interesting(
@@ -2870,101 +2891,134 @@ def _create_espn_player_model(
                             )
                         elif stat["name"] == "penaltyMinutesAgainst":
                             penalty_minutes_against = more_interesting(
-                                penalty_minutes_against, stat["value"]
+                                penalty_minutes_against,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "majorPenalties":
                             major_penalties = more_interesting(
-                                major_penalties, stat["value"]
+                                major_penalties,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "minorPenalties":
                             minor_penalties = more_interesting(
-                                minor_penalties, stat["value"]
+                                minor_penalties,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "matchPenalties":
                             match_penalties = more_interesting(
-                                match_penalties, stat["value"]
+                                match_penalties,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "misconducts":
-                            misconducts = more_interesting(misconducts, stat["value"])
+                            misconducts = more_interesting(
+                                misconducts,
+                                stat.get("value", int(stat["displayValue"])),
+                            )
                         elif stat["name"] == "gameMisconducts":
                             game_misconducts = more_interesting(
-                                game_misconducts, stat["value"]
+                                game_misconducts,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "boardingPenalties":
                             boarding_penalties = more_interesting(
-                                boarding_penalties, stat["value"]
+                                boarding_penalties,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "unsportsmanlikePenalties":
                             unsportsmanlike_penalties = more_interesting(
-                                unsportsmanlike_penalties, stat["value"]
+                                unsportsmanlike_penalties,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "fightingPenalties":
                             fighting_penalties = more_interesting(
-                                fighting_penalties, stat["value"]
+                                fighting_penalties,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "avgFights":
                             average_fights = more_interesting(
-                                average_fights, stat["value"]
+                                average_fights,
+                                stat.get("value", float(stat["displayValue"])),
                             )
                         elif stat["name"] == "timeBetweenFights":
-                            time_between_fights = more_interesting(
-                                time_between_fights, stat["value"]
-                            )
+                            if "value" in stat:
+                                time_between_fights = more_interesting(
+                                    time_between_fights, stat["value"]
+                                )
+                            else:
+                                minutes, seconds = stat["displayValue"].split(":")
+                                time_between_fights = more_interesting(
+                                    time_between_fights,
+                                    (float(minutes) * 60.0) + float(seconds),
+                                )
                         elif stat["name"] == "instigatorPenalties":
                             instigator_penalties = more_interesting(
-                                instigator_penalties, stat["value"]
+                                instigator_penalties,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "chargingPenalties":
                             charging_penalties = more_interesting(
-                                charging_penalties, stat["value"]
+                                charging_penalties,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "hookingPenalties":
                             hooking_penalties = more_interesting(
-                                hooking_penalties, stat["value"]
+                                hooking_penalties,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "trippingPenalties":
                             tripping_penalties = more_interesting(
-                                tripping_penalties, stat["value"]
+                                tripping_penalties,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "roughingPenalties":
                             roughing_penalties = more_interesting(
-                                roughing_penalties, stat["value"]
+                                roughing_penalties,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "holdingPenalties":
                             holding_penalties = more_interesting(
-                                holding_penalties, stat["value"]
+                                holding_penalties,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "interferencePenalties":
                             interference_penalties = more_interesting(
-                                interference_penalties, stat["value"]
+                                interference_penalties,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "slashingPenalties":
                             slashing_penalties = more_interesting(
-                                slashing_penalties, stat["value"]
+                                slashing_penalties,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "highStickingPenalties":
                             high_sticking_penalties = more_interesting(
-                                high_sticking_penalties, stat["value"]
+                                high_sticking_penalties,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "crossCheckingPenalties":
                             cross_checking_penalties = more_interesting(
-                                cross_checking_penalties, stat["value"]
+                                cross_checking_penalties,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "stickHoldingPenalties":
                             stick_holding_penalties = more_interesting(
-                                stick_holding_penalties, stat["value"]
+                                stick_holding_penalties,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "goalieInterferencePenalties":
                             goalie_interference_penalties = more_interesting(
-                                goalie_interference_penalties, stat["value"]
+                                goalie_interference_penalties,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "elbowingPenalties":
                             elbowing_penalties = more_interesting(
-                                elbowing_penalties, stat["value"]
+                                elbowing_penalties,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "divingPenalties":
                             diving_penalties = more_interesting(
-                                diving_penalties, stat["value"]
+                                diving_penalties,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "netPassingYardsPerGame":
                             net_passing_yards_per_game = more_interesting(
@@ -3025,19 +3079,49 @@ def _create_espn_player_model(
                                 total_clearances, stat["value"]
                             )
                         elif stat["name"] == "kickExtraPoints":
-                            kick_extra_point = stat["value"]
+                            kick_extra_point = more_interesting(
+                                kick_extra_point, stat["value"]
+                            )
                         elif stat["name"] == "kickExtraPointsMade":
-                            kick_extra_points_made = stat["value"]
+                            kick_extra_points_made = more_interesting(
+                                kick_extra_points_made, stat["value"]
+                            )
                         elif stat["name"] == "attemptsInBox":
-                            attempts_in_box = stat["value"]
+                            attempts_in_box = more_interesting(
+                                attempts_in_box, stat["value"]
+                            )
                         elif stat["name"] == "secondAssists":
-                            second_assists = stat["value"]
+                            second_assists = more_interesting(
+                                second_assists, stat["value"]
+                            )
                         elif stat["name"] == "QBR":
-                            qbr = stat["value"]
+                            qbr = more_interesting(qbr, stat["value"])
                         elif stat["name"] == "attemptsOutBox":
-                            attempts_out_box = stat["value"]
+                            attempts_out_box = more_interesting(
+                                attempts_out_box, stat["value"]
+                            )
                         elif stat["name"] == "adjQBR":
-                            adjusted_qbr = stat["value"]
+                            adjusted_qbr = more_interesting(adjusted_qbr, stat["value"])
+                        elif stat["name"] == "turnoverPoints":
+                            turnover_points = more_interesting(
+                                turnover_points, stat["value"]
+                            )
+                        elif stat["name"] == "fantasyRating":
+                            fantasy_rating = more_interesting(
+                                fantasy_rating, stat["value"]
+                            )
+                        elif stat["name"] == "teamTurnovers":
+                            team_turnovers = more_interesting(
+                                team_turnovers, stat["value"]
+                            )
+                        elif stat["name"] == "secondChancePoints":
+                            second_chance_points = more_interesting(
+                                second_chance_points, stat["value"]
+                            )
+                        elif stat["name"] == "fastBreakPoints":
+                            fast_break_points = more_interesting(
+                                fast_break_points, stat["value"]
+                            )
                         else:
                             raise ValueError(
                                 f"Failed to account for statistic: {stat['name']} on {stats_url}"
@@ -3993,6 +4077,11 @@ def _create_espn_player_model(
         qbr=qbr,
         attempts_out_box=attempts_out_box,
         adjusted_qbr=adjusted_qbr,
+        turnover_points=turnover_points,
+        fantasy_rating=fantasy_rating,
+        team_turnovers=team_turnovers,
+        second_chance_points=second_chance_points,
+        fast_break_points=fast_break_points,
     )
 
 

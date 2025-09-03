@@ -1,0 +1,224 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/5767?lang=en&region=us",
+    "active": true,
+    "age": 33,
+    "alternateId": "2524624",
+    "alternateIds": {
+        "sdr": "2524624"
+    },
+    "birthCountry": {
+        "abbreviation": "USA"
+    },
+    "birthPlace": {
+        "city": "Dorchester",
+        "country": "USA",
+        "state": "MA"
+    },
+    "college": {
+        "$ref": "http://sports.core.api.espn.com/v2/colleges/103?lang=en&region=us"
+    },
+    "contracts": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/athletes/5767/contracts?lang=en&region=us"
+    },
+    "dateOfBirth": "1992-05-08T07:00Z",
+    "debutYear": 2014,
+    "displayHeight": "6' 5\"",
+    "displayName": "Kevin Hayes",
+    "displayWeight": "216 lbs",
+    "draft": {
+        "displayText": "Year: 2010 Round: 1 Pick: 24",
+        "round": 1,
+        "selection": 24,
+        "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2010/teams/4?lang=en&region=us"
+        },
+        "year": 2010
+    },
+    "eventLog": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/5767/eventlog?lang=en&region=us"
+    },
+    "experience": {
+        "years": 10
+    },
+    "firstName": "Kevin",
+    "fullName": "Kevin Hayes",
+    "guid": "a151e224-ca84-b219-5e1c-16c10f641810",
+    "hand": {
+        "abbreviation": "L",
+        "displayValue": "Left",
+        "type": "LEFT"
+    },
+    "headshot": {
+        "alt": "Kevin Hayes",
+        "href": "https://a.espncdn.com/i/headshots/nhl/players/full/5767.png"
+    },
+    "height": 77.0,
+    "id": "5767",
+    "injuries": [
+        {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/5767/injuries/564543?lang=en&region=us",
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/5767?lang=en&region=us"
+            },
+            "date": "2025-07-28T16:28Z",
+            "details": {
+                "fantasyStatus": {
+                    "abbreviation": "Day-To-Day",
+                    "description": "Day-To-Day"
+                },
+                "returnDate": "2025-09-22",
+                "type": "Lower Body"
+            },
+            "id": "564543",
+            "longComment": "day-to-day",
+            "shortComment": "day-to-day",
+            "source": {
+                "description": "basic/manual",
+                "id": "1",
+                "state": "basic"
+            },
+            "status": "Day-To-Day",
+            "team": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/teams/16?lang=en&region=us"
+            },
+            "type": {
+                "abbreviation": "DD",
+                "description": "day-to-day",
+                "id": "6",
+                "name": "INJURY_STATUS_DAYTODAY"
+            }
+        }
+    ],
+    "jersey": "13",
+    "lastName": "Hayes",
+    "linked": true,
+    "links": [
+        {
+            "href": "https://www.espn.com/nhl/player/_/id/5767",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "playercard",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Player Card",
+            "text": "Player Card"
+        },
+        {
+            "href": "https://www.espn.com/nhl/player/stats/_/id/5767/kevin-hayes",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "stats",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Stats",
+            "text": "Stats"
+        },
+        {
+            "href": "https://www.espn.com/nhl/player/splits/_/id/5767/kevin-hayes",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "splits",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Splits",
+            "text": "Splits"
+        },
+        {
+            "href": "https://www.espn.com/nhl/player/gamelog/_/id/5767/kevin-hayes",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "gamelog",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Game Log",
+            "text": "Game Log"
+        },
+        {
+            "href": "https://www.espn.com/nhl/player/news/_/id/5767/kevin-hayes",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "news",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "News",
+            "text": "News"
+        },
+        {
+            "href": "https://www.espn.com/nhl/player/bio/_/id/5767/kevin-hayes",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "bio",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Bio",
+            "text": "Bio"
+        },
+        {
+            "href": "https://www.espn.com/nhl/player/_/id/5767/kevin-hayes",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "overview",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Overview",
+            "text": "Overview"
+        }
+    ],
+    "notes": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/athletes/5767/notes?lang=en&region=us"
+    },
+    "position": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/positions/3?lang=en&region=us",
+        "abbreviation": "RW",
+        "displayName": "Right Wing",
+        "id": "3",
+        "leaf": true,
+        "name": "Right Wing",
+        "parent": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/positions/20?lang=en&region=us"
+        }
+    },
+    "shortName": "K. Hayes",
+    "slug": "kevin-hayes",
+    "statistics": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/types/2/athletes/5767/statistics?lang=en&region=us"
+    },
+    "status": {
+        "abbreviation": "Active",
+        "id": "1",
+        "name": "Active",
+        "type": "active"
+    },
+    "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/teams/16?lang=en&region=us"
+    },
+    "teams": [
+        {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/teams/16?lang=en&region=us"
+        }
+    ],
+    "type": "hockey",
+    "uid": "s:70~l:90~a:5767",
+    "weight": 216.0
+}

@@ -692,6 +692,8 @@ def _create_hkjc_hkjc_team_model(
         power_play_saves=None,
         short_handed_saves=None,
         time_on_ice=None,
+        total_giveaways=None,
+        total_takeaways=None,
         version=version,
     )
 

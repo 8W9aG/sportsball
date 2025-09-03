@@ -1,0 +1,33 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/colleges/2?lang=en&region=us",
+    "abbrev": "AUB",
+    "guid": "59618d4c-34bc-3c11-a064-c1359b963d27",
+    "id": "2",
+    "logos": [
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
+            "lastUpdated": "2023-03-17T13:35Z",
+            "rel": [
+                "full",
+                "default"
+            ],
+            "width": 500
+        },
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2.png",
+            "lastUpdated": "2023-03-17T13:36Z",
+            "rel": [
+                "full",
+                "dark"
+            ],
+            "width": 500
+        }
+    ],
+    "mascot": "Tigers",
+    "name": "Auburn",
+    "shortName": "Auburn"
+}

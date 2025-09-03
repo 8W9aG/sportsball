@@ -1166,7 +1166,9 @@ TEAM_EVEN_STRENGTH_SAVES_COLUMN: Literal["even_strength_saves"] = "even_strength
 TEAM_POWER_PLAY_SAVES_COLUMN: Literal["power_play_saves"] = "power_play_saves"
 TEAM_SHORT_HANDED_SAVES_COLUMN: Literal["short_handed_saves"] = "short_handed_saves"
 TEAM_TIME_ON_ICE_COLUMN: Literal["time_on_ice"] = "time_on_ice"
-VERSION = DELIMITER.join(["0.0.4", PLAYER_VERSION, COACH_VERSION])
+TEAM_TOTAL_GIVEAWAYS_COLUMN: Literal["total_giveaways"] = "total_giveaways"
+TEAM_TOTAL_TAKEAWAYS_COLUMN: Literal["total_takeaways"] = "total_takeaways"
+VERSION = DELIMITER.join(["0.0.5", PLAYER_VERSION, COACH_VERSION])
 
 
 def _calculate_kicks(data: dict[str, Any]) -> int | None:
@@ -5105,5 +5107,15 @@ class TeamModel(BaseModel):
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_TIME_ON_ICE_COLUMN,
+    )
+    total_giveaways: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_TOTAL_GIVEAWAYS_COLUMN,
+    )
+    total_takeaways: int | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_TOTAL_TAKEAWAYS_COLUMN,
     )
     version: str = Field(..., json_schema_extra={TYPE_KEY: FieldType.CATEGORICAL})

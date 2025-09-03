@@ -1,0 +1,33 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/colleges/103?lang=en&region=us",
+    "abbrev": "BC",
+    "guid": "2e1479e2-3f29-3596-b876-0956aec99d04",
+    "id": "103",
+    "logos": [
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+            "lastUpdated": "2023-03-01T14:17Z",
+            "rel": [
+                "full",
+                "default"
+            ],
+            "width": 500
+        },
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/103.png",
+            "lastUpdated": "2023-03-01T14:18Z",
+            "rel": [
+                "full",
+                "dark"
+            ],
+            "width": 500
+        }
+    ],
+    "mascot": "Eagles",
+    "name": "Boston College",
+    "shortName": "Boston College"
+}

@@ -1,0 +1,3697 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/statistics/0?lang=en&region=us",
+    "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795?lang=en&region=us"
+    },
+    "splits": {
+        "abbreviation": "Season",
+        "categories": [
+            {
+                "abbreviation": "gen",
+                "athletes": [
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/-6210?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/-6210/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4597679?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4597679/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4618083?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4618083/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4683308?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4683308/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4709804?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4709804/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4814930?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4814930/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4827047?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4827047/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4870696?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4870696/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4870728?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4870728/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4923226?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4923226/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5083747?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5083747/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5100582?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5100582/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5106299?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5106299/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5154321?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5154321/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5154729?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5154729/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5218891?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5218891/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4429960?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4429960/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4432357?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4432357/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4684004?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4684004/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4685478?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4685478/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4693371?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4693371/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4696753?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4696753/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4709783?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4709783/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4814930?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4814930/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4837244?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4837244/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4868405?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4868405/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4873319?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4873319/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4873322?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4873322/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4878232?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4878232/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4880014?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4880014/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4915710?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4915710/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4917004?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4917004/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4923255?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4923255/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5125740?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5125740/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5142705?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5142705/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5146980?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5146980/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5154323?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5154323/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5196972?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5196972/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5218892?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5218892/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5297778?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5297778/statistics/0?lang=en&region=us"
+                        }
+                    }
+                ],
+                "displayName": "General",
+                "name": "general",
+                "shortDisplayName": "General",
+                "stats": [
+                    {
+                        "abbreviation": "FUM",
+                        "description": "The number of times a player/team has fumbled the ball",
+                        "displayName": "Fumbles",
+                        "displayValue": "0",
+                        "name": "fumbles",
+                        "shortDisplayName": "F",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "LST",
+                        "description": "The number of times a fumble is recovered by the opposing team",
+                        "displayName": "Fumbles Lost",
+                        "displayValue": "0",
+                        "name": "fumblesLost",
+                        "shortDisplayName": "FL",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FF",
+                        "description": "The total number of forced fumbles.",
+                        "displayName": "Forced Fumbles",
+                        "displayValue": "1",
+                        "name": "fumblesForced",
+                        "shortDisplayName": "Forced Fumbles",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "FR",
+                        "description": "The number of fumbles recovered.",
+                        "displayName": "Fumbles Recovered",
+                        "displayValue": "1",
+                        "name": "fumblesRecovered",
+                        "shortDisplayName": "FR",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "YDS",
+                        "description": "The number of yards gained after a fumble is recovered.",
+                        "displayName": "Fumbles Recovered Yards",
+                        "displayValue": "0",
+                        "name": "fumblesRecoveredYards",
+                        "shortDisplayName": "FRYDS",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FTD",
+                        "description": "The number of times a fumbles is recovered and returned for a touchdown.",
+                        "displayName": "Fumbles Touchdowns",
+                        "displayValue": "0",
+                        "name": "fumblesTouchdowns",
+                        "shortDisplayName": "FTD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "GP",
+                        "description": "Games Played",
+                        "displayName": "Games Played",
+                        "displayValue": "1",
+                        "name": "gamesPlayed",
+                        "shortDisplayName": "GP",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "2PTR",
+                        "description": "The number of two point attempts that is returned by the offense.",
+                        "displayName": "Two Point Returns",
+                        "displayValue": "0",
+                        "name": "offensiveTwoPtReturns",
+                        "shortDisplayName": "2PTR",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "OFTD",
+                        "description": "The number of times a fumbles is recovered and returned for a touchdown by the offense.",
+                        "displayName": "Fumbles Touchdowns",
+                        "displayValue": "0",
+                        "name": "offensiveFumblesTouchdowns",
+                        "shortDisplayName": "OFTD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "DFTD",
+                        "description": "The number of times a fumbles is recovered and returned for a touchdown by the defense.",
+                        "displayName": "Fumbles Touchdowns",
+                        "displayValue": "0",
+                        "name": "defensiveFumblesTouchdowns",
+                        "shortDisplayName": "DFTD",
+                        "value": 0.0
+                    }
+                ],
+                "summary": ""
+            },
+            {
+                "abbreviation": "pass",
+                "athletes": [
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4597679?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4597679/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4618083?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4618083/statistics/0?lang=en&region=us"
+                        }
+                    }
+                ],
+                "displayName": "Passing",
+                "name": "passing",
+                "shortDisplayName": "Passing",
+                "stats": [
+                    {
+                        "abbreviation": "AG",
+                        "description": "The average gained yards per position.",
+                        "displayName": "Average Gain",
+                        "displayValue": "0.0",
+                        "name": "avgGain",
+                        "shortDisplayName": "AG",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "CMP%",
+                        "description": "The percentage of completed passes.",
+                        "displayName": "Completion Percentage",
+                        "displayValue": "81.8",
+                        "name": "completionPct",
+                        "shortDisplayName": "CMP%",
+                        "value": 81.818
+                    },
+                    {
+                        "abbreviation": "CMP",
+                        "description": "The times a player completes a pass to another player who is eligible to catch a pass.",
+                        "displayName": "Completions",
+                        "displayValue": "18",
+                        "name": "completions",
+                        "shortDisplayName": "CMP",
+                        "value": 18.0
+                    },
+                    {
+                        "abbreviation": "EQBR",
+                        "description": "The quarterback rating used to compare overall offensive performance relative to other positions.",
+                        "displayName": "ESPN Quarterback Rating",
+                        "displayValue": "441.0",
+                        "name": "ESPNQBRating",
+                        "shortDisplayName": "ESPN Quarterback Rating",
+                        "value": 441.0
+                    },
+                    {
+                        "abbreviation": "INT%",
+                        "description": "The percentage of passes thrown that were intercepted by the opposing team.",
+                        "displayName": "Interception Percentage",
+                        "displayValue": "0.00",
+                        "name": "interceptionPct",
+                        "shortDisplayName": "INT%",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "INT",
+                        "description": "The number of passes thrown that were intercepted by the opposing team.",
+                        "displayName": "Interceptions",
+                        "displayValue": "0",
+                        "name": "interceptions",
+                        "shortDisplayName": "INT",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "LNG",
+                        "description": "The longest pass play completed in terms of yards.",
+                        "displayName": "Longest Pass",
+                        "displayValue": "59",
+                        "name": "longPassing",
+                        "shortDisplayName": "LONG",
+                        "value": 59.0
+                    },
+                    {
+                        "abbreviation": "MISC",
+                        "description": "The number of miscellaneous yards.",
+                        "displayName": "Miscellaneous Yards",
+                        "displayValue": "0",
+                        "name": "miscYards",
+                        "shortDisplayName": "MISC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "NYDS",
+                        "description": "The amount of net passing yards.",
+                        "displayName": "Net Passing Yards",
+                        "displayValue": "231",
+                        "name": "netPassingYards",
+                        "shortDisplayName": "NYDS",
+                        "value": 231.0
+                    },
+                    {
+                        "abbreviation": "NYDS/G",
+                        "description": "The amount of net passing yards per game.",
+                        "displayName": "Net Passing Yards Per Game",
+                        "displayValue": "231.0",
+                        "name": "netPassingYardsPerGame",
+                        "shortDisplayName": "NYDS/G",
+                        "value": 231.0
+                    },
+                    {
+                        "abbreviation": "NTYDS",
+                        "description": "The amount of net total yards.",
+                        "displayName": "Net Total Yards",
+                        "displayValue": "440",
+                        "name": "netTotalYards",
+                        "shortDisplayName": "NTYDS",
+                        "value": 440.0
+                    },
+                    {
+                        "abbreviation": "NTYDS/G",
+                        "description": "The amount of net total yards per game.",
+                        "displayName": "Net Yards Per Game",
+                        "displayValue": "440.0",
+                        "name": "netYardsPerGame",
+                        "shortDisplayName": "NTYDS/G",
+                        "value": 440.0
+                    },
+                    {
+                        "abbreviation": "ATT",
+                        "description": "The number of times a pass is attempted.",
+                        "displayName": "Passing Attempts",
+                        "displayValue": "22",
+                        "name": "passingAttempts",
+                        "shortDisplayName": "ATT",
+                        "value": 22.0
+                    },
+                    {
+                        "abbreviation": "BIGP",
+                        "description": "The number of times a pass results in a big play.",
+                        "displayName": "Passing Big Plays",
+                        "displayValue": "0",
+                        "name": "passingBigPlays",
+                        "shortDisplayName": "BIG",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FIRST",
+                        "description": "The number of times a pass results in a first down.",
+                        "displayName": "Passing 1st downs",
+                        "displayValue": "0",
+                        "name": "passingFirstDowns",
+                        "shortDisplayName": "FIRST",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FUM",
+                        "description": "The number of times the ball has been fumbled after a completed pass.",
+                        "displayName": "Passing Fumbles",
+                        "displayValue": "0",
+                        "name": "passingFumbles",
+                        "shortDisplayName": "F",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FL",
+                        "description": "The number of times the ball has been fumbled and lost to the opposing team after a completed pass.",
+                        "displayName": "Passing Fumbles Lost",
+                        "displayValue": "0",
+                        "name": "passingFumblesLost",
+                        "shortDisplayName": "FL",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TD%",
+                        "description": "The percentage of passes that result in a touchdown.",
+                        "displayName": "Passing Touchdown %",
+                        "displayValue": "13.64",
+                        "name": "passingTouchdownPct",
+                        "shortDisplayName": "TD%",
+                        "value": 13.636
+                    },
+                    {
+                        "abbreviation": "TD",
+                        "description": "The total number of passing touchdowns.",
+                        "displayName": "Passing Touchdowns",
+                        "displayValue": "3",
+                        "name": "passingTouchdowns",
+                        "shortDisplayName": "Touchdowns",
+                        "value": 3.0
+                    },
+                    {
+                        "abbreviation": "YDS",
+                        "description": "The total passing yards.",
+                        "displayName": "Passing Yards",
+                        "displayValue": "231",
+                        "name": "passingYards",
+                        "shortDisplayName": "Pass Yards",
+                        "value": 231.0
+                    },
+                    {
+                        "abbreviation": "PYAC",
+                        "description": "The amount of passing yards after catch.",
+                        "displayName": "Passing Yards After Catch",
+                        "displayValue": "0",
+                        "name": "passingYardsAfterCatch",
+                        "shortDisplayName": "PYAC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PY@C",
+                        "description": "The amount of passing yards when the catch is made.",
+                        "displayName": "Passing Yards At Catch",
+                        "displayValue": "231",
+                        "name": "passingYardsAtCatch",
+                        "shortDisplayName": "PY@C",
+                        "value": 231.0
+                    },
+                    {
+                        "abbreviation": "YDS/G",
+                        "description": "The number of passing yards per game.",
+                        "displayName": "Passing Yards Per Game",
+                        "displayValue": "231.0",
+                        "name": "passingYardsPerGame",
+                        "shortDisplayName": "PYDS/G",
+                        "value": 231.0
+                    },
+                    {
+                        "abbreviation": "RTG",
+                        "description": "Passer Rating",
+                        "displayName": "Passer Rating",
+                        "displayValue": "215.0",
+                        "name": "QBRating",
+                        "shortDisplayName": "RTG",
+                        "value": 215.018
+                    },
+                    {
+                        "abbreviation": "SACK",
+                        "description": "The total number of sacks.",
+                        "displayName": "Total Sacks",
+                        "displayValue": "3",
+                        "name": "sacks",
+                        "shortDisplayName": "Sacks",
+                        "value": 3.0
+                    },
+                    {
+                        "abbreviation": "SYL",
+                        "description": "The amount of yards lost due to sacks.",
+                        "displayName": "Sack Yards Lost",
+                        "displayValue": "-24",
+                        "name": "sackYardsLost",
+                        "shortDisplayName": "SYL",
+                        "value": -24.0
+                    },
+                    {
+                        "abbreviation": "TGP",
+                        "description": "The amount of games played.",
+                        "displayName": "Team Games Played",
+                        "displayValue": "1",
+                        "name": "teamGamesPlayed",
+                        "shortDisplayName": "TGP",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "TOP",
+                        "description": "The number of total offensive plays.",
+                        "displayName": "Total Offensive Plays",
+                        "displayValue": "62",
+                        "name": "totalOffensivePlays",
+                        "shortDisplayName": "TOP",
+                        "value": 62.0
+                    },
+                    {
+                        "abbreviation": "PTS",
+                        "description": "The number of total points scored.",
+                        "displayName": "Total Points",
+                        "displayValue": "52",
+                        "name": "totalPoints",
+                        "shortDisplayName": "TP",
+                        "value": 52.0
+                    },
+                    {
+                        "abbreviation": "TP",
+                        "description": "The number of points scored per game.",
+                        "displayName": "Total Points Per Game",
+                        "displayValue": "52.0",
+                        "name": "totalPointsPerGame",
+                        "shortDisplayName": "TP/G",
+                        "value": 52.0
+                    },
+                    {
+                        "abbreviation": "TD",
+                        "description": "The number of touchdowns scored in total.",
+                        "displayName": "Total Touchdowns",
+                        "displayValue": "0",
+                        "name": "totalTouchdowns",
+                        "shortDisplayName": "TTD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TYDS",
+                        "description": "The number of yards accumulated in total.",
+                        "displayName": "Total Yards",
+                        "displayValue": "440",
+                        "name": "totalYards",
+                        "shortDisplayName": "TYDS",
+                        "value": 440.0
+                    },
+                    {
+                        "abbreviation": "CMP",
+                        "description": "The amound of total yards from the line of scrimmage.",
+                        "displayName": "Total Yards From Scrimmage",
+                        "displayValue": "440",
+                        "name": "totalYardsFromScrimmage",
+                        "shortDisplayName": "SCRIM",
+                        "value": 440.0
+                    },
+                    {
+                        "abbreviation": "2PTPC",
+                        "description": "The number of times a 2-point conversion is successful with a pass.",
+                        "displayName": "Two Point Pass Conversions",
+                        "displayValue": "0",
+                        "name": "twoPointPassConvs",
+                        "shortDisplayName": "2PTPC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "2PTP",
+                        "description": "The number of times a pass was thrown for 2 points.",
+                        "displayName": "Two Point Pass",
+                        "displayValue": "0",
+                        "name": "twoPtPass",
+                        "shortDisplayName": "2PTP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "2PTPA",
+                        "description": "The number of times a pass was attempted on a 2-point conversion.",
+                        "displayName": "Two Point Pass Attempts",
+                        "displayValue": "0",
+                        "name": "twoPtPassAttempts",
+                        "shortDisplayName": "2PTPA",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SCRIM/G",
+                        "description": "The yards gained from scrimmage per game.",
+                        "displayName": "Yards From Scrimmage Per Game",
+                        "displayValue": "440",
+                        "name": "yardsFromScrimmagePerGame",
+                        "shortDisplayName": "SCRIM/G",
+                        "value": 440.0
+                    },
+                    {
+                        "abbreviation": "CMP",
+                        "description": "The average number of yards per pass completion.",
+                        "displayName": "Yards Per Completion",
+                        "displayValue": "12.8",
+                        "name": "yardsPerCompletion",
+                        "shortDisplayName": "YDS/CMP",
+                        "value": 12.833
+                    },
+                    {
+                        "abbreviation": "YDS/G",
+                        "description": "The average number of yards per game.",
+                        "displayName": "Yards Per Game",
+                        "displayValue": "440.0",
+                        "name": "yardsPerGame",
+                        "shortDisplayName": "YDS/G",
+                        "value": 440.0
+                    },
+                    {
+                        "abbreviation": "AVG",
+                        "description": "The average number yards per pass attempt.",
+                        "displayName": "Yards Per Pass Attempt",
+                        "displayValue": "10.5",
+                        "name": "yardsPerPassAttempt",
+                        "shortDisplayName": "AVG",
+                        "value": 10.5
+                    },
+                    {
+                        "abbreviation": "NYDS/PA",
+                        "description": "The average number net yards (taking sack yardage into account) per pass attempt.",
+                        "displayName": "Net Yards Per Pass Attempt",
+                        "displayValue": "9.2",
+                        "name": "netYardsPerPassAttempt",
+                        "shortDisplayName": "NYDS/PA",
+                        "value": 9.24
+                    },
+                    {
+                        "abbreviation": "RAT",
+                        "description": "Quarterback Rating.",
+                        "displayName": "Quarterback Rating",
+                        "displayValue": "150.0",
+                        "name": "quarterbackRating",
+                        "shortDisplayName": "Quarterback Rating",
+                        "value": 150.0
+                    }
+                ],
+                "summary": ""
+            },
+            {
+                "abbreviation": "rush",
+                "athletes": [
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4827047?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4827047/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4870728?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4870728/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5106299?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5106299/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/-6210?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/-6210/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4597679?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4597679/statistics/0?lang=en&region=us"
+                        }
+                    }
+                ],
+                "displayName": "Rushing",
+                "name": "rushing",
+                "shortDisplayName": "Rushing",
+                "stats": [
+                    {
+                        "abbreviation": "AG",
+                        "description": "The average gained yards per position.",
+                        "displayName": "Average Gain",
+                        "displayValue": "0.0",
+                        "name": "avgGain",
+                        "shortDisplayName": "AG",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "ESPNRB",
+                        "description": "The ESPN Widereceiver Rating.",
+                        "displayName": "ESPN RB Rating",
+                        "displayValue": "314.00",
+                        "name": "ESPNRBRating",
+                        "shortDisplayName": "ESPNRB",
+                        "value": 314.0
+                    },
+                    {
+                        "abbreviation": "LNG",
+                        "description": "The amount of yards for the longest run.",
+                        "displayName": "Long Rushing",
+                        "displayValue": "57",
+                        "name": "longRushing",
+                        "shortDisplayName": "LONG",
+                        "value": 57.0
+                    },
+                    {
+                        "abbreviation": "MISC",
+                        "description": "The amount of miscellaneous yards.",
+                        "displayName": "Miscellaneous Yards",
+                        "displayValue": "0",
+                        "name": "miscYards",
+                        "shortDisplayName": "MISC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "NTYDS",
+                        "description": "The amount of total net yards.",
+                        "displayName": "Net Total Yards",
+                        "displayValue": "440",
+                        "name": "netTotalYards",
+                        "shortDisplayName": "NTYDS",
+                        "value": 440.0
+                    },
+                    {
+                        "abbreviation": "CMP",
+                        "description": "The total net yards gained per game.",
+                        "displayName": "Net Yards Per Game",
+                        "displayValue": "440.0",
+                        "name": "netYardsPerGame",
+                        "shortDisplayName": "NYDS/G",
+                        "value": 440.0
+                    },
+                    {
+                        "abbreviation": "CAR",
+                        "description": "The total number of attempted rushes.",
+                        "displayName": "Rushing Attempts",
+                        "displayValue": "37",
+                        "name": "rushingAttempts",
+                        "shortDisplayName": "Rushing Attempts",
+                        "value": 37.0
+                    },
+                    {
+                        "abbreviation": "BIG",
+                        "description": "The number of rushing big plays gained.",
+                        "displayName": "20+ Yard Rushing Plays",
+                        "displayValue": "0",
+                        "name": "rushingBigPlays",
+                        "shortDisplayName": "BIG",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FD",
+                        "description": "The number of times a first down is picked up by a run.",
+                        "displayName": "Rushing 1st downs",
+                        "displayValue": "0",
+                        "name": "rushingFirstDowns",
+                        "shortDisplayName": "FIRST",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FUM",
+                        "description": "The number of times there is a run and then the ball is fumbled.",
+                        "displayName": "Rushing Fumbles",
+                        "displayValue": "0",
+                        "name": "rushingFumbles",
+                        "shortDisplayName": "F",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "LST",
+                        "description": "The number of times there is a run and then the ball is fumbled.",
+                        "displayName": "Rushing Fumbles Lost",
+                        "displayValue": "0",
+                        "name": "rushingFumblesLost",
+                        "shortDisplayName": "FL",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TD",
+                        "description": "The total number of rushing touchdowns.",
+                        "displayName": "Rushing Touchdowns",
+                        "displayValue": "3",
+                        "name": "rushingTouchdowns",
+                        "shortDisplayName": "Rushing Touchdowns",
+                        "value": 3.0
+                    },
+                    {
+                        "abbreviation": "YDS",
+                        "description": "The total rushing yards.",
+                        "displayName": "Rushing Yards",
+                        "displayValue": "209",
+                        "name": "rushingYards",
+                        "shortDisplayName": "Rush Yards",
+                        "value": 209.0
+                    },
+                    {
+                        "abbreviation": "YDS/G",
+                        "description": "The average number of rushing yards per game.",
+                        "displayName": "Rushing Yards Per Game",
+                        "displayValue": "209.0",
+                        "name": "rushingYardsPerGame",
+                        "shortDisplayName": "YDS/G",
+                        "value": 209.0
+                    },
+                    {
+                        "abbreviation": "STF",
+                        "description": "The number of times a run is stopped at or behind the line of scrimmage.",
+                        "displayName": "Stuffs",
+                        "displayValue": "0",
+                        "name": "stuffs",
+                        "shortDisplayName": "STF",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SYDSL",
+                        "description": "The number of yards lost when a run is stuffed.",
+                        "displayName": "Stuff Yards Lost",
+                        "displayValue": "0",
+                        "name": "stuffYardsLost",
+                        "shortDisplayName": "SYDSL",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "GP",
+                        "description": "The numbers of team games played.",
+                        "displayName": "Team Games Played",
+                        "displayValue": "1",
+                        "name": "teamGamesPlayed",
+                        "shortDisplayName": "GP",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "OP",
+                        "description": "The number of offenseive plays run.",
+                        "displayName": "Total Offensive Plays",
+                        "displayValue": "62",
+                        "name": "totalOffensivePlays",
+                        "shortDisplayName": "OP",
+                        "value": 62.0
+                    },
+                    {
+                        "abbreviation": "PTS",
+                        "description": "The number of total points earned.",
+                        "displayName": "Total Points",
+                        "displayValue": "52",
+                        "name": "totalPoints",
+                        "shortDisplayName": "TP",
+                        "value": 52.0
+                    },
+                    {
+                        "abbreviation": "TP/G",
+                        "description": "The average number of points scored per game.",
+                        "displayName": "Total Points Per Game",
+                        "displayValue": "52.0",
+                        "name": "totalPointsPerGame",
+                        "shortDisplayName": "TP/G",
+                        "value": 52.0
+                    },
+                    {
+                        "abbreviation": "TD",
+                        "description": "The number of total Touchdowns scored.",
+                        "displayName": "Total Touchdowns",
+                        "displayValue": "0",
+                        "name": "totalTouchdowns",
+                        "shortDisplayName": "TTD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TYDS",
+                        "description": "The number of total yards gained.",
+                        "displayName": "Total Yards",
+                        "displayValue": "440",
+                        "name": "totalYards",
+                        "shortDisplayName": "TYDS",
+                        "value": 440.0
+                    },
+                    {
+                        "abbreviation": "SCRIM",
+                        "description": "The number of yards gained from the line of scrimmage.",
+                        "displayName": "Total Yards From Scrimmage",
+                        "displayValue": "440",
+                        "name": "totalYardsFromScrimmage",
+                        "shortDisplayName": "SCRIM",
+                        "value": 440.0
+                    },
+                    {
+                        "abbreviation": "2PTC",
+                        "description": "The number of times a 2-point is converted with a run.",
+                        "displayName": "Two Point Rush Conversion",
+                        "displayValue": "0",
+                        "name": "twoPointRushConvs",
+                        "shortDisplayName": "2PTC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "2PTR",
+                        "description": "The number of rushes on 2-point attempts.",
+                        "displayName": "Two Point Rush",
+                        "displayValue": "0",
+                        "name": "twoPtRush",
+                        "shortDisplayName": "2PTR",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "CMP",
+                        "description": "The number of times a 2-point conversion is attempted with a rush.",
+                        "displayName": "Two Point Rush Attempts",
+                        "displayValue": "0",
+                        "name": "twoPtRushAttempts",
+                        "shortDisplayName": "2PTA",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SCRIM/G",
+                        "description": "The average number of yards gained from scrimmage per game.",
+                        "displayName": "Yards From Scrimmage Per Game",
+                        "displayValue": "440.0",
+                        "name": "yardsFromScrimmagePerGame",
+                        "shortDisplayName": "SCRIM/G",
+                        "value": 440.0
+                    },
+                    {
+                        "abbreviation": "YDS/G",
+                        "description": "The average number of yards per game.",
+                        "displayName": "Yards Per Game",
+                        "displayValue": "440.0",
+                        "name": "yardsPerGame",
+                        "shortDisplayName": "YDS/G",
+                        "value": 440.0
+                    },
+                    {
+                        "abbreviation": "AVG",
+                        "description": "The average number of yards per rush attempt.",
+                        "displayName": "Yards Per Rush Attempt",
+                        "displayValue": "5.6",
+                        "name": "yardsPerRushAttempt",
+                        "shortDisplayName": "YDS/RA",
+                        "value": 5.649
+                    }
+                ],
+                "summary": ""
+            },
+            {
+                "abbreviation": "rec",
+                "athletes": [
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4814930?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4814930/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4870696?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4870696/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5083747?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5083747/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4827047?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4827047/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4683308?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4683308/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5218891?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5218891/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5154321?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5154321/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4923226?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4923226/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5100582?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5100582/statistics/0?lang=en&region=us"
+                        }
+                    }
+                ],
+                "displayName": "Receiving",
+                "name": "receiving",
+                "shortDisplayName": "Receiving",
+                "stats": [
+                    {
+                        "abbreviation": "AG",
+                        "description": "The average gained yards per position.",
+                        "displayName": "Average Gain",
+                        "displayValue": "0.0",
+                        "name": "avgGain",
+                        "shortDisplayName": "AG",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "ESPNWR",
+                        "description": "The ESPN Widereceiver Rating.",
+                        "displayName": "ESPN Widereceiver Rating",
+                        "displayValue": "426.00",
+                        "name": "ESPNWRRating",
+                        "shortDisplayName": "ESPNWR",
+                        "value": 426.0
+                    },
+                    {
+                        "abbreviation": "LNG",
+                        "description": "The amount of yards for the longest reception.",
+                        "displayName": "Long Reception",
+                        "displayValue": "59",
+                        "name": "longReception",
+                        "shortDisplayName": "LONG",
+                        "value": 59.0
+                    },
+                    {
+                        "abbreviation": "MISC",
+                        "description": "The amount of miscellaneous yards.",
+                        "displayName": "Miscellaneous Yards",
+                        "displayValue": "0",
+                        "name": "miscYards",
+                        "shortDisplayName": "MISC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "NTYDS",
+                        "description": "The amount of total net yards.",
+                        "displayName": "Net Total Yards",
+                        "displayValue": "440",
+                        "name": "netTotalYards",
+                        "shortDisplayName": "NTYDS",
+                        "value": 440.0
+                    },
+                    {
+                        "abbreviation": "CMP",
+                        "description": "The total net yards gained per game.",
+                        "displayName": "Net Yards Per Game",
+                        "displayValue": "440.0",
+                        "name": "netYardsPerGame",
+                        "shortDisplayName": "NYDS/G",
+                        "value": 440.0
+                    },
+                    {
+                        "abbreviation": "BIG",
+                        "description": "The number of receiving big plays gained.",
+                        "displayName": "20+ Yard Receiving Plays",
+                        "displayValue": "0",
+                        "name": "receivingBigPlays",
+                        "shortDisplayName": "BIG",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FD",
+                        "description": "The number of times a first down is picked up by a reception.",
+                        "displayName": "Receiving First Downs",
+                        "displayValue": "0",
+                        "name": "receivingFirstDowns",
+                        "shortDisplayName": "FIRST",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FUM",
+                        "description": "The number of times a reception is made and then the ball is fumbled.",
+                        "displayName": "Receiving Fumbles",
+                        "displayValue": "0",
+                        "name": "receivingFumbles",
+                        "shortDisplayName": "F",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "LST",
+                        "description": "The number of times a reception is made and the balled is fumbled and recovered by the opposing team.",
+                        "displayName": "Receiving Fumbles Lost",
+                        "displayValue": "0",
+                        "name": "receivingFumblesLost",
+                        "shortDisplayName": "FL",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TGTS",
+                        "description": "The number of times a receiver is thrown to.",
+                        "displayName": "Receiving Targets",
+                        "displayValue": "0",
+                        "name": "receivingTargets",
+                        "shortDisplayName": "TGT",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TD",
+                        "description": "The total number of receiving touchdowns.",
+                        "displayName": "Receiving Touchdowns",
+                        "displayValue": "3",
+                        "name": "receivingTouchdowns",
+                        "shortDisplayName": "Receiving Touchdowns",
+                        "value": 3.0
+                    },
+                    {
+                        "abbreviation": "YDS",
+                        "description": "The total receiving yards.",
+                        "displayName": "Receiving Yards",
+                        "displayValue": "231",
+                        "name": "receivingYards",
+                        "shortDisplayName": "Rec. Yards",
+                        "value": 231.0
+                    },
+                    {
+                        "abbreviation": "YAC",
+                        "description": "The number of yards gained after the catch has been made.",
+                        "displayName": "Receiving Yards After Catch",
+                        "displayValue": "0",
+                        "name": "receivingYardsAfterCatch",
+                        "shortDisplayName": "YAC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "Y@C",
+                        "description": "The number of yards gained at the time the catch is made.",
+                        "displayName": "Receiving Yards At Catch",
+                        "displayValue": "231",
+                        "name": "receivingYardsAtCatch",
+                        "shortDisplayName": "Y@C",
+                        "value": 231.0
+                    },
+                    {
+                        "abbreviation": "YDS/G",
+                        "description": "The average number of receiving yards per game.",
+                        "displayName": "Receiving Yards Per Game",
+                        "displayValue": "231.0",
+                        "name": "receivingYardsPerGame",
+                        "shortDisplayName": "YDS/G",
+                        "value": 231.0
+                    },
+                    {
+                        "abbreviation": "REC",
+                        "description": "The total number of receptions.",
+                        "displayName": "Receptions",
+                        "displayValue": "18",
+                        "name": "receptions",
+                        "shortDisplayName": "Receptions",
+                        "value": 18.0
+                    },
+                    {
+                        "abbreviation": "GP",
+                        "description": "The numbers of team games played.",
+                        "displayName": "Team Games Played",
+                        "displayValue": "1",
+                        "name": "teamGamesPlayed",
+                        "shortDisplayName": "GP",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "OP",
+                        "description": "The number of offenseive plays run.",
+                        "displayName": "Total Offensive Plays",
+                        "displayValue": "62",
+                        "name": "totalOffensivePlays",
+                        "shortDisplayName": "OP",
+                        "value": 62.0
+                    },
+                    {
+                        "abbreviation": "PTS",
+                        "description": "The number of total points earned.",
+                        "displayName": "Total Points",
+                        "displayValue": "52",
+                        "name": "totalPoints",
+                        "shortDisplayName": "TP",
+                        "value": 52.0
+                    },
+                    {
+                        "abbreviation": "TP/G",
+                        "description": "The average number of points scored per game.",
+                        "displayName": "Total Points Per Game",
+                        "displayValue": "52.0",
+                        "name": "totalPointsPerGame",
+                        "shortDisplayName": "TP/G",
+                        "value": 52.0
+                    },
+                    {
+                        "abbreviation": "TD",
+                        "description": "The number of total Touchdowns scored.",
+                        "displayName": "Total Touchdowns",
+                        "displayValue": "0",
+                        "name": "totalTouchdowns",
+                        "shortDisplayName": "TTD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TYDS",
+                        "description": "The number of total yards gained.",
+                        "displayName": "Total Yards",
+                        "displayValue": "440",
+                        "name": "totalYards",
+                        "shortDisplayName": "TYDS",
+                        "value": 440.0
+                    },
+                    {
+                        "abbreviation": "SCRIM",
+                        "description": "The number of yards gained from the line of scrimmage.",
+                        "displayName": "Total Yards From Scrimmage",
+                        "displayValue": "440",
+                        "name": "totalYardsFromScrimmage",
+                        "shortDisplayName": "SCRIM",
+                        "value": 440.0
+                    },
+                    {
+                        "abbreviation": "2PTC",
+                        "description": "The number of times a 2-point is converted with a reception.",
+                        "displayName": "Two Point Receiving Conversion",
+                        "displayValue": "0",
+                        "name": "twoPointRecConvs",
+                        "shortDisplayName": "2PTC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "2PTR",
+                        "description": "The number of receptions on 2-point attempts.",
+                        "displayName": "Two Point Receptions",
+                        "displayValue": "0",
+                        "name": "twoPtReception",
+                        "shortDisplayName": "2PTR",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "CMP",
+                        "description": "The number of times a 2-point conversion is attempted with a reception.",
+                        "displayName": "Two Point Reception Attempts",
+                        "displayValue": "0",
+                        "name": "twoPtReceptionAttempts",
+                        "shortDisplayName": "2PTA",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SCRIM/G",
+                        "description": "The average number of yards gained from scrimmage per game.",
+                        "displayName": "Yards From Scrimmage Per Game",
+                        "displayValue": "440.0",
+                        "name": "yardsFromScrimmagePerGame",
+                        "shortDisplayName": "SCRIM/G",
+                        "value": 440.0
+                    },
+                    {
+                        "abbreviation": "YDS/G",
+                        "description": "The average number of yards per game.",
+                        "displayName": "Yards Per Game",
+                        "displayValue": "440.0",
+                        "name": "yardsPerGame",
+                        "shortDisplayName": "YDS/G",
+                        "value": 440.0
+                    },
+                    {
+                        "abbreviation": "AVG",
+                        "description": "The average number of yards per reception.",
+                        "displayName": "Yards Per Reception",
+                        "displayValue": "12.8",
+                        "name": "yardsPerReception",
+                        "shortDisplayName": "YDS/R",
+                        "value": 12.833
+                    }
+                ],
+                "summary": ""
+            },
+            {
+                "abbreviation": "def",
+                "athletes": [
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4429960?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4429960/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4432357?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4432357/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4684004?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4684004/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4685478?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4685478/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4693371?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4693371/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4696753?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4696753/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4709783?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4709783/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4814930?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4814930/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4837244?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4837244/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4868405?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4868405/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4873319?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4873319/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4873322?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4873322/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4878232?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4878232/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4880014?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4880014/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4915710?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4915710/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4917004?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4917004/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4923255?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4923255/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5125740?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5125740/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5142705?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5142705/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5146980?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5146980/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5154323?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5154323/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5196972?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5196972/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5218892?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5218892/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5297778?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5297778/statistics/0?lang=en&region=us"
+                        }
+                    }
+                ],
+                "displayName": "Defense",
+                "name": "defensive",
+                "shortDisplayName": "Defensive",
+                "stats": [
+                    {
+                        "abbreviation": "AST",
+                        "description": "The number of assists on tackles.",
+                        "displayName": "Assist Tackles",
+                        "displayValue": "12",
+                        "name": "assistTackles",
+                        "shortDisplayName": "AST",
+                        "value": 12.0
+                    },
+                    {
+                        "abbreviation": "AVG",
+                        "description": "The average number of return yards per interception.",
+                        "displayName": "Average Interception Yards",
+                        "displayValue": "0.0",
+                        "name": "avgInterceptionYards",
+                        "shortDisplayName": "YDS/INT",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "YDS/SACK",
+                        "description": "The average number of yards lost per sack.",
+                        "displayName": "Average Sack Yards",
+                        "displayValue": "4.8",
+                        "name": "avgSackYards",
+                        "shortDisplayName": "YDS/SACK",
+                        "value": 4.75
+                    },
+                    {
+                        "abbreviation": "YDS/STF",
+                        "description": "The average number of yards lost per stuff.",
+                        "displayName": "Average Stuff Yards",
+                        "displayValue": "0.0",
+                        "name": "avgStuffYards",
+                        "shortDisplayName": "YDS/STF",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "BFGTD",
+                        "description": "The number of blocked field goals that were returned for a touchdown.",
+                        "displayName": "Block Field Goal Touchdown",
+                        "displayValue": "0",
+                        "name": "blockedFieldGoalTouchdowns",
+                        "shortDisplayName": "BFGTD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "BPTD",
+                        "description": "The number of blocked punts that were returned for touchdowns.",
+                        "displayName": "Blocked Punt Touchdowns",
+                        "displayValue": "0",
+                        "name": "blockedPuntTouchdowns",
+                        "shortDisplayName": "BPTD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TD",
+                        "description": "The number of touchdowns recorded on defense.",
+                        "displayName": "Defensive Touchdown",
+                        "displayValue": "0",
+                        "name": "defensiveTouchdowns",
+                        "shortDisplayName": "TD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "HUR",
+                        "description": "The number of times that the quarterback is hurried.",
+                        "displayName": "Hurries",
+                        "displayValue": "4",
+                        "name": "hurries",
+                        "shortDisplayName": "HUR",
+                        "value": 4.0
+                    },
+                    {
+                        "abbreviation": "KB",
+                        "description": "The number of times a kick was blocked.",
+                        "displayName": "Kicks Blocked",
+                        "displayValue": "0",
+                        "name": "kicksBlocked",
+                        "shortDisplayName": "KBLK",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "LNG",
+                        "description": "The amount of yards of the longest interception return.",
+                        "displayName": "Long Interception",
+                        "displayValue": "0",
+                        "name": "longInterception",
+                        "shortDisplayName": "LNGINT",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "MISCTD",
+                        "description": "The number of miscellaneous touchdowns.",
+                        "displayName": "Miscellaneous Touchdowns",
+                        "displayValue": "0",
+                        "name": "miscTouchdowns",
+                        "shortDisplayName": "MISCTD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "BATD",
+                        "description": "The number of passes that were batted down.",
+                        "displayName": "Passes Batted Down",
+                        "displayValue": "0",
+                        "name": "passesBattedDown",
+                        "shortDisplayName": "BATD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PD",
+                        "description": "The total number of passes defended.",
+                        "displayName": "Passes Defended",
+                        "displayValue": "2",
+                        "name": "passesDefended",
+                        "shortDisplayName": "Passes Defended",
+                        "value": 2.0
+                    },
+                    {
+                        "abbreviation": "QB HTS",
+                        "description": "The times the quarterback is hit.",
+                        "displayName": "Quarterback Hits",
+                        "displayValue": "0",
+                        "name": "QBHits",
+                        "shortDisplayName": "QB HTS",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "2PTR",
+                        "description": "The number of two point attempts that is returned by the defense.",
+                        "displayName": "Two Point Returns",
+                        "displayValue": "0",
+                        "name": "twoPtReturns",
+                        "shortDisplayName": "2PTR",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SACK",
+                        "description": "The total number of sacks.",
+                        "displayName": "Sacks",
+                        "displayValue": "4",
+                        "name": "sacks",
+                        "shortDisplayName": "Sacks",
+                        "value": 4.0
+                    },
+                    {
+                        "abbreviation": "SCKAST",
+                        "description": "The number of sacks that were assisted.",
+                        "displayName": "Sacks Assisted",
+                        "displayValue": "0",
+                        "name": "sacksAssisted",
+                        "shortDisplayName": "SCKAST",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "UASACK",
+                        "description": "The number of recorded sacks that were unassisted.",
+                        "displayName": "Sacks Unassisted",
+                        "displayValue": "0",
+                        "name": "sacksUnassisted",
+                        "shortDisplayName": "UASACK",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SCKYDS",
+                        "description": "The number of yards lost from sacks.",
+                        "displayName": "Sack Yards",
+                        "displayValue": "22",
+                        "name": "sackYards",
+                        "shortDisplayName": "SCKYDS",
+                        "value": 22.0
+                    },
+                    {
+                        "abbreviation": "SAFE",
+                        "description": "The number of times the offense is tackled in their own endzone.",
+                        "displayName": "Safeties",
+                        "displayValue": "0",
+                        "name": "safeties",
+                        "shortDisplayName": "SAFE",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SOLO",
+                        "description": "The number of times a tackle was made unassisted.",
+                        "displayName": "Solo Tackles",
+                        "displayValue": "34",
+                        "name": "soloTackles",
+                        "shortDisplayName": "SOLO",
+                        "value": 34.0
+                    },
+                    {
+                        "abbreviation": "STF",
+                        "description": "The number of times that a runner is stuffed at or behind the line of scrimmage.",
+                        "displayName": "Stuffs",
+                        "displayValue": "0",
+                        "name": "stuffs",
+                        "shortDisplayName": "STF",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "STFYDS",
+                        "description": "The number of yards lost from stuffs.",
+                        "displayName": "Stuff Yards",
+                        "displayValue": "0",
+                        "name": "stuffYards",
+                        "shortDisplayName": "STFYDS",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TFL",
+                        "description": "The number of tackles that result in a loss of yardage.",
+                        "displayName": "Tackles For Loss",
+                        "displayValue": "8",
+                        "name": "tacklesForLoss",
+                        "shortDisplayName": "TFL",
+                        "value": 8.0
+                    },
+                    {
+                        "abbreviation": "CMP",
+                        "description": "The number of yards lost from tackles for lost.",
+                        "displayName": "Tackles Yards Lost",
+                        "displayValue": "0",
+                        "name": "tacklesYardsLost",
+                        "shortDisplayName": "TYDSL",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "GP",
+                        "description": "The numbers of team games played.",
+                        "displayName": "Team Games Played",
+                        "displayValue": "1",
+                        "name": "teamGamesPlayed",
+                        "shortDisplayName": "GP",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "TOT",
+                        "description": "The total number of tackles.",
+                        "displayName": "Total Tackles",
+                        "displayValue": "46",
+                        "name": "totalTackles",
+                        "shortDisplayName": "Tackles",
+                        "value": 46.0
+                    },
+                    {
+                        "abbreviation": "YA",
+                        "description": "Yards allowed",
+                        "displayName": "Yards Allowed",
+                        "displayValue": "163",
+                        "name": "yardsAllowed",
+                        "shortDisplayName": "YA",
+                        "value": 163.0
+                    },
+                    {
+                        "abbreviation": "PA",
+                        "description": "Points allowed",
+                        "displayName": "Points Allowed",
+                        "displayValue": "0",
+                        "name": "pointsAllowed",
+                        "shortDisplayName": "PA",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "OPSM",
+                        "description": "One Point Safeties Made",
+                        "displayName": "One Point Safeties Made",
+                        "displayValue": "0",
+                        "name": "onePtSafetiesMade",
+                        "shortDisplayName": "OPSM",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "MFGRTD",
+                        "description": "The number of Missed Field Goal Return TD.",
+                        "displayName": "Missed Field Goal Return TD",
+                        "displayValue": "0",
+                        "name": "missedFieldGoalReturnTd",
+                        "shortDisplayName": "MFGRTD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "BPERTD",
+                        "description": "The number of Blocked Punt EZ Rec TD",
+                        "displayName": "Blocked Punt Ez Rec TD",
+                        "displayValue": "0",
+                        "name": "blockedPuntEzRecTd",
+                        "shortDisplayName": "BPERTD",
+                        "value": 0.0
+                    }
+                ],
+                "summary": ""
+            },
+            {
+                "abbreviation": "defint",
+                "athletes": [
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4429960?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4429960/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4432357?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4432357/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4684004?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4684004/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4685478?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4685478/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4693371?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4693371/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4696753?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4696753/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4709783?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4709783/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4814930?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4814930/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4837244?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4837244/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4868405?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4868405/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4873319?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4873319/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4873322?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4873322/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4878232?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4878232/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4880014?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4880014/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4915710?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4915710/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4917004?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4917004/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4923255?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4923255/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5125740?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5125740/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5142705?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5142705/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5146980?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5146980/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5154323?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5154323/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5196972?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5196972/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5218892?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5218892/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5297778?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5297778/statistics/0?lang=en&region=us"
+                        }
+                    }
+                ],
+                "displayName": "Defensive Interceptions",
+                "name": "defensiveInterceptions",
+                "shortDisplayName": "Defensive Interceptions",
+                "stats": [
+                    {
+                        "abbreviation": "INT",
+                        "description": "The total number of interceptions.",
+                        "displayName": "Interceptions",
+                        "displayValue": "0",
+                        "name": "interceptions",
+                        "shortDisplayName": "Interceptions",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TD",
+                        "description": "The number of times an interception is returned for a touchdown.",
+                        "displayName": "Interception Touchdowns",
+                        "displayValue": "0",
+                        "name": "interceptionTouchdowns",
+                        "shortDisplayName": "INTTD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "YDS",
+                        "description": "The number of yards gained after an interception.",
+                        "displayName": "Interception Yards",
+                        "displayValue": "0",
+                        "name": "interceptionYards",
+                        "shortDisplayName": "INTYDS",
+                        "value": 0.0
+                    }
+                ],
+                "summary": ""
+            },
+            {
+                "abbreviation": "kick",
+                "athletes": [
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5077223?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5077223/statistics/0?lang=en&region=us"
+                        }
+                    }
+                ],
+                "displayName": "Kicking",
+                "name": "kicking",
+                "shortDisplayName": "Kicking",
+                "stats": [
+                    {
+                        "abbreviation": "YDS/KR",
+                        "description": "The average number of yards per kickoff return.",
+                        "displayName": "Average Kickoff Return Yards",
+                        "displayValue": "0.0",
+                        "name": "avgKickoffReturnYards",
+                        "shortDisplayName": "YDS/KR",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "YDS/K",
+                        "description": "The average number of yards per kickoff.",
+                        "displayName": "Average Kickoff Yards",
+                        "displayValue": "0.0",
+                        "name": "avgKickoffYards",
+                        "shortDisplayName": "YDS/K",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "XPA",
+                        "description": "The number of extra point attempts.",
+                        "displayName": "Extra Point Attempts",
+                        "displayValue": "7",
+                        "name": "extraPointAttempts",
+                        "shortDisplayName": "XPA",
+                        "value": 7.0
+                    },
+                    {
+                        "abbreviation": "XP%",
+                        "description": "The percentage of extra point attempts that are converted.",
+                        "displayName": "Extra Point Percentage",
+                        "displayValue": "100.0",
+                        "name": "extraPointPct",
+                        "shortDisplayName": "XP%",
+                        "value": 100.0
+                    },
+                    {
+                        "abbreviation": "XPB",
+                        "description": "The number of extra points blocked.",
+                        "displayName": "Extra Point Blocked",
+                        "displayValue": "0",
+                        "name": "extraPointsBlocked",
+                        "shortDisplayName": "XPB",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "XPB%",
+                        "description": "The percentage of extra points attempts that are blocked.",
+                        "displayName": "Extra Points Blocked Percentage",
+                        "displayValue": "0",
+                        "name": "extraPointsBlockedPct",
+                        "shortDisplayName": "XPB%",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "XPM",
+                        "description": "The number of extra point attempts made.",
+                        "displayName": "Extra Points Made",
+                        "displayValue": "7",
+                        "name": "extraPointsMade",
+                        "shortDisplayName": "XPM",
+                        "value": 7.0
+                    },
+                    {
+                        "abbreviation": "FC",
+                        "description": "The number of fair catches.",
+                        "displayName": "Fair Catches",
+                        "displayValue": "0",
+                        "name": "fairCatches",
+                        "shortDisplayName": "FC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FC%",
+                        "description": "The percentage of kicks that are fair catches.",
+                        "displayName": "Fair Catch Percentage",
+                        "displayValue": "0.0",
+                        "name": "fairCatchPct",
+                        "shortDisplayName": "FC%",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FGA",
+                        "description": "The number of times a field goal is attempted.",
+                        "displayName": "Field Goal Attempts",
+                        "displayValue": "2",
+                        "name": "fieldGoalAttempts",
+                        "shortDisplayName": "FGA",
+                        "value": 2.0
+                    },
+                    {
+                        "abbreviation": "FGA 1-19",
+                        "description": "The number of field goals attempted from 1-19 yards.",
+                        "displayName": "Field Goal Attempts 1-19",
+                        "displayValue": "0",
+                        "name": "fieldGoalAttempts1_19",
+                        "shortDisplayName": "FGA 1-19",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FGA 20-29",
+                        "description": "The number of field goals attempted from 20-29 yards.",
+                        "displayName": "Field Goal Attempts 20-29",
+                        "displayValue": "1",
+                        "name": "fieldGoalAttempts20_29",
+                        "shortDisplayName": "FGA 20-29",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "FGA 30-39",
+                        "description": "The number of field goals attempted from 30-39 yards.",
+                        "displayName": "Field Goal Attempts 30-39",
+                        "displayValue": "1",
+                        "name": "fieldGoalAttempts30_39",
+                        "shortDisplayName": "FGA 30-39",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "FGA 40-49",
+                        "description": "The number of field goals attempted from 40-49 yards.",
+                        "displayName": "Field Goal Attempts 40-49",
+                        "displayValue": "0",
+                        "name": "fieldGoalAttempts40_49",
+                        "shortDisplayName": "FGA 40-49",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FGA 50-59",
+                        "description": "The number of field goals attempted from 50-59 yards.",
+                        "displayName": "Field Goal Attempts 50-59",
+                        "displayValue": "0",
+                        "name": "fieldGoalAttempts50_59",
+                        "shortDisplayName": "FGA 50-59",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FGA 60-99",
+                        "description": "The number of field goals attempted from 60-99 yards.",
+                        "displayName": "Field Goal Attempts 60-99",
+                        "displayValue": "0",
+                        "name": "fieldGoalAttempts60_99",
+                        "shortDisplayName": "FGA 60-99",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FGA 50+",
+                        "description": "The number of field goals attempted from 50+ yards.",
+                        "displayName": "Field Goal Attempts 50+",
+                        "displayValue": "0",
+                        "name": "fieldGoalAttempts50",
+                        "shortDisplayName": "FGA 50+",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FGAYDS",
+                        "description": "The number of yards for field goal attempts.",
+                        "displayName": "Field Goal Attempt Yards",
+                        "displayValue": "63",
+                        "name": "fieldGoalAttemptYards",
+                        "shortDisplayName": "FGAYDS",
+                        "value": 63.0
+                    },
+                    {
+                        "abbreviation": "FG%",
+                        "description": "The percentage of field goals attempted that are made.",
+                        "displayName": "Field Goal Percentage",
+                        "displayValue": "50.0",
+                        "name": "fieldGoalPct",
+                        "shortDisplayName": "FG%",
+                        "value": 50.0
+                    },
+                    {
+                        "abbreviation": "FGB",
+                        "description": "The number of field goals that are blocked.",
+                        "displayName": "Field Goals Blocked",
+                        "displayValue": "0",
+                        "name": "fieldGoalsBlocked",
+                        "shortDisplayName": "FGB",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "CMP",
+                        "description": "The percentage of field goals attempted that are blocked.",
+                        "displayName": "Field Goals Blocked Percentage",
+                        "displayValue": "0.0",
+                        "name": "fieldGoalsBlockedPct",
+                        "shortDisplayName": "FGB%",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FGM",
+                        "description": "The number of times a field goal is made.",
+                        "displayName": "Field Goal Made",
+                        "displayValue": "1",
+                        "name": "fieldGoalsMade",
+                        "shortDisplayName": "FGM",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "FGM 1-19",
+                        "description": "The number of field goals made from 1-19 yards.",
+                        "displayName": "Field Goals Made 1-19",
+                        "displayValue": "0",
+                        "name": "fieldGoalsMade1_19",
+                        "shortDisplayName": "FGM 1-19",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FGM 20-29",
+                        "description": "The number of field goals made from 20-29 yards.",
+                        "displayName": "Field Goals Made 20-29",
+                        "displayValue": "0",
+                        "name": "fieldGoalsMade20_29",
+                        "shortDisplayName": "FGM 20-29",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FGM 30-39",
+                        "description": "The number of field goals made from 30-39 yards.",
+                        "displayName": "Field Goals Made 30-39",
+                        "displayValue": "1",
+                        "name": "fieldGoalsMade30_39",
+                        "shortDisplayName": "FGM 30-39",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "FGM 40-49",
+                        "description": "The number of field goals made from 40-49 yards.",
+                        "displayName": "Field Goals Made 40-49",
+                        "displayValue": "0",
+                        "name": "fieldGoalsMade40_49",
+                        "shortDisplayName": "FGM 40-49",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FGM 50-59",
+                        "description": "The number of field goals made from 50-59 yards.",
+                        "displayName": "Field Goals Made 50-59",
+                        "displayValue": "0",
+                        "name": "fieldGoalsMade50_59",
+                        "shortDisplayName": "FGM 50-59",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FGM 60-99",
+                        "description": "The number of field goals made from 60-99 yards.",
+                        "displayName": "Field Goals Made 60-99",
+                        "displayValue": "0",
+                        "name": "fieldGoalsMade60_99",
+                        "shortDisplayName": "FGM 60-99",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "50+",
+                        "description": "The number of field goals made from 50+ yards.",
+                        "displayName": "Field Goals Made 50+",
+                        "displayValue": "0",
+                        "name": "fieldGoalsMade50",
+                        "shortDisplayName": "FGM 50+",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FGMYDS",
+                        "description": "The total amount of yardage of field goals made.",
+                        "displayName": "Field Goals Made Yards",
+                        "displayValue": "35",
+                        "name": "fieldGoalsMadeYards",
+                        "shortDisplayName": "FGMYDS",
+                        "value": 35.0
+                    },
+                    {
+                        "abbreviation": "FGMSYD",
+                        "description": "The total amount of yardage of missed field goals.",
+                        "displayName": "Field Goals Missed Yards",
+                        "displayValue": "28",
+                        "name": "fieldGoalsMissedYards",
+                        "shortDisplayName": "FGMSYD",
+                        "value": 28.0
+                    },
+                    {
+                        "abbreviation": "KOB",
+                        "description": "The number of times the ball is kicked out of bounds on a kickoff.",
+                        "displayName": "Kickoff Out of Bounds",
+                        "displayValue": "0",
+                        "name": "kickoffOB",
+                        "shortDisplayName": "KOB",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "KR",
+                        "description": "The number of times a kickoff was returned.",
+                        "displayName": "Kickoff Returns",
+                        "displayValue": "0",
+                        "name": "kickoffReturns",
+                        "shortDisplayName": "KR",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "KRTD",
+                        "description": "The number of times a kickoff was returned for a touchdown.",
+                        "displayName": "Kickoff Return Touchdowns",
+                        "displayValue": "0",
+                        "name": "kickoffReturnTouchdowns",
+                        "shortDisplayName": "KRTD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "KRYDS",
+                        "description": "The total amount of yardage of kick returns.",
+                        "displayName": "Kickoff Return Yards",
+                        "displayValue": "0",
+                        "name": "kickoffReturnYards",
+                        "shortDisplayName": "KRYDS",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "K",
+                        "description": "The number of kickoffs taken.",
+                        "displayName": "Kickoffs",
+                        "displayValue": "9",
+                        "name": "kickoffs",
+                        "shortDisplayName": "K",
+                        "value": 9.0
+                    },
+                    {
+                        "abbreviation": "KYDS",
+                        "description": "The total amount of yardage of kickoffs.",
+                        "displayName": "Kickoff Yards",
+                        "displayValue": "0",
+                        "name": "kickoffYards",
+                        "shortDisplayName": "KYDS",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "LFGA",
+                        "description": "The distance of the longest field goal attempt.",
+                        "displayName": "Long Field Goal Attempt",
+                        "displayValue": "35",
+                        "name": "longFieldGoalAttempt",
+                        "shortDisplayName": "LFGA",
+                        "value": 35.0
+                    },
+                    {
+                        "abbreviation": "LNG",
+                        "description": "The distance of the longest field goal made.",
+                        "displayName": "Long Field Goal Made",
+                        "displayValue": "35",
+                        "name": "longFieldGoalMade",
+                        "shortDisplayName": "LFGM",
+                        "value": 35.0
+                    },
+                    {
+                        "abbreviation": "LK",
+                        "description": "The distance of the longest kickoff.",
+                        "displayName": "Long Kickoff",
+                        "displayValue": "0",
+                        "name": "longKickoff",
+                        "shortDisplayName": "LK",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "GP",
+                        "description": "The numbers of team games played.",
+                        "displayName": "Team Games Played",
+                        "displayValue": "1",
+                        "name": "teamGamesPlayed",
+                        "shortDisplayName": "GP",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "PTS",
+                        "description": "The number of total points earned kicking.",
+                        "displayName": "Total Kicking Points",
+                        "displayValue": "10",
+                        "name": "totalKickingPoints",
+                        "shortDisplayName": "TP",
+                        "value": 10.0
+                    },
+                    {
+                        "abbreviation": "TB%",
+                        "description": "The percentage of kickoffs that are touchbacks.",
+                        "displayName": "Touchback Percentage",
+                        "displayValue": "100",
+                        "name": "touchbackPct",
+                        "shortDisplayName": "TB%",
+                        "value": 100.0
+                    },
+                    {
+                        "abbreviation": "TB",
+                        "description": "The number of kickoffs that result in touchbacks.",
+                        "displayName": "Touchbacks",
+                        "displayValue": "9",
+                        "name": "touchbacks",
+                        "shortDisplayName": "TB",
+                        "value": 9.0
+                    }
+                ],
+                "summary": ""
+            },
+            {
+                "abbreviation": "ret",
+                "athletes": [
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4814930?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/4814930/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5154323?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5154323/statistics/0?lang=en&region=us"
+                        }
+                    }
+                ],
+                "displayName": "Returning",
+                "name": "returning",
+                "shortDisplayName": "Returning",
+                "stats": [
+                    {
+                        "abbreviation": "DFR",
+                        "description": "The number of fumble returns.",
+                        "displayName": "Defensive Fumbles Returns",
+                        "displayValue": "1",
+                        "name": "defFumbleReturns",
+                        "shortDisplayName": "DFR",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "DFRYDS",
+                        "description": "The amount of total yardage from fumble returns.",
+                        "displayName": "Defensive Fumble Return Yards",
+                        "displayValue": "0",
+                        "name": "defFumbleReturnYards",
+                        "shortDisplayName": "DFRYDS",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FR",
+                        "description": "The number of fumble recoveries.",
+                        "displayName": "Fumble Recoveries",
+                        "displayValue": "1",
+                        "name": "fumbleRecoveries",
+                        "shortDisplayName": "FR",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "YDS",
+                        "description": "The amount of total yardage from fumble recoveries.",
+                        "displayName": "Fumble Recovery Yards",
+                        "displayValue": "0",
+                        "name": "fumbleRecoveryYards",
+                        "shortDisplayName": "FRYDS",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "KRFC",
+                        "description": "The number of kick return fair catches.",
+                        "displayName": "Kick Return Fair Catches",
+                        "displayValue": "0",
+                        "name": "kickReturnFairCatches",
+                        "shortDisplayName": "KRFC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "KRFC%",
+                        "description": "The percentage of kick returns that are fair caught.",
+                        "displayName": "Kick Return Fair Catch Percentage",
+                        "displayValue": "0.00",
+                        "name": "kickReturnFairCatchPct",
+                        "shortDisplayName": "KRFC%",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "KRF",
+                        "description": "The number of kick return fumbles.",
+                        "displayName": "Kick Return Fumbles",
+                        "displayValue": "0",
+                        "name": "kickReturnFumbles",
+                        "shortDisplayName": "KRF",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "KRFL",
+                        "description": "The number of kick return fumbles that are lost.",
+                        "displayName": "Kick Return Fumbles Lost",
+                        "displayValue": "0",
+                        "name": "kickReturnFumblesLost",
+                        "shortDisplayName": "KRFL",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "ATT",
+                        "description": "The number of kick returns.",
+                        "displayName": "Kick Returns",
+                        "displayValue": "0",
+                        "name": "kickReturns",
+                        "shortDisplayName": "KR",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TD",
+                        "description": "The number of kick return touchdowns.",
+                        "displayName": "Kick Return Touchdowns",
+                        "displayValue": "0",
+                        "name": "kickReturnTouchdowns",
+                        "shortDisplayName": "KRTD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "YDS",
+                        "description": "The total yardage of kick returns.",
+                        "displayName": "Kick Return Yards",
+                        "displayValue": "0",
+                        "name": "kickReturnYards",
+                        "shortDisplayName": "KRYDS",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "LNG",
+                        "description": "The longest kick return in yards.",
+                        "displayName": "Long Kick Return",
+                        "displayValue": "0",
+                        "name": "longKickReturn",
+                        "shortDisplayName": "LGKR",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "LNG",
+                        "description": "The longest punt return in yards.",
+                        "displayName": "Long Punt Return",
+                        "displayValue": "69",
+                        "name": "longPuntReturn",
+                        "shortDisplayName": "LGPR",
+                        "value": 69.0
+                    },
+                    {
+                        "abbreviation": "MFR",
+                        "description": "The number of fumble returns.",
+                        "displayName": "Miscellaneous Fumbles Returns",
+                        "displayValue": "0",
+                        "name": "miscFumbleReturns",
+                        "shortDisplayName": "MFR",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "MFRYDS",
+                        "description": "The amount of total yardage from fumble returns.",
+                        "displayName": "Miscellaneous Fumble Return Yards",
+                        "displayValue": "0",
+                        "name": "miscFumbleReturnYards",
+                        "shortDisplayName": "MFRYDS",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "OPFR",
+                        "description": "The number of fumble recoveries by the opposition.",
+                        "displayName": "Opposition Fumble Recoveries",
+                        "displayValue": "1",
+                        "name": "oppFumbleRecoveries",
+                        "shortDisplayName": "OPFR",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "OFRYDS",
+                        "description": "The amount of total yardage from fumble recoveries by the opposition.",
+                        "displayName": "Opposition Fumble Recovery Yards",
+                        "displayValue": "0",
+                        "name": "oppFumbleRecoveryYards",
+                        "shortDisplayName": "OFRYDS",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "OPSTFR",
+                        "description": "The number of fumble returns by the opposition's speical teams.",
+                        "displayName": "Opposition Special Team Fumble Returns",
+                        "displayValue": "0",
+                        "name": "oppSpecialTeamFumbleReturns",
+                        "shortDisplayName": "OPSTFR",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "OFRYDS",
+                        "description": "The amount of total yardage from fumble return by the opposition's special teams.",
+                        "displayName": "Opposition Special Team Fumble Return Yards",
+                        "displayValue": "0",
+                        "name": "oppSpecialTeamFumbleReturnYards",
+                        "shortDisplayName": "OSFRYD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FC",
+                        "description": "The number of punt return fair catches.",
+                        "displayName": "Punt Return Fair Catches",
+                        "displayValue": "0",
+                        "name": "puntReturnFairCatches",
+                        "shortDisplayName": "PRFC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PRFC%",
+                        "description": "The percentage of kick returns that are fair caught.",
+                        "displayName": "Punt Return Fair Catch Percentage",
+                        "displayValue": "0.00",
+                        "name": "puntReturnFairCatchPct",
+                        "shortDisplayName": "PRFC%",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PRF",
+                        "description": "The number of punt return fumbles.",
+                        "displayName": "Punt Return Fumbles",
+                        "displayValue": "0",
+                        "name": "puntReturnFumbles",
+                        "shortDisplayName": "PRF",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PRFL",
+                        "description": "The number of punt return fumbles that are lost.",
+                        "displayName": "Punt Return Fumbles Lost",
+                        "displayValue": "0",
+                        "name": "puntReturnFumblesLost",
+                        "shortDisplayName": "PRFL",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "ATT",
+                        "description": "The number of punt returns.",
+                        "displayName": "Punt Returns",
+                        "displayValue": "4",
+                        "name": "puntReturns",
+                        "shortDisplayName": "PR",
+                        "value": 4.0
+                    },
+                    {
+                        "abbreviation": "PR 10",
+                        "description": "The number of punt returns started inside the 10.",
+                        "displayName": "Punt Returns Started Inside the 10",
+                        "displayValue": "0",
+                        "name": "puntReturnsStartedInsideThe10",
+                        "shortDisplayName": "PR 10",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PR 20",
+                        "description": "The number of punt returns started inside the 20.",
+                        "displayName": "Punt Returns Started Inside the 20",
+                        "displayValue": "0",
+                        "name": "puntReturnsStartedInsideThe20",
+                        "shortDisplayName": "PR 20",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TD",
+                        "description": "The number of punt return touchdowns.",
+                        "displayName": "Punt Return Touchdowns",
+                        "displayValue": "1",
+                        "name": "puntReturnTouchdowns",
+                        "shortDisplayName": "PRTD",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "YDS",
+                        "description": "The total yardage of punt returns.",
+                        "displayName": "Punt Return Yards",
+                        "displayValue": "133",
+                        "name": "puntReturnYards",
+                        "shortDisplayName": "PRYDS",
+                        "value": 133.0
+                    },
+                    {
+                        "abbreviation": "STFR",
+                        "description": "The number of special team fumble returns.",
+                        "displayName": "Special Team Fumbles Returns",
+                        "displayValue": "0",
+                        "name": "specialTeamFumbleReturns",
+                        "shortDisplayName": "STFR",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "STFRYD",
+                        "description": "The amount of total yardage from special team fumble returns.",
+                        "displayName": "Special Team Fumble Return Yards",
+                        "displayValue": "0",
+                        "name": "specialTeamFumbleReturnYards",
+                        "shortDisplayName": "STFRYD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "GP",
+                        "description": "The numbers of team games played.",
+                        "displayName": "Team Games Played",
+                        "displayValue": "1",
+                        "name": "teamGamesPlayed",
+                        "shortDisplayName": "GP",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "AVG",
+                        "description": "The average number of yards per kick return.",
+                        "displayName": "Yards Per Kick Return",
+                        "displayValue": "0.0",
+                        "name": "yardsPerKickReturn",
+                        "shortDisplayName": "YDS/KR",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "AVG",
+                        "description": "The average number of yards per punt return.",
+                        "displayName": "Yards Per Punt Return",
+                        "displayValue": "33.3",
+                        "name": "yardsPerPuntReturn",
+                        "shortDisplayName": "YDS/PR",
+                        "value": 33.25
+                    },
+                    {
+                        "abbreviation": "YDS/R",
+                        "description": "The average number of yards per return.",
+                        "displayName": "Yards Per Return",
+                        "displayValue": "33.3",
+                        "name": "yardsPerReturn",
+                        "shortDisplayName": "YDS/R",
+                        "value": 33.25
+                    }
+                ],
+                "summary": ""
+            },
+            {
+                "abbreviation": "punt",
+                "athletes": [
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5120369?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/401752795/competitions/401752795/competitors/356/roster/5120369/statistics/0?lang=en&region=us"
+                        }
+                    }
+                ],
+                "displayName": "Punting",
+                "name": "punting",
+                "shortDisplayName": "Punting",
+                "stats": [
+                    {
+                        "abbreviation": "AVG",
+                        "description": "The average number of yards per punt return.",
+                        "displayName": "Average Punt Return Yards",
+                        "displayValue": "33.3",
+                        "name": "avgPuntReturnYards",
+                        "shortDisplayName": "YDS/PPR",
+                        "value": 33.25
+                    },
+                    {
+                        "abbreviation": "FC",
+                        "description": "The number of fair catches.",
+                        "displayName": "Fair Catches",
+                        "displayValue": "0",
+                        "name": "fairCatches",
+                        "shortDisplayName": "FC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "AVG",
+                        "description": "The average gross number of yards per punt.",
+                        "displayName": "Gross Average Punt Yards",
+                        "displayValue": "29.0",
+                        "name": "grossAvgPuntYards",
+                        "shortDisplayName": "GYDS/P",
+                        "value": 29.0
+                    },
+                    {
+                        "abbreviation": "LNG",
+                        "description": "The distance of the longest punt.",
+                        "displayName": "Long Punt",
+                        "displayValue": "29",
+                        "name": "longPunt",
+                        "shortDisplayName": "LP",
+                        "value": 29.0
+                    },
+                    {
+                        "abbreviation": "NET",
+                        "description": "The average net number of yards per punt.",
+                        "displayName": "Net Average Punt Yards",
+                        "displayValue": "29.0",
+                        "name": "netAvgPuntYards",
+                        "shortDisplayName": "NYDS/P",
+                        "value": 29.0
+                    },
+                    {
+                        "abbreviation": "ATT",
+                        "description": "The number of times a punt was returned.",
+                        "displayName": "Punt Returns",
+                        "displayValue": "4",
+                        "name": "puntReturns",
+                        "shortDisplayName": "PR",
+                        "value": 4.0
+                    },
+                    {
+                        "abbreviation": "YDS",
+                        "description": "The total amount of yardage of punt returns.",
+                        "displayName": "Punt Return Yards",
+                        "displayValue": "133",
+                        "name": "puntReturnYards",
+                        "shortDisplayName": "PRYDS",
+                        "value": 133.0
+                    },
+                    {
+                        "abbreviation": "PUNTS",
+                        "description": "The number of punts taken.",
+                        "displayName": "Punts",
+                        "displayValue": "1",
+                        "name": "punts",
+                        "shortDisplayName": "P",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "PBLK",
+                        "description": "The number of times a punt was blocked.",
+                        "displayName": "Punts Blocked",
+                        "displayValue": "0",
+                        "name": "puntsBlocked",
+                        "shortDisplayName": "PBLK",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PBLK%",
+                        "description": "The percentage of punts that are blocked.",
+                        "displayName": "Punts Blocked Percentage",
+                        "displayValue": "0.00",
+                        "name": "puntsBlockedPct",
+                        "shortDisplayName": "PBLK%",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "P 10",
+                        "description": "The number of times a punt is downed inside the 10.",
+                        "displayName": "Punts Inside 10",
+                        "displayValue": "0",
+                        "name": "puntsInside10",
+                        "shortDisplayName": "P 10",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "P 10%",
+                        "description": "The percentage of punts that end up inside the 10.",
+                        "displayName": "Punts Inside 10 Percentage",
+                        "displayValue": "0.00",
+                        "name": "puntsInside10Pct",
+                        "shortDisplayName": "P 10%",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "IN20",
+                        "description": "The number of times a punt is downed inside the 20.",
+                        "displayName": "Punts Inside 20",
+                        "displayValue": "0",
+                        "name": "puntsInside20",
+                        "shortDisplayName": "P 20",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "IN20%",
+                        "description": "The percentage of punts that end up inside the 10.",
+                        "displayName": "Punts Inside 20 Percentage",
+                        "displayValue": "0.00",
+                        "name": "puntsInside20Pct",
+                        "shortDisplayName": "P 10%",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "P 50+",
+                        "description": "The number of times a punt goes over 50 yards.",
+                        "displayName": "Punts Over 50",
+                        "displayValue": "0",
+                        "name": "puntsOver50",
+                        "shortDisplayName": "P 50+",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "YDS",
+                        "description": "The total amount of yardage of punts.",
+                        "displayName": "Punt Yards",
+                        "displayValue": "29",
+                        "name": "puntYards",
+                        "shortDisplayName": "PYDS",
+                        "value": 29.0
+                    },
+                    {
+                        "abbreviation": "GP",
+                        "description": "The numbers of team games played.",
+                        "displayName": "Team Games Played",
+                        "displayValue": "1",
+                        "name": "teamGamesPlayed",
+                        "shortDisplayName": "GP",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "TB%",
+                        "description": "The percentage of punts that are touchbacks.",
+                        "displayName": "Touchback Percentage",
+                        "displayValue": "0.00",
+                        "name": "touchbackPct",
+                        "shortDisplayName": "TB%",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TB",
+                        "description": "The number of kickoffs that result in touchbacks.",
+                        "displayName": "Touchbacks",
+                        "displayValue": "0",
+                        "name": "touchbacks",
+                        "shortDisplayName": "TB",
+                        "value": 0.0
+                    }
+                ],
+                "summary": ""
+            },
+            {
+                "abbreviation": "s",
+                "displayName": "Scoring",
+                "name": "scoring",
+                "shortDisplayName": "Scoring",
+                "stats": [
+                    {
+                        "abbreviation": "DP",
+                        "description": "The number of points scored on defense.",
+                        "displayName": "Defensive Points",
+                        "displayValue": "0",
+                        "name": "defensivePoints",
+                        "shortDisplayName": "DP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FG",
+                        "description": "The number of field goals made.",
+                        "displayName": "Field Goals",
+                        "displayValue": "1",
+                        "name": "fieldGoals",
+                        "shortDisplayName": "FG",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "PAT",
+                        "description": "The number of extra points made.",
+                        "displayName": "Kick Extra Points",
+                        "displayValue": "7",
+                        "name": "kickExtraPoints",
+                        "shortDisplayName": "XP",
+                        "value": 7.0
+                    },
+                    {
+                        "abbreviation": "XPM",
+                        "description": "The number of extra points made.",
+                        "displayName": "Kick Extra Points Made",
+                        "displayValue": "7",
+                        "name": "kickExtraPointsMade",
+                        "shortDisplayName": "XPM",
+                        "value": 7.0
+                    },
+                    {
+                        "abbreviation": "MISP",
+                        "description": "The number of miscellaneous points scored.",
+                        "displayName": "Miscellaneous Points",
+                        "displayValue": "0",
+                        "name": "miscPoints",
+                        "shortDisplayName": "MISP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PASS",
+                        "description": "The total number of passing touchdowns.",
+                        "displayName": "Passing Touchdowns",
+                        "displayValue": "3",
+                        "name": "passingTouchdowns",
+                        "shortDisplayName": "Touchdowns",
+                        "value": 3.0
+                    },
+                    {
+                        "abbreviation": "REC",
+                        "description": "The total number of receiving touchdowns.",
+                        "displayName": "Receiving Touchdowns",
+                        "displayValue": "3",
+                        "name": "receivingTouchdowns",
+                        "shortDisplayName": "RECTD",
+                        "value": 3.0
+                    },
+                    {
+                        "abbreviation": "RET",
+                        "description": "The total number of return touchdowns.",
+                        "displayName": "Return Touchdowns",
+                        "displayValue": "1",
+                        "name": "returnTouchdowns",
+                        "shortDisplayName": "RETTD",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "RUSH",
+                        "description": "The total number of rushing touchdowns.",
+                        "displayName": "Rushing Touchdowns",
+                        "displayValue": "3",
+                        "name": "rushingTouchdowns",
+                        "shortDisplayName": "RUSTD",
+                        "value": 3.0
+                    },
+                    {
+                        "abbreviation": "PTS",
+                        "description": "The number of total points scored.",
+                        "displayName": "Total Points",
+                        "displayValue": "52",
+                        "name": "totalPoints",
+                        "shortDisplayName": "TP",
+                        "value": 52.0
+                    },
+                    {
+                        "abbreviation": "TP/G",
+                        "description": "The number of points scored per game.",
+                        "displayName": "Total Points Per Game",
+                        "displayValue": "7.4",
+                        "name": "totalPointsPerGame",
+                        "shortDisplayName": "TP/G",
+                        "value": 7.429
+                    },
+                    {
+                        "abbreviation": "TD",
+                        "description": "The number of touchdowns scored in total.",
+                        "displayName": "Total Touchdowns",
+                        "displayValue": "7",
+                        "name": "totalTouchdowns",
+                        "shortDisplayName": "TTD",
+                        "value": 7.0
+                    },
+                    {
+                        "abbreviation": "2PT",
+                        "description": "The number of times a 2-point conversion is successful.",
+                        "displayName": "Total Two Point Conversions",
+                        "displayValue": "0",
+                        "name": "totalTwoPointConvs",
+                        "shortDisplayName": "2PTC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "2PTPC",
+                        "description": "The number of times a 2-point conversion is successful with a pass.",
+                        "displayName": "Two Point Pass Conversions",
+                        "displayValue": "0",
+                        "name": "twoPointPassConvs",
+                        "shortDisplayName": "2PTPC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "2PTRCC",
+                        "description": "The number of times a 2-point is converted with a reception.",
+                        "displayName": "Two Point Receiving Conversion",
+                        "displayValue": "0",
+                        "name": "twoPointRecConvs",
+                        "shortDisplayName": "2PTRCC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "2PTRUC",
+                        "description": "The number of times a 2-point is converted with a run.",
+                        "displayName": "Two Point Rush Conversion",
+                        "displayValue": "0",
+                        "name": "twoPointRushConvs",
+                        "shortDisplayName": "2PTRUC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "OPSM",
+                        "description": "One Point Safeties Made",
+                        "displayName": "One Point Safeties Made",
+                        "displayValue": "0",
+                        "name": "onePtSafetiesMade",
+                        "shortDisplayName": "OPSM",
+                        "value": 0.0
+                    }
+                ],
+                "summary": ""
+            },
+            {
+                "abbreviation": "misc",
+                "displayName": "Miscellaneous",
+                "name": "miscellaneous",
+                "shortDisplayName": "Miscellaneous",
+                "stats": [
+                    {
+                        "abbreviation": "CMP",
+                        "description": "The the number of first downs.",
+                        "displayName": "Total 1st downs",
+                        "displayValue": "21",
+                        "name": "firstDowns",
+                        "shortDisplayName": "FIRST",
+                        "value": 21.0
+                    },
+                    {
+                        "abbreviation": "FDP",
+                        "description": "The number of times a pass results in a first down.",
+                        "displayName": "Passing 1st downs",
+                        "displayValue": "9",
+                        "name": "firstDownsPassing",
+                        "shortDisplayName": "FDP",
+                        "value": 9.0
+                    },
+                    {
+                        "abbreviation": "FDPEN",
+                        "description": "The number of times a penalty results in a first down.",
+                        "displayName": "1st downs by penalty",
+                        "displayValue": "2",
+                        "name": "firstDownsPenalty",
+                        "shortDisplayName": "FDPEN",
+                        "value": 2.0
+                    },
+                    {
+                        "abbreviation": "FD/G",
+                        "description": "The average number of first downs per game.",
+                        "displayName": "First Downs Per Game",
+                        "displayValue": "21.00",
+                        "name": "firstDownsPerGame",
+                        "shortDisplayName": "FD/G",
+                        "value": 21.0
+                    },
+                    {
+                        "abbreviation": "FDR",
+                        "description": "The number of times a rush results in a first down.",
+                        "displayName": "Rushing 1st downs",
+                        "displayValue": "10",
+                        "name": "firstDownsRushing",
+                        "shortDisplayName": "FDR",
+                        "value": 10.0
+                    },
+                    {
+                        "abbreviation": "FDA",
+                        "description": "The number of attempts at getting a first down.",
+                        "displayName": "First Downs Attempts",
+                        "displayValue": "2",
+                        "name": "fourthDownAttempts",
+                        "shortDisplayName": "FDA",
+                        "value": 2.0
+                    },
+                    {
+                        "abbreviation": "4THC%",
+                        "description": "The percentage of fourth down attempts that are converted.",
+                        "displayName": "4th down %",
+                        "displayValue": "100.00",
+                        "name": "fourthDownConvPct",
+                        "shortDisplayName": "4THC%",
+                        "value": 100.0
+                    },
+                    {
+                        "abbreviation": "4THC",
+                        "description": "The number of times a fourth down is converted.",
+                        "displayName": "Fourth Down Conversions",
+                        "displayValue": "2",
+                        "name": "fourthDownConvs",
+                        "shortDisplayName": "4THC",
+                        "value": 2.0
+                    },
+                    {
+                        "abbreviation": "POSS",
+                        "description": "The total time of possession in seconds.",
+                        "displayName": "Possession Time Seconds",
+                        "displayValue": "1962",
+                        "name": "possessionTimeSeconds",
+                        "shortDisplayName": "POSS",
+                        "value": 1962.0
+                    },
+                    {
+                        "abbreviation": "RZP",
+                        "description": "The number of points scored from red zone attempts.",
+                        "displayName": "Redzone Attempt Points",
+                        "displayValue": "0",
+                        "name": "redzoneAttemptPoints",
+                        "shortDisplayName": "RZP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RZA",
+                        "description": "The number of times the team gets in the red zone.",
+                        "displayName": "Red Zone Attempts",
+                        "displayValue": "7",
+                        "name": "redzoneAttempts",
+                        "shortDisplayName": "RZA",
+                        "value": 7.0
+                    },
+                    {
+                        "abbreviation": "RZC",
+                        "description": "The number of times the team scores in the red zone.",
+                        "displayName": "Red Zone Conversion",
+                        "displayValue": "5",
+                        "name": "redzoneConversion",
+                        "shortDisplayName": "RZC",
+                        "value": 5.0
+                    },
+                    {
+                        "abbreviation": "CMP",
+                        "description": "The percentage of red zone attempts that are converted.",
+                        "displayName": "Red Zone Efficiency Percentage",
+                        "displayValue": "57.14",
+                        "name": "redzoneEfficiencyPct",
+                        "shortDisplayName": "RZ%",
+                        "value": 57.14
+                    },
+                    {
+                        "abbreviation": "RZD",
+                        "description": "The times a red zone trip ends on downs.",
+                        "displayName": "Red Zone End Downs",
+                        "displayValue": "0",
+                        "name": "redzoneEndDowns",
+                        "shortDisplayName": "RZD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RZG",
+                        "description": "The times a red zone trip ends with the end of the game.",
+                        "displayName": "Red Zone End Game",
+                        "displayValue": "0",
+                        "name": "redzoneEndGame",
+                        "shortDisplayName": "RZG",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RZH",
+                        "description": "The times a red zone trip ends with the end of the half.",
+                        "displayName": "Red Zone End Half",
+                        "displayValue": "0",
+                        "name": "redzoneEndHalf",
+                        "shortDisplayName": "RZH",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RZFG%",
+                        "description": "The percentage of red zone trips that end in a field goal.",
+                        "displayName": "Red Zone Field Goal Percentage",
+                        "displayValue": "0.00",
+                        "name": "redzoneFieldGoalPct",
+                        "shortDisplayName": "RZFG%",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RZFGP",
+                        "description": "The number of points scored in the red zone from field goals.",
+                        "displayName": "Red Zone Field Goal Points",
+                        "displayValue": "0",
+                        "name": "redzoneFieldGoalPoints",
+                        "shortDisplayName": "RZFGP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RZFG",
+                        "description": "The number of red zone trips that resulted in field goals.",
+                        "displayName": "Red Zone Field Goals",
+                        "displayValue": "0",
+                        "name": "redzoneFieldGoals",
+                        "shortDisplayName": "RZFG",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RZFGM",
+                        "description": "The number of red zone trips that resulted in a missed field goal.",
+                        "displayName": "Red Zone Field Goals Missed",
+                        "displayValue": "0",
+                        "name": "redzoneFieldGoalsMissed",
+                        "shortDisplayName": "RZFGM",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RZF",
+                        "description": "The number of red zone fumbles.",
+                        "displayName": "Red Zone Fumble",
+                        "displayValue": "0",
+                        "name": "redzoneFumble",
+                        "shortDisplayName": "RZF",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RZINT",
+                        "description": "The number of red zone interceptions.",
+                        "displayName": "Red Zone Interception",
+                        "displayValue": "0",
+                        "name": "redzoneInterception",
+                        "shortDisplayName": "RZINT",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RZ%",
+                        "description": "The percentage of red zone trips that result in a score.",
+                        "displayName": "Red Zone Scoring Percentage",
+                        "displayValue": "71.43",
+                        "name": "redzoneScoringPct",
+                        "shortDisplayName": "RZ%",
+                        "value": 71.43
+                    },
+                    {
+                        "abbreviation": "RZTP",
+                        "description": "The number of total points scored in the red zone.",
+                        "displayName": "Red Total Points",
+                        "displayValue": "0",
+                        "name": "redzoneTotalPoints",
+                        "shortDisplayName": "RZTP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RZTDP",
+                        "description": "The number of red zone touchdown passes.",
+                        "displayName": "Red Zone Touchdown Pass",
+                        "displayValue": "0",
+                        "name": "redzoneTouchdownPass",
+                        "shortDisplayName": "RZTDP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RZTD%",
+                        "description": "The percentage of red zone trips that result in a touchdown.",
+                        "displayName": "Red Zone Touchdown Percentage",
+                        "displayValue": "0.00",
+                        "name": "redzoneTouchdownPct",
+                        "shortDisplayName": "RZTD%",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RZTDPT",
+                        "description": "The number of points scored from red zone touchdowns.",
+                        "displayName": "Red Zone Touchdown Points",
+                        "displayValue": "0",
+                        "name": "redzoneTouchdownPoints",
+                        "shortDisplayName": "RZTDPT",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RZTDR",
+                        "description": "The number of red zone touchdowns scored from a run.",
+                        "displayName": "Red Zone Touchdown Rush",
+                        "displayValue": "0",
+                        "name": "redzoneTouchdownRush",
+                        "shortDisplayName": "RZTDR",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RZTD",
+                        "description": "The number of touchdown scored in the red zone.",
+                        "displayName": "Red Zone Touchdowns",
+                        "displayValue": "0",
+                        "name": "redzoneTouchdowns",
+                        "shortDisplayName": "RZTD",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "3RDA",
+                        "description": "The number of 3rd down attempts.",
+                        "displayName": "Third Down Attempts",
+                        "displayValue": "9",
+                        "name": "thirdDownAttempts",
+                        "shortDisplayName": "3RDA",
+                        "value": 9.0
+                    },
+                    {
+                        "abbreviation": "3RDC%",
+                        "description": "The percentage of 3rd downs that are converted.",
+                        "displayName": "3rd down %",
+                        "displayValue": "44.44",
+                        "name": "thirdDownConvPct",
+                        "shortDisplayName": "3RDC%",
+                        "value": 44.444
+                    },
+                    {
+                        "abbreviation": "3RDC",
+                        "description": "The number of 3rd down conversions.",
+                        "displayName": "Third Down Conversions",
+                        "displayValue": "4",
+                        "name": "thirdDownConvs",
+                        "shortDisplayName": "3RDC",
+                        "value": 4.0
+                    },
+                    {
+                        "abbreviation": "TOU",
+                        "description": "The number of timeouts used.",
+                        "displayName": "Timeouts Used",
+                        "displayValue": "0",
+                        "name": "timeoutsUsed",
+                        "shortDisplayName": "TOU",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TGV",
+                        "description": "The total number of giveaways.",
+                        "displayName": "Total Giveaways",
+                        "displayValue": "0",
+                        "name": "totalGiveaways",
+                        "shortDisplayName": "TGV",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TPEN",
+                        "description": "The total number of total penalties.",
+                        "displayName": "Total Penalties",
+                        "displayValue": "5",
+                        "name": "totalPenalties",
+                        "shortDisplayName": "TPEN",
+                        "value": 5.0
+                    },
+                    {
+                        "abbreviation": "TPY",
+                        "description": "The total number of penalty yards.",
+                        "displayName": "Total Penalty Yards",
+                        "displayValue": "60",
+                        "name": "totalPenaltyYards",
+                        "shortDisplayName": "TPY",
+                        "value": 60.0
+                    },
+                    {
+                        "abbreviation": "TPLY",
+                        "description": "The total number of plays run.",
+                        "displayName": "Total Plays",
+                        "displayValue": "59",
+                        "name": "totalPlays",
+                        "shortDisplayName": "TPLY",
+                        "value": 59.0
+                    },
+                    {
+                        "abbreviation": "TT",
+                        "description": "The total number of takeaways.",
+                        "displayName": "Total Takeaways",
+                        "displayValue": "1",
+                        "name": "totalTakeaways",
+                        "shortDisplayName": "TT",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "D",
+                        "description": "The total number of drives.",
+                        "displayName": "Total Drives",
+                        "displayValue": "10",
+                        "name": "totalDrives",
+                        "shortDisplayName": "D",
+                        "value": 10.0
+                    },
+                    {
+                        "abbreviation": "DIFF",
+                        "description": "Difference between take-aways and give-aways",
+                        "displayName": "Turnover Ratio",
+                        "displayValue": "1",
+                        "name": "turnOverDifferential",
+                        "shortDisplayName": "DIFF",
+                        "value": 1.0
+                    }
+                ],
+                "summary": ""
+            }
+        ],
+        "id": "0",
+        "name": "Season"
+    },
+    "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/teams/356?lang=en&region=us"
+    }
+}

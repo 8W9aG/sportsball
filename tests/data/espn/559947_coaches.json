@@ -1,0 +1,24 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/coaches/559947?lang=en&region=us",
+    "experience": 7,
+    "firstName": "Bret",
+    "id": "559947",
+    "lastName": "Bielema",
+    "person": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/coaches/559947?lang=en&region=us"
+    },
+    "records": [
+        {
+            "record": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/types/2/coaches/559947/record?lang=en&region=us"
+            },
+            "team": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/teams/356?lang=en&region=us"
+            }
+        }
+    ],
+    "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/teams/356?lang=en&region=us"
+    },
+    "uid": "s:20~l:23~co:559947"
+}

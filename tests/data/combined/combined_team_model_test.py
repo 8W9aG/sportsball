@@ -897,6 +897,11 @@ class TestCombinedTeamModel(unittest.TestCase):
                 qbr=None,
                 attempts_out_box=None,
                 adjusted_qbr=None,
+                turnover_points=None,
+                fantasy_rating=None,
+                team_turnovers=None,
+                second_chance_points=None,
+                fast_break_points=None,
             )]
             team_models = [TeamModel(
                 identifier="a",
@@ -1532,6 +1537,8 @@ class TestCombinedTeamModel(unittest.TestCase):
                 power_play_saves=None,
                 short_handed_saves=None,
                 time_on_ice=None,
+                total_giveaways=None,
+                total_takeaways=None,
                 version=VERSION,
             )]
             team_model = create_combined_team_model(
@@ -2416,6 +2423,11 @@ class TestCombinedTeamModel(unittest.TestCase):
                 qbr=None,
                 attempts_out_box=None,
                 adjusted_qbr=None,
+                turnover_points=None,
+                fantasy_rating=None,
+                team_turnovers=None,
+                second_chance_points=None,
+                fast_break_points=None,
             )]
             team_models_2 = [TeamModel(
                 identifier="a",
@@ -3051,6 +3063,8 @@ class TestCombinedTeamModel(unittest.TestCase):
                 power_play_saves=None,
                 short_handed_saves=None,
                 time_on_ice=None,
+                total_giveaways=None,
+                total_takeaways=None,
                 version=VERSION,
             )]
             team_model_2 = create_combined_team_model(
@@ -3944,6 +3958,11 @@ class TestCombinedTeamModel(unittest.TestCase):
                 qbr=None,
                 attempts_out_box=None,
                 adjusted_qbr=None,
+                turnover_points=None,
+                fantasy_rating=None,
+                team_turnovers=None,
+                second_chance_points=None,
+                fast_break_points=None,
             )]
             team_models = [TeamModel(
                 identifier="a",
@@ -4579,6 +4598,8 @@ class TestCombinedTeamModel(unittest.TestCase):
                 power_play_saves=None,
                 short_handed_saves=None,
                 time_on_ice=None,
+                total_giveaways=None,
+                total_takeaways=None,
                 version=VERSION,
             )]
             team_model = create_combined_team_model(
@@ -5463,6 +5484,11 @@ class TestCombinedTeamModel(unittest.TestCase):
                 qbr=None,
                 attempts_out_box=None,
                 adjusted_qbr=None,
+                turnover_points=None,
+                fantasy_rating=None,
+                team_turnovers=None,
+                second_chance_points=None,
+                fast_break_points=None,
             )]
             team_models_2 = [TeamModel(
                 identifier="a",
@@ -6098,6 +6124,8 @@ class TestCombinedTeamModel(unittest.TestCase):
                 power_play_saves=None,
                 short_handed_saves=None,
                 time_on_ice=None,
+                total_giveaways=None,
+                total_takeaways=None,
                 version=VERSION,
             )]
             team_model_2 = create_combined_team_model(
@@ -6759,6 +6787,8 @@ class TestCombinedTeamModel(unittest.TestCase):
             power_play_saves=None,
             short_handed_saves=None,
             time_on_ice=None,
+            total_giveaways=None,
+            total_takeaways=None,
             version=VERSION,
         )]
         team_model = create_combined_team_model(
@@ -7405,6 +7435,8 @@ class TestCombinedTeamModel(unittest.TestCase):
             power_play_saves=None,
             short_handed_saves=None,
             time_on_ice=None,
+            total_giveaways=None,
+            total_takeaways=None,
             version=VERSION,
         )]
         next_team_model = create_combined_team_model(

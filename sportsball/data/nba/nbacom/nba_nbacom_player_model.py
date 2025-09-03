@@ -884,4 +884,9 @@ def create_nba_nbacom_player_model(player_dict: dict[str, Any]) -> PlayerModel:
         qbr=None,
         attempts_out_box=None,
         adjusted_qbr=None,
+        turnover_points=None,
+        fantasy_rating=None,
+        team_turnovers=None,
+        second_chance_points=None,
+        fast_break_points=None,
     )
