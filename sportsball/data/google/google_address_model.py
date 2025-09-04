@@ -76,15 +76,6 @@ TARGET_CENTER = SportsballGeocodeTuple(
     housenumber="600",
     country="USA",
 )
-GOLDEN_1_CENTER = SportsballGeocodeTuple(
-    city="Sacramento",
-    state="CA",
-    postal="",
-    lat=38.580361,
-    lng=-121.499611,
-    housenumber="500",
-    country="USA",
-)
 ATT_CENTER = SportsballGeocodeTuple(
     city="San Antonio",
     state="TX",
@@ -371,15 +362,6 @@ HARRAHS_CHEROKEE_CENTER = SportsballGeocodeTuple(
     lat=35.597547,
     lng=-82.555384,
     housenumber="87",
-    country="USA",
-)
-CAREFIRST_ARENA = SportsballGeocodeTuple(
-    city="Washington",
-    state="DC",
-    postal="",
-    lat=38.846972,
-    lng=-76.991444,
-    housenumber="1100",
     country="USA",
 )
 FORD_CENTER_AT_THE_STAR = SportsballGeocodeTuple(
@@ -3812,10 +3794,8 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
     "Fiserv Forum - Milwaukee, Wisconsin - United States": FISERV_FORUM,
     "Crypto.com Arena - Los Angeles, California, USA - United States": STAPLES_CENTRE,
-    "Golden 1 Center - Sacramento, California - United States": GOLDEN_1_CENTER,
     "Target Center, Minneapolis, Minnesota": TARGET_CENTER,
     "Crypto.com Arena, Los Angeles, California": STAPLES_CENTRE,
-    "Golden 1 Center, Sacramento, California": GOLDEN_1_CENTER,
     "Frost Bank Center, San Antonio, Texas": FROST_BANK_CENTER,
     "Intuit Dome, Inglewood, California": INTUIT_DOME,
     "AT&T Center, San Antonio, Texas": ATT_CENTER,
@@ -4368,7 +4348,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "Footprint Center, Phoenix, AZ, USA": AMERICA_WEST_ARENA,
     "Crypto.com Arena, Los Angeles, CA, USA": STAPLES_CENTRE,
     "Target Center, Minneapolis, MN, USA": TARGET_CENTER,
-    "Golden 1 Center, Sacramento, CA, USA": GOLDEN_1_CENTER,
     "Intuit Dome, Inglewood, CA, USA": INTUIT_DOME,
     "Toyota Center, Houston, TX, USA": TOYOTA_CENTRE,
     "Fiserv Forum, Milwaukee, WI, USA": FISERV_FORUM,
@@ -4694,8 +4673,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
     "Webster Bank Arena, Bridgeport, Connecticut": WEBSTER_BANK_ARENA,
     "U.S. Cellular Center, Asheville, North Carolina": HARRAHS_CHEROKEE_CENTER,
-    "Entertainment & Sports Arena, Washington, District of Columbia": CAREFIRST_ARENA,
-    "St. Elizabeths East Entertainment & Sports Arena, Washington, District of Columbia": CAREFIRST_ARENA,
     "Ford Center at The Star, Frisco, Texas": FORD_CENTER_AT_THE_STAR,
     "Boardwalk Hall, Atlantic City, New Jersey": SportsballGeocodeTuple(
         city="Atlantic City",

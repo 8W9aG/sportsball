@@ -8759,6 +8759,46 @@
             "housenumber": "191",
             "country": "USA",
             "type": "venue"
+        },
+        "2d90b2fb-fb67-40dc-a770-bc61e6f0f53d": {
+            "city": "Sacramento",
+            "state": "CA",
+            "postal": "",
+            "lat": 38.580361,
+            "lng": -121.499611,
+            "housenumber": "500",
+            "country": "USA",
+            "type": "venue"
+        },
+        "4979c1db-1e04-4554-8989-f0d0463ca74d": {
+            "city": "Washington",
+            "state": "DC",
+            "postal": "",
+            "lat": 38.846972,
+            "lng": -76.991444,
+            "housenumber": "1100",
+            "country": "USA",
+            "type": "venue"
+        },
+        "db07cf82-749d-413f-8961-a6c92c6bd0ad": {
+            "city": "Saransk",
+            "state": "Mordovia",
+            "postal": "",
+            "lat": 54.182778,
+            "lng": 45.201389,
+            "housenumber": "",
+            "country": "Russia",
+            "type": "venue"
+        },
+        "68b623ac-8af3-412f-9517-3322b0de75c4": {
+            "city": "Cairns",
+            "state": "QLD",
+            "postal": "",
+            "lat": -16.935833,
+            "lng": 145.749167,
+            "housenumber": "344",
+            "country": "Australia",
+            "type": "venue"
         }
     },
     "searches": {
@@ -10539,6 +10579,15 @@
         "FedEx Forum, Memphis, Tennessee": "86e85e5f-5053-4e65-b6df-4a22e14cdaf5",
         "FedExForum, Memphis, TN, USA": "86e85e5f-5053-4e65-b6df-4a22e14cdaf5",
         "FedExForum - Memphis, Tennessee - United States": "86e85e5f-5053-4e65-b6df-4a22e14cdaf5",
-        "FedExForum - Memphis - TN": "86e85e5f-5053-4e65-b6df-4a22e14cdaf5"
+        "FedExForum - Memphis - TN": "86e85e5f-5053-4e65-b6df-4a22e14cdaf5",
+        "Golden 1 Center - Sacramento, California - United States": "2d90b2fb-fb67-40dc-a770-bc61e6f0f53d",
+        "Golden 1 Center, Sacramento, California": "2d90b2fb-fb67-40dc-a770-bc61e6f0f53d",
+        "Golden 1 Center, Sacramento, CA, USA": "2d90b2fb-fb67-40dc-a770-bc61e6f0f53d",
+        "Golden 1 Center - Sacramento - CA": "2d90b2fb-fb67-40dc-a770-bc61e6f0f53d",
+        "Entertainment & Sports Arena, Washington, District of Columbia": "4979c1db-1e04-4554-8989-f0d0463ca74d",
+        "St. Elizabeths East Entertainment & Sports Arena, Washington, District of Columbia": "4979c1db-1e04-4554-8989-f0d0463ca74d",
+        "CareFirst Arena - Washington - DC": "4979c1db-1e04-4554-8989-f0d0463ca74d",
+        "Mordovia Arena - Saransk": "db07cf82-749d-413f-8961-a6c92c6bd0ad",
+        "Cazalys Stadium - 4870": "68b623ac-8af3-412f-9517-3322b0de75c4"
     }
 }

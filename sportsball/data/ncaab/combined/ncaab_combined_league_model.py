@@ -7,7 +7,6 @@ from ...league import League
 from ..espn.ncaab_espn_league_model import NCAABESPNLeagueModel
 from ..oddsportal.ncaab_oddsportal_league_model import \
     NCAABOddsPortalLeagueModel
-from ..sportsdb.ncaab_sportsdb_league_model import NCAABSportsDBLeagueModel
 
 DEPAUL_BLUE_DEMONS = "DePaul Blue Demons Men's"
 GEORGETOWN_HOYAS = "Georgetown Hoyas Men's"
@@ -763,7 +762,7 @@ class NCAABCombinedLeagueModel(CombinedLeagueModel):
             [
                 NCAABESPNLeagueModel(session, position=0),
                 NCAABOddsPortalLeagueModel(session, position=1),
-                NCAABSportsDBLeagueModel(session, position=2),
+                # NCAABSportsDBLeagueModel(session, position=2),
                 # NCAABSportsReferenceLeagueModel(session, position=3),
             ],
             league_filter,

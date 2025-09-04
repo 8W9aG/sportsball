@@ -28,6 +28,7 @@ class Position(StrEnum):
     CENTRE_FORWARD_LEFT = "CF-L"
     CENTRE_FORWARD_RIGHT = "CF-R"
     SWEEPER = "SW"
+    MIDFIELDER = "M"
 
 
 _POSITIONS = {str(x): x for x in Position}

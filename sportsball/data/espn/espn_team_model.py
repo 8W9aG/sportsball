@@ -1167,7 +1167,8 @@ def _create_espn_team_model(
                             runners_left_on_base, stat["value"]
                         )
                     elif stat["name"] == "triples":
-                        triples = more_interesting(triples, stat["value"])
+                        if "value" in stat:
+                            triples = more_interesting(triples, stat["value"])
                     elif stat["name"] == "gameWinningRBIs":
                         game_winning_rbis = more_interesting(
                             game_winning_rbis, stat["value"]
@@ -2823,15 +2824,18 @@ def _create_espn_team_model(
                         )
                     elif stat["name"] == "shotsIn1stPeriod":
                         shots_in_first_period = more_interesting(
-                            shots_in_first_period, stat["value"]
+                            shots_in_first_period,
+                            stat.get("value", int(stat["displayValue"])),
                         )
                     elif stat["name"] == "shotsIn2ndPeriod":
                         shots_in_second_period = more_interesting(
-                            shots_in_second_period, stat["value"]
+                            shots_in_second_period,
+                            stat.get("value", int(stat["displayValue"])),
                         )
                     elif stat["name"] == "shotsIn3rdPeriod":
                         shots_in_third_period = more_interesting(
-                            shots_in_third_period, stat["value"]
+                            shots_in_third_period,
+                            stat.get("value", int(stat["displayValue"])),
                         )
                     elif stat["name"] == "shotsOT":
                         shots_ot = more_interesting(
