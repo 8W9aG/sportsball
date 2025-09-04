@@ -8699,6 +8699,66 @@
             "housenumber": "800",
             "country": "Canada",
             "type": "venue"
+        },
+        "6f257503-018d-4810-8a75-6a9ae9226e3c": {
+            "city": "Devonport",
+            "state": "TAS",
+            "postal": "",
+            "lat": -41.166944,
+            "lng": 146.358889,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "e49d4ebe-4773-4ba6-b3f7-7e286628f8f3": {
+            "city": "New Brunswick–Piscataway",
+            "state": "NJ",
+            "postal": "",
+            "lat": 40.501667,
+            "lng": -74.448056,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
+        },
+        "2b81fada-a1d5-45cb-98e6-b9e06f6a3774": {
+            "city": "Saint Petersburg",
+            "state": "",
+            "postal": "",
+            "lat": 59.973,
+            "lng": 30.2205,
+            "housenumber": "",
+            "country": "Russia",
+            "type": "venue"
+        },
+        "784fd8f9-b726-4382-8915-1cadaad78839": {
+            "city": "Jupiter",
+            "state": "FL",
+            "postal": "33458",
+            "lat": 26.891111,
+            "lng": -80.116389,
+            "housenumber": "4751",
+            "country": "USA",
+            "type": "venue"
+        },
+        "9bb1c687-cb08-43b7-8424-3423d13955b4": {
+            "city": "Jacksonville",
+            "state": "AB",
+            "postal": "32211",
+            "lat": 51.0375,
+            "lng": -114.051944,
+            "housenumber": "555",
+            "country": "Canada",
+            "type": "venue"
+        },
+        "86e85e5f-5053-4e65-b6df-4a22e14cdaf5": {
+            "city": "Memphis",
+            "state": "TN",
+            "postal": "",
+            "lat": 35.138333,
+            "lng": -90.050556,
+            "housenumber": "191",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -8744,6 +8804,7 @@
         "Cleveland Browns Stadium - Cleveland, Ohio - United States": "6011a1cb-8ab9-42be-9d22-d90c403f9d1d",
         "Huntington Bank Field - Cleveland, Ohio - United States": "6011a1cb-8ab9-42be-9d22-d90c403f9d1d",
         "Cleveland Browns Stadium, Cleveland, OH, USA": "6011a1cb-8ab9-42be-9d22-d90c403f9d1d",
+        "Cleveland Browns Stadium - Cleveland - OH - 44114": "6011a1cb-8ab9-42be-9d22-d90c403f9d1d",
         "Albertsons Stadium": "6cd34760-1f9e-439d-8dd9-f6a6c627672d",
         "Albertsons Stadium - Boise - ID - 83706": "6cd34760-1f9e-439d-8dd9-f6a6c627672d",
         "EverBank Stadium": "2c1e4fba-1baa-403d-8292-1ea373f29813",
@@ -9476,6 +9537,7 @@
         "Davis Wade Stadium - Starkville - MS - 39762": "9d96cf3f-c0bf-4222-a48e-9fcf62430ec6",
         "Davis Wade Stadium": "9d96cf3f-c0bf-4222-a48e-9fcf62430ec6",
         "St. Mary's Stadium, Southampton, England": "30a262fc-737c-48ea-a1fc-1152778b3a0d",
+        "St. Mary's Stadium - Southampton": "30a262fc-737c-48ea-a1fc-1152778b3a0d",
         "FBC Mortgage Stadium - Orlando - FL - 32816": "afefd41d-22ae-47e4-a170-5ee578c3c5b4",
         "Oklahoma City University": "8db3ff39-1c63-465f-a6e3-790621dda489",
         "SECU Stadium - College Park - MD - 20742": "bdb6167c-ab9f-4250-b490-cb8abff9ec1a",
@@ -9938,6 +10000,7 @@
         "Lusail Stadium - Lusail": "b0a2ce1b-628a-450c-ad9b-6fd9f5ed14c2",
         "College Park Center, Arlington, Texas": "815a3094-5e7f-43d3-b38d-1c20453008d2",
         "College Park Center - Arlington, Texas - United States": "815a3094-5e7f-43d3-b38d-1c20453008d2",
+        "College Park Center - Arlington - TX": "815a3094-5e7f-43d3-b38d-1c20453008d2",
         "Hammond Stadium - Fort Myers - Florida": "56b1e509-92a5-47e5-8f35-304a60d90c6f",
         "GCU Arena, Phoenix, Arizona": "b4fd745c-12cd-4de7-8d68-2c568eca74d4",
         "Spectrum Center - Charlotte - NC": "60d6f941-a10a-4146-99f4-0a97ddea9b91",
@@ -10225,6 +10288,7 @@
         "CenturyLink Center, Omaha, Nebraska": "9e102c89-98d3-41c2-9870-bc0c933b5cfc",
         "Qwest Center OMAHA, Omaha, Nebraska": "9e102c89-98d3-41c2-9870-bc0c933b5cfc",
         "Qwest Center Omaha, Omaha, Nebraska": "9e102c89-98d3-41c2-9870-bc0c933b5cfc",
+        "CHI Health Center Omaha - Omaha - NE": "9e102c89-98d3-41c2-9870-bc0c933b5cfc",
         "Tudor Fieldhouse, Houston, Texas": "c3967874-f8ac-47b4-9a71-719893831a6f",
         "Rice Gymnasium, Houston, Texas": "c3967874-f8ac-47b4-9a71-719893831a6f",
         "Show Me Center, Cape Girardeau, Missouri": "306315cb-0865-4a2f-882c-686019ac4c65",
@@ -10463,6 +10527,18 @@
         "General Motors Place, Vancouver, Canada": "6dd2c57c-88dc-4181-bea8-28ab89695071",
         "Rogers Arena, Vancouver, BC, Canada": "6dd2c57c-88dc-4181-bea8-28ab89695071",
         "Rogers Arena": "6dd2c57c-88dc-4181-bea8-28ab89695071",
-        "Rogers Arena - Vancouver - BC": "6dd2c57c-88dc-4181-bea8-28ab89695071"
+        "Rogers Arena - Vancouver - BC": "6dd2c57c-88dc-4181-bea8-28ab89695071",
+        "Devonport Oval": "6f257503-018d-4810-8a75-6a9ae9226e3c",
+        "Rutgers": "e49d4ebe-4773-4ba6-b3f7-7e286628f8f3",
+        "Gazprom Arena - Saint Petersburg": "2b81fada-a1d5-45cb-98e6-b9e06f6a3774",
+        "Roger Dean Chevrolet Stadium - Jupiter - Florida - 33478": "784fd8f9-b726-4382-8915-1cadaad78839",
+        "Scotiabank Saddledome, Calgary, AB, Canada": "9bb1c687-cb08-43b7-8424-3423d13955b4",
+        "Scotiabank Saddledome": "9bb1c687-cb08-43b7-8424-3423d13955b4",
+        "Scotiabank Saddledome - Calgary - AB": "9bb1c687-cb08-43b7-8424-3423d13955b4",
+        "FedExForum, Memphis, Tennessee": "86e85e5f-5053-4e65-b6df-4a22e14cdaf5",
+        "FedEx Forum, Memphis, Tennessee": "86e85e5f-5053-4e65-b6df-4a22e14cdaf5",
+        "FedExForum, Memphis, TN, USA": "86e85e5f-5053-4e65-b6df-4a22e14cdaf5",
+        "FedExForum - Memphis, Tennessee - United States": "86e85e5f-5053-4e65-b6df-4a22e14cdaf5",
+        "FedExForum - Memphis - TN": "86e85e5f-5053-4e65-b6df-4a22e14cdaf5"
     }
 }

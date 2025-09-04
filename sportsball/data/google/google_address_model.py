@@ -67,15 +67,6 @@ STAPLES_CENTRE = SportsballGeocodeTuple(
     housenumber="1111",
     country="USA",
 )
-FEDEX_FORUM = SportsballGeocodeTuple(
-    city="Memphis",
-    state="TN",
-    postal="",
-    lat=35.138333,
-    lng=-90.050556,
-    housenumber="191",
-    country="USA",
-)
 TARGET_CENTER = SportsballGeocodeTuple(
     city="Minneapolis",
     state="MN",
@@ -2245,15 +2236,6 @@ PNC_PARK = SportsballGeocodeTuple(
     housenumber="115",
     country="USA",
 )
-SCOTIABANK_SADDLEDOME = SportsballGeocodeTuple(
-    city="Jacksonville",
-    state="AB",
-    postal="32211",
-    lat=51.0375,
-    lng=-114.051944,
-    housenumber="555",
-    country="Canada",
-)
 T_MOBILE_PARK = SportsballGeocodeTuple(
     city="Seattle",
     state="WA",
@@ -2507,7 +2489,6 @@ BAXTER_ARENA = SportsballGeocodeTuple(
     country="USA",
 )
 _CACHED_GEOCODES: dict[str, Any] = {
-    "FedExForum, Memphis, Tennessee": FEDEX_FORUM,
     "The Pavilion at Ole Miss, Oxford, Mississippi": OLE_MISS,
     "Dee Glen Smith Spectrum, Logan, Utah": SMITH_SPECTRUM,
     "Holmes Convocation Center, Boone, North Carolina": HOLMES_CENTER,
@@ -3832,7 +3813,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "Fiserv Forum - Milwaukee, Wisconsin - United States": FISERV_FORUM,
     "Crypto.com Arena - Los Angeles, California, USA - United States": STAPLES_CENTRE,
     "Golden 1 Center - Sacramento, California - United States": GOLDEN_1_CENTER,
-    "FedEx Forum, Memphis, Tennessee": FEDEX_FORUM,
     "Target Center, Minneapolis, Minnesota": TARGET_CENTER,
     "Crypto.com Arena, Los Angeles, California": STAPLES_CENTRE,
     "Golden 1 Center, Sacramento, California": GOLDEN_1_CENTER,
@@ -4387,7 +4367,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
     "Footprint Center, Phoenix, AZ, USA": AMERICA_WEST_ARENA,
     "Crypto.com Arena, Los Angeles, CA, USA": STAPLES_CENTRE,
-    "FedExForum, Memphis, TN, USA": FEDEX_FORUM,
     "Target Center, Minneapolis, MN, USA": TARGET_CENTER,
     "Golden 1 Center, Sacramento, CA, USA": GOLDEN_1_CENTER,
     "Intuit Dome, Inglewood, CA, USA": INTUIT_DOME,
@@ -7844,7 +7823,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "FedExForum - Memphis, Tennessee - United States": FEDEX_FORUM,
     "Davis Field House, Greenville, South Carolina": SportsballGeocodeTuple(
         city="Greenville",
         state="SC",
@@ -16293,7 +16271,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Scotiabank Saddledome, Calgary, AB, Canada": SCOTIABANK_SADDLEDOME,
     "T-Mobile Park, Seattle, WA, USA": T_MOBILE_PARK,
     "Dodger Stadium, Los Angeles, CA, USA": DODGER_STADIUM,
     "Virginia Beach, VA, United States": VIRGINIA_BEACH,
@@ -16889,7 +16866,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "PNC Park": PNC_PARK,
-    "Scotiabank Saddledome": SCOTIABANK_SADDLEDOME,
     "T-Mobile Park": T_MOBILE_PARK,
     "Davidson College": SportsballGeocodeTuple(
         city="Davidson",
