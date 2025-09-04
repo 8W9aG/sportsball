@@ -896,6 +896,7 @@ class TestCombinedPlayerModel(unittest.TestCase):
                 second_chance_points=None,
                 team_turnovers=None,
                 fast_break_points=None,
+                team_rebounds=None,
             )
             players_ffill = {}
             combined_player_model = create_combined_player_model(

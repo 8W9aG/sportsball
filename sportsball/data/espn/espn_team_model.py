@@ -1460,9 +1460,10 @@ def _create_espn_team_model(
                     elif stat["name"] == "assists":
                         assists = more_interesting(assists, stat["value"])
                     elif stat["name"] == "outfieldAssists":
-                        outfield_assists = more_interesting(
-                            outfield_assists, stat["value"]
-                        )
+                        if "value" in stat:
+                            outfield_assists = more_interesting(
+                                outfield_assists, stat["value"]
+                            )
                     elif stat["name"] == "pickoffs":
                         pickoffs = more_interesting(pickoffs, stat["value"])
                     elif stat["name"] == "putouts":

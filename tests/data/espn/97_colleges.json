@@ -1,0 +1,33 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/colleges/97?lang=en&region=us",
+    "abbrev": "LOU",
+    "guid": "03c688de-c23e-3fc3-95aa-4b03a2b9d0df",
+    "id": "97",
+    "logos": [
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+            "lastUpdated": "2023-03-01T14:17Z",
+            "rel": [
+                "full",
+                "default"
+            ],
+            "width": 500
+        },
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/97.png",
+            "lastUpdated": "2023-03-01T14:18Z",
+            "rel": [
+                "full",
+                "dark"
+            ],
+            "width": 500
+        }
+    ],
+    "mascot": "Cardinals",
+    "name": "Louisville",
+    "shortName": "Louisville"
+}

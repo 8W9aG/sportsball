@@ -957,6 +957,7 @@ def _create_afl_afltables_player_model(
         team_turnovers=None,
         second_chance_points=None,
         fast_break_points=None,
+        team_rebounds=None,
     )
 
 

@@ -1172,7 +1172,7 @@ TEAM_FANTASY_RATING_COLUMN: Literal["fantasy_rating"] = "fantasy_rating"
 TEAM_SECOND_CHANCE_POINTS_COLUMN: Literal["second_chance_points"] = (
     "second_chance_points"
 )
-VERSION = DELIMITER.join(["0.0.7", PLAYER_VERSION, COACH_VERSION])
+VERSION = DELIMITER.join(["0.0.9", PLAYER_VERSION, COACH_VERSION])
 
 
 def _calculate_kicks(data: dict[str, Any]) -> int | None:
@@ -2917,7 +2917,7 @@ class TeamModel(BaseModel):
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_SAVE_PERCENTAGE_COLUMN,
     )
-    strikeouts_per_nine_innings: int | None = Field(
+    strikeouts_per_nine_innings: float | None = Field(
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_STRIKEOUTS_PER_NINE_INNINGS_COLUMN,
@@ -4452,7 +4452,7 @@ class TeamModel(BaseModel):
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_STUFF_YARDS_COLUMN,
     )
-    tackles_for_loss: int | None = Field(
+    tackles_for_loss: float | None = Field(
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_TACKLES_FOR_LOSS_COLUMN,

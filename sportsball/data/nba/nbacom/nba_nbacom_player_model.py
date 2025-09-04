@@ -889,4 +889,5 @@ def create_nba_nbacom_player_model(player_dict: dict[str, Any]) -> PlayerModel:
         team_turnovers=None,
         second_chance_points=None,
         fast_break_points=None,
+        team_rebounds=None,
     )

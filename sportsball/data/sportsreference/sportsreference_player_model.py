@@ -1230,6 +1230,7 @@ def _create_sportsreference_player_model(
         team_turnovers=None,
         second_chance_points=None,
         fast_break_points=None,
+        team_rebounds=None,
     )
 
 

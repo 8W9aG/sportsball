@@ -104,6 +104,11 @@ def _create_tennisabstract_player_model(
                     photog = (
                         script_line.split("var photog = '")[-1].split("';")[0].strip()
                     )
+
+        if name is None:
+            for title in soup.find_all("title"):
+                name = title.get_text().strip().split(":")[1].split("Match")[0].strip()
+
         if name is None:
             raise ValueError(f"name for {url} is null")
 
@@ -994,6 +999,7 @@ def _create_tennisabstract_player_model(
             team_turnovers=None,
             second_chance_points=None,
             fast_break_points=None,
+            team_rebounds=None,
         )
     except ParserError as exc:
         logging.warning(str(exc))

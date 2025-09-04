@@ -8799,6 +8799,86 @@
             "housenumber": "344",
             "country": "Australia",
             "type": "venue"
+        },
+        "941b603d-fa01-4fe4-985e-d1858907fcc7": {
+            "city": "Naples",
+            "state": "Campania",
+            "postal": "",
+            "lat": 40.828,
+            "lng": 14.193,
+            "housenumber": "",
+            "country": "Italy",
+            "type": "venue"
+        },
+        "2fd815dd-7430-451d-be58-3084986f34f4": {
+            "city": "Milwaukee",
+            "state": "WI",
+            "postal": "",
+            "lat": 43.045028,
+            "lng": -87.918167,
+            "housenumber": "1111",
+            "country": "USA",
+            "type": "venue"
+        },
+        "32a76ffc-cac9-47b4-8915-475960c28fdf": {
+            "city": "Adelaide",
+            "state": "SA",
+            "postal": "",
+            "lat": -35.145278,
+            "lng": 138.493333,
+            "housenumber": "1",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "49f58e6b-65d3-4858-b4ff-4fab4fee2f4f": {
+            "city": "London",
+            "state": "",
+            "postal": "W12 7PJ",
+            "lat": 51.509167,
+            "lng": -0.232222,
+            "housenumber": "",
+            "country": "UK",
+            "type": "venue"
+        },
+        "5b2a1e53-a865-40a1-9fbc-a356994251ce": {
+            "city": "Kaliningrad",
+            "state": "",
+            "postal": "",
+            "lat": 54.698056,
+            "lng": 20.533889,
+            "housenumber": "",
+            "country": "Russia",
+            "type": "venue"
+        },
+        "6b4ddfd7-7681-45e6-921c-88f9005334fb": {
+            "city": "Pune",
+            "state": "",
+            "postal": "",
+            "lat": 18.674444,
+            "lng": 73.706667,
+            "housenumber": "",
+            "country": "India",
+            "type": "venue"
+        },
+        "4d756369-86d9-4b30-883a-8bee9bc2b75f": {
+            "city": "San Antonio",
+            "state": "TX",
+            "postal": "",
+            "lat": 29.426944,
+            "lng": -98.4375,
+            "housenumber": "1",
+            "country": "USA",
+            "type": "venue"
+        },
+        "09482a0c-9a06-473c-88b3-847543a74ff1": {
+            "city": "Edmonton",
+            "state": "AB",
+            "postal": "",
+            "lat": 53.546944,
+            "lng": -113.497778,
+            "housenumber": "10220",
+            "country": "Canada",
+            "type": "venue"
         }
     },
     "searches": {
@@ -9882,6 +9962,7 @@
         "Wells Fargo Center": "632c915d-1f70-446a-a97e-ac5cd539a4bc",
         "Wells Fargo Center - Philadelphia - PA - 19255": "632c915d-1f70-446a-a97e-ac5cd539a4bc",
         "Wells Fargo Center - Philadelphia - PA": "632c915d-1f70-446a-a97e-ac5cd539a4bc",
+        "Xfinity Mobile Arena - Philadelphia - PA": "632c915d-1f70-446a-a97e-ac5cd539a4bc",
         "Omsk, Russia": "b7be80ce-0f3c-4a6f-8d52-7aae1bdf2009",
         "UW-Milwaukee Panther Arena, Milwaukee, Wisconsin": "57b80240-7828-4e60-a0c9-f8176bfc1f7b",
         "Milwaukee Arena": "57b80240-7828-4e60-a0c9-f8176bfc1f7b",
@@ -10261,6 +10342,7 @@
         "Wells Fargo Arena, Des Moines, Iowa": "41d2883d-107a-40c8-b566-31b1b79a3bc9",
         "Wintrust Arena, Chicago, Illinois": "ffc3cfd9-bc8c-49ba-aa2f-7746e845c6c7",
         "Wintrust Arena - Chicago, Illinois, USA - United States": "ffc3cfd9-bc8c-49ba-aa2f-7746e845c6c7",
+        "Wintrust Arena, Chicago, IL, USA": "ffc3cfd9-bc8c-49ba-aa2f-7746e845c6c7",
         "Leede Arena, Hanover, New Hampshire": "75f8199c-0bd4-4a55-bf77-e371c75a4494",
         "Leede Arena - Hanover - NH": "75f8199c-0bd4-4a55-bf77-e371c75a4494",
         "Rupp Arena, Lexington, Kentucky": "cdde4cb0-89ff-41a5-83d7-878493285a5f",
@@ -10588,6 +10670,25 @@
         "St. Elizabeths East Entertainment & Sports Arena, Washington, District of Columbia": "4979c1db-1e04-4554-8989-f0d0463ca74d",
         "CareFirst Arena - Washington - DC": "4979c1db-1e04-4554-8989-f0d0463ca74d",
         "Mordovia Arena - Saransk": "db07cf82-749d-413f-8961-a6c92c6bd0ad",
-        "Cazalys Stadium - 4870": "68b623ac-8af3-412f-9517-3322b0de75c4"
+        "Cazalys Stadium - 4870": "68b623ac-8af3-412f-9517-3322b0de75c4",
+        "Stadio Diego Armando Maradona - Napoli, Italy - Italy": "941b603d-fa01-4fe4-985e-d1858907fcc7",
+        "Fiserv Forum, Milwaukee, Wisconsin": "2fd815dd-7430-451d-be58-3084986f34f4",
+        "Fiserv Forum - Milwaukee, Wisconsin - United States": "2fd815dd-7430-451d-be58-3084986f34f4",
+        "Fiserv Forum, Milwaukee, WI, USA": "2fd815dd-7430-451d-be58-3084986f34f4",
+        "Fiserv Forum,": "2fd815dd-7430-451d-be58-3084986f34f4",
+        "Fiserv Forum - Milwaukee - WI": "2fd815dd-7430-451d-be58-3084986f34f4",
+        "Flinders University Stadium": "32a76ffc-cac9-47b4-8915-475960c28fdf",
+        "Loftus Road, London, England": "49f58e6b-65d3-4858-b4ff-4fab4fee2f4f",
+        "Rostec Arena - Kaliningrad": "5b2a1e53-a865-40a1-9fbc-a356994251ce",
+        "Maharashtra Cricket Association Stadium, Pune, India": "6b4ddfd7-7681-45e6-921c-88f9005334fb",
+        "Frost Bank Center - San Antonio - TX": "4d756369-86d9-4b30-883a-8bee9bc2b75f",
+        "Frost Bank Center, San Antonio, Texas": "4d756369-86d9-4b30-883a-8bee9bc2b75f",
+        "Frost Bank Center, San Antonio, TX, USA": "4d756369-86d9-4b30-883a-8bee9bc2b75f",
+        "Frost Bank Center - San Antonio, Texas - United States": "4d756369-86d9-4b30-883a-8bee9bc2b75f",
+        "SBC Center, San Antonio, Texas": "4d756369-86d9-4b30-883a-8bee9bc2b75f",
+        "Rogers Place - Edmonton - AB": "09482a0c-9a06-473c-88b3-847543a74ff1",
+        "Rogers Place - Edmonton, Alberta, Canada - Canada": "09482a0c-9a06-473c-88b3-847543a74ff1",
+        "Rogers Place, Edmonton, AB, Canada": "09482a0c-9a06-473c-88b3-847543a74ff1",
+        "Rogers Place": "09482a0c-9a06-473c-88b3-847543a74ff1"
     }
 }

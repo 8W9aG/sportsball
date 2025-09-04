@@ -34,6 +34,10 @@ def create_espn_venue_model(
             session,
             dt,
         )
+        if identifier is None:
+            identifier = query
+        if name is None:
+            name = query
     else:
         address = create_google_address_model(
             name,

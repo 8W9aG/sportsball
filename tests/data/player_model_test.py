@@ -887,6 +887,7 @@ class TestPlayerModel(unittest.TestCase):
             team_turnovers=None,
             second_chance_points=None,
             fast_break_points=None,
+            team_rebounds=None,
         )
 
     def test_field_goals_attempted(self):

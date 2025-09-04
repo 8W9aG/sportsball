@@ -1,0 +1,8 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/positions/7?lang=en&region=us",
+    "abbreviation": "F",
+    "displayName": "Forward",
+    "id": "7",
+    "leaf": false,
+    "name": "Forward"
+}

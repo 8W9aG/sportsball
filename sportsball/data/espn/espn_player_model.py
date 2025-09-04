@@ -24,6 +24,8 @@ _BAD_URLS = {
     "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2024/athletes/4689686?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2024/athletes/2333612?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2021/athletes/4426888?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/4896615?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5226349?lang=en&region=us",
 }
 
 
@@ -701,6 +703,7 @@ def _create_espn_player_model(
     team_turnovers = None
     second_chance_points = None
     fast_break_points = None
+    team_rebounds = None
     if "statistics" in player:
         stats_url = player["statistics"]["$ref"]
         statistics_response = session.get(stats_url)
@@ -3122,6 +3125,10 @@ def _create_espn_player_model(
                             fast_break_points = more_interesting(
                                 fast_break_points, stat["value"]
                             )
+                        elif stat["name"] == "teamRebounds":
+                            team_rebounds = more_interesting(
+                                team_rebounds, stat["value"]
+                            )
                         else:
                             raise ValueError(
                                 f"Failed to account for statistic: {stat['name']} on {stats_url}"
@@ -4082,6 +4089,7 @@ def _create_espn_player_model(
         team_turnovers=team_turnovers,
         second_chance_points=second_chance_points,
         fast_break_points=fast_break_points,
+        team_rebounds=team_rebounds,
     )
 
 

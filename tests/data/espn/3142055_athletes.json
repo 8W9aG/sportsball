@@ -1,0 +1,201 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/athletes/3142055?lang=en&region=us",
+    "active": true,
+    "age": 29,
+    "alternateIds": {
+        "sdr": "3142055"
+    },
+    "birthPlace": {
+        "city": "Montclair",
+        "country": "USA",
+        "state": "NJ"
+    },
+    "college": {
+        "$ref": "http://sports.core.api.espn.com/v2/colleges/97?lang=en&region=us"
+    },
+    "collegeAthlete": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/3142055?lang=en&region=us"
+    },
+    "contracts": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/athletes/3142055/contracts?lang=en&region=us"
+    },
+    "dateOfBirth": "1996-05-30T07:00Z",
+    "displayHeight": "6' 1\"",
+    "displayName": "Myisha Hines-Allen",
+    "displayWeight": "200 lbs",
+    "draft": {
+        "displayText": "Year: 2018 Round: 2 Pick: 19",
+        "round": 2,
+        "selection": 19,
+        "team": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2018/teams/16?lang=en&region=us"
+        },
+        "year": 2018
+    },
+    "eventLog": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/athletes/3142055/eventlog?lang=en&region=us"
+    },
+    "experience": {
+        "years": 7
+    },
+    "firstName": "Myisha",
+    "fullName": "Myisha Hines-Allen",
+    "guid": "d493cd46-3eba-dd85-8dc5-fa80389abd03",
+    "hand": {
+        "abbreviation": "R",
+        "displayValue": "Right",
+        "type": "RIGHT"
+    },
+    "headshot": {
+        "alt": "Myisha Hines-Allen",
+        "href": "https://a.espncdn.com/i/headshots/wnba/players/full/3142055.png"
+    },
+    "height": 73.0,
+    "id": "3142055",
+    "injuries": [
+        {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/athletes/3142055/injuries/28565?lang=en&region=us",
+            "athlete": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/athletes/3142055?lang=en&region=us"
+            },
+            "date": "2025-09-04T00:09Z",
+            "details": {
+                "fantasyStatus": {
+                    "abbreviation": "GTD",
+                    "description": "GTD"
+                },
+                "returnDate": "2025-09-04",
+                "type": "Illness"
+            },
+            "id": "28565",
+            "longComment": "day-to-day",
+            "shortComment": "day-to-day",
+            "source": {
+                "description": "basic/manual",
+                "id": "1",
+                "state": "basic"
+            },
+            "status": "Day-To-Day",
+            "team": {
+                "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/teams/3?lang=en&region=us"
+            },
+            "type": {
+                "abbreviation": "DD",
+                "description": "day-to-day",
+                "id": "6",
+                "name": "INJURY_STATUS_DAYTODAY"
+            }
+        }
+    ],
+    "jersey": "2",
+    "lastName": "Hines-Allen",
+    "linked": true,
+    "links": [
+        {
+            "href": "https://www.espn.com/wnba/player/_/id/3142055/myisha-hines-allen",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "playercard",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Player Card",
+            "text": "Player Card"
+        },
+        {
+            "href": "https://www.espn.com/wnba/player/stats/_/id/3142055/myisha-hines-allen",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "stats",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Stats",
+            "text": "Stats"
+        },
+        {
+            "href": "https://www.espn.com/wnba/player/gamelog/_/id/3142055/myisha-hines-allen",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "gamelog",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Game Log",
+            "text": "Game Log"
+        },
+        {
+            "href": "https://www.espn.com/wnba/player/news/_/id/3142055/myisha-hines-allen",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "news",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "News",
+            "text": "News"
+        },
+        {
+            "href": "https://www.espn.com/wnba/player/bio/_/id/3142055/myisha-hines-allen",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "bio",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Bio",
+            "text": "Bio"
+        },
+        {
+            "href": "https://www.espn.com/wnba/player/_/id/3142055/myisha-hines-allen",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "overview",
+                "desktop",
+                "athlete"
+            ],
+            "shortText": "Overview",
+            "text": "Overview"
+        }
+    ],
+    "notes": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/athletes/3142055/notes?lang=en&region=us"
+    },
+    "position": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/positions/7?lang=en&region=us",
+        "abbreviation": "F",
+        "displayName": "Forward",
+        "id": "7",
+        "leaf": false,
+        "name": "Forward"
+    },
+    "shortName": "M. Hines-Allen",
+    "slug": "myisha-hines-allen",
+    "statistics": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/types/2/athletes/3142055/statistics?lang=en&region=us"
+    },
+    "status": {
+        "abbreviation": "Active",
+        "id": "1",
+        "name": "Active",
+        "type": "active"
+    },
+    "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/teams/3?lang=en&region=us"
+    },
+    "type": "basketball",
+    "uid": "s:40~l:59~a:3142055",
+    "weight": 200.0
+}
