@@ -562,15 +562,6 @@ REUNION_ARENA = SportsballGeocodeTuple(
     housenumber="777",
     country="USA",
 )
-ROGERS_ARENA = SportsballGeocodeTuple(
-    city="Vancouver",
-    state="BC",
-    postal="",
-    lat=49.277778,
-    lng=-123.108889,
-    housenumber="800",
-    country="CA",
-)
 MERRELL_CENTER = SportsballGeocodeTuple(
     city="Katy",
     state="TX",
@@ -2701,15 +2692,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Littlejohn Coliseum, Clemson, South Carolina": SportsballGeocodeTuple(
-        city="Clemson",
-        state="SC",
-        postal="29631",
-        lat=34.680278,
-        lng=-82.846389,
-        housenumber="",
-        country="USA",
-    ),
     "Cotterell Court, Hamilton, New York": SportsballGeocodeTuple(
         city="Hamilton",
         state="NY",
@@ -4416,7 +4398,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "ARCO Arena, Sacramento, CA, USA": ARCO_ARENA,
     "AdventHealth Arena, Orlando, FL, USA": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
     "Intuit Dome - Inglewood, California, U.S. - United States": INTUIT_DOME,
-    "Rogers Arena - Vancouver, BC - Canada": ROGERS_ARENA,
     "Footprint Center - Phoenix, Arizona - United States": AMERICA_WEST_ARENA,
     "Frost Bank Center - San Antonio, Texas - United States": FROST_BANK_CENTER,
     "BOK Center - Tulsa, Oklahoma - United States": BOK_CENTER,
@@ -5309,7 +5290,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
     "Compaq Center, Houston, Texas": COMPAQ_CENTER,
     "Reunion Arena, Dallas, Texas": REUNION_ARENA,
-    "General Motors Place, Vancouver, Canada": ROGERS_ARENA,
     "Merrell Center, Katy, Texas": MERRELL_CENTER,
     "McNichols Sports Arena, Denver, Colorado": MCNICHOLS_SPORTS_ARENA,
     "Freedom Hall, Louisville, Kentucky": FREEDOM_HALL,
@@ -16120,7 +16100,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
     "T-Mobile Arena": T_MOBILE_ARENA,
     "Commonwealth Stadium - Edmonton, AB - Canada": COMMONWEALTH_STADIUM,
-    "Rogers Arena, Vancouver, BC, Canada": ROGERS_ARENA,
     "Nationals Park, Washington, DC, USA": NATIONALS_PARK,
     "Katy, TX, United States": SportsballGeocodeTuple(
         city="Katy",
@@ -16909,7 +16888,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Rogers Arena": ROGERS_ARENA,
     "PNC Park": PNC_PARK,
     "Scotiabank Saddledome": SCOTIABANK_SADDLEDOME,
     "T-Mobile Park": T_MOBILE_PARK,

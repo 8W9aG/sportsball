@@ -8669,6 +8669,36 @@
             "housenumber": "501",
             "country": "USA",
             "type": "venue"
+        },
+        "5320f60f-85fd-428b-9191-8c6839a3740a": {
+            "city": "Yekaterinburg",
+            "state": "",
+            "postal": "",
+            "lat": 56.8325,
+            "lng": 60.573611,
+            "housenumber": "",
+            "country": "Russia",
+            "type": "venue"
+        },
+        "c43e6af9-2634-4853-b84c-a83544ca92e8": {
+            "city": "Clemson",
+            "state": "SC",
+            "postal": "29631",
+            "lat": 34.680278,
+            "lng": -82.846389,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
+        },
+        "6dd2c57c-88dc-4181-bea8-28ab89695071": {
+            "city": "Vancouver",
+            "state": "BC",
+            "postal": "",
+            "lat": 49.277778,
+            "lng": -123.108889,
+            "housenumber": "800",
+            "country": "Canada",
+            "type": "venue"
         }
     },
     "searches": {
@@ -9349,6 +9379,7 @@
         "Boone Pickens Stadium - Stillwater - OK - 74075": "541c4143-a924-4743-99b1-ed7abe7c4236",
         "Boone Pickens Stadium - Stillwater, Oklahoma, USA - United States": "541c4143-a924-4743-99b1-ed7abe7c4236",
         "Portman Road, Ipswich, England": "3d039b17-cd4c-478f-be28-83afc9da21cf",
+        "Portman Road - Ipswich": "3d039b17-cd4c-478f-be28-83afc9da21cf",
         "Cajun Field - Lafayette - LA - 70506": "be13673e-7924-4e95-a76d-868c9df51836",
         "Cajun Field - Lafayette, Louisiana, USA - United States": "be13673e-7924-4e95-a76d-868c9df51836",
         "University of Massachusetts Amherst": "b4425a03-b770-4fb3-b0c0-1ce6a2594971",
@@ -9953,6 +9984,7 @@
         "American Airlines Center - Dallas, Texas, USA - United States": "9147c05e-6acf-42b1-9796-93c734a6c42a",
         "American Airlines Center, Dallas, TX, USA": "9147c05e-6acf-42b1-9796-93c734a6c42a",
         "American Airlines Center": "9147c05e-6acf-42b1-9796-93c734a6c42a",
+        "American Airlines Center - Dallas - TX": "9147c05e-6acf-42b1-9796-93c734a6c42a",
         "Firestone Fieldhouse, Malibu, California": "f23aac2e-181e-4918-b337-1f541d4219ec",
         "Illinois State": "5abfac8a-7bdb-4247-9611-910be206fe3f",
         "Illinois State College": "5abfac8a-7bdb-4247-9611-910be206fe3f",
@@ -10423,6 +10455,14 @@
         "Bridgestone Arena, Nashville, Tennessee": "23bf2130-71c6-4de7-b82b-b3933b1baf3e",
         "Bridgestone Arena, Nashville, TN, USA": "23bf2130-71c6-4de7-b82b-b3933b1baf3e",
         "Bridgestone Arena": "23bf2130-71c6-4de7-b82b-b3933b1baf3e",
-        "Bridgestone Arena - Nashville - TN - 37250": "23bf2130-71c6-4de7-b82b-b3933b1baf3e"
+        "Bridgestone Arena - Nashville - TN - 37250": "23bf2130-71c6-4de7-b82b-b3933b1baf3e",
+        "Ekaterinburg Arena - Ekaterinburg": "5320f60f-85fd-428b-9191-8c6839a3740a",
+        "Littlejohn Coliseum - Clemson - SC": "c43e6af9-2634-4853-b84c-a83544ca92e8",
+        "Littlejohn Coliseum, Clemson, South Carolina": "c43e6af9-2634-4853-b84c-a83544ca92e8",
+        "Rogers Arena - Vancouver, BC - Canada": "6dd2c57c-88dc-4181-bea8-28ab89695071",
+        "General Motors Place, Vancouver, Canada": "6dd2c57c-88dc-4181-bea8-28ab89695071",
+        "Rogers Arena, Vancouver, BC, Canada": "6dd2c57c-88dc-4181-bea8-28ab89695071",
+        "Rogers Arena": "6dd2c57c-88dc-4181-bea8-28ab89695071",
+        "Rogers Arena - Vancouver - BC": "6dd2c57c-88dc-4181-bea8-28ab89695071"
     }
 }

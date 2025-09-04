@@ -1,0 +1,2175 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/statistics/0?lang=en&region=us",
+    "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247?lang=en&region=us"
+    },
+    "splits": {
+        "abbreviation": "Total",
+        "categories": [
+            {
+                "abbreviation": "b",
+                "athletes": [
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/32594?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/32594/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/32653?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/32653/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/32655?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/32655/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/37567?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/37567/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/38828?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/38828/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/40635?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/40635/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/40946?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/40946/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/41000?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/41000/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/41205?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/41205/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/41475?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/41475/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/41584?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/41584/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/41587?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/41587/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/42427?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/42427/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/42753?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/42753/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/3985190?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/3985190/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/4414298?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/4414298/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/4629081?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/4629081/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/4720895?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/4720895/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/4722885?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/4722885/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/4791597?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/4791597/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/4977664?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/4977664/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5131736?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/5131736/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5132012?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/5132012/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5138927?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/5138927/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5259072?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/5259072/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5270061?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/5270061/statistics/0?lang=en&region=us"
+                        }
+                    }
+                ],
+                "displayName": "Batting",
+                "name": "batting",
+                "shortDisplayName": "Batting",
+                "stats": [
+                    {
+                        "abbreviation": "GP",
+                        "description": "Games Played",
+                        "displayName": "Games Played",
+                        "displayValue": "1",
+                        "name": "gamesPlayed",
+                        "shortDisplayName": "GP",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "G",
+                        "description": "The number of games played by a team.",
+                        "displayName": "Team Games Played",
+                        "displayValue": "1",
+                        "name": "teamGamesPlayed",
+                        "shortDisplayName": "G",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "HBP",
+                        "description": "The number of times a player has been by a pitch.",
+                        "displayName": "Hit By Pitch",
+                        "displayValue": "2",
+                        "name": "hitByPitch",
+                        "shortDisplayName": "HBP",
+                        "value": 2.0
+                    },
+                    {
+                        "abbreviation": "GO",
+                        "description": "The number of ground outs made by a player or team.",
+                        "displayName": "Ground Balls",
+                        "displayValue": "0",
+                        "name": "groundBalls",
+                        "shortDisplayName": "GO",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SO",
+                        "description": "The number of times a player strikes out.",
+                        "displayName": "Strikeouts",
+                        "displayValue": "6",
+                        "name": "strikeouts",
+                        "shortDisplayName": "K",
+                        "value": 6.0
+                    },
+                    {
+                        "abbreviation": "RBI",
+                        "description": "The number of runs scored by a batter's play.",
+                        "displayName": "Runs Batted In",
+                        "displayValue": "10",
+                        "name": "RBIs",
+                        "shortDisplayName": "RBI",
+                        "value": 10.0
+                    },
+                    {
+                        "abbreviation": "SH",
+                        "description": "The number of sacrifice bunts that allow baserunners to advance",
+                        "displayName": "Sacrifice Hit",
+                        "displayValue": "0",
+                        "name": "sacHits",
+                        "shortDisplayName": "SH",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "H",
+                        "description": "The number of hits.",
+                        "displayName": "Hits",
+                        "displayValue": "17",
+                        "name": "hits",
+                        "shortDisplayName": "H",
+                        "value": 17.0
+                    },
+                    {
+                        "abbreviation": "SB",
+                        "description": "The number of bases stolen.",
+                        "displayName": "Stolen Bases",
+                        "displayValue": "3",
+                        "name": "stolenBases",
+                        "shortDisplayName": "SB",
+                        "value": 3.0
+                    },
+                    {
+                        "abbreviation": "BB",
+                        "description": "The number of times a batter reaches base on four balls",
+                        "displayName": "Walks",
+                        "displayValue": "4",
+                        "name": "walks",
+                        "shortDisplayName": "BB",
+                        "value": 4.0
+                    },
+                    {
+                        "abbreviation": "CI",
+                        "description": "Catcher Interference",
+                        "displayName": "Catcher Interference",
+                        "displayValue": "0",
+                        "name": "catcherInterference",
+                        "shortDisplayName": "CI",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "R",
+                        "description": "The number of runs scored.",
+                        "displayName": "Runs",
+                        "displayValue": "10",
+                        "name": "runs",
+                        "shortDisplayName": "R",
+                        "value": 10.0
+                    },
+                    {
+                        "abbreviation": "GIDP",
+                        "description": "The number of times a batter grounds into a double play.",
+                        "displayName": "Ground Into Double Play",
+                        "displayValue": "0",
+                        "name": "GIDPs",
+                        "shortDisplayName": "GIDP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SF",
+                        "description": "The number of times a batter advances a runner with a fly out.",
+                        "displayName": "Sacrifice Flies",
+                        "displayValue": "1",
+                        "name": "sacFlies",
+                        "shortDisplayName": "SF",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "AB",
+                        "description": "The number of times a batter comes up to bat not counting walks and sacrifices.",
+                        "displayName": "At Bats",
+                        "displayValue": "43",
+                        "name": "atBats",
+                        "shortDisplayName": "AB",
+                        "value": 43.0
+                    },
+                    {
+                        "abbreviation": "HR",
+                        "description": "The number of hits that allowed the batter to round the bases and score without the aid of an error of the defense.",
+                        "displayName": "Home Runs",
+                        "displayValue": "1",
+                        "name": "homeRuns",
+                        "shortDisplayName": "HR",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "GSHR",
+                        "description": "The number of hits that allowed the batter and 3 of his teammates to round the bases and score without the aid of an error of the defense.",
+                        "displayName": "Grand Slam Home Runs",
+                        "displayValue": "0",
+                        "name": "grandSlamHomeRuns",
+                        "shortDisplayName": "GSHR",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "LOB",
+                        "description": "The number runners remain on base after the batter makes an out at the plate.",
+                        "displayName": "Runners Left On Base",
+                        "displayValue": "20",
+                        "name": "runnersLeftOnBase",
+                        "shortDisplayName": "LOB",
+                        "value": 20.0
+                    },
+                    {
+                        "abbreviation": "3B",
+                        "description": "The number of hits that result in the batter reaching 3rd base without the aid of an error.",
+                        "displayName": "Triples",
+                        "displayValue": "0",
+                        "name": "triples",
+                        "shortDisplayName": "3B",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "GW RBI",
+                        "description": "The number of times a batter has a RBI that results in the batter's team winning the game.",
+                        "displayName": "Game Winning RBIs",
+                        "displayValue": "0",
+                        "name": "gameWinningRBIs",
+                        "shortDisplayName": "GW RBI",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "IBB",
+                        "description": "The number of times that a batter is walked by four intentionally thrown balls by the pitcher.",
+                        "displayName": "Intentional Walks",
+                        "displayValue": "0",
+                        "name": "intentionalWalks",
+                        "shortDisplayName": "IBB",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "2B",
+                        "description": "The number of times that a batter reaches second base as the result of a hit without an error being committed.",
+                        "displayName": "Doubles",
+                        "displayValue": "3",
+                        "name": "doubles",
+                        "shortDisplayName": "2B",
+                        "value": 3.0
+                    },
+                    {
+                        "abbreviation": "FO",
+                        "description": "The number of time a batter flies out.",
+                        "displayName": "Fly Balls",
+                        "displayValue": "0",
+                        "name": "flyBalls",
+                        "shortDisplayName": "FO",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "CS",
+                        "description": "The number of times that a baserunner attempts to steal a base but is thrown out.",
+                        "displayName": "Caught Stealing",
+                        "displayValue": "0",
+                        "name": "caughtStealing",
+                        "shortDisplayName": "CS",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "P",
+                        "description": "The number of pitches faced.",
+                        "displayName": "Pitches",
+                        "displayValue": "0",
+                        "name": "pitches",
+                        "shortDisplayName": "P",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "GS",
+                        "description": "The number of games that a batter starts.",
+                        "displayName": "Games Started",
+                        "displayValue": "0",
+                        "name": "gamesStarted",
+                        "shortDisplayName": "GS",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PAB",
+                        "description": "The number of times a batter has come in off the bench to pinch hit for another batter.",
+                        "displayName": "Pinch At Bats",
+                        "displayValue": "0",
+                        "name": "pinchAtBats",
+                        "shortDisplayName": "PAB",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PH",
+                        "description": "The number of times a batter has in off the bench to pinch hit for another batter and gotten a hit.",
+                        "displayName": "Pinch Hits",
+                        "displayValue": "0",
+                        "name": "pinchHits",
+                        "shortDisplayName": "PH",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RTG",
+                        "description": "Player Rating",
+                        "displayName": "Player Rating",
+                        "displayValue": "0.0",
+                        "name": "playerRating",
+                        "shortDisplayName": "RTG",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "QUAL",
+                        "description": "Whether a batter is qualified in terms of at bats",
+                        "displayName": "Is Qualified",
+                        "displayValue": "1",
+                        "name": "isQualified",
+                        "shortDisplayName": "QUAL",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "QUAL STL",
+                        "description": "Whether a player is qualified in number of stolen base attempts.",
+                        "displayName": "Is Qualified In Steals",
+                        "displayValue": "1",
+                        "name": "isQualifiedSteals",
+                        "shortDisplayName": "QUAL STL",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "TB",
+                        "description": "The number of bases calculated as 1 for a 1B, 2 for a 2B, 3 for a 3B and 4 for a HR.",
+                        "displayName": "Total Bases",
+                        "displayValue": "23",
+                        "name": "totalBases",
+                        "shortDisplayName": "TB",
+                        "value": 23.0
+                    },
+                    {
+                        "abbreviation": "PA",
+                        "description": "The number of times a batter comes up to bat.",
+                        "displayName": "Plate Appearances",
+                        "displayValue": "50",
+                        "name": "plateAppearances",
+                        "shortDisplayName": "PA",
+                        "value": 50.0
+                    },
+                    {
+                        "abbreviation": "PROJ HR",
+                        "description": "The number of home runs is expected to accumulate.",
+                        "displayName": "Projected Home Runs",
+                        "displayValue": "162.0",
+                        "name": "projectedHomeRuns",
+                        "shortDisplayName": "PROJ HR",
+                        "value": 162.0
+                    },
+                    {
+                        "abbreviation": "XBH",
+                        "description": "The number of hits that are greater than singles.",
+                        "displayName": "Extra Base Hits",
+                        "displayValue": "4",
+                        "name": "extraBaseHits",
+                        "shortDisplayName": "XBH",
+                        "value": 4.0
+                    },
+                    {
+                        "abbreviation": "RC",
+                        "description": "The estimate of how many runs a player has created.",
+                        "displayName": "Runs Created",
+                        "displayValue": "11.2",
+                        "name": "runsCreated",
+                        "shortDisplayName": "RC",
+                        "value": 11.192642
+                    },
+                    {
+                        "abbreviation": "AVG",
+                        "description": "The average number of times the batter reached successfully on base due to a hit: hits / atBats",
+                        "displayName": "Batting Average",
+                        "displayValue": ".395",
+                        "name": "avg",
+                        "shortDisplayName": "AVG",
+                        "value": 0.39534885
+                    },
+                    {
+                        "abbreviation": "PH%",
+                        "description": "The batting when a batter pinch hits.",
+                        "displayName": "Pinch Hit Average",
+                        "displayValue": ".000",
+                        "name": "pinchAvg",
+                        "shortDisplayName": "PH%",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SLG",
+                        "description": "Slugging percentage is a metric that is meant to measuring how many bases the hitter safely advances to after making contact with the ball: (totalBases / atBats)",
+                        "displayName": "Slugging Percentage",
+                        "displayValue": ".535",
+                        "name": "slugAvg",
+                        "shortDisplayName": "SLG",
+                        "value": 0.53488374
+                    },
+                    {
+                        "abbreviation": "SECA",
+                        "description": "The average of extra bases gained via hits, walks and stolen bases versus at bats.",
+                        "displayName": "Secondary Average",
+                        "displayValue": ".302",
+                        "name": "secondaryAvg",
+                        "shortDisplayName": "SECA",
+                        "value": 0.30232558
+                    },
+                    {
+                        "abbreviation": "OBP",
+                        "description": "The ratio of the number of times the batter reached base per plate appearnce: (hits + walks + hbp / plateAppearances)",
+                        "displayName": "On Base Percentage",
+                        "displayValue": ".460",
+                        "name": "onBasePct",
+                        "shortDisplayName": "OBP",
+                        "value": 0.46
+                    },
+                    {
+                        "abbreviation": "OPS",
+                        "description": "The average calculated by adding up on-base percentage and slugging percentage.",
+                        "displayName": "OBP Pct + SLG Pct",
+                        "displayValue": ".995",
+                        "name": "OPS",
+                        "shortDisplayName": "OPS",
+                        "value": 0.9948838
+                    },
+                    {
+                        "abbreviation": "GO/FO",
+                        "description": "The ratio of ground outs to fly outs.",
+                        "displayName": "Ground To Fly Ball Ratio",
+                        "displayValue": "0.0",
+                        "name": "groundToFlyRatio",
+                        "shortDisplayName": "GO/FO",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RC/27",
+                        "description": "The estimated number of runs created per 27 outs played.",
+                        "displayName": "Runs Created Per 27 Outs",
+                        "displayValue": "11.2",
+                        "name": "runsCreatedPer27Outs",
+                        "shortDisplayName": "RC/27",
+                        "value": 11.192643
+                    },
+                    {
+                        "abbreviation": "RTG",
+                        "description": "Batter Rating",
+                        "displayName": "Batter Rating",
+                        "displayValue": "69.0",
+                        "name": "batterRating",
+                        "shortDisplayName": "RTG",
+                        "value": 69.0
+                    },
+                    {
+                        "abbreviation": "AB/HR",
+                        "description": "The ratio of at bats per home run hit.",
+                        "displayName": "At Bats Per Home Run",
+                        "displayValue": "43.0",
+                        "name": "atBatsPerHomeRun",
+                        "shortDisplayName": "AB/HR",
+                        "value": 43.0
+                    },
+                    {
+                        "abbreviation": "SB%",
+                        "description": "The percentage of stolen bases successfully stolen by a baserunner.",
+                        "displayName": "Stolen Base Percentage",
+                        "displayValue": "1.00",
+                        "name": "stolenBasePct",
+                        "shortDisplayName": "SB%",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "P/PA",
+                        "description": "The average number of pitches a batter sees per plate appearance.",
+                        "displayName": "Pitches Per Plate Appearance",
+                        "displayValue": "0.00",
+                        "name": "pitchesPerPlateAppearance",
+                        "shortDisplayName": "P/PA",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "ISOP",
+                        "description": "The measure of a batter's ability to hit for extra bases, calculated by subtracting batting average from slugging percentage.",
+                        "displayName": "Isolated Power",
+                        "displayValue": ".140",
+                        "name": "isolatedPower",
+                        "shortDisplayName": "ISOP",
+                        "value": 0.13953489
+                    },
+                    {
+                        "abbreviation": "BB/K",
+                        "description": "The number of walks to the number of strikeouts by a batter.",
+                        "displayName": "Walk To Strikeout Ratio",
+                        "displayValue": "0.67",
+                        "name": "walkToStrikeoutRatio",
+                        "shortDisplayName": "BB/K",
+                        "value": 0.6666667
+                    },
+                    {
+                        "abbreviation": "BB/PA",
+                        "description": "The ratio of walks to plate appearances for a batter.",
+                        "displayName": "Walks Per Plate Appearance",
+                        "displayValue": ".080",
+                        "name": "walksPerPlateAppearance",
+                        "shortDisplayName": "BB/PA",
+                        "value": 0.08
+                    },
+                    {
+                        "abbreviation": "SECMBA",
+                        "description": "The metric calculated by subtracting batitng average from secondary average.",
+                        "displayName": "Secondary Average Minus Batting Average",
+                        "displayValue": "-.093",
+                        "name": "secondaryAvgMinusBA",
+                        "shortDisplayName": "SECMBA",
+                        "value": -0.09302327
+                    },
+                    {
+                        "abbreviation": "RP",
+                        "description": "The estimation of how many runs a batter has contributed.",
+                        "displayName": "Runs Produced",
+                        "displayValue": "20.0",
+                        "name": "runsProduced",
+                        "shortDisplayName": "RP",
+                        "value": 20.0
+                    },
+                    {
+                        "abbreviation": "RR",
+                        "description": "The ratio of runs scored to plate appearances by a batter.",
+                        "displayName": "Runs Ratio",
+                        "displayValue": "1.0",
+                        "name": "runsRatio",
+                        "shortDisplayName": "RR",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "PR",
+                        "description": "The metric that attempts to measure a batter's patience.",
+                        "displayName": "Patience Ratio",
+                        "displayValue": "0.6",
+                        "name": "patienceRatio",
+                        "shortDisplayName": "PR",
+                        "value": 0.5995349
+                    },
+                    {
+                        "abbreviation": "BIPA",
+                        "description": "The average of a batter when the ball is put in play or batting average without factoring at bats that result in a home run or a strikeout.",
+                        "displayName": "Balls In Play Average",
+                        "displayValue": "0.4",
+                        "name": "BIPA",
+                        "shortDisplayName": "BIPA",
+                        "value": 0.44444445
+                    },
+                    {
+                        "abbreviation": "MLB",
+                        "description": "The MLB rating.",
+                        "displayName": "MLB Rating",
+                        "displayValue": "113.5",
+                        "name": "MLBRating",
+                        "shortDisplayName": "MLB",
+                        "value": 113.5
+                    },
+                    {
+                        "abbreviation": "OWAR",
+                        "description": "Offensive Wins Above Replacement.",
+                        "displayName": "Offensive Wins Above Replacement",
+                        "displayValue": "0.0",
+                        "name": "offWARBR",
+                        "shortDisplayName": "OWAR",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "WAR",
+                        "description": "Wins Above Replacement.",
+                        "displayName": "Wins Above Replacement",
+                        "displayValue": "0.0",
+                        "name": "WARBR",
+                        "shortDisplayName": "WAR",
+                        "value": 0.0
+                    }
+                ],
+                "summary": "17-43, HR, 3 2B, 10 RBI, 10 R, 4 BB, 3 SB, 6 K"
+            },
+            {
+                "abbreviation": "p",
+                "athletes": [
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/32594?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/32594/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/37567?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/37567/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/40946?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/40946/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/4414298?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/4414298/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/4791597?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/4791597/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5138927?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/5138927/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5259072?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/5259072/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5270061?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/5270061/statistics/0?lang=en&region=us"
+                        }
+                    }
+                ],
+                "displayName": "Pitching",
+                "name": "pitching",
+                "shortDisplayName": "Pitching",
+                "stats": [
+                    {
+                        "abbreviation": "GP",
+                        "description": "Games Played",
+                        "displayName": "Games Played",
+                        "displayValue": "1",
+                        "name": "gamesPlayed",
+                        "shortDisplayName": "GP",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "G",
+                        "description": "The number of games played by a team.",
+                        "displayName": "Team Games Played",
+                        "displayValue": "1",
+                        "name": "teamGamesPlayed",
+                        "shortDisplayName": "G",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "SV",
+                        "description": "The number of times a pitcher enters and finishes the game without surrendering the lead in a save opportunity.",
+                        "displayName": "Saves",
+                        "displayValue": "0",
+                        "name": "saves",
+                        "shortDisplayName": "SV",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "GB",
+                        "description": "The number of ground balls hit against a pitcher.",
+                        "displayName": "Ground Balls",
+                        "displayValue": "10",
+                        "name": "groundBalls",
+                        "shortDisplayName": "GB",
+                        "value": 10.0
+                    },
+                    {
+                        "abbreviation": "K",
+                        "description": "The number of times the pitcher struck out a batter.",
+                        "displayName": "Strikeouts",
+                        "displayValue": "11",
+                        "name": "strikeouts",
+                        "shortDisplayName": "K",
+                        "value": 11.0
+                    },
+                    {
+                        "abbreviation": "SF",
+                        "description": "The number of sacrifice flies surrendered.",
+                        "displayName": "Sacrifice Flies",
+                        "displayValue": "0",
+                        "name": "sacFlies",
+                        "shortDisplayName": "SF",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "L",
+                        "description": "The number of losses for a pitcher.",
+                        "displayName": "Losses",
+                        "displayValue": "1",
+                        "name": "losses",
+                        "shortDisplayName": "L",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "H",
+                        "description": "The number of hits surrendered by a pitcher.",
+                        "displayName": "Hits",
+                        "displayValue": "14",
+                        "name": "hits",
+                        "shortDisplayName": "H",
+                        "value": 14.0
+                    },
+                    {
+                        "abbreviation": "ER",
+                        "description": "The number of earned runs surrendered by a pitcher.",
+                        "displayName": "Earned runs",
+                        "displayValue": "13",
+                        "name": "earnedRuns",
+                        "shortDisplayName": "ER",
+                        "value": 13.0
+                    },
+                    {
+                        "abbreviation": "BH",
+                        "description": "The number of batters hit by a pitcher.",
+                        "displayName": "Batters Hit",
+                        "displayValue": "0",
+                        "name": "battersHit",
+                        "shortDisplayName": "BH",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "BB",
+                        "description": "The number of times a pitcher surrenders a base on balls.",
+                        "displayName": "Walks",
+                        "displayValue": "5",
+                        "name": "walks",
+                        "shortDisplayName": "BB",
+                        "value": 5.0
+                    },
+                    {
+                        "abbreviation": "R",
+                        "description": "The number of runs allowed by a pitcher.",
+                        "displayName": "Runs",
+                        "displayValue": "13",
+                        "name": "runs",
+                        "shortDisplayName": "R",
+                        "value": 13.0
+                    },
+                    {
+                        "abbreviation": "SB",
+                        "description": "The number of times a pitcher allows a baserunner to steal a base.",
+                        "displayName": "Stolen Bases",
+                        "displayValue": "3",
+                        "name": "stolenBases",
+                        "shortDisplayName": "SB",
+                        "value": 3.0
+                    },
+                    {
+                        "abbreviation": "CS",
+                        "description": "The number of times a pitcher gets out a baserunner trying to steal a base.",
+                        "displayName": "Caught Stealing",
+                        "displayValue": "1",
+                        "name": "caughtStealing",
+                        "shortDisplayName": "CS",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "SH",
+                        "description": "The number of times a sacrifce bunt is allowed by a pitcher.",
+                        "displayName": "Sacrifice Bunts",
+                        "displayValue": "0",
+                        "name": "sacBunts",
+                        "shortDisplayName": "SH",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SVOP",
+                        "description": "The number of times a pitcher enters the game with a lead of fewer than 4 runs and pitches at least one inning; enters the game with the potentional tying run on base, at bat, or on deck; or pitches three or more innings with a lead",
+                        "displayName": "Save Opportunities",
+                        "displayValue": "0",
+                        "name": "saveOpportunities",
+                        "shortDisplayName": "SVOP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "HR",
+                        "description": "The number of times a pitcher has allowed a home run.",
+                        "displayName": "Home Runs",
+                        "displayValue": "3",
+                        "name": "homeRuns",
+                        "shortDisplayName": "HR",
+                        "value": 3.0
+                    },
+                    {
+                        "abbreviation": "3B",
+                        "description": "The number of triples surrendered by the picher",
+                        "displayName": "Triples",
+                        "displayValue": "0",
+                        "name": "triples",
+                        "shortDisplayName": "3B",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FIN",
+                        "description": "The number of times that a pitcher finishes the game.",
+                        "displayName": "Finishes",
+                        "displayValue": "0",
+                        "name": "finishes",
+                        "shortDisplayName": "FIN",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "BK",
+                        "description": "The number of times that a pitcher balks.",
+                        "displayName": "Balks",
+                        "displayValue": "0",
+                        "name": "balks",
+                        "shortDisplayName": "BK",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "IBB",
+                        "description": "The number of times that a pitcher has intentionally walked a batter.",
+                        "displayName": "Intentional Walks",
+                        "displayValue": "0",
+                        "name": "intentionalWalks",
+                        "shortDisplayName": "IBB",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FB",
+                        "description": "The number of fly balls a pitcher has produced.",
+                        "displayName": "Fly Balls",
+                        "displayValue": "4",
+                        "name": "flyBalls",
+                        "shortDisplayName": "FB",
+                        "value": 4.0
+                    },
+                    {
+                        "abbreviation": "TBF",
+                        "description": "The number of batters faced by a pitcher.",
+                        "displayName": "Batters Faced",
+                        "displayValue": "44",
+                        "name": "battersFaced",
+                        "shortDisplayName": "TBF",
+                        "value": 44.0
+                    },
+                    {
+                        "abbreviation": "HLD",
+                        "description": "The number of times a pitcher enters the game with the lead, gets at least an out and leaves the game wihtout having given up the lead.",
+                        "displayName": "Holds",
+                        "displayValue": "2",
+                        "name": "holds",
+                        "shortDisplayName": "HLD",
+                        "value": 2.0
+                    },
+                    {
+                        "abbreviation": "2B",
+                        "description": "The number of doubles allowed by a pitcher.",
+                        "displayName": "Doubles",
+                        "displayValue": "3",
+                        "name": "doubles",
+                        "shortDisplayName": "2B",
+                        "value": 3.0
+                    },
+                    {
+                        "abbreviation": "W",
+                        "description": "The number of times the pitcher was attributed with a win",
+                        "displayName": "Wins",
+                        "displayValue": "0",
+                        "name": "wins",
+                        "shortDisplayName": "W",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "CG",
+                        "description": "The number of times that pitcher starts and finishes a game.",
+                        "displayName": "Complete Games",
+                        "displayValue": "0",
+                        "name": "completeGames",
+                        "shortDisplayName": "CG",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PG",
+                        "description": "The number of times the pitcher pitches a complete games shutout victory that lasts a minimum of nine innings in which no opposing player reaches base for any reason.",
+                        "displayName": "Perfect Games",
+                        "displayValue": "0",
+                        "name": "perfectGames",
+                        "shortDisplayName": "PG",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "WP",
+                        "description": "The number of times that a pitcher pitches a wild pitch.",
+                        "displayName": "Wild Pitches",
+                        "displayValue": "3",
+                        "name": "wildPitches",
+                        "shortDisplayName": "WP",
+                        "value": 3.0
+                    },
+                    {
+                        "abbreviation": "RBI",
+                        "description": "The number of runs scored due to the actions of the batter.",
+                        "displayName": "Runs Batted In",
+                        "displayValue": "0",
+                        "name": "RBIs",
+                        "shortDisplayName": "RBI",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TIP",
+                        "description": "The number of third innings pitched.",
+                        "displayName": "Third Innings Pitched",
+                        "displayValue": "27",
+                        "name": "thirdInnings",
+                        "shortDisplayName": "TIP",
+                        "value": 27.0
+                    },
+                    {
+                        "abbreviation": "ER",
+                        "description": "The number of earned runs allowed.",
+                        "displayName": "Earned Runs",
+                        "displayValue": "0",
+                        "name": "teamEarnedRuns",
+                        "shortDisplayName": "ER",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SHO",
+                        "description": "The number of times that a pitcher allows zero runs.",
+                        "displayName": "Shutouts",
+                        "displayValue": "0",
+                        "name": "shutouts",
+                        "shortDisplayName": "SHO",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "POA",
+                        "description": "The number of times that a pitcher throws over to try and pickoff a baserunner.",
+                        "displayName": "Pickoff Attempts",
+                        "displayValue": "0",
+                        "name": "pickoffAttempts",
+                        "shortDisplayName": "POA",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "P",
+                        "description": "The number of pitches a pitcher throws.",
+                        "displayName": "Pitches",
+                        "displayValue": "0",
+                        "name": "pitches",
+                        "shortDisplayName": "P",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RSUP",
+                        "description": "The average number of runs scored while the pitcher is pitching.",
+                        "displayName": "Run Support",
+                        "displayValue": "0.0",
+                        "name": "runSupport",
+                        "shortDisplayName": "RSUP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "CI",
+                        "description": "The number of times there is catcher interference.",
+                        "displayName": "Catcher Interference",
+                        "displayValue": "0",
+                        "name": "catcherInterference",
+                        "shortDisplayName": "CI",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PAS",
+                        "description": "The number of pitches thrown by a pitcher when they start a game.",
+                        "displayName": "Pitches As Starter",
+                        "displayValue": "0",
+                        "name": "pitchesAsStarter",
+                        "shortDisplayName": "PAS",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "GS",
+                        "description": "The number of games started by a pitcher.",
+                        "displayName": "Games Started",
+                        "displayValue": "1",
+                        "name": "gamesStarted",
+                        "shortDisplayName": "GS",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "GSC",
+                        "description": "The average game score for a pitcher.",
+                        "displayName": "Game Score",
+                        "displayValue": "0.0",
+                        "name": "avgGameScore",
+                        "shortDisplayName": "AGSC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "QS",
+                        "description": "The number of quality starts for a pitcher.",
+                        "displayName": "Quality Starts",
+                        "displayValue": "0",
+                        "name": "qualityStarts",
+                        "shortDisplayName": "QS",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "IR",
+                        "description": "The number of baserunners when a relief pitcher enters the game.",
+                        "displayName": "Inherited Runners",
+                        "displayValue": "0",
+                        "name": "inheritedRunners",
+                        "shortDisplayName": "IR",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "IRS",
+                        "description": "The number of inherited runners who scored.",
+                        "displayName": "Inherited Runners Scored",
+                        "displayValue": "1",
+                        "name": "inheritedRunnersScored",
+                        "shortDisplayName": "IRS",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "RTG",
+                        "description": "The rating of a pitcher.",
+                        "displayName": "Player Rating",
+                        "displayValue": "0.0",
+                        "name": "playerRating",
+                        "shortDisplayName": "RTG",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "AB",
+                        "description": "The number of at bats.",
+                        "displayName": "At Bats",
+                        "displayValue": "39",
+                        "name": "atBats",
+                        "shortDisplayName": "AB",
+                        "value": 39.0
+                    },
+                    {
+                        "abbreviation": "TB",
+                        "description": "The number of bases allowed by the pitcher.",
+                        "displayName": "Total Bases",
+                        "displayValue": "26",
+                        "name": "opponentTotalBases",
+                        "shortDisplayName": "TB",
+                        "value": 26.0
+                    },
+                    {
+                        "abbreviation": "QUAL",
+                        "description": "Whether a player is qualified as a pitcher.",
+                        "displayName": "Is Qualified",
+                        "displayValue": "1",
+                        "name": "isQualified",
+                        "shortDisplayName": "QUAL",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "QUAL",
+                        "description": "Whether a player is qualified for saves.",
+                        "displayName": "Is Qualified",
+                        "displayValue": "0",
+                        "name": "isQualifiedSaves",
+                        "shortDisplayName": "QUAL",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FI",
+                        "description": "The number of full innings pitched by a pitcher.",
+                        "displayName": "Full Innings",
+                        "displayValue": "9",
+                        "name": "fullInnings",
+                        "shortDisplayName": "FI",
+                        "value": 9.0
+                    },
+                    {
+                        "abbreviation": "PI",
+                        "description": "The number of times a pitcher pitches a part of an inning",
+                        "displayName": "Partial Innings",
+                        "displayValue": "0",
+                        "name": "partInnings",
+                        "shortDisplayName": "PI",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "BLSV",
+                        "description": "The number of times a pitchers has a save opportunity and surrenders the lead.",
+                        "displayName": "Blown Saves",
+                        "displayValue": "0",
+                        "name": "blownSaves",
+                        "shortDisplayName": "BLSV",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "IP",
+                        "description": "The number of innings pitched.",
+                        "displayName": "Innings pitched",
+                        "displayValue": "9.0",
+                        "name": "innings",
+                        "shortDisplayName": "IP",
+                        "value": 9.0
+                    },
+                    {
+                        "abbreviation": "ERA",
+                        "description": "The average number of runs a pitcher yields per 9 innings thrown",
+                        "displayName": "Earned Run Average",
+                        "displayValue": "13.00",
+                        "name": "ERA",
+                        "shortDisplayName": "ERA",
+                        "value": 13.0
+                    },
+                    {
+                        "abbreviation": "WHIP",
+                        "description": "The number representing walks plus hits divided by innings pitched.",
+                        "displayName": "Walks Plus Hits Per Inning Pitched",
+                        "displayValue": "2.11",
+                        "name": "WHIP",
+                        "shortDisplayName": "WHIP",
+                        "value": 2.1111112
+                    },
+                    {
+                        "abbreviation": "W%",
+                        "description": "The percentage of wins for a pitcher.",
+                        "displayName": "Win Percentage",
+                        "displayValue": ".000",
+                        "name": "winPct",
+                        "shortDisplayName": "W%",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "CS%",
+                        "description": "The percentage of baserunners caught stealing.",
+                        "displayName": "Caught Stealing Percentage",
+                        "displayValue": "0.3",
+                        "name": "caughtStealingPct",
+                        "shortDisplayName": "CS%",
+                        "value": 0.25
+                    },
+                    {
+                        "abbreviation": "G/F",
+                        "description": "The number of ground balls to fly balls.",
+                        "displayName": "Ground To Fly Ball Ratio",
+                        "displayValue": "2.5",
+                        "name": "groundToFlyRatio",
+                        "shortDisplayName": "G/F",
+                        "value": 2.5
+                    },
+                    {
+                        "abbreviation": "P/S",
+                        "description": "The average number of pitches per game started by a pitcher.",
+                        "displayName": "Pitches Per Start",
+                        "displayValue": "0.0",
+                        "name": "pitchesPerStart",
+                        "shortDisplayName": "P/S",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "P/I",
+                        "description": "The average number of pitches per inning.",
+                        "displayName": "Pitches Per Inning",
+                        "displayValue": "0.0",
+                        "name": "pitchesPerInning",
+                        "shortDisplayName": "P/I",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "P/PA",
+                        "description": "The average number of pitches per plate appearance for a pitcher.",
+                        "displayName": "Pitches Per Plate Appearance",
+                        "displayValue": "0.0",
+                        "name": "pitchesPerPlateAppearance",
+                        "shortDisplayName": "P/PA",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "RSA",
+                        "description": "The average run support a pitcher receives per game.",
+                        "displayName": "Run Support Average",
+                        "displayValue": "0.0",
+                        "name": "runSupportAvg",
+                        "shortDisplayName": "RSA",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "OBA",
+                        "description": "The opponent's batting average for a pitcher.",
+                        "displayName": "Opponent Batting Average",
+                        "displayValue": ".359",
+                        "name": "opponentAvg",
+                        "shortDisplayName": "OBA",
+                        "value": 0.35897437
+                    },
+                    {
+                        "abbreviation": "OSLUG",
+                        "description": "The opponent's slugging percentage for a pitcher.",
+                        "displayName": "Opponent's Slugging pct.",
+                        "displayValue": ".667",
+                        "name": "opponentSlugAvg",
+                        "shortDisplayName": "OSLUG",
+                        "value": 0.6666667
+                    },
+                    {
+                        "abbreviation": "OOBP",
+                        "description": "THe opponent's on base percentage for a pitcher.",
+                        "displayName": "Opponent's On-base pct.",
+                        "displayValue": ".432",
+                        "name": "opponentOnBasePct",
+                        "shortDisplayName": "OOBP",
+                        "value": 0.4318182
+                    },
+                    {
+                        "abbreviation": "OOPS",
+                        "description": "The opponent's on base percentage plus slugging percentage for a pitcher.",
+                        "displayName": "Opponent's OPB Pct + SLG Pct",
+                        "displayValue": "1.098",
+                        "name": "opponentOPS",
+                        "shortDisplayName": "OOPS",
+                        "value": 1.0984849
+                    },
+                    {
+                        "abbreviation": "SV%",
+                        "description": "The percentage of save opportunities that are saved.",
+                        "displayName": "Save Percentage",
+                        "displayValue": "0.0",
+                        "name": "savePct",
+                        "shortDisplayName": "SV%",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "K/9",
+                        "description": "The average number of strikeouts for a pitcher per 9 innings.",
+                        "displayName": "Strikeouts Per 9 Innings",
+                        "displayValue": "11.0",
+                        "name": "strikeoutsPerNineInnings",
+                        "shortDisplayName": "K/9",
+                        "value": 11.0
+                    },
+                    {
+                        "abbreviation": "K/BB",
+                        "description": "The ratio of strikeouts to walks by a pitcher.",
+                        "displayName": "Strikeout To Walk Ratio",
+                        "displayValue": "2.2",
+                        "name": "strikeoutToWalkRatio",
+                        "shortDisplayName": "K/BB",
+                        "value": 2.2
+                    },
+                    {
+                        "abbreviation": "TL",
+                        "description": "The number of losses in games that are quality starts by the pitcher.",
+                        "displayName": "Tough Losses",
+                        "displayValue": "0",
+                        "name": "toughLosses",
+                        "shortDisplayName": "TL",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "CW",
+                        "description": "The number of wins that are not quality starts by the pitcher.",
+                        "displayName": "Cheap Wins",
+                        "displayValue": "0",
+                        "name": "cheapWins",
+                        "shortDisplayName": "CW",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SVOP/W",
+                        "description": "The number of save opportunities per win.",
+                        "displayName": "Save Opportunities Per Win",
+                        "displayValue": "0.0",
+                        "name": "saveOpportunitiesPerWin",
+                        "shortDisplayName": "SVOP/W",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "BIPA",
+                        "description": "The batter's batting average when facing the pitcher without taking into account home runs or strikeouts.",
+                        "displayName": "Balls In Play Average",
+                        "displayValue": "0.407",
+                        "name": "BIPA",
+                        "shortDisplayName": "BIPA",
+                        "value": 0.4074074
+                    },
+                    {
+                        "abbreviation": "PC",
+                        "description": "The number of pitches thrown.",
+                        "displayName": "Pitch Count",
+                        "displayValue": "0",
+                        "name": "pitchCount",
+                        "shortDisplayName": "PC",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "S",
+                        "description": "The number of strikes thrown.",
+                        "displayName": "Strikes",
+                        "displayValue": "0",
+                        "name": "strikes",
+                        "shortDisplayName": "S",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "S/P",
+                        "description": "The ratio of strikes thrown to pitches thrown.",
+                        "displayName": "Strike To Pitch Ratio",
+                        "displayValue": "0.0",
+                        "name": "strikePitchRatio",
+                        "shortDisplayName": "S/P",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "WAR",
+                        "description": "Wins Above Replacement.",
+                        "displayName": "Wins Above Replacement",
+                        "displayValue": "0.0",
+                        "name": "WARBR",
+                        "shortDisplayName": "WAR",
+                        "value": 0.0
+                    }
+                ],
+                "summary": "9.0 IP, 13 ER, 14 H, 11 K, 5 BB"
+            },
+            {
+                "abbreviation": "f",
+                "athletes": [
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/32594?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/32594/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/32653?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/32653/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/32655?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/32655/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/37567?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/37567/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/38828?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/38828/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/40635?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/40635/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/40946?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/40946/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/41000?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/41000/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/41205?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/41205/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/41475?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/41475/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/41584?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/41584/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/41587?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/41587/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/42427?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/42427/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/42753?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/42753/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/3985190?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/3985190/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/4414298?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/4414298/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/4629081?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/4629081/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/4720895?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/4720895/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/4722885?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/4722885/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/4791597?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/4791597/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/4977664?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/4977664/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5131736?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/5131736/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5132012?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/5132012/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5138927?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/5138927/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5259072?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/5259072/statistics/0?lang=en&region=us"
+                        }
+                    },
+                    {
+                        "athlete": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/athletes/5270061?lang=en&region=us"
+                        },
+                        "statistics": {
+                            "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/events/401704247/competitions/401704247/competitors/9/roster/5270061/statistics/0?lang=en&region=us"
+                        }
+                    }
+                ],
+                "displayName": "Fielding",
+                "name": "fielding",
+                "shortDisplayName": "Fielding",
+                "stats": [
+                    {
+                        "abbreviation": "GP",
+                        "description": "Games Played",
+                        "displayName": "Games Played",
+                        "displayValue": "1",
+                        "name": "gamesPlayed",
+                        "shortDisplayName": "GP",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "G",
+                        "description": "The number of games played by a team.",
+                        "displayName": "Team Games Played",
+                        "displayValue": "1",
+                        "name": "teamGamesPlayed",
+                        "shortDisplayName": "G",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "DP",
+                        "description": "The number of double plays a fielder has been a part of as either the assister or putouter.",
+                        "displayName": "Double Plays",
+                        "displayValue": "0",
+                        "name": "doublePlays",
+                        "shortDisplayName": "DP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "OPP",
+                        "description": "The number of opportunites",
+                        "displayName": "Opportunities",
+                        "displayValue": "0",
+                        "name": "opportunities",
+                        "shortDisplayName": "OPP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "E",
+                        "description": "The number of times a fielder fails to make the play they are expected to make.",
+                        "displayName": "Errors",
+                        "displayValue": "1",
+                        "name": "errors",
+                        "shortDisplayName": "E",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "PB",
+                        "description": "The number of times the ball is dropped or passes by the catcher.",
+                        "displayName": "Passed Balls",
+                        "displayValue": "0",
+                        "name": "passedBalls",
+                        "shortDisplayName": "PB",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "A",
+                        "description": "The number of times a fielder is involved in an out when the fielder is not the putouter.",
+                        "displayName": "Assists",
+                        "displayValue": "13",
+                        "name": "assists",
+                        "shortDisplayName": "A",
+                        "value": 13.0
+                    },
+                    {
+                        "abbreviation": "OA",
+                        "description": "The number of times an outfielder fielder is involved in an out when the fielder is not the putouter.",
+                        "displayName": "Outfield Assists",
+                        "displayValue": "0",
+                        "name": "outfieldAssists",
+                        "shortDisplayName": "OA",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PO",
+                        "description": "The number of times that a pitcher or catcher throws over and picks off a baserunner.",
+                        "displayName": "Pickoffs",
+                        "displayValue": "0",
+                        "name": "pickoffs",
+                        "shortDisplayName": "PO",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PO",
+                        "description": "The number of times the fielder tags or forces the out of a baserunner.",
+                        "displayName": "Putouts",
+                        "displayValue": "27",
+                        "name": "putouts",
+                        "shortDisplayName": "PO",
+                        "value": 27.0
+                    },
+                    {
+                        "abbreviation": "OOF",
+                        "description": "The number of outs on field.",
+                        "displayName": "Outs On Field",
+                        "displayValue": "0",
+                        "name": "outsOnField",
+                        "shortDisplayName": "OOF",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TP",
+                        "description": "The number of times that a fielder is involved in a triple play.",
+                        "displayName": "TP",
+                        "displayValue": "0",
+                        "name": "triplePlays",
+                        "shortDisplayName": "TP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "BIZ",
+                        "description": "The number of balls that were batted into a fielder's zone.",
+                        "displayName": "Balls In Zone",
+                        "displayValue": "0",
+                        "name": "ballsInZone",
+                        "shortDisplayName": "BIZ",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "XB",
+                        "description": "The number of extra base hits allowed.",
+                        "displayName": "Extra Bases",
+                        "displayValue": "0",
+                        "name": "extraBases",
+                        "shortDisplayName": "XB",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "OM",
+                        "description": "The number of outs made by a fielder.",
+                        "displayName": "Outs Made",
+                        "displayValue": "0",
+                        "name": "outsMade",
+                        "shortDisplayName": "OM",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "H",
+                        "description": "The number of hits surrendered.",
+                        "displayName": "Hits",
+                        "displayValue": "0",
+                        "name": "hits",
+                        "shortDisplayName": "H",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TB",
+                        "description": "The number of bases allowed.",
+                        "displayName": "Total Bases",
+                        "displayValue": "0",
+                        "name": "totalBases",
+                        "shortDisplayName": "TB",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "GS",
+                        "description": "The number of games started by a fielder.",
+                        "displayName": "Games Started",
+                        "displayValue": "0",
+                        "name": "gamesStarted",
+                        "shortDisplayName": "GS",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "TIP",
+                        "description": "The number of third innings played by a catcher.",
+                        "displayName": "Third Innings Played",
+                        "displayValue": "0.0",
+                        "name": "catcherThirdInningsPlayed",
+                        "shortDisplayName": "TIP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "CS",
+                        "description": "The number of times a catcher throws a baserunner trying to steal a base.",
+                        "displayName": "Caught Stealing",
+                        "displayValue": "0",
+                        "name": "catcherCaughtStealing",
+                        "shortDisplayName": "CS",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SBA",
+                        "description": "The number of stolen bases that a catcher allows.",
+                        "displayName": "Stolen Bases Allowed",
+                        "displayValue": "0",
+                        "name": "catcherStolenBasesAllowed",
+                        "shortDisplayName": "SBA",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "ER",
+                        "description": "The number of runs allowed by the catcher that aren't the result of an error or passed ball.",
+                        "displayName": "Earned Runs",
+                        "displayValue": "0",
+                        "name": "catcherEarnedRuns",
+                        "shortDisplayName": "ER",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "QUAL",
+                        "description": "Whether a player is qualified as a fielder.",
+                        "displayName": "Qualified",
+                        "displayValue": "1",
+                        "name": "isQualified",
+                        "shortDisplayName": "QUAL",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "QUAL",
+                        "description": "Whether a player qualifies a catcher.",
+                        "displayName": "Qualified Catcher",
+                        "displayValue": "1",
+                        "name": "isQualifiedCatcher",
+                        "shortDisplayName": "QUAL",
+                        "value": 1.0
+                    },
+                    {
+                        "abbreviation": "QUAL",
+                        "description": "Whether a player qualifies as a pitcher.",
+                        "displayName": "Qualified Pitcher",
+                        "displayValue": "0",
+                        "name": "isQualifiedPitcher",
+                        "shortDisplayName": "QUAL",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "SC",
+                        "description": "The number of outs involved in calculated by assists plus putouts.",
+                        "displayName": "Successful Chances",
+                        "displayValue": "40",
+                        "name": "successfulChances",
+                        "shortDisplayName": "SC",
+                        "value": 40.0
+                    },
+                    {
+                        "abbreviation": "TC",
+                        "description": "The number of chances a fielder has to make an out calculated by assists plus putouts plus errors.",
+                        "displayName": "Total Chances",
+                        "displayValue": "41",
+                        "name": "totalChances",
+                        "shortDisplayName": "TC",
+                        "value": 41.0
+                    },
+                    {
+                        "abbreviation": "FIP",
+                        "description": "The number of fully completed innings by a fielder.",
+                        "displayName": "Full Innings",
+                        "displayValue": "0",
+                        "name": "fullInningsPlayed",
+                        "shortDisplayName": "FIP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "PIP",
+                        "description": "The number of at least partial innings played by a fielder.",
+                        "displayName": "Part Innings Played",
+                        "displayValue": "0",
+                        "name": "partInningsPlayed",
+                        "shortDisplayName": "PIP",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "FP",
+                        "description": "The percentage of plays made by a fielder given the total number of chances.",
+                        "displayName": "Fielding Percentage",
+                        "displayValue": "0.976",
+                        "name": "fieldingPct",
+                        "shortDisplayName": "FP",
+                        "value": 0.9756098
+                    },
+                    {
+                        "abbreviation": "RF",
+                        "description": "The estimation of how much field a fielder can cover.",
+                        "displayName": "Range Factor",
+                        "displayValue": "0.0",
+                        "name": "rangeFactor",
+                        "shortDisplayName": "RF",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "ZR",
+                        "description": "The metric used to estimate the ability of a fielder to defend a zone on the field.",
+                        "displayName": "Zone Rating",
+                        "displayValue": "0.0",
+                        "name": "zoneRating",
+                        "shortDisplayName": "ZR",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "CS%",
+                        "description": "The percentage of baserunners caught by the catcher given the total number of steal attempts.",
+                        "displayName": "Caught Stealing Percentage",
+                        "displayValue": "0.000",
+                        "name": "catcherCaughtStealingPct",
+                        "shortDisplayName": "CS%",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "ERA",
+                        "description": "The number of earned runs multipled by 9 divided by the number of innings caught.",
+                        "displayName": "Earned Run Average",
+                        "displayValue": "0.0",
+                        "name": "catcherERA",
+                        "shortDisplayName": "ERA",
+                        "value": 0.0
+                    },
+                    {
+                        "abbreviation": "DWAR",
+                        "description": "Defensive Wins Above Replacement.",
+                        "displayName": "Defensive Wins Above Replacement",
+                        "displayValue": "0.0",
+                        "name": "defWARBR",
+                        "shortDisplayName": "DWAR",
+                        "value": 0.0
+                    }
+                ],
+                "summary": ""
+            },
+            {
+                "abbreviation": "b",
+                "displayName": "Batting",
+                "name": "battingDetails",
+                "shortDisplayName": "Batting",
+                "stats": [
+                    {
+                        "abbreviation": "2B",
+                        "displayName": "Doubles",
+                        "displayValue": "Buxton (1, Suárez); Cerda (1, Pérez); De Andrade (1, Tavera)",
+                        "name": "doubles",
+                        "shortDisplayName": "2B"
+                    },
+                    {
+                        "abbreviation": "HR",
+                        "displayName": "Home Runs",
+                        "displayValue": "Larnach (1, 3rd inning off Suárez 1 on, 1 Out)",
+                        "name": "homeruns",
+                        "shortDisplayName": "HR"
+                    },
+                    {
+                        "abbreviation": "RBI",
+                        "displayName": "Runs Batted In",
+                        "displayValue": "Maitan (1), Miranda (1), Larnach 3 (3), Dearden (1), Jeffers (1), Lee (1), Cerda (3), De Andrade (1)",
+                        "name": "rbi",
+                        "shortDisplayName": "RBI"
+                    },
+                    {
+                        "abbreviation": "2Out RBI",
+                        "displayName": "2-out Runs Batted In",
+                        "displayValue": "Larnach, Lee, Cerda",
+                        "name": "2outRBI",
+                        "shortDisplayName": "2Out RBI"
+                    },
+                    {
+                        "abbreviation": "SF",
+                        "displayName": "Sacrifice Flies",
+                        "displayValue": "Miranda",
+                        "name": "sacFly",
+                        "shortDisplayName": "SF"
+                    },
+                    {
+                        "abbreviation": "Team LOB",
+                        "displayName": "Team Left On Base",
+                        "displayValue": "13",
+                        "name": "teamLOB",
+                        "shortDisplayName": "Team LOB"
+                    },
+                    {
+                        "abbreviation": "Team RISP",
+                        "displayName": "Team Runners Left In Scoring Position",
+                        "displayValue": "7-16 (Maitan 1-2, Gasper 0-1, Winkel 0-1, Keaschall 0-1, De Andrade 1-1, Cerda 1-1, Lee 1-1, Wallner 0-2, Jeffers 1-1, Fitzgerald 0-1, Dearden 1-2, Larnach 1-2)",
+                        "name": "teamRISP",
+                        "shortDisplayName": "Team RISP"
+                    },
+                    {
+                        "abbreviation": "RISP 2-out",
+                        "displayName": "Runners Left In Scoring Position With 2 Outs",
+                        "displayValue": "Miranda 1; Dearden 1; Keaschall 2",
+                        "name": "runnersLeftScoringPosition2Outs",
+                        "shortDisplayName": "RISP 2-out"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "p",
+                "displayName": "Pitching",
+                "name": "pitchingDetails",
+                "shortDisplayName": "Pitching",
+                "stats": [
+                    {
+                        "abbreviation": "WP",
+                        "displayName": "Wild Pitches",
+                        "displayValue": "Misiewicz; Stankiewicz; Matthews",
+                        "name": "wildPitches",
+                        "shortDisplayName": "WP"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "f",
+                "displayName": "Fielding",
+                "name": "fieldingDetails",
+                "shortDisplayName": "Fielding",
+                "stats": [
+                    {
+                        "abbreviation": "DP",
+                        "displayName": "Double Plays",
+                        "displayValue": "1 (Speas-Fitzgerald-Gasper)",
+                        "name": "doublePlays",
+                        "shortDisplayName": "DP"
+                    },
+                    {
+                        "abbreviation": "E",
+                        "displayName": "Errors",
+                        "displayValue": "Winkel (1, throw)",
+                        "name": "errors",
+                        "shortDisplayName": "E"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "br",
+                "displayName": "Baserunning",
+                "name": "baserunningDetails",
+                "shortDisplayName": "Baserunning",
+                "stats": [
+                    {
+                        "abbreviation": "SB",
+                        "displayName": "Stolen Bases",
+                        "displayValue": "Buxton (1, 2nd base off Eflin/Sánchez); Lewis (1, 2nd base off Suárez/Sánchez); Keirsey Jr. (2, 2nd base off Cano/Handley)",
+                        "name": "stolenBases",
+                        "shortDisplayName": "SB"
+                    }
+                ]
+            }
+        ],
+        "id": "0",
+        "name": "All Splits"
+    },
+    "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/9?lang=en&region=us"
+    }
+}

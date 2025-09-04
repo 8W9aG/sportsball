@@ -23,6 +23,7 @@ from .data.ncaab import NCAABLeagueModel
 from .data.ncaaf import NCAAFLeagueModel
 from .data.nfl import NFLLeagueModel
 from .data.nhl import NHLLeagueModel
+from .data.wnba import WNBALeagueModel
 
 
 class SportsBall:
@@ -73,6 +74,8 @@ class SportsBall:
                 self._leagues[league] = FIFALeagueModel(self._session, league_filter)
             elif league == League.ATP:
                 self._leagues[league] = ATPLeagueModel(self._session, league_filter)
+            elif league == League.WNBA:
+                self._leagues[league] = WNBALeagueModel(self._session, league_filter)
             else:
                 raise ValueError(f"Unrecognised league: {league}")
         return self._leagues[league]

@@ -248,7 +248,6 @@ class ESPNLeagueModel(LeagueModel):
                     logging.error(scoreboard_response.text)
                     logging.error(url)
                     logging.error(str(exc))
-                    raise exc
 
     @property
     def games(self) -> Iterator[GameModel]:

@@ -1136,7 +1136,8 @@ def _create_espn_team_model(
                     elif stat["name"] == "hits":
                         hits = more_interesting(hits, stat["value"])
                     elif stat["name"] == "stolenBases":
-                        stolen_bases = more_interesting(stolen_bases, stat["value"])
+                        if "value" in stat:
+                            stolen_bases = more_interesting(stolen_bases, stat["value"])
                     elif stat["name"] == "walks":
                         walks = more_interesting(walks, stat["value"])
                     elif stat["name"] == "catcherInterference":
@@ -2945,6 +2946,8 @@ def _create_espn_team_model(
                             second_chance_points, stat["value"]
                         )
                     elif stat["name"] == "pitcherNotes":
+                        pass
+                    elif stat["name"] == "sacFly":
                         pass
                     else:
                         raise ValueError(
