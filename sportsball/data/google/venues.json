@@ -8929,6 +8929,76 @@
             "housenumber": "1",
             "country": "UK",
             "type": "venue"
+        },
+        "6f60772f-8a72-408e-87a5-3daa561d3f81": {
+            "city": "Montpellier",
+            "state": "Occitania",
+            "postal": "",
+            "lat": 43.6119,
+            "lng": 3.8772,
+            "housenumber": "",
+            "country": "France",
+            "type": "city"
+        },
+        "ab597fbb-3d4b-4994-b70e-872d8461560c": {
+            "city": "Huddersfield",
+            "state": "",
+            "postal": "HD1 6PG",
+            "lat": 53.654167,
+            "lng": -1.768333,
+            "housenumber": "",
+            "country": "UK",
+            "type": "venue"
+        },
+        "b6b4e91b-70fc-4693-8f00-f518c0f65128": {
+            "city": "Rostov-on-Don",
+            "state": "",
+            "postal": "",
+            "lat": 47.209444,
+            "lng": 39.737778,
+            "housenumber": "",
+            "country": "Russia",
+            "type": "venue"
+        },
+        "8c63b609-23d9-4aa5-83da-0b9b92f35471": {
+            "city": "Washington",
+            "state": "DC",
+            "postal": "",
+            "lat": 38.872778,
+            "lng": -77.0075,
+            "housenumber": "1500",
+            "country": "USA",
+            "type": "venue"
+        },
+        "5cef74f6-0c80-423e-b4b6-36b4eb2a2266": {
+            "city": "Saint Paul",
+            "state": "MN",
+            "postal": "",
+            "lat": 44.944722,
+            "lng": -93.101111,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
+        },
+        "2a3f33f2-68ce-43f6-a61b-86bd58d2898a": {
+            "city": "Tulsa",
+            "state": "OK",
+            "postal": "",
+            "lat": 36.152722,
+            "lng": -95.996333,
+            "housenumber": "200",
+            "country": "USA",
+            "type": "venue"
+        },
+        "e790406b-abb1-42c1-a23a-c8a3e2881f53": {
+            "city": "North Melbourne",
+            "state": "VIC",
+            "postal": "",
+            "lat": -37.799167,
+            "lng": 144.941111,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
         }
     },
     "searches": {
@@ -10746,6 +10816,19 @@
         "Nizhny Novgorod Stadium - Nizhny Novgorod": "93e514bd-c38e-4c6d-b57d-0e8a1b351514",
         "Frontwave Arena - Oceanside - CA": "13a6107a-6a72-4e5f-8ea4-9beb135a043e",
         "Gateway Center - College Park - GA": "9c2e8552-0d29-4325-9e91-b018d625480a",
-        "Kenilworth Road - Luton": "40fdaaec-555e-462f-869d-e5bea9d14b05"
+        "Gateway Center Arena, College Park, GA, USA": "9c2e8552-0d29-4325-9e91-b018d625480a",
+        "Kenilworth Road - Luton": "40fdaaec-555e-462f-869d-e5bea9d14b05",
+        "Montpellier, France": "6f60772f-8a72-408e-87a5-3daa561d3f81",
+        "John Smith's Stadium, Huddersfield, England": "ab597fbb-3d4b-4994-b70e-872d8461560c",
+        "Rostov Arena - Rostov-on-Don": "b6b4e91b-70fc-4693-8f00-f518c0f65128",
+        "Nationals Park, Washington, DC, USA": "8c63b609-23d9-4aa5-83da-0b9b92f35471",
+        "Nationals Park": "8c63b609-23d9-4aa5-83da-0b9b92f35471",
+        "Nationals Park - Washington - District of Columbia - 20003": "8c63b609-23d9-4aa5-83da-0b9b92f35471",
+        "Grand Casino Arena, Saint Paul, MN, USA": "5cef74f6-0c80-423e-b4b6-36b4eb2a2266",
+        "Grand Casino Arena - Saint Paul - MN": "5cef74f6-0c80-423e-b4b6-36b4eb2a2266",
+        "BOK Center - Tulsa, Oklahoma - United States": "2a3f33f2-68ce-43f6-a61b-86bd58d2898a",
+        "BOK Center, Tulsa, Oklahoma": "2a3f33f2-68ce-43f6-a61b-86bd58d2898a",
+        "BOK Center - Tulsa - OK": "2a3f33f2-68ce-43f6-a61b-86bd58d2898a",
+        "Arden Street Oval": "e790406b-abb1-42c1-a23a-c8a3e2881f53"
     }
 }
