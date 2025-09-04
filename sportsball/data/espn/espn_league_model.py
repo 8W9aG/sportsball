@@ -239,7 +239,7 @@ class ESPNLeagueModel(LeagueModel):
                             game_number=events_count,
                             season_type_json=season_type_json,
                             pbar=pbar,
-                            cache_disabled=cache_disabled,
+                            cache_disabled=False,
                             week_count=None,
                         ):
                             yield game_model

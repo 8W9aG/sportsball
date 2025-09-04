@@ -8879,6 +8879,56 @@
             "housenumber": "10220",
             "country": "Canada",
             "type": "venue"
+        },
+        "28462369-22b2-4b45-b9dd-3d73856d7b11": {
+            "city": "Rome",
+            "state": "Lazio",
+            "postal": "",
+            "lat": 41.893333,
+            "lng": 12.482778,
+            "housenumber": "",
+            "country": "Italy",
+            "type": "city"
+        },
+        "93e514bd-c38e-4c6d-b57d-0e8a1b351514": {
+            "city": "Nizhny Novgorod",
+            "state": "",
+            "postal": "",
+            "lat": 56.3375,
+            "lng": 43.963333,
+            "housenumber": "",
+            "country": "Russia",
+            "type": "venue"
+        },
+        "13a6107a-6a72-4e5f-8ea4-9beb135a043e": {
+            "city": "Oceanside",
+            "state": "CA",
+            "postal": "",
+            "lat": 33.207778,
+            "lng": -117.314722,
+            "housenumber": "3475",
+            "country": "USA",
+            "type": "venue"
+        },
+        "9c2e8552-0d29-4325-9e91-b018d625480a": {
+            "city": "College Park",
+            "state": "GA",
+            "postal": "",
+            "lat": 33.6468,
+            "lng": -84.459616,
+            "housenumber": "2330",
+            "country": "USA",
+            "type": "venue"
+        },
+        "40fdaaec-555e-462f-869d-e5bea9d14b05": {
+            "city": "Luton",
+            "state": "",
+            "postal": "LU4 8AW",
+            "lat": 51.884167,
+            "lng": -0.431667,
+            "housenumber": "1",
+            "country": "UK",
+            "type": "venue"
         }
     },
     "searches": {
@@ -10430,6 +10480,7 @@
         "The Hawthorns, West Bromwich, England": "5874e6a6-dddd-4c94-8381-48046200614b",
         "Maravich Assembly Center, Baton Rouge, Louisiana": "976e74a8-7145-4781-bbe1-b1eb46a512bb",
         "Pete Maravich Assembly Center, Baton Rouge, Louisiana": "976e74a8-7145-4781-bbe1-b1eb46a512bb",
+        "Pete Maravich Assembly Center - Baton Rouge - LA": "976e74a8-7145-4781-bbe1-b1eb46a512bb",
         "Kaseya Center, Miami, Florida": "1709b6d2-2bfb-4ece-b684-253b18dee709",
         "AmericanAirlines Arena, Miami, Florida": "1709b6d2-2bfb-4ece-b684-253b18dee709",
         "Kaseya Center, Miami, FL, USA": "1709b6d2-2bfb-4ece-b684-253b18dee709",
@@ -10441,6 +10492,7 @@
         "Viejas Arena - San Diego, California - United States": "833199a7-4728-44c4-ab3b-d946ecc7c917",
         "T-Mobile Center, Kansas City, Missouri": "fe4cf445-c3c7-4a79-be51-b37110fe5cad",
         "T-Mobile Center - Kansas City - MO": "fe4cf445-c3c7-4a79-be51-b37110fe5cad",
+        "T-Mobile Center": "fe4cf445-c3c7-4a79-be51-b37110fe5cad",
         "Sprint Center, Kansas City, Missouri": "fe4cf445-c3c7-4a79-be51-b37110fe5cad",
         "Robins Stadium - Richmond - VA - 23173": "1c70790b-9e08-4db7-8e92-996a3a6c3cd4",
         "Reitz Arena, Baltimore, Maryland": "965d8791-4e7d-4fc9-9dcd-58480ec63060",
@@ -10689,6 +10741,11 @@
         "Rogers Place - Edmonton - AB": "09482a0c-9a06-473c-88b3-847543a74ff1",
         "Rogers Place - Edmonton, Alberta, Canada - Canada": "09482a0c-9a06-473c-88b3-847543a74ff1",
         "Rogers Place, Edmonton, AB, Canada": "09482a0c-9a06-473c-88b3-847543a74ff1",
-        "Rogers Place": "09482a0c-9a06-473c-88b3-847543a74ff1"
+        "Rogers Place": "09482a0c-9a06-473c-88b3-847543a74ff1",
+        "Rome, Italy": "28462369-22b2-4b45-b9dd-3d73856d7b11",
+        "Nizhny Novgorod Stadium - Nizhny Novgorod": "93e514bd-c38e-4c6d-b57d-0e8a1b351514",
+        "Frontwave Arena - Oceanside - CA": "13a6107a-6a72-4e5f-8ea4-9beb135a043e",
+        "Gateway Center - College Park - GA": "9c2e8552-0d29-4325-9e91-b018d625480a",
+        "Kenilworth Road - Luton": "40fdaaec-555e-462f-869d-e5bea9d14b05"
     }
 }

@@ -229,7 +229,7 @@ class TestESPNTeamModel(unittest.TestCase):
                 odds=[],
                 score_dict=score_dict,
                 dt=dt,
-                league=League.NHL,
+                league=League.MLB,
                 positions_validator={},
                 statistics_dict=statistics_dict,
             )
@@ -259,7 +259,37 @@ class TestESPNTeamModel(unittest.TestCase):
                 odds=[],
                 score_dict=score_dict,
                 dt=dt,
-                league=League.NHL,
+                league=League.MLB,
+                positions_validator={},
+                statistics_dict=statistics_dict,
+            )
+            self.assertEqual(team_model.name, "Twins")
+
+    def test_picked_off(self):
+        dt = datetime.datetime(2023, 9, 15, 0, 15)
+        statistics_dict = {}
+        with open(os.path.join(self.dir, "0_statistics-16.json")) as f:
+            statistics_dict = json.load(f)
+        score_dict = {}
+        with open(os.path.join(self.dir, "9_score-2.json")) as f:
+            score_dict = json.load(f)
+        team_dict = {}
+        with open(os.path.join(self.dir, "9_teams-2.json")) as f:
+            team_dict = json.load(f)
+        with requests_mock.Mocker() as m:
+            with open(os.path.join(self.dir, "9_coaches-2.json"), "rb") as f:
+                m.get("http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/teams/9/coaches?lang=en&region=us", content=f.read())
+            with open(os.path.join(self.dir, "170_coaches-2.json"), "rb") as f:
+                m.get("http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2025/coaches/170?lang=en&region=us", content=f.read())
+            
+            team_model = create_espn_team_model(
+                session=self._session,
+                team=team_dict,
+                roster_dict={},
+                odds=[],
+                score_dict=score_dict,
+                dt=dt,
+                league=League.MLB,
                 positions_validator={},
                 statistics_dict=statistics_dict,
             )
