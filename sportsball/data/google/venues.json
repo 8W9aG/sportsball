@@ -9099,6 +9099,66 @@
             "housenumber": "201",
             "country": "USA",
             "type": "venue"
+        },
+        "922a30bf-da30-4529-94cf-5aea82bcaae5": {
+            "city": "Adelaide",
+            "state": "SA",
+            "postal": "",
+            "lat": -34.9275,
+            "lng": 138.6,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "c4d1c8f8-bbeb-48dc-8d6c-812e2f81e475": {
+            "city": "Port St. Lucie",
+            "state": "FL",
+            "postal": "34986",
+            "lat": -34.9275,
+            "lng": 138.6,
+            "housenumber": "31",
+            "country": "USA",
+            "type": "venue"
+        },
+        "5a2d5f95-747b-4d0e-99a7-28df74b5f183": {
+            "city": "Inglewood",
+            "state": "CA",
+            "postal": "",
+            "lat": 33.9451,
+            "lng": -118.3431,
+            "housenumber": "3930",
+            "country": "USA",
+            "type": "venue"
+        },
+        "2e9a8a4c-d7fa-4ea3-922e-e299e631b70f": {
+            "city": "Fairfax",
+            "state": "VA",
+            "postal": "",
+            "lat": 38.827,
+            "lng": -77.31,
+            "housenumber": "4500",
+            "country": "USA",
+            "type": "venue"
+        },
+        "853d1560-16d5-4aca-8ac1-9786c0069e05": {
+            "city": "Houston",
+            "state": "TX",
+            "postal": "",
+            "lat": 29.7522,
+            "lng": -95.3524,
+            "housenumber": "2200",
+            "country": "USA",
+            "type": "venue"
+        },
+        "6a3d1745-5a21-4ff8-95ca-51312b10f3b1": {
+            "city": "Glen Waverley",
+            "state": "VIC",
+            "postal": "",
+            "lat": -37.891967,
+            "lng": 145.162139,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
         }
     },
     "searches": {
@@ -10559,6 +10619,7 @@
         "Cameron Indoor Stadium - Durham - NC": "4232cf45-c30a-4a92-bc3a-1ab3b20e10f6",
         "Stephen C. O'Connell Center, Gainesville, Florida": "eba1149e-5adb-401e-83ed-4ffaf11aa3cb",
         "Stephen C. O''Connell Center, Gainesville, Florida": "eba1149e-5adb-401e-83ed-4ffaf11aa3cb",
+        "Stephen C. O'Connell Center - Gainesville - FL": "eba1149e-5adb-401e-83ed-4ffaf11aa3cb",
         "Wells Fargo Arena - Des Moines - IA": "41d2883d-107a-40c8-b566-31b1b79a3bc9",
         "Wells Fargo Arena, Des Moines, Iowa": "41d2883d-107a-40c8-b566-31b1b79a3bc9",
         "Wintrust Arena, Chicago, Illinois": "ffc3cfd9-bc8c-49ba-aa2f-7746e845c6c7",
@@ -10954,6 +11015,17 @@
         "Michelob Ulta Arena, Paradise, Nevada": "d06b2f1a-4a79-40f2-88c0-2bc836d16315",
         "Michelob Ultra Arena, Paradise, Nevada": "d06b2f1a-4a79-40f2-88c0-2bc836d16315",
         "Michelob ULTRA Arena - Las Vegas - NV": "d06b2f1a-4a79-40f2-88c0-2bc836d16315",
-        "PHX Arena - Phoenix - AZ": "67f1d552-4aaf-4367-93a2-694eaa8ee658"
+        "PHX Arena - Phoenix - AZ": "67f1d552-4aaf-4367-93a2-694eaa8ee658",
+        "Adelaide, Australia": "922a30bf-da30-4529-94cf-5aea82bcaae5",
+        "Clover Park - Port St. Lucie - Florida - 34988": "c4d1c8f8-bbeb-48dc-8d6c-812e2f81e475",
+        "Intuit Dome, Inglewood, California": "5a2d5f95-747b-4d0e-99a7-28df74b5f183",
+        "Intuit Dome, Inglewood, CA, USA": "5a2d5f95-747b-4d0e-99a7-28df74b5f183",
+        "Intuit Dome - Inglewood, California, U.S. - United States": "5a2d5f95-747b-4d0e-99a7-28df74b5f183",
+        "Intuit Dome - Inglewood - CA": "5a2d5f95-747b-4d0e-99a7-28df74b5f183",
+        "EagleBank Arena, Fairfax, Virginia": "2e9a8a4c-d7fa-4ea3-922e-e299e631b70f",
+        "Patriot Center, Fairfax, Virginia": "2e9a8a4c-d7fa-4ea3-922e-e299e631b70f",
+        "EagleBank Arena - Fairfax - VA": "2e9a8a4c-d7fa-4ea3-922e-e299e631b70f",
+        "Shell Energy Stadium - Houston - TX - 7700": "853d1560-16d5-4aca-8ac1-9786c0069e05",
+        "Central Reserve": "6a3d1745-5a21-4ff8-95ca-51312b10f3b1"
     }
 }

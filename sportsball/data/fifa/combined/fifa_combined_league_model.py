@@ -7,7 +7,6 @@ from ...combined.combined_league_model import CombinedLeagueModel
 from ...league import League
 from ..espn.fifa_espn_league_model import FIFAESPNLeagueModel
 from ..oddsportal.fifa_oddsportal_league_model import FIFAOddsPortalLeagueModel
-from ..sportsdb.fifa_sportsdb_league_model import FIFASportsDBLeagueModel
 
 FIFA_TEAM_IDENTITY_MAP: dict[str, str] = {}
 FIFA_VENUE_IDENTITY_MAP: dict[str, str] = {}
@@ -22,10 +21,10 @@ class FIFACombinedLeagueModel(CombinedLeagueModel):
             session,
             League.FIFA,
             [
-                FIFASportsDBLeagueModel(session, position=0),
-                FIFAOddsPortalLeagueModel(session, position=1),
-                FIFAESPNLeagueModel(session, position=2),
-                # FIFASportsReferenceLeagueModel(session, position=3),
+                FIFAOddsPortalLeagueModel(session, position=0),
+                FIFAESPNLeagueModel(session, position=1),
+                # FIFASportsDBLeagueModel(session, position=3),
+                # FIFASportsReferenceLeagueModel(session, position=4),
             ],
             league_filter,
         )

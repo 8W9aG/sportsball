@@ -256,15 +256,6 @@ STONY_BROOK_ARENA = SportsballGeocodeTuple(
     housenumber="100",
     country="USA",
 )
-INTUIT_DOME = SportsballGeocodeTuple(
-    city="Inglewood",
-    state="CA",
-    postal="",
-    lat=33.9451,
-    lng=-118.3431,
-    housenumber="3930",
-    country="USA",
-)
 TOYOTA_CENTRE = SportsballGeocodeTuple(
     city="Houston",
     state="TX",
@@ -785,15 +776,6 @@ THE_NEST = SportsballGeocodeTuple(
     lat=38.561903,
     lng=-121.426878,
     housenumber="",
-    country="USA",
-)
-EAGLEBANK_ARENA = SportsballGeocodeTuple(
-    city="Fairfax",
-    state="VA",
-    postal="",
-    lat=38.827,
-    lng=-77.31,
-    housenumber="4500",
     country="USA",
 )
 ADDITION_FINANCIAL_ARENA = SportsballGeocodeTuple(
@@ -2611,7 +2593,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="200",
         country="USA",
     ),
-    "EagleBank Arena, Fairfax, Virginia": EAGLEBANK_ARENA,
     "GSU Convocation Center, Atlanta, Georgia": GSU_CONVOCATION_CENTER,
     "Lavietes Pavilion, Boston, Massachusetts": SportsballGeocodeTuple(
         city="Boston",
@@ -3726,7 +3707,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="UAE",
     ),
     "Target Center, Minneapolis, Minnesota": TARGET_CENTER,
-    "Intuit Dome, Inglewood, California": INTUIT_DOME,
     "AT&T Center, San Antonio, Texas": ATT_CENTER,
     "FTX Arena, Miami, Florida": FTX_ARENA,
     "Vivint Smart Home Arena, Salt Lake City, Utah": VIVINT_ARENA,
@@ -4266,11 +4246,9 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
     "Footprint Center, Phoenix, AZ, USA": AMERICA_WEST_ARENA,
     "Target Center, Minneapolis, MN, USA": TARGET_CENTER,
-    "Intuit Dome, Inglewood, CA, USA": INTUIT_DOME,
     "Toyota Center, Houston, TX, USA": TOYOTA_CENTRE,
     "ARCO Arena, Sacramento, CA, USA": ARCO_ARENA,
     "AdventHealth Arena, Orlando, FL, USA": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
-    "Intuit Dome - Inglewood, California, U.S. - United States": INTUIT_DOME,
     "Footprint Center - Phoenix, Arizona - United States": AMERICA_WEST_ARENA,
     "The Palace of Auburn Hills, Auburn Hills, MI, USA": THE_PALACE_OF_AUBURN_HILLS,
     "BMO Harris Bradley Center, Milwaukee, WI, USA": BRADLEY_CENTER,
@@ -7899,7 +7877,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Hornets Nest, Sacramento, California": THE_NEST,
-    "Patriot Center, Fairfax, Virginia": EAGLEBANK_ARENA,
     "Carolina First Arena, Charleston, South Carolina": SportsballGeocodeTuple(
         city="Charleston",
         state="SC",
