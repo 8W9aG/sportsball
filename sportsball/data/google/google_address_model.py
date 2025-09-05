@@ -256,15 +256,6 @@ STONY_BROOK_ARENA = SportsballGeocodeTuple(
     housenumber="100",
     country="USA",
 )
-TOYOTA_CENTRE = SportsballGeocodeTuple(
-    city="Houston",
-    state="TX",
-    postal="",
-    lat=29.750833,
-    lng=-95.362222,
-    housenumber="1510",
-    country="USA",
-)
 ARCO_ARENA = SportsballGeocodeTuple(
     city="Sacramento",
     state="CA",
@@ -3249,15 +3240,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="301",
         country="USA",
     ),
-    "Betty Engelstad Sioux Center , Grand Forks, North Dakota": SportsballGeocodeTuple(
-        city="Grand Forks",
-        state="ND",
-        postal="58203",
-        lat=47.92767,
-        lng=-97.07247,
-        housenumber="1",
-        country="USA",
-    ),
     "Reese Court, Cheney, Washington": SportsballGeocodeTuple(
         city="Cheney",
         state="WA",
@@ -3366,15 +3348,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         lat=36.105833,
         lng=-115.202222,
         housenumber="4500",
-        country="USA",
-    ),
-    "Mohegan Sun Arena, Uncasville, Connecticut": SportsballGeocodeTuple(
-        city="Uncasville",
-        state="CT",
-        postal="",
-        lat=41.491111,
-        lng=-72.089722,
-        housenumber="1",
         country="USA",
     ),
     "Hilliard Gates Sports Center, Fort Wayne, Indiana": SportsballGeocodeTuple(
@@ -3650,7 +3623,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "Arco Arena - Sacramento, California - United States": ARCO_ARENA,
     "Bradley Center": BRADLEY_CENTER,
     "Charlotte Coliseum": CHARLOTTE_COLISEUM,
-    "Toyota Center, Houston, Texas": TOYOTA_CENTRE,
     "Miami Arena": MIAMI_ARENA,
     "Al McGuire Center, Milwaukee, Wisconsin": SportsballGeocodeTuple(
         city="Milwaukee",
@@ -4236,7 +4208,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
     "Footprint Center, Phoenix, AZ, USA": AMERICA_WEST_ARENA,
     "Target Center, Minneapolis, MN, USA": TARGET_CENTER,
-    "Toyota Center, Houston, TX, USA": TOYOTA_CENTRE,
     "ARCO Arena, Sacramento, CA, USA": ARCO_ARENA,
     "AdventHealth Arena, Orlando, FL, USA": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
     "Footprint Center - Phoenix, Arizona - United States": AMERICA_WEST_ARENA,
@@ -16881,15 +16852,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Lawrence Joel Veterans Memorial Coliseum - Winston-Salem, North Carolina - United States": LAWRENCE_JOEL_VETERANS_MEMORIAL_COLISEUM,
-    "Nokia Arena": SportsballGeocodeTuple(
-        city="Tampere",
-        state="",
-        postal="",
-        lat=61.493952,
-        lng=23.772955,
-        housenumber="",
-        country="Finland",
-    ),
     "KFC YUM! Center - Louisville, Kentucky - United States": KFC_YUM_CENTER,
     "University of Memphis": SportsballGeocodeTuple(
         city="Memphis",

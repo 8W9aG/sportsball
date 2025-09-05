@@ -1173,7 +1173,7 @@ TEAM_SECOND_CHANCE_POINTS_COLUMN: Literal["second_chance_points"] = (
     "second_chance_points"
 )
 TEAM_PLUS_MINUS_COLUMN: Literal["plus_minus"] = "plus_minus"
-VERSION = DELIMITER.join(["0.0.10", PLAYER_VERSION, COACH_VERSION])
+VERSION = DELIMITER.join(["0.0.11", PLAYER_VERSION, COACH_VERSION])
 
 
 def _calculate_kicks(data: dict[str, Any]) -> int | None:
@@ -2183,7 +2183,7 @@ class TeamModel(BaseModel):
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_INACCURATE_CROSSES_COLUMN,
     )
-    inaccurate_longballs: int | None = Field(
+    inaccurate_long_balls: int | None = Field(
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_INACCURATE_LONGBALLS_COLUMN,
@@ -2308,7 +2308,7 @@ class TeamModel(BaseModel):
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_TOTAL_GOALS_COLUMN,
     )
-    total_longballs: int | None = Field(
+    total_long_balls: int | None = Field(
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_TOTAL_LONGBALLS_COLUMN,
@@ -3913,22 +3913,22 @@ class TeamModel(BaseModel):
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_PUNTS_BLOCKED_PERCENTAGE_COLUMN,
     )
-    punts_inside_the_10: float | None = Field(
+    punts_inside_10: float | None = Field(
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_PUNTS_INSIDE_THE_10_COLUMN,
     )
-    punts_inside_the_10_percentage: float | None = Field(
+    punts_inside_10_percentage: float | None = Field(
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_PUNTS_INSIDE_THE_10_PERCENTAGE_COLUMN,
     )
-    punts_inside_the_20: float | None = Field(
+    punts_inside_20: float | None = Field(
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_PUNTS_INSIDE_THE_20_COLUMN,
     )
-    punts_inside_the_20_percentage: float | None = Field(
+    punts_inside_20_percentage: float | None = Field(
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_PUNTS_INSIDE_THE_20_PERCENTAGE_COLUMN,
@@ -4798,7 +4798,7 @@ class TeamModel(BaseModel):
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_TOTAL_YARDS_FROM_SCRIMMAGE_COLUMN,
     )
-    two_point_pass_conversions: int | None = Field(
+    two_point_pass_convs: int | None = Field(
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_TWO_POINT_PASS_CONVERSIONS_COLUMN,

@@ -489,7 +489,7 @@ def create_combined_team_model(
             inaccurate_crosses, team_model.inaccurate_crosses
         )
         inaccurate_long_balls = more_interesting(
-            inaccurate_long_balls, team_model.inaccurate_longballs
+            inaccurate_long_balls, team_model.inaccurate_long_balls
         )
         inaccurate_passes = more_interesting(
             inaccurate_passes, team_model.inaccurate_passes
@@ -544,7 +544,7 @@ def create_combined_team_model(
         total_crosses = more_interesting(total_crosses, team_model.total_crosses)
         total_goals = more_interesting(total_goals, team_model.total_goals)
         total_long_balls = more_interesting(
-            total_long_balls, team_model.total_longballs
+            total_long_balls, team_model.total_long_balls
         )
         total_passes = more_interesting(total_passes, team_model.total_passes)
         total_shots = more_interesting(total_shots, team_model.total_shots)

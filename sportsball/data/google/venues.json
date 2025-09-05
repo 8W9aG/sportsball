@@ -9199,6 +9199,86 @@
             "housenumber": "",
             "country": "Australia",
             "type": "venue"
+        },
+        "4925a541-c1ba-44ca-adad-bee92a49bd27": {
+            "city": "Morwell",
+            "state": "VIC",
+            "postal": "",
+            "lat": -38.240833,
+            "lng": 146.39,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "aedcd23a-63e9-4ee2-97cd-a0e7cdcc81d3": {
+            "city": "Eastbourne",
+            "state": "",
+            "postal": "",
+            "lat": 50.763686,
+            "lng": 0.283204,
+            "housenumber": "",
+            "country": "UK",
+            "type": "venue"
+        },
+        "d8538c7e-0244-4429-ab26-e024932a5c17": {
+            "city": "Curitiba",
+            "state": "Parana",
+            "postal": "",
+            "lat": -25.448333,
+            "lng": -49.276944,
+            "housenumber": "",
+            "country": "Brazil",
+            "type": "venue"
+        },
+        "4630d52b-0076-42a7-9b39-7e426a978cbd": {
+            "city": "Mesa",
+            "state": "AZ",
+            "postal": "85201",
+            "lat": 33.438056,
+            "lng": -111.83,
+            "housenumber": "1235",
+            "country": "USA",
+            "type": "venue"
+        },
+        "25fd5400-0cba-44dd-b6fe-3e83af10fde8": {
+            "city": "Houston",
+            "state": "TX",
+            "postal": "",
+            "lat": 29.750833,
+            "lng": -95.362222,
+            "housenumber": "1510",
+            "country": "USA",
+            "type": "venue"
+        },
+        "d489e882-5de0-4a75-9340-9f74b2f329f4": {
+            "city": "Grand Forks",
+            "state": "ND",
+            "postal": "58203",
+            "lat": 47.92767,
+            "lng": -97.07247,
+            "housenumber": "1",
+            "country": "USA",
+            "type": "venue"
+        },
+        "386399c2-92b9-44bd-b7ce-37f296f6bb9d": {
+            "city": "Tampere",
+            "state": "",
+            "postal": "",
+            "lat": 61.493952,
+            "lng": 23.772955,
+            "housenumber": "",
+            "country": "Finland",
+            "type": "venue"
+        },
+        "26759648-7039-4807-afb1-dcafc17f34f1": {
+            "city": "Uncasville",
+            "state": "CT",
+            "postal": "",
+            "lat": 41.491111,
+            "lng": -72.089722,
+            "housenumber": "1",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -10127,6 +10207,7 @@
         "Bramall Lane - Sheffield": "e238493d-55dc-4096-96a9-2e82a43f46da",
         "S.B. Ballard Stadium - Norfolk - VA - 23508": "e0968fb0-02e5-4421-bf87-818f32f05b33",
         "M. Chinnaswamy Stadium, Bengaluru, India": "bbbab4b2-d86e-43b0-ba8a-051ed89e9007",
+        "Bangalore Stadium, Bangalore, India": "bbbab4b2-d86e-43b0-ba8a-051ed89e9007",
         "M. M. Roberts Stadium - Hattiesburg - MS - 39406": "ca4babd1-7f70-4228-a795-3c5287a621ce",
         "M. M. Roberts Stadium": "ca4babd1-7f70-4228-a795-3c5287a621ce",
         "Fisher Field": "47bef237-e95d-45b4-871a-5282e0992ace",
@@ -11066,7 +11147,7 @@
         "EagleBank Arena, Fairfax, Virginia": "2e9a8a4c-d7fa-4ea3-922e-e299e631b70f",
         "Patriot Center, Fairfax, Virginia": "2e9a8a4c-d7fa-4ea3-922e-e299e631b70f",
         "EagleBank Arena - Fairfax - VA": "2e9a8a4c-d7fa-4ea3-922e-e299e631b70f",
-        "Shell Energy Stadium - Houston - TX - 7700": "853d1560-16d5-4aca-8ac1-9786c0069e05",
+        "Shell Energy Stadium - Houston - TX - 77003": "853d1560-16d5-4aca-8ac1-9786c0069e05",
         "Central Reserve": "6a3d1745-5a21-4ff8-95ca-51312b10f3b1",
         "Surprise Stadium - Surprise - Arizona - 85387": "08db9673-fafa-4d60-acde-bb6a25d4f40a",
         "Watsco Center - Coral Gables - FL": "42087809-e093-45f0-99a6-8d5d85190ab2",
@@ -11075,6 +11156,18 @@
         "BankUnited Center": "42087809-e093-45f0-99a6-8d5d85190ab2",
         "Watsco Center - Miami–Orlando, United States - United States": "42087809-e093-45f0-99a6-8d5d85190ab2",
         "Carver-Hawkeye Arena - Iowa City - IA": "590d9526-3d91-4c6e-9c57-7ff7300fd505",
-        "Moreton Bay Central Sports Complex": "a298f3ac-615d-4a6f-be1a-4b5fb1947aca"
+        "Moreton Bay Central Sports Complex": "a298f3ac-615d-4a6f-be1a-4b5fb1947aca",
+        "Morwell Recreation Reserve": "4925a541-c1ba-44ca-adad-bee92a49bd27",
+        "Eastbourne": "aedcd23a-63e9-4ee2-97cd-a0e7cdcc81d3",
+        "Ligga Arena - Curitiba": "d8538c7e-0244-4429-ab26-e024932a5c17",
+        "Hohokam Stadium - Mesa - Arizona - 85277": "4630d52b-0076-42a7-9b39-7e426a978cbd",
+        "Toyota Center (Houston) - Houston - TX": "25fd5400-0cba-44dd-b6fe-3e83af10fde8",
+        "Toyota Center, Houston, Texas": "25fd5400-0cba-44dd-b6fe-3e83af10fde8",
+        "Toyota Center, Houston, TX, USA": "25fd5400-0cba-44dd-b6fe-3e83af10fde8",
+        "Betty Engelstad Sioux Center , Grand Forks, North Dakota": "d489e882-5de0-4a75-9340-9f74b2f329f4",
+        "Betty Engelstad Sioux Center - Grand Forks - ND": "d489e882-5de0-4a75-9340-9f74b2f329f4",
+        "Nokia Arena - Tampere": "386399c2-92b9-44bd-b7ce-37f296f6bb9d",
+        "Nokia Arena": "386399c2-92b9-44bd-b7ce-37f296f6bb9d",
+        "Mohegan Sun Arena, Uncasville, Connecticut": "26759648-7039-4807-afb1-dcafc17f34f1"
     }
 }
