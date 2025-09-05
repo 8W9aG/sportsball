@@ -8999,6 +8999,56 @@
             "housenumber": "",
             "country": "Australia",
             "type": "venue"
+        },
+        "c87c5b1f-e6ad-4c90-b2ee-5421f4ce116b": {
+            "city": "Kingston",
+            "state": "TAS",
+            "postal": "7050",
+            "lat": -42.975332,
+            "lng": 147.28669,
+            "housenumber": "35",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "6ff98b7d-2cc5-40de-a4eb-c0d56cfe2628": {
+            "city": "Mumbai",
+            "state": "",
+            "postal": "",
+            "lat": 18.932222,
+            "lng": 72.824722,
+            "housenumber": "",
+            "country": "India",
+            "type": "venue"
+        },
+        "6f92ba68-3e71-4678-83e9-044e842b0933": {
+            "city": "Dunedin",
+            "state": "FL",
+            "postal": "34698",
+            "lat": 28.003611,
+            "lng": -82.786389,
+            "housenumber": "373",
+            "country": "USA",
+            "type": "venue"
+        },
+        "66b19b05-1d17-4b65-b0a6-7daeec2f26ec": {
+            "city": "San Francisco",
+            "state": "CA",
+            "postal": "",
+            "lat": 37.768056,
+            "lng": -122.3875,
+            "housenumber": "1",
+            "country": "USA",
+            "type": "venue"
+        },
+        "7c665138-4feb-4fd6-9f17-b90a975fc110": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "postal": "90015",
+            "lat": 34.0429909,
+            "lng": -118.2673753,
+            "housenumber": "1111",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -9924,6 +9974,7 @@
         "Houchens Industries-L. T. Smith Stadium": "a220b641-202f-4ccd-8948-9be0a78b4c76",
         "Copps Coliseum": "6bc95021-7749-400d-904e-d27a2c4f0499",
         "Bramall Lane, Sheffield, England": "e238493d-55dc-4096-96a9-2e82a43f46da",
+        "Bramall Lane - Sheffield": "e238493d-55dc-4096-96a9-2e82a43f46da",
         "S.B. Ballard Stadium - Norfolk - VA - 23508": "e0968fb0-02e5-4421-bf87-818f32f05b33",
         "M. Chinnaswamy Stadium, Bengaluru, India": "bbbab4b2-d86e-43b0-ba8a-051ed89e9007",
         "M. M. Roberts Stadium - Hattiesburg - MS - 39406": "ca4babd1-7f70-4228-a795-3c5287a621ce",
@@ -10829,6 +10880,22 @@
         "BOK Center - Tulsa, Oklahoma - United States": "2a3f33f2-68ce-43f6-a61b-86bd58d2898a",
         "BOK Center, Tulsa, Oklahoma": "2a3f33f2-68ce-43f6-a61b-86bd58d2898a",
         "BOK Center - Tulsa - OK": "2a3f33f2-68ce-43f6-a61b-86bd58d2898a",
-        "Arden Street Oval": "e790406b-abb1-42c1-a23a-c8a3e2881f53"
+        "Arden Street Oval": "e790406b-abb1-42c1-a23a-c8a3e2881f53",
+        "Kingston Twins Ovals": "c87c5b1f-e6ad-4c90-b2ee-5421f4ce116b",
+        "Brabourne Stadium, Mumbai, India": "6ff98b7d-2cc5-40de-a4eb-c0d56cfe2628",
+        "TD Ballpark - Dunedin - Florida - 34698": "6f92ba68-3e71-4678-83e9-044e842b0933",
+        "Chase Center, San Francisco, California": "66b19b05-1d17-4b65-b0a6-7daeec2f26ec",
+        "Chase Center, San Francisco, CA, USA": "66b19b05-1d17-4b65-b0a6-7daeec2f26ec",
+        "Chase Center - San Francisco, California, USA - United States": "66b19b05-1d17-4b65-b0a6-7daeec2f26ec",
+        "Chase Center - San Francisco - CA": "66b19b05-1d17-4b65-b0a6-7daeec2f26ec",
+        "Staples Center": "7c665138-4feb-4fd6-9f17-b90a975fc110",
+        "Crypto.com Arena - Los Angeles, California, USA - United States": "7c665138-4feb-4fd6-9f17-b90a975fc110",
+        "Crypto.com Arena, Los Angeles, California": "7c665138-4feb-4fd6-9f17-b90a975fc110",
+        "STAPLES Center, Los Angeles, California": "7c665138-4feb-4fd6-9f17-b90a975fc110",
+        "Crypto.com Arena, Los Angeles, CA, USA": "7c665138-4feb-4fd6-9f17-b90a975fc110",
+        "Staples Center, Los Angeles, California": "7c665138-4feb-4fd6-9f17-b90a975fc110",
+        "Crypto.com Arena": "7c665138-4feb-4fd6-9f17-b90a975fc110",
+        "STAPLES Center": "7c665138-4feb-4fd6-9f17-b90a975fc110",
+        "crypto.com Arena - Los Angeles - CA - 90185": "7c665138-4feb-4fd6-9f17-b90a975fc110"
     }
 }

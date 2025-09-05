@@ -294,3 +294,33 @@ class TestESPNTeamModel(unittest.TestCase):
                 statistics_dict=statistics_dict,
             )
             self.assertEqual(team_model.name, "Twins")
+
+    def test_plus_minus(self):
+        dt = datetime.datetime(2023, 9, 15, 0, 15)
+        statistics_dict = {}
+        with open(os.path.join(self.dir, "0_statistics-17.json")) as f:
+            statistics_dict = json.load(f)
+        score_dict = {}
+        with open(os.path.join(self.dir, "5_score.json")) as f:
+            score_dict = json.load(f)
+        team_dict = {}
+        with open(os.path.join(self.dir, "5_teams.json")) as f:
+            team_dict = json.load(f)
+        with requests_mock.Mocker() as m:
+            with open(os.path.join(self.dir, "5_coaches.json"), "rb") as f:
+                m.get("http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/teams/5/coaches?lang=en&region=us", content=f.read())
+            with open(os.path.join(self.dir, "524_coaches.json"), "rb") as f:
+                m.get("http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/coaches/524?lang=en&region=us", content=f.read())
+            
+            team_model = create_espn_team_model(
+                session=self._session,
+                team=team_dict,
+                roster_dict={},
+                odds=[],
+                score_dict=score_dict,
+                dt=dt,
+                league=League.WNBA,
+                positions_validator={},
+                statistics_dict=statistics_dict,
+            )
+            self.assertEqual(team_model.plus_minus, 0.0)

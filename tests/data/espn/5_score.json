@@ -1,0 +1,10 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/events/401761353/competitions/401761353/competitors/5/scores/1?lang=en&region=us",
+    "displayValue": "79",
+    "source": {
+        "description": "Basic/Manual",
+        "id": "1"
+    },
+    "value": 79.0,
+    "winner": true
+}

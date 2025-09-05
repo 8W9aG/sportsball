@@ -716,6 +716,7 @@ def _create_espn_team_model(
     total_takeaways = None
     fantasy_rating = None
     second_chance_points = None
+    plus_minus = None
     if "splits" in statistics_dict:
         try:
             for category in statistics_dict["splits"]["categories"]:
@@ -2956,6 +2957,8 @@ def _create_espn_team_model(
                         pass
                     elif stat["name"] == "pickedOff":
                         pass
+                    elif stat["name"] == "plusMinus":
+                        plus_minus = more_interesting(plus_minus, stat["value"])
                     else:
                         raise ValueError(
                             f"Failed to account for statistic: {stat['name']} on {statistics_dict['$ref']}"
@@ -3643,6 +3646,7 @@ def _create_espn_team_model(
         total_takeaways=total_takeaways,
         fantasy_rating=fantasy_rating,
         second_chance_points=second_chance_points,
+        plus_minus=plus_minus,
     )
 
 

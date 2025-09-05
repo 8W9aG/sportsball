@@ -1,0 +1,20 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/coaches/524?lang=en&region=us",
+    "birthPlace": {
+        "city": "Danville",
+        "country": "USA",
+        "state": "IL"
+    },
+    "college": {
+        "$ref": "http://sports.core.api.espn.com/v2/colleges/238?lang=en&region=us"
+    },
+    "dateOfBirth": "1977-06-20T07:00Z",
+    "experience": 3,
+    "firstName": "Stephanie",
+    "id": "524",
+    "lastName": "White",
+    "person": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/coaches/524?lang=en&region=us"
+    },
+    "uid": "s:40~l:59~co:524"
+}

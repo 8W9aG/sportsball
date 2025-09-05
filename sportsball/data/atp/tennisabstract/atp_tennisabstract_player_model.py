@@ -112,13 +112,16 @@ def _create_tennisabstract_player_model(
         if name is None:
             raise ValueError(f"name for {url} is null")
 
-        headshot_url = (
-            "https://www.tennisabstract.com/photos/"
-            + name.lower().replace(" ", "_")
-            + "-"
-            + photog
-            + ".jpg"
-        )
+        headshot_url = None
+        if photog is not None:
+            headshot_url = (
+                "https://www.tennisabstract.com/photos/"
+                + name.lower().replace(" ", "_")
+                + "-"
+                + photog
+                + ".jpg"
+            )
+
         return PlayerModel(
             identifier=identifier,
             jersey=None,

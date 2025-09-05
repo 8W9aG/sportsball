@@ -1,0 +1,300 @@
+{
+    "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/teams/5?lang=en&region=us",
+    "abbreviation": "IND",
+    "alternateColor": "e03a3e",
+    "alternateIds": {
+        "sdr": "2785"
+    },
+    "athletes": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/teams/5/athletes?lang=en&region=us"
+    },
+    "awards": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/teams/5/awards?lang=en&region=us"
+    },
+    "coaches": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/teams/5/coaches?lang=en&region=us"
+    },
+    "color": "002d62",
+    "displayName": "Indiana Fever",
+    "events": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/teams/5/events?lang=en&region=us"
+    },
+    "franchise": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/franchises/5?lang=en&region=us"
+    },
+    "groups": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/types/2/groups/1?lang=en&region=us"
+    },
+    "guid": "bfef1bdd-c2d1-310d-dd9f-645b90575da9",
+    "id": "5",
+    "injuries": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/teams/5/injuries?lang=en&region=us"
+    },
+    "isActive": true,
+    "isAllStar": false,
+    "leaders": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/types/2/teams/5/leaders?lang=en&region=us"
+    },
+    "links": [
+        {
+            "href": "https://www.espn.com/wnba/team/_/name/ind/indiana-fever",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "clubhouse",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Clubhouse",
+            "text": "Clubhouse"
+        },
+        {
+            "href": "https://m.espn.com/wnba/clubhouse?teamId=5",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "clubhouse",
+                "mobile",
+                "team"
+            ],
+            "shortText": "Clubhouse",
+            "text": "Clubhouse"
+        },
+        {
+            "href": "https://www.espn.com/wnba/team/roster/_/name/ind/indiana-fever",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "roster",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Roster",
+            "text": "Roster"
+        },
+        {
+            "href": "https://www.espn.com/wnba/team/stats/_/name/ind/indiana-fever",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "stats",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Statistics",
+            "text": "Statistics"
+        },
+        {
+            "href": "https://www.espn.com/wnba/team/schedule/_/name/ind",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "schedule",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Schedule",
+            "text": "Schedule"
+        },
+        {
+            "href": "https://www.espn.com/wnba/team/photos/_/name/ind",
+            "isExternal": false,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "photos",
+                "desktop",
+                "team"
+            ],
+            "shortText": "photos",
+            "text": "photos"
+        },
+        {
+            "href": "https://www.vividseats.com/indiana-fever-tickets--sports-wnba/performer/2016?wsUser=717",
+            "isExternal": true,
+            "isPremium": false,
+            "language": "en-US",
+            "rel": [
+                "tickets",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Tickets",
+            "text": "Tickets"
+        },
+        {
+            "href": "https://www.espn.com/wnba/draft/teams/_/name/ind/indiana-fever",
+            "isExternal": false,
+            "isPremium": true,
+            "language": "en-US",
+            "rel": [
+                "draftpicks",
+                "desktop",
+                "team"
+            ],
+            "shortText": "Draft Picks",
+            "text": "Draft Picks"
+        }
+    ],
+    "location": "Indiana",
+    "logos": [
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+            "lastUpdated": "2023-05-10T21:43Z",
+            "rel": [
+                "full",
+                "default"
+            ],
+            "width": 500
+        },
+        {
+            "alt": "",
+            "height": 500,
+            "href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ind.png",
+            "lastUpdated": "2023-05-10T21:45Z",
+            "rel": [
+                "full",
+                "dark"
+            ],
+            "width": 500
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/primary_logo_on_white_color.png",
+            "lastUpdated": "2024-12-03T20:50Z",
+            "rel": [
+                "full",
+                "primary_logo_on_white_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/primary_logo_on_black_color.png",
+            "lastUpdated": "2024-12-03T20:50Z",
+            "rel": [
+                "full",
+                "primary_logo_on_black_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/primary_logo_on_primary_color.png",
+            "lastUpdated": "2024-12-03T20:50Z",
+            "rel": [
+                "full",
+                "primary_logo_on_primary_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/primary_logo_on_secondary_color.png",
+            "lastUpdated": "2024-12-03T20:50Z",
+            "rel": [
+                "full",
+                "primary_logo_on_secondary_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/secondary_logo_on_white_color.png",
+            "lastUpdated": "2024-12-03T20:50Z",
+            "rel": [
+                "full",
+                "secondary_logo_on_white_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/secondary_logo_on_black_color.png",
+            "lastUpdated": "2024-12-03T20:50Z",
+            "rel": [
+                "full",
+                "secondary_logo_on_black_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/secondary_logo_on_primary_color.png",
+            "lastUpdated": "2024-12-03T20:50Z",
+            "rel": [
+                "full",
+                "secondary_logo_on_primary_color"
+            ],
+            "width": 4096
+        },
+        {
+            "alt": "",
+            "height": 4096,
+            "href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/secondary_logo_on_secondary_color.png",
+            "lastUpdated": "2024-12-03T20:50Z",
+            "rel": [
+                "full",
+                "secondary_logo_on_secondary_color"
+            ],
+            "width": 4096
+        }
+    ],
+    "name": "Fever",
+    "notes": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/teams/5/notes?lang=en&region=us"
+    },
+    "ranks": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/teams/5/ranks?lang=en&region=us"
+    },
+    "record": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/types/2/teams/5/record?lang=en&region=us"
+    },
+    "shortDisplayName": "Fever",
+    "slug": "indiana-fever",
+    "statistics": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/types/2/teams/5/statistics?lang=en&region=us"
+    },
+    "transactions": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2025/teams/5/transactions?lang=en&region=us"
+    },
+    "uid": "s:40~l:59~t:5",
+    "venue": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/venues/2183?lang=en&region=us",
+        "address": {
+            "city": "Indianapolis",
+            "state": "IN"
+        },
+        "fullName": "Gainbridge Fieldhouse",
+        "grass": false,
+        "guid": "c3d148ae-e87b-3900-9668-443d5ddc084f",
+        "id": "2183",
+        "images": [
+            {
+                "alt": "",
+                "height": 1125,
+                "href": "https://a.espncdn.com/i/venues/wnba/day/2183.jpg",
+                "rel": [
+                    "full",
+                    "day"
+                ],
+                "width": 2000
+            }
+        ],
+        "indoor": true
+    }
+}

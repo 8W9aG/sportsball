@@ -941,6 +941,7 @@ def _create_sportsreference_team_model(
             total_takeaways=None,
             fantasy_rating=None,
             second_chance_points=None,
+            plus_minus=None,
             version=version,
         )
 
@@ -1590,6 +1591,7 @@ def _create_sportsreference_team_model(
             total_takeaways=None,
             fantasy_rating=None,
             second_chance_points=None,
+            plus_minus=None,
             version=version,
         )
     response.raise_for_status()
@@ -2497,6 +2499,7 @@ def _create_sportsreference_team_model(
         total_takeaways=None,
         fantasy_rating=None,
         second_chance_points=None,
+        plus_minus=None,
         version=version,
     )
 

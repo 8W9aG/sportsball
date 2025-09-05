@@ -49,15 +49,6 @@ ORLANDO_ARENA = SportsballGeocodeTuple(
     housenumber="600",
     country="USA",
 )
-STAPLES_CENTRE = SportsballGeocodeTuple(
-    city="Los Angeles",
-    state="CA",
-    postal="90015",
-    lat=34.0429909,
-    lng=-118.2673753,
-    housenumber="1111",
-    country="USA",
-)
 TARGET_CENTER = SportsballGeocodeTuple(
     city="Minneapolis",
     state="MN",
@@ -281,15 +272,6 @@ TOYOTA_CENTRE = SportsballGeocodeTuple(
     lat=29.750833,
     lng=-95.362222,
     housenumber="1510",
-    country="USA",
-)
-CHASE_CENTER = SportsballGeocodeTuple(
-    city="San Francisco",
-    state="CA",
-    postal="",
-    lat=37.768056,
-    lng=-122.3875,
-    housenumber="1",
     country="USA",
 )
 ARCO_ARENA = SportsballGeocodeTuple(
@@ -3576,7 +3558,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "The Palace of Auburn Hills - Auburn Hills, MI - USA": THE_PALACE_OF_AUBURN_HILLS,
     "America West Arena": AMERICA_WEST_ARENA,
     "Quicken Loans Arena - Cleveland, Ohio - United States": QUICKEN_LOANS_ARENA,
-    "Staples Center": STAPLES_CENTRE,
     "Chesapeake Energy Arena - Oklahoma City, Oklahoma - United States": CHESAPEAKE_ENERGY_ARENA,
     "AT&T Center - San Antonio, Texas - United States": ATT_CENTER,
     "ESPN Wide World of Sports Complex": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
@@ -3666,7 +3647,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Market Square Arena": MARKET_SQUARE_ARENA,
-    "Chase Center, San Francisco, California": CHASE_CENTER,
     "Reunion Arena": REUNION_ARENA,
     "Walsh Gymnasium, South Orange, New Jersey": SportsballGeocodeTuple(
         city="South Orange",
@@ -3745,9 +3725,7 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="UAE",
     ),
-    "Crypto.com Arena - Los Angeles, California, USA - United States": STAPLES_CENTRE,
     "Target Center, Minneapolis, Minnesota": TARGET_CENTER,
-    "Crypto.com Arena, Los Angeles, California": STAPLES_CENTRE,
     "Intuit Dome, Inglewood, California": INTUIT_DOME,
     "AT&T Center, San Antonio, Texas": ATT_CENTER,
     "FTX Arena, Miami, Florida": FTX_ARENA,
@@ -3758,7 +3736,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "Amway Center, Orlando, Florida": ORLANDO_ARENA,
     "Phoenix Suns Arena, Phoenix, Arizona": AMERICA_WEST_ARENA,
     "Quicken Loans Arena, Cleveland, Ohio": QUICKEN_LOANS_ARENA,
-    "STAPLES Center, Los Angeles, California": STAPLES_CENTRE,
     "Visa Athletic Center, Bay Lake, Florida": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
     "Dunn–Oliver Acadome, Montgomery, Alabama": DUNN_OLIVER_ACADOME,
     "Talking Stick Resort Arena, Phoenix, Arizona": AMERICA_WEST_ARENA,
@@ -4297,11 +4274,9 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="UK",
     ),
     "Footprint Center, Phoenix, AZ, USA": AMERICA_WEST_ARENA,
-    "Crypto.com Arena, Los Angeles, CA, USA": STAPLES_CENTRE,
     "Target Center, Minneapolis, MN, USA": TARGET_CENTER,
     "Intuit Dome, Inglewood, CA, USA": INTUIT_DOME,
     "Toyota Center, Houston, TX, USA": TOYOTA_CENTRE,
-    "Chase Center, San Francisco, CA, USA": CHASE_CENTER,
     "ARCO Arena, Sacramento, CA, USA": ARCO_ARENA,
     "AdventHealth Arena, Orlando, FL, USA": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
     "Intuit Dome - Inglewood, California, U.S. - United States": INTUIT_DOME,
@@ -5053,7 +5028,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "Bradley Center, Milwaukee, Wisconsin": BRADLEY_CENTER,
     "Toyota Center, Kennewick, Washington": TOYOTA_CENTER,
     "Los Angeles, California": LOS_ANGELES,
-    "Staples Center, Los Angeles, California": STAPLES_CENTRE,
     "Newark, New Jersey": NEWARK,
     "SSE Arena, Belfast": SportsballGeocodeTuple(
         city="Belfast",
@@ -7511,7 +7485,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="284",
         country="USA",
     ),
-    "Chase Center - San Francisco, California, USA - United States": CHASE_CENTER,
     "San Marcos, Texas": SportsballGeocodeTuple(
         city="San Marcos",
         state="TX",
@@ -16220,7 +16193,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Crypto.com Arena": STAPLES_CENTRE,
     "Seoul, South Korea": SportsballGeocodeTuple(
         city="Seoul",
         state="",
@@ -17603,7 +17575,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "STAPLES Center": STAPLES_CENTRE,
 }
 _GEOCODES_LOADED = False
 
