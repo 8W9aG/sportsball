@@ -28,6 +28,7 @@ _BAD_URLS = {
     "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/5226349?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/4869785?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2025/athletes/4693647?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/4433138?lang=en&region=us",
 }
 
 

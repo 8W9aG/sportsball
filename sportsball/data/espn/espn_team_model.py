@@ -1457,7 +1457,8 @@ def _create_espn_team_model(
                         if "value" in stat:
                             errors = more_interesting(errors, stat["value"])
                     elif stat["name"] == "passedBalls":
-                        passed_balls = more_interesting(passed_balls, stat["value"])
+                        if "value" in stat:
+                            passed_balls = more_interesting(passed_balls, stat["value"])
                     elif stat["name"] == "assists":
                         assists = more_interesting(assists, stat["value"])
                     elif stat["name"] == "outfieldAssists":

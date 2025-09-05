@@ -4163,15 +4163,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "Island Federal Credit Union Arena, New York, NY, USA": STONY_BROOK_ARENA,
     "Savannah, Georgia": SAVANNAH,
     "Akron, Ohio": AKRON,
-    "Michelob Ultra Arena, Paradise, Nevada": SportsballGeocodeTuple(
-        city="Paradise",
-        state="NV",
-        postal="",
-        lat=36.090678,
-        lng=-115.178981,
-        housenumber="3950",
-        country="USA",
-    ),
     "Sioux Falls, South Dakota": SIOUX_FALLS,
     "Springfield, Massachusetts": SportsballGeocodeTuple(
         city="Springfield",
@@ -4702,15 +4693,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Alumni Hall (RI), Providence, Rhode Island": ALUMNI_HALL,
-    "Michelob Ulta Arena, Paradise, Nevada": SportsballGeocodeTuple(
-        city="Paradise",
-        state="NV",
-        postal="",
-        lat=36.090678,
-        lng=-115.178981,
-        housenumber="3950",
-        country="USA",
-    ),
     "Leonard E. Merrell Center, Katy, Texas": MERRELL_CENTER,
     "Comerica, Frisco, Texas": SportsballGeocodeTuple(
         city="Frisco",

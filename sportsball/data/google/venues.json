@@ -9049,6 +9049,56 @@
             "housenumber": "1111",
             "country": "USA",
             "type": "venue"
+        },
+        "f713bbf4-815d-42a6-81da-73ec1c65051f": {
+            "city": "Wagga Wagga",
+            "state": "NSW",
+            "postal": "",
+            "lat": -35.118333,
+            "lng": 147.372222,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "c054bf3f-d6a4-4a52-9638-46e673a84330": {
+            "city": "Flushing",
+            "state": "NY",
+            "postal": "",
+            "lat": 40.751,
+            "lng": -73.8455,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
+        },
+        "5e84add0-28c2-41c5-9568-b47ba56cb3cc": {
+            "city": "Brasilia",
+            "state": "DF",
+            "postal": "",
+            "lat": -15.7835,
+            "lng": -47.899164,
+            "housenumber": "",
+            "country": "Brazil",
+            "type": "venue"
+        },
+        "d06b2f1a-4a79-40f2-88c0-2bc836d16315": {
+            "city": "Paradise",
+            "state": "NV",
+            "postal": "",
+            "lat": 36.090678,
+            "lng": -115.178981,
+            "housenumber": "3950",
+            "country": "USA",
+            "type": "venue"
+        },
+        "67f1d552-4aaf-4367-93a2-694eaa8ee658": {
+            "city": "Phoenix",
+            "state": "AZ",
+            "postal": "",
+            "lat": 33.445833,
+            "lng": -112.071389,
+            "housenumber": "201",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -10784,6 +10834,7 @@
         "Auburn": "a3a7f05b-d2d8-4411-8d89-ee8f47fd4d44",
         "Fremantle Oval": "0c508a23-2456-4683-8f0e-7d7dbaaf97c4",
         "Sheikh Zayed Cricket Stadium": "a6a48c5a-cced-4922-a63d-8c63fd5a6e66",
+        "Sheikh Zayed Stadium, Abu Dhabi, United Arab Emirates": "a6a48c5a-cced-4922-a63d-8c63fd5a6e66",
         "HUN": "72d9f1da-5841-4b32-8c0c-9fd206900865",
         "Hill Dickinson Stadium - Liverpool": "2d6e2867-f1fc-416e-b633-a9bef97e0f7d",
         "Luzhniki Stadium - Moscow": "3ed06afd-66c3-4750-9e12-a23712f96a88",
@@ -10896,6 +10947,13 @@
         "Staples Center, Los Angeles, California": "7c665138-4feb-4fd6-9f17-b90a975fc110",
         "Crypto.com Arena": "7c665138-4feb-4fd6-9f17-b90a975fc110",
         "STAPLES Center": "7c665138-4feb-4fd6-9f17-b90a975fc110",
-        "crypto.com Arena - Los Angeles - CA - 90185": "7c665138-4feb-4fd6-9f17-b90a975fc110"
+        "crypto.com Arena - Los Angeles - CA - 90185": "7c665138-4feb-4fd6-9f17-b90a975fc110",
+        "Robertson Oval": "f713bbf4-815d-42a6-81da-73ec1c65051f",
+        "Louis Armstrong Stadium, New York, NY, USA": "c054bf3f-d6a4-4a52-9638-46e673a84330",
+        "Arena BRB Mané Garrincha - Brasília": "5e84add0-28c2-41c5-9568-b47ba56cb3cc",
+        "Michelob Ulta Arena, Paradise, Nevada": "d06b2f1a-4a79-40f2-88c0-2bc836d16315",
+        "Michelob Ultra Arena, Paradise, Nevada": "d06b2f1a-4a79-40f2-88c0-2bc836d16315",
+        "Michelob ULTRA Arena - Las Vegas - NV": "d06b2f1a-4a79-40f2-88c0-2bc836d16315",
+        "PHX Arena - Phoenix - AZ": "67f1d552-4aaf-4367-93a2-694eaa8ee658"
     }
 }
