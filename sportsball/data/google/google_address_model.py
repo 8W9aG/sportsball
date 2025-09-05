@@ -382,15 +382,6 @@ ANAHEIM_CONVENTION_CENTER = SportsballGeocodeTuple(
     housenumber="800",
     country="USA",
 )
-WATSO_CENTER = SportsballGeocodeTuple(
-    city="Coral Gables",
-    state="FL",
-    postal="",
-    lat=25.715,
-    lng=-80.279167,
-    housenumber="1245",
-    country="USA",
-)
 BINGHAMPTON_UNIVERSITY_EVENTS_CENTER = SportsballGeocodeTuple(
     city="Binghamton",
     state="NY",
@@ -2774,7 +2765,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "The Legacy Center, Lake Charles, Louisiana": LEGACY_CENTER,
-    "Watsco Center, Coral Gables, Florida": WATSO_CENTER,
     "Peter W. Stott Center, Portland, Oregon": SportsballGeocodeTuple(
         city="Portland",
         state="OR",
@@ -4713,7 +4703,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="1701",
         country="USA",
     ),
-    "BankUnited Center, Coral Gables, Florida": WATSO_CENTER,
     "Binghamton University Events Center, Vestal, New York": BINGHAMPTON_UNIVERSITY_EVENTS_CENTER,
     "US Airways Center, Phoenix, Arizona": AMERICA_WEST_ARENA,
     "Kaiser Permanente Arena, Santa Cruz, California": SportsballGeocodeTuple(
@@ -11790,7 +11779,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "BankUnited Center": WATSO_CENTER,
     "Maple Leaf Gardens - Toronto, Ontario - United States": MAPLE_LEAF_GARDENS,
     "El Paso County Coliseum": SportsballGeocodeTuple(
         city="El Paso",
@@ -17070,7 +17058,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "PNC Arena": PNC_ARENA,
-    "Watsco Center - Miami–Orlando, United States - United States": WATSO_CENTER,
     "Chartway Arena - Norfolk, Virginia - United States": SportsballGeocodeTuple(
         city="Norfolk",
         state="VA",

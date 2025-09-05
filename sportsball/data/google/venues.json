@@ -9159,6 +9159,46 @@
             "housenumber": "",
             "country": "Australia",
             "type": "venue"
+        },
+        "08db9673-fafa-4d60-acde-bb6a25d4f40a": {
+            "city": "Surprise",
+            "state": "AZ",
+            "postal": "",
+            "lat": 33.627778,
+            "lng": -112.377778,
+            "housenumber": "15850",
+            "country": "USA",
+            "type": "venue"
+        },
+        "42087809-e093-45f0-99a6-8d5d85190ab2": {
+            "city": "Coral Gables",
+            "state": "FL",
+            "postal": "",
+            "lat": 25.715,
+            "lng": -80.279167,
+            "housenumber": "1245",
+            "country": "USA",
+            "type": "venue"
+        },
+        "590d9526-3d91-4c6e-9c57-7ff7300fd505": {
+            "city": "Iowa City",
+            "state": "IO",
+            "postal": "52242",
+            "lat": 41.663611,
+            "lng": -91.554444,
+            "housenumber": "1",
+            "country": "USA",
+            "type": "venue"
+        },
+        "a298f3ac-615d-4a6f-be1a-4b5fb1947aca": {
+            "city": "Burpengary",
+            "state": "QLD",
+            "postal": "",
+            "lat": -27.132605,
+            "lng": 152.97517,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
         }
     },
     "searches": {
@@ -10465,6 +10505,7 @@
         "Thompson-Boling Arena, Knoxville, Tennessee": "f707fef1-c470-4e6b-a425-d12e099b63b5",
         "Food City Center - Knoxville - TN - 37996": "f707fef1-c470-4e6b-a425-d12e099b63b5",
         "Bastad": "b7ab95be-592a-4949-8232-7ee86d2783da",
+        "Båstad, Sweden": "b7ab95be-592a-4949-8232-7ee86d2783da",
         "Hofheinz Pavilion, Houston, Texas": "1105097e-a845-45a5-8a6a-dbcf850b2940",
         "Fertitta Center, Houston, Texas": "1105097e-a845-45a5-8a6a-dbcf850b2940",
         "Fertitta Center - Houston, Texas - United States": "1105097e-a845-45a5-8a6a-dbcf850b2940",
@@ -11026,6 +11067,14 @@
         "Patriot Center, Fairfax, Virginia": "2e9a8a4c-d7fa-4ea3-922e-e299e631b70f",
         "EagleBank Arena - Fairfax - VA": "2e9a8a4c-d7fa-4ea3-922e-e299e631b70f",
         "Shell Energy Stadium - Houston - TX - 7700": "853d1560-16d5-4aca-8ac1-9786c0069e05",
-        "Central Reserve": "6a3d1745-5a21-4ff8-95ca-51312b10f3b1"
+        "Central Reserve": "6a3d1745-5a21-4ff8-95ca-51312b10f3b1",
+        "Surprise Stadium - Surprise - Arizona - 85387": "08db9673-fafa-4d60-acde-bb6a25d4f40a",
+        "Watsco Center - Coral Gables - FL": "42087809-e093-45f0-99a6-8d5d85190ab2",
+        "Watsco Center, Coral Gables, Florida": "42087809-e093-45f0-99a6-8d5d85190ab2",
+        "BankUnited Center, Coral Gables, Florida": "42087809-e093-45f0-99a6-8d5d85190ab2",
+        "BankUnited Center": "42087809-e093-45f0-99a6-8d5d85190ab2",
+        "Watsco Center - Miami–Orlando, United States - United States": "42087809-e093-45f0-99a6-8d5d85190ab2",
+        "Carver-Hawkeye Arena - Iowa City - IA": "590d9526-3d91-4c6e-9c57-7ff7300fd505",
+        "Moreton Bay Central Sports Complex": "a298f3ac-615d-4a6f-be1a-4b5fb1947aca"
     }
 }
