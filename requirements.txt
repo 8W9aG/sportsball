@@ -34,6 +34,6 @@ playwright>=1.51.0
 cchardet>=2.2.0a2
 lxml>=5.3.0
 gender-guesser>=0.4.0
-scrapesession>=0.0.13
+scrapesession>=0.0.14
 pyhigh>=0.0.6
 datefinder>=0.7.3
