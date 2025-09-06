@@ -9279,6 +9279,56 @@
             "housenumber": "1",
             "country": "USA",
             "type": "venue"
+        },
+        "18e02416-1dfa-45f6-9d5b-28c9bbbe4637": {
+            "city": "Brussels",
+            "state": "",
+            "postal": "",
+            "lat": 50.833333,
+            "lng": 4.0,
+            "housenumber": "",
+            "country": "Belgium",
+            "type": "country"
+        },
+        "52f20913-85a1-40a5-9752-39fd4a5c6cb5": {
+            "city": "Belo Horizonte",
+            "state": "Minas Gerais",
+            "postal": "",
+            "lat": -19.865833,
+            "lng": -43.970833,
+            "housenumber": "",
+            "country": "Brazil",
+            "type": "venue"
+        },
+        "5b57df80-8023-44cb-909d-077ab73ae5f5": {
+            "city": "Paradise",
+            "state": "NV",
+            "postal": "",
+            "lat": 36.105833,
+            "lng": -115.202222,
+            "housenumber": "4500",
+            "country": "USA",
+            "type": "venue"
+        },
+        "991905ee-2c9c-4c1e-b7fc-9e40dd9fc541": {
+            "city": "Las Vegas",
+            "state": "NV",
+            "postal": "",
+            "lat": 36.102778,
+            "lng": -115.178333,
+            "housenumber": "3780",
+            "country": "USA",
+            "type": "venue"
+        },
+        "09ded5a4-2f7e-45e7-86bc-c6107bf6c0b8": {
+            "city": "Wangaratta",
+            "state": "VIC",
+            "postal": "",
+            "lat": -36.346422,
+            "lng": 146.314994,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
         }
     },
     "searches": {
@@ -9745,6 +9795,7 @@
         "loanDepot park - Miami - FL - 33125": "d925671c-4b94-4223-927d-360bc0fe37d6",
         "LoanDepot Park, Miami, FL, USA": "d925671c-4b94-4223-927d-360bc0fe37d6",
         "loanDepot park": "d925671c-4b94-4223-927d-360bc0fe37d6",
+        "loanDepot park - Miami - Florida - 33125": "d925671c-4b94-4223-927d-360bc0fe37d6",
         "University of California, Irvine": "0fdcde49-c5eb-4057-8fd7-848288501845",
         "Stanford Stadium": "56df738d-d199-4d44-8632-e20d2ea98c15",
         "Stanford Stadium - Stanford, California, USA - United States": "56df738d-d199-4d44-8632-e20d2ea98c15",
@@ -10342,6 +10393,7 @@
         "Value City Arena, Columbus, Ohio": "17778068-75fc-4e5a-a33d-93f5d312d675",
         "Value City Arena - Columbus, Ohio - United States": "17778068-75fc-4e5a-a33d-93f5d312d675",
         "Vicarage Road, Watford, England": "0f47c94a-1d60-46b9-b9e1-9d5bf47089ba",
+        "Vicarage Road - Watford": "0f47c94a-1d60-46b9-b9e1-9d5bf47089ba",
         "James A. Rhodes Arena, Akron, Ohio": "ca4c379c-cd71-4a73-af1e-e4784c66f64c",
         "James A. Rhodes Arena - Akron - OH - 44325": "ca4c379c-cd71-4a73-af1e-e4784c66f64c",
         "Spotify Camp Nou - Barcelona - Spain": "89a8419d-c213-4919-ba58-f0d53cbbf815",
@@ -11168,6 +11220,15 @@
         "Betty Engelstad Sioux Center - Grand Forks - ND": "d489e882-5de0-4a75-9340-9f74b2f329f4",
         "Nokia Arena - Tampere": "386399c2-92b9-44bd-b7ce-37f296f6bb9d",
         "Nokia Arena": "386399c2-92b9-44bd-b7ce-37f296f6bb9d",
-        "Mohegan Sun Arena, Uncasville, Connecticut": "26759648-7039-4807-afb1-dcafc17f34f1"
+        "Mohegan Sun Arena, Uncasville, Connecticut": "26759648-7039-4807-afb1-dcafc17f34f1",
+        "BEL": "18e02416-1dfa-45f6-9d5b-28c9bbbe4637",
+        "Estadio Mineirão - Belo Horizonte": "52f20913-85a1-40a5-9752-39fd4a5c6cb5",
+        "Orleans Arena, Paradise, Nevada": "5b57df80-8023-44cb-909d-077ab73ae5f5",
+        "Orleans Arena - Las Vegas - NV": "5b57df80-8023-44cb-909d-077ab73ae5f5",
+        "T-Mobile Arena - Las Vegas - NV": "991905ee-2c9c-4c1e-b7fc-9e40dd9fc541",
+        "T-Mobile Arena, Las Vegas, Nevada": "991905ee-2c9c-4c1e-b7fc-9e40dd9fc541",
+        "T-Mobile Arena, Las Vegas, NV, USA": "991905ee-2c9c-4c1e-b7fc-9e40dd9fc541",
+        "T-Mobile Arena": "991905ee-2c9c-4c1e-b7fc-9e40dd9fc541",
+        "Norm Minns Oval": "09ded5a4-2f7e-45e7-86bc-c6107bf6c0b8"
     }
 }

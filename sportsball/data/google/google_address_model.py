@@ -1822,15 +1822,6 @@ DUKE_UNIVERSITY = SportsballGeocodeTuple(
     housenumber="",
     country="USA",
 )
-T_MOBILE_ARENA = SportsballGeocodeTuple(
-    city="Las Vegas",
-    state="NV",
-    postal="",
-    lat=36.102778,
-    lng=-115.178333,
-    housenumber="3780",
-    country="USA",
-)
 COMPAQ_CENTER = SportsballGeocodeTuple(
     city="Houston",
     state="TX",
@@ -3341,15 +3332,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="2210",
         country="USA",
     ),
-    "Orleans Arena, Paradise, Nevada": SportsballGeocodeTuple(
-        city="Paradise",
-        state="NV",
-        postal="",
-        lat=36.105833,
-        lng=-115.202222,
-        housenumber="4500",
-        country="USA",
-    ),
     "Hilliard Gates Sports Center, Fort Wayne, Indiana": SportsballGeocodeTuple(
         city="Fort Wayne",
         state="IN",
@@ -3544,7 +3526,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="Mexico",
     ),
-    "T-Mobile Arena, Las Vegas, Nevada": T_MOBILE_ARENA,
     "Ocean Center, Daytona Beach, Florida": SportsballGeocodeTuple(
         city="Daytona Beach",
         state="FL",
@@ -12629,7 +12610,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "T-Mobile Arena, Las Vegas, NV, USA": T_MOBILE_ARENA,
     "Southern Miss College": SportsballGeocodeTuple(
         city="Hattiesburg",
         state="MS",
@@ -15877,7 +15857,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="Canada",
     ),
-    "T-Mobile Arena": T_MOBILE_ARENA,
     "Commonwealth Stadium - Edmonton, AB - Canada": COMMONWEALTH_STADIUM,
     "Katy, TX, United States": SportsballGeocodeTuple(
         city="Katy",
