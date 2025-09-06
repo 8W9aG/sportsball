@@ -9389,6 +9389,46 @@
             "housenumber": "",
             "country": "USA",
             "type": "venue"
+        },
+        "811bba5f-6140-40b1-a16e-a17b82fa07d3": {
+            "city": "Rio de Janeiro",
+            "state": "",
+            "postal": "",
+            "lat": -22.912222,
+            "lng": -43.230278,
+            "housenumber": "",
+            "country": "Brazil",
+            "type": "venue"
+        },
+        "44ca4157-78a1-4f1d-8ce2-6d7119122261": {
+            "city": "Indore",
+            "state": "Madhya Pradesh",
+            "postal": "",
+            "lat": 22.724303,
+            "lng": 75.879972,
+            "housenumber": "",
+            "country": "India",
+            "type": "venue"
+        },
+        "99640c52-742d-4513-8480-397fe6cf1292": {
+            "city": "Joondalup",
+            "state": "WA",
+            "postal": "",
+            "lat": -31.734167,
+            "lng": 115.763056,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "ed7e3889-0f1b-45ce-a335-fb9aae803759": {
+            "city": "Halle",
+            "state": "North Rhine-Westphalia",
+            "postal": "",
+            "lat": 52.063056,
+            "lng": 8.348889,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "venue"
         }
     },
     "searches": {
@@ -11244,6 +11284,7 @@
         "Crypto.com Arena": "7c665138-4feb-4fd6-9f17-b90a975fc110",
         "STAPLES Center": "7c665138-4feb-4fd6-9f17-b90a975fc110",
         "crypto.com Arena - Los Angeles - CA - 90185": "7c665138-4feb-4fd6-9f17-b90a975fc110",
+        "crypto.com Arena - Los Angeles - CA": "7c665138-4feb-4fd6-9f17-b90a975fc110",
         "Robertson Oval": "f713bbf4-815d-42a6-81da-73ec1c65051f",
         "Louis Armstrong Stadium, New York, NY, USA": "c054bf3f-d6a4-4a52-9638-46e673a84330",
         "Arena BRB Mané Garrincha - Brasília": "5e84add0-28c2-41c5-9568-b47ba56cb3cc",
@@ -11304,6 +11345,10 @@
         "The Pavilion at Ole Miss, Oxford, Mississippi": "f45722a5-58a9-4ad6-bc72-23ef5cca8b09",
         "The Sandy and John Black Pavilion at Ole Miss, Oxford, Mississippi": "f45722a5-58a9-4ad6-bc72-23ef5cca8b09",
         "The Sandy and John Black Pavilion at Ole Miss, University, Mississippi": "f45722a5-58a9-4ad6-bc72-23ef5cca8b09",
-        "The Sandy and John Black Pavilion at Ole Miss - Oxford - MS": "f45722a5-58a9-4ad6-bc72-23ef5cca8b09"
+        "The Sandy and John Black Pavilion at Ole Miss - Oxford - MS": "f45722a5-58a9-4ad6-bc72-23ef5cca8b09",
+        "Estadio do Maracanã - Rio de Janeiro": "811bba5f-6140-40b1-a16e-a17b82fa07d3",
+        "Holkar Stadium, Indore, India": "44ca4157-78a1-4f1d-8ce2-6d7119122261",
+        "HBF Arena": "99640c52-742d-4513-8480-397fe6cf1292",
+        "Halle": "ed7e3889-0f1b-45ce-a335-fb9aae803759"
     }
 }
