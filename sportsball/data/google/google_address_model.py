@@ -49,15 +49,6 @@ ORLANDO_ARENA = SportsballGeocodeTuple(
     housenumber="600",
     country="USA",
 )
-TARGET_CENTER = SportsballGeocodeTuple(
-    city="Minneapolis",
-    state="MN",
-    postal="",
-    lat=44.979444,
-    lng=-93.276111,
-    housenumber="600",
-    country="USA",
-)
 ATT_CENTER = SportsballGeocodeTuple(
     city="San Antonio",
     state="TX",
@@ -182,15 +173,6 @@ LEVIEN_GYM = SportsballGeocodeTuple(
     lat=40.80979,
     lng=-73.961715,
     housenumber="3030",
-    country="USA",
-)
-OLE_MISS = SportsballGeocodeTuple(
-    city="Oxford",
-    state="MS",
-    postal="38677",
-    lat=34.363164,
-    lng=-89.535453,
-    housenumber="",
     country="USA",
 )
 HOLMES_CENTER = SportsballGeocodeTuple(
@@ -2363,7 +2345,6 @@ BAXTER_ARENA = SportsballGeocodeTuple(
     country="USA",
 )
 _CACHED_GEOCODES: dict[str, Any] = {
-    "The Pavilion at Ole Miss, Oxford, Mississippi": OLE_MISS,
     "Dee Glen Smith Spectrum, Logan, Utah": SMITH_SPECTRUM,
     "Holmes Convocation Center, Boone, North Carolina": HOLMES_CENTER,
     "Convocation Center, Ypsilanti, Michigan": SportsballGeocodeTuple(
@@ -3624,7 +3605,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="Japan",
     ),
-    "Target Center - Minneapolis, Minnesota - United States": TARGET_CENTER,
     "Yokohama Arena": YOKOHAMA_ARENA,
     "Anaheim Convention Center": ANAHEIM_CONVENTION_CENTER,
     "Amway Arena": ORLANDO_ARENA,
@@ -3649,7 +3629,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="UAE",
     ),
-    "Target Center, Minneapolis, Minnesota": TARGET_CENTER,
     "AT&T Center, San Antonio, Texas": ATT_CENTER,
     "FTX Arena, Miami, Florida": FTX_ARENA,
     "Vivint Smart Home Arena, Salt Lake City, Utah": VIVINT_ARENA,
@@ -3925,7 +3904,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="70",
         country="USA",
     ),
-    "The Sandy and John Black Pavilion at Ole Miss, Oxford, Mississippi": OLE_MISS,
     "Moscow, Idaho": SportsballGeocodeTuple(
         city="Moscow",
         state="ID",
@@ -4188,7 +4166,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="UK",
     ),
     "Footprint Center, Phoenix, AZ, USA": AMERICA_WEST_ARENA,
-    "Target Center, Minneapolis, MN, USA": TARGET_CENTER,
     "ARCO Arena, Sacramento, CA, USA": ARCO_ARENA,
     "AdventHealth Arena, Orlando, FL, USA": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
     "Footprint Center - Phoenix, Arizona - United States": AMERICA_WEST_ARENA,
@@ -7016,7 +6993,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "The Sandy and John Black Pavilion at Ole Miss, University, Mississippi": OLE_MISS,
     "Joel and Diane Bloom Wellness and Events Center, Newark, New Jersey": WELLNESS_AND_EVENTS_CENTER,
     "Asheville, North Carolina": SportsballGeocodeTuple(
         city="Asheville",
@@ -8576,7 +8552,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Target Center, Minneapolis, MN": TARGET_CENTER,
     "Hammons Student Center, Springfield, Missouri": SportsballGeocodeTuple(
         city="Springfield",
         state="MO",

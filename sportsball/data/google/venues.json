@@ -9329,6 +9329,66 @@
             "housenumber": "",
             "country": "Australia",
             "type": "venue"
+        },
+        "3361944e-038f-4a31-9421-d64418b93a88": {
+            "city": "Whyalla Stuart",
+            "state": "SA",
+            "postal": "5608",
+            "lat": -33.0196274,
+            "lng": 137.5323584,
+            "housenumber": "37",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "b0191a7a-cd36-4ac1-82df-d039dfb99c11": {
+            "city": "Porto Alegre",
+            "state": "Rio Grande do Sul",
+            "postal": "",
+            "lat": -30.065614,
+            "lng": -51.236086,
+            "housenumber": "",
+            "country": "Brazil",
+            "type": "venue"
+        },
+        "9327faff-3ba9-41ed-908e-236d33d47afc": {
+            "city": "Minneapolis",
+            "state": "MN",
+            "postal": "",
+            "lat": 44.979444,
+            "lng": -93.276111,
+            "housenumber": "600",
+            "country": "USA",
+            "type": "venue"
+        },
+        "7abb81ff-dd02-4822-b22c-b267bd1965dc": {
+            "city": "Santa Ponsa",
+            "state": "Mallorca",
+            "postal": "",
+            "lat": 39.5048,
+            "lng": 2.46935,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "city"
+        },
+        "f49a23dd-d193-48ed-97b1-c5f4077e8d41": {
+            "city": "Goodyear",
+            "state": "FL",
+            "postal": "85338",
+            "lat": 33.429167,
+            "lng": -112.39,
+            "housenumber": "1933",
+            "country": "USA",
+            "type": "venue"
+        },
+        "f45722a5-58a9-4ad6-bc72-23ef5cca8b09": {
+            "city": "Oxford",
+            "state": "MS",
+            "postal": "38677",
+            "lat": 34.363164,
+            "lng": -89.535453,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -10078,6 +10138,7 @@
         "Camp Randall Stadium - Madison - WI - 53711": "dd5174be-c360-4194-aab3-641dbfb1b3e5",
         "Camp Randall Stadium - Madison, Wisconsin, USA - United States": "dd5174be-c360-4194-aab3-641dbfb1b3e5",
         "Carrow Road, Norwich, England": "092bd985-8418-4bac-aa99-64e59dda878f",
+        "Carrow Road - Norwich": "092bd985-8418-4bac-aa99-64e59dda878f",
         "War Memorial Stadium (AR) - Little Rock - AR - 72205": "6fbc0af4-71e6-4794-b118-34c5c3c7a53e",
         "University of Central Florida": "20ab2aac-f764-4d3e-bf51-30eb6499cc04",
         "AmFirst Stadium - Jacksonville - AL - 36265": "59b9770d-b491-47df-9dce-8dde67135640",
@@ -11221,6 +11282,7 @@
         "Nokia Arena - Tampere": "386399c2-92b9-44bd-b7ce-37f296f6bb9d",
         "Nokia Arena": "386399c2-92b9-44bd-b7ce-37f296f6bb9d",
         "Mohegan Sun Arena, Uncasville, Connecticut": "26759648-7039-4807-afb1-dcafc17f34f1",
+        "Mohegan Sun Arena, Montville, NJ, USA": "26759648-7039-4807-afb1-dcafc17f34f1",
         "BEL": "18e02416-1dfa-45f6-9d5b-28c9bbbe4637",
         "Estadio Mineirão - Belo Horizonte": "52f20913-85a1-40a5-9752-39fd4a5c6cb5",
         "Orleans Arena, Paradise, Nevada": "5b57df80-8023-44cb-909d-077ab73ae5f5",
@@ -11229,6 +11291,19 @@
         "T-Mobile Arena, Las Vegas, Nevada": "991905ee-2c9c-4c1e-b7fc-9e40dd9fc541",
         "T-Mobile Arena, Las Vegas, NV, USA": "991905ee-2c9c-4c1e-b7fc-9e40dd9fc541",
         "T-Mobile Arena": "991905ee-2c9c-4c1e-b7fc-9e40dd9fc541",
-        "Norm Minns Oval": "09ded5a4-2f7e-45e7-86bc-c6107bf6c0b8"
+        "Norm Minns Oval": "09ded5a4-2f7e-45e7-86bc-c6107bf6c0b8",
+        "Bennett Oval": "3361944e-038f-4a31-9421-d64418b93a88",
+        "Estadio Beira-Rio - Porto Alegre": "b0191a7a-cd36-4ac1-82df-d039dfb99c11",
+        "Target Center - Minneapolis, Minnesota - United States": "9327faff-3ba9-41ed-908e-236d33d47afc",
+        "Target Center, Minneapolis, Minnesota": "9327faff-3ba9-41ed-908e-236d33d47afc",
+        "Target Center, Minneapolis, MN, USA": "9327faff-3ba9-41ed-908e-236d33d47afc",
+        "Target Center, Minneapolis, MN": "9327faff-3ba9-41ed-908e-236d33d47afc",
+        "Target Center - Minneapolis - MN": "9327faff-3ba9-41ed-908e-236d33d47afc",
+        "Mallorca": "7abb81ff-dd02-4822-b22c-b267bd1965dc",
+        "Goodyear Ballpark - Goodyear - Arizona - 85338": "f49a23dd-d193-48ed-97b1-c5f4077e8d41",
+        "The Pavilion at Ole Miss, Oxford, Mississippi": "f45722a5-58a9-4ad6-bc72-23ef5cca8b09",
+        "The Sandy and John Black Pavilion at Ole Miss, Oxford, Mississippi": "f45722a5-58a9-4ad6-bc72-23ef5cca8b09",
+        "The Sandy and John Black Pavilion at Ole Miss, University, Mississippi": "f45722a5-58a9-4ad6-bc72-23ef5cca8b09",
+        "The Sandy and John Black Pavilion at Ole Miss - Oxford - MS": "f45722a5-58a9-4ad6-bc72-23ef5cca8b09"
     }
 }
