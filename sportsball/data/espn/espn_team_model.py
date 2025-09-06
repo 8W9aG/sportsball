@@ -1309,7 +1309,8 @@ def _create_espn_team_model(
                     elif stat["name"] == "finishes":
                         finishes = more_interesting(finishes, stat["value"])
                     elif stat["name"] == "balks":
-                        balks = more_interesting(balks, stat["value"])
+                        if "value" in stat:
+                            balks = more_interesting(balks, stat["value"])
                     elif stat["name"] == "battersFaced":
                         batters_faced = more_interesting(batters_faced, stat["value"])
                     elif stat["name"] == "holds":

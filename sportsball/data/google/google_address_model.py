@@ -3082,15 +3082,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="100",
         country="USA",
     ),
-    "Matthew Knight Arena, Eugene, Oregon": SportsballGeocodeTuple(
-        city="Eugene",
-        state="OR",
-        postal="97401",
-        lat=44.045,
-        lng=-123.066,
-        housenumber="1390",
-        country="USA",
-    ),
     "Harry A. Gampel Pavilion, Storrs, Connecticut": SportsballGeocodeTuple(
         city="Storrs",
         state="CT",

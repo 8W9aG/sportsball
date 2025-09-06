@@ -9429,6 +9429,36 @@
             "housenumber": "",
             "country": "Germany",
             "type": "venue"
+        },
+        "a2f05cb5-d9d6-4538-95bb-1da998efcd31": {
+            "city": "Natal",
+            "state": "Rio Grande do Norte",
+            "postal": "",
+            "lat": -5.826936,
+            "lng": -35.212371,
+            "housenumber": "",
+            "country": "Brazil",
+            "type": "venue"
+        },
+        "364a25d1-f58c-4f50-9abd-bbbde4972305": {
+            "city": "Eugene",
+            "state": "OR",
+            "postal": "97401",
+            "lat": 44.045,
+            "lng": -123.066,
+            "housenumber": "1390",
+            "country": "USA",
+            "type": "venue"
+        },
+        "22b94687-a1af-477d-8eed-e420e4daac19": {
+            "city": "London",
+            "state": "",
+            "postal": "",
+            "lat": 51.4875,
+            "lng": -0.211667,
+            "housenumber": "",
+            "country": "UK",
+            "type": "venue"
         }
     },
     "searches": {
@@ -11349,6 +11379,10 @@
         "Estadio do Maracanã - Rio de Janeiro": "811bba5f-6140-40b1-a16e-a17b82fa07d3",
         "Holkar Stadium, Indore, India": "44ca4157-78a1-4f1d-8ce2-6d7119122261",
         "HBF Arena": "99640c52-742d-4513-8480-397fe6cf1292",
-        "Halle": "ed7e3889-0f1b-45ce-a335-fb9aae803759"
+        "Halle": "ed7e3889-0f1b-45ce-a335-fb9aae803759",
+        "Arena das Dunas - Natal": "a2f05cb5-d9d6-4538-95bb-1da998efcd31",
+        "Matthew Knight Arena - Eugene - OR": "364a25d1-f58c-4f50-9abd-bbbde4972305",
+        "Matthew Knight Arena, Eugene, Oregon": "364a25d1-f58c-4f50-9abd-bbbde4972305",
+        "Queens Club": "22b94687-a1af-477d-8eed-e420e4daac19"
     }
 }
