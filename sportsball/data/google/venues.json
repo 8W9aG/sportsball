@@ -9749,6 +9749,26 @@
             "housenumber": "",
             "country": "France",
             "type": "venue"
+        },
+        "55f7882a-f4ba-4e34-85ba-7ee63f1ba30a": {
+            "city": "Nelspruit",
+            "state": "",
+            "postal": "",
+            "lat": -25.461,
+            "lng": 30.929,
+            "housenumber": "1",
+            "country": "South Africa",
+            "type": "venue"
+        },
+        "2c740aab-a908-4f53-a721-a5aa4b25e466": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "postal": "",
+            "lat": 34.0736118,
+            "lng": -118.24,
+            "housenumber": "1000",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -10076,6 +10096,7 @@
         "New York": "b53cc5f3-4827-4efe-a5f9-67a5d663553e",
         "New York, New York": "b53cc5f3-4827-4efe-a5f9-67a5d663553e",
         "New York, New York, United States": "b53cc5f3-4827-4efe-a5f9-67a5d663553e",
+        "New York, USA": "b53cc5f3-4827-4efe-a5f9-67a5d663553e",
         "Princes Park - Australia": "60cc2b2c-393d-4035-8a4a-011ef5c96b96",
         "IKON Park": "60cc2b2c-393d-4035-8a4a-011ef5c96b96",
         "Ross-Ade Stadium": "a8cf2e14-c718-40be-a217-c669130a3f04",
@@ -11735,6 +11756,11 @@
         "Globe Life Field - Arlington - Texas - 76011": "7beae26d-bff1-4e8d-8bfd-10999217c88a",
         "Globe Life Field, Arlington, TX, USA": "7beae26d-bff1-4e8d-8bfd-10999217c88a",
         "Globe Life Field": "7beae26d-bff1-4e8d-8bfd-10999217c88a",
-        "Roland Garros": "d99776d5-8a58-4a22-ac2a-7e0c6ff2bbb2"
+        "Roland Garros": "d99776d5-8a58-4a22-ac2a-7e0c6ff2bbb2",
+        "Mbombela Stadium - Nelspruit": "55f7882a-f4ba-4e34-85ba-7ee63f1ba30a",
+        "Dodger Stadium - Los Angeles, CA, USA - United States": "2c740aab-a908-4f53-a721-a5aa4b25e466",
+        "Dodger Stadium, Los Angeles, CA, USA": "2c740aab-a908-4f53-a721-a5aa4b25e466",
+        "Dodger Stadium": "2c740aab-a908-4f53-a721-a5aa4b25e466",
+        "Dodger Stadium - Los Angeles - California - 90090": "2c740aab-a908-4f53-a721-a5aa4b25e466"
     }
 }

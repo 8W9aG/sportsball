@@ -1993,15 +1993,6 @@ CEDAR_FALLS = SportsballGeocodeTuple(
     housenumber="",
     country="USA",
 )
-DODGER_STADIUM = SportsballGeocodeTuple(
-    city="Los Angeles",
-    state="CA",
-    postal="",
-    lat=34.0736118,
-    lng=-118.24,
-    housenumber="1000",
-    country="USA",
-)
 VIRGINIA_BEACH = SportsballGeocodeTuple(
     city="Virginia Beach",
     state="VA",
@@ -15784,7 +15775,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="Panama",
     ),
-    "Dodger Stadium - Los Angeles, CA, USA - United States": DODGER_STADIUM,
     "Mississippi State University": SportsballGeocodeTuple(
         city="Mississippi State",
         state="MS",
@@ -15959,7 +15949,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "T-Mobile Park, Seattle, WA, USA": T_MOBILE_PARK,
-    "Dodger Stadium, Los Angeles, CA, USA": DODGER_STADIUM,
     "Virginia Beach, VA, United States": VIRGINIA_BEACH,
     "Johnstown, NY, United States": SportsballGeocodeTuple(
         city="Johnstown",
@@ -16512,7 +16501,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Dodger Stadium": DODGER_STADIUM,
     "ohio-state": SportsballGeocodeTuple(
         city="Columbus",
         state="OH",
