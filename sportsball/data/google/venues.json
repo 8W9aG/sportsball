@@ -9579,6 +9579,26 @@
             "housenumber": "16101",
             "country": "USA",
             "type": "venue"
+        },
+        "7a5b2096-bf44-4862-bc72-490ae2a3a151": {
+            "city": "Queens",
+            "state": "NY",
+            "postal": "",
+            "lat": 40.75,
+            "lng": -73.8475,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
+        },
+        "584af5fc-381d-41f1-9685-327498e94b50": {
+            "city": "Columbus",
+            "state": "OH",
+            "postal": "",
+            "lat": 40.007511,
+            "lng": -83.025102,
+            "housenumber": "555",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -11481,6 +11501,7 @@
         "Nokia Arena": "386399c2-92b9-44bd-b7ce-37f296f6bb9d",
         "Mohegan Sun Arena, Uncasville, Connecticut": "26759648-7039-4807-afb1-dcafc17f34f1",
         "Mohegan Sun Arena, Montville, NJ, USA": "26759648-7039-4807-afb1-dcafc17f34f1",
+        "Mohegan Sun Arena - Uncasville - CT": "26759648-7039-4807-afb1-dcafc17f34f1",
         "BEL": "18e02416-1dfa-45f6-9d5b-28c9bbbe4637",
         "Estadio Mineirão - Belo Horizonte": "52f20913-85a1-40a5-9752-39fd4a5c6cb5",
         "Orleans Arena, Paradise, Nevada": "5b57df80-8023-44cb-909d-077ab73ae5f5",
@@ -11534,8 +11555,11 @@
         "Casa de Apostas Arena Fonte Nova - Salvador": "b4c36caa-0607-41f5-9e3e-b401c1594d57",
         "Corinthians Arena - Sao Paulo": "506e691d-2642-43cc-9d91-26c4a76232f0",
         "Neo Quimica Arena, Sao Paulo, Brazil": "506e691d-2642-43cc-9d91-26c4a76232f0",
+        "Neo Química Arena - Sao Paulo": "506e691d-2642-43cc-9d91-26c4a76232f0",
         "Avalon Airport Oval": "609dc264-2e02-49d7-afe4-2f1e9bda7a7a",
         "Arena Pantanal - Cuiabá": "b5230182-1f19-4ff1-b325-222fd6657b23",
-        "Peoria Stadium - Peoria - Arizona - 85385": "980b5831-82d6-42a1-8869-8db54582c85a"
+        "Peoria Stadium - Peoria - Arizona - 85385": "980b5831-82d6-42a1-8869-8db54582c85a",
+        "USTA Billie Jean King NTC, New York, NY, USA": "7a5b2096-bf44-4862-bc72-490ae2a3a151",
+        "Schottenstein Center - Columbus - OH": "584af5fc-381d-41f1-9685-327498e94b50"
     }
 }
