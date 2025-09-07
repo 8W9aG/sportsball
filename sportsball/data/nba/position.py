@@ -14,6 +14,7 @@ class Position(StrEnum):
     POINT_GUARD = "PG"
     GUARD = "G"
     FORWARD = "F"
+    NOT_APPLICABLE = "NA"
 
 
 _POSITIONS = {str(x): x for x in Position}

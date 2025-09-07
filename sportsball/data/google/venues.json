@@ -9599,6 +9599,36 @@
             "housenumber": "555",
             "country": "USA",
             "type": "venue"
+        },
+        "aea61495-f108-439d-994e-a6e5d9feffeb": {
+            "city": "Manaus",
+            "state": "Amazonas",
+            "postal": "",
+            "lat": -3.083056,
+            "lng": -60.028056,
+            "housenumber": "",
+            "country": "Brazil",
+            "type": "venue"
+        },
+        "a0be2356-40e3-4af0-8bac-4c0339aca1a8": {
+            "city": "Scottsdale",
+            "state": "AZ",
+            "postal": "85251",
+            "lat": 33.488333,
+            "lng": -111.921111,
+            "housenumber": "7408",
+            "country": "USA",
+            "type": "venue"
+        },
+        "dc37e20f-892a-4fbc-8ea5-38d61769dea5": {
+            "city": "Prague",
+            "state": "",
+            "postal": "",
+            "lat": 50.104761,
+            "lng": 14.493497,
+            "housenumber": "",
+            "country": "Czechia",
+            "type": "venue"
         }
     },
     "searches": {
@@ -9610,6 +9640,7 @@
         "SCG - 2021": "99f30682-caa5-464b-9527-961ade4903ba",
         "Victoria Park - Australia": "58c1c80f-b4e2-4d77-bdd2-ad4a920af559",
         "Tom Benson Hall of Fame Stadium": "a872a4e3-53c1-43e7-8af2-79263f5d80d3",
+        "Tom Benson Hall of Fame Stadium, Canton, OH, USA": "a872a4e3-53c1-43e7-8af2-79263f5d80d3",
         "MetLife Stadium": "7b9c3f52-bb1a-43d9-b074-4b39f5ab12ef",
         "MetLife Stadium, East Rutherford, NJ, USA": "7b9c3f52-bb1a-43d9-b074-4b39f5ab12ef",
         "MetLife Stadium - East Rutherford - NJ - 07073": "7b9c3f52-bb1a-43d9-b074-4b39f5ab12ef",
@@ -11468,6 +11499,7 @@
         "Michelob Ulta Arena, Paradise, Nevada": "d06b2f1a-4a79-40f2-88c0-2bc836d16315",
         "Michelob Ultra Arena, Paradise, Nevada": "d06b2f1a-4a79-40f2-88c0-2bc836d16315",
         "Michelob ULTRA Arena - Las Vegas - NV": "d06b2f1a-4a79-40f2-88c0-2bc836d16315",
+        "Michelob Ultra Arena, Las Vegas, NV, USA": "d06b2f1a-4a79-40f2-88c0-2bc836d16315",
         "PHX Arena - Phoenix - AZ": "67f1d552-4aaf-4367-93a2-694eaa8ee658",
         "Adelaide, Australia": "922a30bf-da30-4529-94cf-5aea82bcaae5",
         "Clover Park - Port St. Lucie - Florida - 34988": "c4d1c8f8-bbeb-48dc-8d6c-812e2f81e475",
@@ -11560,6 +11592,10 @@
         "Arena Pantanal - Cuiabá": "b5230182-1f19-4ff1-b325-222fd6657b23",
         "Peoria Stadium - Peoria - Arizona - 85385": "980b5831-82d6-42a1-8869-8db54582c85a",
         "USTA Billie Jean King NTC, New York, NY, USA": "7a5b2096-bf44-4862-bc72-490ae2a3a151",
-        "Schottenstein Center - Columbus - OH": "584af5fc-381d-41f1-9685-327498e94b50"
+        "Grandstand, New York, NY, USA": "7a5b2096-bf44-4862-bc72-490ae2a3a151",
+        "Schottenstein Center - Columbus - OH": "584af5fc-381d-41f1-9685-327498e94b50",
+        "Arena Amazonia - Manaus": "aea61495-f108-439d-994e-a6e5d9feffeb",
+        "Scottsdale Stadium - Scottsdale - Arizona - 85271": "a0be2356-40e3-4af0-8bac-4c0339aca1a8",
+        "O2 Arena (Prague) - Prague": "dc37e20f-892a-4fbc-8ea5-38d61769dea5"
     }
 }
