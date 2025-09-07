@@ -9938,15 +9938,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="Italy",
     ),
     "Yokohama Arena - Yokohama, Kanagawa - Japan": YOKOHAMA_ARENA,
-    "Corinthians Arena - Sao Paulo": SportsballGeocodeTuple(
-        city="Sao Paulo",
-        state="",
-        postal="",
-        lat=-23.54525,
-        lng=-46.474278,
-        housenumber="",
-        country="Brazil",
-    ),
     "Brandon, MS, USA": SportsballGeocodeTuple(
         city="Brandon",
         state="MS",
