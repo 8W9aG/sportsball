@@ -9809,6 +9809,36 @@
             "housenumber": "",
             "country": "South Africa",
             "type": "venue"
+        },
+        "9b35e126-0eaa-4f45-b3ec-06ffafa22543": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 39.0,
+            "lng": 22.0,
+            "housenumber": "",
+            "country": "Greece",
+            "type": "country"
+        },
+        "1c49e08a-0f9d-4dac-bf33-4d3ae9e639c6": {
+            "city": "Durban",
+            "state": "",
+            "postal": "",
+            "lat": -29.829,
+            "lng": 31.0303,
+            "housenumber": "44",
+            "country": "South Africa",
+            "type": "venue"
+        },
+        "4170df5b-952e-4cbd-a3be-5721581b31aa": {
+            "city": "Villanova",
+            "state": "PA",
+            "postal": "19085",
+            "lat": 40.034072,
+            "lng": -75.336553,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -11809,6 +11839,12 @@
         "Houston, Texas": "6253fd77-dd25-4eed-8aa7-8326e0b99cea",
         "Houston, Texas, United States": "6253fd77-dd25-4eed-8aa7-8326e0b99cea",
         "Houston, TX, USA": "6253fd77-dd25-4eed-8aa7-8326e0b99cea",
-        "Peter Mokaba Stadium - Polokwane": "859ed97c-340f-4f75-87e7-a5b9ddc06a85"
+        "Peter Mokaba Stadium - Polokwane": "859ed97c-340f-4f75-87e7-a5b9ddc06a85",
+        "GRE": "9b35e126-0eaa-4f45-b3ec-06ffafa22543",
+        "Moses Mabhida Stadium - Durban": "1c49e08a-0f9d-4dac-bf33-4d3ae9e639c6",
+        "Finneran Pavilion - Villanova - PA": "4170df5b-952e-4cbd-a3be-5721581b31aa",
+        "Finneran Pavilion, Villanova, Pennsylvania": "4170df5b-952e-4cbd-a3be-5721581b31aa",
+        "The Pavilion, Villanova, Pennsylvania": "4170df5b-952e-4cbd-a3be-5721581b31aa",
+        "Finneran Pavilion - Villanova, Pennsylvania - United States": "4170df5b-952e-4cbd-a3be-5721581b31aa"
     }
 }

@@ -643,15 +643,6 @@ MEMORIAL_COLISEUM = SportsballGeocodeTuple(
     housenumber="300",
     country="USA",
 )
-FINNERAN_PAVILION = SportsballGeocodeTuple(
-    city="Villanova",
-    state="PA",
-    postal="19085",
-    lat=40.034072,
-    lng=-75.336553,
-    housenumber="",
-    country="USA",
-)
 BROOKSHIRE_GROCERY_ARENA = SportsballGeocodeTuple(
     city="Bossier City",
     state="LA",
@@ -2839,7 +2830,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "UC Riverside Student Recreation Center, Riverside, California": UCR_STUDENT_REC_CENTER,
-    "Finneran Pavilion, Villanova, Pennsylvania": FINNERAN_PAVILION,
     "CFE Arena, Orlando, Florida": SportsballGeocodeTuple(
         city="Orlando",
         state="FL",
@@ -7301,7 +7291,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
     "Retriever Activities Center, Baltimore, Maryland": RETRIEVER_ACTIVITIES_CENTER,
     "Memorial Coliseum, Portland, Oregon": MEMORIAL_COLISEUM,
-    "The Pavilion, Villanova, Pennsylvania": FINNERAN_PAVILION,
     "Benjamin Johnson Arena, Spartanburg, South Carolina": SportsballGeocodeTuple(
         city="Spartanburg",
         state="SC",
@@ -11558,7 +11547,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Freedom Hall - Louisville, Kentucky - United States": FREEDOM_HALL,
-    "Finneran Pavilion - Villanova, Pennsylvania - United States": FINNERAN_PAVILION,
     "Roberts Stadium": ROBERTS_STADIUM,
     "Sports Arena": ARCO_ARENA,
     "Veterans Memorial Auditorium": SportsballGeocodeTuple(
