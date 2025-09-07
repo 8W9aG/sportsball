@@ -9839,6 +9839,26 @@
             "housenumber": "",
             "country": "USA",
             "type": "venue"
+        },
+        "1d61ac72-c99b-4721-9754-e85f93e469f9": {
+            "city": "Monte Carlo",
+            "state": "",
+            "postal": "",
+            "lat": 43.739722,
+            "lng": 7.427222,
+            "housenumber": "",
+            "country": "Monaco",
+            "type": "city"
+        },
+        "07e3ba60-66c8-471d-b30e-de7770957905": {
+            "city": "Johannesburg",
+            "state": "",
+            "postal": "",
+            "lat": -26.234722,
+            "lng": 27.982222,
+            "housenumber": "",
+            "country": "South Africa",
+            "type": "venue"
         }
     },
     "searches": {
@@ -10354,6 +10374,7 @@
         "Wrigley Field - Chicago, Illinois - United States": "847f8a52-e5f3-4977-baa1-d3cf9d4469fa",
         "Wrigley Field - Chicago - IL - 60613": "847f8a52-e5f3-4977-baa1-d3cf9d4469fa",
         "Wrigley Field, Chicago, IL, USA": "847f8a52-e5f3-4977-baa1-d3cf9d4469fa",
+        "Wrigley Field - Chicago - IL": "847f8a52-e5f3-4977-baa1-d3cf9d4469fa",
         "Veterans Memorial Stadium - Quincy, Massachusetts - United States": "71734c2d-5d49-4c4d-b7ce-b37cad804ac7",
         "City Stadium": "ba47ff55-1391-498e-9e61-ff8d9273335a",
         "IG Field - Winnipeg - MB": "eb7bb413-11ac-4cec-b4fb-09f2822d4bef",
@@ -11845,6 +11866,8 @@
         "Finneran Pavilion - Villanova - PA": "4170df5b-952e-4cbd-a3be-5721581b31aa",
         "Finneran Pavilion, Villanova, Pennsylvania": "4170df5b-952e-4cbd-a3be-5721581b31aa",
         "The Pavilion, Villanova, Pennsylvania": "4170df5b-952e-4cbd-a3be-5721581b31aa",
-        "Finneran Pavilion - Villanova, Pennsylvania - United States": "4170df5b-952e-4cbd-a3be-5721581b31aa"
+        "Finneran Pavilion - Villanova, Pennsylvania - United States": "4170df5b-952e-4cbd-a3be-5721581b31aa",
+        "Monte-Carlo, Monaco": "1d61ac72-c99b-4721-9754-e85f93e469f9",
+        "FNB Stadium - Johannesburg": "07e3ba60-66c8-471d-b30e-de7770957905"
     }
 }
