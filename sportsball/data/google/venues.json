@@ -9459,6 +9459,56 @@
             "housenumber": "",
             "country": "UK",
             "type": "venue"
+        },
+        "c84bc94b-7cbb-4b36-af63-888e64bdbd8e": {
+            "city": "Munich",
+            "state": "Bavaria",
+            "postal": "",
+            "lat": 48.1375,
+            "lng": 11.575,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "city"
+        },
+        "2c122f56-2308-477d-a8b8-01594550c05a": {
+            "city": "Bunbury",
+            "state": "WA",
+            "postal": "",
+            "lat": -33.346111,
+            "lng": 115.642778,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "0658c6f3-c002-4be7-b246-dd68795d34b9": {
+            "city": "Fortaleza",
+            "state": "Ceará",
+            "postal": "",
+            "lat": -3.807222,
+            "lng": -38.5225,
+            "housenumber": "",
+            "country": "Brazil",
+            "type": "venue"
+        },
+        "41e1dcd6-d36f-4bb3-a6be-b0b2583878b0": {
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "postal": "",
+            "lat": 19.041944,
+            "lng": 73.026667,
+            "housenumber": "",
+            "country": "India",
+            "type": "venue"
+        },
+        "e713f0a9-bacc-4bc6-bf09-d30654dd5bb5": {
+            "city": "Phoenix",
+            "state": "AZ",
+            "postal": "",
+            "lat": 33.445833,
+            "lng": -112.071389,
+            "housenumber": "201",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -10930,6 +10980,7 @@
         "Wintrust Arena, Chicago, Illinois": "ffc3cfd9-bc8c-49ba-aa2f-7746e845c6c7",
         "Wintrust Arena - Chicago, Illinois, USA - United States": "ffc3cfd9-bc8c-49ba-aa2f-7746e845c6c7",
         "Wintrust Arena, Chicago, IL, USA": "ffc3cfd9-bc8c-49ba-aa2f-7746e845c6c7",
+        "Wintrust Arena - Chicago - IL": "ffc3cfd9-bc8c-49ba-aa2f-7746e845c6c7",
         "Leede Arena, Hanover, New Hampshire": "75f8199c-0bd4-4a55-bf77-e371c75a4494",
         "Leede Arena - Hanover - NH": "75f8199c-0bd4-4a55-bf77-e371c75a4494",
         "Rupp Arena, Lexington, Kentucky": "cdde4cb0-89ff-41a5-83d7-878493285a5f",
@@ -11203,6 +11254,7 @@
         "Sheikh Zayed Stadium, Abu Dhabi, United Arab Emirates": "a6a48c5a-cced-4922-a63d-8c63fd5a6e66",
         "HUN": "72d9f1da-5841-4b32-8c0c-9fd206900865",
         "Hill Dickinson Stadium - Liverpool": "2d6e2867-f1fc-416e-b633-a9bef97e0f7d",
+        "Hill Dickinson Stadium, Liverpool, England": "2d6e2867-f1fc-416e-b633-a9bef97e0f7d",
         "Luzhniki Stadium - Moscow": "3ed06afd-66c3-4750-9e12-a23712f96a88",
         "Casey Fields": "22c41188-0590-45f3-93a8-14b7d7e2f115",
         "Fisht Olympic Stadium - Sochi": "b44d1383-3d48-4af1-bb03-48ea352e1cd0",
@@ -11383,6 +11435,22 @@
         "Arena das Dunas - Natal": "a2f05cb5-d9d6-4538-95bb-1da998efcd31",
         "Matthew Knight Arena - Eugene - OR": "364a25d1-f58c-4f50-9abd-bbbde4972305",
         "Matthew Knight Arena, Eugene, Oregon": "364a25d1-f58c-4f50-9abd-bbbde4972305",
-        "Queens Club": "22b94687-a1af-477d-8eed-e420e4daac19"
+        "Queens Club": "22b94687-a1af-477d-8eed-e420e4daac19",
+        "Munich, Germany": "c84bc94b-7cbb-4b36-af63-888e64bdbd8e",
+        "Hands Oval, Bunbury": "2c122f56-2308-477d-a8b8-01594550c05a",
+        "Hands Oval - Australia": "2c122f56-2308-477d-a8b8-01594550c05a",
+        "Hands Oval": "2c122f56-2308-477d-a8b8-01594550c05a",
+        "Hands Oval, South Bunbury, Australia": "2c122f56-2308-477d-a8b8-01594550c05a",
+        "Castelão - Fortaleza": "0658c6f3-c002-4be7-b246-dd68795d34b9",
+        "D.Y. Patil Stadium, Mumbai, India": "41e1dcd6-d36f-4bb3-a6be-b0b2583878b0",
+        "Footprint Center, Phoenix, Arizona": "e713f0a9-bacc-4bc6-bf09-d30654dd5bb5",
+        "America West Arena": "e713f0a9-bacc-4bc6-bf09-d30654dd5bb5",
+        "Phoenix Suns Arena, Phoenix, Arizona": "e713f0a9-bacc-4bc6-bf09-d30654dd5bb5",
+        "Talking Stick Resort Arena, Phoenix, Arizona": "e713f0a9-bacc-4bc6-bf09-d30654dd5bb5",
+        "Footprint Center, Phoenix, AZ, USA": "e713f0a9-bacc-4bc6-bf09-d30654dd5bb5",
+        "Footprint Center - Phoenix, Arizona - United States": "e713f0a9-bacc-4bc6-bf09-d30654dd5bb5",
+        "US Airways Center, Phoenix, Arizona": "e713f0a9-bacc-4bc6-bf09-d30654dd5bb5",
+        "America West Arena, Phoenix, Arizona": "e713f0a9-bacc-4bc6-bf09-d30654dd5bb5",
+        "Salt River Fields at Talking Stick - Scottsdale - Arizona - 85258": "e713f0a9-bacc-4bc6-bf09-d30654dd5bb5"
     }
 }

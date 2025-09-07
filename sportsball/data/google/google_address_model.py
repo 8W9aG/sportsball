@@ -31,15 +31,6 @@ THE_FORUM = SportsballGeocodeTuple(
     housenumber="3900",
     country="USA",
 )
-AMERICA_WEST_ARENA = SportsballGeocodeTuple(
-    city="Phoenix",
-    state="AZ",
-    postal="",
-    lat=33.445833,
-    lng=-112.071389,
-    housenumber="201",
-    country="USA",
-)
 ORLANDO_ARENA = SportsballGeocodeTuple(
     city="Orlando",
     state="FL",
@@ -1452,15 +1443,6 @@ CHATTANOOGA = SportsballGeocodeTuple(
     lng=-85.267222,
     housenumber="",
     country="USA",
-)
-HANDS_OVAL = SportsballGeocodeTuple(
-    city="Bunbury",
-    state="WA",
-    postal="",
-    lat=-33.346111,
-    lng=115.642778,
-    housenumber="",
-    country="Australia",
 )
 CANTON = SportsballGeocodeTuple(
     city="Canton",
@@ -3341,7 +3323,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Mississippi Coast Coliseum, Biloxi, Mississippi": MISSISSIPPI_COAST_COLISEUM,
-    "Footprint Center, Phoenix, Arizona": AMERICA_WEST_ARENA,
     "Simmons Bank Arena, North Little Rock, Arkansas": SIMMONS_BANK_ARENA,
     "FLA Live Arena, Sunrise, Florida": FLA_LIVE_ARENA,
     "Dollar Loan Center, Henderson, Nevada": SportsballGeocodeTuple(
@@ -3454,7 +3435,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "Omni Coliseum": OMNI_COLISEUM,
     "Great Western Forum": THE_FORUM,
     "The Palace of Auburn Hills - Auburn Hills, MI - USA": THE_PALACE_OF_AUBURN_HILLS,
-    "America West Arena": AMERICA_WEST_ARENA,
     "Quicken Loans Arena - Cleveland, Ohio - United States": QUICKEN_LOANS_ARENA,
     "Chesapeake Energy Arena - Oklahoma City, Oklahoma - United States": CHESAPEAKE_ENERGY_ARENA,
     "AT&T Center - San Antonio, Texas - United States": ATT_CENTER,
@@ -3627,11 +3607,9 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "The Arena, Bay Lake, Florida": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
     "HP Field House, Bay Lake, Florida": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
     "Amway Center, Orlando, Florida": ORLANDO_ARENA,
-    "Phoenix Suns Arena, Phoenix, Arizona": AMERICA_WEST_ARENA,
     "Quicken Loans Arena, Cleveland, Ohio": QUICKEN_LOANS_ARENA,
     "Visa Athletic Center, Bay Lake, Florida": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
     "Dunn–Oliver Acadome, Montgomery, Alabama": DUNN_OLIVER_ACADOME,
-    "Talking Stick Resort Arena, Phoenix, Arizona": AMERICA_WEST_ARENA,
     "The O2 Arena, London, United Kingdom": O2_ARENA,
     "BMO Harris Bradley Center, Milwaukee, Wisconsin": BRADLEY_CENTER,
     "Texas A&M–Commerce Field House, Commerce, Texas": TEXAS_AM_COMMERCE_FIELD_HOUSE,
@@ -4156,10 +4134,8 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="UK",
     ),
-    "Footprint Center, Phoenix, AZ, USA": AMERICA_WEST_ARENA,
     "ARCO Arena, Sacramento, CA, USA": ARCO_ARENA,
     "AdventHealth Arena, Orlando, FL, USA": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
-    "Footprint Center - Phoenix, Arizona - United States": AMERICA_WEST_ARENA,
     "The Palace of Auburn Hills, Auburn Hills, MI, USA": THE_PALACE_OF_AUBURN_HILLS,
     "BMO Harris Bradley Center, Milwaukee, WI, USA": BRADLEY_CENTER,
     "State Farm Field House, Orlando, FL, USA": STATE_FARM_FIELDHOUSE,
@@ -4624,7 +4600,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Binghamton University Events Center, Vestal, New York": BINGHAMPTON_UNIVERSITY_EVENTS_CENTER,
-    "US Airways Center, Phoenix, Arizona": AMERICA_WEST_ARENA,
     "Kaiser Permanente Arena, Santa Cruz, California": SportsballGeocodeTuple(
         city="Santa Cruz",
         state="CA",
@@ -5003,7 +4978,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="1050",
         country="USA",
     ),
-    "America West Arena, Phoenix, Arizona": AMERICA_WEST_ARENA,
     "TD Waterhouse Centre, Orlando, Florida": ORLANDO_ARENA,
     "Charlotte Coliseum, Charlotte, North Carolina": CHARLOTTE_COLISEUM,
     "Pyramid Arena, Memphis, Tennessee": SportsballGeocodeTuple(
@@ -10091,7 +10065,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="Zimbabwe",
     ),
-    "Hands Oval, Bunbury": HANDS_OVAL,
     "Inkster, Michigan, United States": SportsballGeocodeTuple(
         city="Inkster",
         state="MI",
@@ -10303,8 +10276,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="Canada",
     ),
-    "Hands Oval - Australia": HANDS_OVAL,
-    "Hands Oval": HANDS_OVAL,
     "Auburn, WA, USA": SportsballGeocodeTuple(
         city="Auburn",
         state="WA",
