@@ -9719,6 +9719,36 @@
             "housenumber": "",
             "country": "Spain",
             "type": "city"
+        },
+        "7841cba0-d40b-4778-bd77-dc22e1243b0b": {
+            "city": "Johannesburg",
+            "state": "Gauteng Province",
+            "postal": "2028",
+            "lat": -26.1975,
+            "lng": 28.060833,
+            "housenumber": "47",
+            "country": "South Africa",
+            "type": "venue"
+        },
+        "7beae26d-bff1-4e8d-8bfd-10999217c88a": {
+            "city": "Arlington",
+            "state": "TX",
+            "postal": "",
+            "lat": 32.747361,
+            "lng": -97.084167,
+            "housenumber": "734",
+            "country": "USA",
+            "type": "venue"
+        },
+        "d99776d5-8a58-4a22-ac2a-7e0c6ff2bbb2": {
+            "city": "Paris",
+            "state": "",
+            "postal": "",
+            "lat": 48.847222,
+            "lng": 2.246389,
+            "housenumber": "",
+            "country": "France",
+            "type": "venue"
         }
     },
     "searches": {
@@ -11700,6 +11730,11 @@
         "ITF Martos": "eae63ab5-cc94-4bbb-82ec-7a57266ff137",
         "Royal Bafokeng Stadium - Rustenburg": "6171fa13-73e7-4cdf-b7fb-bc78fc33fa2f",
         "Nelson Mandela Bay Stadium - Gqeberha": "a0a9b2b3-9e95-4bf9-b8a9-f1cebd5ae506",
-        "Barcelona, Spain": "0d6cdf40-f282-49fb-a5d6-3f0d82c5d5b6"
+        "Barcelona, Spain": "0d6cdf40-f282-49fb-a5d6-3f0d82c5d5b6",
+        "Emirates Airline Park - Johannesburg": "7841cba0-d40b-4778-bd77-dc22e1243b0b",
+        "Globe Life Field - Arlington - Texas - 76011": "7beae26d-bff1-4e8d-8bfd-10999217c88a",
+        "Globe Life Field, Arlington, TX, USA": "7beae26d-bff1-4e8d-8bfd-10999217c88a",
+        "Globe Life Field": "7beae26d-bff1-4e8d-8bfd-10999217c88a",
+        "Roland Garros": "d99776d5-8a58-4a22-ac2a-7e0c6ff2bbb2"
     }
 }

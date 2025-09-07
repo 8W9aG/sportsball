@@ -2101,15 +2101,6 @@ DAIKIN_PARK = SportsballGeocodeTuple(
     housenumber="501",
     country="USA",
 )
-GLOBE_LIFE_FIELD = SportsballGeocodeTuple(
-    city="Arlington",
-    state="TX",
-    postal="",
-    lat=32.747361,
-    lng=-97.084167,
-    housenumber="734",
-    country="USA",
-)
 TSONGAS_CENTER = SportsballGeocodeTuple(
     city="Lowell",
     state="MA",
@@ -16512,7 +16503,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="Libya",
     ),
-    "Globe Life Field, Arlington, TX, USA": GLOBE_LIFE_FIELD,
     "Clemson University": SportsballGeocodeTuple(
         city="Clemson",
         state="SC",
@@ -16645,7 +16635,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Globe Life Field": GLOBE_LIFE_FIELD,
     "Seton Hall University": SportsballGeocodeTuple(
         city="South Orange",
         state="NJ",
