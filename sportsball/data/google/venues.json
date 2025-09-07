@@ -9769,6 +9769,26 @@
             "housenumber": "1000",
             "country": "USA",
             "type": "venue"
+        },
+        "411d84fa-1277-4d02-bff5-46c7fbc8f387": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 47.333333,
+            "lng": 13.333333,
+            "housenumber": "",
+            "country": "Austria",
+            "type": "country"
+        },
+        "28e801fa-48b7-4dcc-80b7-6baaec8c27d4": {
+            "city": "Pretoria",
+            "state": "Gauteng",
+            "postal": "",
+            "lat": -25.753333,
+            "lng": 28.222778,
+            "housenumber": "440",
+            "country": "South Africa",
+            "type": "venue"
         }
     },
     "searches": {
@@ -11761,6 +11781,8 @@
         "Dodger Stadium - Los Angeles, CA, USA - United States": "2c740aab-a908-4f53-a721-a5aa4b25e466",
         "Dodger Stadium, Los Angeles, CA, USA": "2c740aab-a908-4f53-a721-a5aa4b25e466",
         "Dodger Stadium": "2c740aab-a908-4f53-a721-a5aa4b25e466",
-        "Dodger Stadium - Los Angeles - California - 90090": "2c740aab-a908-4f53-a721-a5aa4b25e466"
+        "Dodger Stadium - Los Angeles - California - 90090": "2c740aab-a908-4f53-a721-a5aa4b25e466",
+        "AUT": "411d84fa-1277-4d02-bff5-46c7fbc8f387",
+        "Loftus Versfeld Stadium - Pretoria": "28e801fa-48b7-4dcc-80b7-6baaec8c27d4"
     }
 }
