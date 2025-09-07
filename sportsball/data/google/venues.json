@@ -9699,6 +9699,26 @@
             "housenumber": "",
             "country": "South Africa",
             "type": "venue"
+        },
+        "a0a9b2b3-9e95-4bf9-b8a9-f1cebd5ae506": {
+            "city": "Gqeberha",
+            "state": "",
+            "postal": "",
+            "lat": -33.937778,
+            "lng": 25.598889,
+            "housenumber": "70",
+            "country": "South Africa",
+            "type": "venue"
+        },
+        "0d6cdf40-f282-49fb-a5d6-3f0d82c5d5b6": {
+            "city": "Barcelona",
+            "state": "Catalonia",
+            "postal": "",
+            "lat": 41.383333,
+            "lng": 2.183333,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "city"
         }
     },
     "searches": {
@@ -9871,6 +9891,7 @@
         "AccorHotels Arena, Paris, France": "1f42a181-7ce3-4a8b-8b93-6dd590a9a360",
         "Accor Arena, Paris, France": "1f42a181-7ce3-4a8b-8b93-6dd590a9a360",
         "AccorArena": "1f42a181-7ce3-4a8b-8b93-6dd590a9a360",
+        "Accor Arena - Paris": "1f42a181-7ce3-4a8b-8b93-6dd590a9a360",
         "Ford Field": "1099a24f-e376-4b5c-b635-240f260cd23b",
         "Ford Field - Detroit - MI - 48226": "1099a24f-e376-4b5c-b635-240f260cd23b",
         "Ford Field - Detroit, Michigan - United States": "1099a24f-e376-4b5c-b635-240f260cd23b",
@@ -11677,6 +11698,8 @@
         "Santiago, Chile": "7127b5e4-1606-43ed-85b8-d58e0cb632a6",
         "Free State Toyota Stadium - Bloemfontein": "d9ca94e6-cb67-492f-9183-09aac74ece7e",
         "ITF Martos": "eae63ab5-cc94-4bbb-82ec-7a57266ff137",
-        "Royal Bafokeng Stadium - Rustenburg": "6171fa13-73e7-4cdf-b7fb-bc78fc33fa2f"
+        "Royal Bafokeng Stadium - Rustenburg": "6171fa13-73e7-4cdf-b7fb-bc78fc33fa2f",
+        "Nelson Mandela Bay Stadium - Gqeberha": "a0a9b2b3-9e95-4bf9-b8a9-f1cebd5ae506",
+        "Barcelona, Spain": "0d6cdf40-f282-49fb-a5d6-3f0d82c5d5b6"
     }
 }
