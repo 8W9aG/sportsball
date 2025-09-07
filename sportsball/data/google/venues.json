@@ -9679,6 +9679,26 @@
             "housenumber": "",
             "country": "South Africa",
             "type": "venue"
+        },
+        "eae63ab5-cc94-4bbb-82ec-7a57266ff137": {
+            "city": "Martos",
+            "state": "",
+            "postal": "",
+            "lat": 37.716667,
+            "lng": -3.966667,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "city"
+        },
+        "6171fa13-73e7-4cdf-b7fb-bc78fc33fa2f": {
+            "city": "Phokeng",
+            "state": "Rustenberg",
+            "postal": "",
+            "lat": -25.5786,
+            "lng": 27.1607,
+            "housenumber": "",
+            "country": "South Africa",
+            "type": "venue"
         }
     },
     "searches": {
@@ -11655,6 +11675,8 @@
         "Arena Pernambuco - Recife": "1ecd2d59-0abf-45bb-9bea-33abe391d2cd",
         "Tempe Diablo Stadium - Tempe - Arizona - 85289": "a26e554f-6876-494a-8094-1e86dbc0769d",
         "Santiago, Chile": "7127b5e4-1606-43ed-85b8-d58e0cb632a6",
-        "Free State Toyota Stadium - Bloemfontein": "d9ca94e6-cb67-492f-9183-09aac74ece7e"
+        "Free State Toyota Stadium - Bloemfontein": "d9ca94e6-cb67-492f-9183-09aac74ece7e",
+        "ITF Martos": "eae63ab5-cc94-4bbb-82ec-7a57266ff137",
+        "Royal Bafokeng Stadium - Rustenburg": "6171fa13-73e7-4cdf-b7fb-bc78fc33fa2f"
     }
 }

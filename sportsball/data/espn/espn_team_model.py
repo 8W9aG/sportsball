@@ -1175,9 +1175,10 @@ def _create_espn_team_model(
                             game_winning_rbis, stat["value"]
                         )
                     elif stat["name"] == "intentionalWalks":
-                        intentional_walks = more_interesting(
-                            intentional_walks, stat["value"]
-                        )
+                        if "value" in stat:
+                            intentional_walks = more_interesting(
+                                intentional_walks, stat["value"]
+                            )
                     elif stat["name"] == "doubles":
                         if "value" in stat:
                             doubles = more_interesting(doubles, stat["value"])
