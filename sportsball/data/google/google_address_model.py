@@ -1669,15 +1669,6 @@ AMICA_MUTUAL_PAVILION = SportsballGeocodeTuple(
     housenumber="1",
     country="USA",
 )
-PEOPLESBANK_ARENA = SportsballGeocodeTuple(
-    city="Hartford",
-    state="CT",
-    postal="",
-    lat=41.768333,
-    lng=-72.676944,
-    housenumber="1",
-    country="USA",
-)
 MISSISSIPPI_COAST_COLISEUM = SportsballGeocodeTuple(
     city="Biloxi",
     state="MS",
@@ -10217,7 +10208,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Hartford Civic Center, Hartford, Connecticut": PEOPLESBANK_ARENA,
     "Tacoma Dome, Tacoma, Washington": TACOMA_DOME,
     "Union Multipurpose Activity Center, Tulsa, Oklahoma": SportsballGeocodeTuple(
         city="Tulsa",
@@ -11679,7 +11669,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Providence Civic Center": AMICA_MUTUAL_PAVILION,
-    "Hartford Civic Center - Hartford, Connecticut - United States": PEOPLESBANK_ARENA,
     "Sacramento State College": SportsballGeocodeTuple(
         city="Sacramento",
         state="CA",

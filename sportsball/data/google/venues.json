@@ -9509,6 +9509,46 @@
             "housenumber": "201",
             "country": "USA",
             "type": "venue"
+        },
+        "d48fd587-5614-4cf7-85d9-4b6d4701e887": {
+            "city": "Lismore",
+            "state": "NSW",
+            "postal": "",
+            "lat": -28.810633,
+            "lng": 153.281356,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "3f6ec80f-4c55-4184-b4a7-754acc84d34a": {
+            "city": "Hartford",
+            "state": "CT",
+            "postal": "",
+            "lat": 41.768333,
+            "lng": -72.676944,
+            "housenumber": "1",
+            "country": "USA",
+            "type": "venue"
+        },
+        "b4c36caa-0607-41f5-9e3e-b401c1594d57": {
+            "city": "Salvador",
+            "state": "Bahia",
+            "postal": "",
+            "lat": -12.978611,
+            "lng": -38.504167,
+            "housenumber": "",
+            "country": "Brazil",
+            "type": "venue"
+        },
+        "506e691d-2642-43cc-9d91-26c4a76232f0": {
+            "city": "Sao Paulo",
+            "state": "",
+            "postal": "",
+            "lat": -23.54525,
+            "lng": -46.474278,
+            "housenumber": "",
+            "country": "Brazil",
+            "type": "venue"
         }
     },
     "searches": {
@@ -10132,6 +10172,7 @@
         "Lanny and Sharon Martin Stadium - Evanston - IL - 60208": "0025110b-b3f0-4d18-a92b-0c0327c013a1",
         "Ryan Field - Evanston - IL - 60208": "0025110b-b3f0-4d18-a92b-0c0327c013a1",
         "Martin Stadium - Evanston - IL - 60208": "0025110b-b3f0-4d18-a92b-0c0327c013a1",
+        "Northwestern Medicine Field at Martin Stadium - Evanston - IL - 60208": "0025110b-b3f0-4d18-a92b-0c0327c013a1",
         "Traeger Park - Australia": "ede51062-994d-4283-be6b-7aaa65d08fcd",
         "Traeger Park": "ede51062-994d-4283-be6b-7aaa65d08fcd",
         "Eureka Stadium - Australia": "5843e4e2-fc79-4be6-9936-570253c29a9c",
@@ -10752,6 +10793,7 @@
         "Wisdom Gym, Stephenville, Texas": "dfd2130c-e3a8-40ce-a9c2-dbe78f5ba73b",
         "Wisdom Gymnasium, Stephenville, Texas": "dfd2130c-e3a8-40ce-a9c2-dbe78f5ba73b",
         "Stuttgart, Germany": "c55de4ae-33f1-4329-be2e-f5ab28629d8d",
+        "Stuttgart": "c55de4ae-33f1-4329-be2e-f5ab28629d8d",
         "Skyhawk Arena, Martin, Tennessee": "b401bfc4-4ebc-452a-8e6b-f71442c46423",
         "Lusail Stadium - Lusail": "b0a2ce1b-628a-450c-ad9b-6fd9f5ed14c2",
         "College Park Center, Arlington, Texas": "815a3094-5e7f-43d3-b38d-1c20453008d2",
@@ -11066,6 +11108,7 @@
         "McCamish Pavilion, Atlanta, Georgia": "5030cbaf-7343-4bee-86a6-150f92b09998",
         "Alexander Memorial Coliseum, Atlanta, Georgia": "5030cbaf-7343-4bee-86a6-150f92b09998",
         "The Hawthorns, West Bromwich, England": "5874e6a6-dddd-4c94-8381-48046200614b",
+        "The Hawthorns - West Bromwich": "5874e6a6-dddd-4c94-8381-48046200614b",
         "Maravich Assembly Center, Baton Rouge, Louisiana": "976e74a8-7145-4781-bbe1-b1eb46a512bb",
         "Pete Maravich Assembly Center, Baton Rouge, Louisiana": "976e74a8-7145-4781-bbe1-b1eb46a512bb",
         "Pete Maravich Assembly Center - Baton Rouge - LA": "976e74a8-7145-4781-bbe1-b1eb46a512bb",
@@ -11129,6 +11172,7 @@
         "McCarthey Athletic Center, Spokane, Washington": "cab652ad-9035-4b39-a8cc-dbd9d6a9c49e",
         "McCarthey Athletic Center - Spokane - WA": "cab652ad-9035-4b39-a8cc-dbd9d6a9c49e",
         "Purcell Pavilion at the Joyce Center, South Bend, Indiana": "c602289c-4fc7-4fe7-8723-bc0f9cce6f2b",
+        "Purcell Pavilion - South Bend - IN": "c602289c-4fc7-4fe7-8723-bc0f9cce6f2b",
         "Robert W. Plaster Stadium - Springfield - MO - 65897": "c4d01fa9-181e-4764-bd89-cc06138d2208",
         "SHM Memorial Center, Orangeburg, South Carolina": "f36a5bab-5141-4e80-a6a8-fcd128283f82",
         "Olympic Stadium Berlin - Berlin": "2912ac17-507c-4da1-a696-bf7e5bd00995",
@@ -11451,6 +11495,12 @@
         "Footprint Center - Phoenix, Arizona - United States": "e713f0a9-bacc-4bc6-bf09-d30654dd5bb5",
         "US Airways Center, Phoenix, Arizona": "e713f0a9-bacc-4bc6-bf09-d30654dd5bb5",
         "America West Arena, Phoenix, Arizona": "e713f0a9-bacc-4bc6-bf09-d30654dd5bb5",
-        "Salt River Fields at Talking Stick - Scottsdale - Arizona - 85258": "e713f0a9-bacc-4bc6-bf09-d30654dd5bb5"
+        "Salt River Fields at Talking Stick - Scottsdale - Arizona - 85258": "e713f0a9-bacc-4bc6-bf09-d30654dd5bb5",
+        "Oakes Oval": "d48fd587-5614-4cf7-85d9-4b6d4701e887",
+        "Hartford Civic Center, Hartford, Connecticut": "3f6ec80f-4c55-4184-b4a7-754acc84d34a",
+        "Hartford Civic Center - Hartford, Connecticut - United States": "3f6ec80f-4c55-4184-b4a7-754acc84d34a",
+        "PeoplesBank Arena - Hartford - CT": "3f6ec80f-4c55-4184-b4a7-754acc84d34a",
+        "Casa de Apostas Arena Fonte Nova - Salvador": "b4c36caa-0607-41f5-9e3e-b401c1594d57",
+        "Neo Quimica Arena, Sao Paulo, Brazil": "506e691d-2642-43cc-9d91-26c4a76232f0"
     }
 }

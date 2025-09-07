@@ -2963,6 +2963,8 @@ def _create_espn_team_model(
                         plus_minus = more_interesting(plus_minus, stat["value"])
                     elif stat["name"] == "firstPitchStrikesBattersFaced":
                         pass
+                    elif stat["name"] == "sacHit":
+                        pass
                     else:
                         raise ValueError(
                             f"Failed to account for statistic: {stat['name']} on {statistics_dict['$ref']}"
