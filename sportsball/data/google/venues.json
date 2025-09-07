@@ -9629,6 +9629,36 @@
             "housenumber": "",
             "country": "Czechia",
             "type": "venue"
+        },
+        "11d5a4c8-2693-4461-80db-aa5bae4b2256": {
+            "city": "Buenos Aires",
+            "state": "",
+            "postal": "",
+            "lat": -34.603889,
+            "lng": -58.381389,
+            "housenumber": "",
+            "country": "Argentina",
+            "type": "city"
+        },
+        "1ecd2d59-0abf-45bb-9bea-33abe391d2cd": {
+            "city": "São Lourenço da Mata",
+            "state": "Pernambuco",
+            "postal": "",
+            "lat": -8.040556,
+            "lng": -35.008333,
+            "housenumber": "",
+            "country": "Brazil",
+            "type": "venue"
+        },
+        "a26e554f-6876-494a-8094-1e86dbc0769d": {
+            "city": "Tempe",
+            "state": "AZ",
+            "postal": "85282",
+            "lat": 33.400556,
+            "lng": -111.969722,
+            "housenumber": "2200",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -11437,6 +11467,7 @@
         "Entertainment & Sports Arena, Washington, District of Columbia": "4979c1db-1e04-4554-8989-f0d0463ca74d",
         "St. Elizabeths East Entertainment & Sports Arena, Washington, District of Columbia": "4979c1db-1e04-4554-8989-f0d0463ca74d",
         "CareFirst Arena - Washington - DC": "4979c1db-1e04-4554-8989-f0d0463ca74d",
+        "Entertainment and Sports Arena, Washington, DC, USA": "4979c1db-1e04-4554-8989-f0d0463ca74d",
         "Mordovia Arena - Saransk": "db07cf82-749d-413f-8961-a6c92c6bd0ad",
         "Cazalys Stadium - 4870": "68b623ac-8af3-412f-9517-3322b0de75c4",
         "Stadio Diego Armando Maradona - Napoli, Italy - Italy": "941b603d-fa01-4fe4-985e-d1858907fcc7",
@@ -11596,6 +11627,9 @@
         "Schottenstein Center - Columbus - OH": "584af5fc-381d-41f1-9685-327498e94b50",
         "Arena Amazonia - Manaus": "aea61495-f108-439d-994e-a6e5d9feffeb",
         "Scottsdale Stadium - Scottsdale - Arizona - 85271": "a0be2356-40e3-4af0-8bac-4c0339aca1a8",
-        "O2 Arena (Prague) - Prague": "dc37e20f-892a-4fbc-8ea5-38d61769dea5"
+        "O2 Arena (Prague) - Prague": "dc37e20f-892a-4fbc-8ea5-38d61769dea5",
+        "Buenos Aires, Argentina": "11d5a4c8-2693-4461-80db-aa5bae4b2256",
+        "Arena Pernambuco - Recife": "1ecd2d59-0abf-45bb-9bea-33abe391d2cd",
+        "Tempe Diablo Stadium - Tempe - Arizona - 85289": "a26e554f-6876-494a-8094-1e86dbc0769d"
     }
 }
