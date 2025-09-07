@@ -9789,6 +9789,26 @@
             "housenumber": "440",
             "country": "South Africa",
             "type": "venue"
+        },
+        "6253fd77-dd25-4eed-8aa7-8326e0b99cea": {
+            "city": "Houston",
+            "state": "TX",
+            "postal": "",
+            "lat": 29.762778,
+            "lng": -95.383056,
+            "housenumber": "",
+            "country": "USA",
+            "type": "city"
+        },
+        "859ed97c-340f-4f75-87e7-a5b9ddc06a85": {
+            "city": "Polokwane",
+            "state": "Limpopo",
+            "postal": "",
+            "lat": -23.924689,
+            "lng": 29.468765,
+            "housenumber": "",
+            "country": "South Africa",
+            "type": "venue"
         }
     },
     "searches": {
@@ -11384,6 +11404,7 @@
         "Jersey Mike''s Arena, New Brunswick, New Jersey": "4699946d-0005-434f-8ae4-192b732d4edc",
         "Louis Brown Athletic Center, New Brunswick, New Jersey": "4699946d-0005-434f-8ae4-192b732d4edc",
         "Rutgers Athletic Center, New Brunswick, New Jersey": "4699946d-0005-434f-8ae4-192b732d4edc",
+        "Jersey Mike’s Arena - Piscataway - NJ": "4699946d-0005-434f-8ae4-192b732d4edc",
         "POL": "f7e8347e-a9ff-4ed3-b315-83f01c04f2af",
         "Davey L. Whitney Complex, Alcorn State, Mississippi": "c0e16591-acc1-4978-8325-2a505c2044b1",
         "Davey Whitney Complex, Alcorn State, Mississippi": "c0e16591-acc1-4978-8325-2a505c2044b1",
@@ -11783,6 +11804,11 @@
         "Dodger Stadium": "2c740aab-a908-4f53-a721-a5aa4b25e466",
         "Dodger Stadium - Los Angeles - California - 90090": "2c740aab-a908-4f53-a721-a5aa4b25e466",
         "AUT": "411d84fa-1277-4d02-bff5-46c7fbc8f387",
-        "Loftus Versfeld Stadium - Pretoria": "28e801fa-48b7-4dcc-80b7-6baaec8c27d4"
+        "Loftus Versfeld Stadium - Pretoria": "28e801fa-48b7-4dcc-80b7-6baaec8c27d4",
+        "Houston, USA": "6253fd77-dd25-4eed-8aa7-8326e0b99cea",
+        "Houston, Texas": "6253fd77-dd25-4eed-8aa7-8326e0b99cea",
+        "Houston, Texas, United States": "6253fd77-dd25-4eed-8aa7-8326e0b99cea",
+        "Houston, TX, USA": "6253fd77-dd25-4eed-8aa7-8326e0b99cea",
+        "Peter Mokaba Stadium - Polokwane": "859ed97c-340f-4f75-87e7-a5b9ddc06a85"
     }
 }

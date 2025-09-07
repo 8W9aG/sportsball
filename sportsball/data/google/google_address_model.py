@@ -1093,15 +1093,6 @@ SEATTLE = SportsballGeocodeTuple(
     housenumber="",
     country="USA",
 )
-HOUSTON = SportsballGeocodeTuple(
-    city="Houston",
-    state="TX",
-    postal="",
-    lat=29.762778,
-    lng=-95.383056,
-    housenumber="",
-    country="USA",
-)
 MILWAUKEE = SportsballGeocodeTuple(
     city="Milwaukee",
     state="WI",
@@ -4265,7 +4256,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Houston, Texas": HOUSTON,
     "Wichita, Kansas": WICHITA,
     "Jackson, Mississippi": JACKSON,
     "Union, New Jersey": SportsballGeocodeTuple(
@@ -9102,7 +9092,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
     "Shreveport, Louisiana, United States": SHREVEPORT,
     "Seattle, Washington, United States": SEATTLE,
-    "Houston, Texas, United States": HOUSTON,
     "Milwaukee, Wisconsin, United States": MILWAUKEE,
     "Wallace, North Carolina, United States": SportsballGeocodeTuple(
         city="Wallace",
@@ -10747,7 +10736,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Houston, TX, USA": HOUSTON,
     "Midlothian, TX, USA": SportsballGeocodeTuple(
         city="Midlothian",
         state="TX",
