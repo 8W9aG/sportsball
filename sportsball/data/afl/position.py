@@ -25,5 +25,7 @@ def position_from_str(position_str: str) -> Position:
     """Find a position from a string."""
     position = _POSITIONS.get(position_str)
     if position is None:
+        if position_str == "INT":
+            return Position.INTERCHANGE
         raise ValueError(f"Unrecognised position: {position_str}")
     return position

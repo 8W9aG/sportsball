@@ -10019,6 +10019,26 @@
             "housenumber": "",
             "country": "Belarus",
             "type": "country"
+        },
+        "6e7e2156-ae6a-41de-bc21-83ffbc6af88e": {
+            "city": "Dover",
+            "state": "DE",
+            "postal": "19901",
+            "lat": 39.189167,
+            "lng": -75.543333,
+            "housenumber": "1282",
+            "country": "USA",
+            "type": "venue"
+        },
+        "2c52f0d0-8de4-4fb5-92ac-5901a1ba0bac": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 46.0,
+            "lng": 25.0,
+            "housenumber": "",
+            "country": "Romania",
+            "type": "country"
         }
     },
     "searches": {
@@ -10218,6 +10238,7 @@
         "Lumen Field, Seattle, WA, USA": "9e532228-dacd-4323-8e69-565073dc5b8f",
         "Oracle Park, San Francisco, CA, USA": "a97e1e30-a0ac-42f8-b95b-dca8a6828769",
         "Oracle Park": "a97e1e30-a0ac-42f8-b95b-dca8a6828769",
+        "Oracle Park - San Francisco - California - 94107": "a97e1e30-a0ac-42f8-b95b-dca8a6828769",
         "Caesars Superdome": "b96a1332-d63b-45e0-9e1d-9f574adf386a",
         "Louisiana Superdome": "b96a1332-d63b-45e0-9e1d-9f574adf386a",
         "Caesars Superdome - New Orleans - LA - 70112": "b96a1332-d63b-45e0-9e1d-9f574adf386a",
@@ -10668,6 +10689,7 @@
         "Jiangwan Stadium - Australia": "348174a9-7ffc-45aa-8866-680f7882629e",
         "Jiangwan Sports Centre": "348174a9-7ffc-45aa-8866-680f7882629e",
         "Jiangwan Stadium, Shanghai, China": "348174a9-7ffc-45aa-8866-680f7882629e",
+        "Adelaide Arena at Jiangwan Stadium - 200438": "348174a9-7ffc-45aa-8866-680f7882629e",
         "Toughsheet Community Stadium, Bolton, England": "7015fd4c-dfe0-497b-91df-9e57ed645b8b",
         "Bruce Stadium - Australia": "55c4007a-3fcc-457f-9789-d2070db4b7c7",
         "Reser Stadium - Corvallis, Oregon, USA - United States": "50f28c0b-0d65-46d0-b148-b483a77dce27",
@@ -11733,6 +11755,7 @@
         "UPMC Events Center, Moon, Pennsylvania": "e983a434-87a5-4a63-9d9f-02d6629188b8",
         "Charles L. Sewall Center, Coraopolis, Pennsylvania": "e983a434-87a5-4a63-9d9f-02d6629188b8",
         "Ramsey Center, Cullowhee, North Carolina": "7e038869-2137-47e1-9404-a38ce5cb1524",
+        "Ramsey Center - Cullowhee - NC": "7e038869-2137-47e1-9404-a38ce5cb1524",
         "Jack Stephens Center, Little Rock, Arkansas": "713536de-670c-4aee-b2a1-ed9796c27fe6",
         "POR": "b2f0a4f2-db4d-4905-8e7a-e11feddb363d",
         "Moody Center, Austin, Texas": "9e48782e-27f1-4ee7-a523-6dc4d97df035",
@@ -11935,6 +11958,7 @@
         "Moreton Bay Central Sports Complex": "a298f3ac-615d-4a6f-be1a-4b5fb1947aca",
         "Morwell Recreation Reserve": "4925a541-c1ba-44ca-adad-bee92a49bd27",
         "Eastbourne": "aedcd23a-63e9-4ee2-97cd-a0e7cdcc81d3",
+        "Eastbourne, Great Britain": "aedcd23a-63e9-4ee2-97cd-a0e7cdcc81d3",
         "Ligga Arena - Curitiba": "d8538c7e-0244-4429-ab26-e024932a5c17",
         "Hohokam Stadium - Mesa - Arizona - 85277": "4630d52b-0076-42a7-9b39-7e426a978cbd",
         "Toyota Center (Houston) - Houston - TX": "25fd5400-0cba-44dd-b6fe-3e83af10fde8",
@@ -12049,6 +12073,7 @@
         "Finneran Pavilion - Villanova, Pennsylvania - United States": "4170df5b-952e-4cbd-a3be-5721581b31aa",
         "Monte-Carlo, Monaco": "1d61ac72-c99b-4721-9754-e85f93e469f9",
         "FNB Stadium - Johannesburg": "07e3ba60-66c8-471d-b30e-de7770957905",
+        "FNB Stadium": "07e3ba60-66c8-471d-b30e-de7770957905",
         "DHL Cape Town Stadium - Cape Town": "48ffe5d4-f400-40ae-9061-308a5dcb42cc",
         "Green Point Stadium - Cape Town": "48ffe5d4-f400-40ae-9061-308a5dcb42cc",
         "Deakin Reserve": "23447537-31ce-4754-8283-f5efb0bbba50",
@@ -12068,6 +12093,8 @@
         "Great Barrier Reef Arena": "a5959908-320b-44ec-8a07-299c8b9d4dfb",
         "Madrid Masters": "fb977ef9-561d-4a69-9a2a-1f0030b2bee0",
         "Pechanga Arena - San Diego - CA - 92199": "94d85291-b273-4f3d-a55f-2717f18f4b60",
-        "BLR": "ae29b69c-80cd-47c0-ab53-fc022c958c48"
+        "BLR": "ae29b69c-80cd-47c0-ab53-fc022c958c48",
+        "Alumni Stadium (DE) - Dover - DE - 19901": "6e7e2156-ae6a-41de-bc21-83ffbc6af88e",
+        "ROU": "2c52f0d0-8de4-4fb5-92ac-5901a1ba0bac"
     }
 }
