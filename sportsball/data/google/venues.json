@@ -9889,6 +9889,16 @@
             "housenumber": "201",
             "country": "USA",
             "type": "venue"
+        },
+        "048c5b5e-48f4-4835-bdad-52aa88a53d4f": {
+            "city": "Acapulco",
+            "state": "Guerrero",
+            "postal": "",
+            "lat": 16.863611,
+            "lng": -99.8825,
+            "housenumber": "",
+            "country": "Mexico",
+            "type": "venue"
         }
     },
     "searches": {
@@ -11619,6 +11629,7 @@
         "Fifth Third Arena, Cincinnati, Ohio": "d3a19e8d-83c4-49a6-9386-aaf3c0a1bee4",
         "Stegeman Coliseum, Athens, Georgia": "71d27cef-4948-415c-9dec-00ff6dc12a9f",
         "Mineral Resources Park": "7b06ee27-dcca-483b-ad70-442d0ea69108",
+        "Mineral Resources Park, Perth, Australia": "7b06ee27-dcca-483b-ad70-442d0ea69108",
         "Toronto, Canada": "021fc966-7fa3-4148-b1e8-27f926aee210",
         "Toronto, Ontario, Canada": "021fc966-7fa3-4148-b1e8-27f926aee210",
         "Volgograd Arena - Volgograd": "826392f0-7a55-4b24-a725-879182d99017",
@@ -11906,6 +11917,7 @@
         "Deakin Reserve": "23447537-31ce-4754-8283-f5efb0bbba50",
         "CFG Bank Arena, Baltimore, Maryland": "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db",
         "Baltimore Arena": "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db",
-        "CFG Bank Arena - Baltimore - MD": "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db"
+        "CFG Bank Arena - Baltimore - MD": "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db",
+        "Acapulco, Mexico": "048c5b5e-48f4-4835-bdad-52aa88a53d4f"
     }
 }
