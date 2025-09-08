@@ -38,6 +38,7 @@ def _season_type_from_name(name: str) -> SeasonType:
         or "Final" in name
         or "Third Place" in name
         or "Quarter-finals" in name
+        or "Semi-finals" in name
     ):
         return SeasonType.POSTSEASON
     if name == "Off Season":

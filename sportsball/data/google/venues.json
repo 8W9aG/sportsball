@@ -10079,6 +10079,46 @@
             "housenumber": "",
             "country": "Australia",
             "type": "venue"
+        },
+        "f9b4356a-7507-4597-af46-3437df166422": {
+            "city": "Southport",
+            "state": "QLD",
+            "postal": "",
+            "lat": -28.0392,
+            "lng": 153.4198,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "aa4620f9-52ba-4445-a87d-01f02fd08a3a": {
+            "city": "Aix-en-Provence",
+            "state": "Provence-Alpes-Côte d'Azur",
+            "postal": "",
+            "lat": 43.526304,
+            "lng": 5.445429,
+            "housenumber": "",
+            "country": "France",
+            "type": "venue"
+        },
+        "e9f71aae-33e6-40e0-ac3d-be8bbc75f46a": {
+            "city": "Bradenton",
+            "state": "FL",
+            "postal": "34210",
+            "lat": 27.441,
+            "lng": -82.602,
+            "housenumber": "5650",
+            "country": "USA",
+            "type": "venue"
+        },
+        "155c210b-92ec-428a-bf85-b8d95667ba2e": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 39.916667,
+            "lng": 32.85,
+            "housenumber": "",
+            "country": "Turkey",
+            "type": "country"
         }
     },
     "searches": {
@@ -10544,6 +10584,7 @@
         "Fenway Park - Boston, USA - United States": "02dee2f8-ee91-459e-b2ac-eabef7ff98df",
         "Fenway Park": "02dee2f8-ee91-459e-b2ac-eabef7ff98df",
         "Fenway Park, Boston, MA, USA": "02dee2f8-ee91-459e-b2ac-eabef7ff98df",
+        "Fenway Park - Boston - Massachusetts - 02215": "02dee2f8-ee91-459e-b2ac-eabef7ff98df",
         "Rose Bowl": "ffb46c91-1180-4c2e-ac13-53fdf9812a58",
         "Rose Bowl - Hampshire - England": "ffb46c91-1180-4c2e-ac13-53fdf9812a58",
         "Rose Bowl - Pasadena - CA - 91103": "ffb46c91-1180-4c2e-ac13-53fdf9812a58",
@@ -11207,6 +11248,7 @@
         "Liacouras Center - North Philadelphia - United States": "ea15b391-0790-4ce6-aaef-cb4bf52c9560",
         "Estadio Ramón Sánchez Pizjuán - Seville, Andalusia, Spain - Spain": "c79f96e9-1069-4aa4-942f-e6e95fd3be3a",
         "Williams Arena, Minneapolis, Minnesota": "d1ddc9fe-b251-49a3-84ca-3368e722be99",
+        "Williams Arena - Minneapolis - MN": "d1ddc9fe-b251-49a3-84ca-3368e722be99",
         "Dr. Y. S. Rajasekhara Reddy ACA–VDCA Cricket Stadium, Visakhapatnam, India": "2d3f5f80-84aa-4677-b330-5c2b90a3d964",
         "John W. Pope Jr. Convocation Center, Buies Creek, North Carolina": "09dd93b9-c697-4588-9107-0e9ed150d9cb",
         "Flint, Michigan": "7a2e9f3b-101c-48d6-9828-2f1d354464dc",
@@ -12144,6 +12186,10 @@
         "Angel Stadium of Anaheim": "c4431a98-1955-416f-aa9c-05d82c41ad7f",
         "Angel Stadium - Anaheim - California - 92806": "c4431a98-1955-416f-aa9c-05d82c41ad7f",
         "UKR": "bc527005-41c8-41fb-8592-1dd549156854",
-        "Strathalbyn": "12d11a04-11ec-483f-91c0-1c41059e2aa3"
+        "Strathalbyn": "12d11a04-11ec-483f-91c0-1c41059e2aa3",
+        "Fankhauser Reserve": "f9b4356a-7507-4597-af46-3437df166422",
+        "Aix En Provence CH": "aa4620f9-52ba-4445-a87d-01f02fd08a3a",
+        "IMG Academy, Bradenton, FL, USA": "e9f71aae-33e6-40e0-ac3d-be8bbc75f46a",
+        "TUR": "155c210b-92ec-428a-bf85-b8d95667ba2e"
     }
 }
