@@ -9919,6 +9919,26 @@
             "housenumber": "3200",
             "country": "USA",
             "type": "venue"
+        },
+        "534afc26-4286-4e53-9ef4-a778c9c19b9f": {
+            "city": "Rome",
+            "state": "",
+            "postal": "",
+            "lat": 41.9312,
+            "lng": 12.4565,
+            "housenumber": "",
+            "country": "Italy",
+            "type": "venue"
+        },
+        "38f55fab-bb6b-4d7a-969e-7885d561fc8d": {
+            "city": "Summerlin South",
+            "state": "NV",
+            "postal": "",
+            "lat": 36.152278,
+            "lng": -115.329417,
+            "housenumber": "1650",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -10338,6 +10358,7 @@
         "Aloha Stadium, Honolulu, HI, USA": "9961d10c-97bb-4d6c-a89b-544a6e001c7e",
         "Aloha Stadium": "9961d10c-97bb-4d6c-a89b-544a6e001c7e",
         "Cardiff City Stadium, Cardiff, Wales": "b57f7d58-dd32-45a4-9856-a0cab5251a1b",
+        "Cardiff City Stadium - Cardiff": "b57f7d58-dd32-45a4-9856-a0cab5251a1b",
         "North Hobart - Australia": "ff625519-3999-40f8-af8f-03aed7e1b705",
         "University of Arkansas at Little Rock": "068f05b6-fe45-4616-a7be-5e54dd2a2ddf",
         "Texas Stadium - Irving - TX": "b504fdf1-6d5d-4dfe-b3c5-d029861473a9",
@@ -11933,6 +11954,7 @@
         "Peter Mokaba Stadium - Polokwane": "859ed97c-340f-4f75-87e7-a5b9ddc06a85",
         "GRE": "9b35e126-0eaa-4f45-b3ec-06ffafa22543",
         "Moses Mabhida Stadium - Durban": "1c49e08a-0f9d-4dac-bf33-4d3ae9e639c6",
+        "Durban Stadium - Durban": "1c49e08a-0f9d-4dac-bf33-4d3ae9e639c6",
         "Finneran Pavilion - Villanova - PA": "4170df5b-952e-4cbd-a3be-5721581b31aa",
         "Finneran Pavilion, Villanova, Pennsylvania": "4170df5b-952e-4cbd-a3be-5721581b31aa",
         "The Pavilion, Villanova, Pennsylvania": "4170df5b-952e-4cbd-a3be-5721581b31aa",
@@ -11946,6 +11968,8 @@
         "CFG Bank Arena - Baltimore - MD": "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db",
         "Acapulco, Mexico": "048c5b5e-48f4-4835-bdad-52aa88a53d4f",
         "Geneva": "dc765ff4-608d-4009-bba4-1e3b95e0aa68",
-        "Maverik Center - West Valley City - UT": "9134cab5-e4e0-404c-9aa4-87be500f2959"
+        "Maverik Center - West Valley City - UT": "9134cab5-e4e0-404c-9aa4-87be500f2959",
+        "Rome Masters": "534afc26-4286-4e53-9ef4-a778c9c19b9f",
+        "Las Vegas Ballpark - Las Vegas - Nevada - 89135": "38f55fab-bb6b-4d7a-969e-7885d561fc8d"
     }
 }
