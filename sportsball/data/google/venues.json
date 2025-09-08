@@ -9979,6 +9979,46 @@
             "housenumber": "",
             "country": "USA",
             "type": "venue"
+        },
+        "a5959908-320b-44ec-8a07-299c8b9d4dfb": {
+            "city": "Mackay",
+            "state": "QLD",
+            "postal": "",
+            "lat": -21.159453,
+            "lng": 149.186272,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "fb977ef9-561d-4a69-9a2a-1f0030b2bee0": {
+            "city": "Madrid",
+            "state": "",
+            "postal": "",
+            "lat": 40.413047,
+            "lng": -3.738256,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue"
+        },
+        "94d85291-b273-4f3d-a55f-2717f18f4b60": {
+            "city": "San Diego",
+            "state": "CA",
+            "postal": "",
+            "lat": 32.755278,
+            "lng": -117.212222,
+            "housenumber": "3500",
+            "country": "USA",
+            "type": "venue"
+        },
+        "ae29b69c-80cd-47c0-ab53-fc022c958c48": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 53.0,
+            "lng": 27.0,
+            "housenumber": "",
+            "country": "Belarus",
+            "type": "country"
         }
     },
     "searches": {
@@ -10950,6 +10990,7 @@
         "Coliseum - Amiens, France - France": "fda2efa4-ab74-4767-b5cc-4743e6e5602e",
         "Brooks Stadium (SC) - Conway - SC - 29526": "3b07eb5c-c8c8-437c-83d4-0a53f9be4983",
         "Swansea.com Stadium, Swansea, Wales": "f74bf18e-e062-4b93-9d99-f6fce5fe847e",
+        "Swansea.com Stadium - Swansea": "f74bf18e-e062-4b93-9d99-f6fce5fe847e",
         "Canvas Stadium - Fort Collins - CO - 80521": "da36b073-aba2-405f-84c4-d04b3b66e755",
         "Yulman Stadium - New Orleans - LA - 70118": "76d9f3c2-796b-4cb9-88e9-9bb030ea4514",
         "Saint Vincent College": "e158ed7d-4089-4902-bdaa-bf807657c249",
@@ -11675,6 +11716,7 @@
         "UBS Arena, Elmont, NY, USA": "bd2159da-cd03-4b84-8c4b-f86cb7c3dd64",
         "UBS Arena": "bd2159da-cd03-4b84-8c4b-f86cb7c3dd64",
         "UBS Arena - Elmont - NY - 11003": "bd2159da-cd03-4b84-8c4b-f86cb7c3dd64",
+        "UBS Arena - Elmont - NY": "bd2159da-cd03-4b84-8c4b-f86cb7c3dd64",
         "Detrick Gymnasium, New Britain, Connecticut": "65cb5d9e-84c0-400f-aaf7-54ccdeeca129",
         "Richmond Oval": "9df52ad8-9342-4226-9778-2577c048d7fd",
         "Bogota Savings Bank Center, Teaneck, New Jersey": "a0c27802-3d45-4450-9eac-d840d5827447",
@@ -11973,6 +12015,7 @@
         "Tempe Diablo Stadium - Tempe - Arizona - 85289": "a26e554f-6876-494a-8094-1e86dbc0769d",
         "Santiago, Chile": "7127b5e4-1606-43ed-85b8-d58e0cb632a6",
         "Free State Toyota Stadium - Bloemfontein": "d9ca94e6-cb67-492f-9183-09aac74ece7e",
+        "Free State Stadium - Bloemfontein": "d9ca94e6-cb67-492f-9183-09aac74ece7e",
         "ITF Martos": "eae63ab5-cc94-4bbb-82ec-7a57266ff137",
         "Royal Bafokeng Stadium - Rustenburg": "6171fa13-73e7-4cdf-b7fb-bc78fc33fa2f",
         "Nelson Mandela Bay Stadium - Gqeberha": "a0a9b2b3-9e95-4bf9-b8a9-f1cebd5ae506",
@@ -12021,6 +12064,10 @@
         "Leederville Oval": "4c74e41d-beb6-436b-9142-bc40e8c45b1b",
         "Prague CH": "06967665-450b-420d-abcf-05aae7733825",
         "Prague, Czechia": "06967665-450b-420d-abcf-05aae7733825",
-        "Memorial Oval": "cf91472a-f676-42d2-8080-6c4dbd2dbbe7"
+        "Memorial Oval": "cf91472a-f676-42d2-8080-6c4dbd2dbbe7",
+        "Great Barrier Reef Arena": "a5959908-320b-44ec-8a07-299c8b9d4dfb",
+        "Madrid Masters": "fb977ef9-561d-4a69-9a2a-1f0030b2bee0",
+        "Pechanga Arena - San Diego - CA - 92199": "94d85291-b273-4f3d-a55f-2717f18f4b60",
+        "BLR": "ae29b69c-80cd-47c0-ab53-fc022c958c48"
     }
 }

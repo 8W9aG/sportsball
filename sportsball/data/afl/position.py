@@ -15,6 +15,7 @@ class Position(StrEnum):
     FOLLOWERS = "FOL"
     INTERCHANGE = "IC"
     EMERGENCY = "EMG"
+    BACK_POCKET_LEFT = "BPL"
 
 
 _POSITIONS = {str(x): x for x in Position}

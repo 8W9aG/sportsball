@@ -1173,7 +1173,7 @@ TEAM_SECOND_CHANCE_POINTS_COLUMN: Literal["second_chance_points"] = (
     "second_chance_points"
 )
 TEAM_PLUS_MINUS_COLUMN: Literal["plus_minus"] = "plus_minus"
-VERSION = DELIMITER.join(["0.0.13", PLAYER_VERSION, COACH_VERSION])
+VERSION = DELIMITER.join(["0.0.14", PLAYER_VERSION, COACH_VERSION])
 
 
 def _calculate_kicks(data: dict[str, Any]) -> int | None:
@@ -2883,7 +2883,7 @@ class TeamModel(BaseModel):
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_PITCHES_PER_START_COLUMN,
     )
-    pitches_per_inning: int | None = Field(
+    pitches_per_inning: float | None = Field(
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_PITCHES_PER_INNING_COLUMN,
