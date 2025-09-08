@@ -10039,6 +10039,46 @@
             "housenumber": "",
             "country": "Romania",
             "type": "country"
+        },
+        "5262437a-b919-4114-90c0-7f06add6cd41": {
+            "city": "Rio de Janeiro",
+            "state": "",
+            "postal": "",
+            "lat": -22.911111,
+            "lng": -43.205556,
+            "housenumber": "",
+            "country": "Brazil",
+            "type": "venue"
+        },
+        "c4431a98-1955-416f-aa9c-05d82c41ad7f": {
+            "city": "Anaheim",
+            "state": "CA",
+            "postal": "",
+            "lat": 33.800278,
+            "lng": -117.882778,
+            "housenumber": "2000",
+            "country": "USA",
+            "type": "venue"
+        },
+        "bc527005-41c8-41fb-8592-1dd549156854": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 50.45,
+            "lng": 30.516667,
+            "housenumber": "",
+            "country": "Ukraine",
+            "type": "country"
+        },
+        "12d11a04-11ec-483f-91c0-1c41059e2aa3": {
+            "city": "Strathalbyn",
+            "state": "NSW",
+            "postal": "5255",
+            "lat": -35.2605617,
+            "lng": 138.8849675,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
         }
     },
     "searches": {
@@ -11383,6 +11423,7 @@
         "Videotron Centre - Quebec City - QC": "23ec0292-44bc-42c2-9c23-b818cbd2d3c9",
         "Thomas & Mack Center, Las Vegas, Nevada": "d980d608-61f0-45dc-9178-510480dd859f",
         "Thomas & Mack Center - Paradise, NV - United States": "d980d608-61f0-45dc-9178-510480dd859f",
+        "Thomas & Mack Center, Las Vegas, NV, USA": "d980d608-61f0-45dc-9178-510480dd859f",
         "London, Great Britain": "e295afec-c043-467d-884a-d2815adf8bd2",
         "Christl Arena, West Point, New York": "da23d9eb-e411-4ea0-8675-c383b8150959",
         "Walter J. Zable Stadium - Williamsburg - VA - 23186": "e407e78f-f372-49fb-bf63-8959a11de76c",
@@ -11842,6 +11883,7 @@
         "Bridgestone Arena, Nashville, TN, USA": "23bf2130-71c6-4de7-b82b-b3933b1baf3e",
         "Bridgestone Arena": "23bf2130-71c6-4de7-b82b-b3933b1baf3e",
         "Bridgestone Arena - Nashville - TN - 37250": "23bf2130-71c6-4de7-b82b-b3933b1baf3e",
+        "Bridgestone Arena - Nashville - TN": "23bf2130-71c6-4de7-b82b-b3933b1baf3e",
         "Ekaterinburg Arena - Ekaterinburg": "5320f60f-85fd-428b-9191-8c6839a3740a",
         "Littlejohn Coliseum - Clemson - SC": "c43e6af9-2634-4853-b84c-a83544ca92e8",
         "Littlejohn Coliseum, Clemson, South Carolina": "c43e6af9-2634-4853-b84c-a83544ca92e8",
@@ -11911,6 +11953,7 @@
         "BOK Center, Tulsa, Oklahoma": "2a3f33f2-68ce-43f6-a61b-86bd58d2898a",
         "BOK Center - Tulsa - OK": "2a3f33f2-68ce-43f6-a61b-86bd58d2898a",
         "Arden Street Oval": "e790406b-abb1-42c1-a23a-c8a3e2881f53",
+        "Arden Street Oval, Melbourne, Australia": "e790406b-abb1-42c1-a23a-c8a3e2881f53",
         "Kingston Twins Ovals": "c87c5b1f-e6ad-4c90-b2ee-5421f4ce116b",
         "Brabourne Stadium, Mumbai, India": "6ff98b7d-2cc5-40de-a4eb-c0d56cfe2628",
         "TD Ballpark - Dunedin - Florida - 34698": "6f92ba68-3e71-4678-83e9-044e842b0933",
@@ -12095,6 +12138,12 @@
         "Pechanga Arena - San Diego - CA - 92199": "94d85291-b273-4f3d-a55f-2717f18f4b60",
         "BLR": "ae29b69c-80cd-47c0-ab53-fc022c958c48",
         "Alumni Stadium (DE) - Dover - DE - 19901": "6e7e2156-ae6a-41de-bc21-83ffbc6af88e",
-        "ROU": "2c52f0d0-8de4-4fb5-92ac-5901a1ba0bac"
+        "ROU": "2c52f0d0-8de4-4fb5-92ac-5901a1ba0bac",
+        "Rio de Janeiro, Brazil": "5262437a-b919-4114-90c0-7f06add6cd41",
+        "Angel Stadium of Anaheim, Anaheim, CA, USA": "c4431a98-1955-416f-aa9c-05d82c41ad7f",
+        "Angel Stadium of Anaheim": "c4431a98-1955-416f-aa9c-05d82c41ad7f",
+        "Angel Stadium - Anaheim - California - 92806": "c4431a98-1955-416f-aa9c-05d82c41ad7f",
+        "UKR": "bc527005-41c8-41fb-8592-1dd549156854",
+        "Strathalbyn": "12d11a04-11ec-483f-91c0-1c41059e2aa3"
     }
 }

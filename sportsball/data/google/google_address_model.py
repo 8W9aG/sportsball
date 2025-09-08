@@ -2047,15 +2047,6 @@ T_MOBILE_PARK = SportsballGeocodeTuple(
     housenumber="1250",
     country="USA",
 )
-ANGEL_STADIUM_OF_ANAHEIM = SportsballGeocodeTuple(
-    city="Anaheim",
-    state="CA",
-    postal="",
-    lat=33.800278,
-    lng=-117.882778,
-    housenumber="2000",
-    country="USA",
-)
 DAIKIN_PARK = SportsballGeocodeTuple(
     city="Houston",
     state="TX",
@@ -4069,7 +4060,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="Thailand",
     ),
-    "Angel Stadium of Anaheim, Anaheim, CA, USA": ANGEL_STADIUM_OF_ANAHEIM,
     "Spotland Stadium, Rochdale, England": SportsballGeocodeTuple(
         city="Rochdale",
         state="",
@@ -16532,7 +16522,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="Serbia",
     ),
-    "Angel Stadium of Anaheim": ANGEL_STADIUM_OF_ANAHEIM,
     "Kansas State University": SportsballGeocodeTuple(
         city="Manhattan",
         state="KS",
