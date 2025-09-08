@@ -10119,6 +10119,66 @@
             "housenumber": "",
             "country": "Turkey",
             "type": "country"
+        },
+        "3f943a98-04b3-4891-b103-d382b7fef672": {
+            "city": "Moe",
+            "state": "VIC",
+            "postal": "3825",
+            "lat": -38.1827404,
+            "lng": 146.2569033,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "be81be84-afa7-4684-b943-120916419f23": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 46.833333,
+            "lng": 8.333333,
+            "housenumber": "",
+            "country": "Switzerland",
+            "type": "country"
+        },
+        "60657358-b227-47d9-a3f8-4e343aada3e1": {
+            "city": "Beaumont",
+            "state": "TX",
+            "postal": "77710",
+            "lat": 30.043056,
+            "lng": -94.07,
+            "housenumber": "4400",
+            "country": "USA",
+            "type": "venue"
+        },
+        "e5a2cd9e-d54a-4542-8d2c-4fb3275d1e99": {
+            "city": "Cedar Park",
+            "state": "TX",
+            "postal": "",
+            "lat": 30.5414,
+            "lng": -97.8202,
+            "housenumber": "2100",
+            "country": "USA",
+            "type": "venue"
+        },
+        "01435e75-3f3b-4d40-b0f6-45a4b961c49d": {
+            "city": "Indianapolis",
+            "state": "IN",
+            "postal": "",
+            "lat": 39.8275,
+            "lng": -86.135,
+            "housenumber": "1202",
+            "country": "USA",
+            "type": "venue"
+        },
+        "ab20089c-3377-49be-a86f-28bea5533225": {
+            "city": "Palermo",
+            "state": "Sicily",
+            "postal": "",
+            "lat": 38.111111,
+            "lng": 13.351667,
+            "housenumber": "",
+            "country": "Italy",
+            "type": "city"
         }
     },
     "searches": {
@@ -10526,6 +10586,7 @@
         "Rogers Centre, Toronto, ON, Canada": "8c968395-1625-4fb1-9f90-ff44b9a88ba3",
         "Skydome": "8c968395-1625-4fb1-9f90-ff44b9a88ba3",
         "Rogers Centre": "8c968395-1625-4fb1-9f90-ff44b9a88ba3",
+        "Rogers Centre - Toronto - Ontario": "8c968395-1625-4fb1-9f90-ff44b9a88ba3",
         "Bill Snyder Family Football Stadium": "adbf816a-e885-4477-a484-08f310b58967",
         "Bill Snyder Family Stadium - Manhattan - KS - 66502": "adbf816a-e885-4477-a484-08f310b58967",
         "Yankee Stadium, New York, NY, USA": "41e253f5-9197-4168-8970-cd35f5ba4562",
@@ -10678,6 +10739,7 @@
         "Football Park - Australia": "36a3a238-fa78-474f-892f-4a982ec72d85",
         "AAMI Stadium": "36a3a238-fa78-474f-892f-4a982ec72d85",
         "MKM Stadium, Hull, England": "3d01a762-09c2-4038-98b8-25118d8dc68e",
+        "The MKM Stadium - Hull": "3d01a762-09c2-4038-98b8-25118d8dc68e",
         "Docklands - Australia": "e784a830-640a-4586-8a1e-27bb6e5a45b9",
         "Marvel Stadium": "e784a830-640a-4586-8a1e-27bb6e5a45b9",
         "Marvl": "e784a830-640a-4586-8a1e-27bb6e5a45b9",
@@ -11118,6 +11180,7 @@
         "The Brick Community Stadium, Wigan, England": "d7cef3e9-37a6-48cf-a0c4-998ccb12fd1f",
         "Elliott T. Bowers Stadium - Huntsville - TX - 77340": "6f41f376-229b-4b2e-ab6c-231fc7ee60ad",
         "Signal Iduna Park - Dortmund - Germany": "250fe196-7b71-4471-a238-92d74f0e477b",
+        "Signal Iduna Park - Dortmund": "250fe196-7b71-4471-a238-92d74f0e477b",
         "Alumni Stadium (Chestnut Hill, MA) - Chestnut Hill - MA - 02467": "764bbd0b-3584-4bfa-a94b-9deb9b6c6a80",
         "Alumni Stadium": "764bbd0b-3584-4bfa-a94b-9deb9b6c6a80",
         "Seibert Stadium - Birmingham, Alabama, USA - United States": "3313fe8d-89bb-4006-a391-7300b206c06e",
@@ -11549,6 +11612,7 @@
         "Yuengling Center, Tampa, Florida": "2bde231c-486b-4ab2-92ad-63a90fc2e867",
         "Sun Dome, Tampa, Florida": "2bde231c-486b-4ab2-92ad-63a90fc2e867",
         "Yuengling Center - Tampa, Florida - United States": "2bde231c-486b-4ab2-92ad-63a90fc2e867",
+        "Yuengling Center - Tampa - FL": "2bde231c-486b-4ab2-92ad-63a90fc2e867",
         "PER": "5b2c966e-062c-4725-bf31-c97c342181ce",
         "Reilly Center, St. Bonaventure, New York": "7ae62946-69c1-4dbc-8cea-eb37118d0518",
         "Amex Stadium, Brighton, England": "73757514-5dfe-421a-a616-fa315bb8a9d9",
@@ -12190,6 +12254,15 @@
         "Fankhauser Reserve": "f9b4356a-7507-4597-af46-3437df166422",
         "Aix En Provence CH": "aa4620f9-52ba-4445-a87d-01f02fd08a3a",
         "IMG Academy, Bradenton, FL, USA": "e9f71aae-33e6-40e0-ac3d-be8bbc75f46a",
-        "TUR": "155c210b-92ec-428a-bf85-b8d95667ba2e"
+        "TUR": "155c210b-92ec-428a-bf85-b8d95667ba2e",
+        "Ted Summerton Recreational Reserve": "3f943a98-04b3-4891-b103-d382b7fef672",
+        "SUI": "be81be84-afa7-4684-b943-120916419f23",
+        "Provost Umphrey Stadium - Beaumont - TX - 77705": "60657358-b227-47d9-a3f8-4e343aada3e1",
+        "H.E.B. Center at Cedar Park, Cedar Park, Texas": "e5a2cd9e-d54a-4542-8d2c-4fb3275d1e99",
+        "H-E-B Center at Cedar Park - Cedar Park - TX - 78630": "e5a2cd9e-d54a-4542-8d2c-4fb3275d1e99",
+        "Indiana Farmers Coliseum, Indianapolis, Indiana": "01435e75-3f3b-4d40-b0f6-45a4b961c49d",
+        "Indiana Farmers Coliseum - Indianapolis, Indiana - United States": "01435e75-3f3b-4d40-b0f6-45a4b961c49d",
+        "Corteva Coliseum - Indianapolis - IN": "01435e75-3f3b-4d40-b0f6-45a4b961c49d",
+        "Palermo, Italy": "ab20089c-3377-49be-a86f-28bea5533225"
     }
 }

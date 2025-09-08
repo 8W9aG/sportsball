@@ -2182,15 +2182,6 @@ BENDER_ARENA = SportsballGeocodeTuple(
     housenumber="4400",
     country="USA",
 )
-INDIANA_FARMERS_COLISEUM = SportsballGeocodeTuple(
-    city="Indianapolis",
-    state="IN",
-    postal="",
-    lat=39.8275,
-    lng=-86.135,
-    housenumber="1202",
-    country="USA",
-)
 WEBSTER_BANK_ARENA = SportsballGeocodeTuple(
     city="Bridgeport",
     state="CT",
@@ -3158,7 +3149,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="720",
         country="USA",
     ),
-    "Indiana Farmers Coliseum, Indianapolis, Indiana": INDIANA_FARMERS_COLISEUM,
     "Moody Coliseum , Abilene, Texas": SportsballGeocodeTuple(
         city="Abilene",
         state="TX",
@@ -7364,15 +7354,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Charleston Civic Center, Charleston, West Virginia": CHARLESTON_CIVIC_CENTER,
-    "H.E.B. Center at Cedar Park, Cedar Park, Texas": SportsballGeocodeTuple(
-        city="Cedar Park",
-        state="TX",
-        postal="",
-        lat=30.5414,
-        lng=-97.8202,
-        housenumber="2100",
-        country="USA",
-    ),
     "Tom Golisano Field House, Ave Maria, Florida": SportsballGeocodeTuple(
         city="Ave Maria",
         state="FL",
@@ -17010,7 +16991,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Indiana Farmers Coliseum - Indianapolis, Indiana - United States": INDIANA_FARMERS_COLISEUM,
     "Webster Bank Arena - Bridgeport, Connecticut - United States": WEBSTER_BANK_ARENA,
     "Wolstein Center - Cleveland, Ohio - United States": WOLSTEIN_CENTER,
     "George Washington": SportsballGeocodeTuple(
