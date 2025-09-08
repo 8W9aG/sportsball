@@ -9859,6 +9859,36 @@
             "housenumber": "",
             "country": "South Africa",
             "type": "venue"
+        },
+        "48ffe5d4-f400-40ae-9061-308a5dcb42cc": {
+            "city": "Cape Town",
+            "state": "",
+            "postal": "",
+            "lat": -33.903333,
+            "lng": 18.411111,
+            "housenumber": "",
+            "country": "South Africa",
+            "type": "venue"
+        },
+        "23447537-31ce-4754-8283-f5efb0bbba50": {
+            "city": "Shepparton",
+            "state": "VIC",
+            "postal": "",
+            "lat": -36.377006,
+            "lng": 145.407936,
+            "housenumber": "20",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db": {
+            "city": "Baltimore",
+            "state": "MD",
+            "postal": "",
+            "lat": 39.288611,
+            "lng": -76.618889,
+            "housenumber": "201",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -11073,6 +11103,7 @@
         "Trask Coliseum - Wilmington, North Carolina - United States": "18f74dc5-fb94-44c9-a83e-28b165a6ddef",
         "Al Bayt Stadium - Al Khor": "c1dc4d50-b23b-447d-8b30-c225469cb6c8",
         "Sharjah Cricket Stadium, Sharjah, United Arab Emirates": "fe339de8-0c06-4110-bdcb-e1b93e175bbc",
+        "Sharjah Stadium, Sharjah, United Arab Emirates": "fe339de8-0c06-4110-bdcb-e1b93e175bbc",
         "UNF Arena , Jacksonville, Florida": "3cc88686-3cfc-469c-b1f1-a9fc0c4d7121",
         "Alumni Gymnasium, Lawrenceville, New Jersey": "82515d2c-d11f-4d24-b191-494c739ecd1e",
         "Etihad Arena - Abu Dhabi": "d2f0195d-086d-4a7c-ad7b-db60348fd036",
@@ -11704,6 +11735,7 @@
         "Kenilworth Road - Luton": "40fdaaec-555e-462f-869d-e5bea9d14b05",
         "Montpellier, France": "6f60772f-8a72-408e-87a5-3daa561d3f81",
         "John Smith's Stadium, Huddersfield, England": "ab597fbb-3d4b-4994-b70e-872d8461560c",
+        "Accu Stadium - Huddersfield": "ab597fbb-3d4b-4994-b70e-872d8461560c",
         "Rostov Arena - Rostov-on-Don": "b6b4e91b-70fc-4693-8f00-f518c0f65128",
         "Nationals Park, Washington, DC, USA": "8c63b609-23d9-4aa5-83da-0b9b92f35471",
         "Nationals Park": "8c63b609-23d9-4aa5-83da-0b9b92f35471",
@@ -11849,6 +11881,7 @@
         "Globe Life Field, Arlington, TX, USA": "7beae26d-bff1-4e8d-8bfd-10999217c88a",
         "Globe Life Field": "7beae26d-bff1-4e8d-8bfd-10999217c88a",
         "Roland Garros": "d99776d5-8a58-4a22-ac2a-7e0c6ff2bbb2",
+        "Roland Garros Juniors": "d99776d5-8a58-4a22-ac2a-7e0c6ff2bbb2",
         "Mbombela Stadium - Nelspruit": "55f7882a-f4ba-4e34-85ba-7ee63f1ba30a",
         "Dodger Stadium - Los Angeles, CA, USA - United States": "2c740aab-a908-4f53-a721-a5aa4b25e466",
         "Dodger Stadium, Los Angeles, CA, USA": "2c740aab-a908-4f53-a721-a5aa4b25e466",
@@ -11868,6 +11901,11 @@
         "The Pavilion, Villanova, Pennsylvania": "4170df5b-952e-4cbd-a3be-5721581b31aa",
         "Finneran Pavilion - Villanova, Pennsylvania - United States": "4170df5b-952e-4cbd-a3be-5721581b31aa",
         "Monte-Carlo, Monaco": "1d61ac72-c99b-4721-9754-e85f93e469f9",
-        "FNB Stadium - Johannesburg": "07e3ba60-66c8-471d-b30e-de7770957905"
+        "FNB Stadium - Johannesburg": "07e3ba60-66c8-471d-b30e-de7770957905",
+        "DHL Cape Town Stadium - Cape Town": "48ffe5d4-f400-40ae-9061-308a5dcb42cc",
+        "Deakin Reserve": "23447537-31ce-4754-8283-f5efb0bbba50",
+        "CFG Bank Arena, Baltimore, Maryland": "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db",
+        "Baltimore Arena": "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db",
+        "CFG Bank Arena - Baltimore - MD": "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db"
     }
 }

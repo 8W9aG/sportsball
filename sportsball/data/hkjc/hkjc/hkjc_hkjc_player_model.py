@@ -1012,6 +1012,7 @@ def _create_hkjc_hkjc_player_model(
         second_chance_points=None,
         fast_break_points=None,
         team_rebounds=None,
+        gained=None,
     )
 
 

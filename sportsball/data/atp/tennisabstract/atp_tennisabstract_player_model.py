@@ -1003,6 +1003,7 @@ def _create_tennisabstract_player_model(
             second_chance_points=None,
             fast_break_points=None,
             team_rebounds=None,
+            gained=None,
         )
     except ParserError as exc:
         logging.warning(str(exc))

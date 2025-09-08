@@ -1741,15 +1741,6 @@ ARLINGTON = SportsballGeocodeTuple(
     housenumber="",
     country="USA",
 )
-CFG_BANK_ARENA = SportsballGeocodeTuple(
-    city="Baltimore",
-    state="MD",
-    postal="",
-    lat=39.288611,
-    lng=-76.618889,
-    housenumber="201",
-    country="USA",
-)
 DUKE_UNIVERSITY = SportsballGeocodeTuple(
     city="Durham",
     state="NC",
@@ -8270,7 +8261,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "CFG Bank Arena, Baltimore, Maryland": CFG_BANK_ARENA,
     "BeardâEavesâMemorial Coliseum, Auburn, Alabama": BEARD_EAVES_MEMORIAL_COLISEUM,
     "Vibrant Arena at The MARK, Moline, Illinois": SportsballGeocodeTuple(
         city="Moline",
@@ -12447,7 +12437,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="Finland",
     ),
     "Arlington, Texas, United States": ARLINGTON,
-    "Baltimore Arena": CFG_BANK_ARENA,
     "Colorado College": SportsballGeocodeTuple(
         city="Colorado Springs",
         state="CO",

@@ -1,102 +1,47 @@
-"""ESPNCricInfo player model."""
+"""AFLW AFLWStats player model."""
 
-# pylint: disable=too-many-arguments,too-many-statements,too-many-locals,duplicate-code,too-many-positional-arguments
-import datetime
-import statistics
-import urllib.parse
-from typing import Any
+from urllib.parse import urlparse
 
-from dateutil.relativedelta import relativedelta
+import pytest_is_running
+import requests_cache
+from bs4 import BeautifulSoup
 
+from ....cache import MEMORY
+from ...afl.position import position_from_str
 from ...player_model import VERSION, PlayerModel
 from ...sex import Sex
 from ...species import Species
 
-_GENDER_TO_SEX = {
-    "M": Sex.MALE,
-    "F": Sex.FEMALE,
-}
 
-
-def create_espncricinfo_player_model(
-    player: dict[str, Any],
-    positions_validator: dict[str, str],
-    innings: list[dict[str, Any]],
-    player_role_type: str,
-    dt: datetime.datetime,
-    url: str,
+def _create_aflw_aflwstats_player_model(
+    player_stats: dict[str, float | str],
+    player_url: str,
+    session: requests_cache.CachedSession,
+    version: str,
 ) -> PlayerModel:
-    """Create a player model from ESPNCricInfo."""
-    identifier = player["id"]
-    date_of_birth = player["dateOfBirth"]
-    birth_date = datetime.datetime(
-        year=date_of_birth["year"],
-        month=date_of_birth["month"],
-        day=date_of_birth["date"],
-    )
-    headshot_url = urllib.parse.urljoin(url, player["headshotImage"]["url"])
-    batting_style = player["battingStyles"][0]
-    bowling_style = player["bowlingStyles"][0]
-    playing_roles = player["playingRoles"][0]
-    runs = 0
-    balls = 0
-    fours = 0
-    sixes = 0
-    strikerates = []
-    fall_of_wicket_order = 0
-    fall_of_wicket_num = 0
-    fall_of_wicket_runs = 0
-    fall_of_wicket_balls = 0
-    fall_of_wicket_overs = 0.0
-    fall_of_wicket_over_number = 0
-    ball_over_actual = 0.0
-    ball_over_unique = 0.0
-    ball_total_runs = 0
-    ball_batsman_runs = 0
-    overs = 0
-    maidens = 0
-    conceded = 0
-    wickets = 0
-    economy = 0.0
-    runs_per_ball = 0.0
-    dots = 0
-    wides = 0
-    no_balls = 0
-    for inning in innings:
-        for batsman in inning["inningBatsmen"]:
-            if batsman["player"]["id"] != identifier:
-                continue
-            runs += batsman["runs"]
-            balls += batsman["balls"]
-            fours += batsman["fours"]
-            sixes += batsman["sixes"]
-            strikerates.append(batsman["strikerate"])
-            fall_of_wicket_order = batsman["fowOrder"]
-            fall_of_wicket_num = batsman["fowWicketNum"]
-            fall_of_wicket_runs = batsman["fowRuns"]
-            fall_of_wicket_balls = batsman["fowBalls"]
-            fall_of_wicket_overs = batsman["fowOvers"]
-            fall_of_wicket_over_number = batsman["fowOverNumber"]
-            ball_over_actual = batsman["ballOversActual"]
-            ball_over_unique = batsman["ballOversUnique"]
-            ball_total_runs = batsman["ballTotalRuns"]
-            ball_batsman_runs = batsman["ballBatsmanRuns"]
-        for bowler in inning["inningBowlers"]:
-            if bowler["player"]["id"] != identifier:
-                continue
-            overs += bowler["overs"]
-            maidens += bowler["maidens"]
-            conceded += bowler["conceded"]
-            wickets += bowler["wickets"]
-            economy = bowler["economy"]
-            runs_per_ball = bowler["runsPerBall"]
-            dots += bowler["dots"]
-            wides += bowler["wides"]
-            no_balls += bowler["noballs"]
+    o = urlparse(player_url)
+    identifier = o.path.split("/")[-1]
+
+    response = session.get(player_url)
+    response.raise_for_status()
+
+    soup = BeautifulSoup(response.text, "lxml")
+    h1 = soup.find("h1")
+    if h1 is None:
+        raise ValueError("h1 is null")
+    name = h1.get_text().strip()
+
+    goals = 0.0
+    behinds = 0.0
+    scoreboard = player_stats["Scoreboard"]
+    if isinstance(scoreboard, str) and "." in scoreboard:
+        scoreboard = scoreboard.strip()
+        goals, behinds = [float(x) for x in scoreboard.split(".")]
+
     return PlayerModel(
-        identifier=str(identifier),
-        jersey=None,
-        kicks=None,
+        identifier=identifier,
+        jersey=str(player_stats["Number"]),
+        kicks=int(player_stats["Kicks"]),
         fumbles=None,
         fumbles_lost=None,
         field_goals=None,
@@ -104,14 +49,14 @@ def create_espncricinfo_player_model(
         offensive_rebounds=None,
         assists=None,
         turnovers=None,
-        name=player["longName"],
-        marks=None,
-        handballs=None,
-        disposals=None,
-        goals=None,
-        behinds=None,
-        hit_outs=None,
-        tackles=None,
+        name=name,
+        marks=int(player_stats["Marks"]),
+        handballs=int(player_stats["Handballs"]),
+        disposals=int(player_stats["Disposals"]),
+        goals=int(goals),
+        behinds=int(behinds),
+        hit_outs=int(player_stats["Hitouts"]),
+        tackles=int(player_stats["Tackles"]),
         rebounds=None,
         insides=None,
         clearances=None,
@@ -119,7 +64,7 @@ def create_espncricinfo_player_model(
         free_kicks_for=None,
         free_kicks_against=None,
         brownlow_votes=None,
-        contested_possessions=None,
+        contested_possessions=int(player_stats["Contested"]),
         uncontested_possessions=None,
         contested_marks=None,
         marks_inside=None,
@@ -127,13 +72,13 @@ def create_espncricinfo_player_model(
         bounces=None,
         goal_assists=None,
         percentage_played=None,
-        birth_date=birth_date,
+        birth_date=None,
         species=str(Species.HUMAN),
         handicap_weight=None,
         father=None,
-        sex=str(_GENDER_TO_SEX[player["gender"]]),
-        age=None if birth_date is None else relativedelta(birth_date, dt).years,
-        starting_position=positions_validator[player_role_type],
+        sex=str(Sex.FEMALE),
+        age=None,
+        starting_position=position_from_str(str(player_stats["Position"])),
         weight=None,
         birth_address=None,
         owner=None,
@@ -149,10 +94,10 @@ def create_espncricinfo_player_model(
         points=None,
         game_score=None,
         point_differential=None,
-        version=VERSION,
+        version=version,
         height=None,
         colleges=[],
-        headshot=headshot_url,
+        headshot=None,
         forced_fumbles=None,
         fumbles_recovered=None,
         fumbles_recovered_yards=None,
@@ -524,33 +469,33 @@ def create_espncricinfo_player_model(
         defensive_actions_outside_penalty_area=None,
         average_distance_of_defensive_actions=None,
         three_point_attempt_rate=None,
-        batting_style=batting_style,
-        bowling_style=bowling_style,
-        playing_roles=playing_roles,
-        runs=runs,
-        balls=balls,
-        fours=fours,
-        sixes=sixes,
-        strikerate=statistics.mean(strikerates) if strikerates else 0.0,
-        fall_of_wicket_order=fall_of_wicket_order,
-        fall_of_wicket_num=fall_of_wicket_num,
-        fall_of_wicket_runs=fall_of_wicket_runs,
-        fall_of_wicket_balls=fall_of_wicket_balls,
-        fall_of_wicket_overs=fall_of_wicket_overs,
-        fall_of_wicket_over_number=fall_of_wicket_over_number,
-        ball_over_actual=ball_over_actual,
-        ball_over_unique=ball_over_unique,
-        ball_total_runs=ball_total_runs,
-        ball_batsman_runs=ball_batsman_runs,
-        overs=overs,
-        maidens=maidens,
-        conceded=conceded,
-        wickets=wickets,
-        economy=economy,
-        runs_per_ball=runs_per_ball,
-        dots=dots,
-        wides=wides,
-        no_balls=no_balls,
+        batting_style=None,
+        bowling_style=None,
+        playing_roles=None,
+        runs=None,
+        balls=None,
+        fours=None,
+        sixes=None,
+        strikerate=None,
+        fall_of_wicket_order=None,
+        fall_of_wicket_num=None,
+        fall_of_wicket_runs=None,
+        fall_of_wicket_balls=None,
+        fall_of_wicket_overs=None,
+        fall_of_wicket_over_number=None,
+        ball_over_actual=None,
+        ball_over_unique=None,
+        ball_total_runs=None,
+        ball_batsman_runs=None,
+        overs=None,
+        maidens=None,
+        conceded=None,
+        wickets=None,
+        economy=None,
+        runs_per_ball=None,
+        dots=None,
+        wides=None,
+        no_balls=None,
         free_throw_attempt_rate=None,
         offensive_rebound_percentage=None,
         defensive_rebound_percentage=None,
@@ -967,10 +912,47 @@ def create_espncricinfo_player_model(
         attempts_out_box=None,
         adjusted_qbr=None,
         turnover_points=None,
-        fantasy_rating=None,
+        fantasy_rating=float(player_stats["Fantasy"]),
         team_turnovers=None,
         second_chance_points=None,
         fast_break_points=None,
         team_rebounds=None,
-        gained=None,
+        gained=float(player_stats["Gained"]),
     )
+
+
+@MEMORY.cache(ignore=["session"])
+def _cached_create_aflw_aflwstats_player_model(
+    player_stats: dict[str, float | str],
+    player_url: str,
+    session: requests_cache.CachedSession,
+    version: str,
+) -> PlayerModel:
+    return _create_aflw_aflwstats_player_model(
+        player_stats=player_stats,
+        player_url=player_url,
+        session=session,
+        version=version,
+    )
+
+
+def create_aflw_aflwstats_player_model(
+    player_stats: dict[str, float | str],
+    player_url: str,
+    session: requests_cache.CachedSession,
+) -> PlayerModel:
+    """Create a player model from AFLWStats."""
+    if not pytest_is_running.is_running():
+        return _cached_create_aflw_aflwstats_player_model(
+            player_stats=player_stats,
+            player_url=player_url,
+            session=session,
+            version=VERSION,
+        )
+    with session.cache_disabled():
+        return _create_aflw_aflwstats_player_model(
+            player_stats=player_stats,
+            player_url=player_url,
+            session=session,
+            version=VERSION,
+        )

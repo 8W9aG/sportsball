@@ -4095,6 +4095,7 @@ def _create_espn_player_model(
         second_chance_points=second_chance_points,
         fast_break_points=fast_break_points,
         team_rebounds=team_rebounds,
+        gained=None,
     )
 
 

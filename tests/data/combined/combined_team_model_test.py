@@ -903,6 +903,7 @@ class TestCombinedTeamModel(unittest.TestCase):
                 second_chance_points=None,
                 fast_break_points=None,
                 team_rebounds=None,
+                gained=None,
             )]
             team_models = [TeamModel(
                 identifier="a",
@@ -2433,6 +2434,7 @@ class TestCombinedTeamModel(unittest.TestCase):
                 second_chance_points=None,
                 fast_break_points=None,
                 team_rebounds=None,
+                gained=None,
             )]
             team_models_2 = [TeamModel(
                 identifier="a",
@@ -3972,6 +3974,7 @@ class TestCombinedTeamModel(unittest.TestCase):
                 second_chance_points=None,
                 fast_break_points=None,
                 team_rebounds=None,
+                gained=None,
             )]
             team_models = [TeamModel(
                 identifier="a",
@@ -5502,6 +5505,7 @@ class TestCombinedTeamModel(unittest.TestCase):
                 second_chance_points=None,
                 fast_break_points=None,
                 team_rebounds=None,
+                gained=None,
             )]
             team_models_2 = [TeamModel(
                 identifier="a",

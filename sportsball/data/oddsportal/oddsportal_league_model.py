@@ -25,8 +25,10 @@ AMERICAN_FOOTBALL = "american-football"
 BASKETBALL = "basketball"
 FOOTBALL = "football"
 TENNIS = "tennis"
+AUSSIE_RULES = "aussie-rules"
 
 # Countries
+AUSTRALIA = "australia"
 USA = "usa"
 
 # Leagues
@@ -106,7 +108,9 @@ class OddsPortalLeagueModel(LeagueModel):
     def _paths(self) -> list[str]:
         match self.league:
             case League.AFL:
-                return ["/".join(["aussie-rules", "australia", "afl", ""])]
+                return ["/".join([AUSSIE_RULES, AUSTRALIA, "afl", ""])]
+            case League.AFLW:
+                return ["/".join([AUSSIE_RULES, AUSTRALIA, "afl-women", ""])]
             case League.ATP:
                 return [
                     "/".join([TENNIS, USA, "atp-us-open", ""]),

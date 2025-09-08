@@ -61,6 +61,7 @@ The models it uses are designed to be used for many different types of sports.
 The supported leagues are:
 
 * 🏉 [AFL](https://www.afl.com.au/)
+* 🏉 [AFLW](https://www.afl.com.au/aflw)
 * 🎾 [ATP](https://www.atptour.com/en)
 * ⚽ [EPL](https://www.premierleague.com/ens)
 * ⚽ [FIFA](https://www.fifa.com/en)

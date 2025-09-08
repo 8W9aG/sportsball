@@ -1670,7 +1670,8 @@ PLAYER_SECOND_CHANCE_POINTS_COLUMN: Literal["second_chance_points"] = (
 )
 PLAYER_FAST_BREAK_POINTS_COLUMN: Literal["fast_break_points"] = "fast_break_points"
 PLAYER_TEAM_REBOUNDS_COLUMN: Literal["team_rebounds"] = "team_rebounds"
-VERSION = DELIMITER.join(["0.0.14", ADDRESS_VERSION, OWNER_VERSION, VENUE_VERSION])
+PLAYER_GAINED_COLUMN: Literal["gained"] = "gained"
+VERSION = DELIMITER.join(["0.0.15", ADDRESS_VERSION, OWNER_VERSION, VENUE_VERSION])
 
 
 def _guess_sex(data: dict[str, Any]) -> str | None:
@@ -6116,4 +6117,9 @@ class PlayerModel(BaseModel):
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=PLAYER_TEAM_REBOUNDS_COLUMN,
+    )
+    gained: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=PLAYER_GAINED_COLUMN,
     )
