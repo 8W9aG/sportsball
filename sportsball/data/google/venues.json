@@ -9899,6 +9899,16 @@
             "housenumber": "",
             "country": "Mexico",
             "type": "venue"
+        },
+        "dc765ff4-608d-4009-bba4-1e3b95e0aa68": {
+            "city": "Geneva",
+            "state": "",
+            "postal": "",
+            "lat": 46.201667,
+            "lng": 6.146944,
+            "housenumber": "",
+            "country": "Switzerland",
+            "type": "city"
         }
     },
     "searches": {
@@ -10228,6 +10238,7 @@
         "New York, New York, United States": "b53cc5f3-4827-4efe-a5f9-67a5d663553e",
         "New York, USA": "b53cc5f3-4827-4efe-a5f9-67a5d663553e",
         "Princes Park - Australia": "60cc2b2c-393d-4035-8a4a-011ef5c96b96",
+        "Princes Park": "60cc2b2c-393d-4035-8a4a-011ef5c96b96",
         "IKON Park": "60cc2b2c-393d-4035-8a4a-011ef5c96b96",
         "Ross-Ade Stadium": "a8cf2e14-c718-40be-a217-c669130a3f04",
         "Ross-Ade Stadium - West Lafayette - IN - 47906": "a8cf2e14-c718-40be-a217-c669130a3f04",
@@ -11744,6 +11755,7 @@
         "Gateway Center - College Park - GA": "9c2e8552-0d29-4325-9e91-b018d625480a",
         "Gateway Center Arena, College Park, GA, USA": "9c2e8552-0d29-4325-9e91-b018d625480a",
         "Kenilworth Road - Luton": "40fdaaec-555e-462f-869d-e5bea9d14b05",
+        "Kenilworth Road, Luton, England": "40fdaaec-555e-462f-869d-e5bea9d14b05",
         "Montpellier, France": "6f60772f-8a72-408e-87a5-3daa561d3f81",
         "John Smith's Stadium, Huddersfield, England": "ab597fbb-3d4b-4994-b70e-872d8461560c",
         "Accu Stadium - Huddersfield": "ab597fbb-3d4b-4994-b70e-872d8461560c",
@@ -11791,6 +11803,7 @@
         "EagleBank Arena, Fairfax, Virginia": "2e9a8a4c-d7fa-4ea3-922e-e299e631b70f",
         "Patriot Center, Fairfax, Virginia": "2e9a8a4c-d7fa-4ea3-922e-e299e631b70f",
         "EagleBank Arena - Fairfax - VA": "2e9a8a4c-d7fa-4ea3-922e-e299e631b70f",
+        "EagleBank Arena, Fairfax, VA, USA": "2e9a8a4c-d7fa-4ea3-922e-e299e631b70f",
         "Shell Energy Stadium - Houston - TX - 77003": "853d1560-16d5-4aca-8ac1-9786c0069e05",
         "Central Reserve": "6a3d1745-5a21-4ff8-95ca-51312b10f3b1",
         "Surprise Stadium - Surprise - Arizona - 85387": "08db9673-fafa-4d60-acde-bb6a25d4f40a",
@@ -11918,6 +11931,7 @@
         "CFG Bank Arena, Baltimore, Maryland": "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db",
         "Baltimore Arena": "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db",
         "CFG Bank Arena - Baltimore - MD": "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db",
-        "Acapulco, Mexico": "048c5b5e-48f4-4835-bdad-52aa88a53d4f"
+        "Acapulco, Mexico": "048c5b5e-48f4-4835-bdad-52aa88a53d4f",
+        "Geneva": "dc765ff4-608d-4009-bba4-1e3b95e0aa68"
     }
 }

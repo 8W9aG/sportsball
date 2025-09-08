@@ -2968,6 +2968,8 @@ def _create_espn_team_model(
                         pass
                     elif stat["name"] == "strikeRatio":
                         pass
+                    elif stat["name"] == "groundballFlyballRatio":
+                        pass
                     else:
                         raise ValueError(
                             f"Failed to account for statistic: {stat['name']} on {statistics_dict['$ref']}"
