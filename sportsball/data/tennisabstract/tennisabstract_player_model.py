@@ -13,15 +13,16 @@ from dateutil.parser import ParserError, parse
 from dateutil.relativedelta import relativedelta
 from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
-from ....cache import MEMORY
-from ...google.google_address_model import create_google_address_model
-from ...league import League
-from ...player_model import VERSION, PlayerModel
-from ...sex import Sex
-from ...species import Species
+from ...cache import MEMORY
+from ..google.google_address_model import create_google_address_model
+from ..league import League
+from ..player_model import VERSION, PlayerModel
+from ..sex import Sex
+from ..species import Species
 
 _LEAGUE_TO_SEX = {
     League.ATP: Sex.MALE,
+    League.WTA: Sex.FEMALE,
 }
 
 

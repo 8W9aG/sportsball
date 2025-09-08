@@ -6,13 +6,13 @@ import datetime
 import pytest_is_running
 from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
-from ....cache import MEMORY
-from ...delimiter import DELIMITER
-from ...google.google_news_model import create_google_news_models
-from ...league import League
-from ...team_model import VERSION, TeamModel
-from ...x.x_social_model import create_x_social_model
-from .atp_tennisabstract_player_model import create_tennisabstract_player_model
+from ...cache import MEMORY
+from ..delimiter import DELIMITER
+from ..google.google_news_model import create_google_news_models
+from ..league import League
+from ..team_model import VERSION, TeamModel
+from ..x.x_social_model import create_x_social_model
+from .tennisabstract_player_model import create_tennisabstract_player_model
 
 
 def _create_tennisabstract_team_model(

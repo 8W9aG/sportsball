@@ -1,6 +1,7 @@
 """AFLW AFLWStats game model."""
 
 import io
+import logging
 import urllib.parse
 from urllib.parse import urlparse
 
@@ -82,37 +83,42 @@ def _create_aflw_aflwstats_game_model(
     if venue_name is None:
         raise ValueError("venue_name is null")
 
-    return GameModel(
-        dt=dt,
-        week=week,
-        game_number=None,
-        venue=create_aflw_aflwstats_venue_model(
-            name=venue_name, session=session, dt=dt
-        ),
-        teams=[
-            create_aflw_aflwstats_team_model(
-                team_url=team_url,
-                players=players[count],  # type: ignore
-                points=float(points[count]),
-                session=session,
-                player_urls=player_urls,
-                dt=dt,
-            )
-            for count, team_url in enumerate(team_urls)
-        ],
-        end_dt=None,
-        attendance=None,
-        league=str(League.AFLW),
-        year=int(season_year),
-        season_type=None,
-        postponed=None,
-        play_off=None,
-        distance=None,
-        dividends=[],
-        pot=None,
-        version=version,
-        umpires=[],
-    )
+    try:
+        return GameModel(
+            dt=dt,
+            week=week,
+            game_number=None,
+            venue=create_aflw_aflwstats_venue_model(
+                name=venue_name, session=session, dt=dt
+            ),
+            teams=[
+                create_aflw_aflwstats_team_model(
+                    team_url=team_url,
+                    players=players[count],  # type: ignore
+                    points=float(points[count]),
+                    session=session,
+                    player_urls=player_urls,
+                    dt=dt,
+                )
+                for count, team_url in enumerate(team_urls)
+            ],
+            end_dt=None,
+            attendance=None,
+            league=str(League.AFLW),
+            year=int(season_year),
+            season_type=None,
+            postponed=None,
+            play_off=None,
+            distance=None,
+            dividends=[],
+            pot=None,
+            version=version,
+            umpires=[],
+        )
+    except ValueError as exc:
+        logging.error(str(exc))
+        logging.error(url)
+        raise exc
 
 
 @MEMORY.cache(ignore=["session"])

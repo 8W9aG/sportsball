@@ -30,6 +30,8 @@ AUSSIE_RULES = "aussie-rules"
 # Countries
 AUSTRALIA = "australia"
 USA = "usa"
+MEXICO = "mexico"
+BRAZIL = "brazil"
 
 # Leagues
 NCAA = "ncaa"
@@ -137,6 +139,13 @@ class OddsPortalLeagueModel(LeagueModel):
                 return ["/".join(["hockey", USA, "nhl", ""])]
             case League.WNBA:
                 return ["/".join([BASKETBALL, USA, "wnba", ""])]
+            case League.WTA:
+                return [
+                    "/".join([TENNIS, MEXICO, "wta-guadalajara", ""]),
+                    "/".join([TENNIS, MEXICO, "wta-guadalajara-doubles", ""]),
+                    "/".join([TENNIS, BRAZIL, "wta-sao-paulo-doubles", ""]),
+                    "/".join([TENNIS, BRAZIL, "wta-sao-paulo", ""]),
+                ]
             case _:
                 raise ValueError(f"Unsupported league: {self.league}")
 

@@ -16,11 +16,11 @@ from bs4 import BeautifulSoup
 from dateutil.parser import parse
 from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
-from ....cache import MEMORY
-from ...game_model import VERSION, GameModel
-from ...league import League
-from .atp_tennisabstract_team_model import create_tennisabstract_team_model
-from .atp_tennisabstract_venue_model import create_tennisabstract_venue_model
+from ...cache import MEMORY
+from ..game_model import VERSION, GameModel
+from ..league import League
+from .tennisabstract_team_model import create_tennisabstract_team_model
+from .tennisabstract_venue_model import create_tennisabstract_venue_model
 
 
 def _ratio_string(ratio: str) -> float:

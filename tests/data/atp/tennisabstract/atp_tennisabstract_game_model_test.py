@@ -5,7 +5,7 @@ import datetime
 
 import requests_mock
 from scrapesession.scrapesession import ScrapeSession
-from sportsball.data.atp.tennisabstract.atp_tennisabstract_game_model import create_tennisabstract_game_model
+from sportsball.data.tennisabstract.tennisabstract_game_model import create_tennisabstract_game_model
 from sportsball.data.league import League
 
 

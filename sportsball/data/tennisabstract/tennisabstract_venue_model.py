@@ -5,9 +5,9 @@ import datetime
 import pytest_is_running
 from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
-from ....cache import MEMORY
-from ...google.google_address_model import create_google_address_model
-from ...venue_model import VERSION, VenueModel
+from ...cache import MEMORY
+from ..google.google_address_model import create_google_address_model
+from ..venue_model import VERSION, VenueModel
 
 
 def _create_tennisabstract_venue_model(

@@ -9939,6 +9939,26 @@
             "housenumber": "1650",
             "country": "USA",
             "type": "venue"
+        },
+        "1b634580-26de-4b30-ae7d-28056a1d53f9": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 55.0,
+            "lng": 24.0,
+            "housenumber": "",
+            "country": "Lithuania",
+            "type": "country"
+        },
+        "4c74e41d-beb6-436b-9142-bc40e8c45b1b": {
+            "city": "Leedervile",
+            "state": "WA",
+            "postal": "",
+            "lat": -31.9352780,
+            "lng": 115.843889,
+            "housenumber": "246",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -11236,6 +11256,7 @@
         "TD Garden": "84591cf0-d740-4a83-be0e-10f3be617e25",
         "The Walter Pyramid, Long Beach, California": "140548b1-620b-49ff-ba32-def70d3e9a76",
         "Walter Pyramid - Long Beach, California - United States": "140548b1-620b-49ff-ba32-def70d3e9a76",
+        "Walter Pyramid - Long Beach - CA": "140548b1-620b-49ff-ba32-def70d3e9a76",
         "Bright House Networks Stadium": "c0a028f7-8513-4d40-a25d-d8f5a39d58b0",
         "Albert Gersten Pavilion, Los Angeles, California": "04979d50-1e56-45f1-8301-42d253e8a6f7",
         "Gersten Pavilion, Los Angeles, California": "04979d50-1e56-45f1-8301-42d253e8a6f7",
@@ -11935,6 +11956,7 @@
         "Nelson Mandela Bay Stadium - Port Elizabeth": "a0a9b2b3-9e95-4bf9-b8a9-f1cebd5ae506",
         "Barcelona, Spain": "0d6cdf40-f282-49fb-a5d6-3f0d82c5d5b6",
         "Emirates Airline Park - Johannesburg": "7841cba0-d40b-4778-bd77-dc22e1243b0b",
+        "Ellis Park - Johannesburg": "7841cba0-d40b-4778-bd77-dc22e1243b0b",
         "Globe Life Field - Arlington - Texas - 76011": "7beae26d-bff1-4e8d-8bfd-10999217c88a",
         "Globe Life Field, Arlington, TX, USA": "7beae26d-bff1-4e8d-8bfd-10999217c88a",
         "Globe Life Field": "7beae26d-bff1-4e8d-8bfd-10999217c88a",
@@ -11970,6 +11992,8 @@
         "Geneva": "dc765ff4-608d-4009-bba4-1e3b95e0aa68",
         "Maverik Center - West Valley City - UT": "9134cab5-e4e0-404c-9aa4-87be500f2959",
         "Rome Masters": "534afc26-4286-4e53-9ef4-a778c9c19b9f",
-        "Las Vegas Ballpark - Las Vegas - Nevada - 89135": "38f55fab-bb6b-4d7a-969e-7885d561fc8d"
+        "Las Vegas Ballpark - Las Vegas - Nevada - 89135": "38f55fab-bb6b-4d7a-969e-7885d561fc8d",
+        "LTU": "1b634580-26de-4b30-ae7d-28056a1d53f9",
+        "Leederville Oval": "4c74e41d-beb6-436b-9142-bc40e8c45b1b"
     }
 }

@@ -74,6 +74,7 @@ The supported leagues are:
 * 🏈 [NFL](https://www.nfl.com/)
 * 🏒 [NHL](https://www.nhl.com/)
 * 🏀 [WNBA](https://www.wnba.com/)
+* 🏀 [WTA](https://www.wtatennis.com/)
 
 ## Architecture :triangular_ruler:
 
