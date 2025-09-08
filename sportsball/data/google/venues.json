@@ -9959,6 +9959,26 @@
             "housenumber": "246",
             "country": "USA",
             "type": "venue"
+        },
+        "06967665-450b-420d-abcf-05aae7733825": {
+            "city": "Prague",
+            "state": "",
+            "postal": "",
+            "lat": 50.0875,
+            "lng": 14.421389,
+            "housenumber": "",
+            "country": "Czechia",
+            "type": "city"
+        },
+        "cf91472a-f676-42d2-8080-6c4dbd2dbbe7": {
+            "city": "Bankstown",
+            "state": "NSW",
+            "postal": "",
+            "lat": -33.921944,
+            "lng": 151.032222,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -10705,6 +10725,7 @@
         "Ohio Stadium - Columbus - OH - 43210": "c08dbe54-5fea-40c0-ac6d-58934634b36d",
         "Ohio Stadium": "c08dbe54-5fea-40c0-ac6d-58934634b36d",
         "Ohio Stadium - Columbus, Ohio, USA - United States": "c08dbe54-5fea-40c0-ac6d-58934634b36d",
+        "Ohio Stadium - Columbus - OH": "c08dbe54-5fea-40c0-ac6d-58934634b36d",
         "Incarnate Word College": "70e11209-656e-498e-a7c8-515124afab47",
         "Memorial Stadium (Bloomington, IN) - Bloomington - IN - 47408": "07e9a495-f544-4e78-969d-d00c5d093251",
         "St. Paul, Alberta, Canada": "24e4d05e-2e2a-4260-ad2f-53259601b819",
@@ -10806,6 +10827,7 @@
         "Pittsburgh Civic Arena": "38d3d33b-5dc2-4750-a558-e65c30f6abb1",
         "Hancock Whitney Stadium - Mobile - AL - 36688": "d895d3dd-111e-4a81-80af-8ec020c6b53e",
         "Bet365 Stadium, Stoke on Trent, England": "f82ccf5f-e3ee-40cb-971c-61ade7a73702",
+        "bet365 Stadium - Stoke-on-Trent": "f82ccf5f-e3ee-40cb-971c-61ade7a73702",
         "Williams-Brice Stadium - Columbia - SC - 29201": "85726d6a-f68d-4e69-948f-6360bdddb2d1",
         "Williams-Brice Stadium": "85726d6a-f68d-4e69-948f-6360bdddb2d1",
         "Maracanã - Rio de Janeiro - Brazil": "70e89f76-d8e3-4d1f-94aa-16f4a2e22a3c",
@@ -10969,6 +10991,7 @@
         "Chase Field - Phoenix - AZ - 85004": "59a4d697-b2f5-4bfd-8489-287029cc2f9a",
         "Chase Field": "59a4d697-b2f5-4bfd-8489-287029cc2f9a",
         "Chase Field, Phoenix, AZ, USA": "59a4d697-b2f5-4bfd-8489-287029cc2f9a",
+        "Chase Field - Phoenix - Arizona - 85004": "59a4d697-b2f5-4bfd-8489-287029cc2f9a",
         "Olympiastadion München - Munich - Germany": "53a1254e-f2bb-4b22-ba9e-88ae37df188b",
         "Thomas A. Robinson National Stadium - Nassau": "b3a814ad-ba69-437b-8359-4ede88748cf4",
         "HPCA Stadium, Dharmashala, India": "d6ef30a7-b077-4cc3-9d0b-eba86154ff7f",
@@ -11984,6 +12007,7 @@
         "Monte-Carlo, Monaco": "1d61ac72-c99b-4721-9754-e85f93e469f9",
         "FNB Stadium - Johannesburg": "07e3ba60-66c8-471d-b30e-de7770957905",
         "DHL Cape Town Stadium - Cape Town": "48ffe5d4-f400-40ae-9061-308a5dcb42cc",
+        "Green Point Stadium - Cape Town": "48ffe5d4-f400-40ae-9061-308a5dcb42cc",
         "Deakin Reserve": "23447537-31ce-4754-8283-f5efb0bbba50",
         "CFG Bank Arena, Baltimore, Maryland": "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db",
         "Baltimore Arena": "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db",
@@ -11994,6 +12018,9 @@
         "Rome Masters": "534afc26-4286-4e53-9ef4-a778c9c19b9f",
         "Las Vegas Ballpark - Las Vegas - Nevada - 89135": "38f55fab-bb6b-4d7a-969e-7885d561fc8d",
         "LTU": "1b634580-26de-4b30-ae7d-28056a1d53f9",
-        "Leederville Oval": "4c74e41d-beb6-436b-9142-bc40e8c45b1b"
+        "Leederville Oval": "4c74e41d-beb6-436b-9142-bc40e8c45b1b",
+        "Prague CH": "06967665-450b-420d-abcf-05aae7733825",
+        "Prague, Czechia": "06967665-450b-420d-abcf-05aae7733825",
+        "Memorial Oval": "cf91472a-f676-42d2-8080-6c4dbd2dbbe7"
     }
 }

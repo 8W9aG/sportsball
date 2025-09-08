@@ -36,9 +36,8 @@ def _create_aflw_aflwstats_player_model(
     scoreboard = player_stats["Scoreboard"]
     if isinstance(scoreboard, str) and "." in scoreboard:
         scoreboard = scoreboard.strip()
+        scoreboard = scoreboard.split()[0]
         number_split = scoreboard.split(".")
-        if len(number_split) != 2:
-            number_split = scoreboard.split(" ")
         goals, behinds = [float(x.strip()) for x in number_split]
 
     return PlayerModel(
