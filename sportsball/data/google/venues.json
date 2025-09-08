@@ -9909,6 +9909,16 @@
             "housenumber": "",
             "country": "Switzerland",
             "type": "city"
+        },
+        "9134cab5-e4e0-404c-9aa4-87be500f2959": {
+            "city": "West Valley City",
+            "state": "UT",
+            "postal": "",
+            "lat": 40.702722,
+            "lng": -111.950417,
+            "housenumber": "3200",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -10244,6 +10254,7 @@
         "Ross-Ade Stadium - West Lafayette - IN - 47906": "a8cf2e14-c718-40be-a217-c669130a3f04",
         "Punt Rd - Australia": "a1052505-7d77-4d4e-ae6e-18ca641b0833",
         "Windy Hill - Australia": "be43e7df-cebb-449d-ab58-9c1ff1ae1061",
+        "Windy Hill, Essendon, Australia": "be43e7df-cebb-449d-ab58-9c1ff1ae1061",
         "Pride Park, Derby, England": "78ee8318-14b0-4b11-b1af-29ef72b3daa5",
         "Camping World Stadium - Orlando - FL - 32805": "8e146665-d362-496f-af4c-3d55166e2968",
         "Camping World Stadium, Orlando, FL, USA": "8e146665-d362-496f-af4c-3d55166e2968",
@@ -11625,6 +11636,7 @@
         "Colonial Life Arena, Columbia, South Carolina": "796349d2-45c8-4988-90f9-d43cf886715b",
         "Colonial Center, Columbia, South Carolina": "796349d2-45c8-4988-90f9-d43cf886715b",
         "Colonial Life Arena - Columbia, South Carolina - United States": "796349d2-45c8-4988-90f9-d43cf886715b",
+        "Colonial Life Arena - Columbia - SC": "796349d2-45c8-4988-90f9-d43cf886715b",
         "United Supermarkets Arena, Lubbock, Texas": "e98cab7f-24ee-444b-8a38-a13b65b685c2",
         "United Spirit Arena, Lubbock, Texas": "e98cab7f-24ee-444b-8a38-a13b65b685c2",
         "United Supermarkets Arena - Lubbock - TX": "e98cab7f-24ee-444b-8a38-a13b65b685c2",
@@ -11899,6 +11911,7 @@
         "ITF Martos": "eae63ab5-cc94-4bbb-82ec-7a57266ff137",
         "Royal Bafokeng Stadium - Rustenburg": "6171fa13-73e7-4cdf-b7fb-bc78fc33fa2f",
         "Nelson Mandela Bay Stadium - Gqeberha": "a0a9b2b3-9e95-4bf9-b8a9-f1cebd5ae506",
+        "Nelson Mandela Bay Stadium - Port Elizabeth": "a0a9b2b3-9e95-4bf9-b8a9-f1cebd5ae506",
         "Barcelona, Spain": "0d6cdf40-f282-49fb-a5d6-3f0d82c5d5b6",
         "Emirates Airline Park - Johannesburg": "7841cba0-d40b-4778-bd77-dc22e1243b0b",
         "Globe Life Field - Arlington - Texas - 76011": "7beae26d-bff1-4e8d-8bfd-10999217c88a",
@@ -11932,6 +11945,7 @@
         "Baltimore Arena": "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db",
         "CFG Bank Arena - Baltimore - MD": "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db",
         "Acapulco, Mexico": "048c5b5e-48f4-4835-bdad-52aa88a53d4f",
-        "Geneva": "dc765ff4-608d-4009-bba4-1e3b95e0aa68"
+        "Geneva": "dc765ff4-608d-4009-bba4-1e3b95e0aa68",
+        "Maverik Center - West Valley City - UT": "9134cab5-e4e0-404c-9aa4-87be500f2959"
     }
 }
