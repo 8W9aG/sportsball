@@ -4,4 +4,4 @@
 import cchardet  # type: ignore
 import lxml  # noqa: ignore
 
-__VERSION__ = "0.31.4"
+__VERSION__ = "0.31.5"

@@ -10179,6 +10179,66 @@
             "housenumber": "",
             "country": "Italy",
             "type": "city"
+        },
+        "15b771d8-45e4-48f2-8b4d-d80d1894282b": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 45.166667,
+            "lng": 15.5,
+            "housenumber": "",
+            "country": "Croatia",
+            "type": "country"
+        },
+        "cf3760ac-982e-4063-87c9-121f99e5a941": {
+            "city": "Leipzig",
+            "state": "",
+            "postal": "",
+            "lat": 51.345794,
+            "lng": 12.348219,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "venue"
+        },
+        "6c918e98-21eb-4852-82c2-17f209f5ce85": {
+            "city": "Macomb",
+            "state": "IL",
+            "postal": "",
+            "lat": 40.4684,
+            "lng": -90.6842,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
+        },
+        "877c8e74-d074-412b-848c-cb615eafc53c": {
+            "city": "St. Thomas",
+            "state": "ON",
+            "postal": "",
+            "lat": 42.7767132,
+            "lng": -81.1788098,
+            "housenumber": "75",
+            "country": "Canada",
+            "type": "venue"
+        },
+        "c3b15f79-c34c-4ae6-b8c2-dd3f75f4aacd": {
+            "city": "White Plains",
+            "state": "NY",
+            "postal": "10606",
+            "lat": 41.036944,
+            "lng": -73.778611,
+            "housenumber": "198",
+            "country": "USA",
+            "type": "venue"
+        },
+        "0bd02c4d-6925-4121-a6c3-3e83d3dfcda8": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": -5.0,
+            "lng": 120.0,
+            "housenumber": "",
+            "country": "Indonesia",
+            "type": "country"
         }
     },
     "searches": {
@@ -10570,6 +10630,7 @@
         "GMHBA Stadium - 3220": "e0d0121e-fcad-4647-971a-f2031dafe9d3",
         "Great American Ball Park, Cincinnati, OH, USA": "65673ee1-270d-4eaf-a887-3db34391293b",
         "Great American Ball Park": "65673ee1-270d-4eaf-a887-3db34391293b",
+        "Great American Ball Park - Cincinnati - Ohio - 45202": "65673ee1-270d-4eaf-a887-3db34391293b",
         "Yarraville Oval - Australia": "6a10ad79-7406-4de0-8870-881d6b6a4a6a",
         "Brentford Community Stadium, London, England": "f4bba906-7b47-4197-8905-71cf04eab3e5",
         "Gtech Community Stadium - London": "f4bba906-7b47-4197-8905-71cf04eab3e5",
@@ -10709,6 +10770,7 @@
         "Tropicana Field": "813087f1-33d7-48ee-8c3d-486254f9eb03",
         "Subiaco - Australia": "1c595834-b508-4fe8-bd9c-40bff041b8a5",
         "Domain Stadium": "1c595834-b508-4fe8-bd9c-40bff041b8a5",
+        "Domain Stadium - 6904": "1c595834-b508-4fe8-bd9c-40bff041b8a5",
         "Subiaco Oval, Perth, Australia": "1c595834-b508-4fe8-bd9c-40bff041b8a5",
         "Martin Carpena - Málaga, Spain - Spain": "a1786ecb-d027-4137-afb8-4c3da1327d99",
         "Rice Stadium": "03c7b590-287b-4366-a614-fee56af690d5",
@@ -11019,6 +11081,7 @@
         "Wallace Wade Stadium - Durham - NC - 27708": "3db094d5-5bac-473c-b595-045825b28615",
         "Wallace Wade Stadium - Durham, North Carolina, USA - United States": "3db094d5-5bac-473c-b595-045825b28615",
         "Riverside Stadium, Middlesbrough, England": "5e0b1d7a-7402-491e-a645-9ab761544408",
+        "Riverside Stadium - Perth": "5e0b1d7a-7402-491e-a645-9ab761544408",
         "Vaught-Hemingway Stadium - Oxford - MS - 38655": "35236654-4a0b-4eef-9fdc-2d1448078610",
         "Vaught-Hemingway Stadium": "35236654-4a0b-4eef-9fdc-2d1448078610",
         "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur, India": "525c8f71-1670-4fea-b3cb-cf7356f3e857",
@@ -12263,6 +12326,12 @@
         "Indiana Farmers Coliseum, Indianapolis, Indiana": "01435e75-3f3b-4d40-b0f6-45a4b961c49d",
         "Indiana Farmers Coliseum - Indianapolis, Indiana - United States": "01435e75-3f3b-4d40-b0f6-45a4b961c49d",
         "Corteva Coliseum - Indianapolis - IN": "01435e75-3f3b-4d40-b0f6-45a4b961c49d",
-        "Palermo, Italy": "ab20089c-3377-49be-a86f-28bea5533225"
+        "Palermo, Italy": "ab20089c-3377-49be-a86f-28bea5533225",
+        "CRO": "15b771d8-45e4-48f2-8b4d-d80d1894282b",
+        "Zentralstadion - Leipzig": "cf3760ac-982e-4063-87c9-121f99e5a941",
+        "Hanson Field - Macomb - IL - 61455": "6c918e98-21eb-4852-82c2-17f209f5ce85",
+        "Joe Thornton Community Centre - St. Thomas - ON": "877c8e74-d074-412b-848c-cb615eafc53c",
+        "Westchester County Center, New York, NY, USA": "c3b15f79-c34c-4ae6-b8c2-dd3f75f4aacd",
+        "INA": "0bd02c4d-6925-4121-a6c3-3e83d3dfcda8"
     }
 }
