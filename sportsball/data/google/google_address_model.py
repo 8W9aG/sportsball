@@ -2029,15 +2029,6 @@ CITIZENS_BANK_PARK = SportsballGeocodeTuple(
     housenumber="",
     country="USA",
 )
-PNC_PARK = SportsballGeocodeTuple(
-    city="Pittsburgh",
-    state="PA",
-    postal="",
-    lat=40.446944,
-    lng=-80.005833,
-    housenumber="115",
-    country="USA",
-)
 T_MOBILE_PARK = SportsballGeocodeTuple(
     city="Seattle",
     state="WA",
@@ -6584,15 +6575,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         lat=37.4225,
         lng=-122.165278,
         housenumber="",
-        country="USA",
-    ),
-    "Intrust Bank Arena, Wichita, Kansas": SportsballGeocodeTuple(
-        city="Wichita",
-        state="KS",
-        postal="",
-        lat=37.683056,
-        lng=-97.331389,
-        housenumber="500",
         country="USA",
     ),
     "Chattanooga, Tennessee": CHATTANOOGA,
@@ -15534,7 +15516,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="Switzerland",
     ),
-    "PNC Park, Pittsburgh, PA, USA": PNC_PARK,
     "Wurzburg, Bavaria, DE": SportsballGeocodeTuple(
         city="Wurzburg",
         state="Bavaria",
@@ -16464,7 +16445,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "PNC Park": PNC_PARK,
     "T-Mobile Park": T_MOBILE_PARK,
     "Davidson College": SportsballGeocodeTuple(
         city="Davidson",

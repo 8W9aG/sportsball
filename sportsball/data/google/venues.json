@@ -10299,6 +10299,46 @@
             "housenumber": "",
             "country": "Romania",
             "type": "city"
+        },
+        "4e5b9e60-94a7-4275-9532-0cdd3554c0a6": {
+            "city": "Marrickville",
+            "state": "NSW",
+            "postal": "",
+            "lat": -33.904444,
+            "lng": 151.158333,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "eed8355a-8c6c-4e36-8cc9-bb64c46bf102": {
+            "city": "Nuremberg",
+            "state": "",
+            "postal": "",
+            "lat": 49.426111,
+            "lng": 11.125833,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "venue"
+        },
+        "abfae575-5541-4ef0-ac03-19e87ba1f6e6": {
+            "city": "Pittsburgh",
+            "state": "PA",
+            "postal": "",
+            "lat": 40.446944,
+            "lng": -80.005833,
+            "housenumber": "115",
+            "country": "USA",
+            "type": "venue"
+        },
+        "2b25b256-8525-48ab-8c1d-3fe76e00fe63": {
+            "city": "Wichita",
+            "state": "KS",
+            "postal": "",
+            "lat": 37.683056,
+            "lng": -97.331389,
+            "housenumber": "500",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -11459,6 +11499,7 @@
         "Pinnacle Bank Arena, Lincoln, Nebraska": "b0738ea1-7fda-42c9-b216-ce6f64708095",
         "Pinnacle Bank Arena - Lincoln, Nebraska - United States": "b0738ea1-7fda-42c9-b216-ce6f64708095",
         "Kitzbuhel": "7f4c64fe-d863-4a46-8e6d-711109112e1e",
+        "Kitzbuhel, Austria": "7f4c64fe-d863-4a46-8e6d-711109112e1e",
         "Welsh-Ryan Arena, Evanston, Illinois": "06a6ff22-fb8d-43da-aa7d-ca909e7cdad2",
         "Inderjit Singh Bindra Stadium, Mohali, India": "8a6bee1d-a64b-4e66-8754-69c4570ceb04",
         "Gentry Center Complex, Nashville, Tennessee": "84fb4feb-3a67-4f25-ab23-ded5946209dd",
@@ -11806,6 +11847,7 @@
         "Leede Arena - Hanover - NH": "75f8199c-0bd4-4a55-bf77-e371c75a4494",
         "Rupp Arena, Lexington, Kentucky": "cdde4cb0-89ff-41a5-83d7-878493285a5f",
         "Rupp Arena - Lexington, Kentucky - United States": "cdde4cb0-89ff-41a5-83d7-878493285a5f",
+        "Rupp Arena - Lexington - KY": "cdde4cb0-89ff-41a5-83d7-878493285a5f",
         "PPG Paints Arena - Pittsburgh - PA": "b32c25e1-3c77-43a9-9409-82731fe2b45b",
         "PPG Paints Arena, Pittsburgh, Pennsylvania": "b32c25e1-3c77-43a9-9409-82731fe2b45b",
         "CONSOL Energy Center, Pittsburgh, Pennsylvania": "b32c25e1-3c77-43a9-9409-82731fe2b45b",
@@ -12403,6 +12445,13 @@
         "Oriole Park at Camden Yards - Baltimore - Maryland - 21201": "b55dccf9-98fc-494d-a27e-848b61ce8554",
         "Wildcat Stadium (NH) - Durham - NH - 03824": "38ad2776-1fe3-4808-b1be-d03b8db9bad3",
         "Rod Laver Arena - Melbourne - Victoria": "aadc0318-c196-498e-901c-4879a0fb970a",
-        "ITF Bistrita": "1e3281ef-1cb0-4a45-b893-f23dc59bbc3b"
+        "ITF Bistrita": "1e3281ef-1cb0-4a45-b893-f23dc59bbc3b",
+        "Henson Park, Marrickville, Australia": "4e5b9e60-94a7-4275-9532-0cdd3554c0a6",
+        "Frankenstadion - Nuremberg": "eed8355a-8c6c-4e36-8cc9-bb64c46bf102",
+        "PNC Park - Pittsburgh - Pennsylvania - 15212": "abfae575-5541-4ef0-ac03-19e87ba1f6e6",
+        "PNC Park, Pittsburgh, PA, USA": "abfae575-5541-4ef0-ac03-19e87ba1f6e6",
+        "PNC Park": "abfae575-5541-4ef0-ac03-19e87ba1f6e6",
+        "Intrust Bank Arena, Wichita, Kansas": "2b25b256-8525-48ab-8c1d-3fe76e00fe63",
+        "INTRUST Bank Arena - Wichita - KS - 67278": "2b25b256-8525-48ab-8c1d-3fe76e00fe63"
     }
 }
