@@ -1300,15 +1300,6 @@ PEORIA = SportsballGeocodeTuple(
     housenumber="",
     country="USA",
 )
-CHARLESTON = SportsballGeocodeTuple(
-    city="Charleston",
-    state="SC",
-    postal="",
-    lat=32.783333,
-    lng=-79.931944,
-    housenumber="",
-    country="USA",
-)
 FORT_WAYNE = SportsballGeocodeTuple(
     city="Fort Wayne",
     state="IN",
@@ -2009,15 +2000,6 @@ COORS_FIELD = SportsballGeocodeTuple(
     lat=39.756111,
     lng=-104.994167,
     housenumber="2001",
-    country="USA",
-)
-CITIZENS_BANK_PARK = SportsballGeocodeTuple(
-    city="Philadelphia",
-    state="PA",
-    postal="",
-    lat=39.905833,
-    lng=-75.166389,
-    housenumber="",
     country="USA",
 )
 T_MOBILE_PARK = SportsballGeocodeTuple(
@@ -5980,7 +5962,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Charleston, South Carolina": CHARLESTON,
     "Ithaca, New York": SportsballGeocodeTuple(
         city="Ithaca",
         state="NY",
@@ -9600,7 +9581,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Charleston, South Carolina, United States": CHARLESTON,
     "Lancaster, Pennsylvania, United States": SportsballGeocodeTuple(
         city="Lancaster",
         state="PA",
@@ -15449,7 +15429,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Citizens Bank Park, Philadelphia, PA, USA": CITIZENS_BANK_PARK,
     "Louisiana Tech University": SportsballGeocodeTuple(
         city="Ruston",
         state="LA",
@@ -16423,7 +16402,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Citizens Bank Park": CITIZENS_BANK_PARK,
     "DePaul University": SportsballGeocodeTuple(
         city="Chicago",
         state="IL",

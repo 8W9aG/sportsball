@@ -10369,6 +10369,66 @@
             "housenumber": "",
             "country": "USA",
             "type": "venue"
+        },
+        "92ec6a4d-00f8-486b-b9da-64e5c9af1534": {
+            "city": "Hanover",
+            "state": "",
+            "postal": "",
+            "lat": 52.36,
+            "lng": 9.731111,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "venue"
+        },
+        "4477fe80-3ac3-4c45-8cd4-317534a4050d": {
+            "city": "Philadelphia",
+            "state": "PA",
+            "postal": "",
+            "lat": 39.905833,
+            "lng": -75.166389,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
+        },
+        "3cf89d6e-46d8-4a7f-90de-8f1af1f75644": {
+            "city": "Boiling Springs",
+            "state": "NC",
+            "postal": "28152",
+            "lat": 35.245637,
+            "lng": -81.673243,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
+        },
+        "c10917b7-c900-489c-9465-ccd5a05a07f4": {
+            "city": "Sydney",
+            "state": "NS",
+            "postal": "B1P 6R7",
+            "lat": 46.1375,
+            "lng": -60.190278,
+            "housenumber": "481",
+            "country": "Canada",
+            "type": "venue"
+        },
+        "cbb64288-51a8-463b-9808-38f898d1f918": {
+            "city": "Everett",
+            "state": "WA",
+            "postal": "",
+            "lat": 47.978611,
+            "lng": -122.203611,
+            "housenumber": "2000",
+            "country": "USA",
+            "type": "venue"
+        },
+        "90510be4-e508-44e9-90a9-1a43af3036ad": {
+            "city": "Charleston",
+            "state": "SC",
+            "postal": "",
+            "lat": 32.783333,
+            "lng": -79.931944,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -10491,6 +10551,7 @@
         "Bank of America Stadium, Charlotte, NC, USA": "543d7f78-3dd0-4046-a366-80ca231e8898",
         "Mexico City Arena - Mexico City - Mexico": "36dab08e-0823-479d-9022-a4c6ee6c3b08",
         "Mexico City Arena, Mexico City, Mexico": "36dab08e-0823-479d-9022-a4c6ee6c3b08",
+        "Arena CDMX - Mexico City": "36dab08e-0823-479d-9022-a4c6ee6c3b08",
         "La Salle University": "dee41f25-1309-40d8-a8e3-b7ee6b01cec0",
         "Allegiant Stadium": "8ca30336-3e75-42f8-bb46-0241fe1697f3",
         "Allegiant Stadium - Las Vegas - NV - 89118": "8ca30336-3e75-42f8-bb46-0241fe1697f3",
@@ -11768,6 +11829,7 @@
         "Delaware Stadium - Newark - DE - 19713": "037fb31e-98e0-45d3-9799-6d3606ce5026",
         "Winthrop Coliseum, Rock Hill, South Carolina": "d299fae3-38c6-4a85-813e-c29cace251a7",
         "Gstaad": "c221a73f-a3b9-4965-9fd1-1bb12fad11bc",
+        "Gstaad, Switzerland": "c221a73f-a3b9-4965-9fd1-1bb12fad11bc",
         "Sojka Pavilion, Lewisburg, Pennsylvania": "f3935439-e1bb-4484-a270-d0d289e12ad2",
         "Hinkle Fieldhouse, Indianapolis, Indiana": "712a8399-f4ff-482a-8568-337dfa751d64",
         "Hinkle Fieldhouse - Indianapolis - IN": "712a8399-f4ff-482a-8568-337dfa751d64",
@@ -12492,6 +12554,16 @@
         "Cleveland, Ohio": "e34545b3-7c76-4b4e-8014-d63b136133d4",
         "Cleveland, Ohio, United States": "e34545b3-7c76-4b4e-8014-d63b136133d4",
         "Cleveland, OH, USA": "e34545b3-7c76-4b4e-8014-d63b136133d4",
-        "Cleveland": "e34545b3-7c76-4b4e-8014-d63b136133d4"
+        "Cleveland": "e34545b3-7c76-4b4e-8014-d63b136133d4",
+        "Heinz von Heiden-Arena - Hannover": "92ec6a4d-00f8-486b-b9da-64e5c9af1534",
+        "Citizens Bank Park, Philadelphia, PA, USA": "4477fe80-3ac3-4c45-8cd4-317534a4050d",
+        "Citizens Bank Park": "4477fe80-3ac3-4c45-8cd4-317534a4050d",
+        "Citizens Bank Park - Philadelphia - Pennsylvania - 19148": "4477fe80-3ac3-4c45-8cd4-317534a4050d",
+        "Ernest W. Spangler Stadium - Boiling Springs - NC - 28152": "3cf89d6e-46d8-4a7f-90de-8f1af1f75644",
+        "Centre 200 - Sydney - NS": "c10917b7-c900-489c-9465-ccd5a05a07f4",
+        "Angel of the Winds Arena - Everett - WA": "cbb64288-51a8-463b-9808-38f898d1f918",
+        "Charleston, South Carolina": "90510be4-e508-44e9-90a9-1a43af3036ad",
+        "Charleston, South Carolina, United States": "90510be4-e508-44e9-90a9-1a43af3036ad",
+        "Charleston, USA": "90510be4-e508-44e9-90a9-1a43af3036ad"
     }
 }
