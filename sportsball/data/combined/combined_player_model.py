@@ -2276,7 +2276,7 @@ def create_combined_player_model(
         )
         opponent_ops = more_interesting(opponent_ops, player_model.opponent_ops)
         strikeouts_per_nine_innings = more_interesting(
-            strikeouts_per_nine_innings, player_model.strikeouts_per_nine_inning
+            strikeouts_per_nine_innings, player_model.strikeouts_per_nine_innings
         )
         strikeout_to_walk_ratio = more_interesting(
             strikeout_to_walk_ratio, player_model.strikeout_to_walk_ratio

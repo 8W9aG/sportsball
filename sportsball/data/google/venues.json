@@ -10499,6 +10499,26 @@
             "housenumber": "",
             "country": "Canada",
             "type": "city"
+        },
+        "1609b140-2f46-4659-98bd-c48a9bfd4376": {
+            "city": "Tucson",
+            "state": "AZ",
+            "postal": "",
+            "lat": 32.218333,
+            "lng": -110.974167,
+            "housenumber": "260",
+            "country": "USA",
+            "type": "venue"
+        },
+        "772a2570-9526-4697-bb6f-b79eb9dee6d9": {
+            "city": "Oeiras",
+            "state": "Lisbon",
+            "postal": "",
+            "lat": 38.683333,
+            "lng": -9.316667,
+            "housenumber": "",
+            "country": "Portugal",
+            "type": "venue"
         }
     },
     "searches": {
@@ -10815,6 +10835,7 @@
         "Kauffman Stadium, Kansas City, MO, USA": "19041e2d-a371-479d-a1bc-7264cbf80068",
         "Kauffman Stadium - Kansas City, MO - United States": "19041e2d-a371-479d-a1bc-7264cbf80068",
         "Kauffman Stadium": "19041e2d-a371-479d-a1bc-7264cbf80068",
+        "Kauffman Stadium - Kansas City - Missouri - 64129": "19041e2d-a371-479d-a1bc-7264cbf80068",
         "East Melbourne - Australia": "56a0b392-918c-41b5-9241-937a6d519349",
         "St. Andrew's Stadium, Birmingham, England": "9d1f427b-4106-40ab-8708-de08bc1cd144",
         "Junction Oval - Australia": "9939510e-feb6-4e0d-aa10-e8f9f3d5f3a6",
@@ -11895,6 +11916,7 @@
         "Case Gym, Boston, Massachusetts": "61c2415b-359a-4722-9b33-94ac85b088ce",
         "Roy Stewart Stadium - Murray - KY - 42071": "afc664f4-49fc-433c-b6f3-764024ed4f11",
         "Brighton Homes Arena": "3652210a-9e53-46b8-bd5a-59367edc3a79",
+        "Brighton Homes Arena, Brisbane, Australia": "3652210a-9e53-46b8-bd5a-59367edc3a79",
         "Kimmel Arena, Asheville, North Carolina": "0f5408a2-d6b6-4b83-8a44-4bffe47c820d",
         "SWE": "c8bcc673-c065-4066-b582-d76e46dc6f87",
         "Memorial Gymnasium, Nashville, Tennessee": "6d33550a-6dac-4f41-8590-352a1ce54224",
@@ -12172,6 +12194,7 @@
         "SHM Memorial Center, Orangeburg, South Carolina": "f36a5bab-5141-4e80-a6a8-fcd128283f82",
         "Olympic Stadium Berlin - Berlin": "2912ac17-507c-4da1-a696-bf7e5bd00995",
         "Olympiastadion Berlin - Charlottenburg-Wilmersdorf - Germany": "2912ac17-507c-4da1-a696-bf7e5bd00995",
+        "Olympiastadion Berlin - Berlin": "2912ac17-507c-4da1-a696-bf7e5bd00995",
         "Prudential Center, Newark, New Jersey": "36433729-bec3-400f-ae5c-52a9e87b8221",
         "Prudential Center - Newark, New Jersey, USA - United States": "36433729-bec3-400f-ae5c-52a9e87b8221",
         "Prudential Center, Newark, NJ, USA": "36433729-bec3-400f-ae5c-52a9e87b8221",
@@ -12616,6 +12639,7 @@
         "Westchester County Center, New York, NY, USA": "c3b15f79-c34c-4ae6-b8c2-dd3f75f4aacd",
         "INA": "0bd02c4d-6925-4121-a6c3-3e83d3dfcda8",
         "Marrakech, Morocco": "c644192d-4e46-4bf9-9c6c-71d9457b12b0",
+        "Marrakech": "c644192d-4e46-4bf9-9c6c-71d9457b12b0",
         "Arena AufSchalke - Gelsenkirchen": "e6ec1b86-886a-4b1b-9e2d-6e134c242bc5",
         "Oriole Park at Camden Yards, Baltimore, MD, USA": "b55dccf9-98fc-494d-a27e-848b61ce8554",
         "Oriole Park at Camden Yards": "b55dccf9-98fc-494d-a27e-848b61ce8554",
@@ -12653,6 +12677,9 @@
         "AND": "e7cb5ce3-e80a-445f-ba8a-c39bc763acb5",
         "Gottlieb-Daimler Stadion - Stuttgart": "60319930-ee31-4841-b278-5e27b0071010",
         "Simon Skjodt Assembly Hall - Bloomington - IN": "c2085ecc-779c-426a-9413-7fb50b9ed1aa",
-        "ITF Saskatoon": "6dfe969e-ea34-4139-bd16-a6fe17f4517f"
+        "ITF Saskatoon": "6dfe969e-ea34-4139-bd16-a6fe17f4517f",
+        "TCC Arena - Tucson - AZ - 85777": "1609b140-2f46-4659-98bd-c48a9bfd4376",
+        "Tucson Community Center, Tucson, Arizona": "1609b140-2f46-4659-98bd-c48a9bfd4376",
+        "Oeiras, Portugal": "772a2570-9526-4697-bb6f-b79eb9dee6d9"
     }
 }

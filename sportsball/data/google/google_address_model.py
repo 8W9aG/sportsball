@@ -3717,15 +3717,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
     "Ross E. Templeton Center, Clinton, South Carolina": ROSS_E_TEMPLETON_CENTER,
     "Levien Gymnasium, New York, New York": LEVIEN_GYM,
-    "Simon Skjodt Assembly Hall, Bloomington, Indiana": SportsballGeocodeTuple(
-        city="Bloomington",
-        state="IN",
-        postal="47408",
-        lat=39.1808334,
-        lng=-86.522222,
-        housenumber="1001",
-        country="USA",
-    ),
     "UMPC Cooper Fieldhouse, Pittsburgh, Pennsylvania": SportsballGeocodeTuple(
         city="Pittsburgh",
         state="PA",
@@ -5691,15 +5682,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Miami Beach Convention Hall, Miami Beach, Florida": MIAMI_BEACH_CONVENTION_CENTER,
-    "Tucson Community Center, Tucson, Arizona": SportsballGeocodeTuple(
-        city="Tucson",
-        state="AZ",
-        postal="",
-        lat=32.218333,
-        lng=-110.974167,
-        housenumber="260",
-        country="USA",
-    ),
     "Curtis Hixon Hall, Tampa, Florida": SportsballGeocodeTuple(
         city="Tampa",
         state="FL",
