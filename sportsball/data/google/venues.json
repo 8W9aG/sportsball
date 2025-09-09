@@ -10349,6 +10349,26 @@
             "housenumber": "",
             "country": "Germany",
             "type": "venue"
+        },
+        "2fac0984-7e2d-402c-a1e9-7cd884584584": {
+            "city": "Frankfurt",
+            "state": "",
+            "postal": "",
+            "lat": 50.068056,
+            "lng": 8.645806,
+            "housenumber": "362",
+            "country": "Germany",
+            "type": "venue"
+        },
+        "e34545b3-7c76-4b4e-8014-d63b136133d4": {
+            "city": "Cleveland",
+            "state": "OH",
+            "postal": "",
+            "lat": 41.499167,
+            "lng": -81.694722,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -10681,6 +10701,7 @@
         "Princes Park - Australia": "60cc2b2c-393d-4035-8a4a-011ef5c96b96",
         "Princes Park": "60cc2b2c-393d-4035-8a4a-011ef5c96b96",
         "IKON Park": "60cc2b2c-393d-4035-8a4a-011ef5c96b96",
+        "Ikon Park, Melbourne, Australia": "60cc2b2c-393d-4035-8a4a-011ef5c96b96",
         "Ross-Ade Stadium": "a8cf2e14-c718-40be-a217-c669130a3f04",
         "Ross-Ade Stadium - West Lafayette - IN - 47906": "a8cf2e14-c718-40be-a217-c669130a3f04",
         "Punt Rd - Australia": "a1052505-7d77-4d4e-ae6e-18ca641b0833",
@@ -10873,6 +10894,7 @@
         "Wrigley Field - Chicago - IL - 60613": "847f8a52-e5f3-4977-baa1-d3cf9d4469fa",
         "Wrigley Field, Chicago, IL, USA": "847f8a52-e5f3-4977-baa1-d3cf9d4469fa",
         "Wrigley Field - Chicago - IL": "847f8a52-e5f3-4977-baa1-d3cf9d4469fa",
+        "Wrigley Field - Chicago - Illinois - 60613": "847f8a52-e5f3-4977-baa1-d3cf9d4469fa",
         "Veterans Memorial Stadium - Quincy, Massachusetts - United States": "71734c2d-5d49-4c4d-b7ce-b37cad804ac7",
         "City Stadium": "ba47ff55-1391-498e-9e61-ff8d9273335a",
         "IG Field - Winnipeg - MB": "eb7bb413-11ac-4cec-b4fb-09f2822d4bef",
@@ -12372,6 +12394,7 @@
         "Nelson Mandela Bay Stadium - Gqeberha": "a0a9b2b3-9e95-4bf9-b8a9-f1cebd5ae506",
         "Nelson Mandela Bay Stadium - Port Elizabeth": "a0a9b2b3-9e95-4bf9-b8a9-f1cebd5ae506",
         "Barcelona, Spain": "0d6cdf40-f282-49fb-a5d6-3f0d82c5d5b6",
+        "Barcelona": "0d6cdf40-f282-49fb-a5d6-3f0d82c5d5b6",
         "Emirates Airline Park - Johannesburg": "7841cba0-d40b-4778-bd77-dc22e1243b0b",
         "Ellis Park - Johannesburg": "7841cba0-d40b-4778-bd77-dc22e1243b0b",
         "Globe Life Field - Arlington - Texas - 76011": "7beae26d-bff1-4e8d-8bfd-10999217c88a",
@@ -12464,6 +12487,11 @@
         "PNC Park": "abfae575-5541-4ef0-ac03-19e87ba1f6e6",
         "Intrust Bank Arena, Wichita, Kansas": "2b25b256-8525-48ab-8c1d-3fe76e00fe63",
         "INTRUST Bank Arena - Wichita - KS - 67278": "2b25b256-8525-48ab-8c1d-3fe76e00fe63",
-        "Fritz-Walter Stadion - Kaiserslautern": "8bbc5245-544d-4e2a-9d1e-a9ab51969495"
+        "Fritz-Walter Stadion - Kaiserslautern": "8bbc5245-544d-4e2a-9d1e-a9ab51969495",
+        "Waldstadion - Frankfurt": "2fac0984-7e2d-402c-a1e9-7cd884584584",
+        "Cleveland, Ohio": "e34545b3-7c76-4b4e-8014-d63b136133d4",
+        "Cleveland, Ohio, United States": "e34545b3-7c76-4b4e-8014-d63b136133d4",
+        "Cleveland, OH, USA": "e34545b3-7c76-4b4e-8014-d63b136133d4",
+        "Cleveland": "e34545b3-7c76-4b4e-8014-d63b136133d4"
     }
 }

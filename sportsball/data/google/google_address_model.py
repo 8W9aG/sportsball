@@ -949,15 +949,6 @@ DAYTON = SportsballGeocodeTuple(
     housenumber="",
     country="USA",
 )
-CLEVELAND = SportsballGeocodeTuple(
-    city="Cleveland",
-    state="OH",
-    postal="",
-    lat=41.499167,
-    lng=-81.694722,
-    housenumber="",
-    country="USA",
-)
 NATCHITOCHES = SportsballGeocodeTuple(
     city="Natchitoches",
     state="LA",
@@ -3666,7 +3657,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Cleveland, Ohio": CLEVELAND,
     "Chase Athletic Center, Smithfield, Rhode Island": CHASE_ATHLETIC_CENTER,
     "Murphy Center, Murfreesboro, Tennessee": MURPHY_ATHELTIC_CENTER,
     "Chesapeake Employers Insurance Arena, Baltimore, Maryland": CHESAPEAKE_ENERGY_ARENA,
@@ -8801,7 +8791,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="Russia",
     ),
     "Dayton, Ohio, United States": DAYTON,
-    "Cleveland, Ohio, United States": CLEVELAND,
     "Valhalla, New York, United States": SportsballGeocodeTuple(
         city="Valhalla",
         state="NY",
@@ -10565,7 +10554,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Cleveland, OH, USA": CLEVELAND,
     "Sunnyvale, TX, USA": SportsballGeocodeTuple(
         city="Sunnyvale",
         state="TX",
