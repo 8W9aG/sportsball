@@ -2487,15 +2487,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="500",
         country="USA",
     ),
-    "Mizzou Arena, Columbia, Missouri": SportsballGeocodeTuple(
-        city="Columbia",
-        state="MO",
-        postal="65211",
-        lat=38.93237,
-        lng=-92.33303,
-        housenumber="1",
-        country="USA",
-    ),
     "Johnson Coliseum, Huntsville, Texas": SportsballGeocodeTuple(
         city="Huntsville",
         state="TX",

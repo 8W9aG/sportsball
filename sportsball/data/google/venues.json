@@ -10429,6 +10429,46 @@
             "housenumber": "",
             "country": "USA",
             "type": "venue"
+        },
+        "8e4ee74c-661d-48df-8064-9890a09b2190": {
+            "city": "Hamburg",
+            "state": "",
+            "postal": "22525",
+            "lat": 32.783333,
+            "lng": -79.931944,
+            "housenumber": "7",
+            "country": "Germany",
+            "type": "venue"
+        },
+        "e62a6f6d-47d2-4034-b337-c1a40025c4ba": {
+            "city": "Columbia",
+            "state": "MO",
+            "postal": "65211",
+            "lat": 38.93237,
+            "lng": -92.33303,
+            "housenumber": "1",
+            "country": "USA",
+            "type": "venue"
+        },
+        "e72e2bfb-7a27-4d7c-bfd2-68c820477ecf": {
+            "city": "Independence",
+            "state": "MO",
+            "postal": "",
+            "lat": 39.039128,
+            "lng": -94.35756,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
+        },
+        "e7cb5ce3-e80a-445f-ba8a-c39bc763acb5": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 42.55,
+            "lng": 1.583333,
+            "housenumber": "",
+            "country": "Andorra",
+            "type": "country"
         }
     },
     "searches": {
@@ -10785,6 +10825,7 @@
         "American Family Field": "a2e9a49f-cbc1-451f-94f9-56bb224ed222",
         "American Family Field, Milwaukee, WI, USA": "a2e9a49f-cbc1-451f-94f9-56bb224ed222",
         "American Family Fields of Phoenix - Phoenix - Arizona - 85099": "a2e9a49f-cbc1-451f-94f9-56bb224ed222",
+        "American Family Field - Milwaukee - Wisconsin - 53214": "a2e9a49f-cbc1-451f-94f9-56bb224ed222",
         "Arden St - Australia": "74032078-1b05-45cb-9d36-8e30e04488e0",
         "Vitality Stadium, Bournemouth, England": "d7467392-c862-4fad-804a-8c6df019768e",
         "Vitality Stadium - Bournemouth": "d7467392-c862-4fad-804a-8c6df019768e",
@@ -11424,6 +11465,7 @@
         "Cincinnati Masters": "c3df04e6-4005-4362-b73f-910af8b0ff14",
         "Razorback Stadium - Fayetteville - AR - 72701": "e37c44da-f154-4782-8eee-914f655f45d4",
         "Boleyn Ground, London, England": "2cef23d8-8bd7-4a63-83b9-542903140699",
+        "Boleyn Ground - London": "2cef23d8-8bd7-4a63-83b9-542903140699",
         "Waldo Stadium - Kalamazoo - MI - 49008": "bcae4326-1f01-44b2-83d2-619c7e1326b5",
         "Waldo Stadium": "bcae4326-1f01-44b2-83d2-619c7e1326b5",
         "InfoCision Stadium - Akron - OH - 44304": "182e29bd-212b-412f-96dc-7d81e1073a22",
@@ -12022,6 +12064,7 @@
         "Marriott Center, Provo, Utah": "c1372985-6851-4ac9-b12b-5eb409da55bd",
         "BUL": "99959c0b-5bfb-4651-b4e6-0ebee71833a4",
         "McCamish Pavilion, Atlanta, Georgia": "5030cbaf-7343-4bee-86a6-150f92b09998",
+        "McCamish Pavilion, Atlanta, GA, USA": "5030cbaf-7343-4bee-86a6-150f92b09998",
         "Alexander Memorial Coliseum, Atlanta, Georgia": "5030cbaf-7343-4bee-86a6-150f92b09998",
         "The Hawthorns, West Bromwich, England": "5874e6a6-dddd-4c94-8381-48046200614b",
         "The Hawthorns - West Bromwich": "5874e6a6-dddd-4c94-8381-48046200614b",
@@ -12413,6 +12456,7 @@
         "Matthew Knight Arena, Eugene, Oregon": "364a25d1-f58c-4f50-9abd-bbbde4972305",
         "Queens Club": "22b94687-a1af-477d-8eed-e420e4daac19",
         "Munich, Germany": "c84bc94b-7cbb-4b36-af63-888e64bdbd8e",
+        "Munich": "c84bc94b-7cbb-4b36-af63-888e64bdbd8e",
         "Hands Oval, Bunbury": "2c122f56-2308-477d-a8b8-01594550c05a",
         "Hands Oval - Australia": "2c122f56-2308-477d-a8b8-01594550c05a",
         "Hands Oval": "2c122f56-2308-477d-a8b8-01594550c05a",
@@ -12564,6 +12608,10 @@
         "Angel of the Winds Arena - Everett - WA": "cbb64288-51a8-463b-9808-38f898d1f918",
         "Charleston, South Carolina": "90510be4-e508-44e9-90a9-1a43af3036ad",
         "Charleston, South Carolina, United States": "90510be4-e508-44e9-90a9-1a43af3036ad",
-        "Charleston, USA": "90510be4-e508-44e9-90a9-1a43af3036ad"
+        "Charleston, USA": "90510be4-e508-44e9-90a9-1a43af3036ad",
+        "AOL-Arena - Hamburg": "8e4ee74c-661d-48df-8064-9890a09b2190",
+        "Mizzou Arena - Columbia - MO": "e62a6f6d-47d2-4034-b337-c1a40025c4ba",
+        "Cable Dahmer Arena - Independence - MO - 64058": "e72e2bfb-7a27-4d7c-bfd2-68c820477ecf",
+        "AND": "e7cb5ce3-e80a-445f-ba8a-c39bc763acb5"
     }
 }

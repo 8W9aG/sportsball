@@ -7,7 +7,6 @@ from ...league import League
 from ..aussportsbetting.nfl_aussportsbetting_league_model import \
     NFLAusSportsBettingLeagueModel
 from ..espn.nfl_espn_league_model import NFLESPNLeagueModel
-from ..oddsportal.nfl_oddsportal_league_model import NFLOddsPortalLeagueModel
 
 LOS_ANGELES_RAMS = "135907"
 CHICAGO_BEARS = "134938"
@@ -396,7 +395,7 @@ class NFLCombinedLeagueModel(CombinedLeagueModel):
             [
                 NFLESPNLeagueModel(session, position=0),
                 NFLAusSportsBettingLeagueModel(session, position=1),
-                NFLOddsPortalLeagueModel(session, position=2),
+                # NFLOddsPortalLeagueModel(session, position=2),
                 # NFLSportsDBLeagueModel(session, position=3),
                 # NFLSportsReferenceLeagueModel(session, position=4),
             ],
