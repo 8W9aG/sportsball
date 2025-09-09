@@ -10339,6 +10339,16 @@
             "housenumber": "500",
             "country": "USA",
             "type": "venue"
+        },
+        "8bbc5245-544d-4e2a-9d1e-a9ab51969495": {
+            "city": "Kaiserslautern",
+            "state": "Rhineland-Palatinate",
+            "postal": "",
+            "lat": 49.434444,
+            "lng": 7.776111,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "venue"
         }
     },
     "searches": {
@@ -10831,6 +10841,7 @@
         "Citi Field - Flushing, New York - United States": "a0e1e4f5-cdf7-48f3-9402-ad4258d6ffc1",
         "Citi Field, New York, NY, USA": "a0e1e4f5-cdf7-48f3-9402-ad4258d6ffc1",
         "Citi Field": "a0e1e4f5-cdf7-48f3-9402-ad4258d6ffc1",
+        "Citi Field - Queens - New York - 11368": "a0e1e4f5-cdf7-48f3-9402-ad4258d6ffc1",
         "Southeastern Oklahoma State University": "dc1c17a2-04d7-4cc5-8173-f1bff3d35b9e",
         "Southeastern Oklahoma College": "dc1c17a2-04d7-4cc5-8173-f1bff3d35b9e",
         "Yale Bowl": "e21b9864-290c-4b66-b1dd-54dc819689a8",
@@ -12452,6 +12463,7 @@
         "PNC Park, Pittsburgh, PA, USA": "abfae575-5541-4ef0-ac03-19e87ba1f6e6",
         "PNC Park": "abfae575-5541-4ef0-ac03-19e87ba1f6e6",
         "Intrust Bank Arena, Wichita, Kansas": "2b25b256-8525-48ab-8c1d-3fe76e00fe63",
-        "INTRUST Bank Arena - Wichita - KS - 67278": "2b25b256-8525-48ab-8c1d-3fe76e00fe63"
+        "INTRUST Bank Arena - Wichita - KS - 67278": "2b25b256-8525-48ab-8c1d-3fe76e00fe63",
+        "Fritz-Walter Stadion - Kaiserslautern": "8bbc5245-544d-4e2a-9d1e-a9ab51969495"
     }
 }
