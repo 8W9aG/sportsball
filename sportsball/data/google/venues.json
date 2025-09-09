@@ -10239,6 +10239,66 @@
             "housenumber": "",
             "country": "Indonesia",
             "type": "country"
+        },
+        "c644192d-4e46-4bf9-9c6c-71d9457b12b0": {
+            "city": "Marrakesh",
+            "state": "",
+            "postal": "",
+            "lat": 31.63,
+            "lng": -8.008889,
+            "housenumber": "",
+            "country": "Morocco",
+            "type": "city"
+        },
+        "e6ec1b86-886a-4b1b-9e2d-6e134c242bc5": {
+            "city": "Gelsenkirchen",
+            "state": "North Rhine-Westphalia",
+            "postal": "",
+            "lat": 51.554444,
+            "lng": 7.0675,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "venue"
+        },
+        "b55dccf9-98fc-494d-a27e-848b61ce8554": {
+            "city": "Baltimore",
+            "state": "MD",
+            "postal": "",
+            "lat": 39.2838194,
+            "lng": -76.6242531,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
+        },
+        "38ad2776-1fe3-4808-b1be-d03b8db9bad3": {
+            "city": "Durham",
+            "state": "NC",
+            "postal": "",
+            "lat": 43.138611,
+            "lng": -70.939722,
+            "housenumber": "145",
+            "country": "USA",
+            "type": "venue"
+        },
+        "aadc0318-c196-498e-901c-4879a0fb970a": {
+            "city": "Melbourne",
+            "state": "VIC",
+            "postal": "3004",
+            "lat": -37.821667,
+            "lng": 144.978333,
+            "housenumber": "200",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "1e3281ef-1cb0-4a45-b893-f23dc59bbc3b": {
+            "city": "Bistrița",
+            "state": "",
+            "postal": "",
+            "lat": 47.133333,
+            "lng": 24.5,
+            "housenumber": "",
+            "country": "Romania",
+            "type": "city"
         }
     },
     "searches": {
@@ -11258,6 +11318,7 @@
         "Toyota Stadium - Frisco - TX - 75033": "28d0ba05-1a9c-405b-af54-8ec8b00576c5",
         "Toyota Stadium, Frisco, TX, USA": "28d0ba05-1a9c-405b-af54-8ec8b00576c5",
         "White Hart Lane, London, England": "d886c1f3-0749-40ad-ad41-7c877988a2bc",
+        "White Hart Lane - London": "d886c1f3-0749-40ad-ad41-7c877988a2bc",
         "Chase Field - Phoenix - AZ - 85004": "59a4d697-b2f5-4bfd-8489-287029cc2f9a",
         "Chase Field": "59a4d697-b2f5-4bfd-8489-287029cc2f9a",
         "Chase Field, Phoenix, AZ, USA": "59a4d697-b2f5-4bfd-8489-287029cc2f9a",
@@ -11635,6 +11696,7 @@
         "Gstaad": "c221a73f-a3b9-4965-9fd1-1bb12fad11bc",
         "Sojka Pavilion, Lewisburg, Pennsylvania": "f3935439-e1bb-4484-a270-d0d289e12ad2",
         "Hinkle Fieldhouse, Indianapolis, Indiana": "712a8399-f4ff-482a-8568-337dfa751d64",
+        "Hinkle Fieldhouse - Indianapolis - IN": "712a8399-f4ff-482a-8568-337dfa751d64",
         "Bell Centre - Montreal - QC": "5c191950-dc0b-4162-8dab-5e05f92e42e9",
         "Bell Centre": "5c191950-dc0b-4162-8dab-5e05f92e42e9",
         "Centre Bell - Montreal, Quebec, Canada - Canada": "5c191950-dc0b-4162-8dab-5e05f92e42e9",
@@ -12332,6 +12394,15 @@
         "Hanson Field - Macomb - IL - 61455": "6c918e98-21eb-4852-82c2-17f209f5ce85",
         "Joe Thornton Community Centre - St. Thomas - ON": "877c8e74-d074-412b-848c-cb615eafc53c",
         "Westchester County Center, New York, NY, USA": "c3b15f79-c34c-4ae6-b8c2-dd3f75f4aacd",
-        "INA": "0bd02c4d-6925-4121-a6c3-3e83d3dfcda8"
+        "INA": "0bd02c4d-6925-4121-a6c3-3e83d3dfcda8",
+        "Marrakech, Morocco": "c644192d-4e46-4bf9-9c6c-71d9457b12b0",
+        "Arena AufSchalke - Gelsenkirchen": "e6ec1b86-886a-4b1b-9e2d-6e134c242bc5",
+        "Oriole Park at Camden Yards, Baltimore, MD, USA": "b55dccf9-98fc-494d-a27e-848b61ce8554",
+        "Oriole Park at Camden Yards": "b55dccf9-98fc-494d-a27e-848b61ce8554",
+        "Oriole Park at Camden Yards - Baltimore, MD, USA - United States": "b55dccf9-98fc-494d-a27e-848b61ce8554",
+        "Oriole Park at Camden Yards - Baltimore - Maryland - 21201": "b55dccf9-98fc-494d-a27e-848b61ce8554",
+        "Wildcat Stadium (NH) - Durham - NH - 03824": "38ad2776-1fe3-4808-b1be-d03b8db9bad3",
+        "Rod Laver Arena - Melbourne - Victoria": "aadc0318-c196-498e-901c-4879a0fb970a",
+        "ITF Bistrita": "1e3281ef-1cb0-4a45-b893-f23dc59bbc3b"
     }
 }

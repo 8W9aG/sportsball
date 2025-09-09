@@ -2065,15 +2065,6 @@ TSONGAS_CENTER = SportsballGeocodeTuple(
     housenumber="300",
     country="USA",
 )
-ORIOLE_PARK = SportsballGeocodeTuple(
-    city="Baltimore",
-    state="MD",
-    postal="",
-    lat=39.2838194,
-    lng=-76.6242531,
-    housenumber="",
-    country="USA",
-)
 LAWRENCE_JOEL_VETERANS_MEMORIAL_COLISEUM = SportsballGeocodeTuple(
     city="Winston-Salem",
     state="NC",
@@ -4073,7 +4064,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="China",
     ),
-    "Oriole Park at Camden Yards, Baltimore, MD, USA": ORIOLE_PARK,
     "ESPN Wide World of Sports Complex, Bay Lake, FL, USA": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
     "Visa Athletic Center, Orlando, FL, USA": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
     "The Arena (WWOS), Orlando, FL, USA": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
@@ -16640,7 +16630,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Oriole Park at Camden Yards": ORIOLE_PARK,
     "Ohio University": SportsballGeocodeTuple(
         city="Athens",
         state="OH",
@@ -17106,7 +17095,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="1430",
         country="USA",
     ),
-    "Oriole Park at Camden Yards - Baltimore, MD, USA - United States": ORIOLE_PARK,
     "Bucknell University": SportsballGeocodeTuple(
         city="Lewisburg",
         state="PA",
