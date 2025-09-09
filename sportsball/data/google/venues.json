@@ -10469,6 +10469,36 @@
             "housenumber": "",
             "country": "Andorra",
             "type": "country"
+        },
+        "60319930-ee31-4841-b278-5e27b0071010": {
+            "city": "Stuttgart",
+            "state": "Baden-Württemberg",
+            "postal": "",
+            "lat": 48.792222,
+            "lng": 9.231944,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "venue"
+        },
+        "c2085ecc-779c-426a-9413-7fb50b9ed1aa": {
+            "city": "Bloomington",
+            "state": "IN",
+            "postal": "47408",
+            "lat": 39.1808334,
+            "lng": -86.522222,
+            "housenumber": "1001",
+            "country": "USA",
+            "type": "venue"
+        },
+        "6dfe969e-ea34-4139-bd16-a6fe17f4517f": {
+            "city": "Saskatoon",
+            "state": "SK",
+            "postal": "",
+            "lat": 52.139722,
+            "lng": -106.686111,
+            "housenumber": "",
+            "country": "Canada",
+            "type": "city"
         }
     },
     "searches": {
@@ -10890,6 +10920,7 @@
         "Yankee Stadium - Bronx, New York, USA - United States": "41e253f5-9197-4168-8970-cd35f5ba4562",
         "Yankee Stadium III": "41e253f5-9197-4168-8970-cd35f5ba4562",
         "Yankee Stadium - Bronx - NY - 10451": "41e253f5-9197-4168-8970-cd35f5ba4562",
+        "Yankee Stadium - Bronx - New York - 10451": "41e253f5-9197-4168-8970-cd35f5ba4562",
         "Euroa - Australia": "d2ee3c9d-140e-498c-aaf5-8e7d547c5cbc",
         "Aloha Stadium - Honolulu - HI - 96818": "9961d10c-97bb-4d6c-a89b-544a6e001c7e",
         "Aloha Stadium, Honolulu, HI, USA": "9961d10c-97bb-4d6c-a89b-544a6e001c7e",
@@ -11539,6 +11570,7 @@
         "Honda Center, Anaheim, CA, USA": "a75443bd-80b7-45e1-b3c5-419bca5e1707",
         "Honda Center": "a75443bd-80b7-45e1-b3c5-419bca5e1707",
         "Honda Center - Anaheim - CA - 92899": "a75443bd-80b7-45e1-b3c5-419bca5e1707",
+        "Honda Center - Anaheim - CA": "a75443bd-80b7-45e1-b3c5-419bca5e1707",
         "Floyd Casey Stadium - Waco - TX - 76798": "0edeccbf-fa0d-48be-892d-624f395af58e",
         "Floyd Casey Stadium": "0edeccbf-fa0d-48be-892d-624f395af58e",
         "ESP": "9db48e0c-538f-4eb5-85a0-cae7567463cf",
@@ -12523,6 +12555,7 @@
         "Houston, Texas": "6253fd77-dd25-4eed-8aa7-8326e0b99cea",
         "Houston, Texas, United States": "6253fd77-dd25-4eed-8aa7-8326e0b99cea",
         "Houston, TX, USA": "6253fd77-dd25-4eed-8aa7-8326e0b99cea",
+        "Houston": "6253fd77-dd25-4eed-8aa7-8326e0b99cea",
         "Peter Mokaba Stadium - Polokwane": "859ed97c-340f-4f75-87e7-a5b9ddc06a85",
         "GRE": "9b35e126-0eaa-4f45-b3ec-06ffafa22543",
         "Moses Mabhida Stadium - Durban": "1c49e08a-0f9d-4dac-bf33-4d3ae9e639c6",
@@ -12617,6 +12650,9 @@
         "AOL-Arena - Hamburg": "8e4ee74c-661d-48df-8064-9890a09b2190",
         "Mizzou Arena - Columbia - MO": "e62a6f6d-47d2-4034-b337-c1a40025c4ba",
         "Cable Dahmer Arena - Independence - MO - 64058": "e72e2bfb-7a27-4d7c-bfd2-68c820477ecf",
-        "AND": "e7cb5ce3-e80a-445f-ba8a-c39bc763acb5"
+        "AND": "e7cb5ce3-e80a-445f-ba8a-c39bc763acb5",
+        "Gottlieb-Daimler Stadion - Stuttgart": "60319930-ee31-4841-b278-5e27b0071010",
+        "Simon Skjodt Assembly Hall - Bloomington - IN": "c2085ecc-779c-426a-9413-7fb50b9ed1aa",
+        "ITF Saskatoon": "6dfe969e-ea34-4139-bd16-a6fe17f4517f"
     }
 }

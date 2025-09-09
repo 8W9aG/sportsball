@@ -22,6 +22,7 @@ class Position(StrEnum):
     HALF_BACK_FLANK_RIGHT = "HBFR"
     RUCK_ROVER = "RR"
     RUCK = "R"
+    HALF_FORWARD_FLANK_LEFT = "HFFL"
 
 
 _POSITIONS = {str(x): x for x in Position}
