@@ -10729,6 +10729,26 @@
             "housenumber": "",
             "country": "Canada",
             "type": "venue"
+        },
+        "0c2eb8a4-df51-4e40-9d42-8c9904d9782f": {
+            "city": "Grand Forks",
+            "state": "ND",
+            "postal": "",
+            "lat": 47.911,
+            "lng": -97.091,
+            "housenumber": "1200",
+            "country": "USA",
+            "type": "venue"
+        },
+        "1f776e77-c531-4a47-a393-8bc72a49efac": {
+            "city": "Kashima",
+            "state": "Iribaki",
+            "postal": "",
+            "lat": 35.965639,
+            "lng": 140.644833,
+            "housenumber": "",
+            "country": "Japan",
+            "type": "city"
         }
     },
     "searches": {
@@ -12445,6 +12465,7 @@
         "Bryce Jordan Center, University Park, Pennsylvania": "08dd469e-ed95-4fb2-b1d1-1c9ee35a0f53",
         "Bryce Jordan Center - University Park, Pennsylvania - United States": "08dd469e-ed95-4fb2-b1d1-1c9ee35a0f53",
         "Alberton Oval": "11019cec-c086-40ab-9bbc-6a141ae4db70",
+        "Alberton Oval, Alberton, Australia": "11019cec-c086-40ab-9bbc-6a141ae4db70",
         "Mackey Arena, West Lafayette, Indiana": "9cac843a-760b-4055-9c9c-6bab374eb032",
         "Mackey Arena - West Lafayette - IN": "9cac843a-760b-4055-9c9c-6bab374eb032",
         "Crisler Arena, Ann Arbor, Michigan": "c60c9d7e-686e-4428-9e8c-9914209a6029",
@@ -12933,6 +12954,8 @@
         "Niigata Big Swan - Niigata": "281402fa-6861-4cfc-82cd-01d5ca6821e8",
         "Commonwealth Stadium - Edmonton, AB - Canada": "fc4c70d2-47e3-43da-bf56-94158ec491a6",
         "Commonwealth Stadium": "fc4c70d2-47e3-43da-bf56-94158ec491a6",
-        "Commonwealth Stadium - Edmonton - AB": "fc4c70d2-47e3-43da-bf56-94158ec491a6"
+        "Commonwealth Stadium - Edmonton - AB": "fc4c70d2-47e3-43da-bf56-94158ec491a6",
+        "Alerus Center - Grand Forks - ND - 58201": "0c2eb8a4-df51-4e40-9d42-8c9904d9782f",
+        "Ibaraki Kashima - Ibaraki": "1f776e77-c531-4a47-a393-8bc72a49efac"
     }
 }
