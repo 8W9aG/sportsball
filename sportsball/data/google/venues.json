@@ -10769,6 +10769,46 @@
             "housenumber": "",
             "country": "France",
             "type": "city"
+        },
+        "4ca6bf5d-6fbf-4d2d-ae03-0cc115408109": {
+            "city": "Washington",
+            "state": "DC",
+            "postal": "",
+            "lat": 38.904722,
+            "lng": -77.016389,
+            "housenumber": "",
+            "country": "USA",
+            "type": "city"
+        },
+        "4162639e-3c17-47d8-a45b-10fb84bc2428": {
+            "city": "Osaka",
+            "state": "",
+            "postal": "",
+            "lat": 34.614119,
+            "lng": 135.51845,
+            "housenumber": "",
+            "country": "Japan",
+            "type": "venue"
+        },
+        "e3b3e59e-23fe-4767-8fc3-d141ecac4140": {
+            "city": "Houston",
+            "state": "TX",
+            "postal": "",
+            "lat": 29.756944,
+            "lng": -95.355556,
+            "housenumber": "501",
+            "country": "USA",
+            "type": "venue"
+        },
+        "45203794-1531-407a-8082-0c77797aaa4b": {
+            "city": "Rabat",
+            "state": "",
+            "postal": "",
+            "lat": 34.020882,
+            "lng": -6.84165,
+            "housenumber": "",
+            "country": "Morocco",
+            "type": "city"
         }
     },
     "searches": {
@@ -10790,6 +10830,7 @@
         "Giants Stadium - New York - United States": "7b9c3f52-bb1a-43d9-b074-4b39f5ab12ef",
         "MetLife Stadium - East Rutherford, New Jersey - United States": "7b9c3f52-bb1a-43d9-b074-4b39f5ab12ef",
         "Giants Stadium, East Rutherford, NJ, USA": "7b9c3f52-bb1a-43d9-b074-4b39f5ab12ef",
+        "MetLife Stadium - East Rutherford - NJ": "7b9c3f52-bb1a-43d9-b074-4b39f5ab12ef",
         "Gillette Stadium": "3219c262-e48f-46bf-94fe-fb037f71dad8",
         "Foxboro Stadium, Foxborough, MA, USA": "3219c262-e48f-46bf-94fe-fb037f71dad8",
         "Acrisure Stadium": "5596c265-234f-40a0-8dab-88d5a7d91858",
@@ -11231,6 +11272,7 @@
         "The Dome at America's Center, St. Louis, MO, USA": "c28435ef-717b-4b46-b5c9-47c4fae983a8",
         "Moorabbin Oval - Australia": "f4c19842-a581-4155-a8c4-a7a978de141d",
         "RSEA Park": "f4c19842-a581-4155-a8c4-a7a978de141d",
+        "RSEA Park, Melbourne, Australia": "f4c19842-a581-4155-a8c4-a7a978de141d",
         "Khabarovsk, Russia": "a1698713-2b24-4079-b67f-c6ad496b0118",
         "Vanderbilt Stadium": "18891096-2374-4954-ac3d-83cd7a574c31",
         "Comerica Park, Detroit, MI, USA": "ac5fa64d-8d2d-40db-a66a-c16961e6af26",
@@ -11947,6 +11989,7 @@
         "McNeese College": "95786c20-641c-46b1-bdc4-2960e367a8af",
         "Pinnacle Bank Arena, Lincoln, Nebraska": "b0738ea1-7fda-42c9-b216-ce6f64708095",
         "Pinnacle Bank Arena - Lincoln, Nebraska - United States": "b0738ea1-7fda-42c9-b216-ce6f64708095",
+        "Pinnacle Bank Arena - Lincoln - NE": "b0738ea1-7fda-42c9-b216-ce6f64708095",
         "Kitzbuhel": "7f4c64fe-d863-4a46-8e6d-711109112e1e",
         "Kitzbuhel, Austria": "7f4c64fe-d863-4a46-8e6d-711109112e1e",
         "Welsh-Ryan Arena, Evanston, Illinois": "06a6ff22-fb8d-43da-aa7d-ca909e7cdad2",
@@ -12885,6 +12928,7 @@
         "Fankhauser Reserve": "f9b4356a-7507-4597-af46-3437df166422",
         "Aix En Provence CH": "aa4620f9-52ba-4445-a87d-01f02fd08a3a",
         "IMG Academy, Bradenton, FL, USA": "e9f71aae-33e6-40e0-ac3d-be8bbc75f46a",
+        "IMG Academy - Bradenton - FL": "e9f71aae-33e6-40e0-ac3d-be8bbc75f46a",
         "TUR": "155c210b-92ec-428a-bf85-b8d95667ba2e",
         "Ted Summerton Recreational Reserve": "3f943a98-04b3-4891-b103-d382b7fef672",
         "SUI": "be81be84-afa7-4684-b943-120916419f23",
@@ -12982,6 +13026,15 @@
         "Alerus Center - Grand Forks - ND - 58201": "0c2eb8a4-df51-4e40-9d42-8c9904d9782f",
         "Ibaraki Kashima - Ibaraki": "1f776e77-c531-4a47-a393-8bc72a49efac",
         "Doha, Qatar": "7e07f939-00f8-49e3-a588-9dfd5a9d688b",
-        "Saint-Malo, France": "e3edbdbf-271c-440d-8a55-565f31dc9f84"
+        "Saint-Malo, France": "e3edbdbf-271c-440d-8a55-565f31dc9f84",
+        "Washington, District of Columbia": "4ca6bf5d-6fbf-4d2d-ae03-0cc115408109",
+        "Washington, District of Columbia, United States": "4ca6bf5d-6fbf-4d2d-ae03-0cc115408109",
+        "Washington, USA": "4ca6bf5d-6fbf-4d2d-ae03-0cc115408109",
+        "Yanmar Stadium Nagai - Nagai": "4162639e-3c17-47d8-a45b-10fb84bc2428",
+        "Daikin Park, Houston, TX, USA": "e3b3e59e-23fe-4767-8fc3-d141ecac4140",
+        "Daikin Park": "e3b3e59e-23fe-4767-8fc3-d141ecac4140",
+        "Minute Maid Park": "e3b3e59e-23fe-4767-8fc3-d141ecac4140",
+        "Daikin Park - Houston - Texas - 77002": "e3b3e59e-23fe-4767-8fc3-d141ecac4140",
+        "Rabat, Morocco": "45203794-1531-407a-8082-0c77797aaa4b"
     }
 }

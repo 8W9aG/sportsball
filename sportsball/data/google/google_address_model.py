@@ -985,15 +985,6 @@ PENSACOLA = SportsballGeocodeTuple(
     housenumber="",
     country="USA",
 )
-WASHINGTON = SportsballGeocodeTuple(
-    city="Washington",
-    state="DC",
-    postal="",
-    lat=38.904722,
-    lng=-77.016389,
-    housenumber="",
-    country="USA",
-)
 JACKSON = SportsballGeocodeTuple(
     city="Jackson",
     state="MS",
@@ -1973,15 +1964,6 @@ BIRMINGHAM = SportsballGeocodeTuple(
     lat=33.5175,
     lng=-86.809444,
     housenumber="",
-    country="USA",
-)
-DAIKIN_PARK = SportsballGeocodeTuple(
-    city="Houston",
-    state="TX",
-    postal="",
-    lat=29.756944,
-    lng=-95.355556,
-    housenumber="501",
     country="USA",
 )
 TSONGAS_CENTER = SportsballGeocodeTuple(
@@ -4988,7 +4970,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Washington, District of Columbia": WASHINGTON,
     "New Britain, Connecticut": SportsballGeocodeTuple(
         city="New Britain",
         state="CT",
@@ -8794,7 +8775,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="Serbia",
     ),
-    "Washington, District of Columbia, United States": WASHINGTON,
     "Hoke, North Carolina, United States": SportsballGeocodeTuple(
         city="Hoke",
         state="NC",
@@ -15767,7 +15747,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="South Korea",
     ),
-    "Daikin Park, Houston, TX, USA": DAIKIN_PARK,
     "Louisiana State University": SportsballGeocodeTuple(
         city="Baton Rouge",
         state="LA",
@@ -16349,7 +16328,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Daikin Park": DAIKIN_PARK,
     "Western Kentucky University": SportsballGeocodeTuple(
         city="Bowling Green",
         state="KY",
@@ -16769,7 +16747,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "FLA Live Arena": FLA_LIVE_ARENA,
-    "Minute Maid Park": DAIKIN_PARK,
     "Liberty University": SportsballGeocodeTuple(
         city="Lynchburg",
         state="VA",
