@@ -1984,15 +1984,6 @@ BIRMINGHAM = SportsballGeocodeTuple(
     housenumber="",
     country="USA",
 )
-T_MOBILE_PARK = SportsballGeocodeTuple(
-    city="Seattle",
-    state="WA",
-    postal="",
-    lat=47.591,
-    lng=-122.333,
-    housenumber="1250",
-    country="USA",
-)
 DAIKIN_PARK = SportsballGeocodeTuple(
     city="Houston",
     state="TX",
@@ -12029,15 +12020,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="Canada",
     ),
-    "Montreal, Quebec, Canada": SportsballGeocodeTuple(
-        city="Montreal",
-        state="QC",
-        postal="",
-        lat=45.508889,
-        lng=-73.554167,
-        housenumber="",
-        country="Canada",
-    ),
     "Winnipeg, Manitoba, Canada": SportsballGeocodeTuple(
         city="Winnipeg",
         state="MB",
@@ -15776,7 +15758,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "T-Mobile Park, Seattle, WA, USA": T_MOBILE_PARK,
     "Virginia Beach, VA, United States": VIRGINIA_BEACH,
     "Johnstown, NY, United States": SportsballGeocodeTuple(
         city="Johnstown",
@@ -16362,7 +16343,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "T-Mobile Park": T_MOBILE_PARK,
     "Davidson College": SportsballGeocodeTuple(
         city="Davidson",
         state="NC",

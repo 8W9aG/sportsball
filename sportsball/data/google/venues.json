@@ -10619,6 +10619,56 @@
             "housenumber": "2401",
             "country": "USA",
             "type": "venue"
+        },
+        "724ca84a-d188-4d2f-bd25-1d2fcaa43bec": {
+            "city": "Seoul",
+            "state": "",
+            "postal": "",
+            "lat": 37.515889,
+            "lng": 127.07275,
+            "housenumber": "",
+            "country": "South Korea",
+            "type": "venue"
+        },
+        "18f55145-252a-43c6-b516-42e1eccab47e": {
+            "city": "Brookings",
+            "state": "SD",
+            "postal": "",
+            "lat": 44.321,
+            "lng": -96.78,
+            "housenumber": "1396",
+            "country": "USA",
+            "type": "venue"
+        },
+        "b10a2884-0e76-479a-854a-bd56f37e347f": {
+            "city": "Seattle",
+            "state": "WA",
+            "postal": "",
+            "lat": 47.591,
+            "lng": -122.333,
+            "housenumber": "1250",
+            "country": "USA",
+            "type": "venue"
+        },
+        "a97ca6b8-bf4a-4ae2-8fee-08a3afe16f7a": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "postal": "90015",
+            "lat": 34.039737,
+            "lng": -118.270293,
+            "housenumber": "1250",
+            "country": "USA",
+            "type": "venue"
+        },
+        "e47ac940-6efc-493d-ad6e-31aa8dab3a0e": {
+            "city": "Montreal",
+            "state": "QC",
+            "postal": "",
+            "lat": 45.508889,
+            "lng": -73.554167,
+            "housenumber": "",
+            "country": "Canada",
+            "type": "city"
         }
     },
     "searches": {
@@ -10795,6 +10845,7 @@
         "Accor Arena, Paris, France": "1f42a181-7ce3-4a8b-8b93-6dd590a9a360",
         "AccorArena": "1f42a181-7ce3-4a8b-8b93-6dd590a9a360",
         "Accor Arena - Paris": "1f42a181-7ce3-4a8b-8b93-6dd590a9a360",
+        "Bercy Arena - Paris": "1f42a181-7ce3-4a8b-8b93-6dd590a9a360",
         "Ford Field": "1099a24f-e376-4b5c-b635-240f260cd23b",
         "Ford Field - Detroit - MI - 48226": "1099a24f-e376-4b5c-b635-240f260cd23b",
         "Ford Field - Detroit, Michigan - United States": "1099a24f-e376-4b5c-b635-240f260cd23b",
@@ -10903,6 +10954,7 @@
         "Hard Rock Stadium, Miami Gardens, FL, USA": "dea3e07a-aeb2-41c7-83f5-867333d30315",
         "Guaranteed Rate Field, Chicago, IL, USA": "0faaad8b-0ca0-4cdf-b0e4-58a308e6c32c",
         "Guaranteed Rate Field": "0faaad8b-0ca0-4cdf-b0e4-58a308e6c32c",
+        "Rate Field - Chicago - Illinois - 60616": "0faaad8b-0ca0-4cdf-b0e4-58a308e6c32c",
         "Highmark Stadium - Orchard Park - NY - 14127": "f0fbd29e-33e8-44b9-b73d-6dda987a06ca",
         "Highmark Stadium - Orchard Park, New York - United States": "f0fbd29e-33e8-44b9-b73d-6dda987a06ca",
         "Highmark Stadium, Orchard Park, NY, USA": "f0fbd29e-33e8-44b9-b73d-6dda987a06ca",
@@ -12788,6 +12840,7 @@
         "Tucson Community Center, Tucson, Arizona": "1609b140-2f46-4659-98bd-c48a9bfd4376",
         "Oeiras, Portugal": "772a2570-9526-4697-bb6f-b79eb9dee6d9",
         "Bucharest, Romania": "866adcba-7e95-4081-acea-7ae3cc10b938",
+        "Bucharest": "866adcba-7e95-4081-acea-7ae3cc10b938",
         "Kobe Wing Stadium - Kobe": "c9233a0a-fd51-4653-a72e-0709baa480d9",
         "WiZink Center - Madrid": "f2790a30-bf2c-4521-b96b-65d574c1c121",
         "Scotiabank Centre - Halifax - NS": "a7e3bb50-6da2-4c0b-8458-9ba57cc506a6",
@@ -12800,6 +12853,14 @@
         "Mun-hak Stadium - Inchon": "9b911bf0-5e6b-4ea9-88ed-278373a699a8",
         "Progressive Field - Cleveland - Ohio - 44115": "d90b266b-ad36-4410-b25c-e39206884b88",
         "Progressive Field, Cleveland, OH, USA": "d90b266b-ad36-4410-b25c-e39206884b88",
-        "Progressive Field": "d90b266b-ad36-4410-b25c-e39206884b88"
+        "Progressive Field": "d90b266b-ad36-4410-b25c-e39206884b88",
+        "Seoul Stadium - Seoul": "724ca84a-d188-4d2f-bd25-1d2fcaa43bec",
+        "Dana J. Dykhouse Stadium - Brookings - SD - 57006": "18f55145-252a-43c6-b516-42e1eccab47e",
+        "T-Mobile Park - Seattle - WA": "b10a2884-0e76-479a-854a-bd56f37e347f",
+        "T-Mobile Park, Seattle, WA, USA": "b10a2884-0e76-479a-854a-bd56f37e347f",
+        "T-Mobile Park": "b10a2884-0e76-479a-854a-bd56f37e347f",
+        "Los Angeles Convention Center - Los Angeles - CA": "a97ca6b8-bf4a-4ae2-8fee-08a3afe16f7a",
+        "Montreal, Quebec, Canada": "e47ac940-6efc-493d-ad6e-31aa8dab3a0e",
+        "Montreal": "e47ac940-6efc-493d-ad6e-31aa8dab3a0e"
     }
 }
