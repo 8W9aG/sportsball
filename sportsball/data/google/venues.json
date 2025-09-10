@@ -10559,6 +10559,16 @@
             "housenumber": "1800",
             "country": "Canada",
             "type": "venue"
+        },
+        "e18d4446-bf5c-4af4-8a8c-881316f93258": {
+            "city": "Seo-gu",
+            "state": "Gwangju",
+            "postal": "",
+            "lat": 35.133667,
+            "lng": 126.874861,
+            "housenumber": "",
+            "country": "South Korea",
+            "type": "venue"
         }
     },
     "searches": {
@@ -12359,6 +12369,7 @@
         "Auburn University": "a3a7f05b-d2d8-4411-8d89-ee8f47fd4d44",
         "Auburn": "a3a7f05b-d2d8-4411-8d89-ee8f47fd4d44",
         "Fremantle Oval": "0c508a23-2456-4683-8f0e-7d7dbaaf97c4",
+        "Fremantle Oval, Perth, Australia": "0c508a23-2456-4683-8f0e-7d7dbaaf97c4",
         "Sheikh Zayed Cricket Stadium": "a6a48c5a-cced-4922-a63d-8c63fd5a6e66",
         "Sheikh Zayed Stadium, Abu Dhabi, United Arab Emirates": "a6a48c5a-cced-4922-a63d-8c63fd5a6e66",
         "HUN": "72d9f1da-5841-4b32-8c0c-9fd206900865",
@@ -12725,6 +12736,7 @@
         "Bucharest, Romania": "866adcba-7e95-4081-acea-7ae3cc10b938",
         "Kobe Wing Stadium - Kobe": "c9233a0a-fd51-4653-a72e-0709baa480d9",
         "WiZink Center - Madrid": "f2790a30-bf2c-4521-b96b-65d574c1c121",
-        "Scotiabank Centre - Halifax - NS": "a7e3bb50-6da2-4c0b-8458-9ba57cc506a6"
+        "Scotiabank Centre - Halifax - NS": "a7e3bb50-6da2-4c0b-8458-9ba57cc506a6",
+        "Gwangju Stadium - Kwangju": "e18d4446-bf5c-4af4-8a8c-881316f93258"
     }
 }

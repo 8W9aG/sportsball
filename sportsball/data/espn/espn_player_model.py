@@ -712,6 +712,7 @@ def _create_espn_player_model(
     second_chance_points = None
     fast_break_points = None
     team_rebounds = None
+    strikes = None
     if "statistics" in player:
         stats_url = player["statistics"]["$ref"]
         statistics_response = session.get(stats_url)
@@ -3137,6 +3138,8 @@ def _create_espn_player_model(
                             team_rebounds = more_interesting(
                                 team_rebounds, stat["value"]
                             )
+                        elif stat["name"] == "strikes":
+                            strikes = more_interesting(strikes, stat["value"])
                         else:
                             raise ValueError(
                                 f"Failed to account for statistic: {stat['name']} on {stats_url}"
@@ -3521,7 +3524,7 @@ def _create_espn_player_model(
         slg=None,
         ops=ops,
         pitches=pitches,
-        strikes=None,
+        strikes=strikes,
         win_probability_added=None,
         average_leverage_index=None,
         wpa_plus=None,
