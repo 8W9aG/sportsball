@@ -1993,15 +1993,6 @@ PROGRESSIVE_FIELD = SportsballGeocodeTuple(
     housenumber="2401",
     country="USA",
 )
-COORS_FIELD = SportsballGeocodeTuple(
-    city="Denver",
-    state="CO",
-    postal="",
-    lat=39.756111,
-    lng=-104.994167,
-    housenumber="2001",
-    country="USA",
-)
 T_MOBILE_PARK = SportsballGeocodeTuple(
     city="Seattle",
     state="WA",
@@ -15844,7 +15835,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="South Korea",
     ),
     "Daikin Park, Houston, TX, USA": DAIKIN_PARK,
-    "Coors Field, Denver, CO, USA": COORS_FIELD,
     "Louisiana State University": SportsballGeocodeTuple(
         city="Baton Rouge",
         state="LA",
@@ -16311,7 +16301,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Progressive Field": PROGRESSIVE_FIELD,
-    "Coors Field": COORS_FIELD,
     "University of Arkansas": SportsballGeocodeTuple(
         city="Fayetteville",
         state="AK",

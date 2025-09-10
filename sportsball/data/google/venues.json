@@ -10569,6 +10569,26 @@
             "housenumber": "",
             "country": "South Korea",
             "type": "venue"
+        },
+        "b518465f-3632-4d18-beae-a02e49bdb294": {
+            "city": "Rifu",
+            "state": "Miyagi",
+            "postal": "",
+            "lat": 38.335278,
+            "lng": 140.950556,
+            "housenumber": "",
+            "country": "Japan",
+            "type": "venue"
+        },
+        "c7d548c5-8f0d-4e5f-a0a2-ae03299b9745": {
+            "city": "Denver",
+            "state": "CO",
+            "postal": "",
+            "lat": 39.756111,
+            "lng": -104.994167,
+            "housenumber": "2001",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -10792,6 +10812,7 @@
         "Tottenham Hotspur Stadium, London, England": "b1e15bb5-ca65-4c0a-a5f4-c6477c392fef",
         "Legacy Arena - Birmingham, Alabama - United States": "a9e2fa02-4eb3-45c2-9663-f3bcaf567726",
         "Legacy Arena, Birmingham, Alabama": "a9e2fa02-4eb3-45c2-9663-f3bcaf567726",
+        "Legacy Arena at BJCC - Birmingham - AL": "a9e2fa02-4eb3-45c2-9663-f3bcaf567726",
         "Wembley Stadium": "83a236ad-19c2-46ed-9c72-3a14736c17cf",
         "Wembley Stadium - London": "83a236ad-19c2-46ed-9c72-3a14736c17cf",
         "Wembley Stadium - Wembley, London - International": "83a236ad-19c2-46ed-9c72-3a14736c17cf",
@@ -12737,6 +12758,10 @@
         "Kobe Wing Stadium - Kobe": "c9233a0a-fd51-4653-a72e-0709baa480d9",
         "WiZink Center - Madrid": "f2790a30-bf2c-4521-b96b-65d574c1c121",
         "Scotiabank Centre - Halifax - NS": "a7e3bb50-6da2-4c0b-8458-9ba57cc506a6",
-        "Gwangju Stadium - Kwangju": "e18d4446-bf5c-4af4-8a8c-881316f93258"
+        "Gwangju Stadium - Kwangju": "e18d4446-bf5c-4af4-8a8c-881316f93258",
+        "Miyagi Stadium - Rifu": "b518465f-3632-4d18-beae-a02e49bdb294",
+        "Coors Field, Denver, CO, USA": "c7d548c5-8f0d-4e5f-a0a2-ae03299b9745",
+        "Coors Field": "c7d548c5-8f0d-4e5f-a0a2-ae03299b9745",
+        "Coors Field - Denver - Colorado - 80205": "c7d548c5-8f0d-4e5f-a0a2-ae03299b9745"
     }
 }
