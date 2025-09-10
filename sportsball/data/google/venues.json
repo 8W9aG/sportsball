@@ -10749,6 +10749,26 @@
             "housenumber": "",
             "country": "Japan",
             "type": "city"
+        },
+        "7e07f939-00f8-49e3-a588-9dfd5a9d688b": {
+            "city": "Doha",
+            "state": "",
+            "postal": "",
+            "lat": 25.286667,
+            "lng": 51.533333,
+            "housenumber": "",
+            "country": "Qatar",
+            "type": "city"
+        },
+        "e3edbdbf-271c-440d-8a55-565f31dc9f84": {
+            "city": "Saint-Malo",
+            "state": "Brittany",
+            "postal": "",
+            "lat": 48.649444,
+            "lng": -2.026111,
+            "housenumber": "",
+            "country": "France",
+            "type": "city"
         }
     },
     "searches": {
@@ -10873,6 +10893,7 @@
         "Mexico City Arena - Mexico City - Mexico": "36dab08e-0823-479d-9022-a4c6ee6c3b08",
         "Mexico City Arena, Mexico City, Mexico": "36dab08e-0823-479d-9022-a4c6ee6c3b08",
         "Arena CDMX - Mexico City": "36dab08e-0823-479d-9022-a4c6ee6c3b08",
+        "Mexico City Arena - Mexico City": "36dab08e-0823-479d-9022-a4c6ee6c3b08",
         "La Salle University": "dee41f25-1309-40d8-a8e3-b7ee6b01cec0",
         "Allegiant Stadium": "8ca30336-3e75-42f8-bb46-0241fe1697f3",
         "Allegiant Stadium - Las Vegas - NV - 89118": "8ca30336-3e75-42f8-bb46-0241fe1697f3",
@@ -10908,6 +10929,7 @@
         "Raymond James Stadium, Tampa, FL, USA": "10af3d09-3070-42bb-8ab1-53e8014fa31c",
         "Sutter Health Park, Sacramento, CA, USA": "5eb492b6-8472-4691-94a7-36a30fb59f1e",
         "Sutter Health Park": "5eb492b6-8472-4691-94a7-36a30fb59f1e",
+        "Sutter Health Park - Sacramento - California": "5eb492b6-8472-4691-94a7-36a30fb59f1e",
         "Lambeau Field": "c086b3b8-857f-4bfb-a3a4-60acbbf07685",
         "Lambeau Field - Green Bay - WI - 54304": "c086b3b8-857f-4bfb-a3a4-60acbbf07685",
         "Lambeau Field - Green Bay, Wisconsin - United States": "c086b3b8-857f-4bfb-a3a4-60acbbf07685",
@@ -12045,6 +12067,8 @@
         "College Park Center, Arlington, TX, USA": "815a3094-5e7f-43d3-b38d-1c20453008d2",
         "Hammond Stadium - Fort Myers - Florida": "56b1e509-92a5-47e5-8f35-304a60d90c6f",
         "GCU Arena, Phoenix, Arizona": "b4fd745c-12cd-4de7-8d68-2c568eca74d4",
+        "Grand Canyon University Arena, Phoenix, Arizona": "b4fd745c-12cd-4de7-8d68-2c568eca74d4",
+        "Global Credit Union Arena - Phoenix - AZ": "b4fd745c-12cd-4de7-8d68-2c568eca74d4",
         "Spectrum Center - Charlotte - NC": "60d6f941-a10a-4146-99f4-0a97ddea9b91",
         "Spectrum Center, Charlotte, North Carolina": "60d6f941-a10a-4146-99f4-0a97ddea9b91",
         "Spectrum Center, Charlotte, NC, USA": "60d6f941-a10a-4146-99f4-0a97ddea9b91",
@@ -12956,6 +12980,8 @@
         "Commonwealth Stadium": "fc4c70d2-47e3-43da-bf56-94158ec491a6",
         "Commonwealth Stadium - Edmonton - AB": "fc4c70d2-47e3-43da-bf56-94158ec491a6",
         "Alerus Center - Grand Forks - ND - 58201": "0c2eb8a4-df51-4e40-9d42-8c9904d9782f",
-        "Ibaraki Kashima - Ibaraki": "1f776e77-c531-4a47-a393-8bc72a49efac"
+        "Ibaraki Kashima - Ibaraki": "1f776e77-c531-4a47-a393-8bc72a49efac",
+        "Doha, Qatar": "7e07f939-00f8-49e3-a588-9dfd5a9d688b",
+        "Saint-Malo, France": "e3edbdbf-271c-440d-8a55-565f31dc9f84"
     }
 }

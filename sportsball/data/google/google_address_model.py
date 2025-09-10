@@ -4233,15 +4233,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Grand Canyon University Arena, Phoenix, Arizona": SportsballGeocodeTuple(
-        city="Philadelphia",
-        state="PA",
-        postal="85017",
-        lat=33.510152,
-        lng=-112.128884,
-        housenumber="3300",
-        country="USA",
-    ),
     "Wolstein Center, Cleveland, Ohio": WOLSTEIN_CENTER,
     "Elmore Gymnasium, Normal, Alabama": ELMORE_GYMNASIUM,
     "Teague Special Events Center, Abilene, Texas": SportsballGeocodeTuple(

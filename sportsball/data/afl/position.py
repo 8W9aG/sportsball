@@ -38,5 +38,7 @@ def position_from_str(position_str: str) -> Position:
     if position is None:
         if position_str == "INT":
             return Position.INTERCHANGE
+        if position_str == "RK":
+            return Position.RUCK
         raise ValueError(f"Unrecognised position: {position_str}")
     return position
