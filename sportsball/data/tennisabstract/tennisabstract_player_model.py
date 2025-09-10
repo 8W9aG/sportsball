@@ -100,7 +100,8 @@ def _create_tennisabstract_player_model(
                     )
                 elif script_line.startswith("var dob = '"):
                     dob = script_line.split("var dob = '")[-1].split("';")[0].strip()
-                    birth_date = parse(dob)
+                    if dob:
+                        birth_date = parse(dob)
                 elif script_line.startswith("var photog = '"):
                     photog = (
                         script_line.split("var photog = '")[-1].split("';")[0].strip()

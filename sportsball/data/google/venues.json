@@ -10518,6 +10518,46 @@
             "lng": -9.316667,
             "housenumber": "",
             "country": "Portugal",
+            "type": "city"
+        },
+        "866adcba-7e95-4081-acea-7ae3cc10b938": {
+            "city": "Bucharest",
+            "state": "",
+            "postal": "",
+            "lat": 44.4325,
+            "lng": 26.103889,
+            "housenumber": "",
+            "country": "Romania",
+            "type": "city"
+        },
+        "c9233a0a-fd51-4653-a72e-0709baa480d9": {
+            "city": "Hyōgo-ku",
+            "state": "Kobe",
+            "postal": "",
+            "lat": 34.656667,
+            "lng": 135.168889,
+            "housenumber": "",
+            "country": "Japan",
+            "type": "venue"
+        },
+        "f2790a30-bf2c-4521-b96b-65d574c1c121": {
+            "city": "Madrid",
+            "state": "",
+            "postal": "",
+            "lat": 40.423889,
+            "lng": -3.671667,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue"
+        },
+        "a7e3bb50-6da2-4c0b-8458-9ba57cc506a6": {
+            "city": "Halifax",
+            "state": "NS",
+            "postal": "",
+            "lat": 44.648333,
+            "lng": -63.576667,
+            "housenumber": "1800",
+            "country": "Canada",
             "type": "venue"
         }
     },
@@ -10865,6 +10905,7 @@
         "Camping World Stadium, Orlando, FL, USA": "8e146665-d362-496f-af4c-3d55166e2968",
         "Target Field, Minneapolis, MN, USA": "acf65d25-2161-4d92-8153-fa345b470a26",
         "Target Field": "acf65d25-2161-4d92-8153-fa345b470a26",
+        "Target Field - Minneapolis - Minnesota - 55403": "acf65d25-2161-4d92-8153-fa345b470a26",
         "Estadio Azteca - Mexico City": "8cccf2e9-113e-4137-bd83-6612c806c58c",
         "Estadio Azteca, Mexico City, Mexico": "8cccf2e9-113e-4137-bd83-6612c806c58c",
         "Estadio Azteca - Tlalpan, Mexico City - Mexico": "8cccf2e9-113e-4137-bd83-6612c806c58c",
@@ -12680,6 +12721,10 @@
         "ITF Saskatoon": "6dfe969e-ea34-4139-bd16-a6fe17f4517f",
         "TCC Arena - Tucson - AZ - 85777": "1609b140-2f46-4659-98bd-c48a9bfd4376",
         "Tucson Community Center, Tucson, Arizona": "1609b140-2f46-4659-98bd-c48a9bfd4376",
-        "Oeiras, Portugal": "772a2570-9526-4697-bb6f-b79eb9dee6d9"
+        "Oeiras, Portugal": "772a2570-9526-4697-bb6f-b79eb9dee6d9",
+        "Bucharest, Romania": "866adcba-7e95-4081-acea-7ae3cc10b938",
+        "Kobe Wing Stadium - Kobe": "c9233a0a-fd51-4653-a72e-0709baa480d9",
+        "WiZink Center - Madrid": "f2790a30-bf2c-4521-b96b-65d574c1c121",
+        "Scotiabank Centre - Halifax - NS": "a7e3bb50-6da2-4c0b-8458-9ba57cc506a6"
     }
 }
