@@ -24,7 +24,7 @@ def _create_aflw_aflwstats_game_model(
     version: str,
 ) -> GameModel:
     o = urlparse(url)
-    season_year = o.path.split("/")[-1]
+    season_year = o.path.split("/")[-1].split("-")[0]
 
     response = session.get(url)
     response.raise_for_status()

@@ -10809,6 +10809,36 @@
             "housenumber": "",
             "country": "Morocco",
             "type": "city"
+        },
+        "2cc37a89-d98d-485b-a6f5-b53657d39d1b": {
+            "city": "Porto",
+            "state": "Norte",
+            "postal": "",
+            "lat": 41.15,
+            "lng": -8.610833,
+            "housenumber": "",
+            "country": "Portugal",
+            "type": "city"
+        },
+        "faae87a1-c8af-42be-b497-86c25334bcd5": {
+            "city": "Suwon",
+            "state": "",
+            "postal": "",
+            "lat": 37.286278,
+            "lng": 127.036889,
+            "housenumber": "456",
+            "country": "South Korea",
+            "type": "venue"
+        },
+        "fe68c567-4850-4007-9bbf-de3e6a74af69": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 35.0,
+            "lng": 103.0,
+            "housenumber": "",
+            "country": "China",
+            "type": "country"
         }
     },
     "searches": {
@@ -10877,6 +10907,7 @@
         "Petco Park - San Diego - CA - 92101": "12a7f917-294d-4750-9b50-b110ffb23172",
         "Petco Park, San Diego, California": "12a7f917-294d-4750-9b50-b110ffb23172",
         "Petco Park": "12a7f917-294d-4750-9b50-b110ffb23172",
+        "Petco Park - San Diego - California - 92101": "12a7f917-294d-4750-9b50-b110ffb23172",
         "Paycor Stadium": "d6652130-78e1-4e66-96d7-c67cff3b8f57",
         "Paul Brown Stadium": "d6652130-78e1-4e66-96d7-c67cff3b8f57",
         "Paycor Stadium - Cincinnati - OH - 45202": "d6652130-78e1-4e66-96d7-c67cff3b8f57",
@@ -11831,6 +11862,7 @@
         "Irvine, California": "10d2f789-48a3-4ccc-a117-1425413e1ffe",
         "Children's Mercy Park - Kansas City - KS - 66111": "c150cd5c-c845-46f6-9878-0805265544e0",
         "The Brick Community Stadium, Wigan, England": "d7cef3e9-37a6-48cf-a0c4-998ccb12fd1f",
+        "The Brick Community Stadium - Wigan": "d7cef3e9-37a6-48cf-a0c4-998ccb12fd1f",
         "Elliott T. Bowers Stadium - Huntsville - TX - 77340": "6f41f376-229b-4b2e-ab6c-231fc7ee60ad",
         "Signal Iduna Park - Dortmund - Germany": "250fe196-7b71-4471-a238-92d74f0e477b",
         "Signal Iduna Park - Dortmund": "250fe196-7b71-4471-a238-92d74f0e477b",
@@ -11951,6 +11983,7 @@
         "UWM Panther Arena - Milwaukee, Wisconsin - United States": "57b80240-7828-4e60-a0c9-f8176bfc1f7b",
         "CZE": "e726b0f0-e8f8-40db-9124-33bfb1fa2346",
         "Pauley Pavilion, Los Angeles, California": "28fa9429-ad14-47f1-8002-39a2bb2e1524",
+        "Pauley Pavilion - Los Angeles - CA": "28fa9429-ad14-47f1-8002-39a2bb2e1524",
         "DEN": "2b04d352-0e5a-474c-b5a5-558d7e8a174a",
         "Save Mart Center, Fresno, California": "b33be184-7836-4c39-82e1-a8d6b8e3e91c",
         "Save Mart Center - Fresno, California - United States": "b33be184-7836-4c39-82e1-a8d6b8e3e91c",
@@ -13035,6 +13068,9 @@
         "Daikin Park": "e3b3e59e-23fe-4767-8fc3-d141ecac4140",
         "Minute Maid Park": "e3b3e59e-23fe-4767-8fc3-d141ecac4140",
         "Daikin Park - Houston - Texas - 77002": "e3b3e59e-23fe-4767-8fc3-d141ecac4140",
-        "Rabat, Morocco": "45203794-1531-407a-8082-0c77797aaa4b"
+        "Rabat, Morocco": "45203794-1531-407a-8082-0c77797aaa4b",
+        "Porto CH": "2cc37a89-d98d-485b-a6f5-b53657d39d1b",
+        "Suwon Stadium - Suwon": "faae87a1-c8af-42be-b497-86c25334bcd5",
+        "CHN": "fe68c567-4850-4007-9bbf-de3e6a74af69"
     }
 }
