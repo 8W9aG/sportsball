@@ -10669,6 +10669,46 @@
             "housenumber": "",
             "country": "Canada",
             "type": "city"
+        },
+        "a024088b-3dda-49b8-8884-680ce521ae9a": {
+            "city": "Footscray",
+            "state": "VIC",
+            "postal": "",
+            "lat": -37.799166,
+            "lng": 144.886748,
+            "housenumber": "417",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "8eac1d55-d037-4900-9450-5a18e9c1810a": {
+            "city": "Daegu",
+            "state": "",
+            "postal": "",
+            "lat": 35.8297818,
+            "lng": 128.6901385,
+            "housenumber": "504",
+            "country": "South Korea",
+            "type": "venue"
+        },
+        "33fe35dc-fdfa-4c6c-9006-6be49d4f42a0": {
+            "city": "Atlanta",
+            "state": "GA",
+            "postal": "",
+            "lat": 33.89,
+            "lng": -84.468,
+            "housenumber": "755",
+            "country": "USA",
+            "type": "venue"
+        },
+        "b5c32258-fee5-4c84-9f62-86e7a028aa97": {
+            "city": "Staten Island",
+            "state": "NY",
+            "postal": "10301",
+            "lat": 40.614966,
+            "lng": -74.095729,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -12861,6 +12901,13 @@
         "T-Mobile Park": "b10a2884-0e76-479a-854a-bd56f37e347f",
         "Los Angeles Convention Center - Los Angeles - CA": "a97ca6b8-bf4a-4ae2-8fee-08a3afe16f7a",
         "Montreal, Quebec, Canada": "e47ac940-6efc-493d-ad6e-31aa8dab3a0e",
-        "Montreal": "e47ac940-6efc-493d-ad6e-31aa8dab3a0e"
+        "Montreal": "e47ac940-6efc-493d-ad6e-31aa8dab3a0e",
+        "Whitten Oval, Melbourne, Australia": "a024088b-3dda-49b8-8884-680ce521ae9a",
+        "Daegu Stadium - Daegu": "8eac1d55-d037-4900-9450-5a18e9c1810a",
+        "Truist Park - Atlanta - Georgia - 30339": "33fe35dc-fdfa-4c6c-9006-6be49d4f42a0",
+        "Truist Park, Atlanta, GA, USA": "33fe35dc-fdfa-4c6c-9006-6be49d4f42a0",
+        "Truist Park": "33fe35dc-fdfa-4c6c-9006-6be49d4f42a0",
+        "Spiro Sports Center - Staten Island - NY": "b5c32258-fee5-4c84-9f62-86e7a028aa97",
+        "Spiro Sports Center, Staten Island, New York": "b5c32258-fee5-4c84-9f62-86e7a028aa97"
     }
 }

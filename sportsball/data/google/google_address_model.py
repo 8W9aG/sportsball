@@ -1957,15 +1957,6 @@ VIRGINIA_BEACH = SportsballGeocodeTuple(
     housenumber="",
     country="USA",
 )
-TRUIST_PARK = SportsballGeocodeTuple(
-    city="Atlanta",
-    state="GA",
-    postal="",
-    lat=33.89,
-    lng=-84.468,
-    housenumber="755",
-    country="USA",
-)
 CORPUS_CHRISTI = SportsballGeocodeTuple(
     city="Corpus Christi",
     state="TX",
@@ -2935,15 +2926,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         lat=39.951411,
         lng=-75.188606,
         housenumber="235",
-        country="USA",
-    ),
-    "Spiro Sports Center, Staten Island, New York": SportsballGeocodeTuple(
-        city="Staten Island",
-        state="NY",
-        postal="10301",
-        lat=40.614966,
-        lng=-74.095729,
-        housenumber="",
         country="USA",
     ),
     "Pizzitola Sports Center, Providence, Rhode Island": SportsballGeocodeTuple(
@@ -13317,7 +13299,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Truist Park, Atlanta, GA, USA": TRUIST_PARK,
     "South Carolina State College": SportsballGeocodeTuple(
         city="Orangeburg",
         state="SC",
@@ -15834,7 +15815,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Truist Park": TRUIST_PARK,
     "Riga, Latvia": SportsballGeocodeTuple(
         city="Riga",
         state="",
