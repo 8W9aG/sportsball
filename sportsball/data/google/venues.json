@@ -10709,6 +10709,26 @@
             "housenumber": "",
             "country": "USA",
             "type": "venue"
+        },
+        "281402fa-6861-4cfc-82cd-01d5ca6821e8": {
+            "city": "Niigata",
+            "state": "",
+            "postal": "",
+            "lat": 37.8825,
+            "lng": 139.059167,
+            "housenumber": "",
+            "country": "Japan",
+            "type": "venue"
+        },
+        "fc4c70d2-47e3-43da-bf56-94158ec491a6": {
+            "city": "Edmonton",
+            "state": "AB",
+            "postal": "",
+            "lat": 53.558333,
+            "lng": -113.475,
+            "housenumber": "",
+            "country": "Canada",
+            "type": "venue"
         }
     },
     "searches": {
@@ -12899,6 +12919,7 @@
         "T-Mobile Park - Seattle - WA": "b10a2884-0e76-479a-854a-bd56f37e347f",
         "T-Mobile Park, Seattle, WA, USA": "b10a2884-0e76-479a-854a-bd56f37e347f",
         "T-Mobile Park": "b10a2884-0e76-479a-854a-bd56f37e347f",
+        "T-Mobile Park - Seattle - Washington - 98134": "b10a2884-0e76-479a-854a-bd56f37e347f",
         "Los Angeles Convention Center - Los Angeles - CA": "a97ca6b8-bf4a-4ae2-8fee-08a3afe16f7a",
         "Montreal, Quebec, Canada": "e47ac940-6efc-493d-ad6e-31aa8dab3a0e",
         "Montreal": "e47ac940-6efc-493d-ad6e-31aa8dab3a0e",
@@ -12908,6 +12929,10 @@
         "Truist Park, Atlanta, GA, USA": "33fe35dc-fdfa-4c6c-9006-6be49d4f42a0",
         "Truist Park": "33fe35dc-fdfa-4c6c-9006-6be49d4f42a0",
         "Spiro Sports Center - Staten Island - NY": "b5c32258-fee5-4c84-9f62-86e7a028aa97",
-        "Spiro Sports Center, Staten Island, New York": "b5c32258-fee5-4c84-9f62-86e7a028aa97"
+        "Spiro Sports Center, Staten Island, New York": "b5c32258-fee5-4c84-9f62-86e7a028aa97",
+        "Niigata Big Swan - Niigata": "281402fa-6861-4cfc-82cd-01d5ca6821e8",
+        "Commonwealth Stadium - Edmonton, AB - Canada": "fc4c70d2-47e3-43da-bf56-94158ec491a6",
+        "Commonwealth Stadium": "fc4c70d2-47e3-43da-bf56-94158ec491a6",
+        "Commonwealth Stadium - Edmonton - AB": "fc4c70d2-47e3-43da-bf56-94158ec491a6"
     }
 }

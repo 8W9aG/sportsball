@@ -2137,15 +2137,6 @@ MAGNESS_ARENA = SportsballGeocodeTuple(
     housenumber="2240",
     country="USA",
 )
-COMMONWEALTH_STADIUM = SportsballGeocodeTuple(
-    city="Edmonton",
-    state="AB",
-    postal="",
-    lat=53.558333,
-    lng=-113.475,
-    housenumber="",
-    country="Canada",
-)
 DON_HASKINS_CENTER = SportsballGeocodeTuple(
     city="El Paso",
     state="TX",
@@ -15547,7 +15538,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="Canada",
     ),
-    "Commonwealth Stadium - Edmonton, AB - Canada": COMMONWEALTH_STADIUM,
     "Katy, TX, United States": SportsballGeocodeTuple(
         city="Katy",
         state="TX",
@@ -16878,7 +16868,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Commonwealth Stadium": COMMONWEALTH_STADIUM,
     "Portland State University": SportsballGeocodeTuple(
         city="Portland",
         state="OR",
