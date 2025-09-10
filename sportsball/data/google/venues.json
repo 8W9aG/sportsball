@@ -10589,6 +10589,36 @@
             "housenumber": "2001",
             "country": "USA",
             "type": "venue"
+        },
+        "d0c4718b-68c7-414f-9582-d2acb99c29be": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 32.0,
+            "lng": -6.0,
+            "housenumber": "",
+            "country": "Morocco",
+            "type": "country"
+        },
+        "9b911bf0-5e6b-4ea9-88ed-278373a699a8": {
+            "city": "Nam-gu",
+            "state": "Incheon",
+            "postal": "",
+            "lat": 37.435139,
+            "lng": 126.690806,
+            "housenumber": "482",
+            "country": "South Korea",
+            "type": "venue"
+        },
+        "d90b266b-ad36-4410-b25c-e39206884b88": {
+            "city": "Cleveland",
+            "state": "OH",
+            "postal": "",
+            "lat": 41.495833,
+            "lng": -81.685278,
+            "housenumber": "2401",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -10599,6 +10629,7 @@
         "SCG, Sydney": "99f30682-caa5-464b-9527-961ade4903ba",
         "SCG - 2021": "99f30682-caa5-464b-9527-961ade4903ba",
         "Victoria Park - Australia": "58c1c80f-b4e2-4d77-bdd2-ad4a920af559",
+        "Victoria Park, Melbourne, Australia": "58c1c80f-b4e2-4d77-bdd2-ad4a920af559",
         "Tom Benson Hall of Fame Stadium": "a872a4e3-53c1-43e7-8af2-79263f5d80d3",
         "Tom Benson Hall of Fame Stadium, Canton, OH, USA": "a872a4e3-53c1-43e7-8af2-79263f5d80d3",
         "MetLife Stadium": "7b9c3f52-bb1a-43d9-b074-4b39f5ab12ef",
@@ -10740,6 +10771,7 @@
         "Mullett Arena, Tempe, AZ, USA": "b0a4fafb-dd4d-44e3-b881-93d548847cec",
         "Mullett Arena, Tempe, Arizona": "b0a4fafb-dd4d-44e3-b881-93d548847cec",
         "Mullett Arena": "b0a4fafb-dd4d-44e3-b881-93d548847cec",
+        "Mullett Arena - Tempe - AZ": "b0a4fafb-dd4d-44e3-b881-93d548847cec",
         "Raymond James Stadium": "10af3d09-3070-42bb-8ab1-53e8014fa31c",
         "Raymond James Stadium - Tampa - FL - 33607": "10af3d09-3070-42bb-8ab1-53e8014fa31c",
         "Raymond James Stadium - Tampa Bay, Florida, USA - United States": "10af3d09-3070-42bb-8ab1-53e8014fa31c",
@@ -12465,6 +12497,7 @@
         "Fiserv Forum - Milwaukee - WI": "2fd815dd-7430-451d-be58-3084986f34f4",
         "Flinders University Stadium": "32a76ffc-cac9-47b4-8915-475960c28fdf",
         "Loftus Road, London, England": "49f58e6b-65d3-4858-b4ff-4fab4fee2f4f",
+        "MATRADE Loftus Road - London": "49f58e6b-65d3-4858-b4ff-4fab4fee2f4f",
         "Rostec Arena - Kaliningrad": "5b2a1e53-a865-40a1-9fbc-a356994251ce",
         "Maharashtra Cricket Association Stadium, Pune, India": "6b4ddfd7-7681-45e6-921c-88f9005334fb",
         "Frost Bank Center - San Antonio - TX": "4d756369-86d9-4b30-883a-8bee9bc2b75f",
@@ -12762,6 +12795,11 @@
         "Miyagi Stadium - Rifu": "b518465f-3632-4d18-beae-a02e49bdb294",
         "Coors Field, Denver, CO, USA": "c7d548c5-8f0d-4e5f-a0a2-ae03299b9745",
         "Coors Field": "c7d548c5-8f0d-4e5f-a0a2-ae03299b9745",
-        "Coors Field - Denver - Colorado - 80205": "c7d548c5-8f0d-4e5f-a0a2-ae03299b9745"
+        "Coors Field - Denver - Colorado - 80205": "c7d548c5-8f0d-4e5f-a0a2-ae03299b9745",
+        "MAR": "d0c4718b-68c7-414f-9582-d2acb99c29be",
+        "Mun-hak Stadium - Inchon": "9b911bf0-5e6b-4ea9-88ed-278373a699a8",
+        "Progressive Field - Cleveland - Ohio - 44115": "d90b266b-ad36-4410-b25c-e39206884b88",
+        "Progressive Field, Cleveland, OH, USA": "d90b266b-ad36-4410-b25c-e39206884b88",
+        "Progressive Field": "d90b266b-ad36-4410-b25c-e39206884b88"
     }
 }

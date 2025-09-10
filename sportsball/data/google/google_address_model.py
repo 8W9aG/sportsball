@@ -1984,15 +1984,6 @@ BIRMINGHAM = SportsballGeocodeTuple(
     housenumber="",
     country="USA",
 )
-PROGRESSIVE_FIELD = SportsballGeocodeTuple(
-    city="Cleveland",
-    state="OH",
-    postal="",
-    lat=41.495833,
-    lng=-81.685278,
-    housenumber="2401",
-    country="USA",
-)
 T_MOBILE_PARK = SportsballGeocodeTuple(
     city="Seattle",
     state="WA",
@@ -12755,7 +12746,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Progressive Field, Cleveland, OH, USA": PROGRESSIVE_FIELD,
     "Tulsa College": SportsballGeocodeTuple(
         city="Tulsa",
         state="OK",
@@ -16300,7 +16290,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Progressive Field": PROGRESSIVE_FIELD,
     "University of Arkansas": SportsballGeocodeTuple(
         city="Fayetteville",
         state="AK",
