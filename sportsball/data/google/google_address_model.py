@@ -6945,15 +6945,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="5001",
         country="USA",
     ),
-    "First Horizon Coliseum, Greensboro, North Carolina": SportsballGeocodeTuple(
-        city="Greensboro",
-        state="NC",
-        postal="",
-        lat=36.0596,
-        lng=-79.8257,
-        housenumber="1921",
-        country="USA",
-    ),
     "North Athletic Complex, Pittsburgh, Pennsylvania": SportsballGeocodeTuple(
         city="Pittsburgh",
         state="PA",

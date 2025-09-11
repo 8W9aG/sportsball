@@ -10839,6 +10839,66 @@
             "housenumber": "",
             "country": "China",
             "type": "country"
+        },
+        "936b4135-91e0-4c09-bea3-ea18d8adec9c": {
+            "city": "Stockholm",
+            "state": "",
+            "postal": "",
+            "lat": 59.293556,
+            "lng": 18.083236,
+            "housenumber": "",
+            "country": "Sweden",
+            "type": "venue"
+        },
+        "0fd40cc4-a408-4a58-ba6f-4133c77b5af6": {
+            "city": "Unley",
+            "state": "SA",
+            "postal": "",
+            "lat": -34.95,
+            "lng": 138.611667,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
+        },
+        "95fabb7d-481a-4201-9c27-ad67499131c0": {
+            "city": "Campinas",
+            "state": "",
+            "postal": "",
+            "lat": -22.905833,
+            "lng": -47.060833,
+            "housenumber": "",
+            "country": "Brazil",
+            "type": "city"
+        },
+        "e0e7f223-4e6d-4751-b348-9a3c8bd8f9a8": {
+            "city": "Oita",
+            "state": "",
+            "postal": "",
+            "lat": 33.200556,
+            "lng": 131.6575,
+            "housenumber": "",
+            "country": "Japan",
+            "type": "venue"
+        },
+        "4c173833-adff-4bf3-b618-9f5b25af8265": {
+            "city": "Greensboro",
+            "state": "NC",
+            "postal": "",
+            "lat": 36.0596,
+            "lng": -79.8257,
+            "housenumber": "1921",
+            "country": "USA",
+            "type": "venue"
+        },
+        "cd1b1492-d469-48a2-b806-7ed7bfc20874": {
+            "city": "Iași",
+            "state": "",
+            "postal": "",
+            "lat": 47.162222,
+            "lng": 27.588889,
+            "housenumber": "",
+            "country": "Romania",
+            "type": "city"
         }
     },
     "searches": {
@@ -11094,6 +11154,7 @@
         "Busch Stadium, St. Louis, MO, USA": "189335f3-b55c-4501-9b90-d8385384f9ac",
         "Busch Stadium (III) - St. Louis, MO - United States": "189335f3-b55c-4501-9b90-d8385384f9ac",
         "Busch Stadium III": "189335f3-b55c-4501-9b90-d8385384f9ac",
+        "Busch Stadium - St. Louis - Missouri - 63102": "189335f3-b55c-4501-9b90-d8385384f9ac",
         "Deutsche Bank Park": "d038edb8-439b-4cf8-b916-abdbedce45aa",
         "Frankfurt Stadium - Frankfurt": "d038edb8-439b-4cf8-b916-abdbedce45aa",
         "Deutsche Bank Park - Frankfurt, Germany - Germany": "d038edb8-439b-4cf8-b916-abdbedce45aa",
@@ -11995,6 +12056,7 @@
         "Hagen CH": "a4240169-e1c9-4ffd-a227-808159e7287f",
         "Gill Coliseum, Corvallis, Oregon": "ae4d4d17-f821-4113-b391-3e23b8e5eab0",
         "Select Car Leasing Stadium, Reading, England": "0f8e16b2-525a-4f20-b1ac-1b7a1cb8ea72",
+        "Select Car Leasing Stadium - Reading": "0f8e16b2-525a-4f20-b1ac-1b7a1cb8ea72",
         "Liacouras Center, Philadelphia, Pennsylvania": "ea15b391-0790-4ce6-aaef-cb4bf52c9560",
         "Liacouras Center - North Philadelphia - United States": "ea15b391-0790-4ce6-aaef-cb4bf52c9560",
         "Estadio Ramón Sánchez Pizjuán - Seville, Andalusia, Spain - Spain": "c79f96e9-1069-4aa4-942f-e6e95fd3be3a",
@@ -12103,6 +12165,7 @@
         "Alumni Gymnasium, Lawrenceville, New Jersey": "82515d2c-d11f-4d24-b191-494c739ecd1e",
         "Etihad Arena - Abu Dhabi": "d2f0195d-086d-4a7c-ad7b-db60348fd036",
         "MVP Arena, Albany, New York": "386f452f-b7ab-48dd-bf6f-84a64dda063c",
+        "MVP Arena - Albany - NY": "386f452f-b7ab-48dd-bf6f-84a64dda063c",
         "Pepsi Arena, Albany, New York": "386f452f-b7ab-48dd-bf6f-84a64dda063c",
         "Finley Stadium - Chattanooga - United States": "11be71dc-a47e-4710-a0f1-5d6c33ff8472",
         "SECU Arena, Towson, Maryland": "0bfb31e4-0235-4ade-b532-bcb7e014cfdc",
@@ -12407,6 +12470,7 @@
         "McLeod Center, Cedar Falls, Iowa": "5479db82-82c4-45ba-aa3e-7a0036b2e6b9",
         "Estadio Olímpico Universitario - Coyoacán, Mexico City - Mexico": "85195940-a6a6-4075-ba1a-84aff126414f",
         "Desert Financial Arena, Tempe, Arizona": "3abd1282-fe9e-4b52-b99d-9f060e8b791b",
+        "Desert Financial Arena - Tempe - AZ": "3abd1282-fe9e-4b52-b99d-9f060e8b791b",
         "Wells Fargo Arena, Tempe, Arizona": "3abd1282-fe9e-4b52-b99d-9f060e8b791b",
         "SRB": "65a23dbb-1df9-495f-9b62-e0cb5dfc523e",
         "Lawlor Events Center, Reno, Nevada": "5e608cbc-962b-472b-9409-1d495c67104f",
@@ -13071,6 +13135,13 @@
         "Rabat, Morocco": "45203794-1531-407a-8082-0c77797aaa4b",
         "Porto CH": "2cc37a89-d98d-485b-a6f5-b53657d39d1b",
         "Suwon Stadium - Suwon": "faae87a1-c8af-42be-b497-86c25334bcd5",
-        "CHN": "fe68c567-4850-4007-9bbf-de3e6a74af69"
+        "CHN": "fe68c567-4850-4007-9bbf-de3e6a74af69",
+        "Avicii Arena - Stockholm": "936b4135-91e0-4c09-bea3-ea18d8adec9c",
+        "Unley Oval, Unley, Australia": "0fd40cc4-a408-4a58-ba6f-4133c77b5af6",
+        "Campinas CH": "95fabb7d-481a-4201-9c27-ad67499131c0",
+        "Showa Denko Dome Oita - Oita": "e0e7f223-4e6d-4751-b348-9a3c8bd8f9a8",
+        "First Horizon Coliseum - Greensboro - NC": "4c173833-adff-4bf3-b618-9f5b25af8265",
+        "First Horizon Coliseum, Greensboro, North Carolina": "4c173833-adff-4bf3-b618-9f5b25af8265",
+        "Iasi, Romania": "cd1b1492-d469-48a2-b806-7ed7bfc20874"
     }
 }
