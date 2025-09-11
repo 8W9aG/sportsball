@@ -11279,6 +11279,36 @@
             "housenumber": "",
             "country": "USA",
             "type": "venue"
+        },
+        "ef2ac086-4766-4891-993a-e7b8dae25b3e": {
+            "city": "Nantes",
+            "state": "",
+            "postal": "",
+            "lat": 47.256,
+            "lng": -1.525,
+            "housenumber": "44300",
+            "country": "France",
+            "type": "venue"
+        },
+        "3c52b492-5c95-40c7-92ac-9667230166db": {
+            "city": "Bridgeport",
+            "state": "CT",
+            "postal": "",
+            "lat": 41.1732,
+            "lng": -73.187,
+            "housenumber": "600",
+            "country": "USA",
+            "type": "venue"
+        },
+        "703f4ef6-37cc-4162-8f35-414dc1f017d9": {
+            "city": "Monterrey",
+            "state": "Nuevo León",
+            "postal": "",
+            "lat": 25.684444,
+            "lng": -100.318056,
+            "housenumber": "",
+            "country": "Mexico",
+            "type": "city"
         }
     },
     "searches": {
@@ -11914,6 +11944,7 @@
         "TIO Traeger Park, Alice Springs": "d09ab736-f5a8-4b13-b1fe-ecfa2f755ec3",
         "TIO Traeger Park - 0870": "d09ab736-f5a8-4b13-b1fe-ecfa2f755ec3",
         "TIO Stadium - 0800": "d09ab736-f5a8-4b13-b1fe-ecfa2f755ec3",
+        "Marrara Oval": "d09ab736-f5a8-4b13-b1fe-ecfa2f755ec3",
         "Turner Field, Atlanta, GA, USA": "02870e93-be2b-483d-bb26-9ce33c57bdab",
         "Center Parc Stadium - Atlanta - GA - 30315": "02870e93-be2b-483d-bb26-9ce33c57bdab",
         "Adelaide Oval - Australia": "bf625f3c-5819-42b2-80ab-5a6d6e03be19",
@@ -13605,6 +13636,9 @@
         "Austin, USA": "26d9d6ce-6c9e-4eb7-a0bc-c2439de7ad58",
         "Austin, Texas": "26d9d6ce-6c9e-4eb7-a0bc-c2439de7ad58",
         "Austin, TX, USA": "26d9d6ce-6c9e-4eb7-a0bc-c2439de7ad58",
-        "Austin, Texas, United States": "26d9d6ce-6c9e-4eb7-a0bc-c2439de7ad58"
+        "Austin, Texas, United States": "26d9d6ce-6c9e-4eb7-a0bc-c2439de7ad58",
+        "La Beaujoire": "ef2ac086-4766-4891-993a-e7b8dae25b3e",
+        "Total Mortgage Arena - Bridgeport - CT": "3c52b492-5c95-40c7-92ac-9667230166db",
+        "Monterrey, Mexico": "703f4ef6-37cc-4162-8f35-414dc1f017d9"
     }
 }
