@@ -10949,6 +10949,56 @@
             "housenumber": "",
             "country": "USA",
             "type": "venue"
+        },
+        "3a82c4ce-f1be-4cb5-ade2-e3d562e50321": {
+            "city": "Frankston",
+            "state": "VIC",
+            "postal": "",
+            "lat": -38.142222,
+            "lng": 145.120278,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "d3ea7edf-a058-4ed6-b406-f481fb2f1e7f": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": -2.0,
+            "lng": -77.5,
+            "housenumber": "",
+            "country": "Ecuador",
+            "type": "country"
+        },
+        "23b165e0-56b7-4830-8cf1-c2055fe1c854": {
+            "city": "Jeju",
+            "state": "",
+            "postal": "",
+            "lat": 33.246139,
+            "lng": 126.509206,
+            "housenumber": "914",
+            "country": "South Korea",
+            "type": "venue"
+        },
+        "0f058e45-e16c-44c1-8107-eb39ab399659": {
+            "city": "Albany",
+            "state": "GA",
+            "postal": "31701",
+            "lat": 31.573897,
+            "lng": -84.150039,
+            "housenumber": "100",
+            "country": "USA",
+            "type": "venue"
+        },
+        "8789cb81-21db-41a4-8b5c-9ce9bcf067ec": {
+            "city": "Berlin",
+            "state": "Berlin",
+            "postal": "",
+            "lat": 52.52,
+            "lng": 13.405,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "venue"
         }
     },
     "searches": {
@@ -12243,6 +12293,7 @@
         "Kia Center, Orlando, FL, EUA": "18f56b88-fe90-4528-9a1b-68f98624ce95",
         "Sanford Coyote Sports Center, Vermillon, South Dakota": "f10db841-cd80-423f-9c2f-92345b5b558d",
         "Toyota Arena - Ontario - CA - 91798": "73e8f934-c14b-42ab-a63b-de5480e8abd5",
+        "Toyota Arena - Ontario - CA": "73e8f934-c14b-42ab-a63b-de5480e8abd5",
         "Screaming Eagles Arena, Evansville, Indiana": "cdb64392-ec8f-427e-87b0-826497a34ee4",
         "Wisdom Gym, Stephenville, Texas": "dfd2130c-e3a8-40ce-a9c2-dbe78f5ba73b",
         "Wisdom Gymnasium, Stephenville, Texas": "dfd2130c-e3a8-40ce-a9c2-dbe78f5ba73b",
@@ -12684,6 +12735,7 @@
         "Mackey Arena - West Lafayette - IN": "9cac843a-760b-4055-9c9c-6bab374eb032",
         "Crisler Arena, Ann Arbor, Michigan": "c60c9d7e-686e-4428-9e8c-9914209a6029",
         "Crisler Center, Ann Arbor, Michigan": "c60c9d7e-686e-4428-9e8c-9914209a6029",
+        "Crisler Center - Ann Arbor - MI": "c60c9d7e-686e-4428-9e8c-9914209a6029",
         "Paycom Center, Oklahoma City, Oklahoma": "4564d26b-7d6a-43a0-95d0-37e0ab5fabae",
         "Paycom Center, Oklahoma, OK, USA": "4564d26b-7d6a-43a0-95d0-37e0ab5fabae",
         "Paycom Center - Oklahoma City, Oklahoma - United States": "4564d26b-7d6a-43a0-95d0-37e0ab5fabae",
@@ -13200,6 +13252,11 @@
         "Dickies Arena, Fort Worth, Texas": "8f6104c2-8071-48fb-8ede-3025a5150e90",
         "Dickies Arena - Fort Worth - TX": "8f6104c2-8071-48fb-8ede-3025a5150e90",
         "Cox Pavilion, Las Vegas, Nevada": "cba29f69-369c-4f09-a4e8-1fae78cc599e",
-        "Cox Pavilion - Las Vegas - NV": "cba29f69-369c-4f09-a4e8-1fae78cc599e"
+        "Cox Pavilion - Las Vegas - NV": "cba29f69-369c-4f09-a4e8-1fae78cc599e",
+        "Frankston Park, Frankston, Australia": "3a82c4ce-f1be-4cb5-ade2-e3d562e50321",
+        "ECU": "d3ea7edf-a058-4ed6-b406-f481fb2f1e7f",
+        "Seogwipo Stadium - Sogwipo": "23b165e0-56b7-4830-8cf1-c2055fe1c854",
+        "Albany Civic Center - Albany - GA": "0f058e45-e16c-44c1-8107-eb39ab399659",
+        "Berlin, Germany": "8789cb81-21db-41a4-8b5c-9ce9bcf067ec"
     }
 }

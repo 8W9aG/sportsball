@@ -4758,15 +4758,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="1",
         country="USA",
     ),
-    "Cox Pavilion, Las Vegas, Nevada": SportsballGeocodeTuple(
-        city="Las Vegas",
-        state="NV",
-        postal="",
-        lat=36.104167,
-        lng=-115.143056,
-        housenumber="",
-        country="USA",
-    ),
     "Renaissance Coliseum, Peoria, Illinois": SportsballGeocodeTuple(
         city="Peoria",
         state="IL",
