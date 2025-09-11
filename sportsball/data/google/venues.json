@@ -11159,6 +11159,56 @@
             "housenumber": "",
             "country": "Singapore",
             "type": "city"
+        },
+        "9f6cd145-ff47-4b72-be03-980d903a027a": {
+            "city": "Brendale",
+            "state": "QLD",
+            "postal": "",
+            "lat": -27.33538,
+            "lng": 152.965743,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "73346e76-307f-4218-b979-118368bedae3": {
+            "city": "Hong Kong",
+            "state": "Hong Kong",
+            "postal": "",
+            "lat": 22.3,
+            "lng": 114.2,
+            "housenumber": "",
+            "country": "China",
+            "type": "city"
+        },
+        "2c1d3d52-c399-40c5-aecd-5a1dcd5c1eb9": {
+            "city": "Marseille",
+            "state": "Bouches-du-Rhône",
+            "postal": "13008",
+            "lat": 43.269722,
+            "lng": 5.395833,
+            "housenumber": "3",
+            "country": "France",
+            "type": "venue"
+        },
+        "bc78c4ec-1915-485f-ab04-bc8296799bbb": {
+            "city": "Chestnut Hill",
+            "state": "MA",
+            "postal": "",
+            "lat": 42.335,
+            "lng": -71.1675,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
+        },
+        "1abd86e2-5a3d-4814-98e6-6d421a7d1e50": {
+            "city": "Evansville",
+            "state": "IN",
+            "postal": "",
+            "lat": 37.977222,
+            "lng": -87.550556,
+            "housenumber": "",
+            "country": "USA",
+            "type": "city"
         }
     },
     "searches": {
@@ -13067,6 +13117,7 @@
         "Flinders University Stadium": "32a76ffc-cac9-47b4-8915-475960c28fdf",
         "Loftus Road, London, England": "49f58e6b-65d3-4858-b4ff-4fab4fee2f4f",
         "MATRADE Loftus Road - London": "49f58e6b-65d3-4858-b4ff-4fab4fee2f4f",
+        "Loftus Road Stadium": "49f58e6b-65d3-4858-b4ff-4fab4fee2f4f",
         "Rostec Arena - Kaliningrad": "5b2a1e53-a865-40a1-9fbc-a356994251ce",
         "Maharashtra Cricket Association Stadium, Pune, India": "6b4ddfd7-7681-45e6-921c-88f9005334fb",
         "Frost Bank Center - San Antonio - TX": "4d756369-86d9-4b30-883a-8bee9bc2b75f",
@@ -13097,6 +13148,7 @@
         "BOK Center - Tulsa, Oklahoma - United States": "2a3f33f2-68ce-43f6-a61b-86bd58d2898a",
         "BOK Center, Tulsa, Oklahoma": "2a3f33f2-68ce-43f6-a61b-86bd58d2898a",
         "BOK Center - Tulsa - OK": "2a3f33f2-68ce-43f6-a61b-86bd58d2898a",
+        "BOK Center - Tulsa - OK - 74194": "2a3f33f2-68ce-43f6-a61b-86bd58d2898a",
         "Arden Street Oval": "e790406b-abb1-42c1-a23a-c8a3e2881f53",
         "Arden Street Oval, Melbourne, Australia": "e790406b-abb1-42c1-a23a-c8a3e2881f53",
         "Kingston Twins Ovals": "c87c5b1f-e6ad-4c90-b2ee-5421f4ce116b",
@@ -13450,6 +13502,14 @@
         "Parc de Lescure - Bordeaux": "216e5e68-f7b9-4f51-a400-e6a1224bdb8b",
         "Moody Coliseum - Dallas - TX": "434fc7f3-7bbb-402a-b9c6-3b6ecd6ba462",
         "Moody Coliseum, Dallas, Texas": "434fc7f3-7bbb-402a-b9c6-3b6ecd6ba462",
-        "Singapore, Singapore": "21e425d3-d752-482c-9b4e-2b67b6d8b5cf"
+        "Singapore, Singapore": "21e425d3-d752-482c-9b4e-2b67b6d8b5cf",
+        "South Pine": "9f6cd145-ff47-4b72-be03-980d903a027a",
+        "Hong Kong, Hong Kong, China": "73346e76-307f-4218-b979-118368bedae3",
+        "Velodrome": "2c1d3d52-c399-40c5-aecd-5a1dcd5c1eb9",
+        "Silvio O. Conte Forum, Chestnut Hill, Massachusetts": "bc78c4ec-1915-485f-ab04-bc8296799bbb",
+        "Silvio O. Conte Forum, Boston, Massachusetts": "bc78c4ec-1915-485f-ab04-bc8296799bbb",
+        "Conte Forum - Chestnut Hill, MA - United States": "bc78c4ec-1915-485f-ab04-bc8296799bbb",
+        "ITF Evansville": "1abd86e2-5a3d-4814-98e6-6d421a7d1e50",
+        "Evansville, Indiana": "1abd86e2-5a3d-4814-98e6-6d421a7d1e50"
     }
 }

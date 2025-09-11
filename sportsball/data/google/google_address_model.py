@@ -1345,15 +1345,6 @@ MIAMI_ARENA = SportsballGeocodeTuple(
     housenumber="721",
     country="USA",
 )
-SILVIO_O_CONTE_FORUM = SportsballGeocodeTuple(
-    city="Chestnut Hill",
-    state="MA",
-    postal="",
-    lat=42.335,
-    lng=-71.1675,
-    housenumber="",
-    country="USA",
-)
 BIRMINGHAM_JEFFERSON_CIVIC_CENTER = SportsballGeocodeTuple(
     city="Birmingham",
     state="AL",
@@ -2253,15 +2244,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "The SIU Arena, Carbondale, Illinois": SIU_ARENA,
-    "Moody Coliseum, Dallas, Texas": SportsballGeocodeTuple(
-        city="Dallas",
-        state="TX",
-        postal="75205",
-        lat=32.840278,
-        lng=-96.780556,
-        housenumber="6024",
-        country="USA",
-    ),
     "Reed Green Coliseum, Hattiesburg, Mississippi": SportsballGeocodeTuple(
         city="Hattiesburg",
         state="MS",
@@ -2414,7 +2396,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="2168",
         country="USA",
     ),
-    "Silvio O. Conte Forum, Chestnut Hill, Massachusetts": SILVIO_O_CONTE_FORUM,
     "Millett Hall, Oxford, Ohio": SportsballGeocodeTuple(
         city="Oxford",
         state="OH",
@@ -3647,15 +3628,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
     "Island Federal Credit Union Arena, Stony Brook, New York": STONY_BROOK_ARENA,
     "Phoenix, Arizona": PHOENIX,
-    "Evansville, Indiana": SportsballGeocodeTuple(
-        city="Evansville",
-        state="IN",
-        postal="",
-        lat=37.977222,
-        lng=-87.550556,
-        housenumber="",
-        country="USA",
-    ),
     "America First Event Center, Cedar City, Utah": SportsballGeocodeTuple(
         city="Cedar City",
         state="UT",
@@ -9783,7 +9755,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
     "San Jose, CA, USA": SAN_JOSE,
     "Miami Arena, Miami, Florida": MIAMI_ARENA,
-    "Silvio O. Conte Forum, Boston, Massachusetts": SILVIO_O_CONTE_FORUM,
     "IND": SportsballGeocodeTuple(
         city="",
         state="",
@@ -16909,7 +16880,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Conte Forum - Chestnut Hill, MA - United States": SILVIO_O_CONTE_FORUM,
     "Nicholls College": SportsballGeocodeTuple(
         city="Dudley",
         state="MA",
