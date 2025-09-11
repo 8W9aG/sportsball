@@ -10899,6 +10899,56 @@
             "housenumber": "",
             "country": "Romania",
             "type": "city"
+        },
+        "5d84b644-20ef-43b9-b120-823d7373a05f": {
+            "city": "Torrensville",
+            "state": "SA",
+            "postal": "5031",
+            "lat": -34.917222,
+            "lng": 138.564722,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "f8b0d2ca-4b1a-4645-85dd-97d67e88901d": {
+            "city": "Brisbane",
+            "state": "QLD",
+            "postal": "",
+            "lat": -27.467778,
+            "lng": 153.028056,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "city"
+        },
+        "a9001503-dd84-4135-88a4-c9d82938f744": {
+            "city": "Jeonju",
+            "state": "",
+            "postal": "",
+            "lat": 35.868111,
+            "lng": 127.064444,
+            "housenumber": "",
+            "country": "South Korea",
+            "type": "venue"
+        },
+        "8f6104c2-8071-48fb-8ede-3025a5150e90": {
+            "city": "Fort Worth",
+            "state": "TX",
+            "postal": "",
+            "lat": 32.740891,
+            "lng": -97.369938,
+            "housenumber": "1911",
+            "country": "USA",
+            "type": "venue"
+        },
+        "cba29f69-369c-4f09-a4e8-1fae78cc599e": {
+            "city": "Las Vegas",
+            "state": "NV",
+            "postal": "",
+            "lat": 36.104167,
+            "lng": -115.143056,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -13142,6 +13192,14 @@
         "Showa Denko Dome Oita - Oita": "e0e7f223-4e6d-4751-b348-9a3c8bd8f9a8",
         "First Horizon Coliseum - Greensboro - NC": "4c173833-adff-4bf3-b618-9f5b25af8265",
         "First Horizon Coliseum, Greensboro, North Carolina": "4c173833-adff-4bf3-b618-9f5b25af8265",
-        "Iasi, Romania": "cd1b1492-d469-48a2-b806-7ed7bfc20874"
+        "Iasi, Romania": "cd1b1492-d469-48a2-b806-7ed7bfc20874",
+        "Thebarton Oval": "5d84b644-20ef-43b9-b120-823d7373a05f",
+        "Brisbane, QLD, Australia": "f8b0d2ca-4b1a-4645-85dd-97d67e88901d",
+        "Brisbane, Australia": "f8b0d2ca-4b1a-4645-85dd-97d67e88901d",
+        "Jeonju Stadium - Chonju": "a9001503-dd84-4135-88a4-c9d82938f744",
+        "Dickies Arena, Fort Worth, Texas": "8f6104c2-8071-48fb-8ede-3025a5150e90",
+        "Dickies Arena - Fort Worth - TX": "8f6104c2-8071-48fb-8ede-3025a5150e90",
+        "Cox Pavilion, Las Vegas, Nevada": "cba29f69-369c-4f09-a4e8-1fae78cc599e",
+        "Cox Pavilion - Las Vegas - NV": "cba29f69-369c-4f09-a4e8-1fae78cc599e"
     }
 }

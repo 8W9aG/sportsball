@@ -3153,15 +3153,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Dickies Arena, Fort Worth, Texas": SportsballGeocodeTuple(
-        city="Fort Worth",
-        state="TX",
-        postal="",
-        lat=32.740891,
-        lng=-97.369938,
-        housenumber="1911",
-        country="USA",
-    ),
     "Rolle Activity Center, Flagstaff, Arizona": SportsballGeocodeTuple(
         city="Flagstaff",
         state="AZ",
@@ -10885,15 +10876,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         lng=-94.229722,
         housenumber="",
         country="USA",
-    ),
-    "Brisbane, QLD, Australia": SportsballGeocodeTuple(
-        city="Brisbane",
-        state="QLD",
-        postal="",
-        lat=-27.467778,
-        lng=153.028056,
-        housenumber="",
-        country="Australia",
     ),
     "Anna, TX, USA": SportsballGeocodeTuple(
         city="Anna",
