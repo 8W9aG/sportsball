@@ -3364,15 +3364,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "FTX Arena": FTX_ARENA,
     "Rose Garden": ROSE_GARDEN,
     "Toyota Center - Kennewick, Washington - United States": TOYOTA_CENTER,
-    "Saitama Super Arena - Saitama, Japan - Japan": SportsballGeocodeTuple(
-        city="Saitama",
-        state="",
-        postal="",
-        lat=35.894889,
-        lng=139.630831,
-        housenumber="8",
-        country="Japan",
-    ),
     "Etihad Arena - Yas Bay Waterfront, Yas Island, Abu Dhabi - United Arab Emirates": SportsballGeocodeTuple(
         city="Abu Dhabi",
         state="",

@@ -11049,6 +11049,56 @@
             "housenumber": "",
             "country": "Italy",
             "type": "city"
+        },
+        "a28c5ead-98fd-42c2-9621-44fff57f5427": {
+            "city": "North Sydney",
+            "state": "NSW",
+            "postal": "",
+            "lat": -33.831944,
+            "lng": 151.209444,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "0a547d1d-30ac-4085-9322-ae96434b0171": {
+            "city": "Girona",
+            "state": "Catalonia",
+            "postal": "",
+            "lat": 41.984444,
+            "lng": 2.821111,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "city"
+        },
+        "5576d33b-dc1a-4f35-aad0-2c48547daabf": {
+            "city": "Saint-Étienne",
+            "state": "Loire",
+            "postal": "",
+            "lat": 45.460833,
+            "lng": 4.390278,
+            "housenumber": "",
+            "country": "France",
+            "type": "venue"
+        },
+        "db06f78a-bb25-449f-874f-6bf0babbef6b": {
+            "city": "Saitama",
+            "state": "",
+            "postal": "",
+            "lat": 35.894889,
+            "lng": 139.630831,
+            "housenumber": "8",
+            "country": "Japan",
+            "type": "venue"
+        },
+        "9bc9e144-47f2-416a-9649-3e46b52bb52b": {
+            "city": "Bogotá",
+            "state": "",
+            "postal": "",
+            "lat": 4.711111,
+            "lng": -74.072222,
+            "housenumber": "",
+            "country": "Colombia",
+            "type": "city"
         }
     },
     "searches": {
@@ -11218,6 +11268,7 @@
         "Lambeau Field, Green Bay, WI, USA": "c086b3b8-857f-4bfb-a3a4-60acbbf07685",
         "Ewood Park - Blackburn, Lancashire - England": "de7d8506-d16d-4dda-b542-d2a9f11f9a80",
         "Ewood Park, Blackburn, England": "de7d8506-d16d-4dda-b542-d2a9f11f9a80",
+        "Ewood Park - Blackburn": "de7d8506-d16d-4dda-b542-d2a9f11f9a80",
         "Lincoln Financial Field": "e30221e9-51f0-4320-a6ab-209ca1b1fcab",
         "Lincoln Financial Field - Philadelphia - PA - 19148": "e30221e9-51f0-4320-a6ab-209ca1b1fcab",
         "Veterans Stadium - Philadelphia - PA": "e30221e9-51f0-4320-a6ab-209ca1b1fcab",
@@ -12432,6 +12483,7 @@
         "Breslin Center - East Lansing - MI": "9b2b0df7-028c-4f25-8e90-1563cd63a98a",
         "Alaska Airlines Arena, Seattle, Washington": "8af55611-5e8a-4d44-8668-aa521195c13b",
         "Bank of America Arena, Seattle, Washington": "8af55611-5e8a-4d44-8668-aa521195c13b",
+        "Alaska Airlines Arena - Seattle - WA": "8af55611-5e8a-4d44-8668-aa521195c13b",
         "Videotron Centre - Quebec City - QC": "23ec0292-44bc-42c2-9c23-b818cbd2d3c9",
         "Thomas & Mack Center, Las Vegas, Nevada": "d980d608-61f0-45dc-9178-510480dd859f",
         "Thomas & Mack Center - Paradise, NV - United States": "d980d608-61f0-45dc-9178-510480dd859f",
@@ -12702,6 +12754,7 @@
         "Little Caesars Arena - Detroit - MI": "c3cd5d55-d185-40d2-8257-d66224f0f7c7",
         "Xfinity Center, College Park, Maryland": "56d82a5f-fc9a-491d-99c2-b3b33144b058",
         "Comcast Center, College Park, Maryland": "56d82a5f-fc9a-491d-99c2-b3b33144b058",
+        "XFINITY Center - College Park - MD": "56d82a5f-fc9a-491d-99c2-b3b33144b058",
         "Jersey Mike's Arena, New Brunswick, New Jersey": "4699946d-0005-434f-8ae4-192b732d4edc",
         "Jersey Mike''s Arena, New Brunswick, New Jersey": "4699946d-0005-434f-8ae4-192b732d4edc",
         "Louis Brown Athletic Center, New Brunswick, New Jersey": "4699946d-0005-434f-8ae4-192b732d4edc",
@@ -13314,6 +13367,12 @@
         "LionTree Arena - San Diego - CA": "82a21394-4c7e-4a3c-b134-67d2205ed979",
         "RIMAC Arena, La Jolla, California": "82a21394-4c7e-4a3c-b134-67d2205ed979",
         "Hutto-Patterson Gymnasium - Pasadena - CA": "37113202-4928-4c5d-8e65-9ac787ea715d",
-        "ITF Cordenons": "c2f30336-23f3-4c69-910c-99a94d28e2db"
+        "ITF Cordenons": "c2f30336-23f3-4c69-910c-99a94d28e2db",
+        "North Sydney Oval, Sydney, Australia": "a28c5ead-98fd-42c2-9621-44fff57f5427",
+        "Girona CH": "0a547d1d-30ac-4085-9322-ae96434b0171",
+        "Geoffroy-Guichard": "5576d33b-dc1a-4f35-aad0-2c48547daabf",
+        "Saitama Super Arena - Saitama, Japan - Japan": "db06f78a-bb25-449f-874f-6bf0babbef6b",
+        "Saitama Super Arena - Saitama": "db06f78a-bb25-449f-874f-6bf0babbef6b",
+        "Bogotá, Colombia": "9bc9e144-47f2-416a-9649-3e46b52bb52b"
     }
 }
