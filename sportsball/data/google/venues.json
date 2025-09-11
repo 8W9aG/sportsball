@@ -11229,6 +11229,26 @@
             "housenumber": "155",
             "country": "Canada",
             "type": "venue"
+        },
+        "b388a33f-0b00-44c5-9917-5345db534698": {
+            "city": "Murcia",
+            "state": "",
+            "postal": "",
+            "lat": 37.986111,
+            "lng": -1.130278,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "city"
+        },
+        "76d57e71-72e1-4f52-9f3f-5ed936e95122": {
+            "city": "Saint-Denis",
+            "state": "Île-de-France",
+            "postal": "",
+            "lat": 48.9245,
+            "lng": 2.3602,
+            "housenumber": "",
+            "country": "France",
+            "type": "venue"
         }
     },
     "searches": {
@@ -11579,6 +11599,7 @@
         "Ross-Ade Stadium": "a8cf2e14-c718-40be-a217-c669130a3f04",
         "Ross-Ade Stadium - West Lafayette - IN - 47906": "a8cf2e14-c718-40be-a217-c669130a3f04",
         "Punt Rd - Australia": "a1052505-7d77-4d4e-ae6e-18ca641b0833",
+        "Swinburne Centre, Melbourne, Australia": "a1052505-7d77-4d4e-ae6e-18ca641b0833",
         "Windy Hill - Australia": "be43e7df-cebb-449d-ab58-9c1ff1ae1061",
         "Windy Hill, Essendon, Australia": "be43e7df-cebb-449d-ab58-9c1ff1ae1061",
         "Pride Park, Derby, England": "78ee8318-14b0-4b11-b1af-29ef72b3daa5",
@@ -12627,6 +12648,7 @@
         "Thomas & Mack Center, Las Vegas, Nevada": "d980d608-61f0-45dc-9178-510480dd859f",
         "Thomas & Mack Center - Paradise, NV - United States": "d980d608-61f0-45dc-9178-510480dd859f",
         "Thomas & Mack Center, Las Vegas, NV, USA": "d980d608-61f0-45dc-9178-510480dd859f",
+        "Thomas & Mack Center - Las Vegas - NV": "d980d608-61f0-45dc-9178-510480dd859f",
         "London, Great Britain": "e295afec-c043-467d-884a-d2815adf8bd2",
         "Christl Arena, West Point, New York": "da23d9eb-e411-4ea0-8675-c383b8150959",
         "Walter J. Zable Stadium - Williamsburg - VA - 23186": "e407e78f-f372-49fb-bf63-8959a11de76c",
@@ -12797,6 +12819,7 @@
         "Kohl Center, Madison, Wisconsin": "a2fa978f-0e6c-4bc5-b723-367a68597e96",
         "Delray Beach, USA": "7d0e7a1d-3df8-4c79-bdcd-3654dc9e003b",
         "McKale Center, Tucson, Arizona": "64a782db-c9bf-4986-a776-5191e2ea956e",
+        "McKale Memorial Center - Tucson - AZ": "64a782db-c9bf-4986-a776-5191e2ea956e",
         "Memorial Athletic & Convocation Center, Kent, Ohio": "36932351-bb73-443c-80c2-8facb163b794",
         "Publix Field at Joker Marchant Stadium - Lakeland - Florida - 33815": "424c023e-7349-47e6-88e6-debb63b1851a",
         "Stuart Siegel Center, Richmond, Virginia": "e04b9aeb-35c1-458d-87e9-f55b52a19907",
@@ -13360,6 +13383,7 @@
         "Sullivan Logistics Stadium, Perth, Australia": "4c74e41d-beb6-436b-9142-bc40e8c45b1b",
         "Prague CH": "06967665-450b-420d-abcf-05aae7733825",
         "Prague, Czechia": "06967665-450b-420d-abcf-05aae7733825",
+        "Prague": "06967665-450b-420d-abcf-05aae7733825",
         "Memorial Oval": "cf91472a-f676-42d2-8080-6c4dbd2dbbe7",
         "Great Barrier Reef Arena": "a5959908-320b-44ec-8a07-299c8b9d4dfb",
         "Madrid Masters": "fb977ef9-561d-4a69-9a2a-1f0030b2bee0",
@@ -13539,6 +13563,8 @@
         "ITF Evansville": "1abd86e2-5a3d-4814-98e6-6d421a7d1e50",
         "Evansville, Indiana": "1abd86e2-5a3d-4814-98e6-6d421a7d1e50",
         "Parc de Princes": "87e56f40-8580-4d6d-ad50-119d0fa97c0f",
-        "Steele Community Centre - Gander - NF": "f4df2f34-2575-4923-89db-d228b6c30135"
+        "Steele Community Centre - Gander - NF": "f4df2f34-2575-4923-89db-d228b6c30135",
+        "Murcia CH": "b388a33f-0b00-44c5-9917-5345db534698",
+        "Stade de France - Saint-Denis": "76d57e71-72e1-4f52-9f3f-5ed936e95122"
     }
 }
