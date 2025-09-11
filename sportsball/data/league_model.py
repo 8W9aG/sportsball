@@ -231,7 +231,7 @@ class LeagueModel(Model):
         )
         for k in data:
             if k in datetime_cols:
-                data[k] = pd.to_datetime(data[k])
+                data[k] = pd.to_datetime(data[k], utc=True, errors="coerce")
 
         df = pd.DataFrame(data)
 

@@ -11209,6 +11209,26 @@
             "housenumber": "",
             "country": "USA",
             "type": "city"
+        },
+        "87e56f40-8580-4d6d-ad50-119d0fa97c0f": {
+            "city": "Paris",
+            "state": "Île-de-France",
+            "postal": "75016",
+            "lat": 48.841389,
+            "lng": 2.253056,
+            "housenumber": "",
+            "country": "France",
+            "type": "venue"
+        },
+        "f4df2f34-2575-4923-89db-d228b6c30135": {
+            "city": "Gander",
+            "state": "NF",
+            "postal": "",
+            "lat": 48.9587745,
+            "lng": -54.6109237,
+            "housenumber": "155",
+            "country": "Canada",
+            "type": "venue"
         }
     },
     "searches": {
@@ -11761,6 +11781,7 @@
         "Tropicana Field, St. Petersburg, FL, USA": "813087f1-33d7-48ee-8c3d-486254f9eb03",
         "Tropicana Field - St. Petersburg - FL - 33705": "813087f1-33d7-48ee-8c3d-486254f9eb03",
         "Tropicana Field": "813087f1-33d7-48ee-8c3d-486254f9eb03",
+        "Tropicana Field - St. Petersburg - Florida - 33705": "813087f1-33d7-48ee-8c3d-486254f9eb03",
         "Subiaco - Australia": "1c595834-b508-4fe8-bd9c-40bff041b8a5",
         "Domain Stadium": "1c595834-b508-4fe8-bd9c-40bff041b8a5",
         "Domain Stadium - 6904": "1c595834-b508-4fe8-bd9c-40bff041b8a5",
@@ -11890,6 +11911,7 @@
         "Jiangwan Stadium, Shanghai, China": "348174a9-7ffc-45aa-8866-680f7882629e",
         "Adelaide Arena at Jiangwan Stadium - 200438": "348174a9-7ffc-45aa-8866-680f7882629e",
         "Toughsheet Community Stadium, Bolton, England": "7015fd4c-dfe0-497b-91df-9e57ed645b8b",
+        "Toughsheet Community Stadium - Manchester": "7015fd4c-dfe0-497b-91df-9e57ed645b8b",
         "Bruce Stadium - Australia": "55c4007a-3fcc-457f-9789-d2070db4b7c7",
         "Reser Stadium - Corvallis, Oregon, USA - United States": "50f28c0b-0d65-46d0-b148-b483a77dce27",
         "Reser Stadium - Corvallis - OR - 97331": "50f28c0b-0d65-46d0-b148-b483a77dce27",
@@ -12622,6 +12644,7 @@
         "M. A. Chidambaram Stadium - Chennai, India - India": "8b4c98d6-5d18-4d27-bc31-b12c47850245",
         "Donald N. Dedmon Center, Radford, Virginia": "7c6405d4-3566-4c2c-ab86-2c62b57535c8",
         "David Grays Arena": "49ae0c11-e09d-41da-8575-73a57569f691",
+        "Rushton Park": "49ae0c11-e09d-41da-8575-73a57569f691",
         "Knapp Center, Des Moines, Iowa": "8949203e-1378-4691-ad1c-9ad056d0e78a",
         "Dallas, USA": "2c61ee94-38dc-4519-bfb9-34d29d0eec51",
         "Dallas, Texas": "2c61ee94-38dc-4519-bfb9-34d29d0eec51",
@@ -12668,6 +12691,7 @@
         "Nationwide Arena, Columbus, OH, USA": "04fcfcfe-148d-44d0-babe-a7da5e7896a3",
         "Nationwide Arena": "04fcfcfe-148d-44d0-babe-a7da5e7896a3",
         "Charles E. Smith Center, Washington, District of Columbia": "687e6d16-6f92-4580-a5c4-de9558f1fdc7",
+        "Charles E. Smith Center, Washington, DC, USA": "687e6d16-6f92-4580-a5c4-de9558f1fdc7",
         "Turpin Stadium - Natchitoches - LA - 71457": "68e8d3d1-58cb-44b4-8e9b-a1df83f15d9c",
         "Burr Gymnasium, Washington, District of Columbia": "d0152592-1503-4435-aa79-edf9523cb71d",
         "Indian Wells, USA": "189493da-5fd3-43fe-b987-2255a081ce30",
@@ -12881,6 +12905,7 @@
         "Davey L. Whitney Complex, Alcorn State, Mississippi": "c0e16591-acc1-4978-8325-2a505c2044b1",
         "Davey Whitney Complex, Alcorn State, Mississippi": "c0e16591-acc1-4978-8325-2a505c2044b1",
         "H.O. Clemmons Arena, Pine Bluff, Arkansas": "b6a63b3c-166e-4e49-8ac9-63ac2b16a0c9",
+        "H.O. Clemmons Arena - Pine Bluff - AR": "b6a63b3c-166e-4e49-8ac9-63ac2b16a0c9",
         "K.L. Johnson HPER Complex, Pine Bluff, Arkansas": "b6a63b3c-166e-4e49-8ac9-63ac2b16a0c9",
         "CoolToday Park - North Port - Florida - 34759": "cddf06f8-3fd0-490e-ae96-0d0ff019920e",
         "Assembly Center, Grambling, Louisiana": "aa786300-ac8d-46e1-a3df-9faed698c98a",
@@ -13362,6 +13387,7 @@
         "Indiana Farmers Coliseum - Indianapolis, Indiana - United States": "01435e75-3f3b-4d40-b0f6-45a4b961c49d",
         "Corteva Coliseum - Indianapolis - IN": "01435e75-3f3b-4d40-b0f6-45a4b961c49d",
         "Palermo, Italy": "ab20089c-3377-49be-a86f-28bea5533225",
+        "Palermo": "ab20089c-3377-49be-a86f-28bea5533225",
         "CRO": "15b771d8-45e4-48f2-8b4d-d80d1894282b",
         "Zentralstadion - Leipzig": "cf3760ac-982e-4063-87c9-121f99e5a941",
         "Hanson Field - Macomb - IL - 61455": "6c918e98-21eb-4852-82c2-17f209f5ce85",
@@ -13505,11 +13531,14 @@
         "Singapore, Singapore": "21e425d3-d752-482c-9b4e-2b67b6d8b5cf",
         "South Pine": "9f6cd145-ff47-4b72-be03-980d903a027a",
         "Hong Kong, Hong Kong, China": "73346e76-307f-4218-b979-118368bedae3",
+        "HKG": "73346e76-307f-4218-b979-118368bedae3",
         "Velodrome": "2c1d3d52-c399-40c5-aecd-5a1dcd5c1eb9",
         "Silvio O. Conte Forum, Chestnut Hill, Massachusetts": "bc78c4ec-1915-485f-ab04-bc8296799bbb",
         "Silvio O. Conte Forum, Boston, Massachusetts": "bc78c4ec-1915-485f-ab04-bc8296799bbb",
         "Conte Forum - Chestnut Hill, MA - United States": "bc78c4ec-1915-485f-ab04-bc8296799bbb",
         "ITF Evansville": "1abd86e2-5a3d-4814-98e6-6d421a7d1e50",
-        "Evansville, Indiana": "1abd86e2-5a3d-4814-98e6-6d421a7d1e50"
+        "Evansville, Indiana": "1abd86e2-5a3d-4814-98e6-6d421a7d1e50",
+        "Parc de Princes": "87e56f40-8580-4d6d-ad50-119d0fa97c0f",
+        "Steele Community Centre - Gander - NF": "f4df2f34-2575-4923-89db-d228b6c30135"
     }
 }

@@ -30,3 +30,4 @@ class Position(StrEnum):
     ATHLETE = "ATH"
     KICK_RETURNER = "KR"
     PUNT_RETURNER = "PR"
+    SETTER = "SETTER"
