@@ -11249,6 +11249,36 @@
             "housenumber": "",
             "country": "France",
             "type": "venue"
+        },
+        "18467805-5f92-41c3-9387-47715ea3904e": {
+            "city": "Toulouse",
+            "state": "",
+            "postal": "",
+            "lat": 43.583056,
+            "lng": 1.434167,
+            "housenumber": "1",
+            "country": "France",
+            "type": "venue"
+        },
+        "4e9c5e94-8af7-4f33-8212-9cdb057c3c26": {
+            "city": "Santo Domingo",
+            "state": "",
+            "postal": "",
+            "lat": 18.488161,
+            "lng": -69.926419,
+            "housenumber": "",
+            "country": "Dominican Republic",
+            "type": "venue"
+        },
+        "26d9d6ce-6c9e-4eb7-a0bc-c2439de7ad58": {
+            "city": "Austin",
+            "state": "TX",
+            "postal": "",
+            "lat": 30.267222,
+            "lng": -97.743056,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -11807,6 +11837,7 @@
         "Domain Stadium": "1c595834-b508-4fe8-bd9c-40bff041b8a5",
         "Domain Stadium - 6904": "1c595834-b508-4fe8-bd9c-40bff041b8a5",
         "Subiaco Oval, Perth, Australia": "1c595834-b508-4fe8-bd9c-40bff041b8a5",
+        "Subiaco Oval": "1c595834-b508-4fe8-bd9c-40bff041b8a5",
         "Martin Carpena - Málaga, Spain - Spain": "a1786ecb-d027-4137-afb8-4c3da1327d99",
         "Rice Stadium": "03c7b590-287b-4366-a614-fee56af690d5",
         "Rice Stadium - Houston, Texas, U.S. - United States": "03c7b590-287b-4366-a614-fee56af690d5",
@@ -12090,6 +12121,7 @@
         "LaPorte, Indiana": "087b3c38-b17a-4fc8-ae96-86f4a74896d2",
         "St. James' Park, Newcastle, England": "18bd8883-d956-4365-b3c2-1cc5cf5768ab",
         "St. James' Park - Newcastle-upon-Tyne": "18bd8883-d956-4365-b3c2-1cc5cf5768ab",
+        "St. James' Park": "18bd8883-d956-4365-b3c2-1cc5cf5768ab",
         "Memorial Stadium (Champaign, IL) - Champaign - IL - 61820": "86a8cafb-515b-4396-a01d-0c71fa68873f",
         "Longmont, CO, United States": "7245784c-92cb-46fb-819a-46837c670971",
         "Simmons Bank Liberty Stadium - Memphis - TN - 38104": "d01b8cd4-3c9c-47a1-b3ea-6554aa9729ec",
@@ -12426,6 +12458,7 @@
         "Flint, Michigan": "7a2e9f3b-101c-48d6-9828-2f1d354464dc",
         "Flint, Michigan, United States": "7a2e9f3b-101c-48d6-9828-2f1d354464dc",
         "Bob Carpenter Center, Newark, Delaware": "7f1bfb38-e01e-47f7-8c6c-f498d795dad9",
+        "Bob Carpenter Center - Newark - DE": "7f1bfb38-e01e-47f7-8c6c-f498d795dad9",
         "Case Field": "4d4dfe49-40db-42fe-aa35-0138bf20fe49",
         "Ocean Bank Convocation Center, Miami, Florida": "a654644c-4451-451f-a302-76946d691a44",
         "US Century Bank Arena, Miami, Florida": "a654644c-4451-451f-a302-76946d691a44",
@@ -12764,6 +12797,7 @@
         "UIC Pavilion, Chicago, Illinois": "b6be9877-ac10-432f-8cc0-bd862b96eafa",
         "Mitchell Center, Mobile, Alabama": "c848a705-6f24-4123-984f-22f31b591568",
         "Los Cabos": "6a4749f2-7fb0-46b4-bd26-b5039ec5ea64",
+        "Los Cabos, Mexico": "6a4749f2-7fb0-46b4-bd26-b5039ec5ea64",
         "Ed & Rae Schollmaier Arena, Fort Worth, Texas": "a810c870-44ba-4c1f-abda-505aec3f8293",
         "Daniel-Meyer Coliseum, Fort Worth, Texas": "a810c870-44ba-4c1f-abda-505aec3f8293",
         "Strahan Coliseum, San Marcos, Texas": "1a578c0c-82fb-4fc0-9442-046c160c200b",
@@ -13565,6 +13599,12 @@
         "Parc de Princes": "87e56f40-8580-4d6d-ad50-119d0fa97c0f",
         "Steele Community Centre - Gander - NF": "f4df2f34-2575-4923-89db-d228b6c30135",
         "Murcia CH": "b388a33f-0b00-44c5-9917-5345db534698",
-        "Stade de France - Saint-Denis": "76d57e71-72e1-4f52-9f3f-5ed936e95122"
+        "Stade de France - Saint-Denis": "76d57e71-72e1-4f52-9f3f-5ed936e95122",
+        "Municipal - Toulouse": "18467805-5f92-41c3-9387-47715ea3904e",
+        "Estadio Quisqueya - Santo Domingo": "4e9c5e94-8af7-4f33-8212-9cdb057c3c26",
+        "Austin, USA": "26d9d6ce-6c9e-4eb7-a0bc-c2439de7ad58",
+        "Austin, Texas": "26d9d6ce-6c9e-4eb7-a0bc-c2439de7ad58",
+        "Austin, TX, USA": "26d9d6ce-6c9e-4eb7-a0bc-c2439de7ad58",
+        "Austin, Texas, United States": "26d9d6ce-6c9e-4eb7-a0bc-c2439de7ad58"
     }
 }

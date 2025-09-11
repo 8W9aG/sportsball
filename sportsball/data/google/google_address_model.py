@@ -1408,15 +1408,6 @@ KNOXVILLE = SportsballGeocodeTuple(
     housenumber="",
     country="USA",
 )
-AUSTIN = SportsballGeocodeTuple(
-    city="Austin",
-    state="TX",
-    postal="",
-    lat=30.267222,
-    lng=-97.743056,
-    housenumber="",
-    country="USA",
-)
 ELON = SportsballGeocodeTuple(
     city="Elon",
     state="NC",
@@ -3425,7 +3416,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="201",
         country="USA",
     ),
-    "Austin, Texas": AUSTIN,
     "Lundholm Gym, Durham, New Hampshire": SportsballGeocodeTuple(
         city="Durham",
         state="NH",
@@ -10331,7 +10321,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Austin, TX, USA": AUSTIN,
     "Noblesville, IN, USA": SportsballGeocodeTuple(
         city="Noblesville",
         state="IN",
@@ -11688,7 +11677,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="Slovenia",
     ),
     "Wichita, Kansas, United States": WICHITA,
-    "Austin, Texas, United States": AUSTIN,
     "Stockholm, Sweden": SportsballGeocodeTuple(
         city="Stockholm",
         state="",
