@@ -10999,6 +10999,56 @@
             "housenumber": "",
             "country": "Germany",
             "type": "venue"
+        },
+        "16817779-b5c5-4e9f-9283-ad4ba2759ead": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 52.52,
+            "lng": 13.405,
+            "housenumber": "",
+            "country": "Bolivia",
+            "type": "country"
+        },
+        "7909dc4c-954c-4171-b685-fc9b68c392e1": {
+            "city": "Fukuroi",
+            "state": "",
+            "postal": "",
+            "lat": 34.743333,
+            "lng": 137.970556,
+            "housenumber": "",
+            "country": "Japan",
+            "type": "venue"
+        },
+        "82a21394-4c7e-4a3c-b134-67d2205ed979": {
+            "city": "San Diego",
+            "state": "CA",
+            "postal": "",
+            "lat": 32.885278,
+            "lng": -117.239223,
+            "housenumber": "9860",
+            "country": "USA",
+            "type": "venue"
+        },
+        "37113202-4928-4c5d-8e65-9ac787ea715d": {
+            "city": "Pasadena",
+            "state": "CA",
+            "postal": "91106",
+            "lat": 34.1431663,
+            "lng": -118.1181468,
+            "housenumber": "1570",
+            "country": "USA",
+            "type": "venue"
+        },
+        "c2f30336-23f3-4c69-910c-99a94d28e2db": {
+            "city": "Cordenons",
+            "state": "",
+            "postal": "",
+            "lat": 45.983333,
+            "lng": 12.7,
+            "housenumber": "",
+            "country": "Italy",
+            "type": "city"
         }
     },
     "searches": {
@@ -13212,6 +13262,7 @@
         "Montreal, Quebec, Canada": "e47ac940-6efc-493d-ad6e-31aa8dab3a0e",
         "Montreal": "e47ac940-6efc-493d-ad6e-31aa8dab3a0e",
         "Whitten Oval, Melbourne, Australia": "a024088b-3dda-49b8-8884-680ce521ae9a",
+        "Whitten Oval": "a024088b-3dda-49b8-8884-680ce521ae9a",
         "Daegu Stadium - Daegu": "8eac1d55-d037-4900-9450-5a18e9c1810a",
         "Truist Park - Atlanta - Georgia - 30339": "33fe35dc-fdfa-4c6c-9006-6be49d4f42a0",
         "Truist Park, Atlanta, GA, USA": "33fe35dc-fdfa-4c6c-9006-6be49d4f42a0",
@@ -13257,6 +13308,12 @@
         "ECU": "d3ea7edf-a058-4ed6-b406-f481fb2f1e7f",
         "Seogwipo Stadium - Sogwipo": "23b165e0-56b7-4830-8cf1-c2055fe1c854",
         "Albany Civic Center - Albany - GA": "0f058e45-e16c-44c1-8107-eb39ab399659",
-        "Berlin, Germany": "8789cb81-21db-41a4-8b5c-9ce9bcf067ec"
+        "Berlin, Germany": "8789cb81-21db-41a4-8b5c-9ce9bcf067ec",
+        "BOL": "16817779-b5c5-4e9f-9283-ad4ba2759ead",
+        "Shizouka Stadium Ecopa - Shizuoka": "7909dc4c-954c-4171-b685-fc9b68c392e1",
+        "LionTree Arena - San Diego - CA": "82a21394-4c7e-4a3c-b134-67d2205ed979",
+        "RIMAC Arena, La Jolla, California": "82a21394-4c7e-4a3c-b134-67d2205ed979",
+        "Hutto-Patterson Gymnasium - Pasadena - CA": "37113202-4928-4c5d-8e65-9ac787ea715d",
+        "ITF Cordenons": "c2f30336-23f3-4c69-910c-99a94d28e2db"
     }
 }

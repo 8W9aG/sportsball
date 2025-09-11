@@ -2618,15 +2618,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="400",
         country="USA",
     ),
-    "RIMAC Arena, La Jolla, California": SportsballGeocodeTuple(
-        city="La Jolla",
-        state="CA",
-        postal="",
-        lat=32.885278,
-        lng=-117.239223,
-        housenumber="9860",
-        country="USA",
-    ),
     "Draddy Gymnasium, Riverdale, New York": SportsballGeocodeTuple(
         city="Riverdale",
         state="NY",
