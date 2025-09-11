@@ -11129,6 +11129,36 @@
             "housenumber": "",
             "country": "Germany",
             "type": "venue"
+        },
+        "216e5e68-f7b9-4f51-a400-e6a1224bdb8b": {
+            "city": "Bordeaux",
+            "state": "",
+            "postal": "",
+            "lat": 44.829167,
+            "lng": -0.597778,
+            "housenumber": "",
+            "country": "France",
+            "type": "venue"
+        },
+        "434fc7f3-7bbb-402a-b9c6-3b6ecd6ba462": {
+            "city": "Dallas",
+            "state": "TX",
+            "postal": "75205",
+            "lat": 32.840278,
+            "lng": -96.780556,
+            "housenumber": "6024",
+            "country": "USA",
+            "type": "venue"
+        },
+        "21e425d3-d752-482c-9b4e-2b67b6d8b5cf": {
+            "city": "Singapore",
+            "state": "",
+            "postal": "",
+            "lat": 1.283333,
+            "lng": 103.833333,
+            "housenumber": "",
+            "country": "Singapore",
+            "type": "city"
         }
     },
     "searches": {
@@ -11655,6 +11685,7 @@
         "War Memorial Stadium - Little Rock, Arkansas - United States": "f772b9d1-8469-4619-82f1-bf443d1c7ee5",
         "Bristol Motor Speedway": "32c2d357-7cc8-4658-9d15-9d10e6a13bd2",
         "Bristol Motor Speedway - Bristol - TN - 37620": "32c2d357-7cc8-4658-9d15-9d10e6a13bd2",
+        "Bristol Motor Speedway - Bristol - Tennessee": "32c2d357-7cc8-4658-9d15-9d10e6a13bd2",
         "Municipal Stadium": "bc2c77db-532f-4ce6-973c-20e5f7b02392",
         "Craven Cottage, London, England": "19067b7e-f969-4740-af81-c90bea9f3783",
         "Craven Cottage - London": "19067b7e-f969-4740-af81-c90bea9f3783",
@@ -12339,6 +12370,7 @@
         "Miami, FL, USA": "b5a19152-f1eb-4cff-b826-8087e2318eb1",
         "Miami (FL)": "b5a19152-f1eb-4cff-b826-8087e2318eb1",
         "Miami, FL, United States": "b5a19152-f1eb-4cff-b826-8087e2318eb1",
+        "Miami Masters": "b5a19152-f1eb-4cff-b826-8087e2318eb1",
         "Physical Education Complex, Baltimore, Maryland": "36184641-86e4-49ed-9aec-135485fb89b4",
         "Kiel Center": "ef748f23-92e7-45ed-80fc-682101fee8c0",
         "Enterprise Center, St. Louis, Missouri": "ef748f23-92e7-45ed-80fc-682101fee8c0",
@@ -13248,6 +13280,7 @@
         "Las Vegas Ballpark - Las Vegas - Nevada - 89135": "38f55fab-bb6b-4d7a-969e-7885d561fc8d",
         "LTU": "1b634580-26de-4b30-ae7d-28056a1d53f9",
         "Leederville Oval": "4c74e41d-beb6-436b-9142-bc40e8c45b1b",
+        "Sullivan Logistics Stadium, Perth, Australia": "4c74e41d-beb6-436b-9142-bc40e8c45b1b",
         "Prague CH": "06967665-450b-420d-abcf-05aae7733825",
         "Prague, Czechia": "06967665-450b-420d-abcf-05aae7733825",
         "Memorial Oval": "cf91472a-f676-42d2-8080-6c4dbd2dbbe7",
@@ -13413,6 +13446,10 @@
         "Bogotá, Colombia": "9bc9e144-47f2-416a-9649-3e46b52bb52b",
         "La Mosson": "5df6ecfc-ef9d-4037-a1da-d24c8c6a2646",
         "CAA Arena - Belleville - ON": "9c40c174-4f6b-4be6-932b-71f92fde2fc8",
-        "Bad Homburg, Germany": "556b2307-174c-4674-91d9-5fe6eeef2b43"
+        "Bad Homburg, Germany": "556b2307-174c-4674-91d9-5fe6eeef2b43",
+        "Parc de Lescure - Bordeaux": "216e5e68-f7b9-4f51-a400-e6a1224bdb8b",
+        "Moody Coliseum - Dallas - TX": "434fc7f3-7bbb-402a-b9c6-3b6ecd6ba462",
+        "Moody Coliseum, Dallas, Texas": "434fc7f3-7bbb-402a-b9c6-3b6ecd6ba462",
+        "Singapore, Singapore": "21e425d3-d752-482c-9b4e-2b67b6d8b5cf"
     }
 }
