@@ -11599,6 +11599,36 @@
             "housenumber": "400",
             "country": "USA",
             "type": "venue"
+        },
+        "9c623e63-71f3-40c5-85a9-367e2444410f": {
+            "city": "Stafford",
+            "state": "QLD",
+            "postal": "",
+            "lat": -27.4158,
+            "lng": 153.0204,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "afba48b5-9360-4c2b-9da1-7bb535f42272": {
+            "city": "Washington",
+            "state": "DC",
+            "postal": "",
+            "lat": 38.89,
+            "lng": -76.971944,
+            "housenumber": "2400",
+            "country": "USA",
+            "type": "venue"
+        },
+        "892d810e-93c4-4fb4-906f-d88c4089af46": {
+            "city": "Linz",
+            "state": "",
+            "postal": "",
+            "lat": 48.305833,
+            "lng": 14.286389,
+            "housenumber": "",
+            "country": "Austria",
+            "type": "city"
         }
     },
     "searches": {
@@ -12752,6 +12782,7 @@
         "Barsapara Stadium, Guwahati, India": "05c7aaff-0534-4088-af9d-0d59a504a7b3",
         "Hagan Arena, Philadelphia, Pennsylvania": "375e4e46-cda4-49ad-87d4-eb59b7a48334",
         "Alumni Memorial Fieldhouse, Philadelphia, Pennsylvania": "375e4e46-cda4-49ad-87d4-eb59b7a48334",
+        "Michael J. Hagan '85 Arena - Philadelphia - PA": "375e4e46-cda4-49ad-87d4-eb59b7a48334",
         "BB&T Field": "1d980770-144f-4275-bcf6-0e3cfc6b3b23",
         "Wells Fargo Center, Philadelphia, Pennsylvania": "632c915d-1f70-446a-a97e-ac5cd539a4bc",
         "Spectrum": "632c915d-1f70-446a-a97e-ac5cd539a4bc",
@@ -13710,6 +13741,7 @@
         "Arena Pernambuco - Recife": "1ecd2d59-0abf-45bb-9bea-33abe391d2cd",
         "Tempe Diablo Stadium - Tempe - Arizona - 85289": "a26e554f-6876-494a-8094-1e86dbc0769d",
         "Santiago, Chile": "7127b5e4-1606-43ed-85b8-d58e0cb632a6",
+        "Santiago": "7127b5e4-1606-43ed-85b8-d58e0cb632a6",
         "Free State Toyota Stadium - Bloemfontein": "d9ca94e6-cb67-492f-9183-09aac74ece7e",
         "Free State Stadium - Bloemfontein": "d9ca94e6-cb67-492f-9183-09aac74ece7e",
         "ITF Martos": "eae63ab5-cc94-4bbb-82ec-7a57266ff137",
@@ -14000,6 +14032,9 @@
         "Coopers Stadium, Adelaide, Australia": "db919e43-d7f3-4c2a-8b58-a0e7460e63ca",
         "Kigali CH": "30fc15f2-de1b-4e10-8cd9-0509593ee466",
         "Allstate Arena, Rosemont, Illinois": "66985df7-789d-4f82-bc1c-9acb1987a6e7",
-        "Allstate Arena - Rosemont - IL": "66985df7-789d-4f82-bc1c-9acb1987a6e7"
+        "Allstate Arena - Rosemont - IL": "66985df7-789d-4f82-bc1c-9acb1987a6e7",
+        "Hickey Park, Brisbane, Australia": "9c623e63-71f3-40c5-85a9-367e2444410f",
+        "RFK Memorial - Washington": "afba48b5-9360-4c2b-9da1-7bb535f42272",
+        "Linz, Austria": "892d810e-93c4-4fb4-906f-d88c4089af46"
     }
 }

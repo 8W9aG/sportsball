@@ -265,7 +265,7 @@ class ESPNLeagueModel(LeagueModel):
                         ):
                             yield game_model
                             events_count += 1
-                except (requests.exceptions.JSONDecodeError, KeyError) as exc:
+                except requests.exceptions.JSONDecodeError as exc:
                     logging.error(scoreboard_response.text)
                     logging.error(url)
                     logging.error(str(exc))
