@@ -88,14 +88,22 @@ class ESPNLeagueModel(LeagueModel):
         season_type_json: dict[str, Any],
         pbar: tqdm.tqdm,
     ) -> Iterator[GameModel]:
-        if cache_disabled:
-            with self.session.cache_disabled():
+        event = event_item
+        if "$ref" in event_item:
+            if cache_disabled:
+                with self.session.cache_disabled():
+                    event_response = self.session.get(event_item["$ref"])
+            else:
                 event_response = self.session.get(event_item["$ref"])
-        else:
-            event_response = self.session.get(event_item["$ref"])
-        event_response.raise_for_status()
-        event = event_response.json()
-        for competition in event["competitions"]:
+            event_response.raise_for_status()
+            event = event_response.json()
+
+        competitions = event.get("competitions", [])
+        if not competitions:
+            for grouping in event.get("groupings", []):
+                competitions.extend(grouping["competitions"])
+
+        for competition in competitions:
             game_model = create_espn_game_model(
                 competition,
                 week_count,

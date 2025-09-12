@@ -11579,6 +11579,26 @@
             "housenumber": "",
             "country": "Australia",
             "type": "venue"
+        },
+        "30fc15f2-de1b-4e10-8cd9-0509593ee466": {
+            "city": "Kigali",
+            "state": "",
+            "postal": "",
+            "lat": -1.943889,
+            "lng": 30.059444,
+            "housenumber": "",
+            "country": "Rwanda",
+            "type": "city"
+        },
+        "66985df7-789d-4f82-bc1c-9acb1987a6e7": {
+            "city": "Rosemont",
+            "state": "IL",
+            "postal": "",
+            "lat": 42.005278,
+            "lng": -87.887778,
+            "housenumber": "400",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -11617,6 +11637,7 @@
         "Jones AT&T Stadium - Lubbock - TX - 79407": "d901dd5d-4ac8-476d-8d25-19d8b472b49f",
         "Gila River Arena": "b3c4809c-b5fd-4ab4-ba48-5e39089b8b09",
         "Gila River Arena, Phoenix, AZ, USA": "b3c4809c-b5fd-4ab4-ba48-5e39089b8b09",
+        "Desert Diamond Arena - Glendale - AZ - 85318": "b3c4809c-b5fd-4ab4-ba48-5e39089b8b09",
         "Alfredo Harp Helú Stadium": "18400cae-6aec-4966-9587-4b2fc362e91a",
         "Towson University": "b51fc52b-4254-4ef3-ae31-3b0ad5b75b91",
         "U.S. Bank Stadium": "5daabad8-94b4-47e5-953d-c86d30618c99",
@@ -11698,6 +11719,7 @@
         "Arrowhead Stadium - Kansas City, Missouri - United States": "b6e806a0-61cb-4a49-8384-701a2ae61180",
         "GEHA Field at Arrowhead Stadium - Kansas City, Missouri, United States - United States": "b6e806a0-61cb-4a49-8384-701a2ae61180",
         "Arrowhead Stadium, Kansas City, MO, USA": "b6e806a0-61cb-4a49-8384-701a2ae61180",
+        "The KC Stadium": "b6e806a0-61cb-4a49-8384-701a2ae61180",
         "Stamford Bridge, London, England": "697520ca-d03b-45b1-a913-afe3d13a3371",
         "Stamford Bridge - London": "697520ca-d03b-45b1-a913-afe3d13a3371",
         "Bank of America Stadium": "543d7f78-3dd0-4046-a366-80ca231e8898",
@@ -11988,6 +12010,7 @@
         "SDCCU Stadium, San Diego, CA, USA": "4789f86b-22ad-4aaf-97c0-3f49a2eb8902",
         "SoFi Stadium, Inglewood, CA, USA": "1145772b-06fd-48d7-a155-0c9312d543ef",
         "Kardinia Park - Australia": "e0d0121e-fcad-4647-971a-f2031dafe9d3",
+        "Kardinia Park": "e0d0121e-fcad-4647-971a-f2031dafe9d3",
         "GMHBA Stadium": "e0d0121e-fcad-4647-971a-f2031dafe9d3",
         "GMHBA Stadium, Geelong, Australia": "e0d0121e-fcad-4647-971a-f2031dafe9d3",
         "GMHBA Stadium, Geelong": "e0d0121e-fcad-4647-971a-f2031dafe9d3",
@@ -13967,12 +13990,16 @@
         "Guadalajara": "9f1ad7d1-321d-4e01-9467-0c9848652a56",
         "Cap Cana CH": "27ffc4a9-51a0-4bce-a155-95b3ca4274ed",
         "Nottingham, Great Britain": "cfc11804-2872-411d-b7f9-73422f55a71f",
+        "ITF Nottingham": "cfc11804-2872-411d-b7f9-73422f55a71f",
         "La Bisbal d'Empordà, Spain": "23bd9d89-22cd-406a-9db5-841f9c4796d1",
         "Hersonissos CH": "d7add8fe-146f-4193-9a37-c0aedf6d36c1",
         "Levien Gym, New York, New York": "27b658e0-cd2b-46f1-bca9-702d54306225",
         "Levien Gymnasium, New York, New York": "27b658e0-cd2b-46f1-bca9-702d54306225",
         "Francis A. Levien Gymnasium, New York, New York": "27b658e0-cd2b-46f1-bca9-702d54306225",
         "Levien Gymnasium - New York - NY": "27b658e0-cd2b-46f1-bca9-702d54306225",
-        "Coopers Stadium, Adelaide, Australia": "db919e43-d7f3-4c2a-8b58-a0e7460e63ca"
+        "Coopers Stadium, Adelaide, Australia": "db919e43-d7f3-4c2a-8b58-a0e7460e63ca",
+        "Kigali CH": "30fc15f2-de1b-4e10-8cd9-0509593ee466",
+        "Allstate Arena, Rosemont, Illinois": "66985df7-789d-4f82-bc1c-9acb1987a6e7",
+        "Allstate Arena - Rosemont - IL": "66985df7-789d-4f82-bc1c-9acb1987a6e7"
     }
 }

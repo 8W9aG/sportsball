@@ -50,7 +50,12 @@ def _create_espn_team_model(
     try:
         points = score_dict["value"]
     except KeyError:
-        points = float(int(team["winner"]))
+        try:
+            points = float(int(team["winner"]))
+        except KeyError as exc:
+            logging.error(str(exc))
+            logging.error(team)
+            raise exc
     coaches_urls = []
     if "coaches" in team:
         try:
