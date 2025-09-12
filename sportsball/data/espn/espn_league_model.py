@@ -251,7 +251,14 @@ class ESPNLeagueModel(LeagueModel):
                             }
                             calendar_dates &= declared_calendar_dates
                     for event in scoreboard["events"]:
-                        event_id = event["id"]
+                        if not event:
+                            continue
+                        try:
+                            event_id = event["id"]
+                        except KeyError as exc:
+                            logging.error(str(exc))
+                            logging.error(event)
+                            raise exc
                         event_response = self.session.get(
                             f"https://sports.core.api.espn.com/v2/sports/{sport_slug}/leagues/{league_slug}/events/{event_id}?lang=en&region=us"
                         )

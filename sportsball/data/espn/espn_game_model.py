@@ -45,6 +45,10 @@ def _create_espn_team(
             dt=dt,
             positions_validator=positions_validator,
         )
+        if "winner" not in competitor:
+            competitor_response = session.get(competitor["$ref"])
+            competitor_response.raise_for_status()
+            competitor.update(competitor_response.json())
         try:
             return TeamModel(
                 identifier=player.identifier,
