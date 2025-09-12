@@ -6557,7 +6557,7 @@
             "lat": -27.672139,
             "lng": 152.90425,
             "housenumber": "",
-            "country": "USA",
+            "country": "Australia",
             "type": "venue"
         },
         "0f5408a2-d6b6-4b83-8a44-4bffe47c820d": {
@@ -11399,6 +11399,26 @@
             "housenumber": "",
             "country": "Turkey",
             "type": "city"
+        },
+        "153624e5-43ae-4fe2-90e3-9bdb4360a74e": {
+            "city": "London",
+            "state": "",
+            "postal": "",
+            "lat": 51.531944,
+            "lng": 0.039444,
+            "housenumber": "",
+            "country": "UK",
+            "type": "venue"
+        },
+        "05a6eaad-4acb-48d1-9bbb-f18cd24d6c19": {
+            "city": "Stanford",
+            "state": "CA",
+            "postal": "",
+            "lat": 37.4225,
+            "lng": -122.165278,
+            "housenumber": "",
+            "country": "USA",
+            "type": "city"
         }
     },
     "searches": {
@@ -12839,6 +12859,7 @@
         "Roy Stewart Stadium - Murray - KY - 42071": "afc664f4-49fc-433c-b6f3-764024ed4f11",
         "Brighton Homes Arena": "3652210a-9e53-46b8-bd5a-59367edc3a79",
         "Brighton Homes Arena, Brisbane, Australia": "3652210a-9e53-46b8-bd5a-59367edc3a79",
+        "Springfield Central Stadium, Springfield, Australia": "3652210a-9e53-46b8-bd5a-59367edc3a79",
         "Kimmel Arena, Asheville, North Carolina": "0f5408a2-d6b6-4b83-8a44-4bffe47c820d",
         "SWE": "c8bcc673-c065-4066-b582-d76e46dc6f87",
         "Memorial Gymnasium, Nashville, Tennessee": "6d33550a-6dac-4f41-8590-352a1ce54224",
@@ -13744,6 +13765,9 @@
         "Felix Bollaert": "67b56e21-9fdf-43ff-8a65-a09a7e224b73",
         "Changsha, China PR": "7b15d9f7-1f0e-42dd-bdb8-c4bc3156ec03",
         "Cherbourg CH": "ce1acd11-0ee5-4daa-b99c-8c6d0bc33777",
-        "Antalya, Türkiye": "30a07fb1-35d9-4db6-91e1-900978466643"
+        "Antalya, Türkiye": "30a07fb1-35d9-4db6-91e1-900978466643",
+        "Boleyn Ground": "153624e5-43ae-4fe2-90e3-9bdb4360a74e",
+        "Stanford, California": "05a6eaad-4acb-48d1-9bbb-f18cd24d6c19",
+        "Stanford - Palo Alto": "05a6eaad-4acb-48d1-9bbb-f18cd24d6c19"
     }
 }

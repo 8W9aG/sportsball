@@ -6356,15 +6356,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Stanford, California": SportsballGeocodeTuple(
-        city="Stanford",
-        state="CA",
-        postal="",
-        lat=37.4225,
-        lng=-122.165278,
-        housenumber="",
-        country="USA",
-    ),
     "Chattanooga, Tennessee": CHATTANOOGA,
     "Des Moines, Iowa": SportsballGeocodeTuple(
         city="Des Moines",
