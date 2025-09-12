@@ -11509,6 +11509,16 @@
             "housenumber": "",
             "country": "France",
             "type": "city"
+        },
+        "9f1ad7d1-321d-4e01-9467-0c9848652a56": {
+            "city": "Guadalajara",
+            "state": "Jalisco",
+            "postal": "",
+            "lat": 20.676667,
+            "lng": -103.3475,
+            "housenumber": "",
+            "country": "Mexico",
+            "type": "venue"
         }
     },
     "searches": {
@@ -11868,6 +11878,7 @@
         "Pride Park, Derby, England": "78ee8318-14b0-4b11-b1af-29ef72b3daa5",
         "Camping World Stadium - Orlando - FL - 32805": "8e146665-d362-496f-af4c-3d55166e2968",
         "Camping World Stadium, Orlando, FL, USA": "8e146665-d362-496f-af4c-3d55166e2968",
+        "Camping World Stadium - Orlando, Florida": "8e146665-d362-496f-af4c-3d55166e2968",
         "Target Field, Minneapolis, MN, USA": "acf65d25-2161-4d92-8153-fa345b470a26",
         "Target Field": "acf65d25-2161-4d92-8153-fa345b470a26",
         "Target Field - Minneapolis - Minnesota - 55403": "acf65d25-2161-4d92-8153-fa345b470a26",
@@ -13279,6 +13290,7 @@
         "Rec Hall, University Park, Pennsylvania": "08dd469e-ed95-4fb2-b1d1-1c9ee35a0f53",
         "Bryce Jordan Center, University Park, Pennsylvania": "08dd469e-ed95-4fb2-b1d1-1c9ee35a0f53",
         "Bryce Jordan Center - University Park, Pennsylvania - United States": "08dd469e-ed95-4fb2-b1d1-1c9ee35a0f53",
+        "Bryce Jordan Center - University Park - PA": "08dd469e-ed95-4fb2-b1d1-1c9ee35a0f53",
         "Alberton Oval": "11019cec-c086-40ab-9bbc-6a141ae4db70",
         "Alberton Oval, Alberton, Australia": "11019cec-c086-40ab-9bbc-6a141ae4db70",
         "Mackey Arena, West Lafayette, Indiana": "9cac843a-760b-4055-9c9c-6bab374eb032",
@@ -13685,6 +13697,7 @@
         "IMG Academy - Bradenton - FL": "e9f71aae-33e6-40e0-ac3d-be8bbc75f46a",
         "TUR": "155c210b-92ec-428a-bf85-b8d95667ba2e",
         "Ted Summerton Recreational Reserve": "3f943a98-04b3-4891-b103-d382b7fef672",
+        "Ted Summerton": "3f943a98-04b3-4891-b103-d382b7fef672",
         "SUI": "be81be84-afa7-4684-b943-120916419f23",
         "Provost Umphrey Stadium - Beaumont - TX - 77705": "60657358-b227-47d9-a3f8-4e343aada3e1",
         "H.E.B. Center at Cedar Park, Cedar Park, Texas": "e5a2cd9e-d54a-4542-8d2c-4fb3275d1e99",
@@ -13884,6 +13897,7 @@
         "CenturyLink Arena, Boise, Idaho": "21fed8fa-e69a-4034-966b-413c532476f5",
         "Qwest Arena, Boise, Idaho": "21fed8fa-e69a-4034-966b-413c532476f5",
         "Idaho Central Arena - Boise - ID - 83799": "21fed8fa-e69a-4034-966b-413c532476f5",
-        "Contrexéville, France": "22256bf7-f6c0-4829-8b49-af4f7e4b7e76"
+        "Contrexéville, France": "22256bf7-f6c0-4829-8b49-af4f7e4b7e76",
+        "Guadalajara": "9f1ad7d1-321d-4e01-9467-0c9848652a56"
     }
 }
