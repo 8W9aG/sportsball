@@ -11519,6 +11519,26 @@
             "housenumber": "",
             "country": "Mexico",
             "type": "venue"
+        },
+        "27ffc4a9-51a0-4bce-a155-95b3ca4274ed": {
+            "city": "Cap Cana",
+            "state": "",
+            "postal": "",
+            "lat": 18.4800582,
+            "lng": -68.4111224,
+            "housenumber": "",
+            "country": "Dominican Republic",
+            "type": "city"
+        },
+        "cfc11804-2872-411d-b7f9-73422f55a71f": {
+            "city": "Nottingham",
+            "state": "",
+            "postal": "",
+            "lat": 52.9561,
+            "lng": -1.1512,
+            "housenumber": "",
+            "country": "UK",
+            "type": "city"
         }
     },
     "searches": {
@@ -12015,6 +12035,7 @@
         "Fenway Park": "02dee2f8-ee91-459e-b2ac-eabef7ff98df",
         "Fenway Park, Boston, MA, USA": "02dee2f8-ee91-459e-b2ac-eabef7ff98df",
         "Fenway Park - Boston - Massachusetts - 02215": "02dee2f8-ee91-459e-b2ac-eabef7ff98df",
+        "Fenway Park - Boston - MA": "02dee2f8-ee91-459e-b2ac-eabef7ff98df",
         "Rose Bowl": "ffb46c91-1180-4c2e-ac13-53fdf9812a58",
         "Rose Bowl - Hampshire - England": "ffb46c91-1180-4c2e-ac13-53fdf9812a58",
         "Rose Bowl - Pasadena - CA - 91103": "ffb46c91-1180-4c2e-ac13-53fdf9812a58",
@@ -12224,6 +12245,7 @@
         "Blacktown Park": "add32356-49fc-46b4-abdc-4965880325fa",
         "Blacktown International Sportspark": "add32356-49fc-46b4-abdc-4965880325fa",
         "Blacktown": "add32356-49fc-46b4-abdc-4965880325fa",
+        "Blacktown International Sportspark, Sydney, Australia": "add32356-49fc-46b4-abdc-4965880325fa",
         "Riverway Stadium - Australia": "89054249-b445-43ca-b56d-fab33e8f4475",
         "Riverway Stadium": "89054249-b445-43ca-b56d-fab33e8f4475",
         "Riverway Stadium, Townsville, Australia": "89054249-b445-43ca-b56d-fab33e8f4475",
@@ -12985,6 +13007,7 @@
         "Sojka Pavilion, Lewisburg, Pennsylvania": "f3935439-e1bb-4484-a270-d0d289e12ad2",
         "Hinkle Fieldhouse, Indianapolis, Indiana": "712a8399-f4ff-482a-8568-337dfa751d64",
         "Hinkle Fieldhouse - Indianapolis - IN": "712a8399-f4ff-482a-8568-337dfa751d64",
+        "Hinkle Fieldhouse, Indianapolis, IN, USA": "712a8399-f4ff-482a-8568-337dfa751d64",
         "Bell Centre - Montreal - QC": "5c191950-dc0b-4162-8dab-5e05f92e42e9",
         "Bell Centre": "5c191950-dc0b-4162-8dab-5e05f92e42e9",
         "Centre Bell - Montreal, Quebec, Canada - Canada": "5c191950-dc0b-4162-8dab-5e05f92e42e9",
@@ -13898,6 +13921,8 @@
         "Qwest Arena, Boise, Idaho": "21fed8fa-e69a-4034-966b-413c532476f5",
         "Idaho Central Arena - Boise - ID - 83799": "21fed8fa-e69a-4034-966b-413c532476f5",
         "Contrexéville, France": "22256bf7-f6c0-4829-8b49-af4f7e4b7e76",
-        "Guadalajara": "9f1ad7d1-321d-4e01-9467-0c9848652a56"
+        "Guadalajara": "9f1ad7d1-321d-4e01-9467-0c9848652a56",
+        "Cap Cana CH": "27ffc4a9-51a0-4bce-a155-95b3ca4274ed",
+        "Nottingham, Great Britain": "cfc11804-2872-411d-b7f9-73422f55a71f"
     }
 }
