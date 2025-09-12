@@ -11309,6 +11309,46 @@
             "housenumber": "",
             "country": "Mexico",
             "type": "city"
+        },
+        "bbbd15e8-1bf4-473a-a32f-92d4b3a5f185": {
+            "city": "Merida",
+            "state": "Yucatán",
+            "postal": "",
+            "lat": 20.966667,
+            "lng": -89.616667,
+            "housenumber": "",
+            "country": "Mexico",
+            "type": "city"
+        },
+        "922059f6-0f13-4239-baf8-fcf79ec948fb": {
+            "city": "Lyon",
+            "state": "",
+            "postal": "",
+            "lat": 45.723889,
+            "lng": 4.832222,
+            "housenumber": "353",
+            "country": "France",
+            "type": "city"
+        },
+        "0da5048a-be23-4a7b-a420-7e41b2e1a407": {
+            "city": "Bouctouche",
+            "state": "NB",
+            "postal": "",
+            "lat": 46.4751299,
+            "lng": -64.7203195,
+            "housenumber": "30",
+            "country": "Canada",
+            "type": "venue"
+        },
+        "e9a51b6e-ec19-4b0b-a153-be059c02396d": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 48.666667,
+            "lng": 19.5,
+            "housenumber": "",
+            "country": "Slovakia",
+            "type": "country"
         }
     },
     "searches": {
@@ -11686,6 +11726,7 @@
         "Vitality Stadium - Bournemouth": "d7467392-c862-4fad-804a-8c6df019768e",
         "Oakland Coliseum - Oakland - CA - 94621": "8d552ac4-4929-4c60-b346-ff752aca9cd4",
         "Oakland Coliseum": "8d552ac4-4929-4c60-b346-ff752aca9cd4",
+        "Oakland Coliseum - Oakland - California - 94621": "8d552ac4-4929-4c60-b346-ff752aca9cd4",
         "Blinn College": "c9f1c69e-b394-4e4a-9126-63956eb4c62b",
         "Los Angeles Memorial Coliseum - Los Angeles - CA - 90037": "b8058648-2769-4b3e-a5f3-fbda691ba66a",
         "Los Angeles Memorial Coliseum": "b8058648-2769-4b3e-a5f3-fbda691ba66a",
@@ -11702,6 +11743,7 @@
         "University of Texas at El Paso": "20b89361-bb34-41de-a5df-5114554361b1",
         "UTEP College": "20b89361-bb34-41de-a5df-5114554361b1",
         "Olympic Park - Australia": "6f4732ca-3711-4066-a7c9-453e1e61bb93",
+        "Olympic Park Oval": "6f4732ca-3711-4066-a7c9-453e1e61bb93",
         "Yager Stadium": "2d140dad-9fbc-404c-a814-6856dffa6d0f",
         "Yager Stadium - Oxford - OH - 45056": "2d140dad-9fbc-404c-a814-6856dffa6d0f",
         "SDCCU Stadium - San Diego - CA": "4789f86b-22ad-4aaf-97c0-3f49a2eb8902",
@@ -13014,6 +13056,7 @@
         "Climate Pledge Arena, Seattle, WA, USA": "4fa113b3-12b2-4b0c-978b-932dbf9f285c",
         "Climate Pledge Arena": "4fa113b3-12b2-4b0c-978b-932dbf9f285c",
         "KeyArena - Seattle, Washington - United States": "4fa113b3-12b2-4b0c-978b-932dbf9f285c",
+        "KeyArena - Seattle - WA": "4fa113b3-12b2-4b0c-978b-932dbf9f285c",
         "Lee E. Williams Athletics and Assembly Center, Jackson, Mississippi": "3457b34a-99da-46fb-b808-855bf73c8515",
         "Harrison HPER Complex, Itta Bena, Mississippi": "bde46d7f-7bc8-423d-b29f-763d2a326798",
         "Hill Field House, Baltimore, Maryland": "9968f402-bf91-432a-b6e0-1e738a2b5ab1",
@@ -13639,6 +13682,10 @@
         "Austin, Texas, United States": "26d9d6ce-6c9e-4eb7-a0bc-c2439de7ad58",
         "La Beaujoire": "ef2ac086-4766-4891-993a-e7b8dae25b3e",
         "Total Mortgage Arena - Bridgeport - CT": "3c52b492-5c95-40c7-92ac-9667230166db",
-        "Monterrey, Mexico": "703f4ef6-37cc-4162-8f35-414dc1f017d9"
+        "Monterrey, Mexico": "703f4ef6-37cc-4162-8f35-414dc1f017d9",
+        "Merida CH": "bbbd15e8-1bf4-473a-a32f-92d4b3a5f185",
+        "Gerland": "922059f6-0f13-4239-baf8-fcf79ec948fb",
+        "J.K. Irving Centre - Moncton - NB": "0da5048a-be23-4a7b-a420-7e41b2e1a407",
+        "SVK": "e9a51b6e-ec19-4b0b-a153-be059c02396d"
     }
 }
