@@ -11539,6 +11539,46 @@
             "housenumber": "",
             "country": "UK",
             "type": "city"
+        },
+        "23bd9d89-22cd-406a-9db5-841f9c4796d1": {
+            "city": "La Bisbal d'Empordà",
+            "state": "Catalonia",
+            "postal": "",
+            "lat": 41.96,
+            "lng": 3.040556,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "city"
+        },
+        "d7add8fe-146f-4193-9a37-c0aedf6d36c1": {
+            "city": "Hersonissos",
+            "state": "Crete",
+            "postal": "",
+            "lat": 35.316667,
+            "lng": 25.39,
+            "housenumber": "",
+            "country": "Greece",
+            "type": "city"
+        },
+        "27b658e0-cd2b-46f1-bca9-702d54306225": {
+            "city": "New York",
+            "state": "NY",
+            "postal": "",
+            "lat": 40.80979,
+            "lng": -73.961715,
+            "housenumber": "3030",
+            "country": "USA",
+            "type": "venue"
+        },
+        "db919e43-d7f3-4c2a-8b58-a0e7460e63ca": {
+            "city": "Hindmarsh",
+            "state": "SA",
+            "postal": "5007",
+            "lat": -34.9075,
+            "lng": 138.568889,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
         }
     },
     "searches": {
@@ -12310,6 +12350,7 @@
         "Joe Aillet Stadium - Ruston, Louisiana, USA - United States": "c47d30c0-6d40-4493-87f5-badc08bc8d01",
         "Carter-Finley Stadium - Raleigh - NC - 27607": "6d061fe2-8a2e-4a48-bf21-8eebf2244ab5",
         "Carter-Finley Stadium": "6d061fe2-8a2e-4a48-bf21-8eebf2244ab5",
+        "Carter-Finley Stadium - Raleigh - NC": "6d061fe2-8a2e-4a48-bf21-8eebf2244ab5",
         "Mosaic Stadium": "b21f42cc-3bd9-4d39-9abb-3b6c435fc04e",
         "Bobby Dodd Stadium - Atlanta - GA - 30332": "e9ceae11-4db3-4505-894c-0b336934bea8",
         "Bobby Dodd Stadium at Historic Grant Field": "e9ceae11-4db3-4505-894c-0b336934bea8",
@@ -13561,6 +13602,7 @@
         "Watsco Center - Miami–Orlando, United States - United States": "42087809-e093-45f0-99a6-8d5d85190ab2",
         "Carver-Hawkeye Arena - Iowa City - IA": "590d9526-3d91-4c6e-9c57-7ff7300fd505",
         "Moreton Bay Central Sports Complex": "a298f3ac-615d-4a6f-be1a-4b5fb1947aca",
+        "Moreton Bay": "a298f3ac-615d-4a6f-be1a-4b5fb1947aca",
         "Morwell Recreation Reserve": "4925a541-c1ba-44ca-adad-bee92a49bd27",
         "Eastbourne": "aedcd23a-63e9-4ee2-97cd-a0e7cdcc81d3",
         "Eastbourne, Great Britain": "aedcd23a-63e9-4ee2-97cd-a0e7cdcc81d3",
@@ -13840,6 +13882,7 @@
         "First Horizon Coliseum - Greensboro - NC": "4c173833-adff-4bf3-b618-9f5b25af8265",
         "First Horizon Coliseum, Greensboro, North Carolina": "4c173833-adff-4bf3-b618-9f5b25af8265",
         "Iasi, Romania": "cd1b1492-d469-48a2-b806-7ed7bfc20874",
+        "Iasi": "cd1b1492-d469-48a2-b806-7ed7bfc20874",
         "Thebarton Oval": "5d84b644-20ef-43b9-b120-823d7373a05f",
         "Brisbane, QLD, Australia": "f8b0d2ca-4b1a-4645-85dd-97d67e88901d",
         "Brisbane, Australia": "f8b0d2ca-4b1a-4645-85dd-97d67e88901d",
@@ -13923,6 +13966,13 @@
         "Contrexéville, France": "22256bf7-f6c0-4829-8b49-af4f7e4b7e76",
         "Guadalajara": "9f1ad7d1-321d-4e01-9467-0c9848652a56",
         "Cap Cana CH": "27ffc4a9-51a0-4bce-a155-95b3ca4274ed",
-        "Nottingham, Great Britain": "cfc11804-2872-411d-b7f9-73422f55a71f"
+        "Nottingham, Great Britain": "cfc11804-2872-411d-b7f9-73422f55a71f",
+        "La Bisbal d'Empordà, Spain": "23bd9d89-22cd-406a-9db5-841f9c4796d1",
+        "Hersonissos CH": "d7add8fe-146f-4193-9a37-c0aedf6d36c1",
+        "Levien Gym, New York, New York": "27b658e0-cd2b-46f1-bca9-702d54306225",
+        "Levien Gymnasium, New York, New York": "27b658e0-cd2b-46f1-bca9-702d54306225",
+        "Francis A. Levien Gymnasium, New York, New York": "27b658e0-cd2b-46f1-bca9-702d54306225",
+        "Levien Gymnasium - New York - NY": "27b658e0-cd2b-46f1-bca9-702d54306225",
+        "Coopers Stadium, Adelaide, Australia": "db919e43-d7f3-4c2a-8b58-a0e7460e63ca"
     }
 }

@@ -157,15 +157,6 @@ ROSS_E_TEMPLETON_CENTER = SportsballGeocodeTuple(
     housenumber="503",
     country="USA",
 )
-LEVIEN_GYM = SportsballGeocodeTuple(
-    city="New York",
-    state="NY",
-    postal="",
-    lat=40.80979,
-    lng=-73.961715,
-    housenumber="3030",
-    country="USA",
-)
 HOLMES_CENTER = SportsballGeocodeTuple(
     city="Boone",
     state="NC",
@@ -2294,7 +2285,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="13",
         country="USA",
     ),
-    "Levien Gym, New York, New York": LEVIEN_GYM,
     "Belk Arena, Davidson, North Carolina": SportsballGeocodeTuple(
         city="Davidson",
         state="NC",
@@ -3569,7 +3559,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Ross E. Templeton Center, Clinton, South Carolina": ROSS_E_TEMPLETON_CENTER,
-    "Levien Gymnasium, New York, New York": LEVIEN_GYM,
     "UMPC Cooper Fieldhouse, Pittsburgh, Pennsylvania": SportsballGeocodeTuple(
         city="Pittsburgh",
         state="PA",
@@ -6695,7 +6684,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Francis A. Levien Gymnasium, New York, New York": LEVIEN_GYM,
     "Tampa, Florida": TAMPA,
     "Berkeley, California": BERKELEY,
     "Barossa Oval - Australia": BAROSSA_PARK,
