@@ -11419,6 +11419,26 @@
             "housenumber": "",
             "country": "USA",
             "type": "city"
+        },
+        "0ea85da8-3443-4ec7-8eb7-998767c521a8": {
+            "city": "Granby",
+            "state": "QC",
+            "postal": "",
+            "lat": 45.4,
+            "lng": -72.733333,
+            "housenumber": "",
+            "country": "Canada",
+            "type": "city"
+        },
+        "03e9e2ef-9e20-4cc4-8a01-e8843552e1dd": {
+            "city": "Drummoyne",
+            "state": "NSW",
+            "postal": "",
+            "lat": -33.851111,
+            "lng": 151.15,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
         }
     },
     "searches": {
@@ -11885,6 +11905,7 @@
         "Silverdome - Pontiac - MI": "3aab2cf1-3072-48cd-b240-de4121d8372d",
         "Pontiac Silverdome": "3aab2cf1-3072-48cd-b240-de4121d8372d",
         "Pontiac Silverdome, Pontiac, Michigan": "3aab2cf1-3072-48cd-b240-de4121d8372d",
+        "Pontiac Silverdome - Detroit": "3aab2cf1-3072-48cd-b240-de4121d8372d",
         "The Dome at America's Center, St. Louis, MO, USA": "c28435ef-717b-4b46-b5c9-47c4fae983a8",
         "Moorabbin Oval - Australia": "f4c19842-a581-4155-a8c4-a7a978de141d",
         "RSEA Park": "f4c19842-a581-4155-a8c4-a7a978de141d",
@@ -12103,6 +12124,7 @@
         "Optus Stadium, Perth": "61cbdfd3-3b37-48be-8450-dc4b1308cd27",
         "Optus Stadium - 6100": "61cbdfd3-3b37-48be-8450-dc4b1308cd27",
         "Gocheok Sky Dome": "1fcca43b-258c-464e-bf46-cebc85cc311b",
+        "Gocheok Sky Dome - Seoul": "1fcca43b-258c-464e-bf46-cebc85cc311b",
         "Jiangwan Stadium - Australia": "348174a9-7ffc-45aa-8866-680f7882629e",
         "Jiangwan Sports Centre": "348174a9-7ffc-45aa-8866-680f7882629e",
         "Jiangwan Stadium, Shanghai, China": "348174a9-7ffc-45aa-8866-680f7882629e",
@@ -13768,6 +13790,8 @@
         "Antalya, Türkiye": "30a07fb1-35d9-4db6-91e1-900978466643",
         "Boleyn Ground": "153624e5-43ae-4fe2-90e3-9bdb4360a74e",
         "Stanford, California": "05a6eaad-4acb-48d1-9bbb-f18cd24d6c19",
-        "Stanford - Palo Alto": "05a6eaad-4acb-48d1-9bbb-f18cd24d6c19"
+        "Stanford - Palo Alto": "05a6eaad-4acb-48d1-9bbb-f18cd24d6c19",
+        "ITF Granby": "0ea85da8-3443-4ec7-8eb7-998767c521a8",
+        "Drummoyne Oval": "03e9e2ef-9e20-4cc4-8a01-e8843552e1dd"
     }
 }
