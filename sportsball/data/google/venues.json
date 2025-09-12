@@ -11349,6 +11349,36 @@
             "housenumber": "",
             "country": "Slovakia",
             "type": "country"
+        },
+        "6644ddc9-7a94-4e91-8185-93e65eced88c": {
+            "city": "Box Hill",
+            "state": "VIC",
+            "postal": "",
+            "lat": -37.818889,
+            "lng": 145.1375,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "67b56e21-9fdf-43ff-8a65-a09a7e224b73": {
+            "city": "Lens",
+            "state": "",
+            "postal": "",
+            "lat": 50.432778,
+            "lng": 2.815,
+            "housenumber": "",
+            "country": "France",
+            "type": "venue"
+        },
+        "7b15d9f7-1f0e-42dd-bdb8-c4bc3156ec03": {
+            "city": "Changsha",
+            "state": "Hunan",
+            "postal": "",
+            "lat": 28.228,
+            "lng": 112.939,
+            "housenumber": "",
+            "country": "China",
+            "type": "venue"
         }
     },
     "searches": {
@@ -13686,6 +13716,9 @@
         "Merida CH": "bbbd15e8-1bf4-473a-a32f-92d4b3a5f185",
         "Gerland": "922059f6-0f13-4239-baf8-fcf79ec948fb",
         "J.K. Irving Centre - Moncton - NB": "0da5048a-be23-4a7b-a420-7e41b2e1a407",
-        "SVK": "e9a51b6e-ec19-4b0b-a153-be059c02396d"
+        "SVK": "e9a51b6e-ec19-4b0b-a153-be059c02396d",
+        "Box Hill City Oval, Box Hill, Australia": "6644ddc9-7a94-4e91-8185-93e65eced88c",
+        "Felix Bollaert": "67b56e21-9fdf-43ff-8a65-a09a7e224b73",
+        "Changsha, China PR": "7b15d9f7-1f0e-42dd-bdb8-c4bc3156ec03"
     }
 }
