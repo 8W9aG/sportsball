@@ -373,15 +373,6 @@ HERTZ_ARENA = SportsballGeocodeTuple(
     housenumber="11000",
     country="USA",
 )
-IDAHO_CENTRAL_ARENA = SportsballGeocodeTuple(
-    city="Boise",
-    state="ID",
-    postal="",
-    lat=43.614,
-    lng=-116.204,
-    housenumber="233",
-    country="USA",
-)
 CHASE_FAMILY_ARENA = SportsballGeocodeTuple(
     city="Hartford",
     state="CT",
@@ -1243,15 +1234,6 @@ ST_PETERSBURG = SportsballGeocodeTuple(
     postal="",
     lat=27.773056,
     lng=-82.64,
-    housenumber="",
-    country="USA",
-)
-PHOENIX = SportsballGeocodeTuple(
-    city="Phoenix",
-    state="AZ",
-    postal="",
-    lat=33.448333,
-    lng=-112.073889,
     housenumber="",
     country="USA",
 )
@@ -3125,7 +3107,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Idaho Central Arena, Boise, Idaho": IDAHO_CENTRAL_ARENA,
     "Wellness Center, Brooklyn, New York": SportsballGeocodeTuple(
         city="Brooklyn",
         state="NY",
@@ -3617,7 +3598,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Island Federal Credit Union Arena, Stony Brook, New York": STONY_BROOK_ARENA,
-    "Phoenix, Arizona": PHOENIX,
     "America First Event Center, Cedar City, Utah": SportsballGeocodeTuple(
         city="Cedar City",
         state="UT",
@@ -4399,7 +4379,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="11901",
         country="USA",
     ),
-    "CenturyLink Arena, Boise, Idaho": IDAHO_CENTRAL_ARENA,
     "Lynchburg, Virginia": SportsballGeocodeTuple(
         city="Lynchburg",
         state="VA",
@@ -7766,7 +7745,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="Bahamas",
     ),
-    "Qwest Arena, Boise, Idaho": IDAHO_CENTRAL_ARENA,
     "Coliseo Juan AubÃ­n Cruz Abreu, ManatÃ­": COLISEO_JUAN_AUBIN_CRUZ_ABREU,
     "Alltel Arena, North Little Rock, Arkansas": SIMMONS_BANK_ARENA,
     "Mohegan Arena at Casey Plaza, Wilkes-Barre, Pennsylvania": SportsballGeocodeTuple(
@@ -9283,7 +9261,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Phoenix, Arizona, United States": PHOENIX,
     "Kinna, Sweden": SportsballGeocodeTuple(
         city="Kinna",
         state="Västergötland",
@@ -11204,7 +11181,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Phoenix, AZ, USA": PHOENIX,
     "St. George, UT, USA": ST_GEORGE,
     "Garland, UT, USA": SportsballGeocodeTuple(
         city="Garland",

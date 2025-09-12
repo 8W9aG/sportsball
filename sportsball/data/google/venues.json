@@ -11469,6 +11469,46 @@
             "housenumber": "",
             "country": "Poland",
             "type": "city"
+        },
+        "4bf55866-5443-4a44-8fdc-b21ea7a82a62": {
+            "city": "Port Melbourne",
+            "state": "VIC",
+            "postal": "",
+            "lat": -37.830833,
+            "lng": 144.942222,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "6537250c-f29d-4047-af3f-8eaa583070ff": {
+            "city": "Phoenix",
+            "state": "AZ",
+            "postal": "",
+            "lat": 33.448333,
+            "lng": -112.073889,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
+        },
+        "21fed8fa-e69a-4034-966b-413c532476f5": {
+            "city": "Boise",
+            "state": "ID",
+            "postal": "",
+            "lat": 43.614,
+            "lng": -116.204,
+            "housenumber": "233",
+            "country": "USA",
+            "type": "venue"
+        },
+        "22256bf7-f6c0-4829-8b49-af4f7e4b7e76": {
+            "city": "Contrexéville",
+            "state": "",
+            "postal": "",
+            "lat": 48.185,
+            "lng": 5.896,
+            "housenumber": "",
+            "country": "France",
+            "type": "city"
         }
     },
     "searches": {
@@ -11580,6 +11620,7 @@
         "Soldier Field - Chicago - IL - 60605": "6288704d-be17-469f-acfd-203d9f923c11",
         "Soldier Field - Chicago, Illinois - United States": "6288704d-be17-469f-acfd-203d9f923c11",
         "Soldier Field, Chicago, IL, USA": "6288704d-be17-469f-acfd-203d9f923c11",
+        "Soldier Field - Chicago, Illinois": "6288704d-be17-469f-acfd-203d9f923c11",
         "Puerto Ordaz, Bolivar, Venezuela": "8685f819-e3c0-4452-9e73-008e3757b027",
         "GEHA Field at Arrowhead Stadium": "b6e806a0-61cb-4a49-8384-701a2ae61180",
         "Arrowhead Stadium": "b6e806a0-61cb-4a49-8384-701a2ae61180",
@@ -12441,6 +12482,7 @@
         "Kidd Brewer Stadium - Boone - NC - 28607": "1e2ecdc9-4785-4bd6-9729-7d3a0128879b",
         "London Stadium, London, England": "71ea177e-9ede-43d0-b967-463ac315e7de",
         "London Stadium - London": "71ea177e-9ede-43d0-b967-463ac315e7de",
+        "London Stadium - London - UK": "71ea177e-9ede-43d0-b967-463ac315e7de",
         "Fifth Third Stadium - Kennesaw - GA - 30144": "67d91ae1-b162-450e-bd96-24051bc2de1f",
         "Wankhede Stadium, Mumbai, India": "cdb5d5d6-df0b-404f-b8ca-46262bb3a884",
         "Beaver Stadium - University Park - PA - 16802": "86769284-6453-4b29-95d9-7d3be027cb53",
@@ -12562,6 +12604,7 @@
         "Arthur Ashe Stadium, New York, NY, USA": "3d5506d1-33e3-459b-8ec6-2230ffb17887",
         "Barker-Lane Stadium - Buies Creek - NC - 27546": "771c8e2b-72f6-41eb-bd2e-5edb49030e61",
         "Bloomfield Road, Blackpool, England": "ea4c8613-7067-449f-a136-4e6134a1e4d9",
+        "Bloomfield Road": "ea4c8613-7067-449f-a136-4e6134a1e4d9",
         "Hughes Stadium (CO) - Fort Collins - CO - 80526": "88361ded-bd72-47dc-a388-9dbde037951e",
         "Sonny Lubick Field at Hughes Stadium": "88361ded-bd72-47dc-a388-9dbde037951e",
         "Hughes Stadium (CO) - Fort Collins - CO": "88361ded-bd72-47dc-a388-9dbde037951e",
@@ -12949,6 +12992,7 @@
         "Nationwide Arena": "04fcfcfe-148d-44d0-babe-a7da5e7896a3",
         "Charles E. Smith Center, Washington, District of Columbia": "687e6d16-6f92-4580-a5c4-de9558f1fdc7",
         "Charles E. Smith Center, Washington, DC, USA": "687e6d16-6f92-4580-a5c4-de9558f1fdc7",
+        "Charles E. Smith Center - Washington - DC": "687e6d16-6f92-4580-a5c4-de9558f1fdc7",
         "Turpin Stadium - Natchitoches - LA - 71457": "68e8d3d1-58cb-44b4-8e9b-a1df83f15d9c",
         "Burr Gymnasium, Washington, District of Columbia": "d0152592-1503-4435-aa79-edf9523cb71d",
         "Indian Wells, USA": "189493da-5fd3-43fe-b987-2255a081ce30",
@@ -13830,6 +13874,16 @@
         "Drummoyne Oval": "03e9e2ef-9e20-4cc4-8a01-e8843552e1dd",
         "Indian Wells Masters": "9e1df90a-9173-4f2d-b5e5-c8ac4c113999",
         "Birmingham, Great Britain": "63648214-df36-45fa-8bf6-da418eaeca30",
-        "Warsaw, Poland": "2c902bf5-5449-45d4-ad0c-e684ea0428bf"
+        "Warsaw, Poland": "2c902bf5-5449-45d4-ad0c-e684ea0428bf",
+        "North Port Oval, Port Melbourne, Australia": "4bf55866-5443-4a44-8fdc-b21ea7a82a62",
+        "Phoenix CH": "6537250c-f29d-4047-af3f-8eaa583070ff",
+        "Phoenix, Arizona": "6537250c-f29d-4047-af3f-8eaa583070ff",
+        "Phoenix, Arizona, United States": "6537250c-f29d-4047-af3f-8eaa583070ff",
+        "Phoenix, AZ, USA": "6537250c-f29d-4047-af3f-8eaa583070ff",
+        "Idaho Central Arena, Boise, Idaho": "21fed8fa-e69a-4034-966b-413c532476f5",
+        "CenturyLink Arena, Boise, Idaho": "21fed8fa-e69a-4034-966b-413c532476f5",
+        "Qwest Arena, Boise, Idaho": "21fed8fa-e69a-4034-966b-413c532476f5",
+        "Idaho Central Arena - Boise - ID - 83799": "21fed8fa-e69a-4034-966b-413c532476f5",
+        "Contrexéville, France": "22256bf7-f6c0-4829-8b49-af4f7e4b7e76"
     }
 }
