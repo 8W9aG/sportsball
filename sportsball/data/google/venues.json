@@ -11458,7 +11458,17 @@
             "lng": -1.9025,
             "housenumber": "",
             "country": "UK",
-            "type": "venue"
+            "type": "city"
+        },
+        "2c902bf5-5449-45d4-ad0c-e684ea0428bf": {
+            "city": "Warsaw",
+            "state": "",
+            "postal": "",
+            "lat": 52.23,
+            "lng": 21.011111,
+            "housenumber": "",
+            "country": "Poland",
+            "type": "city"
         }
     },
     "searches": {
@@ -11956,6 +11966,7 @@
         "Rose Bowl": "ffb46c91-1180-4c2e-ac13-53fdf9812a58",
         "Rose Bowl - Hampshire - England": "ffb46c91-1180-4c2e-ac13-53fdf9812a58",
         "Rose Bowl - Pasadena - CA - 91103": "ffb46c91-1180-4c2e-ac13-53fdf9812a58",
+        "Rose Bowl - Los Angeles": "ffb46c91-1180-4c2e-ac13-53fdf9812a58",
         "Anfield, Liverpool, England": "944a4036-70e4-4337-a796-849dca453f63",
         "Anfield - Liverpool": "944a4036-70e4-4337-a796-849dca453f63",
         "Miami Orange Bowl": "d925671c-4b94-4223-927d-360bc0fe37d6",
@@ -12145,6 +12156,7 @@
         "Optus Stadium, Perth, Austrália": "61cbdfd3-3b37-48be-8450-dc4b1308cd27",
         "Optus Stadium, Perth": "61cbdfd3-3b37-48be-8450-dc4b1308cd27",
         "Optus Stadium - 6100": "61cbdfd3-3b37-48be-8450-dc4b1308cd27",
+        "Perth Stadium": "61cbdfd3-3b37-48be-8450-dc4b1308cd27",
         "Gocheok Sky Dome": "1fcca43b-258c-464e-bf46-cebc85cc311b",
         "Gocheok Sky Dome - Seoul": "1fcca43b-258c-464e-bf46-cebc85cc311b",
         "Jiangwan Stadium - Australia": "348174a9-7ffc-45aa-8866-680f7882629e",
@@ -13675,6 +13687,7 @@
         "Ernest W. Spangler Stadium - Boiling Springs - NC - 28152": "3cf89d6e-46d8-4a7f-90de-8f1af1f75644",
         "Centre 200 - Sydney - NS": "c10917b7-c900-489c-9465-ccd5a05a07f4",
         "Angel of the Winds Arena - Everett - WA": "cbb64288-51a8-463b-9808-38f898d1f918",
+        "Angel of the Winds Arena, Everett, WA, USA": "cbb64288-51a8-463b-9808-38f898d1f918",
         "Charleston, South Carolina": "90510be4-e508-44e9-90a9-1a43af3036ad",
         "Charleston, South Carolina, United States": "90510be4-e508-44e9-90a9-1a43af3036ad",
         "Charleston, USA": "90510be4-e508-44e9-90a9-1a43af3036ad",
@@ -13816,6 +13829,7 @@
         "ITF Granby": "0ea85da8-3443-4ec7-8eb7-998767c521a8",
         "Drummoyne Oval": "03e9e2ef-9e20-4cc4-8a01-e8843552e1dd",
         "Indian Wells Masters": "9e1df90a-9173-4f2d-b5e5-c8ac4c113999",
-        "Birmingham, Great Britain": "63648214-df36-45fa-8bf6-da418eaeca30"
+        "Birmingham, Great Britain": "63648214-df36-45fa-8bf6-da418eaeca30",
+        "Warsaw, Poland": "2c902bf5-5449-45d4-ad0c-e684ea0428bf"
     }
 }
