@@ -11679,6 +11679,36 @@
             "housenumber": "",
             "country": "Armenia",
             "type": "country"
+        },
+        "b26d7edf-f6a2-412e-b317-ccaadf2277f9": {
+            "city": "Coffs Harbour",
+            "state": "NSW",
+            "postal": "",
+            "lat": -30.322778,
+            "lng": 153.095278,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "911526fd-d598-4c62-961c-a3eb43124e91": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 13.0,
+            "lng": 122.0,
+            "housenumber": "",
+            "country": "Philippines",
+            "type": "country"
+        },
+        "45cc8e88-6e2c-4174-a6f2-7ab8043287b2": {
+            "city": "Sapporo",
+            "state": "Hokkaido",
+            "postal": "",
+            "lat": 43.015194,
+            "lng": 141.409806,
+            "housenumber": "",
+            "country": "Japan",
+            "type": "venue"
         }
     },
     "searches": {
@@ -14097,6 +14127,9 @@
         "EGY": "7a88bbe1-5b38-404a-b9b3-400f64f0b75f",
         "Bari, Italy": "4a350a0a-ea25-407d-a357-d1d716b5e2a3",
         "Rhein Energie Stadion - Cologne": "d9ca1faf-fb4d-4eca-8f2e-d634ec604484",
-        "ARM": "dcd30351-cb0d-4b95-bad6-b4c263b9e643"
+        "ARM": "dcd30351-cb0d-4b95-bad6-b4c263b9e643",
+        "C.ex Coffs International Stadium, Coffs Harbour, Australia": "b26d7edf-f6a2-412e-b317-ccaadf2277f9",
+        "PHI": "911526fd-d598-4c62-961c-a3eb43124e91",
+        "Daiwa House Premist Dome - Sapporo": "45cc8e88-6e2c-4174-a6f2-7ab8043287b2"
     }
 }
