@@ -11439,6 +11439,26 @@
             "housenumber": "",
             "country": "Australia",
             "type": "venue"
+        },
+        "9e1df90a-9173-4f2d-b5e5-c8ac4c113999": {
+            "city": "Indian Wells",
+            "state": "CA",
+            "postal": "",
+            "lat": 33.724089,
+            "lng": -116.305603,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
+        },
+        "63648214-df36-45fa-8bf6-da418eaeca30": {
+            "city": "Birmingham",
+            "state": "",
+            "postal": "",
+            "lat": 52.48,
+            "lng": -1.9025,
+            "housenumber": "",
+            "country": "UK",
+            "type": "venue"
         }
     },
     "searches": {
@@ -11461,6 +11481,7 @@
         "MetLife Stadium - East Rutherford, New Jersey - United States": "7b9c3f52-bb1a-43d9-b074-4b39f5ab12ef",
         "Giants Stadium, East Rutherford, NJ, USA": "7b9c3f52-bb1a-43d9-b074-4b39f5ab12ef",
         "MetLife Stadium - East Rutherford - NJ": "7b9c3f52-bb1a-43d9-b074-4b39f5ab12ef",
+        "Giants Stadium - East Rutherford": "7b9c3f52-bb1a-43d9-b074-4b39f5ab12ef",
         "Gillette Stadium": "3219c262-e48f-46bf-94fe-fb037f71dad8",
         "Foxboro Stadium, Foxborough, MA, USA": "3219c262-e48f-46bf-94fe-fb037f71dad8",
         "Acrisure Stadium": "5596c265-234f-40a0-8dab-88d5a7d91858",
@@ -11769,6 +11790,7 @@
         "Kauffman Stadium - Kansas City - Missouri - 64129": "19041e2d-a371-479d-a1bc-7264cbf80068",
         "East Melbourne - Australia": "56a0b392-918c-41b5-9241-937a6d519349",
         "St. Andrew's Stadium, Birmingham, England": "9d1f427b-4106-40ab-8708-de08bc1cd144",
+        "St. Andrew's @ Knighthead Park - Birmingham": "9d1f427b-4106-40ab-8708-de08bc1cd144",
         "Junction Oval - Australia": "9939510e-feb6-4e0d-aa10-e8f9f3d5f3a6",
         "South Dakota State University": "d749b0a3-f780-4d86-8c8a-e798272249a7",
         "South Dakota State College": "d749b0a3-f780-4d86-8c8a-e798272249a7",
@@ -13792,6 +13814,8 @@
         "Stanford, California": "05a6eaad-4acb-48d1-9bbb-f18cd24d6c19",
         "Stanford - Palo Alto": "05a6eaad-4acb-48d1-9bbb-f18cd24d6c19",
         "ITF Granby": "0ea85da8-3443-4ec7-8eb7-998767c521a8",
-        "Drummoyne Oval": "03e9e2ef-9e20-4cc4-8a01-e8843552e1dd"
+        "Drummoyne Oval": "03e9e2ef-9e20-4cc4-8a01-e8843552e1dd",
+        "Indian Wells Masters": "9e1df90a-9173-4f2d-b5e5-c8ac4c113999",
+        "Birmingham, Great Britain": "63648214-df36-45fa-8bf6-da418eaeca30"
     }
 }
