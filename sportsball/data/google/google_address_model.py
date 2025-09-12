@@ -2038,15 +2038,6 @@ BENDER_ARENA = SportsballGeocodeTuple(
     housenumber="4400",
     country="USA",
 )
-WEBSTER_BANK_ARENA = SportsballGeocodeTuple(
-    city="Bridgeport",
-    state="CT",
-    postal="79601",
-    lat=41.1732,
-    lng=-73.187,
-    housenumber="600",
-    country="USA",
-)
 WOLSTEIN_CENTER = SportsballGeocodeTuple(
     city="Cleveland",
     state="OH",
@@ -4130,7 +4121,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="1600",
         country="USA",
     ),
-    "Webster Bank Arena, Bridgeport, Connecticut": WEBSTER_BANK_ARENA,
     "U.S. Cellular Center, Asheville, North Carolina": HARRAHS_CHEROKEE_CENTER,
     "Ford Center at The Star, Frisco, Texas": FORD_CENTER_AT_THE_STAR,
     "Boardwalk Hall, Atlantic City, New Jersey": SportsballGeocodeTuple(
@@ -6912,15 +6902,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         postal="",
         lat=39.5309,
         lng=-119.8125,
-        housenumber="400",
-        country="USA",
-    ),
-    "Allstate Arena, Rosemont, Illinois": SportsballGeocodeTuple(
-        city="Rosemont",
-        state="IL",
-        postal="",
-        lat=42.005278,
-        lng=-87.887778,
         housenumber="400",
         country="USA",
     ),
@@ -16655,7 +16636,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Webster Bank Arena - Bridgeport, Connecticut - United States": WEBSTER_BANK_ARENA,
     "Wolstein Center - Cleveland, Ohio - United States": WOLSTEIN_CENTER,
     "George Washington": SportsballGeocodeTuple(
         city="Foggy Bottom",

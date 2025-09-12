@@ -30,6 +30,7 @@ class Position(StrEnum):
     SWEEPER = "SW"
     MIDFIELDER = "M"
     RIGHT_CENTRAL_MIDFIELDER = "RCM"
+    DEFENDER = "D"
 
 
 _POSITIONS = {str(x): x for x in Position}

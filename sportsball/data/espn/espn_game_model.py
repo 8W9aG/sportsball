@@ -697,6 +697,7 @@ def _create_espn_team(
         team_response = session.get(competitor["team"]["$ref"])
         team_response.raise_for_status()
         team_dict = team_response.json()
+        team_dict.update(competitor)
 
     odds: list[OddsModel] = []
     if odds_dict:

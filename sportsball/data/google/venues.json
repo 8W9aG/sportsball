@@ -11629,6 +11629,26 @@
             "housenumber": "",
             "country": "Austria",
             "type": "city"
+        },
+        "aaf70715-4a06-43d4-8ba1-8cdb3d27d7de": {
+            "city": "Bridgeport",
+            "state": "CT",
+            "postal": "79601",
+            "lat": 41.1732,
+            "lng": -73.187,
+            "housenumber": "600",
+            "country": "USA",
+            "type": "venue"
+        },
+        "7a88bbe1-5b38-404a-b9b3-400f64f0b75f": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 26.0,
+            "lng": 30.0,
+            "housenumber": "",
+            "country": "Egypt",
+            "type": "country"
         }
     },
     "searches": {
@@ -12081,6 +12101,7 @@
         "Cardiff City Stadium, Cardiff, Wales": "b57f7d58-dd32-45a4-9856-a0cab5251a1b",
         "Cardiff City Stadium - Cardiff": "b57f7d58-dd32-45a4-9856-a0cab5251a1b",
         "North Hobart - Australia": "ff625519-3999-40f8-af8f-03aed7e1b705",
+        "North Hobart Oval": "ff625519-3999-40f8-af8f-03aed7e1b705",
         "University of Arkansas at Little Rock": "068f05b6-fe45-4616-a7be-5e54dd2a2ddf",
         "Texas Stadium - Irving - TX": "b504fdf1-6d5d-4dfe-b3c5-d029861473a9",
         "Texas Stadium": "b504fdf1-6d5d-4dfe-b3c5-d029861473a9",
@@ -14035,6 +14056,10 @@
         "Allstate Arena - Rosemont - IL": "66985df7-789d-4f82-bc1c-9acb1987a6e7",
         "Hickey Park, Brisbane, Australia": "9c623e63-71f3-40c5-85a9-367e2444410f",
         "RFK Memorial - Washington": "afba48b5-9360-4c2b-9da1-7bb535f42272",
-        "Linz, Austria": "892d810e-93c4-4fb4-906f-d88c4089af46"
+        "Linz, Austria": "892d810e-93c4-4fb4-906f-d88c4089af46",
+        "Webster Bank Arena, Bridgeport, Connecticut": "aaf70715-4a06-43d4-8ba1-8cdb3d27d7de",
+        "Webster Bank Arena - Bridgeport, Connecticut - United States": "aaf70715-4a06-43d4-8ba1-8cdb3d27d7de",
+        "Webster Bank Arena - Bridgeport - CT": "aaf70715-4a06-43d4-8ba1-8cdb3d27d7de",
+        "EGY": "7a88bbe1-5b38-404a-b9b3-400f64f0b75f"
     }
 }
