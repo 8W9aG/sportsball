@@ -11379,6 +11379,26 @@
             "housenumber": "",
             "country": "China",
             "type": "venue"
+        },
+        "ce1acd11-0ee5-4daa-b99c-8c6d0bc33777": {
+            "city": "Cherbourg",
+            "state": "",
+            "postal": "",
+            "lat": 49.63,
+            "lng": -1.62,
+            "housenumber": "",
+            "country": "France",
+            "type": "city"
+        },
+        "30a07fb1-35d9-4db6-91e1-900978466643": {
+            "city": "Antalya",
+            "state": "",
+            "postal": "",
+            "lat": 36.8874,
+            "lng": 30.7075,
+            "housenumber": "",
+            "country": "Turkey",
+            "type": "city"
         }
     },
     "searches": {
@@ -11915,6 +11935,7 @@
         "Cotton Bowl": "4afa82ac-f580-4d26-9cb1-39cd65ecb504",
         "Cotton Bowl - Dallas, Texas - United States": "4afa82ac-f580-4d26-9cb1-39cd65ecb504",
         "Cotton Bowl - Dallas - TX - 75215": "4afa82ac-f580-4d26-9cb1-39cd65ecb504",
+        "Cotton Bowl - Dallas, Texas": "4afa82ac-f580-4d26-9cb1-39cd65ecb504",
         "Rutgers University": "6e01112a-3d16-4453-b6ee-a2a53f2cefa4",
         "Rutgers College": "6e01112a-3d16-4453-b6ee-a2a53f2cefa4",
         "Kezar Stadium": "dd8daf7e-30b2-435a-a54f-8e300b7f5039",
@@ -11957,6 +11978,7 @@
         "Amon G. Carter Stadium - Fort Worth, Texas, USA - United States": "58e5afdf-783d-46bd-b5ba-5743b3c9b0f9",
         "Amon G. Carter Stadium - Fort Worth - TX - 76129": "58e5afdf-783d-46bd-b5ba-5743b3c9b0f9",
         "Carrara - Australia": "361298bc-6000-4b40-a8eb-579139c277a5",
+        "Carrara Oval": "361298bc-6000-4b40-a8eb-579139c277a5",
         "People First Stadium": "361298bc-6000-4b40-a8eb-579139c277a5",
         "People First Stadium, Gold Coast, Australia": "361298bc-6000-4b40-a8eb-579139c277a5",
         "People First Stadium, Gold Coast": "361298bc-6000-4b40-a8eb-579139c277a5",
@@ -13026,6 +13048,7 @@
         "BUL": "99959c0b-5bfb-4651-b4e6-0ebee71833a4",
         "McCamish Pavilion, Atlanta, Georgia": "5030cbaf-7343-4bee-86a6-150f92b09998",
         "McCamish Pavilion, Atlanta, GA, USA": "5030cbaf-7343-4bee-86a6-150f92b09998",
+        "McCamish Pavilion - Atlanta - GA": "5030cbaf-7343-4bee-86a6-150f92b09998",
         "Alexander Memorial Coliseum, Atlanta, Georgia": "5030cbaf-7343-4bee-86a6-150f92b09998",
         "The Hawthorns, West Bromwich, England": "5874e6a6-dddd-4c94-8381-48046200614b",
         "The Hawthorns - West Bromwich": "5874e6a6-dddd-4c94-8381-48046200614b",
@@ -13719,6 +13742,8 @@
         "SVK": "e9a51b6e-ec19-4b0b-a153-be059c02396d",
         "Box Hill City Oval, Box Hill, Australia": "6644ddc9-7a94-4e91-8185-93e65eced88c",
         "Felix Bollaert": "67b56e21-9fdf-43ff-8a65-a09a7e224b73",
-        "Changsha, China PR": "7b15d9f7-1f0e-42dd-bdb8-c4bc3156ec03"
+        "Changsha, China PR": "7b15d9f7-1f0e-42dd-bdb8-c4bc3156ec03",
+        "Cherbourg CH": "ce1acd11-0ee5-4daa-b99c-8c6d0bc33777",
+        "Antalya, Türkiye": "30a07fb1-35d9-4db6-91e1-900978466643"
     }
 }
