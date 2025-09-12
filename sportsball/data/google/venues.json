@@ -11649,6 +11649,16 @@
             "housenumber": "",
             "country": "Egypt",
             "type": "country"
+        },
+        "4a350a0a-ea25-407d-a357-d1d716b5e2a3": {
+            "city": "Bari",
+            "state": "Apulia",
+            "postal": "",
+            "lat": 41.125278,
+            "lng": 16.866667,
+            "housenumber": "",
+            "country": "Italy",
+            "type": "city"
         }
     },
     "searches": {
@@ -12102,6 +12112,7 @@
         "Cardiff City Stadium - Cardiff": "b57f7d58-dd32-45a4-9856-a0cab5251a1b",
         "North Hobart - Australia": "ff625519-3999-40f8-af8f-03aed7e1b705",
         "North Hobart Oval": "ff625519-3999-40f8-af8f-03aed7e1b705",
+        "North Hobart Oval, Hobart, Australia": "ff625519-3999-40f8-af8f-03aed7e1b705",
         "University of Arkansas at Little Rock": "068f05b6-fe45-4616-a7be-5e54dd2a2ddf",
         "Texas Stadium - Irving - TX": "b504fdf1-6d5d-4dfe-b3c5-d029861473a9",
         "Texas Stadium": "b504fdf1-6d5d-4dfe-b3c5-d029861473a9",
@@ -12567,6 +12578,7 @@
         "Alamodome, San Antonio, Texas": "bd10f708-68ea-40ab-8161-f2688a4696cc",
         "Alamodome, San Antonio, TX, USA": "bd10f708-68ea-40ab-8161-f2688a4696cc",
         "Alamodome - San Antonio, Texas, USA - United States": "bd10f708-68ea-40ab-8161-f2688a4696cc",
+        "Alamodome - San Antonio - TX": "bd10f708-68ea-40ab-8161-f2688a4696cc",
         "Morehead State College": "2e13f340-9779-4e43-92cd-a29d2e205ed8",
         "Morehead State University": "2e13f340-9779-4e43-92cd-a29d2e205ed8",
         "Jack Trice Stadium - Ames - IA - 50011": "4ee81211-66e8-4fbe-b786-993473584b96",
@@ -13046,6 +13058,7 @@
         "Illinois State College": "5abfac8a-7bdb-4247-9611-910be206fe3f",
         "Chiles Center, Portland, Oregon": "b9e7f7b0-bf03-4dcb-bb58-52d90c49ead8",
         "Dubai, United Arab Emirates": "b693f834-d1c8-4b79-b306-a2414ef5e64a",
+        "Dubai": "b693f834-d1c8-4b79-b306-a2414ef5e64a",
         "Redhawk Center, Seattle, Washington": "0944c18b-3fce-4ca1-a07a-178ac4437283",
         "Connolly Center, Seattle, Washington": "0944c18b-3fce-4ca1-a07a-178ac4437283",
         "BayCare Ballpark - Clearwater - Florida - 33765": "9ff12eec-39ed-489d-8d97-c550a89e7bf9",
@@ -14060,6 +14073,7 @@
         "Webster Bank Arena, Bridgeport, Connecticut": "aaf70715-4a06-43d4-8ba1-8cdb3d27d7de",
         "Webster Bank Arena - Bridgeport, Connecticut - United States": "aaf70715-4a06-43d4-8ba1-8cdb3d27d7de",
         "Webster Bank Arena - Bridgeport - CT": "aaf70715-4a06-43d4-8ba1-8cdb3d27d7de",
-        "EGY": "7a88bbe1-5b38-404a-b9b3-400f64f0b75f"
+        "EGY": "7a88bbe1-5b38-404a-b9b3-400f64f0b75f",
+        "Bari, Italy": "4a350a0a-ea25-407d-a357-d1d716b5e2a3"
     }
 }
