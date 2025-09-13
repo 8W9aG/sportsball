@@ -2667,9 +2667,10 @@ def _create_espn_player_model(
                         elif stat["name"] == "a40":
                             a40 = more_interesting(a40, stat["value"])
                         elif stat["name"] == "goalsAgainst":
-                            goals_against = more_interesting(
-                                goals_against, stat["value"]
-                            )
+                            if "value" in stat:
+                                goals_against = more_interesting(
+                                    goals_against, stat["value"]
+                                )
                         elif stat["name"] == "avgGoalsAgainst":
                             average_goals_against = more_interesting(
                                 average_goals_against, stat["value"]
