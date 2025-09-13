@@ -1602,7 +1602,8 @@ def _create_espn_player_model(
                             score = more_interesting(score, stat["value"])
                         elif stat["name"] == "blockedShots":
                             shots_blocked = more_interesting(
-                                shots_blocked, stat["value"]
+                                shots_blocked,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "effectiveClearance":
                             effective_clearances = more_interesting(

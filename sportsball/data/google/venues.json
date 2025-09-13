@@ -11889,6 +11889,26 @@
             "housenumber": "",
             "country": "Slovenia",
             "type": "country"
+        },
+        "b1309bbe-0ad7-4db5-a84c-c32cd57231e1": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 23.0,
+            "lng": -102.0,
+            "housenumber": "",
+            "country": "Mexico",
+            "type": "country"
+        },
+        "98b7a6f0-93e7-443b-884d-53675763bfdc": {
+            "city": "Cary",
+            "state": "NC",
+            "postal": "",
+            "lat": 35.781944,
+            "lng": -78.82,
+            "housenumber": "",
+            "country": "USA",
+            "type": "city"
         }
     },
     "searches": {
@@ -12790,6 +12810,7 @@
         "Wallace Wade Stadium - Durham, North Carolina, USA - United States": "3db094d5-5bac-473c-b595-045825b28615",
         "Riverside Stadium, Middlesbrough, England": "5e0b1d7a-7402-491e-a645-9ab761544408",
         "Riverside Stadium - Perth": "5e0b1d7a-7402-491e-a645-9ab761544408",
+        "The Riverside Stadium": "5e0b1d7a-7402-491e-a645-9ab761544408",
         "Vaught-Hemingway Stadium - Oxford - MS - 38655": "35236654-4a0b-4eef-9fdc-2d1448078610",
         "Vaught-Hemingway Stadium": "35236654-4a0b-4eef-9fdc-2d1448078610",
         "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur, India": "525c8f71-1670-4fea-b3cb-cf7356f3e857",
@@ -13750,6 +13771,7 @@
         "Stegeman Coliseum - Athens - GA": "71d27cef-4948-415c-9dec-00ff6dc12a9f",
         "Mineral Resources Park": "7b06ee27-dcca-483b-ad70-442d0ea69108",
         "Mineral Resources Park, Perth, Australia": "7b06ee27-dcca-483b-ad70-442d0ea69108",
+        "Lathlain Park": "7b06ee27-dcca-483b-ad70-442d0ea69108",
         "Toronto, Canada": "021fc966-7fa3-4148-b1e8-27f926aee210",
         "Toronto, Ontario, Canada": "021fc966-7fa3-4148-b1e8-27f926aee210",
         "Volgograd Arena - Volgograd": "826392f0-7a55-4b24-a725-879182d99017",
@@ -14348,6 +14370,8 @@
         "KEN": "51c071ad-5c66-4849-be03-d0cac7e22821",
         "Queen Elizabeth Oval": "2dddbbd3-50fd-4309-913c-1481e1cbbbc8",
         "Landers Center - Southaven - MS": "22385d63-3d11-4e33-ac4c-1ce22463620b",
-        "SLO": "78c0ca90-7471-486e-a585-bee049d0a027"
+        "SLO": "78c0ca90-7471-486e-a585-bee049d0a027",
+        "MEX": "b1309bbe-0ad7-4db5-a84c-c32cd57231e1",
+        "ITF Cary": "98b7a6f0-93e7-443b-884d-53675763bfdc"
     }
 }
