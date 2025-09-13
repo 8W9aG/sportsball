@@ -16,8 +16,8 @@ from ..league_model import LeagueModel
 from .combined_game_model import create_combined_game_model
 
 
-def _produce_league_games(league_model: LeagueModel) -> list[dict[str, Any]]:
-    return [x.model_dump() for x in league_model.games]
+def _produce_league_games(league_model: LeagueModel) -> list[GameModel]:
+    return list(league_model.games)
 
 
 class CombinedLeagueModel(LeagueModel):
@@ -62,6 +62,7 @@ class CombinedLeagueModel(LeagueModel):
         team_identity_map = self.team_identity_map()
         for league_model in self._league_models:
             league_model.clear_session()
+        results: list[list[GameModel]] = []
         with ThreadPoolExecutor(
             min(multiprocessing.cpu_count(), len(self._league_models))
         ) as p:
@@ -72,7 +73,6 @@ class CombinedLeagueModel(LeagueModel):
                 for model in self._league_models
             }
 
-            results = []
             try:
                 for future in as_completed(futures):
                     result = future.result()  # Raises if an exception occurred
@@ -82,10 +82,8 @@ class CombinedLeagueModel(LeagueModel):
                 for f in futures:
                     f.cancel()
                 raise  # Optionally re-raise the exception
-        game_lists = [[GameModel.model_validate(y) for y in x] for x in results]
-
-        for game_list in tqdm.tqdm(game_lists, desc="Sorting Game Models"):
-            for game_model in game_list:
+        for game_list in results:
+            for game_model in tqdm.tqdm(game_list, desc="Sorting Game Models"):
                 old_game_components = [
                     str(game_model.dt.date() - datetime.timedelta(days=1))
                 ]

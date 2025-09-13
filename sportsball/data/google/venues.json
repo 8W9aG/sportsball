@@ -11929,6 +11929,26 @@
             "housenumber": "",
             "country": "Spain",
             "type": "city"
+        },
+        "1449c848-0d62-45e8-b51c-1c9cb271a98d": {
+            "city": "Glasgow",
+            "state": "Scotland",
+            "postal": "",
+            "lat": 55.861111,
+            "lng": -4.25,
+            "housenumber": "",
+            "country": "UK",
+            "type": "city"
+        },
+        "c32f4bc3-6168-43cb-bbe0-e3274e2eed83": {
+            "city": "Sao Paulo",
+            "state": "Sao Paulo",
+            "postal": "",
+            "lat": -23.55,
+            "lng": -46.633333,
+            "housenumber": "",
+            "country": "Brazil",
+            "type": "city"
         }
     },
     "searches": {
@@ -11970,6 +11990,7 @@
         "Gila River Arena, Phoenix, AZ, USA": "b3c4809c-b5fd-4ab4-ba48-5e39089b8b09",
         "Desert Diamond Arena - Glendale - AZ - 85318": "b3c4809c-b5fd-4ab4-ba48-5e39089b8b09",
         "Alfredo Harp Helú Stadium": "18400cae-6aec-4966-9587-4b2fc362e91a",
+        "Estadio Alfredo Harp Helú - Mexico City": "18400cae-6aec-4966-9587-4b2fc362e91a",
         "Towson University": "b51fc52b-4254-4ef3-ae31-3b0ad5b75b91",
         "U.S. Bank Stadium": "5daabad8-94b4-47e5-953d-c86d30618c99",
         "Rider University": "1163c6fe-3065-422e-8bea-3486697c4774",
@@ -14396,6 +14417,9 @@
         "MEX": "b1309bbe-0ad7-4db5-a84c-c32cd57231e1",
         "ITF Cary": "98b7a6f0-93e7-443b-884d-53675763bfdc",
         "Lugano CH": "865dca2d-b6f1-4f6c-af23-b1117ea87b49",
-        "ITF Palma Del Rio": "776bf509-98ee-4eff-8ce3-68ebeed25a1f"
+        "ITF Palma Del Rio": "776bf509-98ee-4eff-8ce3-68ebeed25a1f",
+        "Glasgow CH": "1449c848-0d62-45e8-b51c-1c9cb271a98d",
+        "Sao Paulo": "c32f4bc3-6168-43cb-bbe0-e3274e2eed83",
+        "Sao Paulo, Brazil": "c32f4bc3-6168-43cb-bbe0-e3274e2eed83"
     }
 }

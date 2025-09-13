@@ -41,6 +41,12 @@ _BAD_URLS = {
     "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/4897641?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/2002/athletes/21175?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/4431946?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/2002/athletes/21180?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/4896859?lang=en&region=us",
+}
+_BAD_COLLEGE_URLS = {
+    "http://sports.core.api.espn.com/v2/colleges/6638?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/colleges/429?lang=en&region=us",
 }
 
 
@@ -2743,7 +2749,8 @@ def _create_espn_player_model(
                             )
                         elif stat["name"] == "evenStrengthSaves":
                             even_strength_saves = more_interesting(
-                                even_strength_saves, stat["value"]
+                                even_strength_saves,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "powerPlaySaves":
                             power_play_saves = more_interesting(
@@ -3184,10 +3191,7 @@ def _create_espn_player_model(
     college_dict = {}
     if "college" in athlete_dict:
         college_url = athlete_dict["college"]["$ref"]
-        if (
-            college_url
-            != "http://sports.core.api.espn.com/v2/colleges/429?lang=en&region=us"
-        ):
+        if college_url not in _BAD_COLLEGE_URLS:
             college_response = session.get(college_url)
             college_response.raise_for_status()
             college_dict = college_response.json()

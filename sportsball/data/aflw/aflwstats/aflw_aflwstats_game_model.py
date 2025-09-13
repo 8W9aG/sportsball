@@ -46,6 +46,8 @@ def _create_aflw_aflwstats_game_model(
             dt = parse(line)
         elif "Round" in line:
             week = int(line.replace("Round", "").strip())
+        elif "Finals" in line:
+            pass
         elif venue_name is None:
             venue_name = line
 

@@ -34,6 +34,7 @@ def _season_type_from_name(name: str) -> SeasonType:
         or "2010-2011 Barclays Premier League" in name
         or "2009-2010 Barclays Premier League" in name
         or "2008-2009 Barclays Premier League" in name
+        or "2007-2008 Barclays Premier League" in name
     ):
         return SeasonType.REGULAR
     if name == "Preseason" or "Spring Training" in name:
@@ -49,6 +50,7 @@ def _season_type_from_name(name: str) -> SeasonType:
         or "Semi-finals" in name
         or "Play-In Season" in name
         or "Spring Postseason" in name
+        or "Qualifying Finals" in name
     ):
         return SeasonType.POSTSEASON
     if name == "Off Season":

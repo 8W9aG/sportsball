@@ -8775,15 +8775,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Sao Paulo, Brazil": SportsballGeocodeTuple(
-        city="Sao Paulo",
-        state="Sao Paulo",
-        postal="",
-        lat=-23.55,
-        lng=-46.633333,
-        housenumber="",
-        country="Brazil",
-    ),
     "West Baden, Indiana, United States": SportsballGeocodeTuple(
         city="West Baden",
         state="IN",
