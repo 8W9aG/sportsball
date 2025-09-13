@@ -11739,6 +11739,36 @@
             "housenumber": "",
             "country": "Italy",
             "type": "city"
+        },
+        "0c3ede7b-d2f1-4a66-b639-46f5a3a3a531": {
+            "city": "Busan",
+            "state": "",
+            "postal": "",
+            "lat": 35.19,
+            "lng": 129.058222,
+            "housenumber": "344",
+            "country": "South Korea",
+            "type": "venue"
+        },
+        "1f8ab6db-090c-484b-96ba-d0cea1f9eb78": {
+            "city": "Storrs",
+            "state": "CT",
+            "postal": "06269",
+            "lat": 41.805292,
+            "lng": -72.254194,
+            "housenumber": "2095",
+            "country": "USA",
+            "type": "venue"
+        },
+        "f76d0c4d-c9b2-41d5-ba6f-13563fde18dc": {
+            "city": "Hobart",
+            "state": "TAS",
+            "postal": "",
+            "lat": -42.880556,
+            "lng": 147.325,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
         }
     },
     "searches": {
@@ -14151,6 +14181,7 @@
         "Allstate Arena, Rosemont, Illinois": "66985df7-789d-4f82-bc1c-9acb1987a6e7",
         "Allstate Arena - Rosemont - IL": "66985df7-789d-4f82-bc1c-9acb1987a6e7",
         "Hickey Park, Brisbane, Australia": "9c623e63-71f3-40c5-85a9-367e2444410f",
+        "Hickey Park": "9c623e63-71f3-40c5-85a9-367e2444410f",
         "RFK Memorial - Washington": "afba48b5-9360-4c2b-9da1-7bb535f42272",
         "Linz, Austria": "892d810e-93c4-4fb4-906f-d88c4089af46",
         "Webster Bank Arena, Bridgeport, Connecticut": "aaf70715-4a06-43d4-8ba1-8cdb3d27d7de",
@@ -14166,6 +14197,10 @@
         "Saitama Stadium - Saitama": "09cd3fc7-253e-4652-9e80-7d9487a25b6a",
         "Dale F. Halton Arena, Charlotte, North Carolina": "39013087-ecf7-4afa-83cd-c1732f72cef8",
         "Halton Arena - Charlotte - NC": "39013087-ecf7-4afa-83cd-c1732f72cef8",
-        "Parma, Italy": "ec369c90-1c46-4aee-baba-0865f0906786"
+        "Parma, Italy": "ec369c90-1c46-4aee-baba-0865f0906786",
+        "Busan Asian Stadium - Pusan": "0c3ede7b-d2f1-4a66-b639-46f5a3a3a531",
+        "Harry A. Gampel Pavilion, Storrs, Connecticut": "1f8ab6db-090c-484b-96ba-d0cea1f9eb78",
+        "Gampel Pavilion - Storrs - CT": "1f8ab6db-090c-484b-96ba-d0cea1f9eb78",
+        "Hobart, Australia": "f76d0c4d-c9b2-41d5-ba6f-13563fde18dc"
     }
 }

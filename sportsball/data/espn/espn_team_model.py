@@ -1480,7 +1480,8 @@ def _create_espn_team_model(
                     elif stat["name"] == "outsOnField":
                         outs_on_field = more_interesting(outs_on_field, stat["value"])
                     elif stat["name"] == "triplePlays":
-                        triple_plays = more_interesting(triple_plays, stat["value"])
+                        if "value" in stat:
+                            triple_plays = more_interesting(triple_plays, stat["value"])
                     elif stat["name"] == "ballsInZone":
                         balls_in_zone = more_interesting(balls_in_zone, stat["value"])
                     elif stat["name"] == "extraBases":

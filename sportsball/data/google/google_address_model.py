@@ -2621,15 +2621,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="12777",
         country="USA",
     ),
-    "Dale F. Halton Arena, Charlotte, North Carolina": SportsballGeocodeTuple(
-        city="Charlotte",
-        state="NC",
-        postal="28223",
-        lat=35.306111,
-        lng=-80.734444,
-        housenumber="9201",
-        country="USA",
-    ),
     "A.J. Palumbo Center, Pittsburgh, Pennsylvania": SportsballGeocodeTuple(
         city="Pittsburgh",
         state="PA",
@@ -2798,15 +2789,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         lat=30.092278,
         lng=-95.993083,
         housenumber="100",
-        country="USA",
-    ),
-    "Harry A. Gampel Pavilion, Storrs, Connecticut": SportsballGeocodeTuple(
-        city="Storrs",
-        state="CT",
-        postal="06269",
-        lat=41.805292,
-        lng=-72.254194,
-        housenumber="2095",
         country="USA",
     ),
     "Steinberg Wellness Center, Brooklyn, New York": SportsballGeocodeTuple(
