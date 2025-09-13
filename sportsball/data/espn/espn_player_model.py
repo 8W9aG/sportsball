@@ -1729,7 +1729,10 @@ def _create_espn_player_model(
                                 save_percentage, stat["value"]
                             )
                         elif stat["name"] == "saves":
-                            saves = more_interesting(saves, stat["value"])
+                            saves = more_interesting(
+                                saves,
+                                stat.get("value", float(stat["displayValue"])),
+                            )
                         elif stat["name"] == "shootOutKicksFaced":
                             shoot_out_kicks_faced = more_interesting(
                                 shoot_out_kicks_faced, stat["value"]

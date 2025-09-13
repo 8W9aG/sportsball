@@ -11859,6 +11859,26 @@
             "housenumber": "",
             "country": "Kenya",
             "type": "country"
+        },
+        "2dddbbd3-50fd-4309-913c-1481e1cbbbc8": {
+            "city": "Bendigo",
+            "state": "VIC",
+            "postal": "",
+            "lat": -36.755644,
+            "lng": 144.275562,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "22385d63-3d11-4e33-ac4c-1ce22463620b": {
+            "city": "Southaven",
+            "state": "MS",
+            "postal": "",
+            "lat": 34.927124,
+            "lng": -89.9969,
+            "housenumber": "4560",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -14311,6 +14331,8 @@
         "ITF Aschaffenburg": "d3f811e5-b129-40b0-aebf-2f6c2310a9ae",
         "Spokane Veterans Memorial Arena, Spokane, Washington": "f4114868-9c4d-4e65-921e-eb7ccc997008",
         "Spokane Arena - Spokane - WA": "f4114868-9c4d-4e65-921e-eb7ccc997008",
-        "KEN": "51c071ad-5c66-4849-be03-d0cac7e22821"
+        "KEN": "51c071ad-5c66-4849-be03-d0cac7e22821",
+        "Queen Elizabeth Oval": "2dddbbd3-50fd-4309-913c-1481e1cbbbc8",
+        "Landers Center - Southaven - MS": "22385d63-3d11-4e33-ac4c-1ce22463620b"
     }
 }
