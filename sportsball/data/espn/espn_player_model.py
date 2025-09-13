@@ -2681,9 +2681,10 @@ def _create_espn_player_model(
                                     shots_against, stat["value"]
                                 )
                         elif stat["name"] == "avgShotsAgainst":
-                            average_shots_against = more_interesting(
-                                average_shots_against, stat["value"]
-                            )
+                            if "value" in stat:
+                                average_shots_against = more_interesting(
+                                    average_shots_against, stat["value"]
+                                )
                         elif stat["name"] == "penaltyKillPct":
                             penalty_kill_percentage = more_interesting(
                                 penalty_kill_percentage,
