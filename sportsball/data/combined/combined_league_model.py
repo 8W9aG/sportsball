@@ -84,7 +84,7 @@ class CombinedLeagueModel(LeagueModel):
                 raise  # Optionally re-raise the exception
         game_lists = [[GameModel.model_validate(y) for y in x] for x in results]
 
-        for game_list in game_lists:
+        for game_list in tqdm.tqdm(game_lists, desc="Sorting Game Models"):
             for game_model in game_list:
                 old_game_components = [
                     str(game_model.dt.date() - datetime.timedelta(days=1))
@@ -110,6 +110,7 @@ class CombinedLeagueModel(LeagueModel):
                 else:
                     key = "-".join(game_components)
                     games[key] = [game_model]
+
         names: dict[str, str] = {}
         coach_names: dict[str, str] = {}
         player_ffill: dict[str, dict[str, Any]] = {}
@@ -117,20 +118,23 @@ class CombinedLeagueModel(LeagueModel):
         coach_ffill: dict[str, dict[str, Any]] = {}
         umpire_ffill: dict[str, dict[str, Any]] = {}
         last_game_number = None
-        for game_models in tqdm.tqdm(games.values(), desc="Combining Game Models"):
-            game_model = create_combined_game_model(  # type: ignore
-                game_models=game_models,
-                venue_identity_map=self.venue_identity_map(),
-                team_identity_map=team_identity_map,
-                player_identity_map=self.player_identity_map(),
-                session=self.session,
-                names=names,
-                coach_names=coach_names,
-                last_game_number=last_game_number,
-                player_ffill=player_ffill,
-                team_ffill=team_ffill,
-                coach_ffill=coach_ffill,
-                umpire_ffill=umpire_ffill,
-            )
-            last_game_number = game_model.game_number
-            yield game_model
+        with tqdm.tqdm() as pbar:
+            for game_models in tqdm.tqdm(games.values(), desc="Combining Game Models"):
+                pbar.update(1)
+                pbar.set_description(f"Combining Game Models {len(game_models)}")
+                game_model = create_combined_game_model(  # type: ignore
+                    game_models=game_models,
+                    venue_identity_map=self.venue_identity_map(),
+                    team_identity_map=team_identity_map,
+                    player_identity_map=self.player_identity_map(),
+                    session=self.session,
+                    names=names,
+                    coach_names=coach_names,
+                    last_game_number=last_game_number,
+                    player_ffill=player_ffill,
+                    team_ffill=team_ffill,
+                    coach_ffill=coach_ffill,
+                    umpire_ffill=umpire_ffill,
+                )
+                last_game_number = game_model.game_number
+                yield game_model
