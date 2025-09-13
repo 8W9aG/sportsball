@@ -2913,15 +2913,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="8431",
         country="USA",
     ),
-    "Spokane Veterans Memorial Arena, Spokane, Washington": SportsballGeocodeTuple(
-        city="Spokane",
-        state="WA",
-        postal="",
-        lat=47.666,
-        lng=-117.423,
-        housenumber="720",
-        country="USA",
-    ),
     "Moody Coliseum , Abilene, Texas": SportsballGeocodeTuple(
         city="Abilene",
         state="TX",

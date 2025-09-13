@@ -2127,7 +2127,8 @@ def _create_espn_player_model(
                                 team_earned_runs, stat["value"]
                             )
                         elif stat["name"] == "shutouts":
-                            shutouts = more_interesting(shutouts, stat["value"])
+                            if "value" in stat:
+                                shutouts = more_interesting(shutouts, stat["value"])
                         elif stat["name"] == "pickoffAttempts":
                             pickoff_attempts = more_interesting(
                                 pickoff_attempts, stat["value"]

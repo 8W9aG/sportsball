@@ -11839,6 +11839,26 @@
             "housenumber": "",
             "country": "Germany",
             "type": "city"
+        },
+        "f4114868-9c4d-4e65-921e-eb7ccc997008": {
+            "city": "Spokane",
+            "state": "WA",
+            "postal": "",
+            "lat": 47.666,
+            "lng": -117.423,
+            "housenumber": "720",
+            "country": "USA",
+            "type": "venue"
+        },
+        "51c071ad-5c66-4849-be03-d0cac7e22821": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 1.0,
+            "lng": 38.0,
+            "housenumber": "",
+            "country": "Kenya",
+            "type": "country"
         }
     },
     "searches": {
@@ -12318,6 +12338,7 @@
         "Pontiac Silverdome - Detroit": "3aab2cf1-3072-48cd-b240-de4121d8372d",
         "The Dome at America's Center, St. Louis, MO, USA": "c28435ef-717b-4b46-b5c9-47c4fae983a8",
         "Moorabbin Oval - Australia": "f4c19842-a581-4155-a8c4-a7a978de141d",
+        "Moorabbin Oval": "f4c19842-a581-4155-a8c4-a7a978de141d",
         "RSEA Park": "f4c19842-a581-4155-a8c4-a7a978de141d",
         "RSEA Park, Melbourne, Australia": "f4c19842-a581-4155-a8c4-a7a978de141d",
         "Khabarovsk, Russia": "a1698713-2b24-4079-b67f-c6ad496b0118",
@@ -14287,6 +14308,9 @@
         "Addition Financial Arena, Orlando, Florida": "2ec1c09a-3ecd-4399-bae1-f8f2a5c600b1",
         "New UCF Arena, Orlando, Florida": "2ec1c09a-3ecd-4399-bae1-f8f2a5c600b1",
         "Addition Financial Arena - Orlando - FL - 32816": "2ec1c09a-3ecd-4399-bae1-f8f2a5c600b1",
-        "ITF Aschaffenburg": "d3f811e5-b129-40b0-aebf-2f6c2310a9ae"
+        "ITF Aschaffenburg": "d3f811e5-b129-40b0-aebf-2f6c2310a9ae",
+        "Spokane Veterans Memorial Arena, Spokane, Washington": "f4114868-9c4d-4e65-921e-eb7ccc997008",
+        "Spokane Arena - Spokane - WA": "f4114868-9c4d-4e65-921e-eb7ccc997008",
+        "KEN": "51c071ad-5c66-4849-be03-d0cac7e22821"
     }
 }
