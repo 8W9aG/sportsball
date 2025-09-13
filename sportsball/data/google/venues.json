@@ -11768,6 +11768,26 @@
             "lng": 147.325,
             "housenumber": "",
             "country": "Australia",
+            "type": "city"
+        },
+        "24272ebd-1c38-46c1-aee3-becb5edd53c4": {
+            "city": "Morwell",
+            "state": "VIC",
+            "postal": "",
+            "lat": -38.240833,
+            "lng": 146.39,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "b46fcd4e-8324-4377-a75a-73d718de7fb2": {
+            "city": "Yokohama",
+            "state": "Kanagawa",
+            "postal": "",
+            "lat": 35.443428,
+            "lng": 139.6401,
+            "housenumber": "",
+            "country": "Japan",
             "type": "venue"
         }
     },
@@ -13508,6 +13528,7 @@
         "KeyArena - Seattle - WA": "4fa113b3-12b2-4b0c-978b-932dbf9f285c",
         "Lee E. Williams Athletics and Assembly Center, Jackson, Mississippi": "3457b34a-99da-46fb-b808-855bf73c8515",
         "Harrison HPER Complex, Itta Bena, Mississippi": "bde46d7f-7bc8-423d-b29f-763d2a326798",
+        "R.W. Harrison HPER Complex - Itta Bena - MS": "bde46d7f-7bc8-423d-b29f-763d2a326798",
         "Hill Field House, Baltimore, Maryland": "9968f402-bf91-432a-b6e0-1e738a2b5ab1",
         "Talmadge L. Hill Field House, Baltimore, Maryland": "9968f402-bf91-432a-b6e0-1e738a2b5ab1",
         "McLendon-McDougald Gym, Durham, North Carolina": "2a329ecf-5ef9-4151-bf7c-74526f8f2355",
@@ -14201,6 +14222,8 @@
         "Busan Asian Stadium - Pusan": "0c3ede7b-d2f1-4a66-b639-46f5a3a3a531",
         "Harry A. Gampel Pavilion, Storrs, Connecticut": "1f8ab6db-090c-484b-96ba-d0cea1f9eb78",
         "Gampel Pavilion - Storrs - CT": "1f8ab6db-090c-484b-96ba-d0cea1f9eb78",
-        "Hobart, Australia": "f76d0c4d-c9b2-41d5-ba6f-13563fde18dc"
+        "Hobart, Australia": "f76d0c4d-c9b2-41d5-ba6f-13563fde18dc",
+        "Morewell": "24272ebd-1c38-46c1-aee3-becb5edd53c4",
+        "Yokohama Stadium - Yokohama": "b46fcd4e-8324-4377-a75a-73d718de7fb2"
     }
 }
