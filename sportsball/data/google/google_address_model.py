@@ -706,15 +706,6 @@ THE_NEST = SportsballGeocodeTuple(
     housenumber="",
     country="USA",
 )
-ADDITION_FINANCIAL_ARENA = SportsballGeocodeTuple(
-    city="Orlando",
-    state="FL",
-    postal="",
-    lat=28.6068,
-    lng=-81.1976,
-    housenumber="12777",
-    country="USA",
-)
 UCCU_CENTER = SportsballGeocodeTuple(
     city="Orem",
     state="UT",
@@ -3426,7 +3417,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="87",
         country="USA",
     ),
-    "Addition Financial Arena, Orlando, Florida": ADDITION_FINANCIAL_ARENA,
     "Denton, Texas": SportsballGeocodeTuple(
         city="Denton",
         state="TX",
@@ -7391,7 +7381,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "New UCF Arena, Orlando, Florida": ADDITION_FINANCIAL_ARENA,
     "McKay Events Center, Orem, Utah": UCCU_CENTER,
     "Mobile, Alabama": SportsballGeocodeTuple(
         city="Mobile",

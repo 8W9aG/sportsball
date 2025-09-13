@@ -11819,6 +11819,26 @@
             "housenumber": "",
             "country": "South Korea",
             "type": "venue"
+        },
+        "2ec1c09a-3ecd-4399-bae1-f8f2a5c600b1": {
+            "city": "Orlando",
+            "state": "FL",
+            "postal": "",
+            "lat": 28.6068,
+            "lng": -81.1976,
+            "housenumber": "12777",
+            "country": "USA",
+            "type": "venue"
+        },
+        "d3f811e5-b129-40b0-aebf-2f6c2310a9ae": {
+            "city": "Aschaffenburg",
+            "state": "Bavaria",
+            "postal": "",
+            "lat": 49.966667,
+            "lng": 9.15,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "city"
         }
     },
     "searches": {
@@ -14262,6 +14282,10 @@
         "Yokohama Stadium - Yokohama": "b46fcd4e-8324-4377-a75a-73d718de7fb2",
         "ITF Vitoria Gasteiz": "2204afd3-fdb1-46b9-bb45-8685ed524c9c",
         "Chirnside Park": "dccd2189-33af-425e-9180-28980d3802a3",
-        "Ulsan Munsu Stadium - Ulsan": "4f20b87a-e3fc-4703-bd83-445d9e969394"
+        "Ulsan Munsu Stadium - Ulsan": "4f20b87a-e3fc-4703-bd83-445d9e969394",
+        "Addition Financial Arena, Orlando, Florida": "2ec1c09a-3ecd-4399-bae1-f8f2a5c600b1",
+        "New UCF Arena, Orlando, Florida": "2ec1c09a-3ecd-4399-bae1-f8f2a5c600b1",
+        "Addition Financial Arena - Orlando - FL - 32816": "2ec1c09a-3ecd-4399-bae1-f8f2a5c600b1",
+        "ITF Aschaffenburg": "d3f811e5-b129-40b0-aebf-2f6c2310a9ae"
     }
 }
