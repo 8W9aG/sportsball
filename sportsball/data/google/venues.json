@@ -11879,6 +11879,16 @@
             "housenumber": "4560",
             "country": "USA",
             "type": "venue"
+        },
+        "78c0ca90-7471-486e-a585-bee049d0a027": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 1.0,
+            "lng": 38.0,
+            "housenumber": "",
+            "country": "Slovenia",
+            "type": "country"
         }
     },
     "searches": {
@@ -12486,6 +12496,7 @@
         "AAMI Stadium": "36a3a238-fa78-474f-892f-4a982ec72d85",
         "MKM Stadium, Hull, England": "3d01a762-09c2-4038-98b8-25118d8dc68e",
         "The MKM Stadium - Hull": "3d01a762-09c2-4038-98b8-25118d8dc68e",
+        "Kingston Communications Stadium": "3d01a762-09c2-4038-98b8-25118d8dc68e",
         "Docklands - Australia": "e784a830-640a-4586-8a1e-27bb6e5a45b9",
         "Docklands Stadium": "e784a830-640a-4586-8a1e-27bb6e5a45b9",
         "Marvel Stadium": "e784a830-640a-4586-8a1e-27bb6e5a45b9",
@@ -14051,6 +14062,7 @@
         "Baltimore Arena": "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db",
         "CFG Bank Arena - Baltimore - MD": "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db",
         "Acapulco, Mexico": "048c5b5e-48f4-4835-bdad-52aa88a53d4f",
+        "Acapulco": "048c5b5e-48f4-4835-bdad-52aa88a53d4f",
         "Geneva": "dc765ff4-608d-4009-bba4-1e3b95e0aa68",
         "Maverik Center - West Valley City - UT": "9134cab5-e4e0-404c-9aa4-87be500f2959",
         "Rome Masters": "534afc26-4286-4e53-9ef4-a778c9c19b9f",
@@ -14064,6 +14076,7 @@
         "Memorial Oval": "cf91472a-f676-42d2-8080-6c4dbd2dbbe7",
         "Great Barrier Reef Arena": "a5959908-320b-44ec-8a07-299c8b9d4dfb",
         "Harrup Park, Mackay, Australia": "a5959908-320b-44ec-8a07-299c8b9d4dfb",
+        "Harrup Park": "a5959908-320b-44ec-8a07-299c8b9d4dfb",
         "Madrid Masters": "fb977ef9-561d-4a69-9a2a-1f0030b2bee0",
         "Pechanga Arena - San Diego - CA - 92199": "94d85291-b273-4f3d-a55f-2717f18f4b60",
         "BLR": "ae29b69c-80cd-47c0-ab53-fc022c958c48",
@@ -14089,6 +14102,7 @@
         "Indiana Farmers Coliseum, Indianapolis, Indiana": "01435e75-3f3b-4d40-b0f6-45a4b961c49d",
         "Indiana Farmers Coliseum - Indianapolis, Indiana - United States": "01435e75-3f3b-4d40-b0f6-45a4b961c49d",
         "Corteva Coliseum - Indianapolis - IN": "01435e75-3f3b-4d40-b0f6-45a4b961c49d",
+        "Indiana Farmers Coliseum, Indianapolis, IN, USA": "01435e75-3f3b-4d40-b0f6-45a4b961c49d",
         "Palermo, Italy": "ab20089c-3377-49be-a86f-28bea5533225",
         "Palermo": "ab20089c-3377-49be-a86f-28bea5533225",
         "CRO": "15b771d8-45e4-48f2-8b4d-d80d1894282b",
@@ -14333,6 +14347,7 @@
         "Spokane Arena - Spokane - WA": "f4114868-9c4d-4e65-921e-eb7ccc997008",
         "KEN": "51c071ad-5c66-4849-be03-d0cac7e22821",
         "Queen Elizabeth Oval": "2dddbbd3-50fd-4309-913c-1481e1cbbbc8",
-        "Landers Center - Southaven - MS": "22385d63-3d11-4e33-ac4c-1ce22463620b"
+        "Landers Center - Southaven - MS": "22385d63-3d11-4e33-ac4c-1ce22463620b",
+        "SLO": "78c0ca90-7471-486e-a585-bee049d0a027"
     }
 }

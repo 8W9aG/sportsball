@@ -39,6 +39,8 @@ _BAD_URLS = {
     "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/4897326?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/1994/athletes/79551?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/4897641?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/2002/athletes/21175?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/4431946?lang=en&region=us",
 }
 
 
@@ -2729,7 +2731,8 @@ def _create_espn_player_model(
                             )
                         elif stat["name"] == "overtimeLosses":
                             overtime_losses = more_interesting(
-                                overtime_losses, stat["value"]
+                                overtime_losses,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "takeaways":
                             takeaways = more_interesting(takeaways, stat["value"])
