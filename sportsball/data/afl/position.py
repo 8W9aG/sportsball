@@ -28,6 +28,7 @@ class Position(StrEnum):
     FRONT_POCKET_LEFT = "FPL"
     FRONT_POCKET_RIGHT = "FPR"
     WING_RIGHT = "WR"
+    WING_LEFT = "WL"
 
 
 _POSITIONS = {str(x): x for x in Position}
