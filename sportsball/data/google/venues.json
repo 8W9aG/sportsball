@@ -11789,6 +11789,36 @@
             "housenumber": "",
             "country": "Japan",
             "type": "venue"
+        },
+        "2204afd3-fdb1-46b9-bb45-8685ed524c9c": {
+            "city": "Vitoria-Gasteiz",
+            "state": "",
+            "postal": "",
+            "lat": 42.85,
+            "lng": -2.683333,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "city"
+        },
+        "dccd2189-33af-425e-9180-28980d3802a3": {
+            "city": "Melbourne",
+            "state": "VIC",
+            "postal": "",
+            "lat": -37.754,
+            "lng": 145.327,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "4f20b87a-e3fc-4703-bd83-445d9e969394": {
+            "city": "Ulsan",
+            "state": "",
+            "postal": "",
+            "lat": 35.535278,
+            "lng": 129.259444,
+            "housenumber": "",
+            "country": "South Korea",
+            "type": "venue"
         }
     },
     "searches": {
@@ -13641,6 +13671,7 @@
         "Kessler Stadium - West Long Branch - NJ - 07764": "9cd91820-5a9a-4c61-89af-7869ec7657de",
         "Fifth Third Arena, Cincinnati, Ohio": "d3a19e8d-83c4-49a6-9386-aaf3c0a1bee4",
         "Stegeman Coliseum, Athens, Georgia": "71d27cef-4948-415c-9dec-00ff6dc12a9f",
+        "Stegeman Coliseum - Athens - GA": "71d27cef-4948-415c-9dec-00ff6dc12a9f",
         "Mineral Resources Park": "7b06ee27-dcca-483b-ad70-442d0ea69108",
         "Mineral Resources Park, Perth, Australia": "7b06ee27-dcca-483b-ad70-442d0ea69108",
         "Toronto, Canada": "021fc966-7fa3-4148-b1e8-27f926aee210",
@@ -14224,6 +14255,9 @@
         "Gampel Pavilion - Storrs - CT": "1f8ab6db-090c-484b-96ba-d0cea1f9eb78",
         "Hobart, Australia": "f76d0c4d-c9b2-41d5-ba6f-13563fde18dc",
         "Morewell": "24272ebd-1c38-46c1-aee3-becb5edd53c4",
-        "Yokohama Stadium - Yokohama": "b46fcd4e-8324-4377-a75a-73d718de7fb2"
+        "Yokohama Stadium - Yokohama": "b46fcd4e-8324-4377-a75a-73d718de7fb2",
+        "ITF Vitoria Gasteiz": "2204afd3-fdb1-46b9-bb45-8685ed524c9c",
+        "Chirnside Park": "dccd2189-33af-425e-9180-28980d3802a3",
+        "Ulsan Munsu Stadium - Ulsan": "4f20b87a-e3fc-4703-bd83-445d9e969394"
     }
 }
