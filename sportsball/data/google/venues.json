@@ -11709,6 +11709,36 @@
             "housenumber": "",
             "country": "Japan",
             "type": "venue"
+        },
+        "09cd3fc7-253e-4652-9e80-7d9487a25b6a": {
+            "city": "Saitama",
+            "state": "",
+            "postal": "",
+            "lat": 35.903111,
+            "lng": 139.7175,
+            "housenumber": "",
+            "country": "Japan",
+            "type": "venue"
+        },
+        "39013087-ecf7-4afa-83cd-c1732f72cef8": {
+            "city": "Charlotte",
+            "state": "NC",
+            "postal": "28223",
+            "lat": 35.306111,
+            "lng": -80.734444,
+            "housenumber": "9201",
+            "country": "USA",
+            "type": "venue"
+        },
+        "ec369c90-1c46-4aee-baba-0865f0906786": {
+            "city": "Parma",
+            "state": "Emilia-Romagna",
+            "postal": "",
+            "lat": 44.801472,
+            "lng": 10.328,
+            "housenumber": "",
+            "country": "Italy",
+            "type": "city"
         }
     },
     "searches": {
@@ -13886,6 +13916,7 @@
         "Prague": "06967665-450b-420d-abcf-05aae7733825",
         "Memorial Oval": "cf91472a-f676-42d2-8080-6c4dbd2dbbe7",
         "Great Barrier Reef Arena": "a5959908-320b-44ec-8a07-299c8b9d4dfb",
+        "Harrup Park, Mackay, Australia": "a5959908-320b-44ec-8a07-299c8b9d4dfb",
         "Madrid Masters": "fb977ef9-561d-4a69-9a2a-1f0030b2bee0",
         "Pechanga Arena - San Diego - CA - 92199": "94d85291-b273-4f3d-a55f-2717f18f4b60",
         "BLR": "ae29b69c-80cd-47c0-ab53-fc022c958c48",
@@ -14131,6 +14162,10 @@
         "ARM": "dcd30351-cb0d-4b95-bad6-b4c263b9e643",
         "C.ex Coffs International Stadium, Coffs Harbour, Australia": "b26d7edf-f6a2-412e-b317-ccaadf2277f9",
         "PHI": "911526fd-d598-4c62-961c-a3eb43124e91",
-        "Daiwa House Premist Dome - Sapporo": "45cc8e88-6e2c-4174-a6f2-7ab8043287b2"
+        "Daiwa House Premist Dome - Sapporo": "45cc8e88-6e2c-4174-a6f2-7ab8043287b2",
+        "Saitama Stadium - Saitama": "09cd3fc7-253e-4652-9e80-7d9487a25b6a",
+        "Dale F. Halton Arena, Charlotte, North Carolina": "39013087-ecf7-4afa-83cd-c1732f72cef8",
+        "Halton Arena - Charlotte - NC": "39013087-ecf7-4afa-83cd-c1732f72cef8",
+        "Parma, Italy": "ec369c90-1c46-4aee-baba-0865f0906786"
     }
 }
