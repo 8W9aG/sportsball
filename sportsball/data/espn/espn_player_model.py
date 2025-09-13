@@ -1921,7 +1921,9 @@ def _create_espn_player_model(
                         elif stat["name"] == "sacHits":
                             sac_hits = more_interesting(sac_hits, stat["value"])
                         elif stat["name"] == "hits":
-                            hits = more_interesting(hits, stat["value"])
+                            hits = more_interesting(
+                                hits, stat.get("value", int(stat["displayValue"]))
+                            )
                         elif stat["name"] == "stolenBases":
                             stolen_bases = more_interesting(stolen_bases, stat["value"])
                         elif stat["name"] == "walks":
@@ -2736,7 +2738,9 @@ def _create_espn_player_model(
                                 stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "takeaways":
-                            takeaways = more_interesting(takeaways, stat["value"])
+                            takeaways = more_interesting(
+                                takeaways, stat.get("value", int(stat["displayValue"]))
+                            )
                         elif stat["name"] == "evenStrengthSaves":
                             even_strength_saves = more_interesting(
                                 even_strength_saves, stat["value"]

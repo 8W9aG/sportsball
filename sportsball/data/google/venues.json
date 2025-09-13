@@ -11909,6 +11909,26 @@
             "housenumber": "",
             "country": "USA",
             "type": "city"
+        },
+        "865dca2d-b6f1-4f6c-af23-b1117ea87b49": {
+            "city": "Lugano",
+            "state": "Ticino",
+            "postal": "",
+            "lat": 46.005,
+            "lng": 8.9525,
+            "housenumber": "",
+            "country": "Switzerland",
+            "type": "city"
+        },
+        "776bf509-98ee-4eff-8ce3-68ebeed25a1f": {
+            "city": "Palma del Río",
+            "state": "Corboda",
+            "postal": "",
+            "lat": 37.7,
+            "lng": -5.283333,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "city"
         }
     },
     "searches": {
@@ -12265,6 +12285,7 @@
         "Ross-Ade Stadium": "a8cf2e14-c718-40be-a217-c669130a3f04",
         "Ross-Ade Stadium - West Lafayette - IN - 47906": "a8cf2e14-c718-40be-a217-c669130a3f04",
         "Punt Rd - Australia": "a1052505-7d77-4d4e-ae6e-18ca641b0833",
+        "Punt Road": "a1052505-7d77-4d4e-ae6e-18ca641b0833",
         "Swinburne Centre, Melbourne, Australia": "a1052505-7d77-4d4e-ae6e-18ca641b0833",
         "Windy Hill - Australia": "be43e7df-cebb-449d-ab58-9c1ff1ae1061",
         "Windy Hill, Essendon, Australia": "be43e7df-cebb-449d-ab58-9c1ff1ae1061",
@@ -14373,6 +14394,8 @@
         "Landers Center - Southaven - MS": "22385d63-3d11-4e33-ac4c-1ce22463620b",
         "SLO": "78c0ca90-7471-486e-a585-bee049d0a027",
         "MEX": "b1309bbe-0ad7-4db5-a84c-c32cd57231e1",
-        "ITF Cary": "98b7a6f0-93e7-443b-884d-53675763bfdc"
+        "ITF Cary": "98b7a6f0-93e7-443b-884d-53675763bfdc",
+        "Lugano CH": "865dca2d-b6f1-4f6c-af23-b1117ea87b49",
+        "ITF Palma Del Rio": "776bf509-98ee-4eff-8ce3-68ebeed25a1f"
     }
 }
