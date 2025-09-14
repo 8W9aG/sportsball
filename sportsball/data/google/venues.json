@@ -11989,6 +11989,16 @@
             "housenumber": "",
             "country": "Finland",
             "type": "country"
+        },
+        "3e3ff205-75d3-43fa-9867-5ad447729713": {
+            "city": "Newport",
+            "state": "RI",
+            "postal": "",
+            "lat": 41.49,
+            "lng": -71.31,
+            "housenumber": "",
+            "country": "USA",
+            "type": "city"
         }
     },
     "searches": {
@@ -13956,6 +13966,7 @@
         "Fiserv Forum,": "2fd815dd-7430-451d-be58-3084986f34f4",
         "Fiserv Forum - Milwaukee - WI": "2fd815dd-7430-451d-be58-3084986f34f4",
         "Flinders University Stadium": "32a76ffc-cac9-47b4-8915-475960c28fdf",
+        "Noarlunga Oval": "32a76ffc-cac9-47b4-8915-475960c28fdf",
         "Loftus Road, London, England": "49f58e6b-65d3-4858-b4ff-4fab4fee2f4f",
         "MATRADE Loftus Road - London": "49f58e6b-65d3-4858-b4ff-4fab4fee2f4f",
         "Loftus Road Stadium": "49f58e6b-65d3-4858-b4ff-4fab4fee2f4f",
@@ -14480,6 +14491,7 @@
         "ESPN Wide World of Sports, Orlando, Florida": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
         "The Milk House, Lake Buena Vista, Florida": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
         "ESPN Wide World of Sports Complex - Lake Buena Vista - FL": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
-        "FIN": "8e785537-2a0b-40db-8023-9f945001b748"
+        "FIN": "8e785537-2a0b-40db-8023-9f945001b748",
+        "Newport, USA": "3e3ff205-75d3-43fa-9867-5ad447729713"
     }
 }
