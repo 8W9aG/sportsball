@@ -12129,6 +12129,36 @@
             "housenumber": "2825",
             "country": "USA",
             "type": "venue"
+        },
+        "ad144a93-42ca-46b8-aeb0-dd870eee0e3e": {
+            "city": "Gold Coast",
+            "state": "QLD",
+            "postal": "4226",
+            "lat": -28.073983,
+            "lng": 153.416489,
+            "housenumber": "14",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "c34e91b4-6036-43ed-95c1-e823104893a3": {
+            "city": "Marseille",
+            "state": "",
+            "postal": "",
+            "lat": 43.2964,
+            "lng": 5.37,
+            "housenumber": "",
+            "country": "France",
+            "type": "city"
+        },
+        "035b513b-b9ce-45e7-b527-56c6757f5c04": {
+            "city": "Montreux",
+            "state": "Vaud",
+            "postal": "",
+            "lat": 46.435,
+            "lng": 6.9125,
+            "housenumber": "",
+            "country": "Switzerland",
+            "type": "city"
         }
     },
     "searches": {
@@ -13808,6 +13838,7 @@
         "CHI Health Center Omaha - Omaha - NE": "9e102c89-98d3-41c2-9870-bc0c933b5cfc",
         "Tudor Fieldhouse, Houston, Texas": "c3967874-f8ac-47b4-9a71-719893831a6f",
         "Rice Gymnasium, Houston, Texas": "c3967874-f8ac-47b4-9a71-719893831a6f",
+        "Tudor Fieldhouse - Houston - TX": "c3967874-f8ac-47b4-9a71-719893831a6f",
         "Show Me Center, Cape Girardeau, Missouri": "306315cb-0865-4a2f-882c-686019ac4c65",
         "Lenovo Center, Raleigh, North Carolina": "f624b610-8784-4ac1-81d8-96ca67e40bb4",
         "RBC Center, Raleigh, North Carolina": "f624b610-8784-4ac1-81d8-96ca67e40bb4",
@@ -14654,6 +14685,9 @@
         "AIA Centre": "8100722e-93c1-4941-8d6a-01ad0d7e7d69",
         "Lawrence Joel Veterans Memorial Coliseum, Winston-Salem, North Carolina": "2b9eab9e-5965-4c1b-9d04-fa181f8d257d",
         "Lawrence Joel Veterans Memorial Coliseum - Winston-Salem, North Carolina - United States": "2b9eab9e-5965-4c1b-9d04-fa181f8d257d",
-        "LJVM Coliseum - Winston-Salem - NC": "2b9eab9e-5965-4c1b-9d04-fa181f8d257d"
+        "LJVM Coliseum - Winston-Salem - NC": "2b9eab9e-5965-4c1b-9d04-fa181f8d257d",
+        "Bond University": "ad144a93-42ca-46b8-aeb0-dd870eee0e3e",
+        "Marseille": "c34e91b4-6036-43ed-95c1-e823104893a3",
+        "Montreux, Switzerland": "035b513b-b9ce-45e7-b527-56c6757f5c04"
     }
 }
