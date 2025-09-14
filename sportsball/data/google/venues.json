@@ -6848,7 +6848,8 @@
             "lng": -79.825556,
             "housenumber": "1921",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Greensboro_Complex"
         },
         "8f52a5f6-ed43-4b37-b229-c539ee5dcfdf": {
             "city": "Rochester",
@@ -12239,6 +12240,27 @@
             "housenumber": "",
             "country": "UAE",
             "type": "city"
+        },
+        "9df80441-a677-4e21-b354-a08fd0b51063": {
+            "city": "Shanghai",
+            "state": "",
+            "postal": "",
+            "lat": 31.91,
+            "lng": 121.48,
+            "housenumber": "",
+            "country": "China",
+            "type": "venue"
+        },
+        "9e89d4f8-05c6-45ce-bbde-c69a35acf301": {
+            "city": "Vic",
+            "state": "Catalonia",
+            "postal": "",
+            "lat": 41.930278,
+            "lng": 2.254722,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "city",
+            "wiki": "Vic,_Spain"
         }
     },
     "searches": {
@@ -13258,6 +13280,7 @@
         "Copps Coliseum": "6bc95021-7749-400d-904e-d27a2c4f0499",
         "Bramall Lane, Sheffield, England": "e238493d-55dc-4096-96a9-2e82a43f46da",
         "Bramall Lane - Sheffield": "e238493d-55dc-4096-96a9-2e82a43f46da",
+        "Bramall Lane": "e238493d-55dc-4096-96a9-2e82a43f46da",
         "S.B. Ballard Stadium - Norfolk - VA - 23508": "e0968fb0-02e5-4421-bf87-818f32f05b33",
         "M. Chinnaswamy Stadium, Bengaluru, India": "bbbab4b2-d86e-43b0-ba8a-051ed89e9007",
         "Bangalore Stadium, Bangalore, India": "bbbab4b2-d86e-43b0-ba8a-051ed89e9007",
@@ -13775,6 +13798,7 @@
         "Greensboro Coliseum, Greensboro, North Carolina": "de52e5ee-c2ed-4e38-ba95-2c1414c4b08d",
         "Greensboro Coliseum": "de52e5ee-c2ed-4e38-ba95-2c1414c4b08d",
         "Greensboro Coliseum Complex - Greensboro, North Carolina - United States": "de52e5ee-c2ed-4e38-ba95-2c1414c4b08d",
+        "Greensboro Complex - Greensboro - NC - 27403": "de52e5ee-c2ed-4e38-ba95-2c1414c4b08d",
         "Athletics Center O'rena, Rochester, Michigan": "8f52a5f6-ed43-4b37-b229-c539ee5dcfdf",
         "Athletics Center O''rena, Rochester, Michigan": "8f52a5f6-ed43-4b37-b229-c539ee5dcfdf",
         "Yuengling Center, Tampa, Florida": "2bde231c-486b-4ab2-92ad-63a90fc2e867",
@@ -14022,6 +14046,7 @@
         "Prudential Center - Newark - NJ - 07199": "36433729-bec3-400f-ae5c-52a9e87b8221",
         "William Johnson Coliseum, Nacogdoches, Texas": "3614ff6d-80e9-41b2-bb67-d407c39e7867",
         "Rotterdam, Netherlands": "776a2cd9-1e55-4d9f-9622-ddfa6cfd226c",
+        "Rotterdam": "776a2cd9-1e55-4d9f-9622-ddfa6cfd226c",
         "UTRGV Fieldhouse, Edinburg, Texas": "4c4ba9df-dc35-46a7-9c8b-0d2cec161cf2",
         "UTPA Fieldhouse, Edinburg, Texas": "4c4ba9df-dc35-46a7-9c8b-0d2cec161cf2",
         "Frank and Lucille Sharp Gymnasium, Houston, Texas": "42b18015-45bc-43d9-b62c-e2fa6509fae9",
@@ -14212,6 +14237,7 @@
         "Entertainment and Sports Arena, Washington, DC, USA": "4979c1db-1e04-4554-8989-f0d0463ca74d",
         "Mordovia Arena - Saransk": "db07cf82-749d-413f-8961-a6c92c6bd0ad",
         "Cazalys Stadium - 4870": "68b623ac-8af3-412f-9517-3322b0de75c4",
+        "Cazalys Stadium": "68b623ac-8af3-412f-9517-3322b0de75c4",
         "Stadio Diego Armando Maradona - Napoli, Italy - Italy": "941b603d-fa01-4fe4-985e-d1858907fcc7",
         "Fiserv Forum, Milwaukee, Wisconsin": "2fd815dd-7430-451d-be58-3084986f34f4",
         "Fiserv Forum - Milwaukee, Wisconsin - United States": "2fd815dd-7430-451d-be58-3084986f34f4",
@@ -14552,6 +14578,7 @@
         "T-Mobile Park": "b10a2884-0e76-479a-854a-bd56f37e347f",
         "T-Mobile Park - Seattle - Washington - 98134": "b10a2884-0e76-479a-854a-bd56f37e347f",
         "Los Angeles Convention Center - Los Angeles - CA": "a97ca6b8-bf4a-4ae2-8fee-08a3afe16f7a",
+        "Los Angeles Convention Center, Los Angeles, CA, USA": "a97ca6b8-bf4a-4ae2-8fee-08a3afe16f7a",
         "Montreal, Quebec, Canada": "e47ac940-6efc-493d-ad6e-31aa8dab3a0e",
         "Montreal": "e47ac940-6efc-493d-ad6e-31aa8dab3a0e",
         "Whitten Oval, Melbourne, Australia": "a024088b-3dda-49b8-8884-680ce521ae9a",
@@ -14784,6 +14811,9 @@
         "Shenzhen Universiade Center": "795277a5-1f8a-459c-ac6d-1a50b00f8aad",
         "John Gray Gymnasium - George Town - Cayman Islands": "041bc2c0-60d1-4103-bd75-5cd294f76092",
         "John Gray Gymnasium, Grand Cayman": "041bc2c0-60d1-4103-bd75-5cd294f76092",
-        "Abu Dhabi, United Arab Emirates": "90037a75-8eeb-4467-9517-5b867095ddaa"
+        "Abu Dhabi, United Arab Emirates": "90037a75-8eeb-4467-9517-5b867095ddaa",
+        "Mercedes-Benz Arena, Shanghai": "9df80441-a677-4e21-b354-a08fd0b51063",
+        "Mercedes-Benz Arena - Shanghai": "9df80441-a677-4e21-b354-a08fd0b51063",
+        "Vic, Spain": "9e89d4f8-05c6-45ce-bbde-c69a35acf301"
     }
 }

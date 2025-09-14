@@ -4530,15 +4530,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
     "Greensboro, North Carolina": GREENSBORO,
     "Elon, North Carolina": ELON,
-    "Mercedes-Benz Arena, Shanghai": SportsballGeocodeTuple(
-        city="Shanghai",
-        state="",
-        postal="",
-        lat=31.91,
-        lng=121.48,
-        housenumber="",
-        country="China",
-    ),
     "Continental Airlines Arena, East Rutherford, New Jersey": SportsballGeocodeTuple(
         city="East Rutherford",
         state="NJ",

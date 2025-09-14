@@ -2806,7 +2806,9 @@ def _create_espn_player_model(
                                     even_strength_time_on_ice, stat["value"]
                                 )
                         elif stat["name"] == "shifts":
-                            shifts = more_interesting(shifts, stat["value"])
+                            shifts = more_interesting(
+                                shifts, stat.get("value", int(stat["displayValue"]))
+                            )
                         elif stat["name"] == "shiftsPerGame":
                             shifts_per_game = more_interesting(
                                 shifts_per_game, stat["value"]

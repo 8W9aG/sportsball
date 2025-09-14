@@ -119,7 +119,7 @@ class CombinedLeagueModel(LeagueModel):
         last_game_number = None
         keys = list(games.keys())
         with tqdm.tqdm() as pbar:
-            for key in tqdm.tqdm(keys, desc="Combining Game Models"):
+            for key in keys:
                 game_models = games.pop(key)
                 pbar.update(1)
                 pbar.set_description(f"Combining Game Models {len(game_models)}")

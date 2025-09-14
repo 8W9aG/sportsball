@@ -207,7 +207,10 @@ class LeagueModel(Model):
         jsonl: list[dict[str, Any]] = []
         cols: set[str] = set()
         for game in tqdm.tqdm(self.games, desc="Games"):
-            game_dict = flatten(game.model_dump(by_alias=True), DELIMITER)
+            game_dict = flatten(
+                game.model_dump(by_alias=True, exclude_none=True, exclude_unset=True),
+                DELIMITER,
+            )
             jsonl.append(game_dict)
             cols |= set(game_dict.keys())
 
