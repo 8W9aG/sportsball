@@ -139,4 +139,3 @@ class CombinedLeagueModel(LeagueModel):
                 )
                 last_game_number = game_model.game_number
                 yield game_model
-                del games[key]
