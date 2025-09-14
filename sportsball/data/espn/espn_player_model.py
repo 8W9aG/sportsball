@@ -1666,7 +1666,10 @@ def _create_espn_player_model(
                         elif stat["name"] == "handBalls":
                             handballs = more_interesting(handballs, stat["value"])
                         elif stat["name"] == "losses":
-                            losses = more_interesting(losses, stat["value"])
+                            losses = more_interesting(
+                                losses,
+                                stat.get("value", int(stat["displayValue"])),
+                            )
                         elif stat["name"] == "lostCorners":
                             lost_corners = more_interesting(lost_corners, stat["value"])
                         elif stat["name"] == "minutes":
