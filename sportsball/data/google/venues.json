@@ -12294,6 +12294,39 @@
             "country": "Latvia",
             "type": "country",
             "wiki": "Latvia"
+        },
+        "ab68190d-2475-4796-833d-e1d8a9f66f35": {
+            "city": "Boulder",
+            "state": "CO",
+            "postal": "",
+            "lat": 40.0047,
+            "lng": -105.2606,
+            "housenumber": "950",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "CU_Events_Center"
+        },
+        "0e811ce2-3e19-448a-8a47-ece3e34629e3": {
+            "city": "Salt Lake City",
+            "state": "UT",
+            "postal": "",
+            "lat": 40.762,
+            "lng": -111.839,
+            "housenumber": "1825",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Jon_M._Huntsman_Center"
+        },
+        "6d6db30e-90a8-4a22-83d4-666e48528c53": {
+            "city": "Ilkley",
+            "state": "",
+            "postal": "",
+            "lat": 53.925,
+            "lng": -1.822,
+            "housenumber": "",
+            "country": "UK",
+            "type": "city",
+            "wiki": "Ilkley"
         }
     },
     "searches": {
@@ -14854,6 +14887,12 @@
         "Puerto Vallarta, Mexico": "538caaa7-9338-4644-8bdc-fc20ad29e3d2",
         "Trojan Fieldhouse, Little Rock, Arkansas": "c5382f20-ae56-434a-ae01-62739612373d",
         "Trojan Fieldhouse - Nashville - TN - 37210": "c5382f20-ae56-434a-ae01-62739612373d",
-        "LAT": "e18131c9-6d87-40f5-9a3b-e21e87c84e40"
+        "LAT": "e18131c9-6d87-40f5-9a3b-e21e87c84e40",
+        "CU Events Center - Boulder - CO": "ab68190d-2475-4796-833d-e1d8a9f66f35",
+        "CU Events Center, Boulder, Colorado": "ab68190d-2475-4796-833d-e1d8a9f66f35",
+        "Jon M. Huntsman Center, Salt Lake City, Utah": "0e811ce2-3e19-448a-8a47-ece3e34629e3",
+        "Jon M. Huntsman Center - Salt Lake City, UT - United States": "0e811ce2-3e19-448a-8a47-ece3e34629e3",
+        "Jon M. Huntsman Center - Salt Lake City - UT": "0e811ce2-3e19-448a-8a47-ece3e34629e3",
+        "Ilkley, Great Britain": "6d6db30e-90a8-4a22-83d4-666e48528c53"
     }
 }

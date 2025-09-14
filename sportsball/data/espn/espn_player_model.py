@@ -2839,7 +2839,8 @@ def _create_espn_player_model(
                             rating = more_interesting(rating, stat["value"])
                         elif stat["name"] == "avgGoals":
                             average_goals = more_interesting(
-                                average_goals, stat["value"]
+                                average_goals,
+                                stat.get("value", float(stat["displayValue"])),
                             )
                         elif stat["name"] == "ytdGoals":
                             ytd_goals = more_interesting(ytd_goals, stat["value"])

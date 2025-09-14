@@ -1975,15 +1975,6 @@ DURHAM = SportsballGeocodeTuple(
     housenumber="",
     country="USA",
 )
-JON_M_HUNTSMAN_CENTER = SportsballGeocodeTuple(
-    city="Salt Lake City",
-    state="UT",
-    postal="",
-    lat=40.762,
-    lng=-111.839,
-    housenumber="1825",
-    country="USA",
-)
 FLA_LIVE_ARENA = SportsballGeocodeTuple(
     city="Sunrise",
     state="FL",
@@ -2192,7 +2183,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
     "E.A. Diddle Arena, Bowling Green, Kentucky": EA_DIDDLE_ARENA,
     "Don Haskins Center, El Paso, Texas": DON_HASKINS_CENTER,
-    "Jon M. Huntsman Center, Salt Lake City, Utah": JON_M_HUNTSMAN_CENTER,
     "The Pavilion, Davis, California": SportsballGeocodeTuple(
         city="Davis",
         state="CA",
@@ -3406,15 +3396,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         lat=37.708333,
         lng=-89.218611,
         housenumber="",
-        country="USA",
-    ),
-    "CU Events Center, Boulder, Colorado": SportsballGeocodeTuple(
-        city="Boulder",
-        state="CO",
-        postal="",
-        lat=40.0047,
-        lng=-105.2606,
-        housenumber="950",
         country="USA",
     ),
     "University Credit Union Pavilion, Moraga, California": SportsballGeocodeTuple(
@@ -16436,7 +16417,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Jon M. Huntsman Center - Salt Lake City, UT - United States": JON_M_HUNTSMAN_CENTER,
     "Estadio Santiago Bernabéu - Madrid - Spain": SportsballGeocodeTuple(
         city="Madrid",
         state="",
