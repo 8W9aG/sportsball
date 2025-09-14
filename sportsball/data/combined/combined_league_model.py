@@ -108,6 +108,7 @@ class CombinedLeagueModel(LeagueModel):
                 else:
                     key = "-".join(game_components)
                     games[key] = [game_model]
+        del results
 
         names: dict[str, str] = {}
         coach_names: dict[str, str] = {}
@@ -117,7 +118,9 @@ class CombinedLeagueModel(LeagueModel):
         umpire_ffill: dict[str, dict[str, Any]] = {}
         last_game_number = None
         with tqdm.tqdm() as pbar:
-            for game_models in tqdm.tqdm(games.values(), desc="Combining Game Models"):
+            for key, game_models in tqdm.tqdm(
+                games.items(), desc="Combining Game Models"
+            ):
                 pbar.update(1)
                 pbar.set_description(f"Combining Game Models {len(game_models)}")
                 game_model = create_combined_game_model(  # type: ignore
@@ -136,3 +139,4 @@ class CombinedLeagueModel(LeagueModel):
                 )
                 last_game_number = game_model.game_number
                 yield game_model
+                del games[key]

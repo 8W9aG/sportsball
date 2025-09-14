@@ -11949,6 +11949,46 @@
             "housenumber": "",
             "country": "Brazil",
             "type": "city"
+        },
+        "604aada1-680b-490c-81eb-19bda3754ec8": {
+            "city": "Daejeon",
+            "state": "",
+            "postal": "",
+            "lat": 36.365139,
+            "lng": 127.325167,
+            "housenumber": "32",
+            "country": "South Korea",
+            "type": "venue"
+        },
+        "b9ff80ed-3747-484f-901b-e613d9a73898": {
+            "city": "Birmingham",
+            "state": "AL",
+            "postal": "",
+            "lat": 33.502222,
+            "lng": -86.855833,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
+        },
+        "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4": {
+            "city": "Lake Buena Vista",
+            "state": "FL",
+            "postal": "32830",
+            "lat": 28.337083,
+            "lng": -81.556,
+            "housenumber": "1375",
+            "country": "USA",
+            "type": "venue"
+        },
+        "8e785537-2a0b-40db-8023-9f945001b748": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 64.0,
+            "lng": 26.0,
+            "housenumber": "",
+            "country": "Finland",
+            "type": "country"
         }
     },
     "searches": {
@@ -12620,6 +12660,7 @@
         "Etihad Stadium, Manchester, England": "8927ad43-5c93-4bc8-9a1c-6b0ef777a0af",
         "Etihad Stadium - Manchester": "8927ad43-5c93-4bc8-9a1c-6b0ef777a0af",
         "Etihad Stadium": "8927ad43-5c93-4bc8-9a1c-6b0ef777a0af",
+        "City of Manchester Stadium": "8927ad43-5c93-4bc8-9a1c-6b0ef777a0af",
         "Bellerive Oval - Australia": "dad0b6d0-43c9-411a-81b1-abc07001f0af",
         "Blundstone Arena": "dad0b6d0-43c9-411a-81b1-abc07001f0af",
         "Blundstone Arena, Hobart, Australia": "dad0b6d0-43c9-411a-81b1-abc07001f0af",
@@ -13305,6 +13346,7 @@
         "College Park Center, Arlington, TX, USA": "815a3094-5e7f-43d3-b38d-1c20453008d2",
         "Hammond Stadium - Fort Myers - Florida": "56b1e509-92a5-47e5-8f35-304a60d90c6f",
         "GCU Arena, Phoenix, Arizona": "b4fd745c-12cd-4de7-8d68-2c568eca74d4",
+        "GCU Arena, Phoenix, AZ, USA": "b4fd745c-12cd-4de7-8d68-2c568eca74d4",
         "Grand Canyon University Arena, Phoenix, Arizona": "b4fd745c-12cd-4de7-8d68-2c568eca74d4",
         "Global Credit Union Arena - Phoenix - AZ": "b4fd745c-12cd-4de7-8d68-2c568eca74d4",
         "Spectrum Center - Charlotte - NC": "60d6f941-a10a-4146-99f4-0a97ddea9b91",
@@ -14148,6 +14190,7 @@
         "Alumni Stadium (DE) - Dover - DE - 19901": "6e7e2156-ae6a-41de-bc21-83ffbc6af88e",
         "ROU": "2c52f0d0-8de4-4fb5-92ac-5901a1ba0bac",
         "Rio de Janeiro, Brazil": "5262437a-b919-4114-90c0-7f06add6cd41",
+        "Rio de Janeiro": "5262437a-b919-4114-90c0-7f06add6cd41",
         "Angel Stadium of Anaheim, Anaheim, CA, USA": "c4431a98-1955-416f-aa9c-05d82c41ad7f",
         "Angel Stadium of Anaheim": "c4431a98-1955-416f-aa9c-05d82c41ad7f",
         "Angel Stadium - Anaheim - California - 92806": "c4431a98-1955-416f-aa9c-05d82c41ad7f",
@@ -14420,6 +14463,22 @@
         "ITF Palma Del Rio": "776bf509-98ee-4eff-8ce3-68ebeed25a1f",
         "Glasgow CH": "1449c848-0d62-45e8-b51c-1c9cb271a98d",
         "Sao Paulo": "c32f4bc3-6168-43cb-bbe0-e3274e2eed83",
-        "Sao Paulo, Brazil": "c32f4bc3-6168-43cb-bbe0-e3274e2eed83"
+        "Sao Paulo, Brazil": "c32f4bc3-6168-43cb-bbe0-e3274e2eed83",
+        "Daejeon Stadium - Taejon": "604aada1-680b-490c-81eb-19bda3754ec8",
+        "Rickwood Field": "b9ff80ed-3747-484f-901b-e613d9a73898",
+        "Rickwood Field - Birmingham - Alabama": "b9ff80ed-3747-484f-901b-e613d9a73898",
+        "ESPN Wide World of Sports Complex": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
+        "The Arena, Bay Lake, Florida": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
+        "HP Field House, Bay Lake, Florida": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
+        "Visa Athletic Center, Bay Lake, Florida": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
+        "AdventHealth Arena, Orlando, FL, USA": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
+        "ESPN Wide World of Sports Complex, Bay Lake, FL, USA": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
+        "Visa Athletic Center, Orlando, FL, USA": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
+        "The Arena (WWOS), Orlando, FL, USA": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
+        "HP Field House, Orlando, Florida": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
+        "ESPN Wide World of Sports, Orlando, Florida": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
+        "The Milk House, Lake Buena Vista, Florida": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
+        "ESPN Wide World of Sports Complex - Lake Buena Vista - FL": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
+        "FIN": "8e785537-2a0b-40db-8023-9f945001b748"
     }
 }

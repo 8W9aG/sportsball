@@ -76,15 +76,6 @@ CHESAPEAKE_ENERGY_ARENA = SportsballGeocodeTuple(
     housenumber="100",
     country="USA",
 )
-ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX = SportsballGeocodeTuple(
-    city="Lake Buena Vista",
-    state="FL",
-    postal="32830",
-    lat=28.337083,
-    lng=-81.556,
-    housenumber="1375",
-    country="USA",
-)
 QUICKEN_LOANS_ARENA = SportsballGeocodeTuple(
     city="Cleveland",
     state="OH",
@@ -3118,7 +3109,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "Quicken Loans Arena - Cleveland, Ohio - United States": QUICKEN_LOANS_ARENA,
     "Chesapeake Energy Arena - Oklahoma City, Oklahoma - United States": CHESAPEAKE_ENERGY_ARENA,
     "AT&T Center - San Antonio, Texas - United States": ATT_CENTER,
-    "ESPN Wide World of Sports Complex": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
     "International Amphitheatre": SportsballGeocodeTuple(
         city="Chicago",
         state="IL",
@@ -3275,11 +3265,8 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "FTX Arena, Miami, Florida": FTX_ARENA,
     "Vivint Smart Home Arena, Salt Lake City, Utah": VIVINT_ARENA,
     "Chesapeake Energy Arena, Oklahoma City, Oklahoma": CHESAPEAKE_ENERGY_ARENA,
-    "The Arena, Bay Lake, Florida": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
-    "HP Field House, Bay Lake, Florida": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
     "Amway Center, Orlando, Florida": ORLANDO_ARENA,
     "Quicken Loans Arena, Cleveland, Ohio": QUICKEN_LOANS_ARENA,
-    "Visa Athletic Center, Bay Lake, Florida": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
     "Dunn–Oliver Acadome, Montgomery, Alabama": DUNN_OLIVER_ACADOME,
     "The O2 Arena, London, United Kingdom": O2_ARENA,
     "BMO Harris Bradley Center, Milwaukee, Wisconsin": BRADLEY_CENTER,
@@ -3782,7 +3769,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="UK",
     ),
     "ARCO Arena, Sacramento, CA, USA": ARCO_ARENA,
-    "AdventHealth Arena, Orlando, FL, USA": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
     "The Palace of Auburn Hills, Auburn Hills, MI, USA": THE_PALACE_OF_AUBURN_HILLS,
     "BMO Harris Bradley Center, Milwaukee, WI, USA": BRADLEY_CENTER,
     "State Farm Field House, Orlando, FL, USA": STATE_FARM_FIELDHOUSE,
@@ -3795,9 +3781,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="China",
     ),
-    "ESPN Wide World of Sports Complex, Bay Lake, FL, USA": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
-    "Visa Athletic Center, Orlando, FL, USA": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
-    "The Arena (WWOS), Orlando, FL, USA": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
     "PayPal Park, San Jose, CA, USA": SportsballGeocodeTuple(
         city="San Jose",
         state="CA",
@@ -4407,7 +4390,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="1971",
         country="USA",
     ),
-    "HP Field House, Orlando, Florida": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
     "Tsongas Center, Lowell, Massachusetts": TSONGAS_CENTER,
     "The Arena, Niceville, Florida": SportsballGeocodeTuple(
         city="Niceville",
@@ -6743,7 +6725,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Magness Arena, Denver, Colorado": MAGNESS_ARENA,
-    "ESPN Wide World of Sports, Orlando, Florida": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
     "Chaparral Center, Midland, Texas": SportsballGeocodeTuple(
         city="Midland",
         state="TX",
@@ -7406,7 +7387,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "UCR Student Rec Center, Riverside, California": UCR_STUDENT_REC_CENTER,
     "Maurice Stokes Athletic Center, Loretto, Pennsylvania": DEGOL_ARENA,
     "RAC Arena, Baltimore, Maryland": RETRIEVER_ACTIVITIES_CENTER,
-    "The Milk House, Lake Buena Vista, Florida": ESPN_WIDE_WORLD_OF_SPORTS_COMPLEX,
     "Sullivan Arena, Anchorage, Alaska": SportsballGeocodeTuple(
         city="Anchorage",
         state="AL",
@@ -16798,15 +16778,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         postal="",
         lat=41.378433,
         lng=-72.104669,
-        housenumber="",
-        country="USA",
-    ),
-    "Rickwood Field": SportsballGeocodeTuple(
-        city="Birmingham",
-        state="AL",
-        postal="",
-        lat=33.502222,
-        lng=-86.855833,
         housenumber="",
         country="USA",
     ),
