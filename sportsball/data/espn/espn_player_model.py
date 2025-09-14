@@ -2867,7 +2867,10 @@ def _create_espn_player_model(
                                 stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "shotsTotal":
-                            total_shots = more_interesting(total_shots, stat["value"])
+                            total_shots = more_interesting(
+                                total_shots,
+                                stat.get("value", int(stat["displayValue"])),
+                            )
                         elif stat["name"] == "shotsMissed":
                             shots_missed = more_interesting(shots_missed, stat["value"])
                         elif stat["name"] == "avgShots":

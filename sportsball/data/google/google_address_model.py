@@ -2680,15 +2680,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Gallagher-Iba Arena, Stillwater, Oklahoma": SportsballGeocodeTuple(
-        city="Stillwater",
-        state="OK",
-        postal="74078",
-        lat=36.125833,
-        lng=-97.065,
-        housenumber="1046",
-        country="USA",
-    ),
     "Arena-Auditorium, Laramie, Wyoming": SportsballGeocodeTuple(
         city="Laramie",
         state="WY",
@@ -7599,15 +7590,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         lng=-64.916667,
         housenumber="255",
         country="USA",
-    ),
-    "Cancun": SportsballGeocodeTuple(
-        city="Cancun",
-        state="QR",
-        postal="",
-        lat=21.160556,
-        lng=-86.8475,
-        housenumber="",
-        country="Mexico",
     ),
     "Roberts Stadium, Evansville, Indiana": ROBERTS_STADIUM,
     "Anderson Arena, Bowling Green, Ohio": SportsballGeocodeTuple(
