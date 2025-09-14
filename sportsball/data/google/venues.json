@@ -12089,6 +12089,16 @@
             "housenumber": "",
             "country": "France",
             "type": "city"
+        },
+        "38ab5252-d716-4fe4-b5d7-92a0aed1ef78": {
+            "city": "Paradise",
+            "state": "NV",
+            "postal": "",
+            "lat": 36.104808,
+            "lng": -115.168614,
+            "housenumber": "3799",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -14497,6 +14507,7 @@
         "J.K. Irving Centre - Moncton - NB": "0da5048a-be23-4a7b-a420-7e41b2e1a407",
         "SVK": "e9a51b6e-ec19-4b0b-a153-be059c02396d",
         "Box Hill City Oval, Box Hill, Australia": "6644ddc9-7a94-4e91-8185-93e65eced88c",
+        "Box Hill City Oval": "6644ddc9-7a94-4e91-8185-93e65eced88c",
         "Felix Bollaert": "67b56e21-9fdf-43ff-8a65-a09a7e224b73",
         "Changsha, China PR": "7b15d9f7-1f0e-42dd-bdb8-c4bc3156ec03",
         "Cherbourg CH": "ce1acd11-0ee5-4daa-b99c-8c6d0bc33777",
@@ -14603,6 +14614,8 @@
         "Glenegl Oval": "0893fb1e-5554-44c0-a92b-9465df465481",
         "GAB": "07d18401-698e-4e40-8b94-4a133554aa7a",
         "Lee County Sports Complex - Fort Myers - Florida - 33994": "285e9107-e07d-45aa-ba78-01abb67eebd9",
-        "Strasbourg, France": "fffaf05d-8103-42d2-87ca-e53fb29163d4"
+        "Strasbourg, France": "fffaf05d-8103-42d2-87ca-e53fb29163d4",
+        "MGM Grand Garden Arena - Las Vegas - NV": "38ab5252-d716-4fe4-b5d7-92a0aed1ef78",
+        "MGM Grand Garden Arena, Paradise, Nevada": "38ab5252-d716-4fe4-b5d7-92a0aed1ef78"
     }
 }

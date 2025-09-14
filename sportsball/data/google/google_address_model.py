@@ -3062,15 +3062,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="Bahamas",
     ),
     "DeGol Arena, Loretto, Pennsylvania": DEGOL_ARENA,
-    "MGM Grand Garden Arena, Paradise, Nevada": SportsballGeocodeTuple(
-        city="Paradise",
-        state="NV",
-        postal="",
-        lat=36.104808,
-        lng=-115.168614,
-        housenumber="3799",
-        country="USA",
-    ),
     "State Farm Field House, Lake Buena Vista, Florida": STATE_FARM_FIELDHOUSE,
     "Boston Garden": BOSTON_GARDENS,
     "Cow Palace - Daly City, California - United States": SportsballGeocodeTuple(
