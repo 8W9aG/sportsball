@@ -12029,6 +12029,26 @@
             "housenumber": "",
             "country": "Australia",
             "type": "venue"
+        },
+        "980274f8-bd6c-40cd-8725-93deedbef325": {
+            "city": "Brazzaville",
+            "state": "",
+            "postal": "",
+            "lat": -4.266667,
+            "lng": 15.266667,
+            "housenumber": "",
+            "country": "Republic of the Congo",
+            "type": "city"
+        },
+        "a6db2cdc-1fbc-4ce6-b123-6b92b4765bcc": {
+            "city": "Sandringham",
+            "state": "VIC",
+            "postal": "",
+            "lat": -37.945,
+            "lng": 145.000278,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
         }
     },
     "searches": {
@@ -14399,6 +14419,7 @@
         "La Mosson": "5df6ecfc-ef9d-4037-a1da-d24c8c6a2646",
         "CAA Arena - Belleville - ON": "9c40c174-4f6b-4be6-932b-71f92fde2fc8",
         "Bad Homburg, Germany": "556b2307-174c-4674-91d9-5fe6eeef2b43",
+        "Bad Homburg": "556b2307-174c-4674-91d9-5fe6eeef2b43",
         "Parc de Lescure - Bordeaux": "216e5e68-f7b9-4f51-a400-e6a1224bdb8b",
         "Moody Coliseum - Dallas - TX": "434fc7f3-7bbb-402a-b9c6-3b6ecd6ba462",
         "Moody Coliseum, Dallas, Texas": "434fc7f3-7bbb-402a-b9c6-3b6ecd6ba462",
@@ -14529,6 +14550,8 @@
         "Newport, USA": "3e3ff205-75d3-43fa-9867-5ad447729713",
         "TUN": "383aa76f-353b-4f3e-8e14-2150c44e0376",
         "Valencia, Spain": "fd4da5b5-7bcd-4ff8-a9fc-3037037ff6f0",
-        "Maroochydore": "22782ebe-963a-4b1f-8b0f-855deb8914c7"
+        "Maroochydore": "22782ebe-963a-4b1f-8b0f-855deb8914c7",
+        "Brazzaville CH": "980274f8-bd6c-40cd-8725-93deedbef325",
+        "Trevor Barker Oval": "a6db2cdc-1fbc-4ce6-b123-6b92b4765bcc"
     }
 }
