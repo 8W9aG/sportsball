@@ -1912,15 +1912,6 @@ TSONGAS_CENTER = SportsballGeocodeTuple(
     housenumber="300",
     country="USA",
 )
-LAWRENCE_JOEL_VETERANS_MEMORIAL_COLISEUM = SportsballGeocodeTuple(
-    city="Winston-Salem",
-    state="NC",
-    postal="27105",
-    lat=36.127866,
-    lng=-80.257628,
-    housenumber="2825",
-    country="USA",
-)
 KFC_YUM_CENTER = SportsballGeocodeTuple(
     city="Louisville",
     state="KY",
@@ -4236,7 +4227,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="5031",
         country="USA",
     ),
-    "Lawrence Joel Veterans Memorial Coliseum, Winston-Salem, North Carolina": LAWRENCE_JOEL_VETERANS_MEMORIAL_COLISEUM,
     "Indiana Convention Center, Indianapolis, Indiana": SportsballGeocodeTuple(
         city="Indianapolis",
         state="IN",
@@ -16229,7 +16219,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Lawrence Joel Veterans Memorial Coliseum - Winston-Salem, North Carolina - United States": LAWRENCE_JOEL_VETERANS_MEMORIAL_COLISEUM,
     "KFC YUM! Center - Louisville, Kentucky - United States": KFC_YUM_CENTER,
     "University of Memphis": SportsballGeocodeTuple(
         city="Memphis",

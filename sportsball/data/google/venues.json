@@ -12099,6 +12099,36 @@
             "housenumber": "3799",
             "country": "USA",
             "type": "venue"
+        },
+        "08649f71-e623-495d-9836-1f97dce7c0ef": {
+            "city": "Rochester",
+            "state": "MN",
+            "postal": "",
+            "lat": 44.02247,
+            "lng": -92.458599,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
+        },
+        "8100722e-93c1-4941-8d6a-01ad0d7e7d69": {
+            "city": "Melbourne",
+            "state": "VIC",
+            "postal": "3000",
+            "lat": -37.824167,
+            "lng": 144.979722,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
+        },
+        "2b9eab9e-5965-4c1b-9d04-fa181f8d257d": {
+            "city": "Winston-Salem",
+            "state": "NC",
+            "postal": "27105",
+            "lat": 36.127866,
+            "lng": -80.257628,
+            "housenumber": "2825",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -12977,6 +13007,7 @@
         "St. James' Park, Newcastle, England": "18bd8883-d956-4365-b3c2-1cc5cf5768ab",
         "St. James' Park - Newcastle-upon-Tyne": "18bd8883-d956-4365-b3c2-1cc5cf5768ab",
         "St. James' Park": "18bd8883-d956-4365-b3c2-1cc5cf5768ab",
+        "St James' Park": "18bd8883-d956-4365-b3c2-1cc5cf5768ab",
         "Memorial Stadium (Champaign, IL) - Champaign - IL - 61820": "86a8cafb-515b-4396-a01d-0c71fa68873f",
         "Longmont, CO, United States": "7245784c-92cb-46fb-819a-46837c670971",
         "Simmons Bank Liberty Stadium - Memphis - TN - 38104": "d01b8cd4-3c9c-47a1-b3ea-6554aa9729ec",
@@ -13967,6 +13998,7 @@
         "Bud Walton Arena, Fayetteville, Arkansas": "07a2a43d-4c86-40a0-81d7-efd2ccb9f9d8",
         "Kessler Stadium - West Long Branch - NJ - 07764": "9cd91820-5a9a-4c61-89af-7869ec7657de",
         "Fifth Third Arena, Cincinnati, Ohio": "d3a19e8d-83c4-49a6-9386-aaf3c0a1bee4",
+        "Fifth Third Arena - Cincinnati - OH": "d3a19e8d-83c4-49a6-9386-aaf3c0a1bee4",
         "Stegeman Coliseum, Athens, Georgia": "71d27cef-4948-415c-9dec-00ff6dc12a9f",
         "Stegeman Coliseum - Athens - GA": "71d27cef-4948-415c-9dec-00ff6dc12a9f",
         "Mineral Resources Park": "7b06ee27-dcca-483b-ad70-442d0ea69108",
@@ -14535,6 +14567,7 @@
         "Cap Cana CH": "27ffc4a9-51a0-4bce-a155-95b3ca4274ed",
         "Nottingham, Great Britain": "cfc11804-2872-411d-b7f9-73422f55a71f",
         "ITF Nottingham": "cfc11804-2872-411d-b7f9-73422f55a71f",
+        "Nottingham": "cfc11804-2872-411d-b7f9-73422f55a71f",
         "La Bisbal d'Empordà, Spain": "23bd9d89-22cd-406a-9db5-841f9c4796d1",
         "Hersonissos CH": "d7add8fe-146f-4193-9a37-c0aedf6d36c1",
         "Levien Gym, New York, New York": "27b658e0-cd2b-46f1-bca9-702d54306225",
@@ -14616,6 +14649,11 @@
         "Lee County Sports Complex - Fort Myers - Florida - 33994": "285e9107-e07d-45aa-ba78-01abb67eebd9",
         "Strasbourg, France": "fffaf05d-8103-42d2-87ca-e53fb29163d4",
         "MGM Grand Garden Arena - Las Vegas - NV": "38ab5252-d716-4fe4-b5d7-92a0aed1ef78",
-        "MGM Grand Garden Arena, Paradise, Nevada": "38ab5252-d716-4fe4-b5d7-92a0aed1ef78"
+        "MGM Grand Garden Arena, Paradise, Nevada": "38ab5252-d716-4fe4-b5d7-92a0aed1ef78",
+        "Mayo Civic Center - Rochester - MN": "08649f71-e623-495d-9836-1f97dce7c0ef",
+        "AIA Centre": "8100722e-93c1-4941-8d6a-01ad0d7e7d69",
+        "Lawrence Joel Veterans Memorial Coliseum, Winston-Salem, North Carolina": "2b9eab9e-5965-4c1b-9d04-fa181f8d257d",
+        "Lawrence Joel Veterans Memorial Coliseum - Winston-Salem, North Carolina - United States": "2b9eab9e-5965-4c1b-9d04-fa181f8d257d",
+        "LJVM Coliseum - Winston-Salem - NC": "2b9eab9e-5965-4c1b-9d04-fa181f8d257d"
     }
 }

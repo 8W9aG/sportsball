@@ -70,6 +70,7 @@ The supported leagues are:
 * ⚾ [MLB](https://www.mlb.com/)
 * 🏀 [NBA](https://www.nba.com/)
 * 🏀 [NCAAB](https://www.ncaa.com/sports/basketball-men/d1)
+* 🏀 [NCAABW](https://www.ncaa.com/sports/basketball-women/d1)
 * 🏈 [NCAAF](https://www.ncaa.com/sports/football/fbs)
 * 🏈 [NFL](https://www.nfl.com/)
 * 🏒 [NHL](https://www.nhl.com/)

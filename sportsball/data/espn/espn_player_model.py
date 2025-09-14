@@ -2785,9 +2785,10 @@ def _create_espn_player_model(
                                     time_on_ice, stat["value"]
                                 )
                         elif stat["name"] == "timeOnIcePerGame":
-                            time_on_ice_per_game = more_interesting(
-                                time_on_ice_per_game, stat["value"]
-                            )
+                            if "value" in stat:
+                                time_on_ice_per_game = more_interesting(
+                                    time_on_ice_per_game, stat["value"]
+                                )
                         elif stat["name"] == "powerPlayTimeOnIce":
                             power_play_time_on_ice = more_interesting(
                                 power_play_time_on_ice, stat["value"]
