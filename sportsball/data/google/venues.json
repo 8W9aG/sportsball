@@ -12179,6 +12179,26 @@
             "housenumber": "",
             "country": "Australia",
             "type": "venue"
+        },
+        "0c966366-b551-49fe-a2e2-5bb858f4fdd9": {
+            "city": "Taizhou",
+            "state": "Zhejiang",
+            "postal": "",
+            "lat": 28.6557,
+            "lng": 121.4208,
+            "housenumber": "",
+            "country": "China",
+            "type": "city"
+        },
+        "cc58d174-f681-4437-9ba7-19494a45b216": {
+            "city": "Mildura",
+            "state": "VIC",
+            "postal": "3500",
+            "lat": -34.2182732,
+            "lng": 142.1233326,
+            "housenumber": "684",
+            "country": "Australia",
+            "type": "venue"
         }
     },
     "searches": {
@@ -14713,6 +14733,8 @@
         "Marseille": "c34e91b4-6036-43ed-95c1-e823104893a3",
         "Montreux, Switzerland": "035b513b-b9ce-45e7-b527-56c6757f5c04",
         "NSCI Dome": "bf20705e-c932-4cbc-8fc7-09396ca1c672",
-        "Reid Oval Warrnambool": "d1b6dcbb-3d60-424f-9f52-7ff313fcf180"
+        "Reid Oval Warrnambool": "d1b6dcbb-3d60-424f-9f52-7ff313fcf180",
+        "ITF Taizhou": "0c966366-b551-49fe-a2e2-5bb858f4fdd9",
+        "Mildura Sporting Precinct": "cc58d174-f681-4437-9ba7-19494a45b216"
     }
 }
