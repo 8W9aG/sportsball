@@ -12272,6 +12272,28 @@
             "country": "Mexico",
             "type": "city",
             "wiki": "Puerto_Vallarta"
+        },
+        "c5382f20-ae56-434a-ae01-62739612373d": {
+            "city": "Little Rock",
+            "state": "AR",
+            "postal": "37210",
+            "lat": 36.1407945,
+            "lng": -86.7555075,
+            "housenumber": "410",
+            "country": "USA",
+            "type": "venue",
+            "wiki": null
+        },
+        "e18131c9-6d87-40f5-9a3b-e21e87c84e40": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 57.0,
+            "lng": 25.0,
+            "housenumber": "",
+            "country": "Latvia",
+            "type": "country",
+            "wiki": "Latvia"
         }
     },
     "searches": {
@@ -13392,6 +13414,7 @@
         "SAP Center, San Jose, CA, USA": "e18d34a1-472b-4dcf-aab4-7e67457d7d86",
         "SAP Center at San Jose": "e18d34a1-472b-4dcf-aab4-7e67457d7d86",
         "SAP Center at San Jose - San Jose - CA - 95196": "e18d34a1-472b-4dcf-aab4-7e67457d7d86",
+        "SAP Center at San Jose - San Jose - CA": "e18d34a1-472b-4dcf-aab4-7e67457d7d86",
         "Sam Boyd Stadium - Las Vegas - NV - 89122": "a57dd4aa-8c93-486d-b824-18a782cb83f6",
         "Sam Boyd Stadium": "a57dd4aa-8c93-486d-b824-18a782cb83f6",
         "Arthur Ashe Stadium, New York, NY, USA": "3d5506d1-33e3-459b-8ec6-2230ffb17887",
@@ -13744,6 +13767,7 @@
         "Dallas, USA": "2c61ee94-38dc-4519-bfb9-34d29d0eec51",
         "Dallas, Texas": "2c61ee94-38dc-4519-bfb9-34d29d0eec51",
         "Dallas, Texas, United States": "2c61ee94-38dc-4519-bfb9-34d29d0eec51",
+        "Dallas": "2c61ee94-38dc-4519-bfb9-34d29d0eec51",
         "Joseph J. Gentile Center, Chicago, Illinois": "e97c0aa1-a534-40bd-a4fd-07deac77f608",
         "Joseph J. Gentile Arena, Chicago, Illinois": "e97c0aa1-a534-40bd-a4fd-07deac77f608",
         "Al Thumama Stadium - Ar-Rayyan": "cb87f5b4-bbda-4e84-8e69-4c4deb5b64d0",
@@ -14827,6 +14851,9 @@
         "Mercedes-Benz Arena, Shanghai": "9df80441-a677-4e21-b354-a08fd0b51063",
         "Mercedes-Benz Arena - Shanghai": "9df80441-a677-4e21-b354-a08fd0b51063",
         "Vic, Spain": "9e89d4f8-05c6-45ce-bbde-c69a35acf301",
-        "Puerto Vallarta, Mexico": "538caaa7-9338-4644-8bdc-fc20ad29e3d2"
+        "Puerto Vallarta, Mexico": "538caaa7-9338-4644-8bdc-fc20ad29e3d2",
+        "Trojan Fieldhouse, Little Rock, Arkansas": "c5382f20-ae56-434a-ae01-62739612373d",
+        "Trojan Fieldhouse - Nashville - TN - 37210": "c5382f20-ae56-434a-ae01-62739612373d",
+        "LAT": "e18131c9-6d87-40f5-9a3b-e21e87c84e40"
     }
 }

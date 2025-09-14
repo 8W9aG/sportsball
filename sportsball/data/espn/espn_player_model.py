@@ -47,6 +47,7 @@ _BAD_URLS = {
     "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/5176325?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/1998/athletes/82185?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/4702945?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/1998/athletes/82189?lang=en&region=us",
 }
 _BAD_COLLEGE_URLS = {
     "http://sports.core.api.espn.com/v2/colleges/6638?lang=en&region=us",
@@ -1576,7 +1577,9 @@ def _create_espn_player_model(
                         elif stat["name"] == "clangers":
                             clangers = more_interesting(clangers, stat["value"])
                         elif stat["name"] == "goals":
-                            goals = more_interesting(goals, stat["value"])
+                            goals = more_interesting(
+                                goals, stat.get("value", int(stat["displayValue"]))
+                            )
                         elif stat["name"] == "behinds":
                             behinds = more_interesting(behinds, stat["value"])
                         elif stat["name"] == "freesFor":
