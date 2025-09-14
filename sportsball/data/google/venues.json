@@ -12261,6 +12261,17 @@
             "country": "Spain",
             "type": "city",
             "wiki": "Vic,_Spain"
+        },
+        "538caaa7-9338-4644-8bdc-fc20ad29e3d2": {
+            "city": "Puerto Vallarta",
+            "state": "Jalisco",
+            "postal": "",
+            "lat": 20.645833,
+            "lng": -105.222222,
+            "housenumber": "",
+            "country": "Mexico",
+            "type": "city",
+            "wiki": "Puerto_Vallarta"
         }
     },
     "searches": {
@@ -14734,6 +14745,7 @@
         "Rhein Energie Stadion - Cologne": "d9ca1faf-fb4d-4eca-8f2e-d634ec604484",
         "ARM": "dcd30351-cb0d-4b95-bad6-b4c263b9e643",
         "C.ex Coffs International Stadium, Coffs Harbour, Australia": "b26d7edf-f6a2-412e-b317-ccaadf2277f9",
+        "Coffs Harbour International": "b26d7edf-f6a2-412e-b317-ccaadf2277f9",
         "PHI": "911526fd-d598-4c62-961c-a3eb43124e91",
         "Daiwa House Premist Dome - Sapporo": "45cc8e88-6e2c-4174-a6f2-7ab8043287b2",
         "Saitama Stadium - Saitama": "09cd3fc7-253e-4652-9e80-7d9487a25b6a",
@@ -14814,6 +14826,7 @@
         "Abu Dhabi, United Arab Emirates": "90037a75-8eeb-4467-9517-5b867095ddaa",
         "Mercedes-Benz Arena, Shanghai": "9df80441-a677-4e21-b354-a08fd0b51063",
         "Mercedes-Benz Arena - Shanghai": "9df80441-a677-4e21-b354-a08fd0b51063",
-        "Vic, Spain": "9e89d4f8-05c6-45ce-bbde-c69a35acf301"
+        "Vic, Spain": "9e89d4f8-05c6-45ce-bbde-c69a35acf301",
+        "Puerto Vallarta, Mexico": "538caaa7-9338-4644-8bdc-fc20ad29e3d2"
     }
 }

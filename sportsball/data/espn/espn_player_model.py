@@ -46,6 +46,7 @@ _BAD_URLS = {
     "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/2002/athletes/19270?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/5176325?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/1998/athletes/82185?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/4702945?lang=en&region=us",
 }
 _BAD_COLLEGE_URLS = {
     "http://sports.core.api.espn.com/v2/colleges/6638?lang=en&region=us",
@@ -2811,7 +2812,8 @@ def _create_espn_player_model(
                             )
                         elif stat["name"] == "shiftsPerGame":
                             shifts_per_game = more_interesting(
-                                shifts_per_game, stat["value"]
+                                shifts_per_game,
+                                stat.get("value", float(stat["displayValue"])),
                             )
                         elif stat["name"] == "production":
                             production = more_interesting(production, stat["value"])
