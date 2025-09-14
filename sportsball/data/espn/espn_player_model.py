@@ -2393,7 +2393,10 @@ def _create_espn_player_model(
                         elif stat["name"] == "NBARating":
                             nba_rating = more_interesting(nba_rating, stat["value"])
                         elif stat["name"] == "plusMinus":
-                            plus_minus = more_interesting(plus_minus, stat["value"])
+                            plus_minus = more_interesting(
+                                plus_minus,
+                                stat.get("value", float(stat["displayValue"])),
+                            )
                         elif stat["name"] == "avgRebounds":
                             average_rebounds = more_interesting(
                                 average_rebounds, stat["value"]
