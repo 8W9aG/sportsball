@@ -12199,6 +12199,16 @@
             "housenumber": "684",
             "country": "Australia",
             "type": "venue"
+        },
+        "50191222-60b9-4fed-89c7-beae20d805a9": {
+            "city": "Makarska",
+            "state": "",
+            "postal": "",
+            "lat": 43.3,
+            "lng": 17.033333,
+            "housenumber": "",
+            "country": "Croatia",
+            "type": "city"
         }
     },
     "searches": {
@@ -12975,6 +12985,7 @@
         "Sahlen Field, Buffalo, NY, USA": "60f62014-0b1d-4ede-9ad7-d534ae1f3dbb",
         "Allegacy Federal Credit Union Stadium - Winston-Salem - NC - 27105": "eb526f6a-71f3-4919-a46b-8e7b475217ff",
         "The Valley, London, England": "c7149ade-24b1-4ead-934e-470c7404b44e",
+        "The Valley - London": "c7149ade-24b1-4ead-934e-470c7404b44e",
         "McLane Stadium - Waco - TX - 76704": "19b16985-70f3-45fa-aa5b-d0a21ee5c784",
         "Florida International University": "3e370cf6-2020-4adf-ae91-977eeb8f0ba9",
         "Florida International College": "3e370cf6-2020-4adf-ae91-977eeb8f0ba9",
@@ -13679,6 +13690,7 @@
         "Brighton Homes Arena": "3652210a-9e53-46b8-bd5a-59367edc3a79",
         "Brighton Homes Arena, Brisbane, Australia": "3652210a-9e53-46b8-bd5a-59367edc3a79",
         "Springfield Central Stadium, Springfield, Australia": "3652210a-9e53-46b8-bd5a-59367edc3a79",
+        "Michael Voss Oval": "3652210a-9e53-46b8-bd5a-59367edc3a79",
         "Kimmel Arena, Asheville, North Carolina": "0f5408a2-d6b6-4b83-8a44-4bffe47c820d",
         "SWE": "c8bcc673-c065-4066-b582-d76e46dc6f87",
         "Memorial Gymnasium, Nashville, Tennessee": "6d33550a-6dac-4f41-8590-352a1ce54224",
@@ -13821,6 +13833,7 @@
         "Kohl Center, Madison, Wisconsin": "a2fa978f-0e6c-4bc5-b723-367a68597e96",
         "Kohl Center - Madison - WI": "a2fa978f-0e6c-4bc5-b723-367a68597e96",
         "Delray Beach, USA": "7d0e7a1d-3df8-4c79-bdcd-3654dc9e003b",
+        "Delray Beach": "7d0e7a1d-3df8-4c79-bdcd-3654dc9e003b",
         "McKale Center, Tucson, Arizona": "64a782db-c9bf-4986-a776-5191e2ea956e",
         "McKale Memorial Center - Tucson - AZ": "64a782db-c9bf-4986-a776-5191e2ea956e",
         "Memorial Athletic & Convocation Center, Kent, Ohio": "36932351-bb73-443c-80c2-8facb163b794",
@@ -14735,6 +14748,7 @@
         "NSCI Dome": "bf20705e-c932-4cbc-8fc7-09396ca1c672",
         "Reid Oval Warrnambool": "d1b6dcbb-3d60-424f-9f52-7ff313fcf180",
         "ITF Taizhou": "0c966366-b551-49fe-a2e2-5bb858f4fdd9",
-        "Mildura Sporting Precinct": "cc58d174-f681-4437-9ba7-19494a45b216"
+        "Mildura Sporting Precinct": "cc58d174-f681-4437-9ba7-19494a45b216",
+        "Makarska, Croatia": "50191222-60b9-4fed-89c7-beae20d805a9"
     }
 }

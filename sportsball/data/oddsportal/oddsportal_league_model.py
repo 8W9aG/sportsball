@@ -131,6 +131,8 @@ class OddsPortalLeagueModel(LeagueModel):
                 return ["/".join([BASKETBALL, USA, "nba", ""])]
             case League.NCAAB:
                 return ["/".join([BASKETBALL, USA, NCAA, ""])]
+            case League.NCAABW:
+                return ["/".join([BASKETBALL, USA, "ncaa-women", ""])]
             case League.NCAAF:
                 return ["/".join([AMERICAN_FOOTBALL, USA, NCAA, ""])]
             case League.NFL:
