@@ -12059,6 +12059,36 @@
             "housenumber": "",
             "country": "Australia",
             "type": "venue"
+        },
+        "07d18401-698e-4e40-8b94-4a133554aa7a": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": -1.0,
+            "lng": 12.0,
+            "housenumber": "",
+            "country": "Gabon",
+            "type": "country"
+        },
+        "285e9107-e07d-45aa-ba78-01abb67eebd9": {
+            "city": "Fort Myers",
+            "state": "FL",
+            "postal": "33912",
+            "lat": 26.5354398,
+            "lng": -81.8415608,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue"
+        },
+        "fffaf05d-8103-42d2-87ca-e53fb29163d4": {
+            "city": "Strasbourg",
+            "state": "",
+            "postal": "",
+            "lat": 48.583333,
+            "lng": 7.745833,
+            "housenumber": "",
+            "country": "France",
+            "type": "city"
         }
     },
     "searches": {
@@ -13132,6 +13162,7 @@
         "Children's Mercy Park - Kansas City - KS - 66111": "c150cd5c-c845-46f6-9878-0805265544e0",
         "The Brick Community Stadium, Wigan, England": "d7cef3e9-37a6-48cf-a0c4-998ccb12fd1f",
         "The Brick Community Stadium - Wigan": "d7cef3e9-37a6-48cf-a0c4-998ccb12fd1f",
+        "The JJB Stadium": "d7cef3e9-37a6-48cf-a0c4-998ccb12fd1f",
         "Elliott T. Bowers Stadium - Huntsville - TX - 77340": "6f41f376-229b-4b2e-ab6c-231fc7ee60ad",
         "Signal Iduna Park - Dortmund - Germany": "250fe196-7b71-4471-a238-92d74f0e477b",
         "Signal Iduna Park - Dortmund": "250fe196-7b71-4471-a238-92d74f0e477b",
@@ -14479,6 +14510,7 @@
         "Birmingham, Great Britain": "63648214-df36-45fa-8bf6-da418eaeca30",
         "Warsaw, Poland": "2c902bf5-5449-45d4-ad0c-e684ea0428bf",
         "North Port Oval, Port Melbourne, Australia": "4bf55866-5443-4a44-8fdc-b21ea7a82a62",
+        "North Port Oval": "4bf55866-5443-4a44-8fdc-b21ea7a82a62",
         "Phoenix CH": "6537250c-f29d-4047-af3f-8eaa583070ff",
         "Phoenix, Arizona": "6537250c-f29d-4047-af3f-8eaa583070ff",
         "Phoenix, Arizona, United States": "6537250c-f29d-4047-af3f-8eaa583070ff",
@@ -14568,6 +14600,9 @@
         "Maroochydore": "22782ebe-963a-4b1f-8b0f-855deb8914c7",
         "Brazzaville CH": "980274f8-bd6c-40cd-8725-93deedbef325",
         "Trevor Barker Oval": "a6db2cdc-1fbc-4ce6-b123-6b92b4765bcc",
-        "Glenegl Oval": "0893fb1e-5554-44c0-a92b-9465df465481"
+        "Glenegl Oval": "0893fb1e-5554-44c0-a92b-9465df465481",
+        "GAB": "07d18401-698e-4e40-8b94-4a133554aa7a",
+        "Lee County Sports Complex - Fort Myers - Florida - 33994": "285e9107-e07d-45aa-ba78-01abb67eebd9",
+        "Strasbourg, France": "fffaf05d-8103-42d2-87ca-e53fb29163d4"
     }
 }

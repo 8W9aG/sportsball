@@ -43,10 +43,13 @@ _BAD_URLS = {
     "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/4431946?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/2002/athletes/21180?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/4896859?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/2002/athletes/19270?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/5176325?lang=en&region=us",
 }
 _BAD_COLLEGE_URLS = {
     "http://sports.core.api.espn.com/v2/colleges/6638?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/colleges/429?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/colleges/5438?lang=en&region=us",
 }
 
 
@@ -2777,7 +2780,10 @@ def _create_espn_player_model(
                                 ties, stat.get("value", int(stat["displayValue"]))
                             )
                         elif stat["name"] == "timeOnIce":
-                            time_on_ice = more_interesting(time_on_ice, stat["value"])
+                            if "value" in stat:
+                                time_on_ice = more_interesting(
+                                    time_on_ice, stat["value"]
+                                )
                         elif stat["name"] == "timeOnIcePerGame":
                             time_on_ice_per_game = more_interesting(
                                 time_on_ice_per_game, stat["value"]

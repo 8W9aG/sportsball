@@ -117,10 +117,10 @@ class CombinedLeagueModel(LeagueModel):
         coach_ffill: dict[str, dict[str, Any]] = {}
         umpire_ffill: dict[str, dict[str, Any]] = {}
         last_game_number = None
+        keys = list(games.keys())
         with tqdm.tqdm() as pbar:
-            for key, game_models in tqdm.tqdm(
-                games.items(), desc="Combining Game Models"
-            ):
+            for key in tqdm.tqdm(keys, desc="Combining Game Models"):
+                game_models = games.pop(key)
                 pbar.update(1)
                 pbar.set_description(f"Combining Game Models {len(game_models)}")
                 game_model = create_combined_game_model(  # type: ignore
