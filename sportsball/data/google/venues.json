@@ -12159,6 +12159,26 @@
             "housenumber": "",
             "country": "Switzerland",
             "type": "city"
+        },
+        "bf20705e-c932-4cbc-8fc7-09396ca1c672": {
+            "city": "Mumbai",
+            "state": "",
+            "postal": "400018",
+            "lat": 18.9863678,
+            "lng": 72.8154765,
+            "housenumber": "",
+            "country": "India",
+            "type": "venue"
+        },
+        "d1b6dcbb-3d60-424f-9f52-7ff313fcf180": {
+            "city": "Warrnambool",
+            "state": "VIC",
+            "postal": "3280",
+            "lat": -38.3794673,
+            "lng": 142.4955231,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
         }
     },
     "searches": {
@@ -14024,6 +14044,7 @@
         "Reed Arena - College Station, Texas, USA - United States": "bca4e947-f792-4843-9233-72a3410e6e41",
         "Reed Arena - College Station - TX": "bca4e947-f792-4843-9233-72a3410e6e41",
         "Humphrey Coliseum, Starkville, Mississippi": "e8c72cb1-4d31-4e59-b68e-efcd9f38ae31",
+        "Humphrey Coliseum - Starkville - MS": "e8c72cb1-4d31-4e59-b68e-efcd9f38ae31",
         "Lahaina Civic Center, Lahaina, Hawaii": "91c76ed1-88a6-489a-acb2-54a71e136f73",
         "Lahaina Civic Center - Maui - HI": "91c76ed1-88a6-489a-acb2-54a71e136f73",
         "Bud Walton Arena, Fayetteville, Arkansas": "07a2a43d-4c86-40a0-81d7-efd2ccb9f9d8",
@@ -14298,6 +14319,7 @@
         "Scottsdale Stadium - Scottsdale - Arizona - 85271": "a0be2356-40e3-4af0-8bac-4c0339aca1a8",
         "O2 Arena (Prague) - Prague": "dc37e20f-892a-4fbc-8ea5-38d61769dea5",
         "Buenos Aires, Argentina": "11d5a4c8-2693-4461-80db-aa5bae4b2256",
+        "Buenos Aires": "11d5a4c8-2693-4461-80db-aa5bae4b2256",
         "Arena Pernambuco - Recife": "1ecd2d59-0abf-45bb-9bea-33abe391d2cd",
         "Tempe Diablo Stadium - Tempe - Arizona - 85289": "a26e554f-6876-494a-8094-1e86dbc0769d",
         "Santiago, Chile": "7127b5e4-1606-43ed-85b8-d58e0cb632a6",
@@ -14668,6 +14690,7 @@
         "ESPN Wide World of Sports, Orlando, Florida": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
         "The Milk House, Lake Buena Vista, Florida": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
         "ESPN Wide World of Sports Complex - Lake Buena Vista - FL": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
+        "ESPN Wide World of Sports Complex - Lake Buena Vista - Florida": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
         "FIN": "8e785537-2a0b-40db-8023-9f945001b748",
         "Newport, USA": "3e3ff205-75d3-43fa-9867-5ad447729713",
         "TUN": "383aa76f-353b-4f3e-8e14-2150c44e0376",
@@ -14688,6 +14711,8 @@
         "LJVM Coliseum - Winston-Salem - NC": "2b9eab9e-5965-4c1b-9d04-fa181f8d257d",
         "Bond University": "ad144a93-42ca-46b8-aeb0-dd870eee0e3e",
         "Marseille": "c34e91b4-6036-43ed-95c1-e823104893a3",
-        "Montreux, Switzerland": "035b513b-b9ce-45e7-b527-56c6757f5c04"
+        "Montreux, Switzerland": "035b513b-b9ce-45e7-b527-56c6757f5c04",
+        "NSCI Dome": "bf20705e-c932-4cbc-8fc7-09396ca1c672",
+        "Reid Oval Warrnambool": "d1b6dcbb-3d60-424f-9f52-7ff313fcf180"
     }
 }
