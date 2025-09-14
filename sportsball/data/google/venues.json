@@ -12049,6 +12049,16 @@
             "housenumber": "",
             "country": "Australia",
             "type": "venue"
+        },
+        "0893fb1e-5554-44c0-a92b-9465df465481": {
+            "city": "Glenelg East",
+            "state": "SA",
+            "postal": "",
+            "lat": -34.983611,
+            "lng": 138.521667,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue"
         }
     },
     "searches": {
@@ -12412,6 +12422,7 @@
         "Windy Hill - Australia": "be43e7df-cebb-449d-ab58-9c1ff1ae1061",
         "Windy Hill, Essendon, Australia": "be43e7df-cebb-449d-ab58-9c1ff1ae1061",
         "Pride Park, Derby, England": "78ee8318-14b0-4b11-b1af-29ef72b3daa5",
+        "Pride Park Stadium": "78ee8318-14b0-4b11-b1af-29ef72b3daa5",
         "Camping World Stadium - Orlando - FL - 32805": "8e146665-d362-496f-af4c-3d55166e2968",
         "Camping World Stadium, Orlando, FL, USA": "8e146665-d362-496f-af4c-3d55166e2968",
         "Camping World Stadium - Orlando, Florida": "8e146665-d362-496f-af4c-3d55166e2968",
@@ -14379,6 +14390,7 @@
         "Daikin Park - Houston - Texas - 77002": "e3b3e59e-23fe-4767-8fc3-d141ecac4140",
         "Rabat, Morocco": "45203794-1531-407a-8082-0c77797aaa4b",
         "Porto CH": "2cc37a89-d98d-485b-a6f5-b53657d39d1b",
+        "Porto, Portugal": "2cc37a89-d98d-485b-a6f5-b53657d39d1b",
         "Suwon Stadium - Suwon": "faae87a1-c8af-42be-b497-86c25334bcd5",
         "CHN": "fe68c567-4850-4007-9bbf-de3e6a74af69",
         "Avicii Arena - Stockholm": "936b4135-91e0-4c09-bea3-ea18d8adec9c",
@@ -14552,6 +14564,7 @@
         "Valencia, Spain": "fd4da5b5-7bcd-4ff8-a9fc-3037037ff6f0",
         "Maroochydore": "22782ebe-963a-4b1f-8b0f-855deb8914c7",
         "Brazzaville CH": "980274f8-bd6c-40cd-8725-93deedbef325",
-        "Trevor Barker Oval": "a6db2cdc-1fbc-4ce6-b123-6b92b4765bcc"
+        "Trevor Barker Oval": "a6db2cdc-1fbc-4ce6-b123-6b92b4765bcc",
+        "Glenegl Oval": "0893fb1e-5554-44c0-a92b-9465df465481"
     }
 }

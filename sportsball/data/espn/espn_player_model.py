@@ -2770,7 +2770,9 @@ def _create_espn_player_model(
                         elif stat["name"] == "gameStarted":
                             game_started = more_interesting(game_started, stat["value"])
                         elif stat["name"] == "ties":
-                            ties = more_interesting(ties, stat["value"])
+                            ties = more_interesting(
+                                ties, stat.get("value", int(stat["displayValue"]))
+                            )
                         elif stat["name"] == "timeOnIce":
                             time_on_ice = more_interesting(time_on_ice, stat["value"])
                         elif stat["name"] == "timeOnIcePerGame":
