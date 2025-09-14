@@ -580,15 +580,6 @@ LEGACY_CENTER = SportsballGeocodeTuple(
     housenumber="",
     country="USA",
 )
-REYNOLDS_COLISEUM = SportsballGeocodeTuple(
-    city="Raleigh",
-    state="NC",
-    postal="",
-    lat=35.783,
-    lng=-78.67,
-    housenumber="103",
-    country="USA",
-)
 VANCOUVER_CONVENTION_CENTER = SportsballGeocodeTuple(
     city="Vancouver",
     state="BC",
@@ -2652,15 +2643,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Chaifetz Arena, St. Louis, Missouri": CHAIFETZ_ARENA,
-    "WVU Coliseum, Morgantown, West Virginia": SportsballGeocodeTuple(
-        city="Morgantown",
-        state="WV",
-        postal="26505",
-        lat=39.649167,
-        lng=-79.981111,
-        housenumber="",
-        country="USA",
-    ),
     "Bartow Arena, Birmingham, Alabama": SportsballGeocodeTuple(
         city="Birmingham",
         state="AL",
@@ -4237,7 +4219,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="4900",
         country="USA",
     ),
-    "Reynolds Coliseum, Raleigh, North Carolina": REYNOLDS_COLISEUM,
     "Walter E. Washington Convention Center, Washington, District of Columbia": SportsballGeocodeTuple(
         city="Washington",
         state="DC",
@@ -6697,7 +6678,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="300",
         country="USA",
     ),
-    "James T. Valvano Arena, Raleigh, North Carolina": REYNOLDS_COLISEUM,
     "North Charleston Coliseum, Charleston, South Carolina": SportsballGeocodeTuple(
         city="Charleston",
         state="SC",

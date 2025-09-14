@@ -2263,7 +2263,9 @@ def _create_espn_player_model(
                         elif stat["name"] == "passedBalls":
                             passed_balls = more_interesting(passed_balls, stat["value"])
                         elif stat["name"] == "assists":
-                            assists = more_interesting(assists, stat["value"])
+                            assists = more_interesting(
+                                assists, stat.get("value", int(stat["displayValue"]))
+                            )
                         elif stat["name"] == "outfieldAssists":
                             outfield_assists = more_interesting(
                                 outfield_assists, stat["value"]

@@ -12327,6 +12327,39 @@
             "country": "UK",
             "type": "city",
             "wiki": "Ilkley"
+        },
+        "4d4a24fe-bc85-40d5-98b2-cb21997909bd": {
+            "city": "Chennai",
+            "state": "Madras",
+            "postal": "",
+            "lat": 13.0825,
+            "lng": 80.275,
+            "housenumber": "",
+            "country": "India",
+            "type": "city",
+            "wiki": "Chennai"
+        },
+        "12b4d3d8-00c9-481e-8ad0-cbe4a00461a5": {
+            "city": "Morgantown",
+            "state": "WV",
+            "postal": "26505",
+            "lat": 39.649167,
+            "lng": -79.981111,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "WVU_Coliseum"
+        },
+        "a98a2120-f115-40b5-95f1-bdff4af9eccf": {
+            "city": "Raleigh",
+            "state": "NC",
+            "postal": "",
+            "lat": 35.783,
+            "lng": -78.67,
+            "housenumber": "103",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Reynolds_Coliseum"
         }
     },
     "searches": {
@@ -12702,6 +12735,7 @@
         "Estadio Azteca, Mexico City, Mexico": "8cccf2e9-113e-4137-bd83-6612c806c58c",
         "Estadio Azteca - Tlalpan, Mexico City - Mexico": "8cccf2e9-113e-4137-bd83-6612c806c58c",
         "Highbury, London, England": "c7b513eb-e5d9-40f7-a917-8af41af51588",
+        "Highbury - London": "c7b513eb-e5d9-40f7-a917-8af41af51588",
         "Glenferrie Oval - Australia": "53c1a222-afe8-4c3b-b73a-a85a1c15673c",
         "Peden Stadium": "ea10c038-269f-441c-8fbc-b1c81177536c",
         "Peden Stadium - Athens - OH - 45701": "ea10c038-269f-441c-8fbc-b1c81177536c",
@@ -14893,6 +14927,12 @@
         "Jon M. Huntsman Center, Salt Lake City, Utah": "0e811ce2-3e19-448a-8a47-ece3e34629e3",
         "Jon M. Huntsman Center - Salt Lake City, UT - United States": "0e811ce2-3e19-448a-8a47-ece3e34629e3",
         "Jon M. Huntsman Center - Salt Lake City - UT": "0e811ce2-3e19-448a-8a47-ece3e34629e3",
-        "Ilkley, Great Britain": "6d6db30e-90a8-4a22-83d4-666e48528c53"
+        "Ilkley, Great Britain": "6d6db30e-90a8-4a22-83d4-666e48528c53",
+        "Chennai CH": "4d4a24fe-bc85-40d5-98b2-cb21997909bd",
+        "WVU Coliseum - Morgantown - WV": "12b4d3d8-00c9-481e-8ad0-cbe4a00461a5",
+        "WVU Coliseum, Morgantown, West Virginia": "12b4d3d8-00c9-481e-8ad0-cbe4a00461a5",
+        "Reynolds Coliseum, Raleigh, North Carolina": "a98a2120-f115-40b5-95f1-bdff4af9eccf",
+        "James T. Valvano Arena, Raleigh, North Carolina": "a98a2120-f115-40b5-95f1-bdff4af9eccf",
+        "Reynolds Coliseum - Raleigh - NC": "a98a2120-f115-40b5-95f1-bdff4af9eccf"
     }
 }

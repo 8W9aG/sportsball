@@ -126,7 +126,7 @@ def _create_tennisabstract_game_model(
                         ]
                     if "A%" in cols:
                         ace_percentages = [
-                            float(x.replace("%", ""))
+                            float(x.replace("%", "").replace("-", "0.0"))
                             for x in df["A%"].dropna().tolist()
                         ]
                     if "DF%" in cols:
