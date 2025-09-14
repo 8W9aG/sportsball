@@ -3139,15 +3139,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="101",
         country="USA",
     ),
-    "John Gray Gymnasium, Grand Cayman": SportsballGeocodeTuple(
-        city="Grand Cayman",
-        state="",
-        postal="",
-        lat=19.279316,
-        lng=-81.385651,
-        housenumber="73",
-        country="UK",
-    ),
     "Woodling Gym, Cleveland, Ohio": SportsballGeocodeTuple(
         city="Cleveland",
         state="OH",

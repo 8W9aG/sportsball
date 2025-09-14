@@ -12209,6 +12209,36 @@
             "housenumber": "",
             "country": "Croatia",
             "type": "city"
+        },
+        "795277a5-1f8a-459c-ac6d-1a50b00f8aad": {
+            "city": "Shenzhen",
+            "state": "Guangdong",
+            "postal": "",
+            "lat": 22.697139,
+            "lng": 114.212194,
+            "housenumber": "",
+            "country": "China",
+            "type": "venue"
+        },
+        "041bc2c0-60d1-4103-bd75-5cd294f76092": {
+            "city": "Grand Cayman",
+            "state": "",
+            "postal": "",
+            "lat": 19.279316,
+            "lng": -81.385651,
+            "housenumber": "73",
+            "country": "UK",
+            "type": "venue"
+        },
+        "90037a75-8eeb-4467-9517-5b867095ddaa": {
+            "city": "Abu Dhabi",
+            "state": "",
+            "postal": "",
+            "lat": 24.466667,
+            "lng": 54.366667,
+            "housenumber": "",
+            "country": "UAE",
+            "type": "city"
         }
     },
     "searches": {
@@ -12571,6 +12601,7 @@
         "Swinburne Centre, Melbourne, Australia": "a1052505-7d77-4d4e-ae6e-18ca641b0833",
         "Windy Hill - Australia": "be43e7df-cebb-449d-ab58-9c1ff1ae1061",
         "Windy Hill, Essendon, Australia": "be43e7df-cebb-449d-ab58-9c1ff1ae1061",
+        "Windy Hill": "be43e7df-cebb-449d-ab58-9c1ff1ae1061",
         "Pride Park, Derby, England": "78ee8318-14b0-4b11-b1af-29ef72b3daa5",
         "Pride Park Stadium": "78ee8318-14b0-4b11-b1af-29ef72b3daa5",
         "Camping World Stadium - Orlando - FL - 32805": "8e146665-d362-496f-af4c-3d55166e2968",
@@ -14749,6 +14780,10 @@
         "Reid Oval Warrnambool": "d1b6dcbb-3d60-424f-9f52-7ff313fcf180",
         "ITF Taizhou": "0c966366-b551-49fe-a2e2-5bb858f4fdd9",
         "Mildura Sporting Precinct": "cc58d174-f681-4437-9ba7-19494a45b216",
-        "Makarska, Croatia": "50191222-60b9-4fed-89c7-beae20d805a9"
+        "Makarska, Croatia": "50191222-60b9-4fed-89c7-beae20d805a9",
+        "Shenzhen Universiade Center": "795277a5-1f8a-459c-ac6d-1a50b00f8aad",
+        "John Gray Gymnasium - George Town - Cayman Islands": "041bc2c0-60d1-4103-bd75-5cd294f76092",
+        "John Gray Gymnasium, Grand Cayman": "041bc2c0-60d1-4103-bd75-5cd294f76092",
+        "Abu Dhabi, United Arab Emirates": "90037a75-8eeb-4467-9517-5b867095ddaa"
     }
 }
