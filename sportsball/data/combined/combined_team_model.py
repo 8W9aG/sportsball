@@ -384,6 +384,11 @@ def create_combined_team_model(
     vorp = None
     average_minutes = None
     nba_rating = None
+    set_one_points = None
+    set_two_points = None
+    set_three_points = None
+    set_four_points = None
+    set_five_points = None
     for team_model in team_models:
         location = more_interesting(location, team_model.location)
         for player_model in team_model.players:
@@ -1104,6 +1109,13 @@ def create_combined_team_model(
         vorp = more_interesting(vorp, team_model.vorp)
         average_minutes = more_interesting(average_minutes, team_model.average_minutes)
         nba_rating = more_interesting(nba_rating, team_model.nba_rating)
+        set_one_points = more_interesting(set_one_points, team_model.set_one_points)
+        set_two_points = more_interesting(set_two_points, team_model.set_two_points)
+        set_three_points = more_interesting(
+            set_three_points, team_model.set_three_points
+        )
+        set_four_points = more_interesting(set_four_points, team_model.set_four_points)
+        set_five_points = more_interesting(set_five_points, team_model.set_five_points)
 
     player_list = [
         create_combined_player_model(v, k, player_ffill) for k, v in players.items()
@@ -1459,6 +1471,11 @@ def create_combined_team_model(
         average_minutes=average_minutes,
         nba_rating=nba_rating,
         version=VERSION,
+        set_one_points=set_one_points,
+        set_two_points=set_two_points,
+        set_three_points=set_three_points,
+        set_four_points=set_four_points,
+        set_five_points=set_five_points,
     )
 
     ffill(team_ffill, identifier, team_model)

@@ -1544,6 +1544,11 @@ class TestCombinedTeamModel(unittest.TestCase):
                 fantasy_rating=None,
                 second_chance_points=None,
                 plus_minus=None,
+                set_one_points=None,
+                set_two_points=None,
+                set_three_points=None,
+                set_four_points=None,
+                set_five_points=None,
                 version=VERSION,
             )]
             team_model = create_combined_team_model(
@@ -3075,6 +3080,11 @@ class TestCombinedTeamModel(unittest.TestCase):
                 fantasy_rating=None,
                 second_chance_points=None,
                 plus_minus=None,
+                set_one_points=None,
+                set_two_points=None,
+                set_three_points=None,
+                set_four_points=None,
+                set_five_points=None,
                 version=VERSION,
             )]
             team_model_2 = create_combined_team_model(
@@ -4615,6 +4625,11 @@ class TestCombinedTeamModel(unittest.TestCase):
                 fantasy_rating=None,
                 second_chance_points=None,
                 plus_minus=None,
+                set_one_points=None,
+                set_two_points=None,
+                set_three_points=None,
+                set_four_points=None,
+                set_five_points=None,
                 version=VERSION,
             )]
             team_model = create_combined_team_model(
@@ -6146,6 +6161,11 @@ class TestCombinedTeamModel(unittest.TestCase):
                 fantasy_rating=None,
                 second_chance_points=None,
                 plus_minus=None,
+                set_one_points=None,
+                set_two_points=None,
+                set_three_points=None,
+                set_four_points=None,
+                set_five_points=None,
                 version=VERSION,
             )]
             team_model_2 = create_combined_team_model(
@@ -6812,6 +6832,11 @@ class TestCombinedTeamModel(unittest.TestCase):
             fantasy_rating=None,
             second_chance_points=None,
             plus_minus=None,
+            set_one_points=None,
+            set_two_points=None,
+            set_three_points=None,
+            set_four_points=None,
+            set_five_points=None,
             version=VERSION,
         )]
         team_model = create_combined_team_model(
@@ -7463,6 +7488,11 @@ class TestCombinedTeamModel(unittest.TestCase):
             fantasy_rating=None,
             second_chance_points=None,
             plus_minus=None,
+            set_one_points=None,
+            set_two_points=None,
+            set_three_points=None,
+            set_four_points=None,
+            set_five_points=None,
             version=VERSION,
         )]
         next_team_model = create_combined_team_model(

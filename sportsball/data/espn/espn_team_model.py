@@ -3668,6 +3668,11 @@ def _create_espn_team_model(
         fantasy_rating=fantasy_rating,
         second_chance_points=second_chance_points,
         plus_minus=plus_minus,
+        set_one_points=None,
+        set_two_points=None,
+        set_three_points=None,
+        set_four_points=None,
+        set_five_points=None,
     )
 
 

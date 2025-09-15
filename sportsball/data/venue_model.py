@@ -13,7 +13,8 @@ VENUE_IDENTIFIER_COLUMN: Literal["identifier"] = "identifier"
 VENUE_ADDRESS_COLUMN: Literal["address"] = "address"
 VENUE_IS_TURF_COLUMN: Literal["is_turf"] = "is_turf"
 VENUE_IS_DIRT_COLUMN: Literal["is_dirt"] = "is_dirt"
-VERSION = DELIMITER.join(["0.0.1", ADDRESS_VERSION])
+VENUE_IS_HARD_COLUMN: Literal["is_hard"] = "is_hard"
+VERSION = DELIMITER.join(["0.0.2", ADDRESS_VERSION])
 
 
 class VenueModel(BaseModel):
@@ -37,4 +38,5 @@ class VenueModel(BaseModel):
     is_indoor: bool | None
     is_turf: bool | None = Field(..., alias=VENUE_IS_TURF_COLUMN)
     is_dirt: bool | None = Field(..., alias=VENUE_IS_DIRT_COLUMN)
+    is_hard: bool | None = Field(..., alias=VENUE_IS_HARD_COLUMN)
     version: str = Field(..., json_schema_extra={TYPE_KEY: FieldType.CATEGORICAL})

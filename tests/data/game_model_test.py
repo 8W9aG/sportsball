@@ -27,6 +27,7 @@ class TestGameModel(unittest.TestCase):
             pot=None,
             umpires=[],
             version=VERSION,
+            best_of=None,
         )
 
     def test_postponed(self):

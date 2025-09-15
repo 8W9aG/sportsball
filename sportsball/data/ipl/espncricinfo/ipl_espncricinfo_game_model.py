@@ -73,6 +73,7 @@ def _create_espncricinfo_game_model(
             pot=None,
             version=version,
             umpires=[],
+            best_of=None,
         )
     return None
 

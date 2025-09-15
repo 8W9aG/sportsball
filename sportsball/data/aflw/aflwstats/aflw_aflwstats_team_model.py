@@ -683,6 +683,11 @@ def _create_aflw_aflwstats_team_model(
         fantasy_rating=None,
         second_chance_points=None,
         plus_minus=None,
+        set_one_points=None,
+        set_two_points=None,
+        set_three_points=None,
+        set_four_points=None,
+        set_five_points=None,
         version=version,
     )
 

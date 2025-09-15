@@ -71,6 +71,7 @@ def _create_aussportsbetting_game_model(
         pot=None,
         version=version,
         umpires=[],
+        best_of=None,
     )
 
 

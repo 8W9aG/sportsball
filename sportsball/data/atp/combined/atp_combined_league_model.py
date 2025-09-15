@@ -6,9 +6,9 @@ from scrapesession.scrapesession import ScrapeSession  # type: ignore
 from ...combined.combined_league_model import CombinedLeagueModel
 from ...league import League
 from ..espn.atp_espn_league_model import ATPESPNLeagueModel
-from ..oddsportal.atp_oddsportal_league_model import ATPOddsPortalLeagueModel
 from ..tennisabstract.atp_tennisabstract_league_model import \
     ATPTennisAbstractLeagueModel
+from ..tennisdata.atp_tennisdata_league_model import ATPTennisDataLeagueModel
 
 ATP_TEAM_IDENTITY_MAP: dict[str, str] = {}
 ATP_VENUE_IDENTITY_MAP: dict[str, str] = {}
@@ -23,9 +23,9 @@ class ATPCombinedLeagueModel(CombinedLeagueModel):
             session,
             League.ATP,
             [
-                ATPOddsPortalLeagueModel(session, position=0),
-                ATPTennisAbstractLeagueModel(session, position=1),
-                ATPESPNLeagueModel(session, position=2),
+                ATPTennisAbstractLeagueModel(session, position=0),
+                ATPESPNLeagueModel(session, position=1),
+                ATPTennisDataLeagueModel(session, position=2),
             ],
             league_filter,
         )

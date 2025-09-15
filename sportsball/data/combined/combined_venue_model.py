@@ -27,6 +27,7 @@ def create_combined_venue_model(
     is_indoor = None
     is_turf = None
     is_dirt = None
+    is_hard = None
     for venue_model in venue_models:
         venue_model_address = venue_model.address
         if not is_null(venue_model_address):
@@ -35,6 +36,7 @@ def create_combined_venue_model(
         is_indoor = more_interesting(is_indoor, venue_model.is_indoor)
         is_turf = more_interesting(is_turf, venue_model.is_turf)
         is_dirt = more_interesting(is_dirt, venue_model.is_dirt)
+        is_hard = more_interesting(is_hard, venue_model.is_hard)
     return VenueModel.model_construct(
         identifier=identifier,
         name=venue_models[0].name,
@@ -43,5 +45,6 @@ def create_combined_venue_model(
         is_indoor=is_indoor,
         is_turf=is_turf,
         is_dirt=is_dirt,
+        is_hard=is_hard,
         version=VERSION,
     )

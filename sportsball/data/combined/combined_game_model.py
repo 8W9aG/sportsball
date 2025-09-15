@@ -118,6 +118,7 @@ def create_combined_game_model(
     distance = None
     dividends = []
     pot = None
+    best_of = None
     dt_votes: dict[str, int] = {}
     for game_model in game_models:
         dt_votes[game_model.dt.isoformat()] = (
@@ -134,6 +135,7 @@ def create_combined_game_model(
         distance = more_interesting(distance, game_model.distance)
         dividends.extend(game_model.dividends)
         pot = more_interesting(pot, game_model.pot)
+        best_of = more_interesting(best_of, game_model.best_of)
         for umpire_model in game_model.umpires:
             umpire_id = umpire_model.identifier
             umpire_name_key = normalise_name(umpire_model.name)

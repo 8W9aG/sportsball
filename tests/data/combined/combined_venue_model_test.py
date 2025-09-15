@@ -25,6 +25,7 @@ class TestCombinedVenueModel(unittest.TestCase):
                 is_indoor=None,
                 is_turf=is_turf,
                 is_dirt=None,
+                is_hard=None,
                 version=VERSION,
             )
             venue_model_2 = VenueModel(
@@ -35,6 +36,7 @@ class TestCombinedVenueModel(unittest.TestCase):
                 is_indoor=None,
                 is_turf=None,
                 is_dirt=None,
+                is_hard=None,
                 version=VERSION,
             )
             combined_venue_model = create_combined_venue_model(

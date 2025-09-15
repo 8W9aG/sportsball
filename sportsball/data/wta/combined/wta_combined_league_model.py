@@ -5,9 +5,9 @@ from scrapesession.scrapesession import ScrapeSession  # type: ignore
 from ...combined.combined_league_model import CombinedLeagueModel
 from ...league import League
 from ..espn.wta_espn_league_model import WTAESPNLeagueModel
-from ..oddsportal.wta_oddsportal_league_model import WTAOddsPortalLeagueModel
 from ..tennisabstract.wta_tennisabstract_league_model import \
     WTATennisAbstractLeagueModel
+from ..tennisdata.wta_tennisdata_league_model import WTATennisDataLeagueModel
 
 WTA_TEAM_IDENTITY_MAP: dict[str, str] = {}
 WTA_VENUE_IDENTITY_MAP: dict[str, str] = {}
@@ -22,9 +22,9 @@ class WTACombinedLeagueModel(CombinedLeagueModel):
             session,
             League.WTA,
             [
-                WTAOddsPortalLeagueModel(session, position=0),
-                WTATennisAbstractLeagueModel(session, position=1),
-                WTAESPNLeagueModel(session, position=2),
+                WTATennisAbstractLeagueModel(session, position=0),
+                WTAESPNLeagueModel(session, position=1),
+                WTATennisDataLeagueModel(session, position=2),
             ],
             league_filter,
         )

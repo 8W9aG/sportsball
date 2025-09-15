@@ -38,6 +38,7 @@ class TestCombinedGameModel(unittest.TestCase):
                 pot=None,
                 umpires=[],
                 version=VERSION,
+                best_of=None,
             )
             names = {}
             coach_names = {}

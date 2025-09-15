@@ -690,6 +690,11 @@ def _create_espn_team(
                 fantasy_rating=None,
                 second_chance_points=None,
                 plus_minus=None,
+                set_one_points=None,
+                set_two_points=None,
+                set_three_points=None,
+                set_four_points=None,
+                set_five_points=None,
                 version=TEAM_VERSION,
             )
         except KeyError as exc:
@@ -842,6 +847,8 @@ def _create_espn_game_model(
     teams, attendance, end_dt, umpires = _create_teams(
         competition, session, venue, dt, league, positions_validator
     )
+    if league == League.ATP or league == League.WTA:
+        teams = sorted(teams, key=lambda x: x.name)
     return GameModel(
         dt=dt,
         week=week,
@@ -859,6 +866,7 @@ def _create_espn_game_model(
         dividends=[],
         pot=None,
         umpires=umpires,
+        best_of=None,
         version=version,
     )
 

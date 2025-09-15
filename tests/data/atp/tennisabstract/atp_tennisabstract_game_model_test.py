@@ -33,7 +33,7 @@ class TestATPTennisAbstractGameModel(unittest.TestCase):
                 url=url,
                 league=League.ATP,
             )
-            self.assertEqual(game_model.teams[0].points, 2.0)
+            self.assertEqual(game_model.teams[1].points, 2.0)
 
     def test_serves_won(self):
         with requests_mock.Mocker() as m:

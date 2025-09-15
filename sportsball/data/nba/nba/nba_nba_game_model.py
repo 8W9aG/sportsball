@@ -61,6 +61,7 @@ def _create_nba_nba_game_model(
         pot=None,
         umpires=[],
         version=version,
+        best_of=None,
     )
 
 

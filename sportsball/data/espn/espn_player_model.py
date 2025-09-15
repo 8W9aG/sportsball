@@ -48,11 +48,15 @@ _BAD_URLS = {
     "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/1998/athletes/82185?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/4702945?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/1998/athletes/82189?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2005/athletes/4287?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/1998/athletes/82111?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/4592959?lang=en&region=us",
 }
 _BAD_COLLEGE_URLS = {
     "http://sports.core.api.espn.com/v2/colleges/6638?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/colleges/429?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/colleges/5438?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/colleges/7309?lang=en&region=us",
 }
 
 
@@ -2878,7 +2882,8 @@ def _create_espn_player_model(
                             )
                         elif stat["name"] == "avgShots":
                             average_shots = more_interesting(
-                                average_shots, stat["value"]
+                                average_shots,
+                                stat.get("value", float(stat["displayValue"])),
                             )
                         elif stat["name"] == "pointsPerGame":
                             points_per_game = more_interesting(

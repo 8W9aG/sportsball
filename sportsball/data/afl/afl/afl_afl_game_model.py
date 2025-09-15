@@ -175,4 +175,5 @@ def create_afl_afl_game_model(
         pot=None,
         version=version,
         umpires=[create_afl_afl_umpire_model(name=x) for x in umpires],
+        best_of=None,
     )

@@ -483,6 +483,7 @@ def _create_afl_afltables_game_model(
         pot=None,
         version=version,
         umpires=[create_afl_afltables_umpire_model(x, session) for x in umpire_urls],
+        best_of=None,
     )
 
 

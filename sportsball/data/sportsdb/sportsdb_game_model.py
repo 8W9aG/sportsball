@@ -72,6 +72,7 @@ def _create_sportsdb_game_model(
         pot=None,
         version=version,
         umpires=[],
+        best_of=None,
     )
 
 

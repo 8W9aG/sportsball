@@ -2870,6 +2870,7 @@ def _create_sportsreference_game_model(
                 create_sportsreference_umpire_model(url=x, session=session, dt=dt)
                 for x in umpire_urls
             ],
+            best_of=None,
         )
     except ValueError as exc:
         logging.error(response.text)

@@ -1173,7 +1173,12 @@ TEAM_SECOND_CHANCE_POINTS_COLUMN: Literal["second_chance_points"] = (
     "second_chance_points"
 )
 TEAM_PLUS_MINUS_COLUMN: Literal["plus_minus"] = "plus_minus"
-VERSION = DELIMITER.join(["0.0.14", PLAYER_VERSION, COACH_VERSION])
+TEAM_SET_ONE_POINTS_COLUMN: Literal["set_one_points"] = "set_one_points"
+TEAM_SET_TWO_POINTS_COLUMN: Literal["set_two_points"] = "set_two_points"
+TEAM_SET_THREE_POINTS_COLUMN: Literal["set_three_points"] = "set_three_points"
+TEAM_SET_FOUR_POINTS_COLUMN: Literal["set_four_points"] = "set_four_points"
+TEAM_SET_FIVE_POINTS_COLUMN: Literal["set_five_points"] = "set_five_points"
+VERSION = DELIMITER.join(["0.0.15", PLAYER_VERSION, COACH_VERSION])
 
 
 def _calculate_kicks(data: dict[str, Any]) -> int | None:
@@ -5137,5 +5142,30 @@ class TeamModel(BaseModel):
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_PLUS_MINUS_COLUMN,
+    )
+    set_one_points: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_SET_ONE_POINTS_COLUMN,
+    )
+    set_two_points: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_SET_TWO_POINTS_COLUMN,
+    )
+    set_three_points: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_SET_THREE_POINTS_COLUMN,
+    )
+    set_four_points: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_SET_FOUR_POINTS_COLUMN,
+    )
+    set_five_points: float | None = Field(
+        ...,
+        json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
+        alias=TEAM_SET_FIVE_POINTS_COLUMN,
     )
     version: str = Field(..., json_schema_extra={TYPE_KEY: FieldType.CATEGORICAL})

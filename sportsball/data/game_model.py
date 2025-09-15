@@ -32,7 +32,8 @@ GAME_DISTANCE_COLUMN: Literal["distance"] = "distance"
 GAME_DIVIDENDS_COLUMN: Literal["dividends"] = "dividends"
 GAME_POT_COLUMN: Literal["pot"] = "pot"
 GAME_UMPIRES_COLUMN: Literal["umpires"] = "umpires"
-VERSION = DELIMITER.join(["0.0.1", VENUE_VERSION, TEAM_VERSION, UMPIRE_VERSION])
+GAME_BEST_OF_COLUMN: Literal["best_of"] = "best_of"
+VERSION = DELIMITER.join(["0.0.2", VENUE_VERSION, TEAM_VERSION, UMPIRE_VERSION])
 
 
 def localize(venue: VenueModel | None, dt: datetime.datetime) -> datetime.datetime:
@@ -96,3 +97,4 @@ class GameModel(BaseModel):
         ...,
         alias=GAME_UMPIRES_COLUMN,
     )
+    best_of: int | None = Field(..., alias=GAME_BEST_OF_COLUMN)

@@ -344,6 +344,7 @@ def _create_hkjc_hkjc_game_model(
         pot=pot,
         version=version,
         umpires=[],
+        best_of=None,
     )
 
 

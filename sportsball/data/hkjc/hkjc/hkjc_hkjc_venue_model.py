@@ -41,5 +41,6 @@ def create_hkjc_hkjc_venue_model(
         is_indoor=None,
         is_turf=race_track.lower() == "turf",
         is_dirt=race_track.lower() == "dirt",
+        is_hard=None,
         version=version,
     )

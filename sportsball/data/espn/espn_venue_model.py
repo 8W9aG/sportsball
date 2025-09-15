@@ -54,5 +54,6 @@ def create_espn_venue_model(
         is_indoor=indoor,
         is_turf=None,
         is_dirt=None,
+        is_hard=None,
         version=version,
     )

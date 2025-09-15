@@ -28,6 +28,7 @@ def _create_espncricinfo_venue_model(
         is_indoor=None,
         is_turf=None,
         is_dirt=None,
+        is_hard=None,
         version=version,
     )
 
