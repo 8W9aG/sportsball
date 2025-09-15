@@ -12382,6 +12382,17 @@
             "country": "Mexico",
             "type": "city",
             "wiki": "Cancún"
+        },
+        "3b219dc4-7629-4d53-8031-ff67bc9b4ddd": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 42.0,
+            "lng": 43.5,
+            "housenumber": "",
+            "country": "Georgia",
+            "type": "country",
+            "wiki": "Georgia_(country)"
         }
     },
     "searches": {
@@ -14962,6 +14973,7 @@
         "Gallagher-Iba Arena, Stillwater, Oklahoma": "5664d57e-bfb4-4859-a718-0f3938fe3a33",
         "Gallagher-Iba Arena - Stillwater - OK": "5664d57e-bfb4-4859-a718-0f3938fe3a33",
         "Cancun": "d22975c7-1463-49b1-a8ba-0da316d51e09",
-        "Cancun, Mexico": "d22975c7-1463-49b1-a8ba-0da316d51e09"
+        "Cancun, Mexico": "d22975c7-1463-49b1-a8ba-0da316d51e09",
+        "GEO": "3b219dc4-7629-4d53-8031-ff67bc9b4ddd"
     }
 }

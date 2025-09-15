@@ -136,7 +136,12 @@ def _create_tennisabstract_game_model(
                         ]
                     if "1stIn" in cols:
                         first_serves_ins = [
-                            float(x.split("(")[0].strip().replace("%", ""))
+                            float(
+                                x.split("(")[0]
+                                .strip()
+                                .replace("%", "")
+                                .replace("-", "0.0")
+                            )
                             for x in df["1stIn"].dropna().tolist()
                         ]
                     if "1st%" in cols:
