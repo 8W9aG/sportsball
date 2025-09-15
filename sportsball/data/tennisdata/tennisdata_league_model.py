@@ -38,10 +38,10 @@ class TennisDataLeagueModel(LeagueModel):
         return {}
 
     def _row_to_game(self, row: Any) -> GameModel | None:
-        tour_number_cell = str(row[1].value)
+        tour_number_cell = str(row[0].value)
         if tour_number_cell in {"ATP", "None", "WTA"}:
             return None
-        location_cell = str(row[2].value)
+        location_cell = str(row[1].value)
         date_cell = str(row[3].value)
         court_cell = str(row[5].value)
         surface_cell = str(row[6].value)

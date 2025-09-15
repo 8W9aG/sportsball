@@ -12415,6 +12415,17 @@
             "country": "Serbia",
             "type": "city",
             "wiki": "Kuršumlijska_Banja"
+        },
+        "": {
+            "city": "West Palm Beach",
+            "state": "FL",
+            "postal": "33409",
+            "lat": 26.7163158,
+            "lng": -80.1098274,
+            "housenumber": "2300",
+            "country": "USA",
+            "type": "venue",
+            "wiki": null
         }
     },
     "searches": {
@@ -13630,6 +13641,7 @@
         "University Arena, Albuquerque, New Mexico": "c90ad948-ab00-47dd-8648-ad2b5a264342",
         "Hagen CH": "a4240169-e1c9-4ffd-a227-808159e7287f",
         "Gill Coliseum, Corvallis, Oregon": "ae4d4d17-f821-4113-b391-3e23b8e5eab0",
+        "Gill Coliseum - Corvallis - OR": "ae4d4d17-f821-4113-b391-3e23b8e5eab0",
         "Select Car Leasing Stadium, Reading, England": "0f8e16b2-525a-4f20-b1ac-1b7a1cb8ea72",
         "Select Car Leasing Stadium - Reading": "0f8e16b2-525a-4f20-b1ac-1b7a1cb8ea72",
         "Liacouras Center, Philadelphia, Pennsylvania": "ea15b391-0790-4ce6-aaef-cb4bf52c9560",

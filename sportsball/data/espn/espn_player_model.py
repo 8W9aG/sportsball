@@ -2891,7 +2891,8 @@ def _create_espn_player_model(
                             )
                         elif stat["name"] == "pointsPerGame":
                             points_per_game = more_interesting(
-                                points_per_game, stat["value"]
+                                points_per_game,
+                                stat.get("value", float(stat["displayValue"])),
                             )
                         elif stat["name"] == "powerPlayGoals":
                             power_play_goals = more_interesting(
