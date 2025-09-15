@@ -12393,6 +12393,28 @@
             "country": "Georgia",
             "type": "country",
             "wiki": "Georgia_(country)"
+        },
+        "7133a33d-cdd6-4a85-a6bd-9d4acccb1edd": {
+            "city": "Louisville",
+            "state": "KY",
+            "postal": "",
+            "lat": 38.2575,
+            "lng": -85.753889,
+            "housenumber": "1",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "KFC_Yum!_Center"
+        },
+        "d87ca439-a28c-47d7-814d-71d5cee3b681": {
+            "city": "Kuršumlijska Banja",
+            "state": "",
+            "postal": "",
+            "lat": 43.056,
+            "lng": 21.25,
+            "housenumber": "",
+            "country": "Serbia",
+            "type": "city",
+            "wiki": "Kuršumlijska_Banja"
         }
     },
     "searches": {
@@ -13926,6 +13948,7 @@
         "Education City Stadium - Doha": "48d40ff3-17a4-467b-8c96-06393c47d17f",
         "Dean Smith Center, Chapel Hill, North Carolina": "cef5746a-e7de-4cf4-b751-9581a8472366",
         "Dean Smith Center - Chapel Hill, North Carolina, USA - United States": "cef5746a-e7de-4cf4-b751-9581a8472366",
+        "Dean E. Smith Center - Chapel Hill - NC": "cef5746a-e7de-4cf4-b751-9581a8472366",
         "Madison Square Garden - New York - NY": "b4a849a5-8cf9-48a8-b4d4-c703f0f22091",
         "Madison Square Garden (IV), New York, New York": "b4a849a5-8cf9-48a8-b4d4-c703f0f22091",
         "Madison Square Garden - New York City, New York - United States": "b4a849a5-8cf9-48a8-b4d4-c703f0f22091",
@@ -14036,6 +14059,7 @@
         "Alltel Pavilion at the Stuart C. Siegel Center, Richmond, Virginia": "e04b9aeb-35c1-458d-87e9-f55b52a19907",
         "Curb Event Center, Nashville, Tennessee": "f0d50f33-c128-45f6-9f60-67e1f9b2c855",
         "Bramlage Coliseum, Manhattan, Kansas": "a7541504-de01-4019-8d18-1ae37b4e9e79",
+        "Bramlage Coliseum - Manhattan - KS": "a7541504-de01-4019-8d18-1ae37b4e9e79",
         "Rhodes Stadium - Elon - NC - 27244": "61430879-33cb-4936-b13a-b91eca8b642d",
         "Convocation Center, DeKalb, Illinois": "3b979246-4981-4943-bfdf-e816001e67d0",
         "Benchmark International Arena - Tampa - FL": "fef8f1a9-99c7-49da-a407-70b2e48d035b",
@@ -14977,6 +15001,10 @@
         "Gallagher-Iba Arena - Stillwater - OK": "5664d57e-bfb4-4859-a718-0f3938fe3a33",
         "Cancun": "d22975c7-1463-49b1-a8ba-0da316d51e09",
         "Cancun, Mexico": "d22975c7-1463-49b1-a8ba-0da316d51e09",
-        "GEO": "3b219dc4-7629-4d53-8031-ff67bc9b4ddd"
+        "GEO": "3b219dc4-7629-4d53-8031-ff67bc9b4ddd",
+        "KFC Yum! Center - Louisville - KY": "7133a33d-cdd6-4a85-a6bd-9d4acccb1edd",
+        "KFC Yum! Center, Louisville, Kentucky": "7133a33d-cdd6-4a85-a6bd-9d4acccb1edd",
+        "KFC YUM! Center - Louisville, Kentucky - United States": "7133a33d-cdd6-4a85-a6bd-9d4acccb1edd",
+        "ITF Kursumlijska Banja": "d87ca439-a28c-47d7-814d-71d5cee3b681"
     }
 }

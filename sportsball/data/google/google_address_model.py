@@ -1903,15 +1903,6 @@ TSONGAS_CENTER = SportsballGeocodeTuple(
     housenumber="300",
     country="USA",
 )
-KFC_YUM_CENTER = SportsballGeocodeTuple(
-    city="Louisville",
-    state="KY",
-    postal="",
-    lat=38.2575,
-    lng=-85.753889,
-    housenumber="1",
-    country="USA",
-)
 PETERSEN_EVENTS_CENTER = SportsballGeocodeTuple(
     city="Pittsburgh",
     state="PA",
@@ -2661,7 +2652,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="1928",
         country="USA",
     ),
-    "KFC Yum! Center, Louisville, Kentucky": KFC_YUM_CENTER,
     "DiSanto Field - Cleveland - OH - 44106": SportsballGeocodeTuple(
         city="Cleveland",
         state="OH",
@@ -16144,7 +16134,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "KFC YUM! Center - Louisville, Kentucky - United States": KFC_YUM_CENTER,
     "University of Memphis": SportsballGeocodeTuple(
         city="Memphis",
         state="TN",
