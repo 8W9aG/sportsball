@@ -2896,7 +2896,8 @@ def _create_espn_player_model(
                             )
                         elif stat["name"] == "powerPlayGoals":
                             power_play_goals = more_interesting(
-                                power_play_goals, stat["value"]
+                                power_play_goals,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "powerPlayAssists":
                             power_play_assists = more_interesting(
