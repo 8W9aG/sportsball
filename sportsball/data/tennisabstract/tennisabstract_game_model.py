@@ -131,7 +131,7 @@ def _create_tennisabstract_game_model(
                         ]
                     if "DF%" in cols:
                         double_fault_percentages = [
-                            float(x.replace("%", ""))
+                            float(x.replace("%", "").replace("-", "0.0"))
                             for x in df["DF%"].dropna().tolist()
                         ]
                     if "1stIn" in cols:
