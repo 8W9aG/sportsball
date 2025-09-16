@@ -12503,6 +12503,17 @@
             "country": "UK",
             "type": "venue",
             "wiki": "The_O2_Arena"
+        },
+        "895b1a4d-d9c8-49a3-b3f0-dadbb822a934": {
+            "city": "Waco",
+            "state": "TX",
+            "postal": "",
+            "lat": 31.556698,
+            "lng": -97.121613,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Foster_Pavilion"
         }
     },
     "searches": {
@@ -14944,6 +14955,7 @@
         "La Beaujoire": "ef2ac086-4766-4891-993a-e7b8dae25b3e",
         "Total Mortgage Arena - Bridgeport - CT": "3c52b492-5c95-40c7-92ac-9667230166db",
         "Monterrey, Mexico": "703f4ef6-37cc-4162-8f35-414dc1f017d9",
+        "Monterrey": "703f4ef6-37cc-4162-8f35-414dc1f017d9",
         "Merida CH": "bbbd15e8-1bf4-473a-a32f-92d4b3a5f185",
         "Gerland": "922059f6-0f13-4239-baf8-fcf79ec948fb",
         "J.K. Irving Centre - Moncton - NB": "0da5048a-be23-4a7b-a420-7e41b2e1a407",
@@ -15121,6 +15133,8 @@
         "The O2 Arena, London, United Kingdom": "81205b36-c6d1-45a3-9351-211399a15e2d",
         "The O2 Arena, London": "81205b36-c6d1-45a3-9351-211399a15e2d",
         "O2 Arena": "81205b36-c6d1-45a3-9351-211399a15e2d",
-        "O2 Arena (ENG) - London": "81205b36-c6d1-45a3-9351-211399a15e2d"
+        "O2 Arena (ENG) - London": "81205b36-c6d1-45a3-9351-211399a15e2d",
+        "Foster Pavilion, Waco, Texas": "895b1a4d-d9c8-49a3-b3f0-dadbb822a934",
+        "Foster Pavilion - Waco - TX - 76706": "895b1a4d-d9c8-49a3-b3f0-dadbb822a934"
     }
 }

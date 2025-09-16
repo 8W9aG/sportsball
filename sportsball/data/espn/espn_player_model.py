@@ -2963,7 +2963,10 @@ def _create_espn_player_model(
                                 total_face_offs, stat["value"]
                             )
                         elif stat["name"] == "faceoffsWon":
-                            faceoffs_won = more_interesting(faceoffs_won, stat["value"])
+                            faceoffs_won = more_interesting(
+                                faceoffs_won,
+                                stat.get("value", int(stat["displayValue"])),
+                            )
                         elif stat["name"] == "faceoffsLost":
                             faceoffs_lost = more_interesting(
                                 faceoffs_lost, stat["value"]

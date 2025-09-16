@@ -50,22 +50,22 @@ class TennisDataLeagueModel(LeagueModel):
         loser_cell = str(row[10].value)
         winner_rank_cell = (
             str(row[11].value)
-            if row[11].value is not None and row[11].value == "N/A"
+            if row[11].value is not None and row[11].value != "N/A"
             else None
         )
         loser_rank_cell = (
             str(row[12].value)
-            if row[12].value is not None and row[12].value == "N/A"
+            if row[12].value is not None and row[12].value != "N/A"
             else None
         )
         winner_total_points_cell = (
             str(row[13].value)
-            if row[13].value is not None and row[13].value == "N/A"
+            if row[13].value is not None and row[13].value != "N/A"
             else None
         )
         loser_total_points_cell = (
             str(row[14].value)
-            if row[14].value is not None and row[14].value == "N/A"
+            if row[14].value is not None and row[14].value != "N/A"
             else None
         )
         winner_points_set_1_cell = (

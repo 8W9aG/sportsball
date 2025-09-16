@@ -6118,15 +6118,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Foster Pavilion, Waco, Texas": SportsballGeocodeTuple(
-        city="Waco",
-        state="TX",
-        postal="",
-        lat=31.556698,
-        lng=-97.121613,
-        housenumber="",
-        country="USA",
-    ),
     "Santa Clara, California": SportsballGeocodeTuple(
         city="Santa Clara",
         state="CA",
