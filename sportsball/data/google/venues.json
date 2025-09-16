@@ -12416,7 +12416,7 @@
             "type": "city",
             "wiki": "Kuršumlijska_Banja"
         },
-        "": {
+        "78f61bd4-48ea-42ee-97e1-812e91c64834": {
             "city": "West Palm Beach",
             "state": "FL",
             "postal": "33409",
@@ -12426,6 +12426,17 @@
             "country": "USA",
             "type": "venue",
             "wiki": null
+        },
+        "15455455-c4e2-4fef-be15-3686e3c9c2d9": {
+            "city": "Lexington",
+            "state": "KY",
+            "postal": "40508",
+            "lat": 38.0394636,
+            "lng": -84.5004952,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Memorial_Coliseum_(University_of_Kentucky)"
         }
     },
     "searches": {
@@ -14658,6 +14669,7 @@
         "Harrup Park": "a5959908-320b-44ec-8a07-299c8b9d4dfb",
         "Madrid Masters": "fb977ef9-561d-4a69-9a2a-1f0030b2bee0",
         "Pechanga Arena - San Diego - CA - 92199": "94d85291-b273-4f3d-a55f-2717f18f4b60",
+        "Pechanga Arena - San Diego - CA": "94d85291-b273-4f3d-a55f-2717f18f4b60",
         "BLR": "ae29b69c-80cd-47c0-ab53-fc022c958c48",
         "Alumni Stadium (DE) - Dover - DE - 19901": "6e7e2156-ae6a-41de-bc21-83ffbc6af88e",
         "ROU": "2c52f0d0-8de4-4fb5-92ac-5901a1ba0bac",
@@ -14805,6 +14817,7 @@
         "Thebarton Oval": "5d84b644-20ef-43b9-b120-823d7373a05f",
         "Brisbane, QLD, Australia": "f8b0d2ca-4b1a-4645-85dd-97d67e88901d",
         "Brisbane, Australia": "f8b0d2ca-4b1a-4645-85dd-97d67e88901d",
+        "Brisbane": "f8b0d2ca-4b1a-4645-85dd-97d67e88901d",
         "Jeonju Stadium - Chonju": "a9001503-dd84-4135-88a4-c9d82938f744",
         "Dickies Arena, Fort Worth, Texas": "8f6104c2-8071-48fb-8ede-3025a5150e90",
         "Dickies Arena - Fort Worth - TX": "8f6104c2-8071-48fb-8ede-3025a5150e90",
@@ -15023,6 +15036,9 @@
         "KFC Yum! Center - Louisville - KY": "7133a33d-cdd6-4a85-a6bd-9d4acccb1edd",
         "KFC Yum! Center, Louisville, Kentucky": "7133a33d-cdd6-4a85-a6bd-9d4acccb1edd",
         "KFC YUM! Center - Louisville, Kentucky - United States": "7133a33d-cdd6-4a85-a6bd-9d4acccb1edd",
-        "ITF Kursumlijska Banja": "d87ca439-a28c-47d7-814d-71d5cee3b681"
+        "ITF Kursumlijska Banja": "d87ca439-a28c-47d7-814d-71d5cee3b681",
+        "Massimino Court, West Palm Beach, Florida": "78f61bd4-48ea-42ee-97e1-812e91c64834",
+        "Memorial Coliseum, Lexington, Kentucky": "15455455-c4e2-4fef-be15-3686e3c9c2d9",
+        "Memorial Coliseum (KY) - Lexington - KY": "15455455-c4e2-4fef-be15-3686e3c9c2d9"
     }
 }

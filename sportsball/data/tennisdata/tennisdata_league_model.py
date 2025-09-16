@@ -70,22 +70,36 @@ class TennisDataLeagueModel(LeagueModel):
         loser_points_set_3_cell = (
             str(row[20].value) if row[20].value is not None else None
         )
-        winner_points_set_4_cell = (
-            str(row[21].value) if row[21].value is not None else None
-        )
-        loser_points_set_4_cell = (
-            str(row[22].value) if row[22].value is not None else None
-        )
-        winner_points_set_5_cell = (
-            str(row[23].value) if row[23].value is not None else None
-        )
-        loser_points_set_5_cell = (
-            str(row[24].value) if row[24].value is not None else None
-        )
-        winner_sets_cell = str(row[25].value)
-        loser_sets_cell = str(row[26].value)
-        winner_odds_cell = str(row[28].value)
-        loser_odds_cell = str(row[29].value)
+        current_cell = 21
+        winner_points_set_4_cell = None
+        loser_points_set_4_cell = None
+        winner_points_set_5_cell = None
+        loser_points_set_5_cell = None
+        if self.league == League.ATP:
+            winner_points_set_4_cell = (
+                str(row[current_cell].value) if row[current_cell].value is not None else None
+            )
+            current_cell += 1
+            loser_points_set_4_cell = (
+                str(row[current_cell].value) if row[current_cell].value is not None else None
+            )
+            current_cell += 1
+            winner_points_set_5_cell = (
+                str(row[current_cell].value) if row[current_cell].value is not None else None
+            )
+            current_cell += 1
+            loser_points_set_5_cell = (
+                str(row[current_cell].value) if row[current_cell].value is not None else None
+            )
+            current_cell += 1
+        winner_sets_cell = str(row[current_cell].value)
+        current_cell += 1
+        loser_sets_cell = str(row[current_cell].value)
+        current_cell += 2
+        winner_odds_cell = str(row[current_cell].value)
+        current_cell += 1
+        loser_odds_cell = str(row[current_cell].value)
+        current_cell += 1
         return create_tennisdata_game_model(
             location=location_cell,
             date=date_cell,
