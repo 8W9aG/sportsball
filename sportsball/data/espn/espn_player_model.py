@@ -2979,7 +2979,8 @@ def _create_espn_player_model(
                             )
                         elif stat["name"] == "unassistedGoals":
                             unassisted_goals = more_interesting(
-                                unassisted_goals, stat["value"]
+                                unassisted_goals,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "gameTyingGoals":
                             game_tying_goals = more_interesting(

@@ -160,7 +160,7 @@ def _create_tennisabstract_game_model(
                         ]
                     if "RPW%" in cols:
                         return_points_won_percentages = [
-                            float(x.replace("%", ""))
+                            float(x.replace("%", "").replace("-", "0.0"))
                             for x in df["RPW%"].dropna().tolist()
                         ]
                     if "Winners (FH/BH)" in cols:
