@@ -52,16 +52,36 @@ class TennisDataLeagueModel(LeagueModel):
         loser_rank_cell = str(row[12].value)
         winner_total_points_cell = str(row[13].value)
         loser_total_points_cell = str(row[14].value)
-        winner_points_set_1_cell = str(row[15].value)
-        loser_points_set_1_cell = str(row[16].value)
-        winner_points_set_2_cell = str(row[17].value)
-        loser_points_set_2_cell = str(row[18].value)
-        winner_points_set_3_cell = str(row[19].value)
-        loser_points_set_3_cell = str(row[20].value)
-        winner_points_set_4_cell = str(row[21].value)
-        loser_points_set_4_cell = str(row[22].value)
-        winner_points_set_5_cell = str(row[23].value)
-        loser_points_set_5_cell = str(row[24].value)
+        winner_points_set_1_cell = (
+            str(row[15].value) if row[15].value is not None else None
+        )
+        loser_points_set_1_cell = (
+            str(row[16].value) if row[16].value is not None else None
+        )
+        winner_points_set_2_cell = (
+            str(row[17].value) if row[17].value is not None else None
+        )
+        loser_points_set_2_cell = (
+            str(row[18].value) if row[18].value is not None else None
+        )
+        winner_points_set_3_cell = (
+            str(row[19].value) if row[19].value is not None else None
+        )
+        loser_points_set_3_cell = (
+            str(row[20].value) if row[20].value is not None else None
+        )
+        winner_points_set_4_cell = (
+            str(row[21].value) if row[21].value is not None else None
+        )
+        loser_points_set_4_cell = (
+            str(row[22].value) if row[22].value is not None else None
+        )
+        winner_points_set_5_cell = (
+            str(row[23].value) if row[23].value is not None else None
+        )
+        loser_points_set_5_cell = (
+            str(row[24].value) if row[24].value is not None else None
+        )
         winner_sets_cell = str(row[25].value)
         loser_sets_cell = str(row[26].value)
         winner_odds_cell = str(row[28].value)
