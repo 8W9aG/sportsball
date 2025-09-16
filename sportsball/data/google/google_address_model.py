@@ -247,15 +247,6 @@ GSU_CONVOCATION_CENTER = SportsballGeocodeTuple(
     housenumber="455",
     country="USA",
 )
-O2_ARENA = SportsballGeocodeTuple(
-    city="London",
-    state="",
-    postal="SE10",
-    lat=51.5029,
-    lng=0.0032,
-    housenumber="",
-    country="UK",
-)
 HARRAHS_CHEROKEE_CENTER = SportsballGeocodeTuple(
     city="Asheville",
     state="NC",
@@ -3194,7 +3185,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "Amway Center, Orlando, Florida": ORLANDO_ARENA,
     "Quicken Loans Arena, Cleveland, Ohio": QUICKEN_LOANS_ARENA,
     "Dunn–Oliver Acadome, Montgomery, Alabama": DUNN_OLIVER_ACADOME,
-    "The O2 Arena, London, United Kingdom": O2_ARENA,
     "BMO Harris Bradley Center, Milwaukee, Wisconsin": BRADLEY_CENTER,
     "Texas A&M–Commerce Field House, Commerce, Texas": TEXAS_AM_COMMERCE_FIELD_HOUSE,
     "Detroit, Michigan": DETROIT,
@@ -3849,7 +3839,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "The O2 Arena, London": O2_ARENA,
     "People's United Center, Hamden, Connecticut": SportsballGeocodeTuple(
         city="Hamden",
         state="CT",
@@ -16189,7 +16178,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Times Union Center - Albany, New York - United States": TIMES_UNION_CENTER,
-    "O2 Arena": O2_ARENA,
     "Purdue University": SportsballGeocodeTuple(
         city="West Lafayette",
         state="IN",

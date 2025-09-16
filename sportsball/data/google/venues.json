@@ -12492,6 +12492,17 @@
             "country": "USA",
             "type": "venue",
             "wiki": "Freeman_Coliseum"
+        },
+        "81205b36-c6d1-45a3-9351-211399a15e2d": {
+            "city": "London",
+            "state": "",
+            "postal": "SE10",
+            "lat": 51.5029,
+            "lng": 0.0032,
+            "housenumber": "",
+            "country": "UK",
+            "type": "venue",
+            "wiki": "The_O2_Arena"
         }
     },
     "searches": {
@@ -14224,6 +14235,7 @@
         "Viejas Arena, San Diego, California": "833199a7-4728-44c4-ab3b-d946ecc7c917",
         "Cox Arena, San Diego, California": "833199a7-4728-44c4-ab3b-d946ecc7c917",
         "Viejas Arena - San Diego, California - United States": "833199a7-4728-44c4-ab3b-d946ecc7c917",
+        "Viejas Arena - San Diego - CA": "833199a7-4728-44c4-ab3b-d946ecc7c917",
         "T-Mobile Center, Kansas City, Missouri": "fe4cf445-c3c7-4a79-be51-b37110fe5cad",
         "T-Mobile Center - Kansas City - MO": "fe4cf445-c3c7-4a79-be51-b37110fe5cad",
         "T-Mobile Center": "fe4cf445-c3c7-4a79-be51-b37110fe5cad",
@@ -14557,6 +14569,7 @@
         "Michelob Ultra Arena, Las Vegas, NV, USA": "d06b2f1a-4a79-40f2-88c0-2bc836d16315",
         "PHX Arena - Phoenix - AZ": "67f1d552-4aaf-4367-93a2-694eaa8ee658",
         "Adelaide, Australia": "922a30bf-da30-4529-94cf-5aea82bcaae5",
+        "Adelaide": "922a30bf-da30-4529-94cf-5aea82bcaae5",
         "Clover Park - Port St. Lucie - Florida - 34988": "c4d1c8f8-bbeb-48dc-8d6c-812e2f81e475",
         "Intuit Dome, Inglewood, California": "5a2d5f95-747b-4d0e-99a7-28df74b5f183",
         "Intuit Dome, Inglewood, CA, USA": "5a2d5f95-747b-4d0e-99a7-28df74b5f183",
@@ -15096,6 +15109,7 @@
         "KFC YUM! Center - Louisville, Kentucky - United States": "7133a33d-cdd6-4a85-a6bd-9d4acccb1edd",
         "ITF Kursumlijska Banja": "d87ca439-a28c-47d7-814d-71d5cee3b681",
         "Massimino Court, West Palm Beach, Florida": "78f61bd4-48ea-42ee-97e1-812e91c64834",
+        "Massimino Court - Fort Lauderdale - FL": "78f61bd4-48ea-42ee-97e1-812e91c64834",
         "Memorial Coliseum, Lexington, Kentucky": "15455455-c4e2-4fef-be15-3686e3c9c2d9",
         "Memorial Coliseum (KY) - Lexington - KY": "15455455-c4e2-4fef-be15-3686e3c9c2d9",
         "Australian Open": "c57c918d-b535-470d-ab1b-535830c2da67",
@@ -15103,6 +15117,10 @@
         "D.J. Sokol Arena, Omaha, Nebraska": "654f8abd-8c69-479f-bcc1-efc9fc501972",
         "Mérida, Mexico": "357ef573-b186-49c7-8174-76585c75272a",
         "Auckland": "526b7d68-acd8-4f46-96ac-10cb2c056231",
-        "Freeman Coliseum - San Antonio - TX": "e43c18bb-e122-40c2-8c27-4499885053d0"
+        "Freeman Coliseum - San Antonio - TX": "e43c18bb-e122-40c2-8c27-4499885053d0",
+        "The O2 Arena, London, United Kingdom": "81205b36-c6d1-45a3-9351-211399a15e2d",
+        "The O2 Arena, London": "81205b36-c6d1-45a3-9351-211399a15e2d",
+        "O2 Arena": "81205b36-c6d1-45a3-9351-211399a15e2d",
+        "O2 Arena (ENG) - London": "81205b36-c6d1-45a3-9351-211399a15e2d"
     }
 }

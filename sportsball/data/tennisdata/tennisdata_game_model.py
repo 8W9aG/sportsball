@@ -25,10 +25,10 @@ def _create_tennisdata_game_model(
     best_of: str,
     winner: str,
     loser: str,
-    winner_rank: str,
-    loser_rank: str,
-    winner_total_points: str,
-    loser_total_points: str,
+    winner_rank: str | None,
+    loser_rank: str | None,
+    winner_total_points: str | None,
+    loser_total_points: str | None,
     winner_points_set_1: str | None,
     loser_points_set_1: str | None,
     winner_points_set_2: str | None,
@@ -50,8 +50,10 @@ def _create_tennisdata_game_model(
     winner_team_model = create_tennisdata_team_model(
         name=winner,
         points=int(winner_sets),
-        rank=int(winner_rank),
-        total_points=int(winner_total_points),
+        rank=int(winner_rank) if winner_rank is not None else None,
+        total_points=int(winner_total_points)
+        if winner_total_points is not None
+        else None,
         set_one_points=int(winner_points_set_1)
         if winner_points_set_1 is not None
         else None,
@@ -76,8 +78,10 @@ def _create_tennisdata_game_model(
     loser_team_model = create_tennisdata_team_model(
         name=loser,
         points=int(loser_sets),
-        rank=int(loser_rank),
-        total_points=int(loser_total_points),
+        rank=int(loser_rank) if loser_rank is not None else None,
+        total_points=int(loser_total_points)
+        if loser_total_points is not None
+        else None,
         set_one_points=int(loser_points_set_1)
         if loser_points_set_1 is not None
         else None,
@@ -137,10 +141,10 @@ def _cached_create_tennisdata_game_model(
     best_of: str,
     winner: str,
     loser: str,
-    winner_rank: str,
-    loser_rank: str,
-    winner_total_points: str,
-    loser_total_points: str,
+    winner_rank: str | None,
+    loser_rank: str | None,
+    winner_total_points: str | None,
+    loser_total_points: str | None,
     winner_points_set_1: str | None,
     loser_points_set_1: str | None,
     winner_points_set_2: str | None,
@@ -199,10 +203,10 @@ def create_tennisdata_game_model(
     best_of: str,
     winner: str,
     loser: str,
-    winner_rank: str,
-    loser_rank: str,
-    winner_total_points: str,
-    loser_total_points: str,
+    winner_rank: str | None,
+    loser_rank: str | None,
+    winner_total_points: str | None,
+    loser_total_points: str | None,
     winner_points_set_1: str | None,
     loser_points_set_1: str | None,
     winner_points_set_2: str | None,

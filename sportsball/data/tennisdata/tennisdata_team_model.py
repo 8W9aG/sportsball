@@ -18,8 +18,8 @@ from .tennisdata_player_model import create_tennisdata_player_model
 def create_tennisdata_team_model(
     name: str,
     points: int,
-    rank: int,
-    total_points: int,
+    rank: int | None,
+    total_points: int | None,
     set_one_points: int | None,
     set_two_points: int | None,
     set_three_points: int | None,
