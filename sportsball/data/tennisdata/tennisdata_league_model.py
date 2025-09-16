@@ -77,19 +77,27 @@ class TennisDataLeagueModel(LeagueModel):
         loser_points_set_5_cell = None
         if self.league == League.ATP:
             winner_points_set_4_cell = (
-                str(row[current_cell].value) if row[current_cell].value is not None else None
+                str(row[current_cell].value)
+                if row[current_cell].value is not None
+                else None
             )
             current_cell += 1
             loser_points_set_4_cell = (
-                str(row[current_cell].value) if row[current_cell].value is not None else None
+                str(row[current_cell].value)
+                if row[current_cell].value is not None
+                else None
             )
             current_cell += 1
             winner_points_set_5_cell = (
-                str(row[current_cell].value) if row[current_cell].value is not None else None
+                str(row[current_cell].value)
+                if row[current_cell].value is not None
+                else None
             )
             current_cell += 1
             loser_points_set_5_cell = (
-                str(row[current_cell].value) if row[current_cell].value is not None else None
+                str(row[current_cell].value)
+                if row[current_cell].value is not None
+                else None
             )
             current_cell += 1
         winner_sets_cell = str(row[current_cell].value)

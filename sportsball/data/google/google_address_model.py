@@ -7212,15 +7212,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="British Virgin Islands",
     ),
-    "D.J. Sokol Arena, Omaha, Nebraska": SportsballGeocodeTuple(
-        city="Omaha",
-        state="NE",
-        postal="",
-        lat=41.266146,
-        lng=-95.940471,
-        housenumber="",
-        country="USA",
-    ),
     "Enterprise, Nevada": SportsballGeocodeTuple(
         city="Enterprise",
         state="NV",

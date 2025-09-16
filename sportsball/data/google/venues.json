@@ -12437,6 +12437,39 @@
             "country": "USA",
             "type": "venue",
             "wiki": "Memorial_Coliseum_(University_of_Kentucky)"
+        },
+        "c57c918d-b535-470d-ab1b-535830c2da67": {
+            "city": "Melbourne",
+            "state": "VIC",
+            "postal": "",
+            "lat": -37.82267,
+            "lng": 144.98005,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "venue",
+            "wiki": "Melbourne_Park"
+        },
+        "654f8abd-8c69-479f-bcc1-efc9fc501972": {
+            "city": "Omaha",
+            "state": "NE",
+            "postal": "",
+            "lat": 41.266146,
+            "lng": -95.940471,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "D._J._Sokol_Arena"
+        },
+        "357ef573-b186-49c7-8174-76585c75272a": {
+            "city": "Mérida",
+            "state": "Yucatán",
+            "postal": "",
+            "lat": 20.966667,
+            "lng": -89.616667,
+            "housenumber": "",
+            "country": "Mexico",
+            "type": "city",
+            "wiki": "Mérida,_Yucatán"
         }
     },
     "searches": {
@@ -15039,6 +15072,10 @@
         "ITF Kursumlijska Banja": "d87ca439-a28c-47d7-814d-71d5cee3b681",
         "Massimino Court, West Palm Beach, Florida": "78f61bd4-48ea-42ee-97e1-812e91c64834",
         "Memorial Coliseum, Lexington, Kentucky": "15455455-c4e2-4fef-be15-3686e3c9c2d9",
-        "Memorial Coliseum (KY) - Lexington - KY": "15455455-c4e2-4fef-be15-3686e3c9c2d9"
+        "Memorial Coliseum (KY) - Lexington - KY": "15455455-c4e2-4fef-be15-3686e3c9c2d9",
+        "Australian Open": "c57c918d-b535-470d-ab1b-535830c2da67",
+        "D.J. Sokol Arena - Omaha - NE": "654f8abd-8c69-479f-bcc1-efc9fc501972",
+        "D.J. Sokol Arena, Omaha, Nebraska": "654f8abd-8c69-479f-bcc1-efc9fc501972",
+        "Mérida, Mexico": "357ef573-b186-49c7-8174-76585c75272a"
     }
 }
