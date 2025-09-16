@@ -57,6 +57,7 @@ _BAD_URLS = {
     "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2021/athletes/41753?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/4702932?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2025/athletes/5107391?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/1994/athletes/79560?lang=en&region=us",
 }
 _BAD_COLLEGE_URLS = {
     "http://sports.core.api.espn.com/v2/colleges/6638?lang=en&region=us",
@@ -2969,7 +2970,8 @@ def _create_espn_player_model(
                             )
                         elif stat["name"] == "faceoffsLost":
                             faceoffs_lost = more_interesting(
-                                faceoffs_lost, stat["value"]
+                                faceoffs_lost,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "faceoffPercent":
                             faceoff_percentage = more_interesting(

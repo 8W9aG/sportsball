@@ -12514,6 +12514,17 @@
             "country": "USA",
             "type": "venue",
             "wiki": "Foster_Pavilion"
+        },
+        "8c5d1867-6f2d-4777-ab35-9c08bcab5872": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 59.0,
+            "lng": 26.0,
+            "housenumber": "",
+            "country": "Estonia",
+            "type": "country",
+            "wiki": "Estonia"
         }
     },
     "searches": {
@@ -13930,6 +13941,7 @@
         "Bright House Networks Stadium": "c0a028f7-8513-4d40-a25d-d8f5a39d58b0",
         "Albert Gersten Pavilion, Los Angeles, California": "04979d50-1e56-45f1-8301-42d253e8a6f7",
         "Gersten Pavilion, Los Angeles, California": "04979d50-1e56-45f1-8301-42d253e8a6f7",
+        "Gersten Pavilion - Los Angeles - CA": "04979d50-1e56-45f1-8301-42d253e8a6f7",
         "American Airlines Center - Dallas - TX - 75398": "9147c05e-6acf-42b1-9796-93c734a6c42a",
         "American Airlines Arena": "9147c05e-6acf-42b1-9796-93c734a6c42a",
         "American Airlines Center, Dallas, Texas": "9147c05e-6acf-42b1-9796-93c734a6c42a",
@@ -15024,6 +15036,7 @@
         "Harry A. Gampel Pavilion, Storrs, Connecticut": "1f8ab6db-090c-484b-96ba-d0cea1f9eb78",
         "Gampel Pavilion - Storrs - CT": "1f8ab6db-090c-484b-96ba-d0cea1f9eb78",
         "Hobart, Australia": "f76d0c4d-c9b2-41d5-ba6f-13563fde18dc",
+        "Hobart": "f76d0c4d-c9b2-41d5-ba6f-13563fde18dc",
         "Morewell": "24272ebd-1c38-46c1-aee3-becb5edd53c4",
         "Yokohama Stadium - Yokohama": "b46fcd4e-8324-4377-a75a-73d718de7fb2",
         "ITF Vitoria Gasteiz": "2204afd3-fdb1-46b9-bb45-8685ed524c9c",
@@ -15135,6 +15148,7 @@
         "O2 Arena": "81205b36-c6d1-45a3-9351-211399a15e2d",
         "O2 Arena (ENG) - London": "81205b36-c6d1-45a3-9351-211399a15e2d",
         "Foster Pavilion, Waco, Texas": "895b1a4d-d9c8-49a3-b3f0-dadbb822a934",
-        "Foster Pavilion - Waco - TX - 76706": "895b1a4d-d9c8-49a3-b3f0-dadbb822a934"
+        "Foster Pavilion - Waco - TX - 76706": "895b1a4d-d9c8-49a3-b3f0-dadbb822a934",
+        "EST": "8c5d1867-6f2d-4777-ab35-9c08bcab5872"
     }
 }
