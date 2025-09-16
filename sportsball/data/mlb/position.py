@@ -18,3 +18,4 @@ class Position(StrEnum):
     PINCH_RUNNER = "PR"
     PITCHER = "P"
     PINCH_HITTER = "PH"
+    RELIEF_PITCHER = "RP"

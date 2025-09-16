@@ -2932,7 +2932,8 @@ def _create_espn_player_model(
                             )
                         elif stat["name"] == "shootoutAttempts":
                             shootout_attempts = more_interesting(
-                                shootout_attempts, stat["value"]
+                                shootout_attempts,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "shootoutGoals":
                             shoot_out_goals = more_interesting(

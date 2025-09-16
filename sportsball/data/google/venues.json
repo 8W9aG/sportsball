@@ -12481,6 +12481,17 @@
             "country": "New Zealand",
             "type": "city",
             "wiki": "Auckland"
+        },
+        "e43c18bb-e122-40c2-8c27-4499885053d0": {
+            "city": "San Antonio",
+            "state": "TX",
+            "postal": "78219",
+            "lat": 29.426899,
+            "lng": -98.439351,
+            "housenumber": "3201",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Freeman_Coliseum"
         }
     },
     "searches": {
@@ -12643,6 +12654,7 @@
         "Mullett Arena, Tempe, Arizona": "b0a4fafb-dd4d-44e3-b881-93d548847cec",
         "Mullett Arena": "b0a4fafb-dd4d-44e3-b881-93d548847cec",
         "Mullett Arena - Tempe - AZ": "b0a4fafb-dd4d-44e3-b881-93d548847cec",
+        "Mullett Arena - Tempe - AZ - 85281": "b0a4fafb-dd4d-44e3-b881-93d548847cec",
         "Raymond James Stadium": "10af3d09-3070-42bb-8ab1-53e8014fa31c",
         "Raymond James Stadium - Tampa - FL - 33607": "10af3d09-3070-42bb-8ab1-53e8014fa31c",
         "Raymond James Stadium - Tampa Bay, Florida, USA - United States": "10af3d09-3070-42bb-8ab1-53e8014fa31c",
@@ -13349,6 +13361,7 @@
         "Davis Wade Stadium": "9d96cf3f-c0bf-4222-a48e-9fcf62430ec6",
         "St. Mary's Stadium, Southampton, England": "30a262fc-737c-48ea-a1fc-1152778b3a0d",
         "St. Mary's Stadium - Southampton": "30a262fc-737c-48ea-a1fc-1152778b3a0d",
+        "St. Mary's Stadium": "30a262fc-737c-48ea-a1fc-1152778b3a0d",
         "FBC Mortgage Stadium - Orlando - FL - 32816": "afefd41d-22ae-47e4-a170-5ee578c3c5b4",
         "Oklahoma City University": "8db3ff39-1c63-465f-a6e3-790621dda489",
         "SECU Stadium - College Park - MD - 20742": "bdb6167c-ab9f-4250-b490-cb8abff9ec1a",
@@ -14150,6 +14163,7 @@
         "The Event Center, San Jose, California": "a03a0ed7-dd08-4436-9342-bfd062d08461",
         "Galen Center, Los Angeles, California": "cd3134ac-20e3-4dae-8dba-af686d4f9e67",
         "Galen Center - Los Angeles, California, USA - United States": "cd3134ac-20e3-4dae-8dba-af686d4f9e67",
+        "Galen Center - Los Angeles - CA": "cd3134ac-20e3-4dae-8dba-af686d4f9e67",
         "Cintas Center, Cincinnati, Ohio": "e90f9a39-c197-49b9-aa49-cfeb781e4a99",
         "Cintas Center - Cincinnati - OH": "e90f9a39-c197-49b9-aa49-cfeb781e4a99",
         "Scotiabank Arena - Toronto - ON": "40bd0766-958c-4039-88b9-fe067703b548",
@@ -15088,6 +15102,7 @@
         "D.J. Sokol Arena - Omaha - NE": "654f8abd-8c69-479f-bcc1-efc9fc501972",
         "D.J. Sokol Arena, Omaha, Nebraska": "654f8abd-8c69-479f-bcc1-efc9fc501972",
         "Mérida, Mexico": "357ef573-b186-49c7-8174-76585c75272a",
-        "Auckland": "526b7d68-acd8-4f46-96ac-10cb2c056231"
+        "Auckland": "526b7d68-acd8-4f46-96ac-10cb2c056231",
+        "Freeman Coliseum - San Antonio - TX": "e43c18bb-e122-40c2-8c27-4499885053d0"
     }
 }

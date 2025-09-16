@@ -146,12 +146,12 @@ def _create_tennisabstract_game_model(
                         ]
                     if "1st%" in cols:
                         first_serve_percentages = [
-                            float(x.replace("%", ""))
+                            float(x.replace("%", "").replace("-", "0.0"))
                             for x in df["1st%"].dropna().tolist()
                         ]
                     if "2nd%" in cols:
                         second_serve_percentages = [
-                            float(x.replace("%", ""))
+                            float(x.replace("%", "").replace("-", "0.0"))
                             for x in df["2nd%"].dropna().tolist()
                         ]
                     if "BPSaved" in cols:
