@@ -12470,6 +12470,17 @@
             "country": "Mexico",
             "type": "city",
             "wiki": "Mérida,_Yucatán"
+        },
+        "526b7d68-acd8-4f46-96ac-10cb2c056231": {
+            "city": "Auckland",
+            "state": "",
+            "postal": "",
+            "lat": -36.849167,
+            "lng": 174.765278,
+            "housenumber": "",
+            "country": "New Zealand",
+            "type": "city",
+            "wiki": "Auckland"
         }
     },
     "searches": {
@@ -15076,6 +15087,7 @@
         "Australian Open": "c57c918d-b535-470d-ab1b-535830c2da67",
         "D.J. Sokol Arena - Omaha - NE": "654f8abd-8c69-479f-bcc1-efc9fc501972",
         "D.J. Sokol Arena, Omaha, Nebraska": "654f8abd-8c69-479f-bcc1-efc9fc501972",
-        "Mérida, Mexico": "357ef573-b186-49c7-8174-76585c75272a"
+        "Mérida, Mexico": "357ef573-b186-49c7-8174-76585c75272a",
+        "Auckland": "526b7d68-acd8-4f46-96ac-10cb2c056231"
     }
 }

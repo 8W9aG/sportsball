@@ -104,8 +104,16 @@ class TennisDataLeagueModel(LeagueModel):
         current_cell += 1
         loser_sets_cell = str(row[current_cell].value)
         current_cell += 2
-        winner_odds_cell = str(row[current_cell].value)
-        current_cell += 1
+
+        winner_odds_cell = None
+        if row[current_cell].value is not None:
+            winner_odds_cell = str(row[current_cell].value)
+            current_cell += 1
+        else:
+            current_cell += 6
+            winner_odds_cell = str(row[current_cell].value)
+            current_cell += 1
+
         loser_odds_cell = str(row[current_cell].value)
         current_cell += 1
         return create_tennisdata_game_model(

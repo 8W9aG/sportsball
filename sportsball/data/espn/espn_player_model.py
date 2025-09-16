@@ -52,6 +52,11 @@ _BAD_URLS = {
     "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/1998/athletes/82111?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/4592959?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/1998/athletes/82238?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2004/athletes/4287?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/1998/athletes/82287?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2021/athletes/41753?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/4702932?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2025/athletes/5107391?lang=en&region=us",
 }
 _BAD_COLLEGE_URLS = {
     "http://sports.core.api.espn.com/v2/colleges/6638?lang=en&region=us",
@@ -59,6 +64,7 @@ _BAD_COLLEGE_URLS = {
     "http://sports.core.api.espn.com/v2/colleges/5438?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/colleges/7309?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/colleges/7853?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/colleges/7861?lang=en&region=us",
 }
 
 
@@ -2921,7 +2927,8 @@ def _create_espn_player_model(
                             )
                         elif stat["name"] == "shortHandedAssists":
                             short_handed_assists = more_interesting(
-                                short_handed_assists, stat["value"]
+                                short_handed_assists,
+                                stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "shootoutAttempts":
                             shootout_attempts = more_interesting(
