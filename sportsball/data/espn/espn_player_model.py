@@ -3003,9 +3003,10 @@ def _create_espn_player_model(
                                 stat.get("value", float(stat["displayValue"])),
                             )
                         elif stat["name"] == "penaltyMinutes":
-                            penalty_minutes = more_interesting(
-                                penalty_minutes, stat["value"]
-                            )
+                            if "value" in stat:
+                                penalty_minutes = more_interesting(
+                                    penalty_minutes, stat["value"]
+                                )
                         elif stat["name"] == "penaltyMinutesAgainst":
                             penalty_minutes_against = more_interesting(
                                 penalty_minutes_against,

@@ -12624,6 +12624,28 @@
             "country": "New Zealand",
             "type": "country",
             "wiki": "New_Zealand"
+        },
+        "5597a8ac-91ab-4b61-9145-7775b1c03fa6": {
+            "city": "Boca Raton",
+            "state": "FL",
+            "postal": "33431",
+            "lat": 26.372222,
+            "lng": -80.109167,
+            "housenumber": "777",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Eleanor_R._Baldwin_Arena"
+        },
+        "fd3b6eed-ecce-4553-ab1c-beeb9f697b32": {
+            "city": "Chicago",
+            "state": "IL",
+            "postal": "",
+            "lat": 41.717948,
+            "lng": -87.608843,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Dickens_Athletic_Center"
         }
     },
     "searches": {
@@ -13441,6 +13463,7 @@
         "Glass Bowl - Toledo, Ohio, USA - United States": "adfca298-fa67-43fd-af24-985976daef81",
         "King Power Stadium, Leicester, England": "8f574f39-3a05-4c58-b38c-475a614952c8",
         "King Power Stadium - Leicester": "8f574f39-3a05-4c58-b38c-475a614952c8",
+        "The Walkers Stadium": "8f574f39-3a05-4c58-b38c-475a614952c8",
         "Milan Puskar Stadium - Morgantown - WV - 26505": "6d54f141-4f86-4c30-9100-2146ded3e0c8",
         "Mountaineer Field at Milan Puskar Stadium": "6d54f141-4f86-4c30-9100-2146ded3e0c8",
         "University of Portland": "75e1b8b1-3288-48e4-849d-9602de2fd0eb",
@@ -14946,6 +14969,7 @@
         "TCC Arena - Tucson - AZ - 85777": "1609b140-2f46-4659-98bd-c48a9bfd4376",
         "Tucson Community Center, Tucson, Arizona": "1609b140-2f46-4659-98bd-c48a9bfd4376",
         "Oeiras, Portugal": "772a2570-9526-4697-bb6f-b79eb9dee6d9",
+        "Oeiras 3 CH": "772a2570-9526-4697-bb6f-b79eb9dee6d9",
         "Bucharest, Romania": "866adcba-7e95-4081-acea-7ae3cc10b938",
         "Bucharest": "866adcba-7e95-4081-acea-7ae3cc10b938",
         "Kobe Wing Stadium - Kobe": "c9233a0a-fd51-4653-a72e-0709baa480d9",
@@ -15120,6 +15144,7 @@
         "Hickey Park": "9c623e63-71f3-40c5-85a9-367e2444410f",
         "RFK Memorial - Washington": "afba48b5-9360-4c2b-9da1-7bb535f42272",
         "Linz, Austria": "892d810e-93c4-4fb4-906f-d88c4089af46",
+        "Linz": "892d810e-93c4-4fb4-906f-d88c4089af46",
         "Webster Bank Arena, Bridgeport, Connecticut": "aaf70715-4a06-43d4-8ba1-8cdb3d27d7de",
         "Webster Bank Arena - Bridgeport, Connecticut - United States": "aaf70715-4a06-43d4-8ba1-8cdb3d27d7de",
         "Webster Bank Arena - Bridgeport - CT": "aaf70715-4a06-43d4-8ba1-8cdb3d27d7de",
@@ -15267,6 +15292,8 @@
         "BMO Harris Bradley Center - Milwaukee - WI": "2be3a2f4-c7f9-457b-bbae-49bb18fe4921",
         "Grado, Italy": "4c23be9f-d3c8-49e7-8310-f0c597e4658a",
         "UZB": "5707fc25-8d6e-4119-8ad2-bfbe553d2230",
-        "NZL": "832252d7-e8a3-40ec-b270-7023f91bed21"
+        "NZL": "832252d7-e8a3-40ec-b270-7023f91bed21",
+        "Eleanor R. Baldwin Arena - Boca Raton - FL": "5597a8ac-91ab-4b61-9145-7775b1c03fa6",
+        "Jacoby Dickens Center - Chicago - IL": "fd3b6eed-ecce-4553-ab1c-beeb9f697b32"
     }
 }
