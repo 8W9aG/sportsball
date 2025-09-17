@@ -12646,6 +12646,28 @@
             "country": "USA",
             "type": "venue",
             "wiki": "Dickens_Athletic_Center"
+        },
+        "f07e54c7-4bfe-40cb-8dfa-382d0383527f": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 24.0,
+            "lng": 121.0,
+            "housenumber": "",
+            "country": "Taiwan",
+            "type": "country",
+            "wiki": "Chinese_Taipei"
+        },
+        "10824c14-7002-44c6-9eb4-2dd569b75bab": {
+            "city": "Bismarck",
+            "state": "ND",
+            "postal": "58504",
+            "lat": 46.802444,
+            "lng": -100.783283,
+            "housenumber": "315",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Bismarck_Event_Center"
         }
     },
     "searches": {
@@ -12710,6 +12732,7 @@
         "Nassau Veterans Memorial Coliseum, Uniondale, New York": "750518c9-729a-4d0b-bd3a-6e38fa7a3ec9",
         "Nassau Veterans Memorial Coliseum - Uniondale, New York, USA - United States": "750518c9-729a-4d0b-bd3a-6e38fa7a3ec9",
         "Nassau Veterans Memorial Coliseum": "750518c9-729a-4d0b-bd3a-6e38fa7a3ec9",
+        "Nassau Veterans Memorial Coliseum - Uniondale - NY": "750518c9-729a-4d0b-bd3a-6e38fa7a3ec9",
         "Nissan Stadium": "6d8bba96-9e07-49d2-8049-b6418652f097",
         "Nissan Stadium - Nashville - TN - 37213": "6d8bba96-9e07-49d2-8049-b6418652f097",
         "Nissan Stadium - Nashville, Tennessee, USA - United States": "6d8bba96-9e07-49d2-8049-b6418652f097",
@@ -14256,6 +14279,7 @@
         "Canadian Tire Centre": "a9db2673-1afb-4e23-9239-9d1caf1a7ed4",
         "John Paul Jones Arena, Charlottesville, Virginia": "0e2c1ae2-6db6-42ed-991f-554128ee2d28",
         "John Paul Jones Arena - Charlottesville, Virginia - United States": "0e2c1ae2-6db6-42ed-991f-554128ee2d28",
+        "John Paul Jones Arena - Charlottesville - VA": "0e2c1ae2-6db6-42ed-991f-554128ee2d28",
         "Lloyd Noble Center, Norman, Oklahoma": "2609c84a-7142-47c3-a052-d9ae9071469e",
         "LLoyd Noble Center, Norman, Oklahoma": "2609c84a-7142-47c3-a052-d9ae9071469e",
         "Lloyd Noble Center - Norman, Oklahoma, USA - United States": "2609c84a-7142-47c3-a052-d9ae9071469e",
@@ -15267,6 +15291,7 @@
         "Memorial Coliseum, Lexington, Kentucky": "15455455-c4e2-4fef-be15-3686e3c9c2d9",
         "Memorial Coliseum (KY) - Lexington - KY": "15455455-c4e2-4fef-be15-3686e3c9c2d9",
         "Australian Open": "c57c918d-b535-470d-ab1b-535830c2da67",
+        "Australian Open Juniors": "c57c918d-b535-470d-ab1b-535830c2da67",
         "D.J. Sokol Arena - Omaha - NE": "654f8abd-8c69-479f-bcc1-efc9fc501972",
         "D.J. Sokol Arena, Omaha, Nebraska": "654f8abd-8c69-479f-bcc1-efc9fc501972",
         "Mérida, Mexico": "357ef573-b186-49c7-8174-76585c75272a",
@@ -15294,6 +15319,8 @@
         "UZB": "5707fc25-8d6e-4119-8ad2-bfbe553d2230",
         "NZL": "832252d7-e8a3-40ec-b270-7023f91bed21",
         "Eleanor R. Baldwin Arena - Boca Raton - FL": "5597a8ac-91ab-4b61-9145-7775b1c03fa6",
-        "Jacoby Dickens Center - Chicago - IL": "fd3b6eed-ecce-4553-ab1c-beeb9f697b32"
+        "Jacoby Dickens Center - Chicago - IL": "fd3b6eed-ecce-4553-ab1c-beeb9f697b32",
+        "TPE": "f07e54c7-4bfe-40cb-8dfa-382d0383527f",
+        "Bismarck Event Center - Bismarck - ND": "10824c14-7002-44c6-9eb4-2dd569b75bab"
     }
 }
