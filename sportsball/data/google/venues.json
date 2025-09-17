@@ -12547,6 +12547,28 @@
             "country": "USA",
             "type": "venue",
             "wiki": null
+        },
+        "68e4adcd-09dd-453b-9034-88b50ec15192": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 15.0,
+            "lng": 101.0,
+            "housenumber": "",
+            "country": "Thailand",
+            "type": "country",
+            "wiki": "Thailand"
+        },
+        "c0272fb6-d234-4806-9cce-bb27a9a748dc": {
+            "city": "Biarritz",
+            "state": "",
+            "postal": "",
+            "lat": 43.48,
+            "lng": -1.56,
+            "housenumber": "",
+            "country": "France",
+            "type": "city",
+            "wiki": "Biarritz"
         }
     },
     "searches": {
@@ -15175,6 +15197,8 @@
         "Foster Pavilion - Waco - TX - 76706": "895b1a4d-d9c8-49a3-b3f0-dadbb822a934",
         "EST": "8c5d1867-6f2d-4777-ab35-9c08bcab5872",
         "LIB": "317d68c5-6b92-4d0b-9f70-a174359dc45f",
-        "Lakin Center - Los Angeles - CA": "a66a4ddc-e59b-4476-9483-047028b51714"
+        "Lakin Center - Los Angeles - CA": "a66a4ddc-e59b-4476-9483-047028b51714",
+        "THA": "68e4adcd-09dd-453b-9034-88b50ec15192",
+        "ITF Biarritz": "c0272fb6-d234-4806-9cce-bb27a9a748dc"
     }
 }
