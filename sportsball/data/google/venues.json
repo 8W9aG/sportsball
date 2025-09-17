@@ -12525,6 +12525,28 @@
             "country": "Estonia",
             "type": "country",
             "wiki": "Estonia"
+        },
+        "317d68c5-6b92-4d0b-9f70-a174359dc45f": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 6.5,
+            "lng": -9.5,
+            "housenumber": "",
+            "country": "Liberia",
+            "type": "country",
+            "wiki": "Liberia"
+        },
+        "a66a4ddc-e59b-4476-9483-047028b51714": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "postal": "90095",
+            "lat": 34.0692755,
+            "lng": -118.4483601,
+            "housenumber": "425",
+            "country": "USA",
+            "type": "venue",
+            "wiki": null
         }
     },
     "searches": {
@@ -15151,6 +15173,8 @@
         "O2 Arena (ENG) - London": "81205b36-c6d1-45a3-9351-211399a15e2d",
         "Foster Pavilion, Waco, Texas": "895b1a4d-d9c8-49a3-b3f0-dadbb822a934",
         "Foster Pavilion - Waco - TX - 76706": "895b1a4d-d9c8-49a3-b3f0-dadbb822a934",
-        "EST": "8c5d1867-6f2d-4777-ab35-9c08bcab5872"
+        "EST": "8c5d1867-6f2d-4777-ab35-9c08bcab5872",
+        "LIB": "317d68c5-6b92-4d0b-9f70-a174359dc45f",
+        "Lakin Center - Los Angeles - CA": "a66a4ddc-e59b-4476-9483-047028b51714"
     }
 }

@@ -39,8 +39,8 @@ def _create_tennisdata_game_model(
     loser_points_set_4: str | None,
     winner_points_set_5: str | None,
     loser_points_set_5: str | None,
-    winner_sets: str,
-    loser_sets: str,
+    winner_sets: str | None,
+    loser_sets: str | None,
     winner_odds: str,
     loser_odds: str,
     session: ScrapeSession,
@@ -49,7 +49,7 @@ def _create_tennisdata_game_model(
 ) -> GameModel:
     winner_team_model = create_tennisdata_team_model(
         name=winner,
-        points=int(winner_sets),
+        points=int(winner_sets) if winner_sets is not None else None,
         rank=int(winner_rank) if winner_rank is not None else None,
         total_points=int(winner_total_points)
         if winner_total_points is not None
@@ -77,7 +77,7 @@ def _create_tennisdata_game_model(
     )
     loser_team_model = create_tennisdata_team_model(
         name=loser,
-        points=int(loser_sets),
+        points=int(loser_sets) if loser_sets is not None else None,
         rank=int(loser_rank) if loser_rank is not None else None,
         total_points=int(loser_total_points)
         if loser_total_points is not None
@@ -155,8 +155,8 @@ def _cached_create_tennisdata_game_model(
     loser_points_set_4: str | None,
     winner_points_set_5: str | None,
     loser_points_set_5: str | None,
-    winner_sets: str,
-    loser_sets: str,
+    winner_sets: str | None,
+    loser_sets: str | None,
     winner_odds: str,
     loser_odds: str,
     session: ScrapeSession,
@@ -217,8 +217,8 @@ def create_tennisdata_game_model(
     loser_points_set_4: str | None,
     winner_points_set_5: str | None,
     loser_points_set_5: str | None,
-    winner_sets: str,
-    loser_sets: str,
+    winner_sets: str | None,
+    loser_sets: str | None,
     winner_odds: str,
     loser_odds: str,
     session: ScrapeSession,

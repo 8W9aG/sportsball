@@ -17,7 +17,7 @@ from .tennisdata_player_model import create_tennisdata_player_model
 @MEMORY.cache(ignore=["session"])
 def create_tennisdata_team_model(
     name: str,
-    points: int,
+    points: int | None,
     rank: int | None,
     total_points: int | None,
     set_one_points: int | None,

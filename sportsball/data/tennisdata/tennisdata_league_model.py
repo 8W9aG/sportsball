@@ -116,9 +116,17 @@ class TennisDataLeagueModel(LeagueModel):
                 else None
             )
             current_cell += 1
-        winner_sets_cell = str(row[current_cell].value)
+        winner_sets_cell = (
+            str(row[current_cell].value)
+            if row[current_cell].value is not None
+            else None
+        )
         current_cell += 1
-        loser_sets_cell = str(row[current_cell].value)
+        loser_sets_cell = (
+            str(row[current_cell].value)
+            if row[current_cell].value is not None
+            else None
+        )
         current_cell += 2
 
         winner_odds_cell = None
