@@ -94,15 +94,6 @@ DUNN_OLIVER_ACADOME = SportsballGeocodeTuple(
     housenumber="",
     country="USA",
 )
-BRADLEY_CENTER = SportsballGeocodeTuple(
-    city="Milwaukee",
-    state="WI",
-    postal="",
-    lat=43.043611,
-    lng=-87.916944,
-    housenumber="1001",
-    country="USA",
-)
 TEXAS_AM_COMMERCE_FIELD_HOUSE = SportsballGeocodeTuple(
     city="Commerce",
     state="TX",
@@ -3141,7 +3132,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Arco Arena - Sacramento, California - United States": ARCO_ARENA,
-    "Bradley Center": BRADLEY_CENTER,
     "Charlotte Coliseum": CHARLOTTE_COLISEUM,
     "Miami Arena": MIAMI_ARENA,
     "Al McGuire Center, Milwaukee, Wisconsin": SportsballGeocodeTuple(
@@ -3185,7 +3175,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "Amway Center, Orlando, Florida": ORLANDO_ARENA,
     "Quicken Loans Arena, Cleveland, Ohio": QUICKEN_LOANS_ARENA,
     "Dunn–Oliver Acadome, Montgomery, Alabama": DUNN_OLIVER_ACADOME,
-    "BMO Harris Bradley Center, Milwaukee, Wisconsin": BRADLEY_CENTER,
     "Texas A&M–Commerce Field House, Commerce, Texas": TEXAS_AM_COMMERCE_FIELD_HOUSE,
     "Detroit, Michigan": DETROIT,
     "Charlotte, North Carolina": CHARLOTTE,
@@ -3677,7 +3666,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
     "ARCO Arena, Sacramento, CA, USA": ARCO_ARENA,
     "The Palace of Auburn Hills, Auburn Hills, MI, USA": THE_PALACE_OF_AUBURN_HILLS,
-    "BMO Harris Bradley Center, Milwaukee, WI, USA": BRADLEY_CENTER,
     "State Farm Field House, Orlando, FL, USA": STATE_FARM_FIELDHOUSE,
     "Panjin Jinxiu Stadium, Panjin, China": SportsballGeocodeTuple(
         city="Panjin",
@@ -4389,7 +4377,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="700",
         country="USA",
     ),
-    "Bradley Center, Milwaukee, Wisconsin": BRADLEY_CENTER,
     "Toyota Center, Kennewick, Washington": TOYOTA_CENTER,
     "Los Angeles, California": LOS_ANGELES,
     "Newark, New Jersey": NEWARK,
@@ -8953,15 +8940,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         lng=-87.039689,
         housenumber="",
         country="USA",
-    ),
-    "Melbourne, Australia": SportsballGeocodeTuple(
-        city="Melbourne",
-        state="VIC",
-        postal="",
-        lat=-37.814167,
-        lng=144.963056,
-        housenumber="",
-        country="Australia",
     ),
     "Bar, Montenegro": SportsballGeocodeTuple(
         city="Bar",

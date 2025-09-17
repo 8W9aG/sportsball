@@ -2989,7 +2989,10 @@ def _create_espn_player_model(
                                 stat.get("value", int(stat["displayValue"])),
                             )
                         elif stat["name"] == "giveaways":
-                            giveaways = more_interesting(giveaways, stat["value"])
+                            giveaways = more_interesting(
+                                giveaways,
+                                stat.get("value", float(stat["displayValue"])),
+                            )
                         elif stat["name"] == "penalties":
                             penalties = more_interesting(penalties, stat["value"])
                         elif stat["name"] == "penaltyMinutes":

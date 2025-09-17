@@ -12569,6 +12569,39 @@
             "country": "France",
             "type": "city",
             "wiki": "Biarritz"
+        },
+        "d0d8ca80-aaef-4f78-90d2-21d400313f57": {
+            "city": "Melbourne",
+            "state": "VIC",
+            "postal": "",
+            "lat": -37.814167,
+            "lng": 144.963056,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "city",
+            "wiki": "Melbourne"
+        },
+        "2be3a2f4-c7f9-457b-bbae-49bb18fe4921": {
+            "city": "Milwaukee",
+            "state": "WI",
+            "postal": "",
+            "lat": 43.043611,
+            "lng": -87.916944,
+            "housenumber": "1001",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Bradley_Center"
+        },
+        "4c23be9f-d3c8-49e7-8310-f0c597e4658a": {
+            "city": "Grado",
+            "state": "",
+            "postal": "",
+            "lat": 45.677778,
+            "lng": 13.394722,
+            "housenumber": "",
+            "country": "Italy",
+            "type": "city",
+            "wiki": "Grado,_Friuli_Venezia_Giulia"
         }
     },
     "searches": {
@@ -13347,6 +13380,7 @@
         "Doyt L. Perry Stadium - Bowling Green - OH - 43403": "06f4d149-0030-4e75-a4bb-e3cda775a707",
         "Doyt Perry Stadium": "06f4d149-0030-4e75-a4bb-e3cda775a707",
         "Sahlen Field, Buffalo, NY, USA": "60f62014-0b1d-4ede-9ad7-d534ae1f3dbb",
+        "Sahlen Field - Buffalo - New York - 14203": "60f62014-0b1d-4ede-9ad7-d534ae1f3dbb",
         "Allegacy Federal Credit Union Stadium - Winston-Salem - NC - 27105": "eb526f6a-71f3-4919-a46b-8e7b475217ff",
         "The Valley, London, England": "c7149ade-24b1-4ead-934e-470c7404b44e",
         "The Valley - London": "c7149ade-24b1-4ead-934e-470c7404b44e",
@@ -15199,6 +15233,13 @@
         "LIB": "317d68c5-6b92-4d0b-9f70-a174359dc45f",
         "Lakin Center - Los Angeles - CA": "a66a4ddc-e59b-4476-9483-047028b51714",
         "THA": "68e4adcd-09dd-453b-9034-88b50ec15192",
-        "ITF Biarritz": "c0272fb6-d234-4806-9cce-bb27a9a748dc"
+        "ITF Biarritz": "c0272fb6-d234-4806-9cce-bb27a9a748dc",
+        "Melbourne": "d0d8ca80-aaef-4f78-90d2-21d400313f57",
+        "Melbourne, Australia": "d0d8ca80-aaef-4f78-90d2-21d400313f57",
+        "Bradley Center": "2be3a2f4-c7f9-457b-bbae-49bb18fe4921",
+        "BMO Harris Bradley Center, Milwaukee, Wisconsin": "2be3a2f4-c7f9-457b-bbae-49bb18fe4921",
+        "BMO Harris Bradley Center, Milwaukee, WI, USA": "2be3a2f4-c7f9-457b-bbae-49bb18fe4921",
+        "Bradley Center, Milwaukee, Wisconsin": "2be3a2f4-c7f9-457b-bbae-49bb18fe4921",
+        "Grado, Italy": "4c23be9f-d3c8-49e7-8310-f0c597e4658a"
     }
 }
