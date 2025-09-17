@@ -58,6 +58,10 @@ _BAD_URLS = {
     "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/4702932?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2025/athletes/5107391?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/1994/athletes/79560?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/soccer/leagues/eng.1/seasons/2003/athletes/4287?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/1994/athletes/82009?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/5175068?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2025/athletes/5113322?lang=en&region=us",
 }
 _BAD_COLLEGE_URLS = {
     "http://sports.core.api.espn.com/v2/colleges/6638?lang=en&region=us",
@@ -2994,7 +2998,10 @@ def _create_espn_player_model(
                                 stat.get("value", float(stat["displayValue"])),
                             )
                         elif stat["name"] == "penalties":
-                            penalties = more_interesting(penalties, stat["value"])
+                            penalties = more_interesting(
+                                penalties,
+                                stat.get("value", float(stat["displayValue"])),
+                            )
                         elif stat["name"] == "penaltyMinutes":
                             penalty_minutes = more_interesting(
                                 penalty_minutes, stat["value"]

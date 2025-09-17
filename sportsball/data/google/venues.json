@@ -12602,6 +12602,28 @@
             "country": "Italy",
             "type": "city",
             "wiki": "Grado,_Friuli_Venezia_Giulia"
+        },
+        "5707fc25-8d6e-4119-8ad2-bfbe553d2230": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 42.0,
+            "lng": 64.0,
+            "housenumber": "",
+            "country": "Uzbekistan",
+            "type": "country",
+            "wiki": "Uzbekistan"
+        },
+        "832252d7-e8a3-40ec-b270-7023f91bed21": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": -42.0,
+            "lng": 173.0,
+            "housenumber": "",
+            "country": "New Zealand",
+            "type": "country",
+            "wiki": "New_Zealand"
         }
     },
     "searches": {
@@ -14036,6 +14058,7 @@
         "Redhawk Center, Seattle, Washington": "0944c18b-3fce-4ca1-a07a-178ac4437283",
         "Connolly Center, Seattle, Washington": "0944c18b-3fce-4ca1-a07a-178ac4437283",
         "BayCare Ballpark - Clearwater - Florida - 33765": "9ff12eec-39ed-489d-8d97-c550a89e7bf9",
+        "Spectrum Field - Clearwater - Florida - 33769": "9ff12eec-39ed-489d-8d97-c550a89e7bf9",
         "James H. Hilton Coliseum , Ames, Iowa": "cc534e03-12df-4956-aa6f-1738b4ddc798",
         "James H. Hilton Coliseum, Ames, Iowa": "cc534e03-12df-4956-aa6f-1738b4ddc798",
         "Hilton Coliseum - Ames, Iowa - United States": "cc534e03-12df-4956-aa6f-1738b4ddc798",
@@ -14404,6 +14427,7 @@
         "Prudential Center, Newark, NJ, USA": "36433729-bec3-400f-ae5c-52a9e87b8221",
         "Prudential Center": "36433729-bec3-400f-ae5c-52a9e87b8221",
         "Prudential Center - Newark - NJ - 07199": "36433729-bec3-400f-ae5c-52a9e87b8221",
+        "Prudential Center - Newark - NJ": "36433729-bec3-400f-ae5c-52a9e87b8221",
         "William Johnson Coliseum, Nacogdoches, Texas": "3614ff6d-80e9-41b2-bb67-d407c39e7867",
         "Rotterdam, Netherlands": "776a2cd9-1e55-4d9f-9622-ddfa6cfd226c",
         "Rotterdam": "776a2cd9-1e55-4d9f-9622-ddfa6cfd226c",
@@ -15240,6 +15264,9 @@
         "BMO Harris Bradley Center, Milwaukee, Wisconsin": "2be3a2f4-c7f9-457b-bbae-49bb18fe4921",
         "BMO Harris Bradley Center, Milwaukee, WI, USA": "2be3a2f4-c7f9-457b-bbae-49bb18fe4921",
         "Bradley Center, Milwaukee, Wisconsin": "2be3a2f4-c7f9-457b-bbae-49bb18fe4921",
-        "Grado, Italy": "4c23be9f-d3c8-49e7-8310-f0c597e4658a"
+        "BMO Harris Bradley Center - Milwaukee - WI": "2be3a2f4-c7f9-457b-bbae-49bb18fe4921",
+        "Grado, Italy": "4c23be9f-d3c8-49e7-8310-f0c597e4658a",
+        "UZB": "5707fc25-8d6e-4119-8ad2-bfbe553d2230",
+        "NZL": "832252d7-e8a3-40ec-b270-7023f91bed21"
     }
 }
