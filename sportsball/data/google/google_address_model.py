@@ -688,15 +688,6 @@ HARBOR_YARD = SportsballGeocodeTuple(
     housenumber="500",
     country="USA",
 )
-UCR_STUDENT_REC_CENTER = SportsballGeocodeTuple(
-    city="Riverside",
-    state="CA",
-    postal="",
-    lat=33.9789,
-    lng=-117.32813,
-    housenumber="",
-    country="USA",
-)
 DEGOL_ARENA = SportsballGeocodeTuple(
     city="Loretto",
     state="PA",
@@ -1524,15 +1515,6 @@ MAPLE_LEAF_GARDENS = SportsballGeocodeTuple(
     lng=-79.380278,
     housenumber="60",
     country="CA",
-)
-AMICA_MUTUAL_PAVILION = SportsballGeocodeTuple(
-    city="Providence",
-    state="RI",
-    postal="",
-    lat=41.823611,
-    lng=-71.418333,
-    housenumber="1",
-    country="USA",
 )
 MISSISSIPPI_COAST_COLISEUM = SportsballGeocodeTuple(
     city="Biloxi",
@@ -2538,7 +2520,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="18111",
         country="USA",
     ),
-    "UC Riverside Student Recreation Center, Riverside, California": UCR_STUDENT_REC_CENTER,
     "CFE Arena, Orlando, Florida": SportsballGeocodeTuple(
         city="Orlando",
         state="FL",
@@ -3358,7 +3339,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="1964",
         country="USA",
     ),
-    "Amica Mutual Pavilion, Providence, Rhode Island": AMICA_MUTUAL_PAVILION,
     "George Gervin GameAbove Center, Ypsilanti, Michigan": SportsballGeocodeTuple(
         city="Ypsilanti",
         state="MI",
@@ -4236,15 +4216,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
     "Denver, Colorado": DENVER,
     "Times Union Center, Albany, New York": TIMES_UNION_CENTER,
-    "Carmichael Arena, Chapel Hill, North Carolina": SportsballGeocodeTuple(
-        city="Chapel Hill",
-        state="NC",
-        postal="27599",
-        lat=35.909526,
-        lng=-79.045408,
-        housenumber="310",
-        country="USA",
-    ),
     "Harrisonburg, Virginia": SportsballGeocodeTuple(
         city="Harrisonburg",
         state="VA",
@@ -7229,7 +7200,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="1001",
         country="USA",
     ),
-    "UCR Student Rec Center, Riverside, California": UCR_STUDENT_REC_CENTER,
     "Maurice Stokes Athletic Center, Loretto, Pennsylvania": DEGOL_ARENA,
     "RAC Arena, Baltimore, Maryland": RETRIEVER_ACTIVITIES_CENTER,
     "Sullivan Arena, Anchorage, Alaska": SportsballGeocodeTuple(
@@ -11010,7 +10980,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="4100",
         country="USA",
     ),
-    "Providence Civic Center": AMICA_MUTUAL_PAVILION,
     "Sacramento State College": SportsballGeocodeTuple(
         city="Sacramento",
         state="CA",

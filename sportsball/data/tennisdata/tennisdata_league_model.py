@@ -41,50 +41,50 @@ class TennisDataLeagueModel(LeagueModel):
         tour_number_cell = str(row[0].value)
         if tour_number_cell in {"ATP", "None", "WTA"}:
             return None
-        location_cell = str(row[1].value)
-        date_cell = str(row[3].value)
-        court_cell = str(row[5].value)
-        surface_cell = str(row[6].value)
-        best_of_cell = str(row[8].value)
-        winner_cell = str(row[9].value)
-        loser_cell = str(row[10].value)
+        location_cell = str(row[1].value).strip()
+        date_cell = str(row[3].value).strip()
+        court_cell = str(row[5].value).strip()
+        surface_cell = str(row[6].value).strip()
+        best_of_cell = str(row[8].value).strip()
+        winner_cell = str(row[9].value).strip()
+        loser_cell = str(row[10].value).strip()
         winner_rank_cell = (
-            str(row[11].value)
+            str(row[11].value).strip()
             if row[11].value is not None and row[11].value != "N/A"
             else None
         )
         loser_rank_cell = (
-            str(row[12].value)
+            str(row[12].value).strip()
             if row[12].value is not None and row[12].value != "N/A"
             else None
         )
         winner_total_points_cell = (
-            str(row[13].value)
+            str(row[13].value).strip()
             if row[13].value is not None and row[13].value != "N/A"
             else None
         )
         loser_total_points_cell = (
-            str(row[14].value)
+            str(row[14].value).strip()
             if row[14].value is not None and row[14].value != "N/A"
             else None
         )
         winner_points_set_1_cell = (
-            str(row[15].value) if row[15].value is not None else None
+            str(row[15].value).strip() if row[15].value is not None else None
         )
         loser_points_set_1_cell = (
-            str(row[16].value) if row[16].value is not None else None
+            str(row[16].value).strip() if row[16].value is not None else None
         )
         winner_points_set_2_cell = (
-            str(row[17].value) if row[17].value is not None else None
+            str(row[17].value).strip() if row[17].value is not None else None
         )
         loser_points_set_2_cell = (
-            str(row[18].value) if row[18].value is not None else None
+            str(row[18].value).strip() if row[18].value is not None else None
         )
         winner_points_set_3_cell = (
-            str(row[19].value) if row[19].value is not None else None
+            str(row[19].value).strip() if row[19].value is not None else None
         )
         loser_points_set_3_cell = (
-            str(row[20].value) if row[20].value is not None else None
+            str(row[20].value).strip() if row[20].value is not None else None
         )
         current_cell = 21
         winner_points_set_4_cell = None
@@ -93,37 +93,37 @@ class TennisDataLeagueModel(LeagueModel):
         loser_points_set_5_cell = None
         if self.league == League.ATP:
             winner_points_set_4_cell = (
-                str(row[current_cell].value)
+                str(row[current_cell].value).strip()
                 if row[current_cell].value is not None
                 else None
             )
             current_cell += 1
             loser_points_set_4_cell = (
-                str(row[current_cell].value)
+                str(row[current_cell].value).strip()
                 if row[current_cell].value is not None
                 else None
             )
             current_cell += 1
             winner_points_set_5_cell = (
-                str(row[current_cell].value)
+                str(row[current_cell].value).strip()
                 if row[current_cell].value is not None
                 else None
             )
             current_cell += 1
             loser_points_set_5_cell = (
-                str(row[current_cell].value)
+                str(row[current_cell].value).strip()
                 if row[current_cell].value is not None
                 else None
             )
             current_cell += 1
         winner_sets_cell = (
-            str(row[current_cell].value)
+            str(row[current_cell].value).strip()
             if row[current_cell].value is not None
             else None
         )
         current_cell += 1
         loser_sets_cell = (
-            str(row[current_cell].value)
+            str(row[current_cell].value).strip()
             if row[current_cell].value is not None
             else None
         )
@@ -131,14 +131,14 @@ class TennisDataLeagueModel(LeagueModel):
 
         winner_odds_cell = None
         if row[current_cell].value is not None:
-            winner_odds_cell = str(row[current_cell].value)
+            winner_odds_cell = str(row[current_cell].value).strip()
             current_cell += 1
         else:
             current_cell += 6
-            winner_odds_cell = str(row[current_cell].value)
+            winner_odds_cell = str(row[current_cell].value).strip()
             current_cell += 1
 
-        loser_odds_cell = str(row[current_cell].value)
+        loser_odds_cell = str(row[current_cell].value).strip()
         current_cell += 1
         return create_tennisdata_game_model(
             location=location_cell,

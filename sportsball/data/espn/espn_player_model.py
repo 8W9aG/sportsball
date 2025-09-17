@@ -2867,7 +2867,9 @@ def _create_espn_player_model(
                                 stat.get("value", float(stat["displayValue"])),
                             )
                         elif stat["name"] == "ytdGoals":
-                            ytd_goals = more_interesting(ytd_goals, stat["value"])
+                            ytd_goals = more_interesting(
+                                ytd_goals, stat.get("value", int(stat["displayValue"]))
+                            )
                         elif stat["name"] == "shotsIn1stPeriod":
                             shots_in_first_period = more_interesting(
                                 shots_in_first_period,

@@ -12668,6 +12668,39 @@
             "country": "USA",
             "type": "venue",
             "wiki": "Bismarck_Event_Center"
+        },
+        "1f19584b-dc3d-4be8-94ee-6972e81e7918": {
+            "city": "Providence",
+            "state": "RI",
+            "postal": "",
+            "lat": 41.823611,
+            "lng": -71.418333,
+            "housenumber": "1",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Amica_Mutual_Pavilion"
+        },
+        "b2bb627a-db35-4a7e-9f59-fe02125812e3": {
+            "city": "Chapel Hill",
+            "state": "NC",
+            "postal": "27599",
+            "lat": 35.909526,
+            "lng": -79.045408,
+            "housenumber": "310",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Carmichael_Arena"
+        },
+        "8bedf459-b7dd-4f79-b291-3cef53183411": {
+            "city": "Riverside",
+            "state": "CA",
+            "postal": "",
+            "lat": 33.9789,
+            "lng": -117.32813,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "UC_Riverside_Student_Recreation_Center"
         }
     },
     "searches": {
@@ -14681,6 +14714,7 @@
         "Loftus Road, London, England": "49f58e6b-65d3-4858-b4ff-4fab4fee2f4f",
         "MATRADE Loftus Road - London": "49f58e6b-65d3-4858-b4ff-4fab4fee2f4f",
         "Loftus Road Stadium": "49f58e6b-65d3-4858-b4ff-4fab4fee2f4f",
+        "Loftus Road": "49f58e6b-65d3-4858-b4ff-4fab4fee2f4f",
         "Rostec Arena - Kaliningrad": "5b2a1e53-a865-40a1-9fbc-a356994251ce",
         "Maharashtra Cricket Association Stadium, Pune, India": "6b4ddfd7-7681-45e6-921c-88f9005334fb",
         "Frost Bank Center - San Antonio - TX": "4d756369-86d9-4b30-883a-8bee9bc2b75f",
@@ -15095,6 +15129,7 @@
         "Moody Coliseum - Dallas - TX": "434fc7f3-7bbb-402a-b9c6-3b6ecd6ba462",
         "Moody Coliseum, Dallas, Texas": "434fc7f3-7bbb-402a-b9c6-3b6ecd6ba462",
         "Singapore, Singapore": "21e425d3-d752-482c-9b4e-2b67b6d8b5cf",
+        "Singapore": "21e425d3-d752-482c-9b4e-2b67b6d8b5cf",
         "South Pine": "9f6cd145-ff47-4b72-be03-980d903a027a",
         "Hong Kong, Hong Kong, China": "73346e76-307f-4218-b979-118368bedae3",
         "Hong Kong": "73346e76-307f-4218-b979-118368bedae3",
@@ -15321,6 +15356,14 @@
         "Eleanor R. Baldwin Arena - Boca Raton - FL": "5597a8ac-91ab-4b61-9145-7775b1c03fa6",
         "Jacoby Dickens Center - Chicago - IL": "fd3b6eed-ecce-4553-ab1c-beeb9f697b32",
         "TPE": "f07e54c7-4bfe-40cb-8dfa-382d0383527f",
-        "Bismarck Event Center - Bismarck - ND": "10824c14-7002-44c6-9eb4-2dd569b75bab"
+        "Bismarck Event Center - Bismarck - ND": "10824c14-7002-44c6-9eb4-2dd569b75bab",
+        "Amica Mutual Pavilion, Providence, Rhode Island": "1f19584b-dc3d-4be8-94ee-6972e81e7918",
+        "Providence Civic Center": "1f19584b-dc3d-4be8-94ee-6972e81e7918",
+        "Amica Mutual Pavilion - Providence - RI": "1f19584b-dc3d-4be8-94ee-6972e81e7918",
+        "Carmichael Arena - Chapel Hill - NC": "b2bb627a-db35-4a7e-9f59-fe02125812e3",
+        "Carmichael Arena, Chapel Hill, North Carolina": "b2bb627a-db35-4a7e-9f59-fe02125812e3",
+        "UC Riverside Student Recreation Center, Riverside, California": "8bedf459-b7dd-4f79-b291-3cef53183411",
+        "UCR Student Rec Center, Riverside, California": "8bedf459-b7dd-4f79-b291-3cef53183411",
+        "SRC Arena - Riverside - CA": "8bedf459-b7dd-4f79-b291-3cef53183411"
     }
 }
