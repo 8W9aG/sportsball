@@ -12778,6 +12778,39 @@
             "country": "USA",
             "type": "city",
             "wiki": "Sumter,_South_Carolina"
+        },
+        "7744e54f-4ebb-4af2-8a6b-702bc568a7c6": {
+            "city": "Birmingham",
+            "state": "AL",
+            "postal": "",
+            "lat": 33.502164,
+            "lng": -86.809244,
+            "housenumber": "617",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Bartow_Arena"
+        },
+        "227fa3c0-6ecc-4527-911a-bb6ea9c339d0": {
+            "city": "Easton",
+            "state": "PA",
+            "postal": "18042",
+            "lat": 40.7019,
+            "lng": -75.2107,
+            "housenumber": "700",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Kirby_Sports_Center"
+        },
+        "bd97575d-9944-4863-b804-c07b99b98a0a": {
+            "city": "Seoul",
+            "state": "",
+            "postal": "",
+            "lat": 37.56,
+            "lng": 126.99,
+            "housenumber": "",
+            "country": "South Korea",
+            "type": "city",
+            "wiki": "Seoul"
         }
     },
     "searches": {
@@ -13986,6 +14019,7 @@
         "U.S. Cellular Arena, Milwaukee, Wisconsin": "57b80240-7828-4e60-a0c9-f8176bfc1f7b",
         "MECCA Arena, Milwaukee, Wisconsin": "57b80240-7828-4e60-a0c9-f8176bfc1f7b",
         "UWM Panther Arena - Milwaukee, Wisconsin - United States": "57b80240-7828-4e60-a0c9-f8176bfc1f7b",
+        "UW-Milwaukee Panther Arena - Milwaukee - WI": "57b80240-7828-4e60-a0c9-f8176bfc1f7b",
         "CZE": "e726b0f0-e8f8-40db-9124-33bfb1fa2346",
         "Pauley Pavilion, Los Angeles, California": "28fa9429-ad14-47f1-8002-39a2bb2e1524",
         "Pauley Pavilion - Los Angeles - CA": "28fa9429-ad14-47f1-8002-39a2bb2e1524",
@@ -14051,6 +14085,7 @@
         "Miami (FL)": "b5a19152-f1eb-4cff-b826-8087e2318eb1",
         "Miami, FL, United States": "b5a19152-f1eb-4cff-b826-8087e2318eb1",
         "Miami Masters": "b5a19152-f1eb-4cff-b826-8087e2318eb1",
+        "Miami": "b5a19152-f1eb-4cff-b826-8087e2318eb1",
         "Physical Education Complex, Baltimore, Maryland": "36184641-86e4-49ed-9aec-135485fb89b4",
         "Kiel Center": "ef748f23-92e7-45ed-80fc-682101fee8c0",
         "Enterprise Center, St. Louis, Missouri": "ef748f23-92e7-45ed-80fc-682101fee8c0",
@@ -15460,6 +15495,11 @@
         "The Palace of Auburn Hills, Auburn Hills, MI, USA": "0b417501-fa4a-46e6-9630-62348eec4dbd",
         "The Palace of Auburn Hills, Auburn Hills, Michigan": "0b417501-fa4a-46e6-9630-62348eec4dbd",
         "The Palace of Auburn Hills - Auburn Hills - MI": "0b417501-fa4a-46e6-9630-62348eec4dbd",
-        "ITF Sumter": "79d4d687-d9d7-416e-8443-bb43d41db4f2"
+        "ITF Sumter": "79d4d687-d9d7-416e-8443-bb43d41db4f2",
+        "Bartow Arena, Birmingham, Alabama": "7744e54f-4ebb-4af2-8a6b-702bc568a7c6",
+        "Bartow Arena - Birmingham - AL": "7744e54f-4ebb-4af2-8a6b-702bc568a7c6",
+        "Kirby Sports Center, Easton, Pennsylvania": "227fa3c0-6ecc-4527-911a-bb6ea9c339d0",
+        "Kirby Sports Center - Easton - PA": "227fa3c0-6ecc-4527-911a-bb6ea9c339d0",
+        "Seoul": "bd97575d-9944-4863-b804-c07b99b98a0a"
     }
 }

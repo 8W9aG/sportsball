@@ -18,6 +18,11 @@ from ...sex import Sex
 from ...species import Species
 
 
+_NON_WAYBACK_URLS = {
+    "https://afltables.com/afl/stats/players/J/Junior_Rioli.html",
+}
+
+
 def _create_afl_afltables_player_model(
     player_url: str,
     jersey: str,
@@ -53,7 +58,11 @@ def _create_afl_afltables_player_model(
     last_component = o.path.split("/")[-1]
     identifier, _ = os.path.splitext(last_component)
     jersey = "".join(filter(str.isdigit, jersey))
-    response = session.get(player_url)
+    if player_url in _NON_WAYBACK_URLS:
+        with session.wayback_disabled():
+            response = session.get(player_url)
+    else:
+        response = session.get(player_url)
     response.raise_for_status()
 
     soup = BeautifulSoup(response.text, "lxml")

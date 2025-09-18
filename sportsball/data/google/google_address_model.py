@@ -2588,15 +2588,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Chaifetz Arena, St. Louis, Missouri": CHAIFETZ_ARENA,
-    "Bartow Arena, Birmingham, Alabama": SportsballGeocodeTuple(
-        city="Birmingham",
-        state="AL",
-        postal="",
-        lat=33.502164,
-        lng=-86.809244,
-        housenumber="617",
-        country="USA",
-    ),
     "McKeon Pavilion, Moraga, California": SportsballGeocodeTuple(
         city="Moraga",
         state="CA",

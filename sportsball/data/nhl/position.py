@@ -12,3 +12,4 @@ class Position(StrEnum):
     LEFT_WING = "LW"
     RIGHT_WING = "RW"
     FORWARD = "F"
+    UNASSIGNED = "UN"
