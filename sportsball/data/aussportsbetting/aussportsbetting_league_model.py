@@ -38,6 +38,7 @@ class AusSportsBettingLeagueModel(LeagueModel):
                 raise ValueError(
                     f"League {league} not supported by aus sports betting."
                 )
+        self.session.cache.delete(urls=[self._spreadsheet_url])
 
     @classmethod
     def name(cls) -> str:
@@ -98,7 +99,6 @@ class AusSportsBettingLeagueModel(LeagueModel):
 
     @property
     def games(self) -> Iterator[GameModel]:
-        self.session.cache.delete(urls=[self._spreadsheet_url])
         try:
             with self.session.cache_disabled():
                 response = self.session.get(self._spreadsheet_url)

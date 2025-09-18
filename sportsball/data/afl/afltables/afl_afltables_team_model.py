@@ -7,8 +7,8 @@ import urllib.parse
 from urllib.parse import urlparse
 
 import pytest_is_running
-import requests_cache
 from bs4 import BeautifulSoup
+from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
 from ....cache import MEMORY
 from ...google.google_news_model import create_google_news_models
@@ -77,7 +77,7 @@ def _create_afl_afltables_team_model(
         ]
     ],
     points: float,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     last_ladder_ranks: dict[str, int] | None,
     dt: datetime.datetime,
     league: League,
@@ -827,7 +827,7 @@ def _cached_create_afl_afltables_team_model(
         ]
     ],
     points: float,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     last_ladder_ranks: dict[str, int] | None,
     dt: datetime.datetime,
     league: League,
@@ -878,7 +878,7 @@ def create_afl_afltables_team_model(
         ]
     ],
     points: float,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     last_ladder_ranks: dict[str, int] | None,
     dt: datetime.datetime,
     league: League,

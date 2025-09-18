@@ -2980,15 +2980,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "San Jose Civic Auditorium": SAN_JOSE_CIVIC_AUDITORIUM,
-    "Suncoast Credit Union Arena, Fort Myers, Florida": SportsballGeocodeTuple(
-        city="Fort Myers",
-        state="FL",
-        postal="33919",
-        lat=26.5478,
-        lng=-81.8869,
-        housenumber="13351",
-        country="USA",
-    ),
     "The Spectrum - Guildford, Surrey, United Kingdom - United Kingdom": SportsballGeocodeTuple(
         city="Surrey",
         state="",

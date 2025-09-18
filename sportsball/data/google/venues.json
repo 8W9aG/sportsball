@@ -12811,6 +12811,28 @@
             "country": "South Korea",
             "type": "city",
             "wiki": "Seoul"
+        },
+        "e768408d-6430-46be-9f1f-b830b475082a": {
+            "city": "Fort Myers",
+            "state": "FL",
+            "postal": "33919",
+            "lat": 26.5478,
+            "lng": -81.8869,
+            "housenumber": "13351",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Suncoast_Credit_Union_Arena"
+        },
+        "defb594d-7f14-4b83-ad53-5fb97f38524c": {
+            "city": "Cluj-Napoca",
+            "state": "",
+            "postal": "",
+            "lat": 46.766667,
+            "lng": 23.583333,
+            "housenumber": "",
+            "country": "Romania",
+            "type": "city",
+            "wiki": "Cluj-Napoca"
         }
     },
     "searches": {
@@ -14470,6 +14492,7 @@
         "E.J. Wade Arena at Stuart C. Siegel Center, Richmond, Virginia": "e04b9aeb-35c1-458d-87e9-f55b52a19907",
         "Alltel Pavilion at the Stuart C. Siegel Center, Richmond, Virginia": "e04b9aeb-35c1-458d-87e9-f55b52a19907",
         "Curb Event Center, Nashville, Tennessee": "f0d50f33-c128-45f6-9f60-67e1f9b2c855",
+        "Curb Event Center Arena - Nashville - TN": "f0d50f33-c128-45f6-9f60-67e1f9b2c855",
         "Bramlage Coliseum, Manhattan, Kansas": "a7541504-de01-4019-8d18-1ae37b4e9e79",
         "Bramlage Coliseum - Manhattan - KS": "a7541504-de01-4019-8d18-1ae37b4e9e79",
         "Rhodes Stadium - Elon - NC - 27244": "61430879-33cb-4936-b13a-b91eca8b642d",
@@ -15212,6 +15235,7 @@
         "Brisbane, QLD, Australia": "f8b0d2ca-4b1a-4645-85dd-97d67e88901d",
         "Brisbane, Australia": "f8b0d2ca-4b1a-4645-85dd-97d67e88901d",
         "Brisbane": "f8b0d2ca-4b1a-4645-85dd-97d67e88901d",
+        "United Cup": "f8b0d2ca-4b1a-4645-85dd-97d67e88901d",
         "Jeonju Stadium - Chonju": "a9001503-dd84-4135-88a4-c9d82938f744",
         "Dickies Arena, Fort Worth, Texas": "8f6104c2-8071-48fb-8ede-3025a5150e90",
         "Dickies Arena - Fort Worth - TX": "8f6104c2-8071-48fb-8ede-3025a5150e90",
@@ -15500,6 +15524,9 @@
         "Bartow Arena - Birmingham - AL": "7744e54f-4ebb-4af2-8a6b-702bc568a7c6",
         "Kirby Sports Center, Easton, Pennsylvania": "227fa3c0-6ecc-4527-911a-bb6ea9c339d0",
         "Kirby Sports Center - Easton - PA": "227fa3c0-6ecc-4527-911a-bb6ea9c339d0",
-        "Seoul": "bd97575d-9944-4863-b804-c07b99b98a0a"
+        "Seoul": "bd97575d-9944-4863-b804-c07b99b98a0a",
+        "Suncoast Credit Union Arena, Fort Myers, Florida": "e768408d-6430-46be-9f1f-b830b475082a",
+        "Suncoast Credit Union Arena - Fort Myers - FL": "e768408d-6430-46be-9f1f-b830b475082a",
+        "Cluj-Napoca": "defb594d-7f14-4b83-ad53-5fb97f38524c"
     }
 }

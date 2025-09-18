@@ -7,16 +7,15 @@ import os
 from urllib.parse import urlparse
 
 import pytest_is_running
-import requests_cache
 from bs4 import BeautifulSoup
 from dateutil.parser import parse
 from dateutil.relativedelta import relativedelta
+from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
 from ....cache import MEMORY
 from ...player_model import VERSION, PlayerModel
 from ...sex import Sex
 from ...species import Species
-
 
 _NON_WAYBACK_URLS = {
     "https://afltables.com/afl/stats/players/J/Junior_Rioli.html",
@@ -50,7 +49,7 @@ def _create_afl_afltables_player_model(
     bounces: int | None,
     goal_assists: int | None,
     percentage_played: float | None,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     dt: datetime.datetime,
     version: str,
 ) -> PlayerModel:
@@ -999,7 +998,7 @@ def _cached_create_afl_afltables_player_model(
     bounces: int | None,
     goal_assists: int | None,
     percentage_played: float | None,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     dt: datetime.datetime,
     version: str,
 ) -> PlayerModel:
@@ -1040,7 +1039,7 @@ def create_afl_afltables_player_model(
     player_url: str,
     jersey: str,
     kicks: int | None,
-    session: requests_cache.CachedSession,
+    session: ScrapeSession,
     name: str,
     marks: int | None,
     handballs: int | None,
