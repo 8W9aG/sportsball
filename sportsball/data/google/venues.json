@@ -12701,6 +12701,17 @@
             "country": "USA",
             "type": "venue",
             "wiki": "UC_Riverside_Student_Recreation_Center"
+        },
+        "b417b2cf-1401-4519-ba7d-e6c7f18aae4f": {
+            "city": "Nassau",
+            "state": "",
+            "postal": "",
+            "lat": 25.0703613,
+            "lng": -77.4001874,
+            "housenumber": "",
+            "country": "Bahamas",
+            "type": "venue",
+            "wiki": null
         }
     },
     "searches": {
@@ -14879,6 +14890,7 @@
         "O2 Arena (Prague) - Prague": "dc37e20f-892a-4fbc-8ea5-38d61769dea5",
         "Buenos Aires, Argentina": "11d5a4c8-2693-4461-80db-aa5bae4b2256",
         "Buenos Aires": "11d5a4c8-2693-4461-80db-aa5bae4b2256",
+        "Buenos Aires CH": "11d5a4c8-2693-4461-80db-aa5bae4b2256",
         "Arena Pernambuco - Recife": "1ecd2d59-0abf-45bb-9bea-33abe391d2cd",
         "Tempe Diablo Stadium - Tempe - Arizona - 85289": "a26e554f-6876-494a-8094-1e86dbc0769d",
         "Santiago, Chile": "7127b5e4-1606-43ed-85b8-d58e0cb632a6",
@@ -15293,6 +15305,7 @@
         "John Gray Gymnasium - George Town - Cayman Islands": "041bc2c0-60d1-4103-bd75-5cd294f76092",
         "John Gray Gymnasium, Grand Cayman": "041bc2c0-60d1-4103-bd75-5cd294f76092",
         "Abu Dhabi, United Arab Emirates": "90037a75-8eeb-4467-9517-5b867095ddaa",
+        "Abu Dhabi": "90037a75-8eeb-4467-9517-5b867095ddaa",
         "Mercedes-Benz Arena, Shanghai": "9df80441-a677-4e21-b354-a08fd0b51063",
         "Mercedes-Benz Arena - Shanghai": "9df80441-a677-4e21-b354-a08fd0b51063",
         "Vic, Spain": "9e89d4f8-05c6-45ce-bbde-c69a35acf301",
@@ -15364,6 +15377,8 @@
         "Carmichael Arena, Chapel Hill, North Carolina": "b2bb627a-db35-4a7e-9f59-fe02125812e3",
         "UC Riverside Student Recreation Center, Riverside, California": "8bedf459-b7dd-4f79-b291-3cef53183411",
         "UCR Student Rec Center, Riverside, California": "8bedf459-b7dd-4f79-b291-3cef53183411",
-        "SRC Arena - Riverside - CA": "8bedf459-b7dd-4f79-b291-3cef53183411"
+        "SRC Arena - Riverside - CA": "8bedf459-b7dd-4f79-b291-3cef53183411",
+        "Baha Mar Convention Center, Nassau": "b417b2cf-1401-4519-ba7d-e6c7f18aae4f",
+        "Baha Mar Convention Center - Nassau - Bahamas": "b417b2cf-1401-4519-ba7d-e6c7f18aae4f"
     }
 }
