@@ -211,15 +211,6 @@ ARCO_ARENA = SportsballGeocodeTuple(
     housenumber="1",
     country="USA",
 )
-THE_PALACE_OF_AUBURN_HILLS = SportsballGeocodeTuple(
-    city="Auburn Hills",
-    state="MI",
-    postal="",
-    lat=42.696944,
-    lng=-83.245556,
-    housenumber="6",
-    country="USA",
-)
 STATE_FARM_FIELDHOUSE = SportsballGeocodeTuple(
     city="Lake Buena Vista",
     state="FL",
@@ -2985,7 +2976,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
     "Omni Coliseum": OMNI_COLISEUM,
     "Great Western Forum": THE_FORUM,
-    "The Palace of Auburn Hills - Auburn Hills, MI - USA": THE_PALACE_OF_AUBURN_HILLS,
     "Quicken Loans Arena - Cleveland, Ohio - United States": QUICKEN_LOANS_ARENA,
     "Chesapeake Energy Arena - Oklahoma City, Oklahoma - United States": CHESAPEAKE_ENERGY_ARENA,
     "AT&T Center - San Antonio, Texas - United States": ATT_CENTER,
@@ -3627,7 +3617,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="UK",
     ),
     "ARCO Arena, Sacramento, CA, USA": ARCO_ARENA,
-    "The Palace of Auburn Hills, Auburn Hills, MI, USA": THE_PALACE_OF_AUBURN_HILLS,
     "State Farm Field House, Orlando, FL, USA": STATE_FARM_FIELDHOUSE,
     "Panjin Jinxiu Stadium, Panjin, China": SportsballGeocodeTuple(
         city="Panjin",
@@ -3665,7 +3654,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "The Palace of Auburn Hills, Auburn Hills, Michigan": THE_PALACE_OF_AUBURN_HILLS,
     "Lake Buena Vista, Florida": SportsballGeocodeTuple(
         city="Lake Buena Vista",
         state="FL",

@@ -12734,6 +12734,50 @@
             "country": "USA",
             "type": "venue",
             "wiki": "Carnesecca_Arena"
+        },
+        "a42688cb-4113-4c91-86ef-bc4d66e64416": {
+            "city": "Manchester",
+            "state": "",
+            "postal": "",
+            "lat": 53.451111,
+            "lng": -2.235278,
+            "housenumber": "",
+            "country": "UK",
+            "type": "venue",
+            "wiki": "Maine_Road"
+        },
+        "ee220e08-3184-4948-abda-0c9c4b931459": {
+            "city": "Cincinnati",
+            "state": "OH",
+            "postal": "",
+            "lat": 39.097778,
+            "lng": -84.504444,
+            "housenumber": "100",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Heritage_Bank_Center"
+        },
+        "0b417501-fa4a-46e6-9630-62348eec4dbd": {
+            "city": "Auburn Hills",
+            "state": "MI",
+            "postal": "",
+            "lat": 42.696944,
+            "lng": -83.245556,
+            "housenumber": "6",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "The_Palace_of_Auburn_Hills"
+        },
+        "79d4d687-d9d7-416e-8443-bb43d41db4f2": {
+            "city": "Sumter",
+            "state": "SC",
+            "postal": "",
+            "lat": 33.920556,
+            "lng": -80.341667,
+            "housenumber": "",
+            "country": "USA",
+            "type": "city",
+            "wiki": "Sumter,_South_Carolina"
         }
     },
     "searches": {
@@ -14786,6 +14830,7 @@
         "Kingston Twins Ovals": "c87c5b1f-e6ad-4c90-b2ee-5421f4ce116b",
         "Brabourne Stadium, Mumbai, India": "6ff98b7d-2cc5-40de-a4eb-c0d56cfe2628",
         "TD Ballpark - Dunedin - Florida - 34698": "6f92ba68-3e71-4678-83e9-044e842b0933",
+        "Dunedin Stadium - Dunedin - Florida - 34698": "6f92ba68-3e71-4678-83e9-044e842b0933",
         "Chase Center, San Francisco, California": "66b19b05-1d17-4b65-b0a6-7daeec2f26ec",
         "Chase Center, San Francisco, CA, USA": "66b19b05-1d17-4b65-b0a6-7daeec2f26ec",
         "Chase Center - San Francisco, California, USA - United States": "66b19b05-1d17-4b65-b0a6-7daeec2f26ec",
@@ -15063,6 +15108,7 @@
         "Tucson Community Center, Tucson, Arizona": "1609b140-2f46-4659-98bd-c48a9bfd4376",
         "Oeiras, Portugal": "772a2570-9526-4697-bb6f-b79eb9dee6d9",
         "Oeiras 3 CH": "772a2570-9526-4697-bb6f-b79eb9dee6d9",
+        "Oeiras 1 CH": "772a2570-9526-4697-bb6f-b79eb9dee6d9",
         "Bucharest, Romania": "866adcba-7e95-4081-acea-7ae3cc10b938",
         "Bucharest": "866adcba-7e95-4081-acea-7ae3cc10b938",
         "Kobe Wing Stadium - Kobe": "c9233a0a-fd51-4653-a72e-0709baa480d9",
@@ -15407,6 +15453,13 @@
         "The Arena at Gwinnett Center, Duluth, Georgia": "d8aeaeae-167d-41e4-8fef-03b26e8f7d33",
         "The Arena at Gwinnett Center - Duluth - GA": "d8aeaeae-167d-41e4-8fef-03b26e8f7d33",
         "Carnesecca Arena, Jamaica, New York": "7995311a-5d10-467c-96ad-7f9b5b0cc8b9",
-        "Carnesecca Arena - Queens - NY": "7995311a-5d10-467c-96ad-7f9b5b0cc8b9"
+        "Carnesecca Arena - Queens - NY": "7995311a-5d10-467c-96ad-7f9b5b0cc8b9",
+        "Maine Road": "a42688cb-4113-4c91-86ef-bc4d66e64416",
+        "Heritage Bank Center - Cincinnati - OH": "ee220e08-3184-4948-abda-0c9c4b931459",
+        "The Palace of Auburn Hills - Auburn Hills, MI - USA": "0b417501-fa4a-46e6-9630-62348eec4dbd",
+        "The Palace of Auburn Hills, Auburn Hills, MI, USA": "0b417501-fa4a-46e6-9630-62348eec4dbd",
+        "The Palace of Auburn Hills, Auburn Hills, Michigan": "0b417501-fa4a-46e6-9630-62348eec4dbd",
+        "The Palace of Auburn Hills - Auburn Hills - MI": "0b417501-fa4a-46e6-9630-62348eec4dbd",
+        "ITF Sumter": "79d4d687-d9d7-416e-8443-bb43d41db4f2"
     }
 }
