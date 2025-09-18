@@ -11,3 +11,4 @@ class Position(StrEnum):
     GOALTENDER = "G"
     LEFT_WING = "LW"
     RIGHT_WING = "RW"
+    FORWARD = "F"

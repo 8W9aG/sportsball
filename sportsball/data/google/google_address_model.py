@@ -2726,15 +2726,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="590",
         country="USA",
     ),
-    "Carnesecca Arena, Jamaica, New York": SportsballGeocodeTuple(
-        city="Jamaica",
-        state="NY",
-        postal="",
-        lat=40.724167,
-        lng=-73.794444,
-        housenumber="",
-        country="USA",
-    ),
     "Pan American Center, Las Cruces, New Mexico": SportsballGeocodeTuple(
         city="Las Cruces",
         state="NM",
@@ -7416,15 +7407,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Grand Exhibition Hall at Harrah's Cherokee Casino, Cherokee, North Carolina": HARRAHS_CHEROKEE_CENTER,
-    "The Arena at Gwinnett Center, Duluth, Georgia": SportsballGeocodeTuple(
-        city="Duluth",
-        state="GA",
-        postal="",
-        lat=33.991389,
-        lng=-84.094167,
-        housenumber="6400",
-        country="USA",
-    ),
     "Birmingham-Jefferson Civic Center, Birmingham, Alabama": BIRMINGHAM_JEFFERSON_CIVIC_CENTER,
     "War Memorial Gymnasium, Maui, Hawaii": SportsballGeocodeTuple(
         city="Maui",

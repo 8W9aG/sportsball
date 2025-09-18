@@ -12712,6 +12712,28 @@
             "country": "Bahamas",
             "type": "venue",
             "wiki": null
+        },
+        "d8aeaeae-167d-41e4-8fef-03b26e8f7d33": {
+            "city": "Duluth",
+            "state": "GA",
+            "postal": "",
+            "lat": 33.991389,
+            "lng": -84.094167,
+            "housenumber": "6400",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Gas_South_Arena"
+        },
+        "7995311a-5d10-467c-96ad-7f9b5b0cc8b9": {
+            "city": "Jamaica",
+            "state": "NY",
+            "postal": "",
+            "lat": 40.724167,
+            "lng": -73.794444,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Carnesecca_Arena"
         }
     },
     "searches": {
@@ -14251,6 +14273,7 @@
         "Turpin Stadium - Natchitoches - LA - 71457": "68e8d3d1-58cb-44b4-8e9b-a1df83f15d9c",
         "Burr Gymnasium, Washington, District of Columbia": "d0152592-1503-4435-aa79-edf9523cb71d",
         "Indian Wells, USA": "189493da-5fd3-43fe-b987-2255a081ce30",
+        "Indian Wells": "189493da-5fd3-43fe-b987-2255a081ce30",
         "Fant-Ewing Coliseum, Monroe, Louisiana": "cedc803d-cd9b-45a5-94c5-d52cb954f04c",
         "Alumni Hall, Annapolis, Maryland": "11d891fc-7429-4ade-af4e-856db4bac850",
         "Education City Stadium - Doha": "48d40ff3-17a4-467b-8c96-06393c47d17f",
@@ -15258,6 +15281,7 @@
         "Glasgow CH": "1449c848-0d62-45e8-b51c-1c9cb271a98d",
         "Sao Paulo": "c32f4bc3-6168-43cb-bbe0-e3274e2eed83",
         "Sao Paulo, Brazil": "c32f4bc3-6168-43cb-bbe0-e3274e2eed83",
+        "São Paulo, Brazil": "c32f4bc3-6168-43cb-bbe0-e3274e2eed83",
         "Daejeon Stadium - Taejon": "604aada1-680b-490c-81eb-19bda3754ec8",
         "Rickwood Field": "b9ff80ed-3747-484f-901b-e613d9a73898",
         "Rickwood Field - Birmingham - Alabama": "b9ff80ed-3747-484f-901b-e613d9a73898",
@@ -15379,6 +15403,10 @@
         "UCR Student Rec Center, Riverside, California": "8bedf459-b7dd-4f79-b291-3cef53183411",
         "SRC Arena - Riverside - CA": "8bedf459-b7dd-4f79-b291-3cef53183411",
         "Baha Mar Convention Center, Nassau": "b417b2cf-1401-4519-ba7d-e6c7f18aae4f",
-        "Baha Mar Convention Center - Nassau - Bahamas": "b417b2cf-1401-4519-ba7d-e6c7f18aae4f"
+        "Baha Mar Convention Center - Nassau - Bahamas": "b417b2cf-1401-4519-ba7d-e6c7f18aae4f",
+        "The Arena at Gwinnett Center, Duluth, Georgia": "d8aeaeae-167d-41e4-8fef-03b26e8f7d33",
+        "The Arena at Gwinnett Center - Duluth - GA": "d8aeaeae-167d-41e4-8fef-03b26e8f7d33",
+        "Carnesecca Arena, Jamaica, New York": "7995311a-5d10-467c-96ad-7f9b5b0cc8b9",
+        "Carnesecca Arena - Queens - NY": "7995311a-5d10-467c-96ad-7f9b5b0cc8b9"
     }
 }
