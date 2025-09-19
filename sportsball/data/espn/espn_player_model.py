@@ -69,6 +69,8 @@ _BAD_URLS = {
     "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2025/athletes/5109853?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/1994/athletes/79608?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/baseball/leagues/mlb/seasons/2020/athletes/41753?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world/seasons/1994/athletes/82074?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2025/athletes/5108633?lang=en&region=us",
 }
 _BAD_COLLEGE_URLS = {
     "http://sports.core.api.espn.com/v2/colleges/6638?lang=en&region=us",

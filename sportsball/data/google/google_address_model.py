@@ -76,15 +76,6 @@ CHESAPEAKE_ENERGY_ARENA = SportsballGeocodeTuple(
     housenumber="100",
     country="USA",
 )
-QUICKEN_LOANS_ARENA = SportsballGeocodeTuple(
-    city="Cleveland",
-    state="OH",
-    postal="",
-    lat=41.496389,
-    lng=-81.688056,
-    housenumber="1",
-    country="USA",
-)
 DUNN_OLIVER_ACADOME = SportsballGeocodeTuple(
     city="Montgomery",
     state="AL",
@@ -2967,7 +2958,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
     "Omni Coliseum": OMNI_COLISEUM,
     "Great Western Forum": THE_FORUM,
-    "Quicken Loans Arena - Cleveland, Ohio - United States": QUICKEN_LOANS_ARENA,
     "Chesapeake Energy Arena - Oklahoma City, Oklahoma - United States": CHESAPEAKE_ENERGY_ARENA,
     "AT&T Center - San Antonio, Texas - United States": ATT_CENTER,
     "International Amphitheatre": SportsballGeocodeTuple(
@@ -3108,7 +3098,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "Vivint Smart Home Arena, Salt Lake City, Utah": VIVINT_ARENA,
     "Chesapeake Energy Arena, Oklahoma City, Oklahoma": CHESAPEAKE_ENERGY_ARENA,
     "Amway Center, Orlando, Florida": ORLANDO_ARENA,
-    "Quicken Loans Arena, Cleveland, Ohio": QUICKEN_LOANS_ARENA,
     "Dunn–Oliver Acadome, Montgomery, Alabama": DUNN_OLIVER_ACADOME,
     "Texas A&M–Commerce Field House, Commerce, Texas": TEXAS_AM_COMMERCE_FIELD_HOUSE,
     "Detroit, Michigan": DETROIT,
