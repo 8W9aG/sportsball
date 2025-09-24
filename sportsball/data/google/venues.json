@@ -12932,6 +12932,39 @@
             "country": "Brazil",
             "type": "venue",
             "wiki": "Estádio_Conde_Rodolfo_Crespi"
+        },
+        "6bf35868-5c62-43b2-b09a-4ecc09ccb5a7": {
+            "city": "Milan",
+            "state": "",
+            "postal": "",
+            "lat": 45.478056,
+            "lng": 9.123889,
+            "housenumber": "",
+            "country": "Italy",
+            "type": "venue",
+            "wiki": "San_Siro"
+        },
+        "7bcc57d0-3fd8-43d7-a70c-e080e252697b": {
+            "city": "Boston",
+            "state": "MA",
+            "postal": "02115",
+            "lat": 42.3396,
+            "lng": -71.0898,
+            "housenumber": "400",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Cabot_Center"
+        },
+        "b979cbe4-3705-489c-ae29-1226ab6ddefe": {
+            "city": "Bogotá",
+            "state": "",
+            "postal": "",
+            "lat": 4.711111,
+            "lng": -74.072222,
+            "housenumber": "",
+            "country": "Colombia",
+            "type": "city",
+            "wiki": "Bogotá"
         }
     },
     "searches": {
@@ -15655,6 +15688,11 @@
         "Mullins Center - Amherst, MA - United States": "641eed70-fff8-4300-a17a-354663952ad6",
         "Mullins Memorial Center - Amherst - MA": "641eed70-fff8-4300-a17a-354663952ad6",
         "Hangzhou": "d0de6593-5d02-4cf8-ac11-bd061d36ac8a",
-        "Conde Rodolfo Crespi - São Paulo": "72d48a5d-71d2-4226-90b1-f6ddd612a5f3"
+        "Conde Rodolfo Crespi - São Paulo": "72d48a5d-71d2-4226-90b1-f6ddd612a5f3",
+        "Giuseppe Meazza": "6bf35868-5c62-43b2-b09a-4ecc09ccb5a7",
+        "Cabot Center Gym, Boston, Massachusetts": "7bcc57d0-3fd8-43d7-a70c-e080e252697b",
+        "Solomon Court at Cabot Center, Boston, Massachusetts": "7bcc57d0-3fd8-43d7-a70c-e080e252697b",
+        "Cabot Center - Boston - MA": "7bcc57d0-3fd8-43d7-a70c-e080e252697b",
+        "Bogota": "b979cbe4-3705-489c-ae29-1226ab6ddefe"
     }
 }

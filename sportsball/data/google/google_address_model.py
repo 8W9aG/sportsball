@@ -607,15 +607,6 @@ TD_BANK_SPORTS_CENTER = SportsballGeocodeTuple(
     housenumber="305",
     country="USA",
 )
-CABOT_CENTER = SportsballGeocodeTuple(
-    city="Boston",
-    state="MA",
-    postal="02115",
-    lat=42.3396,
-    lng=-71.0898,
-    housenumber="400",
-    country="USA",
-)
 CENTRUM_ARENA = SportsballGeocodeTuple(
     city="Cedar City",
     state="UT",
@@ -4049,7 +4040,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="100",
         country="USA",
     ),
-    "Cabot Center Gym, Boston, Massachusetts": CABOT_CENTER,
     "Holt Arena, Pocatello, Idaho": ICCU_ARENA,
     "Covelli Centre, Youngstown, Ohio": SportsballGeocodeTuple(
         city="Youngstown",
@@ -6984,7 +6974,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "ASU Acadome, Montgomery, Alabama": DUNN_OLIVER_ACADOME,
-    "Solomon Court at Cabot Center, Boston, Massachusetts": CABOT_CENTER,
     "University, Mississippi": SportsballGeocodeTuple(
         city="University",
         state="MS",
