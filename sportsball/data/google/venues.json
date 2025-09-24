@@ -12910,6 +12910,28 @@
             "country": "USA",
             "type": "venue",
             "wiki": "Mullins_Center"
+        },
+        "d0de6593-5d02-4cf8-ac11-bd061d36ac8a": {
+            "city": "Hangzhou",
+            "state": "Zhejiang",
+            "postal": "",
+            "lat": 30.267,
+            "lng": 120.153,
+            "housenumber": "",
+            "country": "China",
+            "type": "city",
+            "wiki": "Hangzhou"
+        },
+        "72d48a5d-71d2-4226-90b1-f6ddd612a5f3": {
+            "city": "São Paulo",
+            "state": "São Paulo",
+            "postal": "",
+            "lat": -23.553333,
+            "lng": -46.604444,
+            "housenumber": "",
+            "country": "Brazil",
+            "type": "venue",
+            "wiki": "Estádio_Conde_Rodolfo_Crespi"
         }
     },
     "searches": {
@@ -14638,6 +14660,7 @@
         "ExtraMile Arena, Boise, Idaho": "e4d16472-2ffe-4fc6-b2c4-7d87fd57bd70",
         "Taco Bell Arena, Boise, Idaho": "e4d16472-2ffe-4fc6-b2c4-7d87fd57bd70",
         "Marriott Center, Provo, Utah": "c1372985-6851-4ac9-b12b-5eb409da55bd",
+        "Marriott Center - Provo - UT": "c1372985-6851-4ac9-b12b-5eb409da55bd",
         "BUL": "99959c0b-5bfb-4651-b4e6-0ebee71833a4",
         "McCamish Pavilion, Atlanta, Georgia": "5030cbaf-7343-4bee-86a6-150f92b09998",
         "McCamish Pavilion, Atlanta, GA, USA": "5030cbaf-7343-4bee-86a6-150f92b09998",
@@ -15619,6 +15642,7 @@
         "Suncoast Credit Union Arena, Fort Myers, Florida": "e768408d-6430-46be-9f1f-b830b475082a",
         "Suncoast Credit Union Arena - Fort Myers - FL": "e768408d-6430-46be-9f1f-b830b475082a",
         "Cluj-Napoca": "defb594d-7f14-4b83-ad53-5fb97f38524c",
+        "Cluj-Napoca, Romania": "defb594d-7f14-4b83-ad53-5fb97f38524c",
         "Filbert Street": "3ccd873a-afa3-41cf-802a-534837a15178",
         "UD Arena - Dayton - OH": "cbd62a41-a2ff-49bb-8f46-b121946f60b2",
         "KOR": "01114eec-26b7-4208-bada-a6747d4fd789",
@@ -15629,6 +15653,8 @@
         "ITF Incheon": "fcf61748-9a10-471b-b260-d1e3f8867d7f",
         "Mullins Center, Amherst, Massachusetts": "641eed70-fff8-4300-a17a-354663952ad6",
         "Mullins Center - Amherst, MA - United States": "641eed70-fff8-4300-a17a-354663952ad6",
-        "Mullins Memorial Center - Amherst - MA": "641eed70-fff8-4300-a17a-354663952ad6"
+        "Mullins Memorial Center - Amherst - MA": "641eed70-fff8-4300-a17a-354663952ad6",
+        "Hangzhou": "d0de6593-5d02-4cf8-ac11-bd061d36ac8a",
+        "Conde Rodolfo Crespi - São Paulo": "72d48a5d-71d2-4226-90b1-f6ddd612a5f3"
     }
 }
