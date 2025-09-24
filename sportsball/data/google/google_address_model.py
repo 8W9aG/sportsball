@@ -328,15 +328,6 @@ CHASE_FAMILY_ARENA = SportsballGeocodeTuple(
     housenumber="200",
     country="USA",
 )
-ROSE_GARDEN = SportsballGeocodeTuple(
-    city="Portland",
-    state="OR",
-    postal="",
-    lat=45.531667,
-    lng=-122.666667,
-    housenumber="1",
-    country="USA",
-)
 TIMES_UNION_CENTER = SportsballGeocodeTuple(
     city="Albany",
     state="NY",
@@ -3082,7 +3073,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "Anaheim Convention Center": ANAHEIM_CONVENTION_CENTER,
     "Amway Arena": ORLANDO_ARENA,
     "FTX Arena": FTX_ARENA,
-    "Rose Garden": ROSE_GARDEN,
     "Toyota Center - Kennewick, Washington - United States": TOYOTA_CENTER,
     "Etihad Arena - Yas Bay Waterfront, Yas Island, Abu Dhabi - United Arab Emirates": SportsballGeocodeTuple(
         city="Abu Dhabi",
@@ -4145,7 +4135,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Chase Family Arena at Reich Family Pavilion, Hartford, Connecticut": CHASE_FAMILY_ARENA,
-    "Rose Garden Arena, Portland, Oregon": ROSE_GARDEN,
     "JMU Convocation Center, Harrisonburg, Virginia": SportsballGeocodeTuple(
         city="Harrisonburg",
         state="VA",
