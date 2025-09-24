@@ -12899,6 +12899,17 @@
             "country": "South Korea",
             "type": "city",
             "wiki": "Incheon"
+        },
+        "641eed70-fff8-4300-a17a-354663952ad6": {
+            "city": "Amherst",
+            "state": "MA",
+            "postal": "01003",
+            "lat": 42.389381,
+            "lng": -72.533439,
+            "housenumber": "200",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Mullins_Center"
         }
     },
     "searches": {
@@ -14217,6 +14228,7 @@
         "Pete Mathews Coliseum, Jacksonville, Alabama": "3db40c5d-1ac7-499a-a05f-8be3f9028ca3",
         "Great Lakes, Illinois": "6a18775c-a717-430d-9cc9-8f4c1bcba02b",
         "Atlantic Union Bank Center, Harrisonburg, Virginia": "acff9642-eac6-44eb-85d3-25019ec1bebe",
+        "Atlantic Union Bank Center - Harrisonburg - VA": "acff9642-eac6-44eb-85d3-25019ec1bebe",
         "Coastal Carolina": "e6c78e0e-0d19-492d-900f-590dbeb12dce",
         "Coastal Carolina College": "e6c78e0e-0d19-492d-900f-590dbeb12dce",
         "Gallivare, Sweden": "ea4f8e07-818e-46bb-947f-95bdb1d976c6",
@@ -15373,6 +15385,7 @@
         "Monterrey, Mexico": "703f4ef6-37cc-4162-8f35-414dc1f017d9",
         "Monterrey": "703f4ef6-37cc-4162-8f35-414dc1f017d9",
         "Merida CH": "bbbd15e8-1bf4-473a-a32f-92d4b3a5f185",
+        "Merida": "bbbd15e8-1bf4-473a-a32f-92d4b3a5f185",
         "Gerland": "922059f6-0f13-4239-baf8-fcf79ec948fb",
         "J.K. Irving Centre - Moncton - NB": "0da5048a-be23-4a7b-a420-7e41b2e1a407",
         "SVK": "e9a51b6e-ec19-4b0b-a153-be059c02396d",
@@ -15613,6 +15626,9 @@
         "Quicken Loans Arena - Cleveland, Ohio - United States": "be78d8aa-1f16-4dfb-98b5-fab1da7e0b13",
         "Quicken Loans Arena, Cleveland, Ohio": "be78d8aa-1f16-4dfb-98b5-fab1da7e0b13",
         "Quicken Loans Arena - Cleveland - OH": "be78d8aa-1f16-4dfb-98b5-fab1da7e0b13",
-        "ITF Incheon": "fcf61748-9a10-471b-b260-d1e3f8867d7f"
+        "ITF Incheon": "fcf61748-9a10-471b-b260-d1e3f8867d7f",
+        "Mullins Center, Amherst, Massachusetts": "641eed70-fff8-4300-a17a-354663952ad6",
+        "Mullins Center - Amherst, MA - United States": "641eed70-fff8-4300-a17a-354663952ad6",
+        "Mullins Memorial Center - Amherst - MA": "641eed70-fff8-4300-a17a-354663952ad6"
     }
 }

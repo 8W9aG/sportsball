@@ -376,6 +376,7 @@ def _create_tennisabstract_game_model(
                                 .strip()
                                 .replace("%", "")
                                 .replace(")", "")
+                                .replace("-", "0.0")
                             )
                             for x in df["deep---%"].dropna().tolist()
                         ]

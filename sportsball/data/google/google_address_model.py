@@ -1849,15 +1849,6 @@ PETERSEN_EVENTS_CENTER = SportsballGeocodeTuple(
     housenumber="3719",
     country="USA",
 )
-MULLINS_CENTER = SportsballGeocodeTuple(
-    city="Amherst",
-    state="MA",
-    postal="01003",
-    lat=42.389381,
-    lng=-72.533439,
-    housenumber="200",
-    country="USA",
-)
 PNC_ARENA = SportsballGeocodeTuple(
     city="Raleigh",
     state="NC",
@@ -2559,7 +2550,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Mullins Center, Amherst, Massachusetts": MULLINS_CENTER,
     "Richardson Indoor Stadium, Spartanburg, South Carolina": SportsballGeocodeTuple(
         city="Spartanburg",
         state="SC",
@@ -16083,7 +16073,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Mullins Center - Amherst, MA - United States": MULLINS_CENTER,
     "Wichita State University": SportsballGeocodeTuple(
         city="Wichita",
         state="KS",

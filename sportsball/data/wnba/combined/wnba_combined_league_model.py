@@ -8,8 +8,50 @@ from ...league import League
 from ..espn.wnba_espn_league_model import WNBAESPNLeagueModel
 from ..oddsportal.wnba_oddsportal_league_model import WNBAOddsPortalLeagueModel
 
-WNBA_TEAM_IDENTITY_MAP: dict[str, str] = {}
-WNBA_VENUE_IDENTITY_MAP: dict[str, str] = {}
+MERCURY = "11"
+LIBERTY = "9"
+MYSTICS = "16"
+ROCKERS = "2"
+MONARCHS = "13"
+SPARKS = "6"
+COMETS = "4"
+STARZZ = "15"
+LYNX = "8"
+STING = "1"
+MIRACLE = "10"
+SHOCK = "3"
+WNBA_TEAM_IDENTITY_MAP: dict[str, str] = {
+    # ESPN
+    "11": MERCURY,
+    "9": LIBERTY,
+    "16": MYSTICS,
+    "2": ROCKERS,
+    "13": MONARCHS,
+    "6": SPARKS,
+    "4": COMETS,
+    "15": STARZZ,
+    "8": LYNX,
+    "1": STING,
+    "10": MIRACLE,
+    "3": SHOCK,
+}
+MADISON_SQUARE_GARDEN = "1830"
+CAPITAL_ONE_ARENA = "1823"
+QUICKEN_LOANS_ARENA = "3417"
+CRYPTO_COM_ARENA = "1841"
+TARGET_CENTER = "2029"
+THE_PALACE_OF_AUBURN_HILLS = "3419"
+KEY_ARENA = "2184"
+WNBA_VENUE_IDENTITY_MAP: dict[str, str] = {
+    # ESPN
+    "1830": MADISON_SQUARE_GARDEN,
+    "1823": CAPITAL_ONE_ARENA,
+    "3417": QUICKEN_LOANS_ARENA,
+    "1841": CRYPTO_COM_ARENA,
+    "2029": TARGET_CENTER,
+    "3419": THE_PALACE_OF_AUBURN_HILLS,
+    "2184": KEY_ARENA,
+}
 WNBA_PLAYER_IDENTITY_MAP: dict[str, str] = {}
 
 
