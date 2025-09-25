@@ -1,12 +1,11 @@
 """FootballData league model."""
 
+import csv
 import urllib.parse
-from io import BytesIO
 from typing import Any, Iterator
 
 import tqdm
 from bs4 import BeautifulSoup
-from openpyxl import load_workbook
 from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
 from ..epl.position import Position
@@ -97,34 +96,27 @@ class FootballDataLeagueModel(LeagueModel):
                         response = self.session.get(url)
                     response.raise_for_status()
                     soup = BeautifulSoup(response.text, "lxml")
-                    spreadsheet_urls = []
+                    csv_urls = []
                     for a in soup.find_all("a", href=True):
                         if needs_shutdown():
                             return
-                        spreadsheet_url = urllib.parse.urljoin(url, a.get("href"))
-                        if not spreadsheet_url.endswith(".xlsx"):
+                        csv_url = urllib.parse.urljoin(url, a.get("href"))
+                        if not csv_url.endswith(".csv"):
                             continue
-                        if self.league == League.EPL and spreadsheet_url.endswith(
-                            "E0.xlsx"
-                        ):
-                            spreadsheet_urls.append(spreadsheet_url)
+                        if self.league == League.EPL and csv_url.endswith("E0.csv"):
+                            csv_urls.append(csv_url)
 
-                    for count, spreadsheet_url in enumerate(
-                        sorted(spreadsheet_urls, reverse=True)
-                    ):
+                    for count, csv_url in enumerate(sorted(csv_urls, reverse=True)):
                         response = None
                         if count == 0:
                             with self.session.cache_disabled():
-                                self.session.cache.delete(urls=[spreadsheet_url])
-                                response = self.session.get(spreadsheet_url)
+                                self.session.cache.delete(urls=[csv_url])
+                                response = self.session.get(csv_url)
                         else:
-                            response = self.session.get(spreadsheet_url)
+                            response = self.session.get(csv_url)
                         response.raise_for_status()
-                        workbook = load_workbook(filename=BytesIO(response.content))
-                        ws = workbook.active
-                        if ws is None:
-                            raise ValueError("ws is null.")
-                        for row in ws.iter_rows():
+                        cr = csv.reader(response.text)
+                        for row in cr:
                             game_model = self._row_to_game(row)
                             if game_model is not None:
                                 pbar.update(1)

@@ -12987,6 +12987,28 @@
             "country": "Portugal",
             "type": "city",
             "wiki": "Caldas_da_Rainha"
+        },
+        "8db1dad7-f4ed-4700-b95b-04626f58a96e": {
+            "city": "Brookings",
+            "state": "SD",
+            "postal": "57007",
+            "lat": 44.317984,
+            "lng": -96.779058,
+            "housenumber": "1165",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "First_Bank_and_Trust_Arena"
+        },
+        "326d63ae-6562-4de0-9786-59339186d528": {
+            "city": "Málaga",
+            "state": "",
+            "postal": "",
+            "lat": 36.719444,
+            "lng": -4.42,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "city",
+            "wiki": "Málaga"
         }
     },
     "searches": {
@@ -14281,6 +14303,7 @@
         "South Florida Stars College": "ad437163-252b-4396-a488-d97a4f922593",
         "South Florida College": "ad437163-252b-4396-a488-d97a4f922593",
         "Madrid, Spain": "e1cc12bb-e030-41ec-8f1c-5c8bee992729",
+        "Madrid": "e1cc12bb-e030-41ec-8f1c-5c8bee992729",
         "Knights Hall, Louisville, Kentucky": "6cd182d1-5765-49bb-93da-a1a1a46d112a",
         "Alico Arena, Fort Myers, Florida": "f6f41a65-5008-462c-9338-9f55aae5ed8f",
         "Estadio Abanca-Riazor - A Coruña, Galicia - Spain": "c2d864f0-8b25-41fb-900e-2f39f678089a",
@@ -15718,6 +15741,9 @@
         "Cabot Center - Boston - MA": "7bcc57d0-3fd8-43d7-a70c-e080e252697b",
         "Bogota": "b979cbe4-3705-489c-ae29-1226ab6ddefe",
         "Sant Nicola - Bari": "e34cd004-1faf-4126-a0a3-619e3153fca6",
-        "Caldas da Rainha": "b7914e0d-478d-4175-ae2f-b41a07cd7943"
+        "Caldas da Rainha": "b7914e0d-478d-4175-ae2f-b41a07cd7943",
+        "First Bank & Trust Arena, Brookings, South Dakota": "8db1dad7-f4ed-4700-b95b-04626f58a96e",
+        "First Bank & Trust Arena - Brookings - SD - 57006": "8db1dad7-f4ed-4700-b95b-04626f58a96e",
+        "BJK Cup Finals": "326d63ae-6562-4de0-9786-59339186d528"
     }
 }
