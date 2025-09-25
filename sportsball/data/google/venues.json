@@ -12965,6 +12965,28 @@
             "country": "Colombia",
             "type": "city",
             "wiki": "Bogotá"
+        },
+        "e34cd004-1faf-4126-a0a3-619e3153fca6": {
+            "city": "Bari",
+            "state": "",
+            "postal": "",
+            "lat": 41.084736,
+            "lng": 16.840072,
+            "housenumber": "",
+            "country": "Italy",
+            "type": "venue",
+            "wiki": "Stadio_San_Nicola"
+        },
+        "b7914e0d-478d-4175-ae2f-b41a07cd7943": {
+            "city": "Caldas da Rainha",
+            "state": "",
+            "postal": "",
+            "lat": 39.407222,
+            "lng": -9.135833,
+            "housenumber": "",
+            "country": "Portugal",
+            "type": "city",
+            "wiki": "Caldas_da_Rainha"
         }
     },
     "searches": {
@@ -15423,6 +15445,7 @@
         "Silvio O. Conte Forum, Chestnut Hill, Massachusetts": "bc78c4ec-1915-485f-ab04-bc8296799bbb",
         "Silvio O. Conte Forum, Boston, Massachusetts": "bc78c4ec-1915-485f-ab04-bc8296799bbb",
         "Conte Forum - Chestnut Hill, MA - United States": "bc78c4ec-1915-485f-ab04-bc8296799bbb",
+        "Conte Forum - Chestnut Hill - MA": "bc78c4ec-1915-485f-ab04-bc8296799bbb",
         "ITF Evansville": "1abd86e2-5a3d-4814-98e6-6d421a7d1e50",
         "Evansville, Indiana": "1abd86e2-5a3d-4814-98e6-6d421a7d1e50",
         "Parc de Princes": "87e56f40-8580-4d6d-ad50-119d0fa97c0f",
@@ -15693,6 +15716,8 @@
         "Cabot Center Gym, Boston, Massachusetts": "7bcc57d0-3fd8-43d7-a70c-e080e252697b",
         "Solomon Court at Cabot Center, Boston, Massachusetts": "7bcc57d0-3fd8-43d7-a70c-e080e252697b",
         "Cabot Center - Boston - MA": "7bcc57d0-3fd8-43d7-a70c-e080e252697b",
-        "Bogota": "b979cbe4-3705-489c-ae29-1226ab6ddefe"
+        "Bogota": "b979cbe4-3705-489c-ae29-1226ab6ddefe",
+        "Sant Nicola - Bari": "e34cd004-1faf-4126-a0a3-619e3153fca6",
+        "Caldas da Rainha": "b7914e0d-478d-4175-ae2f-b41a07cd7943"
     }
 }
