@@ -2803,15 +2803,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "Mississippi Coast Coliseum, Biloxi, Mississippi": MISSISSIPPI_COAST_COLISEUM,
     "Simmons Bank Arena, North Little Rock, Arkansas": SIMMONS_BANK_ARENA,
     "FLA Live Arena, Sunrise, Florida": FLA_LIVE_ARENA,
-    "Dollar Loan Center, Henderson, Nevada": SportsballGeocodeTuple(
-        city="Henderson",
-        state="NV",
-        postal="",
-        lat=36.018977,
-        lng=-115.081632,
-        housenumber="200",
-        country="USA",
-    ),
     "Vivint Arena, Salt Lake City, Utah": VIVINT_ARENA,
     "Rock Hill Sports & Event Center, Rock Hill, South Carolina": SportsballGeocodeTuple(
         city="Rock Hill",

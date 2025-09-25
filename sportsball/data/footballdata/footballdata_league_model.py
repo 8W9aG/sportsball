@@ -1,6 +1,7 @@
 """FootballData league model."""
 
 import csv
+import io
 import urllib.parse
 from typing import Any, Iterator
 
@@ -37,28 +38,28 @@ class FootballDataLeagueModel(LeagueModel):
         return {str(x): str(x) for x in Position}
 
     def _row_to_game(self, row: Any) -> GameModel | None:
-        division_cell = str(row[0])
+        division_cell = str(row["Div"])
         if division_cell in {"E0"}:
             return None
-        date_cell = str(row[1]).strip()
-        time_cell = str(row[2]).strip()
-        home_team_cell = str(row[3]).strip()
-        away_team_cell = str(row[4]).strip()
-        full_time_home_goals_cell = str(row[5]).strip()
-        full_time_away_goals_cell = str(row[6]).strip()
-        referee_cell = str(row[11]).strip()
-        home_shots_cell = str(row[12]).strip()
-        away_shots_cell = str(row[13]).strip()
-        home_shots_on_target_cell = str(row[14]).strip()
-        away_shots_on_target_cell = str(row[15]).strip()
-        home_fouls_cell = str(row[16]).strip()
-        away_fouls_cell = str(row[17]).strip()
-        home_yellow_cards_cell = str(row[20]).strip()
-        away_yellow_cards_cell = str(row[21]).strip()
-        home_red_cards_cell = str(row[22]).strip()
-        away_red_cards_cell = str(row[23]).strip()
-        home_odds_cell = str(row[24]).strip()
-        away_odds_cell = str(row[26]).strip()
+        date_cell = str(row["Date"]).strip()
+        time_cell = str(row["Time"]).strip()
+        home_team_cell = str(row["HomeTeam"]).strip()
+        away_team_cell = str(row["AwayTeam"]).strip()
+        full_time_home_goals_cell = str(row["FTHG"]).strip()
+        full_time_away_goals_cell = str(row["FTAG"]).strip()
+        referee_cell = str(row["Referee"]).strip()
+        home_shots_cell = str(row["HS"]).strip()
+        away_shots_cell = str(row["AS"]).strip()
+        home_shots_on_target_cell = str(row["HST"]).strip()
+        away_shots_on_target_cell = str(row["AST"]).strip()
+        home_fouls_cell = str(row["HF"]).strip()
+        away_fouls_cell = str(row["AF"]).strip()
+        home_yellow_cards_cell = str(row["HY"]).strip()
+        away_yellow_cards_cell = str(row["AY"]).strip()
+        home_red_cards_cell = str(row["HR"]).strip()
+        away_red_cards_cell = str(row["AR"]).strip()
+        home_odds_cell = str(row["B365H"]).strip()
+        away_odds_cell = str(row["B365A"]).strip()
         return create_footballdata_game_model(
             session=self.session,
             league=self.league,
@@ -115,7 +116,8 @@ class FootballDataLeagueModel(LeagueModel):
                         else:
                             response = self.session.get(csv_url)
                         response.raise_for_status()
-                        cr = csv.reader(response.text)
+                        handle = io.StringIO(response.text)
+                        cr = csv.reader(handle)
                         for row in cr:
                             game_model = self._row_to_game(row)
                             if game_model is not None:

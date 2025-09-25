@@ -13152,6 +13152,60 @@
             "country": "France",
             "type": "city",
             "wiki": "Rouen"
+        },
+        "46a5c3b8-8fbe-4656-bde0-932760f88f64": {
+            "city": "Barcelona",
+            "state": "Catalonia",
+            "postal": "",
+            "lat": 41.363389,
+            "lng": 2.152556,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Palau_Sant_Jordi"
+        },
+        "55ad6fb6-5766-44ff-87c3-b78c474315a2": {
+            "city": "Paris",
+            "state": "",
+            "postal": "",
+            "lat": 48.856667,
+            "lng": 2.352222,
+            "housenumber": "",
+            "country": "France",
+            "type": "city",
+            "wiki": "Paris"
+        },
+        "88390d86-b457-4967-a8f7-d8bab7fd1075": {
+            "city": "Palermo",
+            "state": "",
+            "postal": "",
+            "lat": 38.152767,
+            "lng": 13.342275,
+            "housenumber": "",
+            "country": "Italy",
+            "type": "city",
+            "wiki": "Stadio_Renzo_Barbera"
+        },
+        "9961b733-d191-43b9-aa9d-45dc79310241": {
+            "city": "Henderson",
+            "state": "NV",
+            "postal": "",
+            "lat": 36.018977,
+            "lng": -115.081632,
+            "housenumber": "200",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Lee's_Family_Forum"
+        },
+        "d5cd7938-1e84-4ff8-afcd-45404d0f1b3a": {
+            "city": "Sioux Falls",
+            "state": "SD",
+            "postal": "",
+            "lat": 43.561667,
+            "lng": -96.75,
+            "housenumber": "1201",
+            "country": "USA",
+            "type": "venue"
         }
     },
     "searches": {
@@ -15553,6 +15607,7 @@
         "Minute Maid Park": "e3b3e59e-23fe-4767-8fc3-d141ecac4140",
         "Daikin Park - Houston - Texas - 77002": "e3b3e59e-23fe-4767-8fc3-d141ecac4140",
         "Rabat, Morocco": "45203794-1531-407a-8082-0c77797aaa4b",
+        "Rabat": "45203794-1531-407a-8082-0c77797aaa4b",
         "Porto CH": "2cc37a89-d98d-485b-a6f5-b53657d39d1b",
         "Porto, Portugal": "2cc37a89-d98d-485b-a6f5-b53657d39d1b",
         "Suwon Stadium - Suwon": "faae87a1-c8af-42be-b497-86c25334bcd5",
@@ -15913,6 +15968,13 @@
         "Cam Henderson Center - Huntington - WV": "6b442396-a13f-4835-bf91-7d1f7adaa980",
         "Ocean Center, Daytona Beach, Florida": "fad41d95-b692-4f22-9daa-277885bef91a",
         "Ocean Center - Daytona Beach - FL": "fad41d95-b692-4f22-9daa-277885bef91a",
-        "Rouen": "cef7a7ac-ebcf-4c0f-93ae-91fcd8e1c22f"
+        "Rouen": "cef7a7ac-ebcf-4c0f-93ae-91fcd8e1c22f",
+        "Palau Sant Jordi - Barcelona": "46a5c3b8-8fbe-4656-bde0-932760f88f64",
+        "Paris": "55ad6fb6-5766-44ff-87c3-b78c474315a2",
+        "Renzo Barbera - Palermo": "88390d86-b457-4967-a8f7-d8bab7fd1075",
+        "Dollar Loan Center, Henderson, Nevada": "9961b733-d191-43b9-aa9d-45dc79310241",
+        "Lee's Family Forum - Henderson - NV": "9961b733-d191-43b9-aa9d-45dc79310241",
+        "Denny Sanford Premier Center, Sioux Falls, South Dakota": "d5cd7938-1e84-4ff8-afcd-45404d0f1b3a",
+        "Denny Sanford Premier Center - Sioux Falls - SD - 57104": "d5cd7938-1e84-4ff8-afcd-45404d0f1b3a"
     }
 }
