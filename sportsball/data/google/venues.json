@@ -13009,6 +13009,50 @@
             "country": "Spain",
             "type": "city",
             "wiki": "Málaga"
+        },
+        "15e71d0a-f833-448d-9a61-f856f6475f0a": {
+            "city": "Verona",
+            "state": "",
+            "postal": "",
+            "lat": 45.435278,
+            "lng": 10.968611,
+            "housenumber": "",
+            "country": "Italy",
+            "type": "venue",
+            "wiki": "Stadio_Marcantonio_Bentegodi"
+        },
+        "efb09802-20b2-460f-8968-60e2e6b06454": {
+            "city": "Canberra",
+            "state": "ACT",
+            "postal": "",
+            "lat": -35.293056,
+            "lng": 149.126944,
+            "housenumber": "",
+            "country": "Australia",
+            "type": "city",
+            "wiki": "Canberra"
+        },
+        "1005fe08-7fcd-4f7c-a436-316200bbf8d8": {
+            "city": "Estero",
+            "state": "FL",
+            "postal": "",
+            "lat": 26.440668,
+            "lng": -81.778809,
+            "housenumber": "11000",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Hertz_Arena"
+        },
+        "696ec002-a30e-451a-bd3c-634abc1aa776": {
+            "city": "Denver",
+            "state": "CO",
+            "postal": "",
+            "lat": 39.682106,
+            "lng": -104.961592,
+            "housenumber": "2240",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Magness_Arena"
         }
     },
     "searches": {
@@ -15344,6 +15388,7 @@
         "Charleston, South Carolina": "90510be4-e508-44e9-90a9-1a43af3036ad",
         "Charleston, South Carolina, United States": "90510be4-e508-44e9-90a9-1a43af3036ad",
         "Charleston, USA": "90510be4-e508-44e9-90a9-1a43af3036ad",
+        "Charleston": "90510be4-e508-44e9-90a9-1a43af3036ad",
         "AOL-Arena - Hamburg": "8e4ee74c-661d-48df-8064-9890a09b2190",
         "Mizzou Arena - Columbia - MO": "e62a6f6d-47d2-4034-b337-c1a40025c4ba",
         "Cable Dahmer Arena - Independence - MO - 64058": "e72e2bfb-7a27-4d7c-bfd2-68c820477ecf",
@@ -15744,6 +15789,14 @@
         "Caldas da Rainha": "b7914e0d-478d-4175-ae2f-b41a07cd7943",
         "First Bank & Trust Arena, Brookings, South Dakota": "8db1dad7-f4ed-4700-b95b-04626f58a96e",
         "First Bank & Trust Arena - Brookings - SD - 57006": "8db1dad7-f4ed-4700-b95b-04626f58a96e",
-        "BJK Cup Finals": "326d63ae-6562-4de0-9786-59339186d528"
+        "BJK Cup Finals": "326d63ae-6562-4de0-9786-59339186d528",
+        "Antonio Bentegodi": "15e71d0a-f833-448d-9a61-f856f6475f0a",
+        "Canberra CH": "efb09802-20b2-460f-8968-60e2e6b06454",
+        "Hertz Arena, Estero, Florida": "1005fe08-7fcd-4f7c-a436-316200bbf8d8",
+        "Germain Arena, Estero, Florida": "1005fe08-7fcd-4f7c-a436-316200bbf8d8",
+        "Hertz Arena - Estero - FL": "1005fe08-7fcd-4f7c-a436-316200bbf8d8",
+        "Magness Arena, Denver, Colorado": "696ec002-a30e-451a-bd3c-634abc1aa776",
+        "Magness Arena - Denver, Colorado - United States": "696ec002-a30e-451a-bd3c-634abc1aa776",
+        "Magness Arena - Denver - CO": "696ec002-a30e-451a-bd3c-634abc1aa776"
     }
 }

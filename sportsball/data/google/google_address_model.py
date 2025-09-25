@@ -310,15 +310,6 @@ ICCU_ARENA = SportsballGeocodeTuple(
     housenumber="",
     country="USA",
 )
-HERTZ_ARENA = SportsballGeocodeTuple(
-    city="Estero",
-    state="FL",
-    postal="",
-    lat=26.440668,
-    lng=-81.778809,
-    housenumber="11000",
-    country="USA",
-)
 CHASE_FAMILY_ARENA = SportsballGeocodeTuple(
     city="Hartford",
     state="CT",
@@ -1921,15 +1912,6 @@ CHAIFETZ_ARENA = SportsballGeocodeTuple(
     housenumber="1",
     country="USA",
 )
-MAGNESS_ARENA = SportsballGeocodeTuple(
-    city="Denver",
-    state="CO",
-    postal="",
-    lat=39.682106,
-    lng=-104.961592,
-    housenumber="2240",
-    country="USA",
-)
 DON_HASKINS_CENTER = SportsballGeocodeTuple(
     city="El Paso",
     state="TX",
@@ -2952,7 +2934,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="UK",
     ),
     "San Diego Sports Arena": SAN_DIEGO_SPORTS_ARENA,
-    "Hertz Arena, Estero, Florida": HERTZ_ARENA,
     "Hard Rock Hotel Riviera Maya, Cancun": SportsballGeocodeTuple(
         city="Cancun",
         state="",
@@ -4077,7 +4058,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="801",
         country="USA",
     ),
-    "Germain Arena, Estero, Florida": HERTZ_ARENA,
     "Mabee Fieldhouse, Kansas City, Kansas": SportsballGeocodeTuple(
         city="Kansas City",
         state="KS",
@@ -6460,7 +6440,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Magness Arena, Denver, Colorado": MAGNESS_ARENA,
     "Chaparral Center, Midland, Texas": SportsballGeocodeTuple(
         city="Midland",
         state="TX",
@@ -6806,15 +6785,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "New Orleans , Louisiana": NEW_ORLEANS_CITY,
-    "First Bank & Trust Arena, Brookings, South Dakota": SportsballGeocodeTuple(
-        city="Brookings",
-        state="SD",
-        postal="57007",
-        lat=44.317984,
-        lng=-96.779058,
-        housenumber="1165",
-        country="USA",
-    ),
     "Cambria County War Memorial Arena, Johnstown, Pennsylvania": SportsballGeocodeTuple(
         city="Johnstown",
         state="PA",
@@ -16271,7 +16241,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Chaifetz Arena - St. Louis, Missouri - United States": CHAIFETZ_ARENA,
-    "Magness Arena - Denver, Colorado - United States": MAGNESS_ARENA,
     "University of Wyoming": SportsballGeocodeTuple(
         city="Laramie",
         state="WY",
