@@ -37,28 +37,28 @@ class FootballDataLeagueModel(LeagueModel):
         return {str(x): str(x) for x in Position}
 
     def _row_to_game(self, row: Any) -> GameModel | None:
-        division_cell = str(row[0].value)
+        division_cell = str(row[0])
         if division_cell in {"E0"}:
             return None
-        date_cell = str(row[1].value).strip()
-        time_cell = str(row[2].value).strip()
-        home_team_cell = str(row[3].value).strip()
-        away_team_cell = str(row[4].value).strip()
-        full_time_home_goals_cell = str(row[5].value).strip()
-        full_time_away_goals_cell = str(row[6].value).strip()
-        referee_cell = str(row[11].value).strip()
-        home_shots_cell = str(row[12].value).strip()
-        away_shots_cell = str(row[13].value).strip()
-        home_shots_on_target_cell = str(row[14].value).strip()
-        away_shots_on_target_cell = str(row[15].value).strip()
-        home_fouls_cell = str(row[16].value).strip()
-        away_fouls_cell = str(row[17].value).strip()
-        home_yellow_cards_cell = str(row[20].value).strip()
-        away_yellow_cards_cell = str(row[21].value).strip()
-        home_red_cards_cell = str(row[22].value).strip()
-        away_red_cards_cell = str(row[23].value).strip()
-        home_odds_cell = str(row[24].value).strip()
-        away_odds_cell = str(row[26].value).strip()
+        date_cell = str(row[1]).strip()
+        time_cell = str(row[2]).strip()
+        home_team_cell = str(row[3]).strip()
+        away_team_cell = str(row[4]).strip()
+        full_time_home_goals_cell = str(row[5]).strip()
+        full_time_away_goals_cell = str(row[6]).strip()
+        referee_cell = str(row[11]).strip()
+        home_shots_cell = str(row[12]).strip()
+        away_shots_cell = str(row[13]).strip()
+        home_shots_on_target_cell = str(row[14]).strip()
+        away_shots_on_target_cell = str(row[15]).strip()
+        home_fouls_cell = str(row[16]).strip()
+        away_fouls_cell = str(row[17]).strip()
+        home_yellow_cards_cell = str(row[20]).strip()
+        away_yellow_cards_cell = str(row[21]).strip()
+        home_red_cards_cell = str(row[22]).strip()
+        away_red_cards_cell = str(row[23]).strip()
+        home_odds_cell = str(row[24]).strip()
+        away_odds_cell = str(row[26]).strip()
         return create_footballdata_game_model(
             session=self.session,
             league=self.league,

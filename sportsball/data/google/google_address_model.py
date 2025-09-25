@@ -553,15 +553,6 @@ MEMORIAL_COLISEUM = SportsballGeocodeTuple(
     housenumber="300",
     country="USA",
 )
-BROOKSHIRE_GROCERY_ARENA = SportsballGeocodeTuple(
-    city="Bossier City",
-    state="LA",
-    postal="",
-    lat=32.465167,
-    lng=-93.673583,
-    housenumber="2000",
-    country="USA",
-)
 NEW_ORLEANS_CITY = SportsballGeocodeTuple(
     city="New Orleans",
     state="LA",
@@ -2309,15 +2300,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         lat=45.510987,
         lng=-122.687471,
         housenumber="930",
-        country="USA",
-    ),
-    "Haas Pavilion, Berkeley, California": SportsballGeocodeTuple(
-        city="Berkeley",
-        state="CA",
-        postal="",
-        lat=37.8694,
-        lng=-122.262,
-        housenumber="14",
         country="USA",
     ),
     "Murphy Athletic Center, Murfreesboro, Tennessee": MURPHY_ATHELTIC_CENTER,
@@ -5841,7 +5823,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Brookshire Grocery Arena, Bossier City, Louisiana": BROOKSHIRE_GROCERY_ARENA,
     "Roberto Clemente Coliseum, San Juan": SportsballGeocodeTuple(
         city="San Juan",
         state="PR",
@@ -6664,7 +6645,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "CenturyLink Center (LA), Bossier City, Louisiana": BROOKSHIRE_GROCERY_ARENA,
     "Dothan Civic Center, Dothan, Alabama": SportsballGeocodeTuple(
         city="Dothan",
         state="AL",
@@ -7444,7 +7424,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="400",
         country="USA",
     ),
-    "CenturyTel Center, Bossier City, Louisiana": BROOKSHIRE_GROCERY_ARENA,
     "Glens Falls Civic Center, Glens Falls, New York": SportsballGeocodeTuple(
         city="Glens Falls",
         state="NY",

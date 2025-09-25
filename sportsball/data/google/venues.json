@@ -13053,6 +13053,50 @@
             "country": "USA",
             "type": "venue",
             "wiki": "Magness_Arena"
+        },
+        "fd6ad1ea-e4c8-419c-8259-cabe8a5984d7": {
+            "city": "Bossier City",
+            "state": "LA",
+            "postal": "",
+            "lat": 32.465167,
+            "lng": -93.673583,
+            "housenumber": "2000",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Brookshire_Grocery_Arena"
+        },
+        "4da39a85-7fd1-4700-ba79-74742d40a854": {
+            "city": "Rome",
+            "state": "",
+            "postal": "",
+            "lat": 41.933889,
+            "lng": 12.454722,
+            "housenumber": "",
+            "country": "Italy",
+            "type": "venue",
+            "wiki": "Stadio_Olimpico"
+        },
+        "91d9d06d-d2f5-4723-ba11-6e13c72ca753": {
+            "city": "Berkeley",
+            "state": "CA",
+            "postal": "",
+            "lat": 37.8694,
+            "lng": -122.262,
+            "housenumber": "14",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Haas_Pavilion"
+        },
+        "4a9abdb9-b500-4d51-ac1f-32d93f781b30": {
+            "city": "Leiria",
+            "state": "",
+            "postal": "",
+            "lat": 39.75,
+            "lng": -8.8,
+            "housenumber": "",
+            "country": "Portugal",
+            "type": "city",
+            "wiki": "Leiria"
         }
     },
     "searches": {
@@ -15094,6 +15138,7 @@
         "Rogers Place, Edmonton, AB, Canada": "09482a0c-9a06-473c-88b3-847543a74ff1",
         "Rogers Place": "09482a0c-9a06-473c-88b3-847543a74ff1",
         "Rome, Italy": "28462369-22b2-4b45-b9dd-3d73856d7b11",
+        "Rome": "28462369-22b2-4b45-b9dd-3d73856d7b11",
         "Nizhny Novgorod Stadium - Nizhny Novgorod": "93e514bd-c38e-4c6d-b57d-0e8a1b351514",
         "Frontwave Arena - Oceanside - CA": "13a6107a-6a72-4e5f-8ea4-9beb135a043e",
         "Gateway Center - College Park - GA": "9c2e8552-0d29-4325-9e91-b018d625480a",
@@ -15797,6 +15842,14 @@
         "Hertz Arena - Estero - FL": "1005fe08-7fcd-4f7c-a436-316200bbf8d8",
         "Magness Arena, Denver, Colorado": "696ec002-a30e-451a-bd3c-634abc1aa776",
         "Magness Arena - Denver, Colorado - United States": "696ec002-a30e-451a-bd3c-634abc1aa776",
-        "Magness Arena - Denver - CO": "696ec002-a30e-451a-bd3c-634abc1aa776"
+        "Magness Arena - Denver - CO": "696ec002-a30e-451a-bd3c-634abc1aa776",
+        "Brookshire Grocery Arena - Bossier City - LA": "fd6ad1ea-e4c8-419c-8259-cabe8a5984d7",
+        "Brookshire Grocery Arena, Bossier City, Louisiana": "fd6ad1ea-e4c8-419c-8259-cabe8a5984d7",
+        "CenturyLink Center (LA), Bossier City, Louisiana": "fd6ad1ea-e4c8-419c-8259-cabe8a5984d7",
+        "CenturyTel Center, Bossier City, Louisiana": "fd6ad1ea-e4c8-419c-8259-cabe8a5984d7",
+        "Stadio Olimpico - Roma": "4da39a85-7fd1-4700-ba79-74742d40a854",
+        "Haas Pavilion - Berkeley - CA": "91d9d06d-d2f5-4723-ba11-6e13c72ca753",
+        "Haas Pavilion, Berkeley, California": "91d9d06d-d2f5-4723-ba11-6e13c72ca753",
+        "ITF Leiria": "4a9abdb9-b500-4d51-ac1f-32d93f781b30"
     }
 }
