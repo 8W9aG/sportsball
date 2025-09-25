@@ -6,10 +6,78 @@ from scrapesession.scrapesession import ScrapeSession  # type: ignore
 from ...combined.combined_league_model import CombinedLeagueModel
 from ...league import League
 from ..espn.epl_espn_league_model import EPLESPNLeagueModel
+from ..footballdata.epl_footballdata_league_model import \
+    EPLFootballDataLeagueModel
 from ..oddsportal.epl_oddsportal_league_model import EPLOddsPortalLeagueModel
 
-EPL_TEAM_IDENTITY_MAP: dict[str, str] = {}
-EPL_VENUE_IDENTITY_MAP: dict[str, str] = {}
+BOLTON_WANDERERS = "358"
+WEST_HAM_UNITED = "371"
+DERBY_COUNTY = "374"
+SUNDERLAND = "366"
+NEWCASTLE_UNITED = "361"
+SOUTHAMPTON = "376"
+CHARLTON_ATHLETIC = "372"
+MANCHESTER_UNITED = "360"
+IPSWICH_TOWN = "373"
+LIVERPOOL = "364"
+TOTTENHAM_HOTSPUR = "367"
+LEICESTER_CITY = "375"
+MIDDLESBOROUGH = "369"
+LEEDS_UNITED = "357"
+ASTON_VILLA = "362"
+CHELSEA = "363"
+FULHAM = "370"
+BLACKBURN_ROVERS = "365"
+EVERTON = "368"
+ARSENAL = "359"
+EPL_TEAM_IDENTITY_MAP: dict[str, str] = {
+    # ESPN
+    "358": BOLTON_WANDERERS,
+    "371": WEST_HAM_UNITED,
+    "374": DERBY_COUNTY,
+    "366": SUNDERLAND,
+    "361": NEWCASTLE_UNITED,
+    "376": SOUTHAMPTON,
+    "372": CHARLTON_ATHLETIC,
+    "360": MANCHESTER_UNITED,
+    "373": IPSWICH_TOWN,
+    "364": LIVERPOOL,
+    "367": TOTTENHAM_HOTSPUR,
+    "375": LEICESTER_CITY,
+    "369": MIDDLESBOROUGH,
+    "357": LEEDS_UNITED,
+    "362": ASTON_VILLA,
+    "363": CHELSEA,
+    "370": FULHAM,
+    "365": BLACKBURN_ROVERS,
+    "368": EVERTON,
+    "359": ARSENAL,
+}
+BOLEYN_GROUND = "304"
+STADIUM_OF_LIGHT = "194"
+ST_MARYS_STADIUM = "303"
+OLD_TRAFFORD = "250"
+ANFIELD = "192"
+FILBERT_STREET = "191"
+ELLAND_ROAD = "190"
+STAMFORD_BRIDGE = "249"
+EWOOD_PARK = "280"
+HIGHBURY = "267"
+PORTMAN_ROAD = "257"
+EPL_VENUE_IDENTITY_MAP: dict[str, str] = {
+    # ESPN
+    "304": BOLEYN_GROUND,
+    "194": STADIUM_OF_LIGHT,
+    "303": ST_MARYS_STADIUM,
+    "250": OLD_TRAFFORD,
+    "192": ANFIELD,
+    "191": FILBERT_STREET,
+    "190": ELLAND_ROAD,
+    "249": STAMFORD_BRIDGE,
+    "280": EWOOD_PARK,
+    "267": HIGHBURY,
+    "257": PORTMAN_ROAD,
+}
 EPL_PLAYER_IDENTITY_MAP: dict[str, str] = {}
 
 
@@ -23,8 +91,9 @@ class EPLCombinedLeagueModel(CombinedLeagueModel):
             [
                 EPLESPNLeagueModel(session, position=0),
                 EPLOddsPortalLeagueModel(session, position=1),
-                # EPLSportsDBLeagueModel(session, position=2),
-                # EPLSportsReferenceLeagueModel(session, position=3),
+                EPLFootballDataLeagueModel(session, position=2),
+                # EPLSportsDBLeagueModel(session, position=3),
+                # EPLSportsReferenceLeagueModel(session, position=4),
             ],
             league_filter,
         )

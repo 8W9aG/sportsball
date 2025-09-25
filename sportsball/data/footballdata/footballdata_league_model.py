@@ -1,0 +1,142 @@
+"""FootballData league model."""
+
+import urllib.parse
+from io import BytesIO
+from typing import Any, Iterator
+
+import tqdm
+from bs4 import BeautifulSoup
+from openpyxl import load_workbook
+from scrapesession.scrapesession import ScrapeSession  # type: ignore
+
+from ..epl.position import Position
+from ..game_model import GameModel
+from ..league import League
+from ..league_model import SHUTDOWN_FLAG, LeagueModel, needs_shutdown
+from .footballdata_game_model import create_footballdata_game_model
+
+
+class FootballDataLeagueModel(LeagueModel):
+    """FootballData implementation of the league model."""
+
+    def __init__(
+        self,
+        league: League,
+        session: ScrapeSession,
+        position: int | None = None,
+    ) -> None:
+        super().__init__(league, session, position=position)
+
+    @classmethod
+    def name(cls) -> str:
+        """The name of the league model."""
+        return "footballdata-league-model"
+
+    @classmethod
+    def position_validator(cls) -> dict[str, str]:
+        """Football position validators."""
+        return {str(x): str(x) for x in Position}
+
+    def _row_to_game(self, row: Any) -> GameModel | None:
+        division_cell = str(row[0].value)
+        if division_cell in {"E0"}:
+            return None
+        date_cell = str(row[1].value).strip()
+        time_cell = str(row[2].value).strip()
+        home_team_cell = str(row[3].value).strip()
+        away_team_cell = str(row[4].value).strip()
+        full_time_home_goals_cell = str(row[5].value).strip()
+        full_time_away_goals_cell = str(row[6].value).strip()
+        referee_cell = str(row[11].value).strip()
+        home_shots_cell = str(row[12].value).strip()
+        away_shots_cell = str(row[13].value).strip()
+        home_shots_on_target_cell = str(row[14].value).strip()
+        away_shots_on_target_cell = str(row[15].value).strip()
+        home_fouls_cell = str(row[16].value).strip()
+        away_fouls_cell = str(row[17].value).strip()
+        home_yellow_cards_cell = str(row[20].value).strip()
+        away_yellow_cards_cell = str(row[21].value).strip()
+        home_red_cards_cell = str(row[22].value).strip()
+        away_red_cards_cell = str(row[23].value).strip()
+        home_odds_cell = str(row[24].value).strip()
+        away_odds_cell = str(row[26].value).strip()
+        return create_footballdata_game_model(
+            session=self.session,
+            league=self.league,
+            date=date_cell,
+            time=time_cell,
+            home_team=home_team_cell,
+            away_team=away_team_cell,
+            full_time_home_goals=full_time_home_goals_cell,
+            full_time_away_goals=full_time_away_goals_cell,
+            referee=referee_cell,
+            home_shots=home_shots_cell,
+            away_shots=away_shots_cell,
+            home_shots_on_target=home_shots_on_target_cell,
+            away_shots_on_target=away_shots_on_target_cell,
+            home_fouls=home_fouls_cell,
+            away_fouls=away_fouls_cell,
+            home_yellow_cards=home_yellow_cards_cell,
+            away_yellow_cards=away_yellow_cards_cell,
+            home_red_cards=home_red_cards_cell,
+            away_red_cards=away_red_cards_cell,
+            home_odds=home_odds_cell,
+            away_odds=away_odds_cell,
+        )
+
+    @property
+    def games(self) -> Iterator[GameModel]:
+        """Find all the games."""
+        with self.session.wayback_disabled():
+            try:
+                with tqdm.tqdm(position=self.position) as pbar:
+                    url = self._url
+                    response = None
+                    with self.session.cache_disabled():
+                        self.session.cache.delete(urls=[url])
+                        response = self.session.get(url)
+                    response.raise_for_status()
+                    soup = BeautifulSoup(response.text, "lxml")
+                    spreadsheet_urls = []
+                    for a in soup.find_all("a", href=True):
+                        if needs_shutdown():
+                            return
+                        spreadsheet_url = urllib.parse.urljoin(url, a.get("href"))
+                        if not spreadsheet_url.endswith(".xlsx"):
+                            continue
+                        if self.league == League.EPL and spreadsheet_url.endswith(
+                            "E0.xlsx"
+                        ):
+                            spreadsheet_urls.append(spreadsheet_url)
+
+                    for count, spreadsheet_url in enumerate(
+                        sorted(spreadsheet_urls, reverse=True)
+                    ):
+                        response = None
+                        if count == 0:
+                            with self.session.cache_disabled():
+                                self.session.cache.delete(urls=[spreadsheet_url])
+                                response = self.session.get(spreadsheet_url)
+                        else:
+                            response = self.session.get(spreadsheet_url)
+                        response.raise_for_status()
+                        workbook = load_workbook(filename=BytesIO(response.content))
+                        ws = workbook.active
+                        if ws is None:
+                            raise ValueError("ws is null.")
+                        for row in ws.iter_rows():
+                            game_model = self._row_to_game(row)
+                            if game_model is not None:
+                                pbar.update(1)
+                                pbar.set_description(f"FootballData - {game_model.dt}")
+                                yield game_model
+            except Exception as exc:
+                SHUTDOWN_FLAG.set()
+                raise exc
+
+    @property
+    def _url(self) -> str:
+        if self.league == League.EPL:
+            return "https://www.football-data.co.uk/englandm.php"
+        else:
+            raise ValueError(f"League {self.league} not supported")
