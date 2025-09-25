@@ -28,6 +28,9 @@ WEST = "99"
 EAST = "98"
 SUN = "18"
 SILVER_STARS = "17"
+TEAM_USA = "97"
+TEAM_WNBA = "96"
+SKY = "19"
 WNBA_TEAM_IDENTITY_MAP: dict[str, str] = {
     # ESPN
     "11": MERCURY,
@@ -50,6 +53,9 @@ WNBA_TEAM_IDENTITY_MAP: dict[str, str] = {
     "98": EAST,
     "18": SUN,
     "17": SILVER_STARS,
+    "97": TEAM_USA,
+    "96": TEAM_WNBA,
+    "19": SKY,
 }
 MADISON_SQUARE_GARDEN = "1830"
 CAPITAL_ONE_ARENA = "1823"

@@ -13097,6 +13097,61 @@
             "country": "Portugal",
             "type": "city",
             "wiki": "Leiria"
+        },
+        "4f62ea0d-4a29-45bf-b47f-9469cc8cff0f": {
+            "city": "Milan",
+            "state": "Lombardy",
+            "postal": "",
+            "lat": 45.4826,
+            "lng": 9.1423,
+            "housenumber": "",
+            "country": "Italy",
+            "type": "venue",
+            "wiki": "Allianz_Cloud_Arena"
+        },
+        "eedda6e5-337c-433f-83a8-ceede29916a7": {
+            "city": "Bologna",
+            "state": "",
+            "postal": "",
+            "lat": 44.492222,
+            "lng": 11.309722,
+            "housenumber": "",
+            "country": "Italy",
+            "type": "venue",
+            "wiki": "Stadio_Renato_Dall'Ara"
+        },
+        "6b442396-a13f-4835-bf91-7d1f7adaa980": {
+            "city": "Huntington",
+            "state": "WV",
+            "postal": "25755",
+            "lat": 38.424517,
+            "lng": -82.425211,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Cam_Henderson_Center"
+        },
+        "fad41d95-b692-4f22-9daa-277885bef91a": {
+            "city": "Daytona Beach",
+            "state": "FL",
+            "postal": "",
+            "lat": 29.2287,
+            "lng": -81.0106,
+            "housenumber": "101",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Ocean_Center"
+        },
+        "cef7a7ac-ebcf-4c0f-93ae-91fcd8e1c22f": {
+            "city": "Rouen",
+            "state": "",
+            "postal": "",
+            "lat": 49.442778,
+            "lng": 1.088611,
+            "housenumber": "",
+            "country": "France",
+            "type": "city",
+            "wiki": "Rouen"
         }
     },
     "searches": {
@@ -15850,6 +15905,14 @@
         "Stadio Olimpico - Roma": "4da39a85-7fd1-4700-ba79-74742d40a854",
         "Haas Pavilion - Berkeley - CA": "91d9d06d-d2f5-4723-ba11-6e13c72ca753",
         "Haas Pavilion, Berkeley, California": "91d9d06d-d2f5-4723-ba11-6e13c72ca753",
-        "ITF Leiria": "4a9abdb9-b500-4d51-ac1f-32d93f781b30"
+        "ITF Leiria": "4a9abdb9-b500-4d51-ac1f-32d93f781b30",
+        "NextGen Finals": "4f62ea0d-4a29-45bf-b47f-9469cc8cff0f",
+        "Renato Dall'Ara": "eedda6e5-337c-433f-83a8-ceede29916a7",
+        "Henderson Center, Huntington, West Virginia": "6b442396-a13f-4835-bf91-7d1f7adaa980",
+        "Cam Henderson Center, Huntington, West Virginia": "6b442396-a13f-4835-bf91-7d1f7adaa980",
+        "Cam Henderson Center - Huntington - WV": "6b442396-a13f-4835-bf91-7d1f7adaa980",
+        "Ocean Center, Daytona Beach, Florida": "fad41d95-b692-4f22-9daa-277885bef91a",
+        "Ocean Center - Daytona Beach - FL": "fad41d95-b692-4f22-9daa-277885bef91a",
+        "Rouen": "cef7a7ac-ebcf-4c0f-93ae-91fcd8e1c22f"
     }
 }

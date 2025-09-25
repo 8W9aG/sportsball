@@ -175,15 +175,6 @@ WAR_MEMORIAL_GYMNASIUM = SportsballGeocodeTuple(
     housenumber="2335",
     country="USA",
 )
-HENDERSON_CENTER = SportsballGeocodeTuple(
-    city="Huntington",
-    state="WV",
-    postal="25755",
-    lat=38.424517,
-    lng=-82.425211,
-    housenumber="",
-    country="USA",
-)
 STONY_BROOK_ARENA = SportsballGeocodeTuple(
     city="Stony Brook",
     state="NY",
@@ -1960,7 +1951,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="18",
         country="USA",
     ),
-    "Henderson Center, Huntington, West Virginia": HENDERSON_CENTER,
     "Costello Athletic Center, Lowell, Massachusetts": SportsballGeocodeTuple(
         city="Lowell",
         state="MA",
@@ -2925,15 +2915,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="Mexico",
     ),
-    "Ocean Center, Daytona Beach, Florida": SportsballGeocodeTuple(
-        city="Daytona Beach",
-        state="FL",
-        postal="",
-        lat=29.2287,
-        lng=-81.0106,
-        housenumber="101",
-        country="USA",
-    ),
     "Woodling Gym, Cleveland, Ohio": SportsballGeocodeTuple(
         city="Cleveland",
         state="OH",
@@ -3389,7 +3370,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Cam Henderson Center, Huntington, West Virginia": HENDERSON_CENTER,
     "Brooklyn, New York": SportsballGeocodeTuple(
         city="Brooklyn",
         state="NY",
