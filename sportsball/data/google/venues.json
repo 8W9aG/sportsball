@@ -13205,7 +13205,30 @@
             "lng": -96.75,
             "housenumber": "1201",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Denny_Sanford_Premier_Center"
+        },
+        "6c077a06-64a3-47d9-b3cf-34731fed9d68": {
+            "city": "Yokkaichi",
+            "state": "",
+            "postal": "",
+            "lat": 34.965028,
+            "lng": 136.624417,
+            "housenumber": "",
+            "country": "Japan",
+            "type": "city",
+            "wiki": "Yokkaichi"
+        },
+        "623fac8a-d8f3-4a2f-8a8f-e26f1239ab36": {
+            "city": "Cagliari",
+            "state": "",
+            "postal": "",
+            "lat": 39.199394,
+            "lng": 9.134953,
+            "housenumber": "",
+            "country": "Italy",
+            "type": "venue",
+            "wiki": "Stadio_Sant'Elia"
         }
     },
     "searches": {
@@ -14194,6 +14217,7 @@
         "BB&T Park": "53c4c021-edc5-413c-b298-14bdd743b296",
         "Truist Arena, Highland Heights, Kentucky": "53c4c021-edc5-413c-b298-14bdd743b296",
         "BB&T Arena, Highland Heights, Kentucky": "53c4c021-edc5-413c-b298-14bdd743b296",
+        "Truist Arena - Highland Heights - KY": "53c4c021-edc5-413c-b298-14bdd743b296",
         "Navy-Marine Corps Memorial Stadium - Annapolis - MD - 21401": "9cc05dfc-ae09-42f9-b32b-7bd61593aaf6",
         "Navy-Marine Corps Memorial Stadium": "9cc05dfc-ae09-42f9-b32b-7bd61593aaf6",
         "Stadium of Light, Sunderland, England": "880a5276-fe64-4a4d-a836-7b1304a91ae5",
@@ -15808,6 +15832,7 @@
         "GAB": "07d18401-698e-4e40-8b94-4a133554aa7a",
         "Lee County Sports Complex - Fort Myers - Florida - 33994": "285e9107-e07d-45aa-ba78-01abb67eebd9",
         "Strasbourg, France": "fffaf05d-8103-42d2-87ca-e53fb29163d4",
+        "Strasbourg": "fffaf05d-8103-42d2-87ca-e53fb29163d4",
         "MGM Grand Garden Arena - Las Vegas - NV": "38ab5252-d716-4fe4-b5d7-92a0aed1ef78",
         "MGM Grand Garden Arena, Paradise, Nevada": "38ab5252-d716-4fe4-b5d7-92a0aed1ef78",
         "Mayo Civic Center - Rochester - MN": "08649f71-e623-495d-9836-1f97dce7c0ef",
@@ -15975,6 +16000,8 @@
         "Dollar Loan Center, Henderson, Nevada": "9961b733-d191-43b9-aa9d-45dc79310241",
         "Lee's Family Forum - Henderson - NV": "9961b733-d191-43b9-aa9d-45dc79310241",
         "Denny Sanford Premier Center, Sioux Falls, South Dakota": "d5cd7938-1e84-4ff8-afcd-45404d0f1b3a",
-        "Denny Sanford Premier Center - Sioux Falls - SD - 57104": "d5cd7938-1e84-4ff8-afcd-45404d0f1b3a"
+        "Denny Sanford Premier Center - Sioux Falls - SD - 57104": "d5cd7938-1e84-4ff8-afcd-45404d0f1b3a",
+        "Yokkaichi CH": "6c077a06-64a3-47d9-b3cf-34731fed9d68",
+        "Comunale Sant'Elia": "623fac8a-d8f3-4a2f-8a8f-e26f1239ab36"
     }
 }
