@@ -42,7 +42,7 @@ class FootballDataLeagueModel(LeagueModel):
         if division_cell in {"E0"}:
             return None
         date_cell = str(row["Date"]).strip()
-        time_cell = str(row["Time"]).strip()
+        time_cell = str(row.get("Time", "")).strip()
         home_team_cell = str(row["HomeTeam"]).strip()
         away_team_cell = str(row["AwayTeam"]).strip()
         full_time_home_goals_cell = str(row["FTHG"]).strip()
@@ -117,7 +117,7 @@ class FootballDataLeagueModel(LeagueModel):
                             response = self.session.get(csv_url)
                         response.raise_for_status()
                         handle = io.StringIO(response.text)
-                        cr = csv.reader(handle)
+                        cr = csv.DictReader(handle)
                         for row in cr:
                             game_model = self._row_to_game(row)
                             if game_model is not None:

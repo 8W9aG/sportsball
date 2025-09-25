@@ -3091,15 +3091,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="505",
         country="USA",
     ),
-    "Denny Sanford Premier Center, Sioux Falls, South Dakota": SportsballGeocodeTuple(
-        city="Sioux Falls",
-        state="SD",
-        postal="",
-        lat=43.561667,
-        lng=-96.75,
-        housenumber="1201",
-        country="USA",
-    ),
     "Dunn-Oliver Acadome, Montgomery, Alabama": DUNN_OLIVER_ACADOME,
     "Oklahoma City, Oklahoma": SportsballGeocodeTuple(
         city="Oklahoma City",

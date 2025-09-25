@@ -13229,6 +13229,50 @@
             "country": "Italy",
             "type": "venue",
             "wiki": "Stadio_Sant'Elia"
+        },
+        "8d0fe1f6-8332-4718-a168-6d051858cab9": {
+            "city": "Manzanillo",
+            "state": "Colima",
+            "postal": "",
+            "lat": 19.052222,
+            "lng": -104.315833,
+            "housenumber": "",
+            "country": "Mexico",
+            "type": "city",
+            "wiki": "Manzanillo,_Colima"
+        },
+        "395fb269-e971-4be4-be6f-c731b82f7ed1": {
+            "city": "Siena",
+            "state": "",
+            "postal": "",
+            "lat": 43.321667,
+            "lng": 11.326111,
+            "housenumber": "",
+            "country": "Italy",
+            "type": "venue",
+            "wiki": "Stadio_Artemio_Franchi_–_Montepaschi_Arena"
+        },
+        "5b88221e-ac79-464c-b693-36b42bba48b7": {
+            "city": "Kent",
+            "state": "WA",
+            "postal": "",
+            "lat": 47.388333,
+            "lng": -122.24,
+            "housenumber": "625",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Accesso_ShoWare_Center"
+        },
+        "227d43a3-4f8b-4fdb-a234-d10cf5b2b387": {
+            "city": "San Sebastián",
+            "state": "",
+            "postal": "",
+            "lat": 43.321389,
+            "lng": -1.985556,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "city",
+            "wiki": "San_Sebastián"
         }
     },
     "searches": {
@@ -13618,6 +13662,7 @@
         "American Family Field, Milwaukee, WI, USA": "a2e9a49f-cbc1-451f-94f9-56bb224ed222",
         "American Family Fields of Phoenix - Phoenix - Arizona - 85099": "a2e9a49f-cbc1-451f-94f9-56bb224ed222",
         "American Family Field - Milwaukee - Wisconsin - 53214": "a2e9a49f-cbc1-451f-94f9-56bb224ed222",
+        "Miller Park - Milwaukee - Wisconsin - 53295": "a2e9a49f-cbc1-451f-94f9-56bb224ed222",
         "Arden St - Australia": "74032078-1b05-45cb-9d36-8e30e04488e0",
         "Vitality Stadium, Bournemouth, England": "d7467392-c862-4fad-804a-8c6df019768e",
         "Vitality Stadium - Bournemouth": "d7467392-c862-4fad-804a-8c6df019768e",
@@ -14805,6 +14850,7 @@
         "Amex Stadium, Brighton, England": "73757514-5dfe-421a-a616-fa315bb8a9d9",
         "American Express Stadium - Falmer": "73757514-5dfe-421a-a616-fa315bb8a9d9",
         "Devlin Fieldhouse, New Orleans, Louisiana": "3528b84a-d0ae-4875-8f79-85b1632d61cf",
+        "Devlin Fieldhouse - New Orleans - LA": "3528b84a-d0ae-4875-8f79-85b1632d61cf",
         "Wankhede Stadium - Mumbai, Maharashtra - India": "594e5def-2c9e-4eec-9ab8-7fbbc07e3d1d",
         "Cassell Coliseum, Blacksburg, Virginia": "d5a71672-cdc0-4070-8b16-2c65a1b99ddf",
         "JetBlue Park at Fenway South - Fort Myers - Florida - 33913": "010a33b1-6f6f-4f3f-83bf-deaf490aae3b",
@@ -16002,6 +16048,10 @@
         "Denny Sanford Premier Center, Sioux Falls, South Dakota": "d5cd7938-1e84-4ff8-afcd-45404d0f1b3a",
         "Denny Sanford Premier Center - Sioux Falls - SD - 57104": "d5cd7938-1e84-4ff8-afcd-45404d0f1b3a",
         "Yokkaichi CH": "6c077a06-64a3-47d9-b3cf-34731fed9d68",
-        "Comunale Sant'Elia": "623fac8a-d8f3-4a2f-8a8f-e26f1239ab36"
+        "Comunale Sant'Elia": "623fac8a-d8f3-4a2f-8a8f-e26f1239ab36",
+        "Manzanillo CH": "8d0fe1f6-8332-4718-a168-6d051858cab9",
+        "Artemio Franchi Montepaschi Arena - Siena": "395fb269-e971-4be4-be6f-c731b82f7ed1",
+        "accesso ShoWare Center - Kent - WA - 98064": "5b88221e-ac79-464c-b693-36b42bba48b7",
+        "San Sebastian, Spain": "227d43a3-4f8b-4fdb-a234-d10cf5b2b387"
     }
 }

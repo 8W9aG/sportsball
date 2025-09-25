@@ -20,6 +20,9 @@ from ...species import Species
 _NON_WAYBACK_URLS = {
     "https://afltables.com/afl/stats/players/J/Junior_Rioli.html",
 }
+_BAD_URLS = {
+    "https://afltables.com/afl/stats/players/J/Junior_Rioli.html",
+}
 
 
 def _create_afl_afltables_player_model(
@@ -52,7 +55,10 @@ def _create_afl_afltables_player_model(
     session: ScrapeSession,
     dt: datetime.datetime,
     version: str,
-) -> PlayerModel:
+) -> PlayerModel | None:
+    if player_url in _BAD_URLS:
+        return None
+
     o = urlparse(player_url)
     last_component = o.path.split("/")[-1]
     identifier, _ = os.path.splitext(last_component)
@@ -1001,7 +1007,7 @@ def _cached_create_afl_afltables_player_model(
     session: ScrapeSession,
     dt: datetime.datetime,
     version: str,
-) -> PlayerModel:
+) -> PlayerModel | None:
     return _create_afl_afltables_player_model(
         player_url=player_url,
         jersey=jersey,
@@ -1064,7 +1070,7 @@ def create_afl_afltables_player_model(
     goal_assists: int | None,
     percentage_played: float | None,
     dt: datetime.datetime,
-) -> PlayerModel:
+) -> PlayerModel | None:
     """Create a player model from AFL Tables."""
     if not pytest_is_running.is_running():
         return _cached_create_afl_afltables_player_model(
