@@ -2778,7 +2778,8 @@ def _create_espn_team_model(
                         )
                     elif stat["name"] == "emptyNetGoalsAgainst":
                         empty_net_goals_against = more_interesting(
-                            empty_net_goals_against, stat["value"]
+                            empty_net_goals_against,
+                            stat.get("value", int(stat["displayValue"])),
                         )
                     elif stat["name"] == "takeaways":
                         takeaways = more_interesting(takeaways, stat["value"])

@@ -48,7 +48,7 @@ class FootballDataLeagueModel(LeagueModel):
         full_time_home_goals_cell = str(row["FTHG"]).strip()
         full_time_away_goals_cell = str(row["FTAG"]).strip()
         referee_cell = row.get("Referee")
-        home_shots_cell = str(row["HS"]).strip()
+        home_shots_cell = row.get("HS")
         away_shots_cell = str(row["AS"]).strip()
         home_shots_on_target_cell = str(row["HST"]).strip()
         away_shots_on_target_cell = str(row["AST"]).strip()

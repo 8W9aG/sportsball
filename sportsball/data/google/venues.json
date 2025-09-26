@@ -13328,6 +13328,61 @@
             "country": "USA",
             "type": "venue",
             "wiki": "Convocation_Center_(University_of_Texas_at_San_Antonio)"
+        },
+        "982901f9-b00f-47fc-8a07-4e26c0dcfc67": {
+            "city": "Monterrey",
+            "state": "Nuevo León",
+            "postal": "",
+            "lat": 25.718517,
+            "lng": -100.31575,
+            "housenumber": "",
+            "country": "Mexico",
+            "type": "venue",
+            "wiki": "Estadio_Mobil_Super"
+        },
+        "c51f3f81-8def-4628-8f8e-95f6e78903e6": {
+            "city": "Rio de Janeiro",
+            "state": "",
+            "postal": "",
+            "lat": -22.975278,
+            "lng": -43.390278,
+            "housenumber": "",
+            "country": "Brazil",
+            "type": "venue",
+            "wiki": "Farmasi_Arena"
+        },
+        "ae496dde-e0a2-443c-b184-3d5930ecd4ae": {
+            "city": "Beijing",
+            "state": "",
+            "postal": "",
+            "lat": 39.906667,
+            "lng": 116.3975,
+            "housenumber": "",
+            "country": "China",
+            "type": "city",
+            "wiki": "Beijing"
+        },
+        "4e90ad39-4e3a-4bc4-a156-473cc89df79d": {
+            "city": "Maia",
+            "state": "",
+            "postal": "",
+            "lat": 41.233333,
+            "lng": -8.616667,
+            "housenumber": "",
+            "country": "Portugal",
+            "type": "city",
+            "wiki": "Maia,_Portugal"
+        },
+        "58a4c4ca-b2de-4b96-95d6-25bef1661c15": {
+            "city": "Charleston",
+            "state": "SC",
+            "postal": "29401",
+            "lat": 32.785556,
+            "lng": -79.934444,
+            "housenumber": "301",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "TD_Arena"
         }
     },
     "searches": {
@@ -16119,6 +16174,12 @@
         "El Paso County Coliseum - El Paso - TX - 88595": "3392ecf5-f543-4fe0-830e-2243ff3d07e5",
         "Temuco CH": "0f65a91e-bf90-4aae-8a7c-e8c7e1b9a94f",
         "UTSA Convocation Center - San Antonio - TX": "9dcda6dd-73a2-48da-8e51-a5f226105006",
-        "Convocation Center, San Antonio, Texas": "9dcda6dd-73a2-48da-8e51-a5f226105006"
+        "Convocation Center, San Antonio, Texas": "9dcda6dd-73a2-48da-8e51-a5f226105006",
+        "Estadio de Béisbol Monterrey - Nuevo Leon - Mexico": "982901f9-b00f-47fc-8a07-4e26c0dcfc67",
+        "Farmasi Arena - Rio De Janeiro": "c51f3f81-8def-4628-8f8e-95f6e78903e6",
+        "Beijing": "ae496dde-e0a2-443c-b184-3d5930ecd4ae",
+        "Maia CH": "4e90ad39-4e3a-4bc4-a156-473cc89df79d",
+        "TD Arena - Charleston - SC": "58a4c4ca-b2de-4b96-95d6-25bef1661c15",
+        "TD Arena, Charleston, South Carolina": "58a4c4ca-b2de-4b96-95d6-25bef1661c15"
     }
 }

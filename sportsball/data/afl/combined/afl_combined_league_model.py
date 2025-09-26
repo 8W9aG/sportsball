@@ -106,6 +106,15 @@ AFL_TEAM_IDENTITY_MAP = {
     "4": SWANS,
     "12": RICHMOND,
     "14": GEELONG,
+    "17": COLLINGWOOD,
+    "13": HAWTHORN,
+    "10": GOLDCOAST,
+    "1": FREMANTLE,
+    "5": KANGAROOS,
+    "6": BULLDOGS,
+    "11": BRISBANE_LIONS,
+    "9": CARLTON,
+    "2": MELBOURNE,
 }
 BRUNSWICK_ST = "brunswick_st"
 VICTORIA_PARK = "victoria_park"
@@ -286,6 +295,10 @@ AFL_VENUE_IDENTITY_MAP = {
     "10": STADIUM_AUSTRALIA,
     "7": SCG,
     "1": MCG,
+    "2": SUBIACO,
+    "3": DOCKLANDS,
+    "5": GABBA,
+    "4": MANUKA_OVAL,
 }
 
 
