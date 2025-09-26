@@ -97,6 +97,15 @@ AFL_TEAM_IDENTITY_MAP = {
     "Narrm": MELBOURNE,
     "Waalitj Marawar": WESTCOAST,
     "Euro-Yroke": STKILDA,
+    # ESPN
+    "8": GWS,
+    "15": ADELAIDE,
+    "3": WESTCOAST,
+    "7": PORT_ADELAIDE,
+    "16": ESSENDON,
+    "4": SWANS,
+    "12": RICHMOND,
+    "14": GEELONG,
 }
 BRUNSWICK_ST = "brunswick_st"
 VICTORIA_PARK = "victoria_park"
@@ -272,6 +281,11 @@ AFL_VENUE_IDENTITY_MAP = {
     "Hands Oval": HANDS_OVAL,
     "University of Tasmania Stadium, Launceston": YORK_PARK,
     "Ninja Stadium, Hobart": BELLERIVE_OVAL,
+    # ESPN
+    "6": ADELAIDE_OVAL,
+    "10": STADIUM_AUSTRALIA,
+    "7": SCG,
+    "1": MCG,
 }
 
 

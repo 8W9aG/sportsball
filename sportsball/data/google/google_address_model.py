@@ -10782,15 +10782,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Maple Leaf Gardens - Toronto, Ontario - United States": MAPLE_LEAF_GARDENS,
-    "El Paso County Coliseum": SportsballGeocodeTuple(
-        city="El Paso",
-        state="TX",
-        postal="79905",
-        lat=31.766389,
-        lng=-106.443056,
-        housenumber="4100",
-        country="USA",
-    ),
     "Sacramento State College": SportsballGeocodeTuple(
         city="Sacramento",
         state="CA",

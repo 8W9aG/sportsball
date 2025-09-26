@@ -13273,6 +13273,39 @@
             "country": "Spain",
             "type": "city",
             "wiki": "San_Sebastián"
+        },
+        "75806c8f-ce61-471f-a501-11fd3f86f73b": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 7.0,
+            "lng": -65.0,
+            "housenumber": "",
+            "country": "Venezuela",
+            "type": "country",
+            "wiki": "Venezuela"
+        },
+        "6a37078d-15f9-49dc-8126-d0f7547b1242": {
+            "city": "Manchester",
+            "state": "NH",
+            "postal": "",
+            "lat": 42.986389,
+            "lng": -71.462222,
+            "housenumber": "555",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "SNHU_Arena"
+        },
+        "3392ecf5-f543-4fe0-830e-2243ff3d07e5": {
+            "city": "El Paso",
+            "state": "TX",
+            "postal": "79905",
+            "lat": 31.766389,
+            "lng": -106.443056,
+            "housenumber": "4100",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "El_Paso_County_Coliseum"
         }
     },
     "searches": {
@@ -14607,6 +14640,7 @@
         "Cincinnati": "4055a1d3-a085-4a7c-bd2c-5e12a7d9ca1d",
         "Ellis Corbett Sports Center, Greensboro, North Carolina": "94ce6715-c9d5-4622-85e9-1497798bb2de",
         "Corbett Sports Center, Greensboro, North Carolina": "94ce6715-c9d5-4622-85e9-1497798bb2de",
+        "Corbett Sports Center - Greensboro - NC": "94ce6715-c9d5-4622-85e9-1497798bb2de",
         "Trask Coliseum, Wilmington, North Carolina": "18f74dc5-fb94-44c9-a83e-28b165a6ddef",
         "Trask Coliseum - Wilmington, North Carolina - United States": "18f74dc5-fb94-44c9-a83e-28b165a6ddef",
         "Al Bayt Stadium - Al Khor": "c1dc4d50-b23b-447d-8b30-c225469cb6c8",
@@ -14853,6 +14887,7 @@
         "Devlin Fieldhouse - New Orleans - LA": "3528b84a-d0ae-4875-8f79-85b1632d61cf",
         "Wankhede Stadium - Mumbai, Maharashtra - India": "594e5def-2c9e-4eec-9ab8-7fbbc07e3d1d",
         "Cassell Coliseum, Blacksburg, Virginia": "d5a71672-cdc0-4070-8b16-2c65a1b99ddf",
+        "Cassell Coliseum - Blacksburg - VA": "d5a71672-cdc0-4070-8b16-2c65a1b99ddf",
         "JetBlue Park at Fenway South - Fort Myers - Florida - 33913": "010a33b1-6f6f-4f3f-83bf-deaf490aae3b",
         "Ervin J. Nutter Center, Dayton, Ohio": "e112ae7d-b843-44bb-bbcd-ea1cc2283b35",
         "Nutter Center, Dayton, Ohio": "e112ae7d-b843-44bb-bbcd-ea1cc2283b35",
@@ -15867,6 +15902,7 @@
         "ESPN Wide World of Sports Complex - Lake Buena Vista - FL": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
         "ESPN Wide World of Sports Complex - Lake Buena Vista - Florida": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
         "HP Field House - Orlando - FL": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
+        "Champion Stadium - Kissimmee - Florida - 34759": "ab3bde81-7c61-4abb-8cd8-ca49f4b7d7f4",
         "FIN": "8e785537-2a0b-40db-8023-9f945001b748",
         "Newport, USA": "3e3ff205-75d3-43fa-9867-5ad447729713",
         "TUN": "383aa76f-353b-4f3e-8e14-2150c44e0376",
@@ -15989,6 +16025,7 @@
         "Kirby Sports Center, Easton, Pennsylvania": "227fa3c0-6ecc-4527-911a-bb6ea9c339d0",
         "Kirby Sports Center - Easton - PA": "227fa3c0-6ecc-4527-911a-bb6ea9c339d0",
         "Seoul": "bd97575d-9944-4863-b804-c07b99b98a0a",
+        "Seoul, Korea Republic": "bd97575d-9944-4863-b804-c07b99b98a0a",
         "Suncoast Credit Union Arena, Fort Myers, Florida": "e768408d-6430-46be-9f1f-b830b475082a",
         "Suncoast Credit Union Arena - Fort Myers - FL": "e768408d-6430-46be-9f1f-b830b475082a",
         "Cluj-Napoca": "defb594d-7f14-4b83-ad53-5fb97f38524c",
@@ -16052,6 +16089,10 @@
         "Manzanillo CH": "8d0fe1f6-8332-4718-a168-6d051858cab9",
         "Artemio Franchi Montepaschi Arena - Siena": "395fb269-e971-4be4-be6f-c731b82f7ed1",
         "accesso ShoWare Center - Kent - WA - 98064": "5b88221e-ac79-464c-b693-36b42bba48b7",
-        "San Sebastian, Spain": "227d43a3-4f8b-4fdb-a234-d10cf5b2b387"
+        "San Sebastian, Spain": "227d43a3-4f8b-4fdb-a234-d10cf5b2b387",
+        "VEN": "75806c8f-ce61-471f-a501-11fd3f86f73b",
+        "SNHU Arena - Manchester - NH": "6a37078d-15f9-49dc-8126-d0f7547b1242",
+        "El Paso County Coliseum": "3392ecf5-f543-4fe0-830e-2243ff3d07e5",
+        "El Paso County Coliseum - El Paso - TX - 88595": "3392ecf5-f543-4fe0-830e-2243ff3d07e5"
     }
 }

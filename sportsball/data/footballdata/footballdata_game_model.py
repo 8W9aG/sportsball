@@ -25,7 +25,7 @@ def _create_footballdata_game_model(
     away_team: str,
     full_time_home_goals: str,
     full_time_away_goals: str,
-    referee: str,
+    referee: str | None,
     home_shots: str,
     away_shots: str,
     home_shots_on_target: str,
@@ -87,7 +87,9 @@ def _create_footballdata_game_model(
         version=version,
         umpires=[
             create_footballdata_umpire_model(name=referee, version=UMPIRE_VERSION)  # type: ignore
-        ],
+        ]
+        if referee is not None
+        else [],
         best_of=None,
     )
 
@@ -101,7 +103,7 @@ def _cached_create_footballdata_game_model(
     away_team: str,
     full_time_home_goals: str,
     full_time_away_goals: str,
-    referee: str,
+    referee: str | None,
     home_shots: str,
     away_shots: str,
     home_shots_on_target: str,
@@ -150,7 +152,7 @@ def create_footballdata_game_model(
     away_team: str,
     full_time_home_goals: str,
     full_time_away_goals: str,
-    referee: str,
+    referee: str | None,
     home_shots: str,
     away_shots: str,
     home_shots_on_target: str,
