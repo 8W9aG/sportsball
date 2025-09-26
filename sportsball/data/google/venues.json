@@ -13306,6 +13306,28 @@
             "country": "USA",
             "type": "venue",
             "wiki": "El_Paso_County_Coliseum"
+        },
+        "0f65a91e-bf90-4aae-8a7c-e8c7e1b9a94f": {
+            "city": "Temuco",
+            "state": "",
+            "postal": "",
+            "lat": -38.733333,
+            "lng": -72.666667,
+            "housenumber": "",
+            "country": "Chile",
+            "type": "city",
+            "wiki": "Temuco"
+        },
+        "9dcda6dd-73a2-48da-8e51-a5f226105006": {
+            "city": "San Antonio",
+            "state": "TX",
+            "postal": "78249",
+            "lat": 29.582222,
+            "lng": -98.621389,
+            "housenumber": "1",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Convocation_Center_(University_of_Texas_at_San_Antonio)"
         }
     },
     "searches": {
@@ -14986,6 +15008,7 @@
         "St. Pete Times Forum, Tampa, Florida": "fef8f1a9-99c7-49da-a407-70b2e48d035b",
         "Amalie Arena": "fef8f1a9-99c7-49da-a407-70b2e48d035b",
         "McLeod Center, Cedar Falls, Iowa": "5479db82-82c4-45ba-aa3e-7a0036b2e6b9",
+        "McLeod Center - Cedar Falls - IA": "5479db82-82c4-45ba-aa3e-7a0036b2e6b9",
         "Estadio Olímpico Universitario - Coyoacán, Mexico City - Mexico": "85195940-a6a6-4075-ba1a-84aff126414f",
         "Desert Financial Arena, Tempe, Arizona": "3abd1282-fe9e-4b52-b99d-9f060e8b791b",
         "Desert Financial Arena - Tempe - AZ": "3abd1282-fe9e-4b52-b99d-9f060e8b791b",
@@ -16093,6 +16116,9 @@
         "VEN": "75806c8f-ce61-471f-a501-11fd3f86f73b",
         "SNHU Arena - Manchester - NH": "6a37078d-15f9-49dc-8126-d0f7547b1242",
         "El Paso County Coliseum": "3392ecf5-f543-4fe0-830e-2243ff3d07e5",
-        "El Paso County Coliseum - El Paso - TX - 88595": "3392ecf5-f543-4fe0-830e-2243ff3d07e5"
+        "El Paso County Coliseum - El Paso - TX - 88595": "3392ecf5-f543-4fe0-830e-2243ff3d07e5",
+        "Temuco CH": "0f65a91e-bf90-4aae-8a7c-e8c7e1b9a94f",
+        "UTSA Convocation Center - San Antonio - TX": "9dcda6dd-73a2-48da-8e51-a5f226105006",
+        "Convocation Center, San Antonio, Texas": "9dcda6dd-73a2-48da-8e51-a5f226105006"
     }
 }

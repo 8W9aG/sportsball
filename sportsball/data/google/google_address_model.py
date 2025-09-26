@@ -2036,15 +2036,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="112",
         country="USA",
     ),
-    "Convocation Center, San Antonio, Texas": SportsballGeocodeTuple(
-        city="San Antonio",
-        state="TX",
-        postal="78249",
-        lat=29.582222,
-        lng=-98.621389,
-        housenumber="1",
-        country="USA",
-    ),
     "E.A. Diddle Arena, Bowling Green, Kentucky": EA_DIDDLE_ARENA,
     "Don Haskins Center, El Paso, Texas": DON_HASKINS_CENTER,
     "The Pavilion, Davis, California": SportsballGeocodeTuple(
