@@ -2900,7 +2900,8 @@ def _create_espn_team_model(
                         )
                     elif stat["name"] == "emptyNetGoalsFor":
                         empty_net_goals_for = more_interesting(
-                            empty_net_goals_for, stat["value"]
+                            empty_net_goals_for,
+                            stat.get("value", int(stat["displayValue"])),
                         )
                     elif stat["name"] == "shootingPct":
                         shooting_percentage = more_interesting(
