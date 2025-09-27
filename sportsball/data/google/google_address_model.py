@@ -6657,15 +6657,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="101",
         country="USA",
     ),
-    "C.M. Tad Smith Coliseum, University, Mississippi": SportsballGeocodeTuple(
-        city="University",
-        state="MS",
-        postal="38677",
-        lat=34.362197,
-        lng=-89.539303,
-        housenumber="",
-        country="USA",
-    ),
     "Verties Sails Gymnasium, Memphis, Tennessee": SportsballGeocodeTuple(
         city="Memphis",
         state="TN",

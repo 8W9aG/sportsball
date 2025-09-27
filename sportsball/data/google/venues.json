@@ -13438,6 +13438,39 @@
             "country": "USA",
             "type": "venue",
             "wiki": "Mississippi_Coast_Coliseum"
+        },
+        "8c657731-5249-4b07-8fc8-76cff8f8a25d": {
+            "city": "University",
+            "state": "MS",
+            "postal": "38677",
+            "lat": 34.362197,
+            "lng": -89.539303,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Tad_Smith_Coliseum"
+        },
+        "eee5cfa6-2f82-412c-b9d2-a73ba162a8c6": {
+            "city": "Stanford",
+            "state": "CA",
+            "postal": "",
+            "lat": 37.4296,
+            "lng": -122.1605,
+            "housenumber": "655",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Maples_Pavilion"
+        },
+        "925b4009-58e6-4a23-9a33-c9516089779e": {
+            "city": "Bonita Springs",
+            "state": "FL",
+            "postal": "",
+            "lat": 26.349722,
+            "lng": -81.790833,
+            "housenumber": "",
+            "country": "USA",
+            "type": "city",
+            "wiki": "Bonita_Springs,_Florida"
         }
     },
     "searches": {
@@ -14914,6 +14947,7 @@
         "Thomas & Mack Center - Las Vegas - NV": "d980d608-61f0-45dc-9178-510480dd859f",
         "London, Great Britain": "e295afec-c043-467d-884a-d2815adf8bd2",
         "Davis Cup Qualifiers": "e295afec-c043-467d-884a-d2815adf8bd2",
+        "Davis Cup Finals": "e295afec-c043-467d-884a-d2815adf8bd2",
         "Christl Arena, West Point, New York": "da23d9eb-e411-4ea0-8675-c383b8150959",
         "Walter J. Zable Stadium - Williamsburg - VA - 23186": "e407e78f-f372-49fb-bf63-8959a11de76c",
         "The McKenzie Arena, Chattanooga, Tennessee": "8d0a547b-9b24-43cb-ad56-1f0e7995779f",
@@ -15465,6 +15499,7 @@
         "Cazalys Stadium - 4870": "68b623ac-8af3-412f-9517-3322b0de75c4",
         "Cazalys Stadium": "68b623ac-8af3-412f-9517-3322b0de75c4",
         "Stadio Diego Armando Maradona - Napoli, Italy - Italy": "941b603d-fa01-4fe4-985e-d1858907fcc7",
+        "San Paolo": "941b603d-fa01-4fe4-985e-d1858907fcc7",
         "Fiserv Forum, Milwaukee, Wisconsin": "2fd815dd-7430-451d-be58-3084986f34f4",
         "Fiserv Forum - Milwaukee, Wisconsin - United States": "2fd815dd-7430-451d-be58-3084986f34f4",
         "Fiserv Forum, Milwaukee, WI, USA": "2fd815dd-7430-451d-be58-3084986f34f4",
@@ -16255,6 +16290,11 @@
         "Sleep Train Arena - Sacramento - CA": "2820d127-8d30-4a61-802f-bd97ec2fe114",
         "Mississippi Coast Coliseum, Biloxi, Mississippi": "402e2d37-99b5-4e88-9fbe-2e44404e94e4",
         "Mississippi Coast Coliseum": "402e2d37-99b5-4e88-9fbe-2e44404e94e4",
-        "Mississippi Coast Coliseum - Biloxi - MS": "402e2d37-99b5-4e88-9fbe-2e44404e94e4"
+        "Mississippi Coast Coliseum - Biloxi - MS": "402e2d37-99b5-4e88-9fbe-2e44404e94e4",
+        "C. M. Tad Smith Coliseum - Oxford - MS": "8c657731-5249-4b07-8fc8-76cff8f8a25d",
+        "C.M. Tad Smith Coliseum, University, Mississippi": "8c657731-5249-4b07-8fc8-76cff8f8a25d",
+        "Maples Pavilion - Stanford - CA": "eee5cfa6-2f82-412c-b9d2-a73ba162a8c6",
+        "Maples Pavilion, Stanford, California": "eee5cfa6-2f82-412c-b9d2-a73ba162a8c6",
+        "ITF Bonita Springs": "925b4009-58e6-4a23-9a33-c9516089779e"
     }
 }
