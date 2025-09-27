@@ -9419,7 +9419,8 @@
             "lng": 115.763056,
             "housenumber": "",
             "country": "Australia",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Arena_Joondalup"
         },
         "ed7e3889-0f1b-45ce-a335-fb9aae803759": {
             "city": "Halle",
@@ -13471,6 +13472,17 @@
             "country": "USA",
             "type": "city",
             "wiki": "Bonita_Springs,_Florida"
+        },
+        "6db57436-7ca6-4550-a375-19bf39b81b1c": {
+            "city": "Hidalgo",
+            "state": "TX",
+            "postal": "",
+            "lat": 26.123889,
+            "lng": -98.246667,
+            "housenumber": "2600",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Payne_Arena"
         }
     },
     "searches": {
@@ -13879,6 +13891,7 @@
         "Wright State University": "da1f647b-9753-4544-8ae2-7db80937e033",
         "Western Oval - Australia": "0d3370d1-5e80-48f3-ac60-0e8af13e26be",
         "Tim Horton's Field": "92b4b391-66b7-4af6-9da2-febac3239c5c",
+        "Tim Hortons Field - Hamilton - ON": "92b4b391-66b7-4af6-9da2-febac3239c5c",
         "Twickenham Stadium - London": "fcce0a61-8e59-446a-8839-06df2131849c",
         "Twickenham Stadium, London, England": "fcce0a61-8e59-446a-8839-06df2131849c",
         "University of Texas at El Paso": "20b89361-bb34-41de-a5df-5114554361b1",
@@ -14087,6 +14100,7 @@
         "Memorial Stadium (Lincoln) - Terre Haute, Indiana, USA - United States": "79d23320-5c00-4578-92a9-ee21a4f42e65",
         "Choctaw Stadium, Arlington, TX, USA": "1c23dc44-d482-44cb-9e95-fd5492565ac1",
         "Choctaw Stadium - Arlington - TX - 76011": "1c23dc44-d482-44cb-9e95-fd5492565ac1",
+        "Choctaw Stadium - Arlington - Texas - 76096": "1c23dc44-d482-44cb-9e95-fd5492565ac1",
         "Football Park - Australia": "36a3a238-fa78-474f-892f-4a982ec72d85",
         "AAMI Stadium": "36a3a238-fa78-474f-892f-4a982ec72d85",
         "MKM Stadium, Hull, England": "3d01a762-09c2-4038-98b8-25118d8dc68e",
@@ -14678,6 +14692,7 @@
         "Wells Fargo Center - Philadelphia - PA - 19255": "632c915d-1f70-446a-a97e-ac5cd539a4bc",
         "Wells Fargo Center - Philadelphia - PA": "632c915d-1f70-446a-a97e-ac5cd539a4bc",
         "Xfinity Mobile Arena - Philadelphia - PA": "632c915d-1f70-446a-a97e-ac5cd539a4bc",
+        "Xfinity Mobile Arena - Philadelphia - PA - 19148": "632c915d-1f70-446a-a97e-ac5cd539a4bc",
         "Omsk, Russia": "b7be80ce-0f3c-4a6f-8d52-7aae1bdf2009",
         "UW-Milwaukee Panther Arena, Milwaukee, Wisconsin": "57b80240-7828-4e60-a0c9-f8176bfc1f7b",
         "Milwaukee Arena": "57b80240-7828-4e60-a0c9-f8176bfc1f7b",
@@ -14776,6 +14791,7 @@
         "HTC Center, Conway, South Carolina": "a2655237-816e-47d3-a041-0559b8d3557c",
         "Himachal Pradesh Cricket Association Stadium, Dharamsala, India": "688fb9d7-376b-4161-b493-baac63e65782",
         "Daskalakis Athletic Center, Philadelphia, Pennsylvania": "9d22bd2b-fda4-4728-bbf5-f2b29e667c34",
+        "Daskalakis Athletic Center - Philadelphia - PA": "9d22bd2b-fda4-4728-bbf5-f2b29e667c34",
         "Glendora, California": "cebc2b14-7f32-4fd1-9675-88daf4f4c11d",
         "Leo D. Mahoney Arena, Fairfield, Connecticut": "1b6b24e2-41bc-4bb0-8ab5-2b0fb17807e5",
         "Convocation Center, Hampton, Virginia": "d88cd6ee-ce70-4036-b864-d1076953e6fd",
@@ -14948,6 +14964,7 @@
         "London, Great Britain": "e295afec-c043-467d-884a-d2815adf8bd2",
         "Davis Cup Qualifiers": "e295afec-c043-467d-884a-d2815adf8bd2",
         "Davis Cup Finals": "e295afec-c043-467d-884a-d2815adf8bd2",
+        "London": "e295afec-c043-467d-884a-d2815adf8bd2",
         "Christl Arena, West Point, New York": "da23d9eb-e411-4ea0-8675-c383b8150959",
         "Walter J. Zable Stadium - Williamsburg - VA - 23186": "e407e78f-f372-49fb-bf63-8959a11de76c",
         "The McKenzie Arena, Chattanooga, Tennessee": "8d0a547b-9b24-43cb-ad56-1f0e7995779f",
@@ -16295,6 +16312,7 @@
         "C.M. Tad Smith Coliseum, University, Mississippi": "8c657731-5249-4b07-8fc8-76cff8f8a25d",
         "Maples Pavilion - Stanford - CA": "eee5cfa6-2f82-412c-b9d2-a73ba162a8c6",
         "Maples Pavilion, Stanford, California": "eee5cfa6-2f82-412c-b9d2-a73ba162a8c6",
-        "ITF Bonita Springs": "925b4009-58e6-4a23-9a33-c9516089779e"
+        "ITF Bonita Springs": "925b4009-58e6-4a23-9a33-c9516089779e",
+        "Payne Arena - Hidalgo - TX": "6db57436-7ca6-4550-a375-19bf39b81b1c"
     }
 }

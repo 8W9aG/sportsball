@@ -2218,15 +2218,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="35",
         country="USA",
     ),
-    "Maples Pavilion, Stanford, California": SportsballGeocodeTuple(
-        city="Stanford",
-        state="CA",
-        postal="",
-        lat=37.4296,
-        lng=-122.1605,
-        housenumber="655",
-        country="USA",
-    ),
     "Trojan Arena, Troy, Alabama": SportsballGeocodeTuple(
         city="Troy",
         state="AL",
