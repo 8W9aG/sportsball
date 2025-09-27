@@ -184,15 +184,6 @@ STONY_BROOK_ARENA = SportsballGeocodeTuple(
     housenumber="100",
     country="USA",
 )
-ARCO_ARENA = SportsballGeocodeTuple(
-    city="Sacramento",
-    state="CA",
-    postal="",
-    lat=38.649167,
-    lng=-121.518056,
-    housenumber="1",
-    country="USA",
-)
 STATE_FARM_FIELDHOUSE = SportsballGeocodeTuple(
     city="Lake Buena Vista",
     state="FL",
@@ -1452,15 +1443,6 @@ MAPLE_LEAF_GARDENS = SportsballGeocodeTuple(
     lng=-79.380278,
     housenumber="60",
     country="CA",
-)
-MISSISSIPPI_COAST_COLISEUM = SportsballGeocodeTuple(
-    city="Biloxi",
-    state="MS",
-    postal="39531",
-    lat=30.3935,
-    lng=-88.9746,
-    housenumber="2350",
-    country="USA",
 )
 UNIVERSITY_OF_ARIZONA = SportsballGeocodeTuple(
     city="Tucson",
@@ -2791,7 +2773,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Mississippi Coast Coliseum, Biloxi, Mississippi": MISSISSIPPI_COAST_COLISEUM,
     "Simmons Bank Arena, North Little Rock, Arkansas": SIMMONS_BANK_ARENA,
     "FLA Live Arena, Sunrise, Florida": FLA_LIVE_ARENA,
     "Vivint Arena, Salt Lake City, Utah": VIVINT_ARENA,
@@ -2954,7 +2935,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="201",
         country="USA",
     ),
-    "Arco Arena - Sacramento, California - United States": ARCO_ARENA,
     "Charlotte Coliseum": CHARLOTTE_COLISEUM,
     "Miami Arena": MIAMI_ARENA,
     "Al McGuire Center, Milwaukee, Wisconsin": SportsballGeocodeTuple(
@@ -3474,7 +3454,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="UK",
     ),
-    "ARCO Arena, Sacramento, CA, USA": ARCO_ARENA,
     "State Farm Field House, Orlando, FL, USA": STATE_FARM_FIELDHOUSE,
     "Panjin Jinxiu Stadium, Panjin, China": SportsballGeocodeTuple(
         city="Panjin",
@@ -3739,7 +3718,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "San Diego, California": SAN_DIEGO,
-    "Sleep Train Arena, Sacramento, California": ARCO_ARENA,
     "UNT Coliseum, Denton, Texas": SportsballGeocodeTuple(
         city="Denton",
         state="TX",
@@ -4163,7 +4141,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Power Balance Pavilion, Sacramento, California": ARCO_ARENA,
     "Von Braun Center, Hunstville, Alabama": SportsballGeocodeTuple(
         city="Huntsville",
         state="AL",
@@ -4224,7 +4201,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "ARCO Arena (II), Sacramento, California": ARCO_ARENA,
     "Nashville Municipal Auditorium, Nashville, Tennessee": SportsballGeocodeTuple(
         city="Nashville",
         state="TN",
@@ -6391,15 +6367,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         lat=41.923901,
         lng=-87.653167,
         housenumber="2323",
-        country="USA",
-    ),
-    "Jacksonville Veteran's Memorial Arena, Jacksonville, Florida": SportsballGeocodeTuple(
-        city="Jacksonville",
-        state="FL",
-        postal="32202",
-        lat=30.325769,
-        lng=-81.645069,
-        housenumber="300",
         country="USA",
     ),
     "North Charleston Coliseum, Charleston, South Carolina": SportsballGeocodeTuple(
@@ -10692,7 +10659,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "ARCO Arena (I), Sacramento, California": ARCO_ARENA,
     "Arizona Veterans Memorial Coliseum, Phoenix, Arizona": SportsballGeocodeTuple(
         city="Phoenix",
         state="AZ",
@@ -10713,7 +10679,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
     "Freedom Hall - Louisville, Kentucky - United States": FREEDOM_HALL,
     "Roberts Stadium": ROBERTS_STADIUM,
-    "Sports Arena": ARCO_ARENA,
     "Veterans Memorial Auditorium": SportsballGeocodeTuple(
         city="Providence",
         state="RI",
@@ -10783,7 +10748,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Weber State College": WEBER_STATE_COLLEGE,
-    "Mississippi Coast Coliseum": MISSISSIPPI_COAST_COLISEUM,
     "University of Arizona": UNIVERSITY_OF_ARIZONA,
     "Riverside Centroplex": SportsballGeocodeTuple(
         city="Baton Rouge",

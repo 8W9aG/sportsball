@@ -115,6 +115,7 @@ AFL_TEAM_IDENTITY_MAP = {
     "11": BRISBANE_LIONS,
     "9": CARLTON,
     "2": MELBOURNE,
+    "18": STKILDA,
 }
 BRUNSWICK_ST = "brunswick_st"
 VICTORIA_PARK = "victoria_park"
@@ -299,6 +300,7 @@ AFL_VENUE_IDENTITY_MAP = {
     "3": DOCKLANDS,
     "5": GABBA,
     "4": MANUKA_OVAL,
+    "9": YORK_PARK,
 }
 
 

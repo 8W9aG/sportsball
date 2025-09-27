@@ -294,5 +294,5 @@ class LeagueModel(Model):
         df = _reduce_memory_usage(
             df[sorted(df.columns.values.tolist())].dropna(axis=1, how="all")
         )
-        _print_memory_usage(df)
+        # _print_memory_usage(df)
         return df

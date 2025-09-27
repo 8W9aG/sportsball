@@ -13405,6 +13405,39 @@
             "country": "USA",
             "type": "venue",
             "wiki": "VyStar_Veterans_Memorial_Arena"
+        },
+        "b8708de1-9237-445f-94f1-1ac9218372fb": {
+            "city": "Chengdu",
+            "state": "",
+            "postal": "",
+            "lat": 30.66,
+            "lng": 104.063333,
+            "housenumber": "",
+            "country": "China",
+            "type": "city",
+            "wiki": "Chengdu"
+        },
+        "2820d127-8d30-4a61-802f-bd97ec2fe114": {
+            "city": "Sacramento",
+            "state": "CA",
+            "postal": "",
+            "lat": 38.649167,
+            "lng": -121.518056,
+            "housenumber": "1",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "ARCO_Arena"
+        },
+        "402e2d37-99b5-4e88-9fbe-2e44404e94e4": {
+            "city": "Biloxi",
+            "state": "MS",
+            "postal": "39531",
+            "lat": 30.3935,
+            "lng": -88.9746,
+            "housenumber": "2350",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Mississippi_Coast_Coliseum"
         }
     },
     "searches": {
@@ -13780,6 +13813,7 @@
         "Target Field, Minneapolis, MN, USA": "acf65d25-2161-4d92-8153-fa345b470a26",
         "Target Field": "acf65d25-2161-4d92-8153-fa345b470a26",
         "Target Field - Minneapolis - Minnesota - 55403": "acf65d25-2161-4d92-8153-fa345b470a26",
+        "Target Field - Minneapolis - MN": "acf65d25-2161-4d92-8153-fa345b470a26",
         "Estadio Azteca - Mexico City": "8cccf2e9-113e-4137-bd83-6612c806c58c",
         "Estadio Azteca, Mexico City, Mexico": "8cccf2e9-113e-4137-bd83-6612c806c58c",
         "Estadio Azteca - Tlalpan, Mexico City - Mexico": "8cccf2e9-113e-4137-bd83-6612c806c58c",
@@ -15350,6 +15384,7 @@
         "Ole Miss College": "bc8cd3fe-20ff-464e-a895-2284a97f8897",
         "'s-Hertogenbosch, Netherlands": "d4663501-f337-4b5d-9e7c-a74d9df74d49",
         "s Hertogenbosch": "d4663501-f337-4b5d-9e7c-a74d9df74d49",
+        "'s-Hertogenbosch": "d4663501-f337-4b5d-9e7c-a74d9df74d49",
         "Lukoil Arena - Moscow": "09e4760c-97a8-4e74-9bae-6634410a3652",
         "Camelback Ranch - Glendale - Phoenix - Arizona - 85037": "097e8247-d72f-4887-910c-ee88f8887d6c",
         "Baylor": "aedc2ba9-e57c-43fa-b441-1d1edaf6c286",
@@ -16208,6 +16243,18 @@
         "TD Arena, Charleston, South Carolina": "58a4c4ca-b2de-4b96-95d6-25bef1661c15",
         "Luigi Ferraris - Génova": "c2d9bfbb-b40b-4915-8b22-679f67558bef",
         "Jacksonville Veteran's Memorial Arena, Jacksonville, Florida": "ebde0c2b-d9fa-470a-9e16-784111ca3772",
-        "Veterans Memorial Arena - Jacksonville - FL": "ebde0c2b-d9fa-470a-9e16-784111ca3772"
+        "Veterans Memorial Arena - Jacksonville - FL": "ebde0c2b-d9fa-470a-9e16-784111ca3772",
+        "Chengdu, China PR": "b8708de1-9237-445f-94f1-1ac9218372fb",
+        "Arco Arena - Sacramento, California - United States": "2820d127-8d30-4a61-802f-bd97ec2fe114",
+        "ARCO Arena, Sacramento, CA, USA": "2820d127-8d30-4a61-802f-bd97ec2fe114",
+        "Sleep Train Arena, Sacramento, California": "2820d127-8d30-4a61-802f-bd97ec2fe114",
+        "Power Balance Pavilion, Sacramento, California": "2820d127-8d30-4a61-802f-bd97ec2fe114",
+        "ARCO Arena (II), Sacramento, California": "2820d127-8d30-4a61-802f-bd97ec2fe114",
+        "ARCO Arena (I), Sacramento, California": "2820d127-8d30-4a61-802f-bd97ec2fe114",
+        "Sports Arena": "2820d127-8d30-4a61-802f-bd97ec2fe114",
+        "Sleep Train Arena - Sacramento - CA": "2820d127-8d30-4a61-802f-bd97ec2fe114",
+        "Mississippi Coast Coliseum, Biloxi, Mississippi": "402e2d37-99b5-4e88-9fbe-2e44404e94e4",
+        "Mississippi Coast Coliseum": "402e2d37-99b5-4e88-9fbe-2e44404e94e4",
+        "Mississippi Coast Coliseum - Biloxi - MS": "402e2d37-99b5-4e88-9fbe-2e44404e94e4"
     }
 }

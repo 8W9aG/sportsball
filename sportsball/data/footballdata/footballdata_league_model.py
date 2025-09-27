@@ -50,7 +50,7 @@ class FootballDataLeagueModel(LeagueModel):
         referee_cell = row.get("Referee")
         home_shots_cell = row.get("HS")
         away_shots_cell = row.get("AS")
-        home_shots_on_target_cell = str(row["HST"]).strip()
+        home_shots_on_target_cell = row.get("HST")
         away_shots_on_target_cell = str(row["AST"]).strip()
         home_fouls_cell = str(row["HF"]).strip()
         away_fouls_cell = str(row["AF"]).strip()
