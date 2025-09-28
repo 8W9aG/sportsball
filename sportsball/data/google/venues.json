@@ -13648,6 +13648,17 @@
             "country": "Cyprus",
             "type": "country",
             "wiki": "Cyprus"
+        },
+        "1ed6e175-8146-4f62-8e29-14debf944c3c": {
+            "city": "Turin",
+            "state": "",
+            "postal": "",
+            "lat": 45.041667,
+            "lng": 7.652222,
+            "housenumber": "123",
+            "country": "Italy",
+            "type": "venue",
+            "wiki": "Inalpi_Arena"
         }
     },
     "searches": {
@@ -13674,6 +13685,7 @@
         "Giants Stadium - East Rutherford": "7b9c3f52-bb1a-43d9-b074-4b39f5ab12ef",
         "Gillette Stadium": "3219c262-e48f-46bf-94fe-fb037f71dad8",
         "Foxboro Stadium, Foxborough, MA, USA": "3219c262-e48f-46bf-94fe-fb037f71dad8",
+        "GILLETTE STADIUM": "3219c262-e48f-46bf-94fe-fb037f71dad8",
         "Acrisure Stadium": "5596c265-234f-40a0-8dab-88d5a7d91858",
         "Heinz Field - Pittsburgh, Pennsylvania, USA - United States": "5596c265-234f-40a0-8dab-88d5a7d91858",
         "Hard Rock Stadium": "b7636e4f-4eb7-4874-8a90-84a0a089b99b",
@@ -16513,6 +16525,7 @@
         "San Diego, California, United States": "263d5b3b-ed1c-4ce2-bf1b-90832a41db73",
         "San Diego, CA, United States": "263d5b3b-ed1c-4ce2-bf1b-90832a41db73",
         "Champaign CH": "259135b7-851e-4669-80e3-cf38d59e2af3",
-        "CYP": "821ddb32-d94d-44a8-84b3-6867439b4301"
+        "CYP": "821ddb32-d94d-44a8-84b3-6867439b4301",
+        "Tour Finals": "1ed6e175-8146-4f62-8e29-14debf944c3c"
     }
 }

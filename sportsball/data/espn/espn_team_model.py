@@ -52,10 +52,16 @@ def _create_espn_team_model(
     except KeyError:
         try:
             points = float(int(team["winner"]))
-        except KeyError as exc:
-            logging.error(str(exc))
-            logging.error(team)
-            raise exc
+        except KeyError:
+            response = session.get(team["$ref"])
+            response.raise_for_status()
+            team = response.json()
+            try:
+                points = float(int(team["winner"]))
+            except KeyError as exc:
+                logging.error(str(exc))
+                logging.error(team)
+                raise exc
     coaches_urls = []
     if "coaches" in team:
         try:
