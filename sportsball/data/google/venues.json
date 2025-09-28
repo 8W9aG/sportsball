@@ -13516,6 +13516,50 @@
             "country": "China",
             "type": "city",
             "wiki": "Huzhou"
+        },
+        "27d824c3-1d03-4b25-869e-40ed98bebe15": {
+            "city": "Rovereto",
+            "state": "",
+            "postal": "",
+            "lat": 45.883333,
+            "lng": 11.05,
+            "housenumber": "",
+            "country": "Italy",
+            "type": "city",
+            "wiki": "Rovereto"
+        },
+        "bd99e412-d964-4c5b-8963-2b8ceff0d8df": {
+            "city": "Montreal",
+            "state": "QC",
+            "postal": "",
+            "lat": 45.558,
+            "lng": -73.552,
+            "housenumber": "4545",
+            "country": "Canada",
+            "type": "venue",
+            "wiki": "Olympic_Stadium_(Montreal)"
+        },
+        "ec30f4cb-83d1-4303-878c-74ef27c03f34": {
+            "city": "Assago",
+            "state": "",
+            "postal": "",
+            "lat": 45.401111,
+            "lng": 9.142222,
+            "housenumber": "",
+            "country": "Italy",
+            "type": "venue",
+            "wiki": "Forum_di_Milano"
+        },
+        "1fd94a4c-d856-4661-a2ed-86741b6fbfe2": {
+            "city": "Hua Hin",
+            "state": "",
+            "postal": "",
+            "lat": 12.568611,
+            "lng": 99.957778,
+            "housenumber": "",
+            "country": "Thailand",
+            "type": "city",
+            "wiki": "Hua_Hin_district"
         }
     },
     "searches": {
@@ -15402,6 +15446,7 @@
         "Allen Fieldhouse - Lawrence - KS": "f1ff79e3-def1-4c03-8cea-a6f509432b4d",
         "Hardy M. Graham Stadium - Martin - TN - 38237": "369199e5-f7b0-4a6f-b6db-e0328a93aac7",
         "Koessler Athletic Center, Buffalo, New York": "12accb3c-ab25-4d08-b5f1-0d612276bd7b",
+        "Koessler Athletic Center - Buffalo - NY": "12accb3c-ab25-4d08-b5f1-0d612276bd7b",
         "UBS Arena, Elmont, NY, USA": "bd2159da-cd03-4b84-8c4b-f86cb7c3dd64",
         "UBS Arena": "bd2159da-cd03-4b84-8c4b-f86cb7c3dd64",
         "UBS Arena - Elmont - NY - 11003": "bd2159da-cd03-4b84-8c4b-f86cb7c3dd64",
@@ -16357,6 +16402,11 @@
         "Allen County War Memorial Coliseum, Fort Wayne, Indiana": "b1915fdf-8007-480e-8a91-1acd6b642ec1",
         "War Memorial Coliseum, Fort Wayne, Indiana": "b1915fdf-8007-480e-8a91-1acd6b642ec1",
         "Memorial Coliseum (IN) - Fort Wayne - IN": "b1915fdf-8007-480e-8a91-1acd6b642ec1",
-        "Huzhou, China PR": "c0c32a82-cf62-4eb9-b0e3-d7b56b382bb5"
+        "Huzhou, China PR": "c0c32a82-cf62-4eb9-b0e3-d7b56b382bb5",
+        "Roverto CH": "27d824c3-1d03-4b25-869e-40ed98bebe15",
+        "Olympic Stadium - Montreal - Quebec": "bd99e412-d964-4c5b-8963-2b8ceff0d8df",
+        "Montreal Olympic Stadium - Montreal, QC - Canada": "bd99e412-d964-4c5b-8963-2b8ceff0d8df",
+        "Mediolanum Forum - Milan": "ec30f4cb-83d1-4303-878c-74ef27c03f34",
+        "Hua Hin": "1fd94a4c-d856-4661-a2ed-86741b6fbfe2"
     }
 }

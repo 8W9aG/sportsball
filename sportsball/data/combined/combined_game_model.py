@@ -6,7 +6,9 @@ import logging
 from typing import Any
 
 import requests
+from pydantic import BaseModel
 
+from ..field_type import TYPE_KEY, FieldType
 from ..game_model import VERSION, GameModel
 from ..league import League
 from ..player_model import PlayerModel
@@ -80,6 +82,30 @@ def _team_models(
         )  # pyright: ignore
         for k, v in team_models.items()
     ]
+
+
+def _remove_lookaheads(obj: PlayerModel) -> PlayerModel:
+    """Set all fields marked as LOOKAHEAD to None, recursively."""
+    if isinstance(obj, BaseModel):
+        for name, f in obj.model_fields.items():
+            extra = getattr(f, "json_schema_extra", None) or {}
+            if extra.get(TYPE_KEY) == FieldType.LOOKAHEAD:
+                # validate_assignment=False means this won't revalidate
+                setattr(obj, name, None)
+            else:
+                # Recurse into nested values
+                val = getattr(obj, name, None)
+                _remove_lookaheads(val)  # type: ignore
+
+    elif isinstance(obj, list):
+        for item in obj:  # type: ignore
+            _remove_lookaheads(item)
+
+    elif isinstance(obj, dict):
+        for v in obj.values():  # type: ignore
+            _remove_lookaheads(v)
+
+    return obj
 
 
 def create_combined_game_model(
@@ -171,7 +197,10 @@ def create_combined_game_model(
             if team_model.players:
                 team_players_ffill[team_model.identifier] = team_model.players
                 continue
-            team_model.players = team_players_ffill.get(team_model.identifier, [])
+            team_model.players = [
+                _remove_lookaheads(x)
+                for x in team_players_ffill.get(team_model.identifier, [])
+            ]
 
     return GameModel.model_construct(
         dt=dt,

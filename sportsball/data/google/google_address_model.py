@@ -16263,15 +16263,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Montreal Olympic Stadium - Montreal, QC - Canada": SportsballGeocodeTuple(
-        city="Montreal",
-        state="QC",
-        postal="",
-        lat=45.558,
-        lng=-73.552,
-        housenumber="4545",
-        country="Canada",
-    ),
     "Butler County Community College": SportsballGeocodeTuple(
         city="Butler",
         state="PA",

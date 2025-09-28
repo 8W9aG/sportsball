@@ -2800,7 +2800,8 @@ def _create_espn_team_model(
                             stat.get("value", int(stat["displayValue"])),
                         )
                     elif stat["name"] == "timeOnIce":
-                        time_on_ice = more_interesting(time_on_ice, stat["value"])
+                        if "value" in stat:
+                            time_on_ice = more_interesting(time_on_ice, stat["value"])
                     elif stat["name"] == "powerPlayTimeOnIce":
                         power_play_time_on_ice = more_interesting(
                             power_play_time_on_ice, stat["value"]
