@@ -13560,6 +13560,39 @@
             "country": "Thailand",
             "type": "city",
             "wiki": "Hua_Hin_district"
+        },
+        "7aefaf9b-c2c7-42b8-aa32-5d3f4afded53": {
+            "city": "Yokohama",
+            "state": "",
+            "postal": "",
+            "lat": 35.444167,
+            "lng": 139.638056,
+            "housenumber": "",
+            "country": "Japan",
+            "type": "city",
+            "wiki": "Yokohama"
+        },
+        "31e56ff6-56c1-40a5-b9a7-072aaf20d6c0": {
+            "city": "Udine",
+            "state": "",
+            "postal": "",
+            "lat": 46.0816,
+            "lng": 13.2001,
+            "housenumber": "",
+            "country": "Italy",
+            "type": "venue",
+            "wiki": "Stadio_Friuli"
+        },
+        "4446a1f5-3563-4be1-b3e4-51085a9f9689": {
+            "city": "Zaragoza",
+            "state": "",
+            "postal": "",
+            "lat": 41.65,
+            "lng": -0.883333,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "city",
+            "wiki": "Zaragoza"
         }
     },
     "searches": {
@@ -13721,6 +13754,7 @@
         "Mercedes-Benz Stadium - Atlanta, Georgia - United States": "41307395-a924-4b45-be89-7ea5d2e24dd6",
         "Mercedes-Benz Stadium, Atlanta, GA, USA": "41307395-a924-4b45-be89-7ea5d2e24dd6",
         "Mercedes-Benz Superdome - United States": "41307395-a924-4b45-be89-7ea5d2e24dd6",
+        "MERCEDES-BENZ STADIUM": "41307395-a924-4b45-be89-7ea5d2e24dd6",
         "Mullett Arena, Tempe, AZ, USA": "b0a4fafb-dd4d-44e3-b881-93d548847cec",
         "Mullett Arena, Tempe, Arizona": "b0a4fafb-dd4d-44e3-b881-93d548847cec",
         "Mullett Arena": "b0a4fafb-dd4d-44e3-b881-93d548847cec",
@@ -14752,6 +14786,7 @@
         "Spotify Camp Nou - Barcelona - Spain": "89a8419d-c213-4919-ba58-f0d53cbbf815",
         "Resch Center, Green Bay, Wisconsin": "624f08ec-db1f-42fa-9ffc-19e32340e619",
         "Resch Center - Ashwaubenon, Wisconsin - United States": "624f08ec-db1f-42fa-9ffc-19e32340e619",
+        "Resch Center - Ashwaubenon - WI": "624f08ec-db1f-42fa-9ffc-19e32340e619",
         "Barsapara Stadium, Guwahati, India": "05c7aaff-0534-4088-af9d-0d59a504a7b3",
         "Hagan Arena, Philadelphia, Pennsylvania": "375e4e46-cda4-49ad-87d4-eb59b7a48334",
         "Alumni Memorial Fieldhouse, Philadelphia, Pennsylvania": "375e4e46-cda4-49ad-87d4-eb59b7a48334",
@@ -16407,6 +16442,9 @@
         "Olympic Stadium - Montreal - Quebec": "bd99e412-d964-4c5b-8963-2b8ceff0d8df",
         "Montreal Olympic Stadium - Montreal, QC - Canada": "bd99e412-d964-4c5b-8963-2b8ceff0d8df",
         "Mediolanum Forum - Milan": "ec30f4cb-83d1-4303-878c-74ef27c03f34",
-        "Hua Hin": "1fd94a4c-d856-4661-a2ed-86741b6fbfe2"
+        "Hua Hin": "1fd94a4c-d856-4661-a2ed-86741b6fbfe2",
+        "Yokohama CH": "7aefaf9b-c2c7-42b8-aa32-5d3f4afded53",
+        "Friuli": "31e56ff6-56c1-40a5-b9a7-072aaf20d6c0",
+        "ITF Zaragoza": "4446a1f5-3563-4be1-b3e4-51085a9f9689"
     }
 }
