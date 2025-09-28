@@ -1057,15 +1057,6 @@ BALTIMORE = SportsballGeocodeTuple(
     housenumber="",
     country="USA",
 )
-SAN_DIEGO = SportsballGeocodeTuple(
-    city="San Diego",
-    state="CA",
-    postal="",
-    lat=32.715,
-    lng=-117.1625,
-    housenumber="",
-    country="USA",
-)
 BRONX = SportsballGeocodeTuple(
     city="Bronx",
     state="NY",
@@ -3698,7 +3689,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "San Diego, California": SAN_DIEGO,
     "UNT Coliseum, Denton, Texas": SportsballGeocodeTuple(
         city="Denton",
         state="TX",
@@ -8612,7 +8602,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Baltimore, Maryland, United States": BALTIMORE,
-    "San Diego, California, United States": SAN_DIEGO,
     "Athens, Greece": SportsballGeocodeTuple(
         city="Athens",
         state="Attica",
@@ -15017,7 +15006,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "San Diego, CA, United States": SAN_DIEGO,
     "University of Illinois at Urbana-Champaign": SportsballGeocodeTuple(
         city="Urbana-Champaign",
         state="IL",

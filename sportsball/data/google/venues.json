@@ -13604,6 +13604,28 @@
             "country": "Japan",
             "type": "city",
             "wiki": "Tokyo"
+        },
+        "120ce227-5053-41af-b115-dd00e03731ec": {
+            "city": "Pretoria",
+            "state": "Gauteng",
+            "postal": "",
+            "lat": -25.860278,
+            "lng": 28.189444,
+            "housenumber": "",
+            "country": "South Africa",
+            "type": "venue",
+            "wiki": "Tennis_South_Africa"
+        },
+        "263d5b3b-ed1c-4ce2-bf1b-90832a41db73": {
+            "city": "San Diego",
+            "state": "CA",
+            "postal": "",
+            "lat": 32.715,
+            "lng": -117.1625,
+            "housenumber": "",
+            "country": "USA",
+            "type": "city",
+            "wiki": "San_Diego"
         }
     },
     "searches": {
@@ -13802,6 +13824,7 @@
         "Ford Field - Detroit - MI - 48226": "1099a24f-e376-4b5c-b635-240f260cd23b",
         "Ford Field - Detroit, Michigan - United States": "1099a24f-e376-4b5c-b635-240f260cd23b",
         "Ford Field, Detroit, MI, USA": "1099a24f-e376-4b5c-b635-240f260cd23b",
+        "FORD FIELD": "1099a24f-e376-4b5c-b635-240f260cd23b",
         "Arizona Stadium - Tucson, AZ - United States": "a14302f8-4be7-499f-a4db-eabdbf542cde",
         "Arizona Stadium - Tucson - AZ - 85719": "a14302f8-4be7-499f-a4db-eabdbf542cde",
         "AT&T Stadium": "904f986e-83c9-4dce-bed4-a16ea3f76eb4",
@@ -16460,6 +16483,11 @@
         "Yokohama CH": "7aefaf9b-c2c7-42b8-aa32-5d3f4afded53",
         "Friuli": "31e56ff6-56c1-40a5-b9a7-072aaf20d6c0",
         "ITF Zaragoza": "4446a1f5-3563-4be1-b3e4-51085a9f9689",
-        "Tokyo, Japan": "cf4ba931-8636-4d5f-83fc-e1c6c8fd86e1"
+        "Tokyo, Japan": "cf4ba931-8636-4d5f-83fc-e1c6c8fd86e1",
+        "RSA": "120ce227-5053-41af-b115-dd00e03731ec",
+        "San Diego": "263d5b3b-ed1c-4ce2-bf1b-90832a41db73",
+        "San Diego, California": "263d5b3b-ed1c-4ce2-bf1b-90832a41db73",
+        "San Diego, California, United States": "263d5b3b-ed1c-4ce2-bf1b-90832a41db73",
+        "San Diego, CA, United States": "263d5b3b-ed1c-4ce2-bf1b-90832a41db73"
     }
 }
