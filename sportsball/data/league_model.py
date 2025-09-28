@@ -238,13 +238,13 @@ class LeagueModel(Model):
 
         df = pd.DataFrame(data)
 
-        df.attrs[str(FieldType.LOOKAHEAD)] = list(
-            set(df.columns.values)
-            & set(
-                _find_nested_field_type_paths(
-                    FieldType.LOOKAHEAD, GameModel, df.columns.values.tolist()
-                )
+        lookahead_columns = set(
+            _find_nested_field_type_paths(
+                FieldType.LOOKAHEAD, GameModel, df.columns.values.tolist()
             )
+        )
+        df.attrs[str(FieldType.LOOKAHEAD)] = list(
+            set(df.columns.values) & lookahead_columns
         )
         df.attrs[str(FieldType.ODDS)] = list(
             set(df.columns.values)
@@ -289,6 +289,7 @@ class LeagueModel(Model):
                 ascending=True,
             )
         df = _clear_column_list(df)
+        df = df.sort_values(by="dt")
         df = df.reset_index()
 
         df = _reduce_memory_usage(

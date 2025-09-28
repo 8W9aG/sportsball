@@ -46,6 +46,7 @@ class TestCombinedGameModel(unittest.TestCase):
             teams_ffill = {}
             coaches_ffill = {}
             umpires_ffill = {}
+            team_players_ffill = {}
             combined_game_model = create_combined_game_model(
                 game_models=[game_model],
                 venue_identity_map={},
@@ -59,5 +60,6 @@ class TestCombinedGameModel(unittest.TestCase):
                 team_ffill=teams_ffill,
                 coach_ffill=coaches_ffill,
                 umpire_ffill=umpires_ffill,
+                team_players_ffill=team_players_ffill,
             )
             self.assertEqual(combined_game_model.dt, dt)

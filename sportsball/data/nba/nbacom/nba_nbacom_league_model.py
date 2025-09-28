@@ -17,7 +17,7 @@ class NBANBAComLeagueModel(LeagueModel):
     """NBA NBA.com implementation of the league model."""
 
     def __init__(self, session: ScrapeSession, position: int | None = None) -> None:
-        super().__init__(League.AFL, session, position=position)
+        super().__init__(League.NFL, session, position=position)
 
     @classmethod
     def name(cls) -> str:

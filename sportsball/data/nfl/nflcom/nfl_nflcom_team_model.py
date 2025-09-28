@@ -1,45 +1,37 @@
-"""Footballdata team model."""
+"""NFL NFL.com team model."""
 
-# pylint: disable=too-many-arguments
 import datetime
 
 from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
-from ...cache import MEMORY
-from ..google.google_news_model import create_google_news_models
-from ..league import League
-from ..team_model import TeamModel
-from ..x.x_social_model import create_x_social_model
-from .footballdata_odds_model import create_footballdata_odds_model
+from ...google.google_news_model import create_google_news_models
+from ...league import League
+from ...team_model import TeamModel
 
 
-@MEMORY.cache(ignore=["session"])
-def create_footballdata_team_model(
-    session: ScrapeSession,
-    league: League,
+def create_nfl_nflcom_team_model(
+    team_name: str,
     dt: datetime.datetime,
-    name: str,
-    full_time_goals: str,
-    shots: str | None,
-    shots_on_target: str | None,
-    fouls: str | None,
-    yellow_cards: str,
-    red_cards: str,
-    odds: str,
+    session: ScrapeSession,
     version: str,
 ) -> TeamModel:
-    """Create a team model based off footballdata."""
+    """Create a team model from NFL NFL.com."""
     return TeamModel(
-        identifier=name,
-        name=name,
+        identifier=team_name,
+        name=team_name,
         location=None,
         players=[],
-        odds=[create_footballdata_odds_model(odds=odds)],
-        points=int(full_time_goals),
+        odds=[],
+        points=None,
         ladder_rank=None,
-        news=create_google_news_models(name, session, dt, league),
-        social=create_x_social_model(name, session, dt),
+        kicks=None,
+        news=create_google_news_models(team_name, session, dt, League.NFL),
+        social=[],
         field_goals=None,
+        field_goals_attempted=None,
+        offensive_rebounds=None,
+        assists=None,
+        turnovers=None,
         coaches=[],
         lbw=None,
         end_dt=None,
@@ -99,13 +91,13 @@ def create_footballdata_team_model(
         shots_headed=None,
         shots_off_target=None,
         shots_on_post=None,
-        shots_on_target=int(shots_on_target) if shots_on_target is not None else None,
+        shots_on_target=None,
         through_ball_percentage=None,
         total_crosses=None,
         total_goals=None,
         total_long_balls=None,
         total_passes=None,
-        total_shots=int(shots) if shots is not None else None,
+        total_shots=None,
         total_through_balls=None,
         draws=None,
         sub_outs=None,
@@ -115,7 +107,7 @@ def create_footballdata_team_model(
         win_percentage=None,
         wins=None,
         won_corners=None,
-        yellow_cards=int(yellow_cards),
+        yellow_cards=None,
         clean_sheet=None,
         crosses_caught=None,
         goals_conceded=None,
@@ -161,7 +153,7 @@ def create_footballdata_team_model(
         minutes=None,
         own_goals=None,
         pass_percentage=None,
-        red_cards=int(red_cards),
+        red_cards=None,
         starts=None,
         sub_ins=None,
         pitch_count=None,
@@ -369,7 +361,7 @@ def create_footballdata_team_model(
         largest_lead=None,
         disqualifications=None,
         flagrant_fouls=None,
-        fouls=int(fouls) if fouls is not None else None,
+        fouls=None,
         ejections=None,
         technical_fouls=None,
         vorp=None,

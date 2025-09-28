@@ -1178,7 +1178,7 @@ TEAM_SET_TWO_POINTS_COLUMN: Literal["set_two_points"] = "set_two_points"
 TEAM_SET_THREE_POINTS_COLUMN: Literal["set_three_points"] = "set_three_points"
 TEAM_SET_FOUR_POINTS_COLUMN: Literal["set_four_points"] = "set_four_points"
 TEAM_SET_FIVE_POINTS_COLUMN: Literal["set_five_points"] = "set_five_points"
-VERSION = DELIMITER.join(["0.0.15", PLAYER_VERSION, COACH_VERSION])
+VERSION = DELIMITER.join(["0.0.16", PLAYER_VERSION, COACH_VERSION])
 
 
 def _calculate_kicks(data: dict[str, Any]) -> int | None:
@@ -2883,7 +2883,7 @@ class TeamModel(BaseModel):
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_CAUGHT_STEALING_PERCENTAGE_COLUMN,
     )
-    pitches_per_start: int | None = Field(
+    pitches_per_start: float | None = Field(
         ...,
         json_schema_extra={TYPE_KEY: FieldType.LOOKAHEAD},
         alias=TEAM_PITCHES_PER_START_COLUMN,

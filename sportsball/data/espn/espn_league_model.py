@@ -226,8 +226,10 @@ class ESPNLeagueModel(LeagueModel):
                     for game_model in self._produce_games(
                         week, week_count, season_type_json, pbar, cache_disabled
                     ):
-                        yield game_model
                         found_pages = True
+                        if game_model.dt >= datetime.datetime.now().date():
+                            continue
+                        yield game_model
                     week_count += 1
                 if game_page >= weeks["pageCount"]:
                     break

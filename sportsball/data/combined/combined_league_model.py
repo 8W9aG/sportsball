@@ -13,6 +13,7 @@ from scrapesession.scrapesession import ScrapeSession  # type: ignore
 from ..game_model import GameModel
 from ..league import League
 from ..league_model import LeagueModel
+from ..player_model import PlayerModel
 from .combined_game_model import create_combined_game_model
 
 
@@ -76,7 +77,7 @@ class CombinedLeagueModel(LeagueModel):
             try:
                 for future in as_completed(futures):
                     result = future.result()  # Raises if an exception occurred
-                    results.append(result)
+                    results.append(sorted(result, key=lambda x: x.dt))
             except Exception:
                 # Cancel all pending futures
                 for f in futures:
@@ -116,6 +117,7 @@ class CombinedLeagueModel(LeagueModel):
         team_ffill: dict[str, dict[str, Any]] = {}
         coach_ffill: dict[str, dict[str, Any]] = {}
         umpire_ffill: dict[str, dict[str, Any]] = {}
+        team_players_ffill: dict[str, list[PlayerModel]] = {}
         last_game_number = None
         keys = list(games.keys())
         with tqdm.tqdm() as pbar:
@@ -136,6 +138,7 @@ class CombinedLeagueModel(LeagueModel):
                     team_ffill=team_ffill,
                     coach_ffill=coach_ffill,
                     umpire_ffill=umpire_ffill,
+                    team_players_ffill=team_players_ffill,
                 )
                 last_game_number = game_model.game_number
                 yield game_model

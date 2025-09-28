@@ -2766,7 +2766,8 @@ def _create_espn_team_model(
                         shootout_saves = more_interesting(shootout_saves, stat["value"])
                     elif stat["name"] == "shootoutShotsAgainst":
                         shootout_shots_against = more_interesting(
-                            shootout_shots_against, stat["value"]
+                            shootout_shots_against,
+                            stat.get("value", int(stat["displayValue"])),
                         )
                     elif stat["name"] == "shootoutSavePct":
                         shoot_out_save_percentage = more_interesting(

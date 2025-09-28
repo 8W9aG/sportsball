@@ -391,15 +391,6 @@ SAN_DIEGO_SPORTS_ARENA = SportsballGeocodeTuple(
     housenumber="3500",
     country="USA",
 )
-ALLEN_COUNTY_WAR_MEMORIAL_COLISEUM = SportsballGeocodeTuple(
-    city="Fort Wayne",
-    state="IN",
-    postal="23173",
-    lat=41.115556,
-    lng=-85.124444,
-    housenumber="4000",
-    country="USA",
-)
 SMITH_SPECTRUM = SportsballGeocodeTuple(
     city="Logan",
     state="UT",
@@ -2268,7 +2259,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Allen County War Memorial Coliseum, Fort Wayne, Indiana": ALLEN_COUNTY_WAR_MEMORIAL_COLISEUM,
     "Island Federal Credit Union, Stony Brook, New York": STONY_BROOK_ARENA,
     "Cajundome, Lafayette, Louisiana": CAJUNDOME,
     "Thomas Assembly Center, Ruston, Louisiana": SportsballGeocodeTuple(
@@ -4676,7 +4666,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Fresno, California": FRESNO,
-    "War Memorial Coliseum, Fort Wayne, Indiana": ALLEN_COUNTY_WAR_MEMORIAL_COLISEUM,
     "Peterson Gym, San Diego, California": SportsballGeocodeTuple(
         city="San Diego",
         state="CA",

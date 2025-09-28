@@ -8,6 +8,8 @@ from typing import Any
 import requests
 
 from ..game_model import VERSION, GameModel
+from ..league import League
+from ..player_model import PlayerModel
 from ..team_model import TeamModel
 from ..umpire_model import UmpireModel
 from ..venue_model import VenueModel
@@ -93,6 +95,7 @@ def create_combined_game_model(
     team_ffill: dict[str, dict[str, Any]],
     coach_ffill: dict[str, dict[str, Any]],
     umpire_ffill: dict[str, dict[str, Any]],
+    team_players_ffill: dict[str, list[PlayerModel]],
 ) -> GameModel:
     """Create a game model by combining many game models."""
     umpires: dict[str, list[UmpireModel]] = {}
@@ -160,6 +163,16 @@ def create_combined_game_model(
     if game_number is None and last_game_number is not None:
         game_number = last_game_number + 1
 
+    league = game_models[0].league
+
+    # Forward fill for team player models
+    if league == str(League.NFL):
+        for team_model in full_team_models:
+            if team_model.players:
+                team_players_ffill[team_model.identifier] = team_model.players
+                continue
+            team_model.players = team_players_ffill.get(team_model.identifier, [])
+
     return GameModel.model_construct(
         dt=dt,
         week=week,
@@ -168,7 +181,7 @@ def create_combined_game_model(
         teams=full_team_models,
         end_dt=end_dt,
         attendance=attendance,
-        league=str(game_models[0].league),
+        league=league,
         year=year,
         season_type=season_type,
         postponed=postponed,

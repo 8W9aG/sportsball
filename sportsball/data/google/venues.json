@@ -13494,6 +13494,28 @@
             "country": "Spain",
             "type": "city",
             "wiki": null
+        },
+        "b1915fdf-8007-480e-8a91-1acd6b642ec1": {
+            "city": "Fort Wayne",
+            "state": "IN",
+            "postal": "23173",
+            "lat": 41.115556,
+            "lng": -85.124444,
+            "housenumber": "4000",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Allen_County_War_Memorial_Coliseum"
+        },
+        "c0c32a82-cf62-4eb9-b0e3-d7b56b382bb5": {
+            "city": "Huzhou",
+            "state": "Zhejiang",
+            "postal": "",
+            "lat": 30.8925,
+            "lng": 120.0875,
+            "housenumber": "",
+            "country": "China",
+            "type": "city",
+            "wiki": "Huzhou"
         }
     },
     "searches": {
@@ -13590,6 +13612,7 @@
         "State Farm Stadium - Glendale, Arizona - United States": "6bd78242-34a9-40e2-841c-747455d93542",
         "State Farm Stadium, Glendale, AZ, USA": "6bd78242-34a9-40e2-841c-747455d93542",
         "University of Phoenix Stadium": "6bd78242-34a9-40e2-841c-747455d93542",
+        "STATE FARM STADIUM": "6bd78242-34a9-40e2-841c-747455d93542",
         "Aggie Memorial Stadium": "d324a072-025e-4f64-98c9-ea90dd0c0478",
         "Aggie Memorial Stadium - Las Cruces - NM - 88003": "d324a072-025e-4f64-98c9-ea90dd0c0478",
         "Lucas Oil Stadium": "51b4f652-ab49-4c88-899f-570a0a4b4d97",
@@ -14645,6 +14668,7 @@
         "Croke Park Stadium - Dublin": "2121ac12-2f28-49b5-aaae-a54226182aaf",
         "Croke Park - Dublin": "2121ac12-2f28-49b5-aaae-a54226182aaf",
         "Croke Park - Dublin - Ireland": "2121ac12-2f28-49b5-aaae-a54226182aaf",
+        "CROKE PARK": "2121ac12-2f28-49b5-aaae-a54226182aaf",
         "Honda Center - Anaheim, CA - United States": "a75443bd-80b7-45e1-b3c5-419bca5e1707",
         "Honda Center, Anaheim, California": "a75443bd-80b7-45e1-b3c5-419bca5e1707",
         "Honda Center, Anaheim, CA, USA": "a75443bd-80b7-45e1-b3c5-419bca5e1707",
@@ -15433,6 +15457,7 @@
         "Lathlain Park": "7b06ee27-dcca-483b-ad70-442d0ea69108",
         "Toronto, Canada": "021fc966-7fa3-4148-b1e8-27f926aee210",
         "Toronto, Ontario, Canada": "021fc966-7fa3-4148-b1e8-27f926aee210",
+        "Toronto": "021fc966-7fa3-4148-b1e8-27f926aee210",
         "Volgograd Arena - Volgograd": "826392f0-7a55-4b24-a725-879182d99017",
         "UNI-Dome - Cedar Falls - IA - 50614": "35154d14-d957-4e39-bcab-c3578a0884fa",
         "Ed Smith Stadium - Sarasota - Florida - 34278": "28679de3-70c4-4da9-a4d6-b86e1381fd13",
@@ -16327,6 +16352,10 @@
         "Maples Pavilion, Stanford, California": "eee5cfa6-2f82-412c-b9d2-a73ba162a8c6",
         "ITF Bonita Springs": "925b4009-58e6-4a23-9a33-c9516089779e",
         "Payne Arena - Hidalgo - TX": "6db57436-7ca6-4550-a375-19bf39b81b1c",
-        "Montemar CH": "e184d52f-4cb6-437c-bc1b-ba9bd1ace00a"
+        "Montemar CH": "e184d52f-4cb6-437c-bc1b-ba9bd1ace00a",
+        "Allen County War Memorial Coliseum, Fort Wayne, Indiana": "b1915fdf-8007-480e-8a91-1acd6b642ec1",
+        "War Memorial Coliseum, Fort Wayne, Indiana": "b1915fdf-8007-480e-8a91-1acd6b642ec1",
+        "Memorial Coliseum (IN) - Fort Wayne - IN": "b1915fdf-8007-480e-8a91-1acd6b642ec1",
+        "Huzhou, China PR": "c0c32a82-cf62-4eb9-b0e3-d7b56b382bb5"
     }
 }
