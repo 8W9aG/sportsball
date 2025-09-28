@@ -24,7 +24,7 @@ def create_footballdata_team_model(
     shots_on_target: str | None,
     fouls: str | None,
     yellow_cards: str | None,
-    red_cards: str,
+    red_cards: str | None,
     odds: str,
     version: str,
 ) -> TeamModel:
@@ -161,7 +161,7 @@ def create_footballdata_team_model(
         minutes=None,
         own_goals=None,
         pass_percentage=None,
-        red_cards=int(red_cards),
+        red_cards=int(red_cards) if red_cards is not None else None,
         starts=None,
         sub_ins=None,
         pitch_count=None,

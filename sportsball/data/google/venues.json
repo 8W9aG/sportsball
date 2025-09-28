@@ -13681,6 +13681,17 @@
             "country": "China",
             "type": "venue",
             "wiki": "Jingshan_Park"
+        },
+        "46788ab6-8adf-4bf1-b976-5ff39beaab41": {
+            "city": "Berlin",
+            "state": "",
+            "postal": "",
+            "lat": 52.505556,
+            "lng": 13.443333,
+            "housenumber": "1",
+            "country": "Germany",
+            "type": "venue",
+            "wiki": "Uber_Arena"
         }
     },
     "searches": {
@@ -13774,6 +13785,7 @@
         "SoFi Stadium": "6e6ff45a-cf0a-4a15-a042-f3832491acd4",
         "SoFi Stadium - Inglewood - CA - 90301": "6e6ff45a-cf0a-4a15-a042-f3832491acd4",
         "SoFi Stadium - Inglewood, CA - United States": "6e6ff45a-cf0a-4a15-a042-f3832491acd4",
+        "SOFI STADIUM": "6e6ff45a-cf0a-4a15-a042-f3832491acd4",
         "Bradley University": "b9dbb46f-ce57-402c-b93c-c1895414b252",
         "State Farm Stadium": "6bd78242-34a9-40e2-841c-747455d93542",
         "State Farm Stadium - Glendale - AZ - 85305": "6bd78242-34a9-40e2-841c-747455d93542",
@@ -16553,6 +16565,7 @@
         "CYP": "821ddb32-d94d-44a8-84b3-6867439b4301",
         "Tour Finals": "1ed6e175-8146-4f62-8e29-14debf944c3c",
         "Charles Schwab Field - Omaha - Nebraska - 68102": "445ea70f-7468-4571-a471-0ec97a2f2da5",
-        "Jingshan, China PR": "14f38e28-9702-4fe1-bcd1-586e89e5230a"
+        "Jingshan, China PR": "14f38e28-9702-4fe1-bcd1-586e89e5230a",
+        "O2 World (Berlin) - Berlin": "46788ab6-8adf-4bf1-b976-5ff39beaab41"
     }
 }
