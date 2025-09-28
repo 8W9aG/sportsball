@@ -25,7 +25,7 @@ def create_footballdata_team_model(
     fouls: str | None,
     yellow_cards: str | None,
     red_cards: str | None,
-    odds: str,
+    odds: str | None,
     version: str,
 ) -> TeamModel:
     """Create a team model based off footballdata."""
@@ -34,7 +34,7 @@ def create_footballdata_team_model(
         name=name,
         location=None,
         players=[],
-        odds=[create_footballdata_odds_model(odds=odds)],
+        odds=[create_footballdata_odds_model(odds=odds)] if odds is not None else [],
         points=int(full_time_goals),
         ladder_rank=None,
         news=create_google_news_models(name, session, dt, league),

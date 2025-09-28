@@ -36,7 +36,7 @@ def _create_footballdata_game_model(
     away_yellow_cards: str | None,
     home_red_cards: str | None,
     away_red_cards: str | None,
-    home_odds: str,
+    home_odds: str | None,
     away_odds: str,
     version: str,
 ) -> GameModel:
@@ -114,7 +114,7 @@ def _cached_create_footballdata_game_model(
     away_yellow_cards: str | None,
     home_red_cards: str | None,
     away_red_cards: str | None,
-    home_odds: str,
+    home_odds: str | None,
     away_odds: str,
     version: str,
 ) -> GameModel:
@@ -163,7 +163,7 @@ def create_footballdata_game_model(
     away_yellow_cards: str | None,
     home_red_cards: str | None,
     away_red_cards: str | None,
-    home_odds: str,
+    home_odds: str | None,
     away_odds: str,
 ) -> GameModel:
     """Create a game model based off footballdata."""

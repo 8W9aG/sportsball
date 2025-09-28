@@ -23,6 +23,8 @@ def _create_google_news_models(
     gn = GoogleNews(session=session)
     to_dt = dt - datetime.timedelta(days=1)
     from_dt = to_dt - datetime.timedelta(days=1)
+    if from_dt.date() >= datetime.datetime.now().date():
+        from_dt = datetime.datetime.now() - datetime.timedelta(days=1)
     search_query = f'"{query}" + (sport OR {league} OR "{long_name(league)}")'
     try:
         s = gn.search(query=search_query, from_=str(from_dt), to_=str(to_dt))
