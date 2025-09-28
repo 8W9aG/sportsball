@@ -1,48 +1,37 @@
-"""Tennisdata team model."""
+"""WNBA WNBA.com team model."""
 
-# pylint: disable=too-many-arguments
 import datetime
 
 from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
-from ...cache import MEMORY
-from ..google.google_news_model import create_google_news_models
-from ..league import League
-from ..team_model import TeamModel
-from ..x.x_social_model import create_x_social_model
-from .tennisdata_odds_model import create_tennisdata_odds_model
-from .tennisdata_player_model import create_tennisdata_player_model
+from ...google.google_news_model import create_google_news_models
+from ...league import League
+from ...team_model import TeamModel
 
 
-@MEMORY.cache(ignore=["session"])
-def create_tennisdata_team_model(
-    name: str,
-    points: int | None,
-    rank: int | None,
-    total_points: int | None,
-    set_one_points: int | None,
-    set_two_points: int | None,
-    set_three_points: int | None,
-    set_four_points: int | None,
-    set_five_points: int | None,
-    odds: str | None,
-    session: ScrapeSession,
+def create_wnba_wnbacom_team_model(
+    team_name: str,
     dt: datetime.datetime,
-    league: League,
+    session: ScrapeSession,
     version: str,
 ) -> TeamModel:
-    """Create a team model based off tennisdata."""
+    """Create a team model from WNBA WNBA.com."""
     return TeamModel(
-        identifier=name,
-        name=name,
+        identifier=team_name,
+        name=team_name,
         location=None,
-        players=[create_tennisdata_player_model(name=name, league=league)],
-        odds=[create_tennisdata_odds_model(odds=odds)] if odds is not None else [],
-        points=points,
-        ladder_rank=rank,
-        news=create_google_news_models(name, session, dt, league),
-        social=create_x_social_model(name, session, dt),
+        players=[],
+        odds=[],
+        points=None,
+        ladder_rank=None,
+        kicks=None,
+        news=create_google_news_models(team_name, session, dt, League.NFL),
+        social=[],
         field_goals=None,
+        field_goals_attempted=None,
+        offensive_rebounds=None,
+        assists=None,
+        turnovers=None,
         coaches=[],
         lbw=None,
         end_dt=None,
@@ -599,7 +588,7 @@ def create_tennisdata_team_model(
         sack_yards_lost=None,
         net_passing_attempts=None,
         total_offensive_plays=None,
-        total_points=total_points,
+        total_points=None,
         total_points_per_game=None,
         total_touchdowns=None,
         total_yards=None,
@@ -672,10 +661,10 @@ def create_tennisdata_team_model(
         fantasy_rating=None,
         second_chance_points=None,
         plus_minus=None,
-        set_one_points=set_one_points,
-        set_two_points=set_two_points,
-        set_three_points=set_three_points,
-        set_four_points=set_four_points,
-        set_five_points=set_five_points,
+        set_one_points=None,
+        set_two_points=None,
+        set_three_points=None,
+        set_four_points=None,
+        set_five_points=None,
         version=version,
     )

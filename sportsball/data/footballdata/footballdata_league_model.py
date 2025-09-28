@@ -55,7 +55,7 @@ class FootballDataLeagueModel(LeagueModel):
         home_fouls_cell = row.get("HF")
         away_fouls_cell = row.get("AF")
         home_yellow_cards_cell = row.get("HY")
-        away_yellow_cards_cell = row.get("AY").strip()
+        away_yellow_cards_cell = row.get("AY")
         home_red_cards_cell = str(row["HR"]).strip()
         away_red_cards_cell = str(row["AR"]).strip()
         home_odds_cell = str(row["B365H"]).strip()

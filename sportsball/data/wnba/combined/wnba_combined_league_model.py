@@ -7,6 +7,7 @@ from ...combined.combined_league_model import CombinedLeagueModel
 from ...league import League
 from ..espn.wnba_espn_league_model import WNBAESPNLeagueModel
 from ..oddsportal.wnba_oddsportal_league_model import WNBAOddsPortalLeagueModel
+from ..wnbacom.wnba_wnbacom_league_model import WNBAWNBAComLeagueModel
 
 MERCURY = "11"
 LIBERTY = "9"
@@ -245,6 +246,7 @@ class WNBACombinedLeagueModel(CombinedLeagueModel):
             [
                 WNBAESPNLeagueModel(session, position=0),
                 WNBAOddsPortalLeagueModel(session, position=1),
+                WNBAWNBAComLeagueModel(session, position=2),
             ],
             league_filter,
         )
