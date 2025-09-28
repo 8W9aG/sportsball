@@ -13670,6 +13670,17 @@
             "country": "USA",
             "type": "venue",
             "wiki": "Charles_Schwab_Field_Omaha"
+        },
+        "14f38e28-9702-4fe1-bcd1-586e89e5230a": {
+            "city": "Beijing",
+            "state": "",
+            "postal": "",
+            "lat": 39.923611,
+            "lng": 116.390556,
+            "housenumber": "",
+            "country": "China",
+            "type": "venue",
+            "wiki": "Jingshan_Park"
         }
     },
     "searches": {
@@ -13694,6 +13705,7 @@
         "Giants Stadium, East Rutherford, NJ, USA": "7b9c3f52-bb1a-43d9-b074-4b39f5ab12ef",
         "MetLife Stadium - East Rutherford - NJ": "7b9c3f52-bb1a-43d9-b074-4b39f5ab12ef",
         "Giants Stadium - East Rutherford": "7b9c3f52-bb1a-43d9-b074-4b39f5ab12ef",
+        "METLIFE STADIUM": "7b9c3f52-bb1a-43d9-b074-4b39f5ab12ef",
         "Gillette Stadium": "3219c262-e48f-46bf-94fe-fb037f71dad8",
         "Foxboro Stadium, Foxborough, MA, USA": "3219c262-e48f-46bf-94fe-fb037f71dad8",
         "GILLETTE STADIUM": "3219c262-e48f-46bf-94fe-fb037f71dad8",
@@ -16539,6 +16551,7 @@
         "Champaign CH": "259135b7-851e-4669-80e3-cf38d59e2af3",
         "CYP": "821ddb32-d94d-44a8-84b3-6867439b4301",
         "Tour Finals": "1ed6e175-8146-4f62-8e29-14debf944c3c",
-        "Charles Schwab Field - Omaha - Nebraska - 68102": "445ea70f-7468-4571-a471-0ec97a2f2da5"
+        "Charles Schwab Field - Omaha - Nebraska - 68102": "445ea70f-7468-4571-a471-0ec97a2f2da5",
+        "Jingshan, China PR": "14f38e28-9702-4fe1-bcd1-586e89e5230a"
     }
 }
