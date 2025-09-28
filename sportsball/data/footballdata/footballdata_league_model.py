@@ -55,7 +55,7 @@ class FootballDataLeagueModel(LeagueModel):
         home_fouls_cell = row.get("HF")
         away_fouls_cell = row.get("AF")
         home_yellow_cards_cell = row.get("HY")
-        away_yellow_cards_cell = str(row["AY"]).strip()
+        away_yellow_cards_cell = row.get("AY").strip()
         home_red_cards_cell = str(row["HR"]).strip()
         away_red_cards_cell = str(row["AR"]).strip()
         home_odds_cell = str(row["B365H"]).strip()
@@ -105,9 +105,15 @@ class FootballDataLeagueModel(LeagueModel):
                         if not csv_url.endswith(".csv"):
                             continue
                         if (
-                            self.league == League.EPL and csv_url.endswith("E0.csv")
-                        ) or (
-                            self.league == League.LALIGA and csv_url.endswith("SP1.csv")
+                            (self.league == League.EPL and csv_url.endswith("E0.csv"))
+                            or (
+                                self.league == League.LALIGA
+                                and csv_url.endswith("SP1.csv")
+                            )
+                            or (
+                                self.league == League.BUNDESLIGA
+                                and csv_url.endswith("D1.csv")
+                            )
                         ):
                             csv_urls.append(csv_url)
 
@@ -138,5 +144,7 @@ class FootballDataLeagueModel(LeagueModel):
             return "https://www.football-data.co.uk/englandm.php"
         elif self.league == League.LALIGA:
             return "https://www.football-data.co.uk/spainm.php"
+        elif self.league == League.BUNDESLIGA:
+            return "https://www.football-data.co.uk/germanym.php"
         else:
             raise ValueError(f"League {self.league} not supported")

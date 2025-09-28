@@ -12,6 +12,7 @@ from scrapesession.scrapesession import create_scrape_session
 from .data.afl import AFLLeagueModel
 from .data.aflw import AFLWLeagueModel
 from .data.atp import ATPLeagueModel
+from .data.bundesliga import BundesligaLeagueModel
 from .data.epl import EPLLeagueModel
 from .data.fifa import FIFALeagueModel
 from .data.hkjc import HKJCLeagueModel
@@ -88,6 +89,10 @@ class SportsBall:
                 self._leagues[league] = NCAABWLeagueModel(self._session, league_filter)
             elif league == League.LALIGA:
                 self._leagues[league] = LaLigaLeagueModel(self._session, league_filter)
+            elif league == League.BUNDESLIGA:
+                self._leagues[league] = BundesligaLeagueModel(
+                    self._session, league_filter
+                )
             else:
                 raise ValueError(f"Unrecognised league: {league}")
         return self._leagues[league]

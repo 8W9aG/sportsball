@@ -119,6 +119,8 @@ class OddsPortalLeagueModel(LeagueModel):
                     "/".join([TENNIS, USA, "atp-cincinnati", ""]),
                     "/".join([TENNIS, USA, "atp-winston-salem", ""]),
                 ]
+            case League.BUNDESLIGA:
+                return ["/".join([FOOTBALL, "germany", "bundesliga", ""])]
             case League.EPL:
                 return ["/".join([FOOTBALL, "england", "premier-league", ""])]
             case League.FIFA:
