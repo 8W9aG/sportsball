@@ -13626,6 +13626,28 @@
             "country": "USA",
             "type": "city",
             "wiki": "San_Diego"
+        },
+        "259135b7-851e-4669-80e3-cf38d59e2af3": {
+            "city": "Champaign",
+            "state": "IL",
+            "postal": "",
+            "lat": 40.116389,
+            "lng": -88.243611,
+            "housenumber": "",
+            "country": "USA",
+            "type": "city",
+            "wiki": "Champaign,_Illinois"
+        },
+        "821ddb32-d94d-44a8-84b3-6867439b4301": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 35.0,
+            "lng": 33.0,
+            "housenumber": "",
+            "country": "Cyprus",
+            "type": "country",
+            "wiki": "Cyprus"
         }
     },
     "searches": {
@@ -13739,6 +13761,7 @@
         "NRG Stadium - Houston, Texas, USA - United States": "c2d6a773-c009-4fc7-bc8d-21ab92b17a0b",
         "NRG Stadium, Houston, TX, USA": "c2d6a773-c009-4fc7-bc8d-21ab92b17a0b",
         "Reliant Stadium, Houston, Texas": "c2d6a773-c009-4fc7-bc8d-21ab92b17a0b",
+        "NRG STADIUM": "c2d6a773-c009-4fc7-bc8d-21ab92b17a0b",
         "Lidkoping, Sweden": "df5de05a-c2e5-4f74-b7ad-5cc900296d68",
         "Soldier Field": "6288704d-be17-469f-acfd-203d9f923c11",
         "Soldier Field - Chicago - IL - 60605": "6288704d-be17-469f-acfd-203d9f923c11",
@@ -16488,6 +16511,8 @@
         "San Diego": "263d5b3b-ed1c-4ce2-bf1b-90832a41db73",
         "San Diego, California": "263d5b3b-ed1c-4ce2-bf1b-90832a41db73",
         "San Diego, California, United States": "263d5b3b-ed1c-4ce2-bf1b-90832a41db73",
-        "San Diego, CA, United States": "263d5b3b-ed1c-4ce2-bf1b-90832a41db73"
+        "San Diego, CA, United States": "263d5b3b-ed1c-4ce2-bf1b-90832a41db73",
+        "Champaign CH": "259135b7-851e-4669-80e3-cf38d59e2af3",
+        "CYP": "821ddb32-d94d-44a8-84b3-6867439b4301"
     }
 }
