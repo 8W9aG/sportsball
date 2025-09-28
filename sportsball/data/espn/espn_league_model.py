@@ -227,7 +227,7 @@ class ESPNLeagueModel(LeagueModel):
                         week, week_count, season_type_json, pbar, cache_disabled
                     ):
                         found_pages = True
-                        if game_model.dt >= datetime.datetime.now().date():
+                        if game_model.dt.date() >= datetime.datetime.now().date():
                             continue
                         yield game_model
                     week_count += 1
