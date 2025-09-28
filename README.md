@@ -67,6 +67,7 @@ The supported leagues are:
 * ⚽ [FIFA](https://www.fifa.com/en)
 * 🐎 [HKJC](https://www.hkjc.com/home/english/index.aspx)
 * 🏏 [IPL](https://www.iplt20.com/)
+* ⚽ [LALIGA](https://www.laliga.com/en-GB)
 * ⚾ [MLB](https://www.mlb.com/)
 * 🏀 [NBA](https://www.nba.com/)
 * 🏀 [NCAAB](https://www.ncaa.com/sports/basketball-men/d1)

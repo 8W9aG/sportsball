@@ -16,6 +16,7 @@ from .data.epl import EPLLeagueModel
 from .data.fifa import FIFALeagueModel
 from .data.hkjc import HKJCLeagueModel
 from .data.ipl import IPLLeagueModel
+from .data.laliga import LaLigaLeagueModel
 from .data.league import League
 from .data.league_model import LeagueModel
 from .data.mlb import MLBLeagueModel
@@ -85,6 +86,8 @@ class SportsBall:
                 self._leagues[league] = WTALeagueModel(self._session, league_filter)
             elif league == League.NCAABW:
                 self._leagues[league] = NCAABWLeagueModel(self._session, league_filter)
+            elif league == League.LALIGA:
+                self._leagues[league] = LaLigaLeagueModel(self._session, league_filter)
             else:
                 raise ValueError(f"Unrecognised league: {league}")
         return self._leagues[league]

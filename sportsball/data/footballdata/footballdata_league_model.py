@@ -54,7 +54,7 @@ class FootballDataLeagueModel(LeagueModel):
         away_shots_on_target_cell = row.get("AST")
         home_fouls_cell = row.get("HF")
         away_fouls_cell = row.get("AF")
-        home_yellow_cards_cell = str(row["HY"]).strip()
+        home_yellow_cards_cell = row.get("HY")
         away_yellow_cards_cell = str(row["AY"]).strip()
         home_red_cards_cell = str(row["HR"]).strip()
         away_red_cards_cell = str(row["AR"]).strip()
@@ -104,7 +104,11 @@ class FootballDataLeagueModel(LeagueModel):
                         csv_url = urllib.parse.urljoin(url, a.get("href"))
                         if not csv_url.endswith(".csv"):
                             continue
-                        if self.league == League.EPL and csv_url.endswith("E0.csv"):
+                        if (
+                            self.league == League.EPL and csv_url.endswith("E0.csv")
+                        ) or (
+                            self.league == League.LALIGA and csv_url.endswith("SP1.csv")
+                        ):
                             csv_urls.append(csv_url)
 
                     for count, csv_url in enumerate(sorted(csv_urls, reverse=True)):
@@ -132,5 +136,7 @@ class FootballDataLeagueModel(LeagueModel):
     def _url(self) -> str:
         if self.league == League.EPL:
             return "https://www.football-data.co.uk/englandm.php"
+        elif self.league == League.LALIGA:
+            return "https://www.football-data.co.uk/spainm.php"
         else:
             raise ValueError(f"League {self.league} not supported")

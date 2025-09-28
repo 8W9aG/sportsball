@@ -120,11 +120,13 @@ class OddsPortalLeagueModel(LeagueModel):
                     "/".join([TENNIS, USA, "atp-winston-salem", ""]),
                 ]
             case League.EPL:
-                return ["/".join(["football", "england", "premier-league", ""])]
+                return ["/".join([FOOTBALL, "england", "premier-league", ""])]
             case League.FIFA:
                 return ["/".join([FOOTBALL, "world", "world-championship", ""])]
             case League.IPL:
                 return ["/".join(["cricket", "india", "ipl", ""])]
+            case League.LALIGA:
+                return ["/".join([FOOTBALL, "spain", "laliga", ""])]
             case League.MLB:
                 return ["/".join(["baseball", USA, "mlb", ""])]
             case League.NBA:

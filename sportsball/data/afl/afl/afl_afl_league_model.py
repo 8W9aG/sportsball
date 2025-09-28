@@ -243,7 +243,7 @@ class AFLAFLLeagueModel(LeagueModel):
                 context = browser.new_context()
                 page = context.new_page()
                 url = "https://www.afl.com.au/matches/team-lineups"
-                page.goto(url, wait_until="networkidle")
+                page.goto(url, wait_until="load")
                 yield from _parse_game_info(
                     page.content(), self.session, ladder, url, p
                 )

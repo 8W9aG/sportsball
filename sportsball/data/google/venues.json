@@ -13659,6 +13659,17 @@
             "country": "Italy",
             "type": "venue",
             "wiki": "Inalpi_Arena"
+        },
+        "445ea70f-7468-4571-a471-0ec97a2f2da5": {
+            "city": "Omaha",
+            "state": "NB",
+            "postal": "",
+            "lat": 41.267,
+            "lng": -95.932,
+            "housenumber": "1200",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Charles_Schwab_Field_Omaha"
         }
     },
     "searches": {
@@ -13979,6 +13990,7 @@
         "Barclays Center, New York, NY, USA": "ab3222a8-061e-4d79-9808-4d6330602069",
         "Barclays Center - Brooklyn, New York - United States": "ab3222a8-061e-4d79-9808-4d6330602069",
         "Barclays Center - Brooklyn - NY": "ab3222a8-061e-4d79-9808-4d6330602069",
+        "Barclays Center - Brooklyn - NY - 11217": "ab3222a8-061e-4d79-9808-4d6330602069",
         "Acrisure Stadium - Pittsburgh - PA - 15212": "0a9cd435-1e78-4536-aa2d-3d38b572ffa1",
         "Three Rivers Stadium": "0a9cd435-1e78-4536-aa2d-3d38b572ffa1",
         "Three Rivers Stadium - Pittsburgh - PA": "0a9cd435-1e78-4536-aa2d-3d38b572ffa1",
@@ -16526,6 +16538,7 @@
         "San Diego, CA, United States": "263d5b3b-ed1c-4ce2-bf1b-90832a41db73",
         "Champaign CH": "259135b7-851e-4669-80e3-cf38d59e2af3",
         "CYP": "821ddb32-d94d-44a8-84b3-6867439b4301",
-        "Tour Finals": "1ed6e175-8146-4f62-8e29-14debf944c3c"
+        "Tour Finals": "1ed6e175-8146-4f62-8e29-14debf944c3c",
+        "Charles Schwab Field - Omaha - Nebraska - 68102": "445ea70f-7468-4571-a471-0ec97a2f2da5"
     }
 }
