@@ -59,7 +59,7 @@ class FootballDataLeagueModel(LeagueModel):
         home_red_cards_cell = row.get("HR")
         away_red_cards_cell = row.get("AR")
         home_odds_cell = row.get("B365H")
-        away_odds_cell = str(row["B365A"]).strip()
+        away_odds_cell = row.get("B365A")
         return create_footballdata_game_model(
             session=self.session,
             league=self.league,

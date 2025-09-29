@@ -37,7 +37,7 @@ def _create_footballdata_game_model(
     home_red_cards: str | None,
     away_red_cards: str | None,
     home_odds: str | None,
-    away_odds: str,
+    away_odds: str | None,
     version: str,
 ) -> GameModel:
     home_team_model = create_footballdata_team_model(
@@ -115,7 +115,7 @@ def _cached_create_footballdata_game_model(
     home_red_cards: str | None,
     away_red_cards: str | None,
     home_odds: str | None,
-    away_odds: str,
+    away_odds: str | None,
     version: str,
 ) -> GameModel:
     return _create_footballdata_game_model(
@@ -164,7 +164,7 @@ def create_footballdata_game_model(
     home_red_cards: str | None,
     away_red_cards: str | None,
     home_odds: str | None,
-    away_odds: str,
+    away_odds: str | None,
 ) -> GameModel:
     """Create a game model based off footballdata."""
     dt = parse(" ".join([date, time]))
