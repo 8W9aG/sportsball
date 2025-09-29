@@ -16354,30 +16354,37 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
 }
 _GEOCODES_LOADED = False
+_VENUE_DB = None
 
 
-def _load_cached_geocodes():
-    global _GEOCODES_LOADED
-    if not _GEOCODES_LOADED:
+def _load_venue_db():
+    global _VENUE_DB
+    if _VENUE_DB is None:
         with open(
             os.path.join(os.path.dirname(__file__), "venues.json"), encoding="utf8"
         ) as handle:
-            venue_db = json.load(handle)
-            venues = venue_db["venues"]
-            searches = venue_db["searches"]
-            searches = {
-                k: SportsballGeocodeTuple(
-                    city=venues[v]["city"],
-                    state=venues[v]["state"],
-                    postal=venues[v]["postal"],
-                    lat=venues[v]["lat"],
-                    lng=venues[v]["lng"],
-                    housenumber=venues[v]["housenumber"],
-                    country=venues[v]["country"],
-                )
-                for k, v in searches.items()
-            }
-            _CACHED_GEOCODES.update(searches)
+            _VENUE_DB = json.load(handle)
+
+
+def _load_cached_geocodes():
+    global _GEOCODES_LOADED, _VENUE_DB
+    if not _GEOCODES_LOADED:
+        _load_venue_db()
+        venues = _VENUE_DB["venues"]  # type: ignore
+        searches = _VENUE_DB["searches"]  # type: ignore
+        searches = {
+            k: SportsballGeocodeTuple(
+                city=venues[v]["city"],
+                state=venues[v]["state"],
+                postal=venues[v]["postal"],
+                lat=venues[v]["lat"],
+                lng=venues[v]["lng"],
+                housenumber=venues[v]["housenumber"],
+                country=venues[v]["country"],
+            )
+            for k, v in searches.items()
+        }
+        _CACHED_GEOCODES.update(searches)
         _GEOCODES_LOADED = True
 
 
@@ -16452,3 +16459,9 @@ def create_google_address_model(
         return _cached_create_google_address_model(query=query, session=session, dt=dt)
     with session.cache_disabled():
         return _create_google_address_model(query=query, session=session, dt=dt)
+
+
+def get_venue_db() -> Any:
+    """Find and load the venue database."""
+    _load_venue_db()
+    return _VENUE_DB

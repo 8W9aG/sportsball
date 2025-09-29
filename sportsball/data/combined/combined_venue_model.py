@@ -3,6 +3,7 @@
 import requests
 
 from ..venue_model import VERSION, VenueModel
+from ..wikipedia.wikipedia_venue_model import create_wikipedia_venue_model
 from .combined_address_model import create_combined_address_model
 from .most_interesting import more_interesting
 from .null_check import is_null
@@ -16,11 +17,22 @@ def create_combined_venue_model(
     """Create a venue model by combining many venue models."""
     if not venue_models or identifier is None:
         return None
-    # wikipedia_venue_model = create_wikipedia_venue_model(
-    #    session, identifier, version=VERSION
-    # )
-    # if wikipedia_venue_model is not None:
-    #    venue_models.append(wikipedia_venue_model)
+    address_model = None
+    for venue_model in venue_models:
+        address_model = venue_model.address
+        if address_model is not None:
+            latitude = address_model.latitude
+            longitude = address_model.longitude
+            if latitude is not None and longitude is not None:
+                wikipedia_venue_model = create_wikipedia_venue_model(
+                    session,
+                    latitude=latitude,
+                    longitude=longitude,
+                    version=VERSION,
+                )
+                if wikipedia_venue_model is not None:
+                    venue_models.append(wikipedia_venue_model)
+                break
 
     address_models = []
     is_grass = None
