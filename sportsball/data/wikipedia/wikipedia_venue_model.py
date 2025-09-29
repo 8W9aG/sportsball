@@ -21,7 +21,7 @@ def create_wikipedia_venue_model(
     wiki_wiki._session = session
 
     venue_db = get_venue_db()
-    for venue in venue_db["venues"]:
+    for venue in venue_db["venues"].values():
         if venue["lat"] == latitude and venue["lng"] == longitude:
             if "wiki" not in venue:
                 logging.warning("wiki not found for %f, %f", latitude, longitude)

@@ -13703,6 +13703,28 @@
             "country": "Spain",
             "type": "venue",
             "wiki": "Estadi_Mallorca_Son_Moix"
+        },
+        "bee479a4-1ebe-4760-9cb4-006692e0c1ea": {
+            "city": "Leipzig",
+            "state": "Saxony",
+            "postal": "",
+            "lat": 51.345833,
+            "lng": 12.348333,
+            "housenumber": "3",
+            "country": "Germany",
+            "type": "venue",
+            "wiki": "Red_Bull_Arena_(Leipzig)"
+        },
+        "3bbcb14c-f68e-44b8-8caf-e80feeaf12d9": {
+            "city": "Getafe",
+            "state": "",
+            "postal": "",
+            "lat": 40.325556,
+            "lng": -3.714722,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Estadio_Coliseum"
         }
     },
     "searches": {
@@ -13850,6 +13872,7 @@
         "Allegiant Stadium - Las Vegas - NV - 89118": "8ca30336-3e75-42f8-bb46-0241fe1697f3",
         "Allegiant Stadium - Paradise, Nevada, USA - United States": "8ca30336-3e75-42f8-bb46-0241fe1697f3",
         "Allegiant Stadium, Paradise, NV, USA": "8ca30336-3e75-42f8-bb46-0241fe1697f3",
+        "ALLEGIANT STADIUM": "8ca30336-3e75-42f8-bb46-0241fe1697f3",
         "Empower Field at Mile High": "845a387c-642c-4690-b353-ba92bf132a88",
         "Empower Field at Mile High - Denver - CO - 80204": "845a387c-642c-4690-b353-ba92bf132a88",
         "Invesco Field - Denver - CO - 80804": "845a387c-642c-4690-b353-ba92bf132a88",
@@ -14586,6 +14609,7 @@
         "Ladd-Peebles Stadium - Mobile - AL - 36604": "513b476e-4ebc-47c6-8381-4fcfae2f70d0",
         "JMA Wireless Dome - Syracuse - NY - 13244": "863fb3e6-d2fe-42d2-954e-db399ddc4eea",
         "JMA Wireless Dome, Syracuse, New York": "863fb3e6-d2fe-42d2-954e-db399ddc4eea",
+        "JMA Wireless Dome - Syracuse - NY": "863fb3e6-d2fe-42d2-954e-db399ddc4eea",
         "St. Louis, MO, United States": "44264875-f59e-4ab3-8b01-3fe46cacd7bf",
         "St. Louis, Missouri": "44264875-f59e-4ab3-8b01-3fe46cacd7bf",
         "St. Louis, Missouri, United States": "44264875-f59e-4ab3-8b01-3fe46cacd7bf",
@@ -16581,6 +16605,8 @@
         "Charles Schwab Field - Omaha - Nebraska - 68102": "445ea70f-7468-4571-a471-0ec97a2f2da5",
         "Jingshan, China PR": "14f38e28-9702-4fe1-bcd1-586e89e5230a",
         "O2 World (Berlin) - Berlin": "46788ab6-8adf-4bf1-b976-5ff39beaab41",
-        "Estadi Mallorca Son Moix - Palma de Mallorca": "2baa0b61-e3c5-4d14-a70e-dd89a18c11a7"
+        "Estadi Mallorca Son Moix - Palma de Mallorca": "2baa0b61-e3c5-4d14-a70e-dd89a18c11a7",
+        "Red Bull Arena - Leipzig": "bee479a4-1ebe-4760-9cb4-006692e0c1ea",
+        "Estadio Coliseum - Getafe": "3bbcb14c-f68e-44b8-8caf-e80feeaf12d9"
     }
 }
