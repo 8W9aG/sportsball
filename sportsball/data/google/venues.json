@@ -13692,6 +13692,17 @@
             "country": "Germany",
             "type": "venue",
             "wiki": "Uber_Arena"
+        },
+        "2baa0b61-e3c5-4d14-a70e-dd89a18c11a7": {
+            "city": "Palma de Mallorca",
+            "state": "",
+            "postal": "",
+            "lat": 39.59,
+            "lng": 2.63,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Estadi_Mallorca_Son_Moix"
         }
     },
     "searches": {
@@ -16569,6 +16580,7 @@
         "Tour Finals": "1ed6e175-8146-4f62-8e29-14debf944c3c",
         "Charles Schwab Field - Omaha - Nebraska - 68102": "445ea70f-7468-4571-a471-0ec97a2f2da5",
         "Jingshan, China PR": "14f38e28-9702-4fe1-bcd1-586e89e5230a",
-        "O2 World (Berlin) - Berlin": "46788ab6-8adf-4bf1-b976-5ff39beaab41"
+        "O2 World (Berlin) - Berlin": "46788ab6-8adf-4bf1-b976-5ff39beaab41",
+        "Estadi Mallorca Son Moix - Palma de Mallorca": "2baa0b61-e3c5-4d14-a70e-dd89a18c11a7"
     }
 }
