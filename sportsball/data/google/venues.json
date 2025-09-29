@@ -13923,6 +13923,17 @@
             "country": "India",
             "type": "city",
             "wiki": "Mumbai"
+        },
+        "ab40fa0e-41e8-4139-ba9d-65204f62e71d": {
+            "city": "Sinsheim",
+            "state": "Baden-Württemberg",
+            "postal": "",
+            "lat": 49.238056,
+            "lng": 8.8875,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "venue",
+            "wiki": "Rhein-Neckar-Arena"
         }
     },
     "searches": {
@@ -15506,6 +15517,7 @@
         "Indian Wells": "189493da-5fd3-43fe-b987-2255a081ce30",
         "Fant-Ewing Coliseum, Monroe, Louisiana": "cedc803d-cd9b-45a5-94c5-d52cb954f04c",
         "Alumni Hall, Annapolis, Maryland": "11d891fc-7429-4ade-af4e-856db4bac850",
+        "Alumni Hall (Navy) - Annapolis - MD": "11d891fc-7429-4ade-af4e-856db4bac850",
         "Education City Stadium - Doha": "48d40ff3-17a4-467b-8c96-06393c47d17f",
         "Dean Smith Center, Chapel Hill, North Carolina": "cef5746a-e7de-4cf4-b751-9581a8472366",
         "Dean Smith Center - Chapel Hill, North Carolina, USA - United States": "cef5746a-e7de-4cf4-b751-9581a8472366",
@@ -16690,6 +16702,7 @@
         "Suncoast Credit Union Arena - Fort Myers - FL": "e768408d-6430-46be-9f1f-b830b475082a",
         "Cluj-Napoca": "defb594d-7f14-4b83-ad53-5fb97f38524c",
         "Cluj-Napoca, Romania": "defb594d-7f14-4b83-ad53-5fb97f38524c",
+        "Cluj Napoca": "defb594d-7f14-4b83-ad53-5fb97f38524c",
         "Filbert Street": "3ccd873a-afa3-41cf-802a-534837a15178",
         "UD Arena - Dayton - OH": "cbd62a41-a2ff-49bb-8f46-b121946f60b2",
         "KOR": "01114eec-26b7-4208-bada-a6747d4fd789",
@@ -16827,6 +16840,7 @@
         "Dignity Health Arena - Bakersfield - CA": "4c6a49ba-6eb1-4998-9494-50cf527719a3",
         "Ramón Sánchez-Pizjuán - Sevilla": "11771ed0-52fc-4171-9ded-903c5f602904",
         "LUX": "67398d74-4590-4dc2-bd4f-a63fe3ed1d4d",
-        "Mumbai": "afa3958c-7843-4ea9-a3c4-0bf7753e3550"
+        "Mumbai": "afa3958c-7843-4ea9-a3c4-0bf7753e3550",
+        "PreZero Arena - Sinsheim": "ab40fa0e-41e8-4139-ba9d-65204f62e71d"
     }
 }
