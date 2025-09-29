@@ -13813,6 +13813,50 @@
             "country": "USA",
             "type": "venue",
             "wiki": "PPL_Center"
+        },
+        "9f5273ac-134b-4cfa-a88c-abb5f7de029b": {
+            "city": "Leverkusen",
+            "state": "North Rhine-Westphalia",
+            "postal": "",
+            "lat": 51.038333,
+            "lng": 7.002222,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "venue",
+            "wiki": "BayArena"
+        },
+        "80532f3a-88dc-404b-a94e-83bb256fd73e": {
+            "city": "Pamplona",
+            "state": "Navarre",
+            "postal": "",
+            "lat": 42.796667,
+            "lng": -1.636944,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "El_Sadar_Stadium"
+        },
+        "b5256b3f-8c2a-4865-928c-84fc235ace61": {
+            "city": "Cancun",
+            "state": "QR",
+            "postal": "",
+            "lat": 20.5069801,
+            "lng": -87.215373,
+            "housenumber": "",
+            "country": "Mexico",
+            "type": "venue",
+            "wiki": null
+        },
+        "4c6a49ba-6eb1-4998-9494-50cf527719a3": {
+            "city": "Bakersfield",
+            "state": "CA",
+            "postal": "",
+            "lat": 35.37208,
+            "lng": -119.013723,
+            "housenumber": "1001",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Dignity_Health_Arena"
         }
     },
     "searches": {
@@ -13970,6 +14014,7 @@
         "Mile High": "845a387c-642c-4690-b353-ba92bf132a88",
         "Empower Field at Mile High - Denver, Colorado, USA - United States": "845a387c-642c-4690-b353-ba92bf132a88",
         "Empower Field at Mile High, Denver, CO, USA": "845a387c-642c-4690-b353-ba92bf132a88",
+        "EMPOWER FIELD AT MILE HIGH": "845a387c-642c-4690-b353-ba92bf132a88",
         "Sun Bowl Stadium": "c1e0afe0-4e36-4826-a949-53a4649416f9",
         "Levi's Stadium": "26104f94-3216-41e8-83f2-2f42af795b2e",
         "Levi Stadium": "26104f94-3216-41e8-83f2-2f42af795b2e",
@@ -16706,6 +16751,10 @@
         "Estadio La Cartuja de Sevilla - Sevilla": "dbb0cb7f-6081-4b7b-9041-9171eb7f5860",
         "Drummondville CH": "11718d29-4548-4b12-b3f7-1e811d99a3a7",
         "Mendizorroza - Vitoria-Gasteiz": "f6da0e5d-b0f6-43b4-848f-9c0e4b219b2f",
-        "PPL Center - Allentown - PA": "d653dc02-567a-494f-9610-3a3295601880"
+        "PPL Center - Allentown - PA": "d653dc02-567a-494f-9610-3a3295601880",
+        "BayArena - Leverkusen": "9f5273ac-134b-4cfa-a88c-abb5f7de029b",
+        "El Sadar - Pamplona": "80532f3a-88dc-404b-a94e-83bb256fd73e",
+        "Hard Rock Hotel Riviera Maya - Cancun - Mexico": "b5256b3f-8c2a-4865-928c-84fc235ace61",
+        "Dignity Health Arena - Bakersfield - CA": "4c6a49ba-6eb1-4998-9494-50cf527719a3"
     }
 }
