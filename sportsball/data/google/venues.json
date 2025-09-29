@@ -4708,7 +4708,8 @@
             "lng": -121.901111,
             "housenumber": "525",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "SAP_Center"
         },
         "a57dd4aa-8c93-486d-b824-18a782cb83f6": {
             "city": "Las Vegas",
@@ -6138,7 +6139,8 @@
             "lng": -71.062228,
             "housenumber": "100",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "TD_Garden"
         },
         "140548b1-620b-49ff-ba32-def70d3e9a76": {
             "city": "Long Beach",
@@ -6178,7 +6180,8 @@
             "lng": -96.810278,
             "housenumber": "2500",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "American_Airlines_Center"
         },
         "f23aac2e-181e-4918-b337-1f541d4219ec": {
             "city": "Malibu",
@@ -7619,7 +7622,8 @@
             "lng": -91.1845,
             "housenumber": "",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Pete_Maravich_Assembly_Center"
         },
         "1709b6d2-2bfb-4ece-b684-253b18dee709": {
             "city": "Miami",
@@ -7849,7 +7853,8 @@
             "lng": -86.231292,
             "housenumber": "",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Joyce_Center"
         },
         "c4d01fa9-181e-4764-bd89-cc06138d2208": {
             "city": "Springfield",
@@ -7959,7 +7964,8 @@
             "lng": -87.674167,
             "housenumber": "1901",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "United_Center"
         },
         "4bc0196e-a237-40a4-b9c0-bf6e0e2eb40a": {
             "city": "Baton Rouge",
@@ -8699,7 +8705,8 @@
             "lng": -123.108889,
             "housenumber": "800",
             "country": "Canada",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Rogers_Arena"
         },
         "6f257503-018d-4810-8a75-6a9ae9226e3c": {
             "city": "Devonport",
@@ -9039,7 +9046,8 @@
             "lng": -122.3875,
             "housenumber": "1",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Chase_Center"
         },
         "7c665138-4feb-4fd6-9f17-b90a975fc110": {
             "city": "Los Angeles",
@@ -9189,7 +9197,8 @@
             "lng": -91.554444,
             "housenumber": "1",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Carver–Hawkeye_Arena"
         },
         "a298f3ac-615d-4a6f-be1a-4b5fb1947aca": {
             "city": "Burpengary",
@@ -9450,7 +9459,8 @@
             "lng": -123.066,
             "housenumber": "1390",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Matthew_Knight_Arena"
         },
         "22b94687-a1af-477d-8eed-e420e4daac19": {
             "city": "London",
@@ -9890,7 +9900,8 @@
             "lng": -76.618889,
             "housenumber": "201",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "CFG_Bank_Arena"
         },
         "048c5b5e-48f4-4835-bdad-52aa88a53d4f": {
             "city": "Acapulco",
@@ -13769,6 +13780,39 @@
             "country": "Spain",
             "type": "venue",
             "wiki": "Estadio_de_La_Cartuja"
+        },
+        "11718d29-4548-4b12-b3f7-1e811d99a3a7": {
+            "city": "Drummondville",
+            "state": "QC",
+            "postal": "",
+            "lat": 45.883333,
+            "lng": -72.483333,
+            "housenumber": "",
+            "country": "Canada",
+            "type": "city",
+            "wiki": "Drummondville"
+        },
+        "f6da0e5d-b0f6-43b4-848f-9c0e4b219b2f": {
+            "city": "Vitoria-Gasteiz",
+            "state": "",
+            "postal": "",
+            "lat": 42.837111,
+            "lng": -2.688044,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Mendizorrotza_Stadium"
+        },
+        "d653dc02-567a-494f-9610-3a3295601880": {
+            "city": "Allentown",
+            "state": "PA",
+            "postal": "",
+            "lat": 40.6025,
+            "lng": -75.472778,
+            "housenumber": "701",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "PPL_Center"
         }
     },
     "searches": {
@@ -13800,6 +13844,7 @@
         "Acrisure Stadium": "5596c265-234f-40a0-8dab-88d5a7d91858",
         "Heinz Field - Pittsburgh, Pennsylvania, USA - United States": "5596c265-234f-40a0-8dab-88d5a7d91858",
         "Hard Rock Stadium": "b7636e4f-4eb7-4874-8a90-84a0a089b99b",
+        "HARD ROCK STADIUM": "b7636e4f-4eb7-4874-8a90-84a0a089b99b",
         "M&T Bank Stadium": "210e9d8a-9efb-47c6-bcda-bad075616325",
         "Highmark Stadium": "450b65a8-9438-4862-98cd-accb388e9181",
         "HIGHMARK STADIUM": "450b65a8-9438-4862-98cd-accb388e9181",
@@ -15748,6 +15793,7 @@
         "'s-Hertogenbosch": "d4663501-f337-4b5d-9e7c-a74d9df74d49",
         "Lukoil Arena - Moscow": "09e4760c-97a8-4e74-9bae-6634410a3652",
         "Camelback Ranch - Glendale - Phoenix - Arizona - 85037": "097e8247-d72f-4887-910c-ee88f8887d6c",
+        "Camelback Ranch - Glendale - AZ - 85037": "097e8247-d72f-4887-910c-ee88f8887d6c",
         "Baylor": "aedc2ba9-e57c-43fa-b441-1d1edaf6c286",
         "Baylor College": "aedc2ba9-e57c-43fa-b441-1d1edaf6c286",
         "Auburn College": "a3a7f05b-d2d8-4411-8d89-ee8f47fd4d44",
@@ -16657,6 +16703,9 @@
         "Voith-Arena - Heidenheim": "12f62881-97cc-4cc5-81c2-05edd171c638",
         "Martínez Valero - Elche": "6a391f39-1cb5-431b-aa97-613c931ef1b7",
         "MEWA ARENA - Mainz": "be1e0d4c-4087-4df6-95db-a4a5bf054f05",
-        "Estadio La Cartuja de Sevilla - Sevilla": "dbb0cb7f-6081-4b7b-9041-9171eb7f5860"
+        "Estadio La Cartuja de Sevilla - Sevilla": "dbb0cb7f-6081-4b7b-9041-9171eb7f5860",
+        "Drummondville CH": "11718d29-4548-4b12-b3f7-1e811d99a3a7",
+        "Mendizorroza - Vitoria-Gasteiz": "f6da0e5d-b0f6-43b4-848f-9c0e4b219b2f",
+        "PPL Center - Allentown - PA": "d653dc02-567a-494f-9610-3a3295601880"
     }
 }

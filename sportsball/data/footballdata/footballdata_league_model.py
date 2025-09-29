@@ -42,6 +42,8 @@ class FootballDataLeagueModel(LeagueModel):
         if division_cell in {"E0", "D1", "SP1"}:
             return None
         date_cell = str(row["Date"]).strip()
+        if not date_cell:
+            return None
         time_cell = str(row.get("Time", "")).strip()
         home_team_cell = str(row["HomeTeam"]).strip()
         away_team_cell = str(row["AwayTeam"]).strip()

@@ -11,14 +11,16 @@ from ...cache import MEMORY
 from ..google.google_address_model import get_venue_db
 from ..venue_model import VenueModel
 
+WIKI_WIKI = wikipediaapi.Wikipedia(user_agent=f"sportsball ({__VERSION__})")
+
 
 @MEMORY.cache(ignore=["session"])
 def create_wikipedia_venue_model(
     session: requests.Session, latitude: float, longitude: float, version: str
 ) -> VenueModel | None:
     """Create a venue model by looking up the venue on wikipedia."""
-    wiki_wiki = wikipediaapi.Wikipedia(user_agent=f"sportsball ({__VERSION__})")
-    wiki_wiki._session = session
+    global WIKI_WIKI
+    WIKI_WIKI._session = session
 
     venue_db = get_venue_db()
     for venue in venue_db["venues"].values():
@@ -28,7 +30,7 @@ def create_wikipedia_venue_model(
             else:
                 wikipage = venue["wiki"]
                 if wikipage is not None:
-                    page_py = wiki_wiki.page(wikipage)
+                    page_py = WIKI_WIKI.page(wikipage)
                     return VenueModel(
                         identifier=wikipage,
                         name=page_py.title,
