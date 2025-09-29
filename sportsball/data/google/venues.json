@@ -848,7 +848,8 @@
             "lng": -73.975225,
             "housenumber": "620",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Barclays_Center"
         },
         "0a9cd435-1e78-4536-aa2d-3d38b572ffa1": {
             "city": "Pittsburgh",
@@ -5169,7 +5170,8 @@
             "lng": -93.228333,
             "housenumber": "1925",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Williams_Arena"
         },
         "2d3f5f80-84aa-4677-b330-5c2b90a3d964": {
             "city": "Visakhapatnam",
@@ -5819,7 +5821,8 @@
             "lng": -73.754722,
             "housenumber": "51",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "MVP_Arena"
         },
         "11be71dc-a47e-4710-a0f1-5d6c33ff8472": {
             "city": "Chattanooga",
@@ -6019,7 +6022,8 @@
             "lng": -97.107972,
             "housenumber": "600",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "College_Park_Center"
         },
         "56b1e509-92a5-47e5-8f35-304a60d90c6f": {
             "city": "Fort Myers",
@@ -6039,7 +6043,8 @@
             "lng": -112.128884,
             "housenumber": "3300",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Global_Credit_Union_Arena"
         },
         "60d6f941-a10a-4146-99f4-0a97ddea9b91": {
             "city": "Charlotte",
@@ -6321,7 +6326,8 @@
             "lng": -122.302,
             "housenumber": "3870",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Hec_Edmundson_Pavilion"
         },
         "23ec0292-44bc-42c2-9c23-b818cbd2d3c9": {
             "city": "Quebec City",
@@ -6341,7 +6347,8 @@
             "lng": -115.144167,
             "housenumber": "4505",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Thomas_%26_Mack_Center"
         },
         "e295afec-c043-467d-884a-d2815adf8bd2": {
             "city": "London",
@@ -6681,7 +6688,8 @@
             "lng": -86.167222,
             "housenumber": "510",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Hinkle_Fieldhouse"
         },
         "5c191950-dc0b-4162-8dab-5e05f92e42e9": {
             "city": "Montreal",
@@ -6761,7 +6769,8 @@
             "lng": -77.049329,
             "housenumber": "600",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Charles_E._Smith_Center"
         },
         "68e8d3d1-58cb-44b4-8e9b-a1df83f15d9c": {
             "city": "Natchitoches",
@@ -7182,7 +7191,8 @@
             "lng": -93.621139,
             "housenumber": "233",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Casey's_Center"
         },
         "ffc3cfd9-bc8c-49ba-aa2f-7746e845c6c7": {
             "city": "Chicago",
@@ -7192,7 +7202,8 @@
             "lng": -87.621389,
             "housenumber": "200",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Wintrust_Arena"
         },
         "75f8199c-0bd4-4a55-bf77-e371c75a4494": {
             "city": "Hanover",
@@ -7372,7 +7383,8 @@
             "lng": -111.930948,
             "housenumber": "600",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Desert_Financial_Arena"
         },
         "65a23dbb-1df9-495f-9b62-e0cb5dfc523e": {
             "city": "",
@@ -7432,7 +7444,8 @@
             "lng": -79.379167,
             "housenumber": "40",
             "country": "Canada",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Scotiabank_Arena"
         },
         "458b3b46-dc9b-42b2-b4f8-6cdd055b6333": {
             "city": "Bowling Green",
@@ -7602,7 +7615,8 @@
             "lng": -84.392778,
             "housenumber": "965",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "McCamish_Pavilion"
         },
         "5874e6a6-dddd-4c94-8381-48046200614b": {
             "city": "West Bromwich",
@@ -8115,7 +8129,8 @@
             "lng": -73.72604,
             "housenumber": "2400",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "UBS_Arena"
         },
         "65cb5d9e-84c0-400f-aaf7-54ccdeeca129": {
             "city": "New Britain",
@@ -8275,7 +8290,8 @@
             "lng": -81.037222,
             "housenumber": "801",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Colonial_Life_Arena"
         },
         "e98cab7f-24ee-444b-8a38-a13b65b685c2": {
             "city": "Lubbock",
@@ -8786,7 +8802,8 @@
             "lng": -76.991444,
             "housenumber": "1100",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "CareFirst_Arena"
         },
         "db07cf82-749d-413f-8961-a6c92c6bd0ad": {
             "city": "Saransk",
@@ -8886,7 +8903,8 @@
             "lng": -113.497778,
             "housenumber": "10220",
             "country": "Canada",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Rogers_Place"
         },
         "28462369-22b2-4b45-b9dd-3d73856d7b11": {
             "city": "Rome",
@@ -8926,7 +8944,8 @@
             "lng": -84.459616,
             "housenumber": "2330",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Gateway_Center_Arena"
         },
         "40fdaaec-555e-462f-869d-e5bea9d14b05": {
             "city": "Luton",
@@ -8986,7 +9005,8 @@
             "lng": -93.101111,
             "housenumber": "",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Grand_Casino_Arena"
         },
         "2a3f33f2-68ce-43f6-a61b-86bd58d2898a": {
             "city": "Tulsa",
@@ -9097,7 +9117,8 @@
             "lng": -115.178981,
             "housenumber": "3950",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Michelob_Ultra_Arena"
         },
         "67f1d552-4aaf-4367-93a2-694eaa8ee658": {
             "city": "Phoenix",
@@ -9147,7 +9168,8 @@
             "lng": -77.31,
             "housenumber": "4500",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "EagleBank_Arena"
         },
         "853d1560-16d5-4aca-8ac1-9786c0069e05": {
             "city": "Houston",
@@ -9328,7 +9350,8 @@
             "lng": -115.178333,
             "housenumber": "3780",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "T-Mobile_Arena"
         },
         "09ded5a4-2f7e-45e7-86bc-c6107bf6c0b8": {
             "city": "Wangaratta",
@@ -10121,7 +10144,8 @@
             "lng": -82.602,
             "housenumber": "5650",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "IMG_Academy"
         },
         "155c210b-92ec-428a-bf85-b8d95667ba2e": {
             "city": "",
@@ -10181,7 +10205,8 @@
             "lng": -86.135,
             "housenumber": "1202",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Corteva_Coliseum"
         },
         "ab20089c-3377-49be-a86f-28bea5533225": {
             "city": "Palermo",
@@ -10431,7 +10456,8 @@
             "lng": -122.203611,
             "housenumber": "2000",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Angel_of_the_Winds_Arena"
         },
         "90510be4-e508-44e9-90a9-1a43af3036ad": {
             "city": "Charleston",
@@ -10671,7 +10697,8 @@
             "lng": -118.270293,
             "housenumber": "1250",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Los_Angeles_Convention_Center"
         },
         "e47ac940-6efc-493d-ad6e-31aa8dab3a0e": {
             "city": "Montreal",
@@ -10961,7 +10988,8 @@
             "lng": -115.143056,
             "housenumber": "",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Cox_Pavilion"
         },
         "3a82c4ce-f1be-4cb5-ade2-e3d562e50321": {
             "city": "Frankston",
@@ -11001,7 +11029,8 @@
             "lng": -84.150039,
             "housenumber": "100",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Albany_Civic_Center"
         },
         "8789cb81-21db-41a4-8b5c-9ce9bcf067ec": {
             "city": "Berlin",
@@ -11051,7 +11080,8 @@
             "lng": -118.1181468,
             "housenumber": "1570",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": null
         },
         "c2f30336-23f3-4c69-910c-99a94d28e2db": {
             "city": "Cordenons",
@@ -11311,7 +11341,8 @@
             "lng": -73.187,
             "housenumber": "600",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Total_Mortgage_Arena"
         },
         "703f4ef6-37cc-4162-8f35-414dc1f017d9": {
             "city": "Monterrey",
@@ -11581,7 +11612,8 @@
             "lng": -73.961715,
             "housenumber": "3030",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Levien_Gymnasium"
         },
         "db919e43-d7f3-4c2a-8b58-a0e7460e63ca": {
             "city": "Hindmarsh",
@@ -12121,7 +12153,8 @@
             "lng": -92.458599,
             "housenumber": "",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Mayo_Civic_Center"
         },
         "8100722e-93c1-4941-8d6a-01ad0d7e7d69": {
             "city": "Melbourne",
@@ -13857,6 +13890,39 @@
             "country": "USA",
             "type": "venue",
             "wiki": "Dignity_Health_Arena"
+        },
+        "11771ed0-52fc-4171-9ded-903c5f602904": {
+            "city": "Seville",
+            "state": "Andalusia",
+            "postal": "",
+            "lat": 37.384,
+            "lng": -5.9705,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Ramón_Sánchez-Pizjuán_Stadium"
+        },
+        "67398d74-4590-4dc2-bd4f-a63fe3ed1d4d": {
+            "city": "",
+            "state": "",
+            "postal": "",
+            "lat": 49.816667,
+            "lng": 6.133333,
+            "housenumber": "",
+            "country": "Luxembourg",
+            "type": "country",
+            "wiki": "Luxembourg"
+        },
+        "afa3958c-7843-4ea9-a3c4-0bf7753e3550": {
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "postal": "",
+            "lat": 19.076111,
+            "lng": 72.8775,
+            "housenumber": "",
+            "country": "India",
+            "type": "city",
+            "wiki": "Mumbai"
         }
     },
     "searches": {
@@ -14042,6 +14108,7 @@
         "Sutter Health Park, Sacramento, CA, USA": "5eb492b6-8472-4691-94a7-36a30fb59f1e",
         "Sutter Health Park": "5eb492b6-8472-4691-94a7-36a30fb59f1e",
         "Sutter Health Park - Sacramento - California": "5eb492b6-8472-4691-94a7-36a30fb59f1e",
+        "Raley Field - Sacramento - California - 95899": "5eb492b6-8472-4691-94a7-36a30fb59f1e",
         "Lambeau Field": "c086b3b8-857f-4bfb-a3a4-60acbbf07685",
         "Lambeau Field - Green Bay - WI - 54304": "c086b3b8-857f-4bfb-a3a4-60acbbf07685",
         "Lambeau Field - Green Bay, Wisconsin - United States": "c086b3b8-857f-4bfb-a3a4-60acbbf07685",
@@ -15486,6 +15553,7 @@
         "Coleman Coliseum - Tuscaloosa - AL - 35401": "bc83e266-fc8b-4a06-b5e3-7a068fb71c5d",
         "O'Brien Field - Charleston - IL - 61920": "4303217e-f7bb-4169-b126-7f941c83b821",
         "UIC Pavilion, Chicago, Illinois": "b6be9877-ac10-432f-8cc0-bd862b96eafa",
+        "Credit Union 1 Arena - Chicago - IL": "b6be9877-ac10-432f-8cc0-bd862b96eafa",
         "Mitchell Center, Mobile, Alabama": "c848a705-6f24-4123-984f-22f31b591568",
         "Los Cabos": "6a4749f2-7fb0-46b4-bd26-b5039ec5ea64",
         "Los Cabos, Mexico": "6a4749f2-7fb0-46b4-bd26-b5039ec5ea64",
@@ -16146,6 +16214,7 @@
         "CFG Bank Arena, Baltimore, Maryland": "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db",
         "Baltimore Arena": "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db",
         "CFG Bank Arena - Baltimore - MD": "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db",
+        "Baltimore Arena - Baltimore - MD": "ea86a9b2-d5b1-4ca5-b111-f5a1b0e824db",
         "Acapulco, Mexico": "048c5b5e-48f4-4835-bdad-52aa88a53d4f",
         "Acapulco": "048c5b5e-48f4-4835-bdad-52aa88a53d4f",
         "Geneva": "dc765ff4-608d-4009-bba4-1e3b95e0aa68",
@@ -16755,6 +16824,9 @@
         "BayArena - Leverkusen": "9f5273ac-134b-4cfa-a88c-abb5f7de029b",
         "El Sadar - Pamplona": "80532f3a-88dc-404b-a94e-83bb256fd73e",
         "Hard Rock Hotel Riviera Maya - Cancun - Mexico": "b5256b3f-8c2a-4865-928c-84fc235ace61",
-        "Dignity Health Arena - Bakersfield - CA": "4c6a49ba-6eb1-4998-9494-50cf527719a3"
+        "Dignity Health Arena - Bakersfield - CA": "4c6a49ba-6eb1-4998-9494-50cf527719a3",
+        "Ramón Sánchez-Pizjuán - Sevilla": "11771ed0-52fc-4171-9ded-903c5f602904",
+        "LUX": "67398d74-4590-4dc2-bd4f-a63fe3ed1d4d",
+        "Mumbai": "afa3958c-7843-4ea9-a3c4-0bf7753e3550"
     }
 }

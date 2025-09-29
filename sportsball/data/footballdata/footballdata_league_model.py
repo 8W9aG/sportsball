@@ -38,7 +38,7 @@ class FootballDataLeagueModel(LeagueModel):
         return {str(x): str(x) for x in Position}
 
     def _row_to_game(self, row: Any) -> GameModel | None:
-        division_cell = str(row["Div"])
+        division_cell = row.get("Div")
         if division_cell in {"E0", "D1", "SP1"}:
             return None
         date_cell = str(row["Date"]).strip()
