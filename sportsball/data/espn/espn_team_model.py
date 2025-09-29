@@ -2896,7 +2896,8 @@ def _create_espn_team_model(
                         )
                     elif stat["name"] == "shortHandedAssists":
                         short_handed_assists = more_interesting(
-                            short_handed_assists, stat["value"]
+                            short_handed_assists,
+                            stat.get("value", int(stat["displayValue"])),
                         )
                     elif stat["name"] == "shootoutAttempts":
                         shootout_attempts = more_interesting(

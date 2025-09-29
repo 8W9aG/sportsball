@@ -2,8 +2,10 @@
 
 # pylint: disable=too-many-arguments,duplicate-code
 import datetime
+import logging
 
 import pytest_is_running
+from dateutil import parser
 from dateutil.parser import parse
 from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
@@ -167,7 +169,13 @@ def create_footballdata_game_model(
     away_odds: str | None,
 ) -> GameModel:
     """Create a game model based off footballdata."""
-    dt = parse(" ".join([date, time]))
+    dt = None
+    try:
+        dt = parse(" ".join([date, time]))
+    except parser._parser.ParserError as exc:  # type: ignore
+        logging.error(str(exc))
+        logging.error("%s %s", date, time)
+        raise exc
     if not pytest_is_running.is_running() and dt < datetime.datetime.now().replace(
         tzinfo=dt.tzinfo
     ) - datetime.timedelta(days=7):

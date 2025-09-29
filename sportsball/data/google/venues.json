@@ -13725,6 +13725,28 @@
             "country": "Spain",
             "type": "venue",
             "wiki": "Estadio_Coliseum"
+        },
+        "12f62881-97cc-4cc5-81c2-05edd171c638": {
+            "city": "Heidenheim",
+            "state": "",
+            "postal": "",
+            "lat": 48.668611,
+            "lng": 10.139444,
+            "housenumber": "162",
+            "country": "Germany",
+            "type": "venue",
+            "wiki": "Voith-Arena"
+        },
+        "6a391f39-1cb5-431b-aa97-613c931ef1b7": {
+            "city": "Elche",
+            "state": "",
+            "postal": "",
+            "lat": 38.266944,
+            "lng": -0.663333,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Estadio_Martínez_Valero"
         }
     },
     "searches": {
@@ -16607,6 +16629,8 @@
         "O2 World (Berlin) - Berlin": "46788ab6-8adf-4bf1-b976-5ff39beaab41",
         "Estadi Mallorca Son Moix - Palma de Mallorca": "2baa0b61-e3c5-4d14-a70e-dd89a18c11a7",
         "Red Bull Arena - Leipzig": "bee479a4-1ebe-4760-9cb4-006692e0c1ea",
-        "Estadio Coliseum - Getafe": "3bbcb14c-f68e-44b8-8caf-e80feeaf12d9"
+        "Estadio Coliseum - Getafe": "3bbcb14c-f68e-44b8-8caf-e80feeaf12d9",
+        "Voith-Arena - Heidenheim": "12f62881-97cc-4cc5-81c2-05edd171c638",
+        "Martínez Valero - Elche": "6a391f39-1cb5-431b-aa97-613c931ef1b7"
     }
 }
