@@ -13747,6 +13747,28 @@
             "country": "Spain",
             "type": "venue",
             "wiki": "Estadio_Martínez_Valero"
+        },
+        "be1e0d4c-4087-4df6-95db-a4a5bf054f05": {
+            "city": "Mainz",
+            "state": "Rhineland-Palatinate",
+            "postal": "",
+            "lat": 49.984167,
+            "lng": 8.224167,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "venue",
+            "wiki": "Mewa_Arena"
+        },
+        "dbb0cb7f-6081-4b7b-9041-9171eb7f5860": {
+            "city": "Seville",
+            "state": "",
+            "postal": "",
+            "lat": 37.417236,
+            "lng": -6.004564,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Estadio_de_La_Cartuja"
         }
     },
     "searches": {
@@ -13962,6 +13984,7 @@
         "Arlington Stadium - Arlington, TX - United States": "904f986e-83c9-4dce-bed4-a16ea3f76eb4",
         "Cowboy's Stadium, Arlington, Texas": "904f986e-83c9-4dce-bed4-a16ea3f76eb4",
         "AT&T Stadium, Arlington, TX, USA": "904f986e-83c9-4dce-bed4-a16ea3f76eb4",
+        "AT&T STADIUM": "904f986e-83c9-4dce-bed4-a16ea3f76eb4",
         "FedEx Field, Landover, MD, USA": "fdeac258-f422-40ee-aeab-cd760b4dfb79",
         "FedExField": "fdeac258-f422-40ee-aeab-cd760b4dfb79",
         "Northwest Stadium - Landover - MD - 20785": "fdeac258-f422-40ee-aeab-cd760b4dfb79",
@@ -14807,6 +14830,7 @@
         "Valley Children's Stadium - Fresno - CA - 93710": "d33246b0-4dc5-45e2-9864-bfcaecbdfb3d",
         "Bulldog Stadium": "d33246b0-4dc5-45e2-9864-bfcaecbdfb3d",
         "TD Ballpark": "088c526e-2e3a-47a8-a9c8-72c905eee8b8",
+        "Florida Auto Exchange Stadium - Dunedin - Florida - 34698": "088c526e-2e3a-47a8-a9c8-72c905eee8b8",
         "Lane Stadium - Blacksburg - VA - 24060": "a3cfb0bc-f6cc-4445-a86a-4859b77e7f3e",
         "Lane Stadium": "a3cfb0bc-f6cc-4445-a86a-4859b77e7f3e",
         "Hillsborough - Owlerton, Sheffield - England": "60c283d8-475a-4e9a-8248-f8597f1b0f86",
@@ -16631,6 +16655,8 @@
         "Red Bull Arena - Leipzig": "bee479a4-1ebe-4760-9cb4-006692e0c1ea",
         "Estadio Coliseum - Getafe": "3bbcb14c-f68e-44b8-8caf-e80feeaf12d9",
         "Voith-Arena - Heidenheim": "12f62881-97cc-4cc5-81c2-05edd171c638",
-        "Martínez Valero - Elche": "6a391f39-1cb5-431b-aa97-613c931ef1b7"
+        "Martínez Valero - Elche": "6a391f39-1cb5-431b-aa97-613c931ef1b7",
+        "MEWA ARENA - Mainz": "be1e0d4c-4087-4df6-95db-a4a5bf054f05",
+        "Estadio La Cartuja de Sevilla - Sevilla": "dbb0cb7f-6081-4b7b-9041-9171eb7f5860"
     }
 }
