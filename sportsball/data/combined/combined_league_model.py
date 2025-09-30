@@ -119,7 +119,7 @@ class CombinedLeagueModel(LeagueModel):
         umpire_ffill: dict[str, dict[str, Any]] = {}
         team_players_ffill: dict[str, list[PlayerModel]] = {}
         last_game_number = None
-        keys = list(games.keys())
+        keys = sorted(list(games.keys()), key=lambda x: games[x][0].dt)
         with tqdm.tqdm() as pbar:
             for key in keys:
                 game_models = games.pop(key)

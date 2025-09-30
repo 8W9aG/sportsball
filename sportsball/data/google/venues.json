@@ -14055,6 +14055,61 @@
             "country": "India",
             "type": "city",
             "wiki": "Bengaluru"
+        },
+        "5c629243-5a45-4a57-8170-1b3b21aab239": {
+            "city": "Monterrey",
+            "state": "Nuevo León",
+            "postal": "",
+            "lat": 25.65225,
+            "lng": -100.286417,
+            "housenumber": "",
+            "country": "Mexico",
+            "type": "venue",
+            "wiki": "Estadio_Tecnológico"
+        },
+        "104b01dd-b0bc-446a-a9c6-2519d12893a1": {
+            "city": "Oviedo",
+            "state": "",
+            "postal": "",
+            "lat": 43.360783,
+            "lng": -5.870222,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Estadio_Carlos_Tartiere"
+        },
+        "5bc1eab5-0764-4570-b40b-3e21cff879e2": {
+            "city": "Bangor",
+            "state": "ME",
+            "postal": "",
+            "lat": 44.7893,
+            "lng": -68.7787,
+            "housenumber": "515",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Cross_Insurance_Arena"
+        },
+        "c4933a1e-7c09-4d1a-b426-c9d4bb13f219": {
+            "city": "Moraga",
+            "state": "CA",
+            "postal": "",
+            "lat": 37.841247,
+            "lng": -122.106409,
+            "housenumber": "1928",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "University_Credit_Union_Pavilion"
+        },
+        "1a9e5771-2208-471d-9e2d-a025ad9b3302": {
+            "city": "Edwardsville",
+            "state": "IL",
+            "postal": "",
+            "lat": 38.795989,
+            "lng": -89.999883,
+            "housenumber": "35",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Vadalabene_Center"
         }
     },
     "searches": {
@@ -14124,6 +14179,7 @@
         "Nassau Veterans Memorial Coliseum - Uniondale, New York, USA - United States": "750518c9-729a-4d0b-bd3a-6e38fa7a3ec9",
         "Nassau Veterans Memorial Coliseum": "750518c9-729a-4d0b-bd3a-6e38fa7a3ec9",
         "Nassau Veterans Memorial Coliseum - Uniondale - NY": "750518c9-729a-4d0b-bd3a-6e38fa7a3ec9",
+        "Nassau Veterans Memorial Coliseum - Uniondale - NY - 11588": "750518c9-729a-4d0b-bd3a-6e38fa7a3ec9",
         "Nissan Stadium": "6d8bba96-9e07-49d2-8049-b6418652f097",
         "Nissan Stadium - Nashville - TN - 37213": "6d8bba96-9e07-49d2-8049-b6418652f097",
         "Nissan Stadium - Nashville, Tennessee, USA - United States": "6d8bba96-9e07-49d2-8049-b6418652f097",
@@ -15272,6 +15328,7 @@
         "Alumni Memorial Fieldhouse, Philadelphia, Pennsylvania": "375e4e46-cda4-49ad-87d4-eb59b7a48334",
         "Michael J. Hagan '85 Arena - Philadelphia - PA": "375e4e46-cda4-49ad-87d4-eb59b7a48334",
         "BB&T Field": "1d980770-144f-4275-bcf6-0e3cfc6b3b23",
+        "BB&T Ballpark - Charlotte - NC - 28202": "1d980770-144f-4275-bcf6-0e3cfc6b3b23",
         "Wells Fargo Center, Philadelphia, Pennsylvania": "632c915d-1f70-446a-a97e-ac5cd539a4bc",
         "Spectrum": "632c915d-1f70-446a-a97e-ac5cd539a4bc",
         "Wachovia Center": "632c915d-1f70-446a-a97e-ac5cd539a4bc",
@@ -16984,6 +17041,15 @@
         "RCDE Stadium - Barcelona": "c36f2bdc-3183-4d5d-b3f5-12ed49f7ea1a",
         "Harbor Park - Norfolk - Virginia - 23551": "4ae0d525-b99f-40f6-a563-316411f2faa7",
         "Ulker Sports Arena - Istanbul": "5f42ff54-da7c-4a07-93e6-46a778e52f74",
-        "ITF Bengaluru": "8ffef2c5-f53f-4552-b247-bc77a51d5910"
+        "ITF Bengaluru": "8ffef2c5-f53f-4552-b247-bc77a51d5910",
+        "Tecnologico - Monterrey": "5c629243-5a45-4a57-8170-1b3b21aab239",
+        "Carlos Tartiere - Oviedo": "104b01dd-b0bc-446a-a9c6-2519d12893a1",
+        "Cross Insurance Arena - Portland - ME": "5bc1eab5-0764-4570-b40b-3e21cff879e2",
+        "Cross Insurance Center, Bangor, Maine": "5bc1eab5-0764-4570-b40b-3e21cff879e2",
+        "University Credit Union Pavilion, Moraga, California": "c4933a1e-7c09-4d1a-b426-c9d4bb13f219",
+        "University Credit Union Pavilion - Moraga - CA": "c4933a1e-7c09-4d1a-b426-c9d4bb13f219",
+        "First Community Arena - Edwardsville - IL": "1a9e5771-2208-471d-9e2d-a025ad9b3302",
+        "Sam Vadalabene Center , Edwardsville, Illinois": "1a9e5771-2208-471d-9e2d-a025ad9b3302",
+        "Vadalabene Center, Edwardsville, Illinois": "1a9e5771-2208-471d-9e2d-a025ad9b3302"
     }
 }
