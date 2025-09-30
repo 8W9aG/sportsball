@@ -13978,6 +13978,39 @@
             "country": "USA",
             "type": "venue",
             "wiki": "Cashman_Field"
+        },
+        "51c2f0b1-ebe8-45c2-bf83-2a53ec3313f7": {
+            "city": "Augsburg",
+            "state": "",
+            "postal": "",
+            "lat": 48.323056,
+            "lng": 10.886111,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "venue",
+            "wiki": "Augsburg_Arena"
+        },
+        "a943e34d-43a6-4fff-b022-1affeb78149d": {
+            "city": "Vigo",
+            "state": "Galicia",
+            "postal": "",
+            "lat": 42.2118,
+            "lng": -8.7397,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Balaídos_Stadium"
+        },
+        "2de49233-c161-4b57-8a2f-d6790799aede": {
+            "city": "White Sulphur Springs",
+            "state": "WV",
+            "postal": "36832",
+            "lat": 37.7854,
+            "lng": -80.3083,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "The_Greenbrier"
         }
     },
     "searches": {
@@ -16478,6 +16511,7 @@
         "Parc de Lescure - Bordeaux": "216e5e68-f7b9-4f51-a400-e6a1224bdb8b",
         "Moody Coliseum - Dallas - TX": "434fc7f3-7bbb-402a-b9c6-3b6ecd6ba462",
         "Moody Coliseum, Dallas, Texas": "434fc7f3-7bbb-402a-b9c6-3b6ecd6ba462",
+        "Moody Coliseum (Dallas) - Dallas - TX": "434fc7f3-7bbb-402a-b9c6-3b6ecd6ba462",
         "Singapore, Singapore": "21e425d3-d752-482c-9b4e-2b67b6d8b5cf",
         "Singapore": "21e425d3-d752-482c-9b4e-2b67b6d8b5cf",
         "South Pine": "9f6cd145-ff47-4b72-be03-980d903a027a",
@@ -16524,6 +16558,7 @@
         "Drummoyne Oval": "03e9e2ef-9e20-4cc4-8a01-e8843552e1dd",
         "Indian Wells Masters": "9e1df90a-9173-4f2d-b5e5-c8ac4c113999",
         "Birmingham, Great Britain": "63648214-df36-45fa-8bf6-da418eaeca30",
+        "Birmingham": "63648214-df36-45fa-8bf6-da418eaeca30",
         "Warsaw, Poland": "2c902bf5-5449-45d4-ad0c-e684ea0428bf",
         "North Port Oval, Port Melbourne, Australia": "4bf55866-5443-4a44-8fdc-b21ea7a82a62",
         "North Port Oval": "4bf55866-5443-4a44-8fdc-b21ea7a82a62",
@@ -16893,6 +16928,10 @@
         "Knoxville, Tennessee": "77dae750-9ad1-4c9e-b98a-c551fd7cdc5d",
         "Knoxville, TN, USA": "77dae750-9ad1-4c9e-b98a-c551fd7cdc5d",
         "Knoxville CH": "77dae750-9ad1-4c9e-b98a-c551fd7cdc5d",
-        "Cashman Field - Las Vegas - Nevada - 89199": "7c199a67-0f58-40de-82da-a6d3722fb713"
+        "Cashman Field - Las Vegas - Nevada - 89199": "7c199a67-0f58-40de-82da-a6d3722fb713",
+        "WWK Arena - Augsburg": "51c2f0b1-ebe8-45c2-bf83-2a53ec3313f7",
+        "Estadio Abanca-Balaídos - Vigo": "a943e34d-43a6-4fff-b022-1affeb78149d",
+        "Colonial Hall at The Greenbrier, White Sulphur Springs, West Virginia": "2de49233-c161-4b57-8a2f-d6790799aede",
+        "Colonial Hall - White Sulphur Springs - WV": "2de49233-c161-4b57-8a2f-d6790799aede"
     }
 }

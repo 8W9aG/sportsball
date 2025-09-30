@@ -18,7 +18,7 @@ def create_wnba_wnbacom_team_model(
 ) -> TeamModel:
     """Create a team model from WNBA WNBA.com."""
     return TeamModel(
-        identifier=team_name,
+        identifier=identifier,
         name=team_name,
         location=None,
         players=[],
