@@ -14154,6 +14154,50 @@
             "country": "Hungary",
             "type": "city",
             "wiki": "Budapest"
+        },
+        "077d8b66-d405-42ca-92f1-c7d15c76bb00": {
+            "city": "Kiel",
+            "state": "",
+            "postal": "",
+            "lat": 54.349167,
+            "lng": 10.123611,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "venue",
+            "wiki": "Holstein-Stadion"
+        },
+        "b8d77073-abcd-4d9d-a69e-120bab4920df": {
+            "city": "Mesquita",
+            "state": "Rio de Janeiro",
+            "postal": "",
+            "lat": -22.795278,
+            "lng": -43.419722,
+            "housenumber": "",
+            "country": "Brazil",
+            "type": "venue",
+            "wiki": "Estádio_Giulite_Coutinho"
+        },
+        "9d0868ec-0839-49a4-9378-fa71aafa73b0": {
+            "city": "Madrid",
+            "state": "",
+            "postal": "",
+            "lat": 40.391944,
+            "lng": -3.658889,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Vallecas_Stadium"
+        },
+        "bf328768-e78e-4e90-8133-7bb74f4c71bc": {
+            "city": "St. John's",
+            "state": "NL",
+            "postal": "",
+            "lat": 47.560022,
+            "lng": -52.713208,
+            "housenumber": "50",
+            "country": "Canada",
+            "type": "venue",
+            "wiki": "Mary_Brown's_Centre"
         }
     },
     "searches": {
@@ -15627,6 +15671,7 @@
         "American Airlines Center": "9147c05e-6acf-42b1-9796-93c734a6c42a",
         "American Airlines Center - Dallas - TX": "9147c05e-6acf-42b1-9796-93c734a6c42a",
         "Firestone Fieldhouse, Malibu, California": "f23aac2e-181e-4918-b337-1f541d4219ec",
+        "Firestone Fieldhouse - Malibu - CA": "f23aac2e-181e-4918-b337-1f541d4219ec",
         "Illinois State": "5abfac8a-7bdb-4247-9611-910be206fe3f",
         "Illinois State College": "5abfac8a-7bdb-4247-9611-910be206fe3f",
         "Chiles Center, Portland, Oregon": "b9e7f7b0-bf03-4dcb-bb58-52d90c49ead8",
@@ -17004,6 +17049,7 @@
         "Estadio de Béisbol Monterrey - Nuevo Leon - Mexico": "982901f9-b00f-47fc-8a07-4e26c0dcfc67",
         "Farmasi Arena - Rio De Janeiro": "c51f3f81-8def-4628-8f8e-95f6e78903e6",
         "Beijing": "ae496dde-e0a2-443c-b184-3d5930ecd4ae",
+        "Beijing, China PR": "ae496dde-e0a2-443c-b184-3d5930ecd4ae",
         "Maia CH": "4e90ad39-4e3a-4bc4-a156-473cc89df79d",
         "TD Arena - Charleston - SC": "58a4c4ca-b2de-4b96-95d6-25bef1661c15",
         "TD Arena, Charleston, South Carolina": "58a4c4ca-b2de-4b96-95d6-25bef1661c15",
@@ -17099,6 +17145,10 @@
         "Helsinki CH": "f16ed6a4-e037-4e0e-b925-f48cfc75ee61",
         "Tres de Marzo - Guadalajara": "d80380eb-41cc-48b9-8d72-487c330fdce6",
         "Mestalla - Manises": "6161afbe-e0da-489e-bd1b-c73299f67717",
-        "Budapest": "706f782c-15cd-4321-a14d-4aca5615fcc7"
+        "Budapest": "706f782c-15cd-4321-a14d-4aca5615fcc7",
+        "Holstein-Stadion - Kiel": "077d8b66-d405-42ca-92f1-c7d15c76bb00",
+        "Edson Passos - Rio de Janeiro": "b8d77073-abcd-4d9d-a69e-120bab4920df",
+        "Estadio de Vallecas - Madrid": "9d0868ec-0839-49a4-9378-fa71aafa73b0",
+        "Mile One Centre": "bf328768-e78e-4e90-8133-7bb74f4c71bc"
     }
 }
