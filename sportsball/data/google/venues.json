@@ -14110,6 +14110,50 @@
             "country": "USA",
             "type": "venue",
             "wiki": "Vadalabene_Center"
+        },
+        "f16ed6a4-e037-4e0e-b925-f48cfc75ee61": {
+            "city": "Helsinki",
+            "state": "Uusimaa",
+            "postal": "",
+            "lat": 60.170833,
+            "lng": 24.9375,
+            "housenumber": "",
+            "country": "Finland",
+            "type": "city",
+            "wiki": "Helsinki"
+        },
+        "d80380eb-41cc-48b9-8d72-487c330fdce6": {
+            "city": "Guadalajara",
+            "state": "",
+            "postal": "",
+            "lat": 20.693889,
+            "lng": -103.416111,
+            "housenumber": "",
+            "country": "Mexico",
+            "type": "venue",
+            "wiki": "Estadio_Tres_de_Marzo"
+        },
+        "6161afbe-e0da-489e-bd1b-c73299f67717": {
+            "city": "Valencia",
+            "state": "",
+            "postal": "",
+            "lat": 39.474722,
+            "lng": -0.358333,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Mestalla_Stadium"
+        },
+        "706f782c-15cd-4321-a14d-4aca5615fcc7": {
+            "city": "Budapest",
+            "state": "",
+            "postal": "",
+            "lat": 47.4925,
+            "lng": 19.051389,
+            "housenumber": "",
+            "country": "Hungary",
+            "type": "city",
+            "wiki": "Budapest"
         }
     },
     "searches": {
@@ -15469,6 +15513,7 @@
         "Gallivare, Sweden": "ea4f8e07-818e-46bb-947f-95bdb1d976c6",
         "KSU Convocation Center , Kennesaw, Georgia": "b1e96209-eeed-421f-bfc7-d9d7f0afa8dd",
         "KSU Convocation Center, Kennesaw, Georgia": "b1e96209-eeed-421f-bfc7-d9d7f0afa8dd",
+        "KSU Convocation Center - Kennesaw - GA - 30144": "b1e96209-eeed-421f-bfc7-d9d7f0afa8dd",
         "Ellis T. Johnson Arena, Morehead, Kentucky": "1b82b0f8-e01b-47de-a431-35956290c26e",
         "Cincinnati, Ohio": "4055a1d3-a085-4a7c-bd2c-5e12a7d9ca1d",
         "Cincinnati, OH, USA": "4055a1d3-a085-4a7c-bd2c-5e12a7d9ca1d",
@@ -17050,6 +17095,10 @@
         "University Credit Union Pavilion - Moraga - CA": "c4933a1e-7c09-4d1a-b426-c9d4bb13f219",
         "First Community Arena - Edwardsville - IL": "1a9e5771-2208-471d-9e2d-a025ad9b3302",
         "Sam Vadalabene Center , Edwardsville, Illinois": "1a9e5771-2208-471d-9e2d-a025ad9b3302",
-        "Vadalabene Center, Edwardsville, Illinois": "1a9e5771-2208-471d-9e2d-a025ad9b3302"
+        "Vadalabene Center, Edwardsville, Illinois": "1a9e5771-2208-471d-9e2d-a025ad9b3302",
+        "Helsinki CH": "f16ed6a4-e037-4e0e-b925-f48cfc75ee61",
+        "Tres de Marzo - Guadalajara": "d80380eb-41cc-48b9-8d72-487c330fdce6",
+        "Mestalla - Manises": "6161afbe-e0da-489e-bd1b-c73299f67717",
+        "Budapest": "706f782c-15cd-4321-a14d-4aca5615fcc7"
     }
 }
