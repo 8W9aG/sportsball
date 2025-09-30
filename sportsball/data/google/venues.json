@@ -14198,6 +14198,50 @@
             "country": "Canada",
             "type": "venue",
             "wiki": "Mary_Brown's_Centre"
+        },
+        "dd3416d5-a389-4a4b-b41a-1f74b3cfb929": {
+            "city": "Freiburg im Breisgau",
+            "state": "",
+            "postal": "",
+            "lat": 48.0216,
+            "lng": 7.8297,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "venue",
+            "wiki": "Europa-Park_Stadion"
+        },
+        "2da370ef-afa6-48d5-9a35-44b22545f940": {
+            "city": "Querétaro",
+            "state": "",
+            "postal": "",
+            "lat": 20.577778,
+            "lng": -100.366389,
+            "housenumber": "",
+            "country": "Mexico",
+            "type": "venue",
+            "wiki": "Estadio_Corregidora"
+        },
+        "1eb2671a-699e-40b5-9db0-09698bba3cac": {
+            "city": "Villarreal",
+            "state": "",
+            "postal": "",
+            "lat": 39.944167,
+            "lng": -0.103611,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Estadio_de_la_Cerámica"
+        },
+        "c3a8de30-1341-4b6b-ba47-e5b063410469": {
+            "city": "Monastir",
+            "state": "",
+            "postal": "",
+            "lat": 35.769444,
+            "lng": 10.819444,
+            "housenumber": "",
+            "country": "Tunisia",
+            "type": "city",
+            "wiki": "Monastir,_Tunisia"
         }
     },
     "searches": {
@@ -17149,6 +17193,10 @@
         "Holstein-Stadion - Kiel": "077d8b66-d405-42ca-92f1-c7d15c76bb00",
         "Edson Passos - Rio de Janeiro": "b8d77073-abcd-4d9d-a69e-120bab4920df",
         "Estadio de Vallecas - Madrid": "9d0868ec-0839-49a4-9378-fa71aafa73b0",
-        "Mile One Centre": "bf328768-e78e-4e90-8133-7bb74f4c71bc"
+        "Mile One Centre": "bf328768-e78e-4e90-8133-7bb74f4c71bc",
+        "Europa-Park Stadion - Freiburg im Breisgau": "dd3416d5-a389-4a4b-b41a-1f74b3cfb929",
+        "La Corregidora - Queretaro": "2da370ef-afa6-48d5-9a35-44b22545f940",
+        "Estadio de la Cerámica - Villarreal": "1eb2671a-699e-40b5-9db0-09698bba3cac",
+        "Monastir": "c3a8de30-1341-4b6b-ba47-e5b063410469"
     }
 }
