@@ -51,7 +51,11 @@ class FootballDataLeagueModel(LeagueModel):
         full_time_away_goals_cell = str(row["FTAG"]).strip()
         referee_cell = row.get("Referee")
         home_shots_cell = row.get("HS")
+        if home_shots_cell is not None and not home_shots_cell:
+            home_shots_cell = None
         away_shots_cell = row.get("AS")
+        if away_shots_cell is not None and not away_shots_cell:
+            away_shots_cell = None
 
         home_shots_on_target_cell = row.get("HST")
         if home_shots_on_target_cell is not None and not home_shots_on_target_cell:

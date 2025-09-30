@@ -14011,6 +14011,17 @@
             "country": "USA",
             "type": "venue",
             "wiki": "The_Greenbrier"
+        },
+        "c36f2bdc-3183-4d5d-b3f5-12ed49f7ea1a": {
+            "city": "Barcelona",
+            "state": "",
+            "postal": "",
+            "lat": 41.347778,
+            "lng": 2.075556,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "RCDE_Stadium"
         }
     },
     "searches": {
@@ -16932,6 +16943,7 @@
         "WWK Arena - Augsburg": "51c2f0b1-ebe8-45c2-bf83-2a53ec3313f7",
         "Estadio Abanca-Balaídos - Vigo": "a943e34d-43a6-4fff-b022-1affeb78149d",
         "Colonial Hall at The Greenbrier, White Sulphur Springs, West Virginia": "2de49233-c161-4b57-8a2f-d6790799aede",
-        "Colonial Hall - White Sulphur Springs - WV": "2de49233-c161-4b57-8a2f-d6790799aede"
+        "Colonial Hall - White Sulphur Springs - WV": "2de49233-c161-4b57-8a2f-d6790799aede",
+        "RCDE Stadium - Barcelona": "c36f2bdc-3183-4d5d-b3f5-12ed49f7ea1a"
     }
 }
