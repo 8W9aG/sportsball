@@ -7371,15 +7371,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Beard–Eaves–Memorial Coliseum, Auburn, Alabama": BEARD_EAVES_MEMORIAL_COLISEUM,
-    "Colonial Hall at The Greenbrier, White Sulphur Springs, West Virginia": SportsballGeocodeTuple(
-        city="White Sulphur Springs",
-        state="WV",
-        postal="36832",
-        lat=37.7854,
-        lng=-80.3083,
-        housenumber="",
-        country="USA",
-    ),
     "BeardâEavesâMemorial Coliseum, Auburn, Alabama": BEARD_EAVES_MEMORIAL_COLISEUM,
     "Vibrant Arena at The MARK, Moline, Illinois": SportsballGeocodeTuple(
         city="Moline",

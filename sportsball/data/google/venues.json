@@ -14022,6 +14022,39 @@
             "country": "Spain",
             "type": "venue",
             "wiki": "RCDE_Stadium"
+        },
+        "4ae0d525-b99f-40f6-a563-316411f2faa7": {
+            "city": "Norfolk",
+            "state": "VA",
+            "postal": "",
+            "lat": 41.347778,
+            "lng": 2.075556,
+            "housenumber": "150",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Harbor_Park"
+        },
+        "5f42ff54-da7c-4a07-93e6-46a778e52f74": {
+            "city": "Istanbul",
+            "state": "",
+            "postal": "",
+            "lat": 40.993056,
+            "lng": 29.104444,
+            "housenumber": "",
+            "country": "Turkey",
+            "type": "venue",
+            "wiki": "Ülker_Sports_and_Event_Hall"
+        },
+        "8ffef2c5-f53f-4552-b247-bc77a51d5910": {
+            "city": "Bengaluru",
+            "state": "Karnataka",
+            "postal": "",
+            "lat": 40.993056,
+            "lng": 29.104444,
+            "housenumber": "",
+            "country": "India",
+            "type": "city",
+            "wiki": "Bengaluru"
         }
     },
     "searches": {
@@ -14653,6 +14686,7 @@
         "People First Stadium - 4211": "361298bc-6000-4b40-a8eb-579139c277a5",
         "W.A.C.A. - Australia": "247ad0b9-7487-4673-98a1-ee971baca960",
         "Edgewood Tahoe Resort": "53536783-b4ad-428d-9c63-b0fccbaa9ea2",
+        "Edgewood Tahoe Resort - Stateline - NV - 89449": "53536783-b4ad-428d-9c63-b0fccbaa9ea2",
         "Memorial Stadium (Lincoln) - Terre Haute, Indiana, USA - United States": "79d23320-5c00-4578-92a9-ee21a4f42e65",
         "Choctaw Stadium, Arlington, TX, USA": "1c23dc44-d482-44cb-9e95-fd5492565ac1",
         "Choctaw Stadium - Arlington - TX - 76011": "1c23dc44-d482-44cb-9e95-fd5492565ac1",
@@ -15411,6 +15445,7 @@
         "Halle, Germany": "a8e7a81a-b25f-43e8-924d-fa59005e5972",
         "Reed Gym, Pocatello, Idaho": "565e52f6-11e6-45ba-864c-2be67c75ea20",
         "San Mamés Barria - Bilbao - Spain": "06afd7e0-7f6e-44f0-9da5-6744a2804457",
+        "San Mamés - Bilbao": "06afd7e0-7f6e-44f0-9da5-6744a2804457",
         "Scheels Center, Fargo, North Dakota": "38ea0c65-1f00-4c3c-b720-1d6ab5aed13d",
         "Scheels Arena, Fargo, North Dakota": "38ea0c65-1f00-4c3c-b720-1d6ab5aed13d",
         "Bison Sports Arena, Fargo, North Dakota": "38ea0c65-1f00-4c3c-b720-1d6ab5aed13d",
@@ -16412,6 +16447,7 @@
         "Cable Dahmer Arena - Independence - MO - 64058": "e72e2bfb-7a27-4d7c-bfd2-68c820477ecf",
         "AND": "e7cb5ce3-e80a-445f-ba8a-c39bc763acb5",
         "Gottlieb-Daimler Stadion - Stuttgart": "60319930-ee31-4841-b278-5e27b0071010",
+        "MHPArena - Stuttgart": "60319930-ee31-4841-b278-5e27b0071010",
         "Simon Skjodt Assembly Hall - Bloomington - IN": "c2085ecc-779c-426a-9413-7fb50b9ed1aa",
         "ITF Saskatoon": "6dfe969e-ea34-4139-bd16-a6fe17f4517f",
         "TCC Arena - Tucson - AZ - 85777": "1609b140-2f46-4659-98bd-c48a9bfd4376",
@@ -16873,6 +16909,7 @@
         "Jacksonville Veteran's Memorial Arena, Jacksonville, Florida": "ebde0c2b-d9fa-470a-9e16-784111ca3772",
         "Veterans Memorial Arena - Jacksonville - FL": "ebde0c2b-d9fa-470a-9e16-784111ca3772",
         "Chengdu, China PR": "b8708de1-9237-445f-94f1-1ac9218372fb",
+        "Chengdu": "b8708de1-9237-445f-94f1-1ac9218372fb",
         "Arco Arena - Sacramento, California - United States": "2820d127-8d30-4a61-802f-bd97ec2fe114",
         "ARCO Arena, Sacramento, CA, USA": "2820d127-8d30-4a61-802f-bd97ec2fe114",
         "Sleep Train Arena, Sacramento, California": "2820d127-8d30-4a61-802f-bd97ec2fe114",
@@ -16944,6 +16981,9 @@
         "Estadio Abanca-Balaídos - Vigo": "a943e34d-43a6-4fff-b022-1affeb78149d",
         "Colonial Hall at The Greenbrier, White Sulphur Springs, West Virginia": "2de49233-c161-4b57-8a2f-d6790799aede",
         "Colonial Hall - White Sulphur Springs - WV": "2de49233-c161-4b57-8a2f-d6790799aede",
-        "RCDE Stadium - Barcelona": "c36f2bdc-3183-4d5d-b3f5-12ed49f7ea1a"
+        "RCDE Stadium - Barcelona": "c36f2bdc-3183-4d5d-b3f5-12ed49f7ea1a",
+        "Harbor Park - Norfolk - Virginia - 23551": "4ae0d525-b99f-40f6-a563-316411f2faa7",
+        "Ulker Sports Arena - Istanbul": "5f42ff54-da7c-4a07-93e6-46a778e52f74",
+        "ITF Bengaluru": "8ffef2c5-f53f-4552-b247-bc77a51d5910"
     }
 }
