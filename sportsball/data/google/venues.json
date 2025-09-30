@@ -13934,6 +13934,50 @@
             "country": "Germany",
             "type": "venue",
             "wiki": "Rhein-Neckar-Arena"
+        },
+        "2818ae6f-e6b6-4f9f-ae49-dd38695851ff": {
+            "city": "Girona",
+            "state": "Catalonia",
+            "postal": "",
+            "lat": 41.961389,
+            "lng": 2.828611,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Estadi_Montilivi"
+        },
+        "ed7e1775-2797-4bf9-8a44-1592830e86d7": {
+            "city": "Dover",
+            "state": "DE",
+            "postal": "",
+            "lat": 39.1876,
+            "lng": -75.5434,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Memorial_Hall_(Delaware_State)"
+        },
+        "77dae750-9ad1-4c9e-b98a-c551fd7cdc5d": {
+            "city": "Knoxville",
+            "state": "TN",
+            "postal": "",
+            "lat": 35.9617,
+            "lng": -83.9232,
+            "housenumber": "",
+            "country": "USA",
+            "type": "city",
+            "wiki": "Knoxville,_Tennessee"
+        },
+        "7c199a67-0f58-40de-82da-a6d3722fb713": {
+            "city": "Las Vegas",
+            "state": "NV",
+            "postal": "",
+            "lat": 36.179667,
+            "lng": -115.129972,
+            "housenumber": "850",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Cashman_Field"
         }
     },
     "searches": {
@@ -15249,6 +15293,7 @@
         "Enterprise Center, St. Louis, MO, USA": "ef748f23-92e7-45ed-80fc-682101fee8c0",
         "Enterprise Center": "ef748f23-92e7-45ed-80fc-682101fee8c0",
         "Enterprise Center - St. Louis - MO": "ef748f23-92e7-45ed-80fc-682101fee8c0",
+        "Enterprise Center - Saint Louis - MO": "ef748f23-92e7-45ed-80fc-682101fee8c0",
         "Estelle and Zoom Fleisher Athletic Center, Newark, New Jersey": "a03aa240-d29c-4c95-b1ff-a3954563ecb3",
         "Brown Stadium": "a85084a4-f2a2-4ec2-9474-3479cab022dd",
         "Brown Stadium (RI) - Providence - RI - 02906": "a85084a4-f2a2-4ec2-9474-3479cab022dd",
@@ -16841,6 +16886,13 @@
         "Ramón Sánchez-Pizjuán - Sevilla": "11771ed0-52fc-4171-9ded-903c5f602904",
         "LUX": "67398d74-4590-4dc2-bd4f-a63fe3ed1d4d",
         "Mumbai": "afa3958c-7843-4ea9-a3c4-0bf7753e3550",
-        "PreZero Arena - Sinsheim": "ab40fa0e-41e8-4139-ba9d-65204f62e71d"
+        "PreZero Arena - Sinsheim": "ab40fa0e-41e8-4139-ba9d-65204f62e71d",
+        "Municipal de Montilivi - Girona": "2818ae6f-e6b6-4f9f-ae49-dd38695851ff",
+        "Memorial Hall (DE) - Dover - DE": "ed7e1775-2797-4bf9-8a44-1592830e86d7",
+        "Memorial Hall, Dover, Delaware": "ed7e1775-2797-4bf9-8a44-1592830e86d7",
+        "Knoxville, Tennessee": "77dae750-9ad1-4c9e-b98a-c551fd7cdc5d",
+        "Knoxville, TN, USA": "77dae750-9ad1-4c9e-b98a-c551fd7cdc5d",
+        "Knoxville CH": "77dae750-9ad1-4c9e-b98a-c551fd7cdc5d",
+        "Cashman Field - Las Vegas - Nevada - 89199": "7c199a67-0f58-40de-82da-a6d3722fb713"
     }
 }

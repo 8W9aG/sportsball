@@ -11,6 +11,7 @@ from ...team_model import TeamModel
 
 def create_wnba_wnbacom_team_model(
     team_name: str,
+    identifier: str,
     dt: datetime.datetime,
     session: ScrapeSession,
     version: str,

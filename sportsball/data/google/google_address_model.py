@@ -1228,15 +1228,6 @@ CANTON = SportsballGeocodeTuple(
     housenumber="",
     country="USA",
 )
-KNOXVILLE = SportsballGeocodeTuple(
-    city="Knoxville",
-    state="TN",
-    postal="",
-    lat=35.9617,
-    lng=-83.9232,
-    housenumber="",
-    country="USA",
-)
 ELON = SportsballGeocodeTuple(
     city="Elon",
     state="NC",
@@ -2493,15 +2484,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         postal="",
         lat=29.43,
         lng=-95.21,
-        housenumber="",
-        country="USA",
-    ),
-    "Memorial Hall, Dover, Delaware": SportsballGeocodeTuple(
-        city="Dover",
-        state="DE",
-        postal="",
-        lat=39.1876,
-        lng=-75.5434,
         housenumber="",
         country="USA",
     ),
@@ -5229,7 +5211,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Knoxville, Tennessee": KNOXVILLE,
     "Gainesville, Florida": GAINESVILLE,
     "Tempe, Arizona": TEMPE,
     "Manhattan, Kansas": MANHATTAN,
@@ -9652,7 +9633,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="",
         country="USA",
     ),
-    "Knoxville, TN, USA": KNOXVILLE,
     "Bradenton, FL, USA": SportsballGeocodeTuple(
         city="Bradenton",
         state="FL",

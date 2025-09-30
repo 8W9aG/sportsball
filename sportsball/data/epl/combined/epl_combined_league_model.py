@@ -30,6 +30,12 @@ FULHAM = "370"
 BLACKBURN_ROVERS = "365"
 EVERTON = "368"
 ARSENAL = "359"
+BRENTFORD = "Brentford"
+NOTTINGHAM_FOREST = "Nott'm Forest"
+BRIGHTON = "Brighton"
+CRYSTAL_PALACE = "Crystal Palace"
+BOURNEMOUTH = "Bournemouth"
+WOLVES = "Wolves"
 EPL_TEAM_IDENTITY_MAP: dict[str, str] = {
     # ESPN
     "358": BOLTON_WANDERERS,
@@ -52,6 +58,26 @@ EPL_TEAM_IDENTITY_MAP: dict[str, str] = {
     "365": BLACKBURN_ROVERS,
     "368": EVERTON,
     "359": ARSENAL,
+    # FootballData
+    "Brentford": BRENTFORD,
+    "Arsenal": ARSENAL,
+    "Aston Villa": ASTON_VILLA,
+    "Southampton": SOUTHAMPTON,
+    "Everton": EVERTON,
+    "Nott'm Forest": NOTTINGHAM_FOREST,
+    "Leicester": LEICESTER_CITY,
+    "Brighton": BRIGHTON,
+    "Crystal Palace": CRYSTAL_PALACE,
+    "Man City": MANCHESTER_UNITED,
+    "Liverpool": LIVERPOOL,
+    "Tottenham": TOTTENHAM_HOTSPUR,
+    "West Ham": WEST_HAM_UNITED,
+    "Chelsea": CHELSEA,
+    "Newcastle": NEWCASTLE_UNITED,
+    "Bournemouth": BOURNEMOUTH,
+    "Wolves": WOLVES,
+    "Ipswich": IPSWICH_TOWN,
+    "Fulham": FULHAM,
 }
 BOLEYN_GROUND = "304"
 STADIUM_OF_LIGHT = "194"

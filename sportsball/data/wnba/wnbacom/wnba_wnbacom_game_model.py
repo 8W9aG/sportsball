@@ -1,14 +1,10 @@
 """WNBA WNBA.com game model."""
 
-import re
-from urllib.parse import urlparse
+import datetime
+from typing import Any
 
-from bs4 import BeautifulSoup
-from dateutil.parser import parse
-from playwright.sync_api import Playwright
 from scrapesession.scrapesession import ScrapeSession  # type: ignore
 
-from ....playwright import ensure_install
 from ...game_model import GameModel
 from ...league import League
 from ...team_model import VERSION
@@ -18,67 +14,38 @@ from .wnba_wnbacom_venue_model import create_wnba_wnbacom_venue_model
 
 
 def create_wnba_wnbacom_game_model(
-    url: str,
+    game_dict: dict[str, Any],
     session: ScrapeSession,
-    playwright: Playwright,
     version: str,
 ) -> GameModel:
     """Create a game model from WNBA.com."""
-    o = urlparse(url)
-    end_path_split = o.path.split("/")[-1].split("-")
-    week = int(end_path_split[-1])
-
-    ensure_install()
-    browser = playwright.chromium.launch()
-    context = browser.new_context()
-    page = context.new_page()
-    page.goto(url, wait_until="load")
-    soup = BeautifulSoup(page.content(), "lxml")
-
-    dt = None
-    for div_date in soup.find_all(
-        "div", {"class": re.compile("_GameStatusExpanded__date.*")}
-    ):
-        date_txt = div_date.get_text().strip()
-        for div_time in soup.find_all(
-            "div", {"class": re.compile("_GameStatusExpanded__date.*")}
-        ):
-            time_txt = div_time.get_text().strip()
-            dt = parse(" ".join([date_txt, time_txt]))
-            break
-        break
-    if dt is None:
-        raise ValueError("dt is null")
-
-    venue_model = None
-    for div_location in soup.find_all(
-        "div", {"class": re.compile("_GameDetailsHeader--location.*")}
-    ):
-        venue_model = create_wnba_wnbacom_venue_model(
-            venue_name=div_location.get_text().strip(),
-            session=session,
-            dt=dt,
-            version=VENUE_VERSION,
-        )
-        break
-
+    dt = datetime.datetime.fromisoformat(game_dict["utcTime"])
+    venue_name = " - ".join(
+        [game_dict["arenaName"], game_dict["arenaCity"], game_dict["arenaState"]]
+    )
+    venue_model = create_wnba_wnbacom_venue_model(
+        venue_name=venue_name, session=session, dt=dt, version=VENUE_VERSION
+    )
     teams = []
-    for div_team in soup.find_all(
-        "div", {"class": re.compile("_GameDetailsHeader--team.*")}
-    ):
-        team_name = div_team.get_text().strip().replace("\n", "").strip()
+    for team_key in ["home", "visitor"]:
+        team_dict = game_dict[team_key]
+        team_name = " ".join([team_dict["city"], team_dict["name"]])
         teams.append(
             create_wnba_wnbacom_team_model(
-                team_name=team_name, dt=dt, session=session, version=VERSION
+                team_name=team_name,
+                identifier=str(team_dict["tid"]),
+                dt=dt,
+                session=session,
+                version=VERSION,
             )
         )
 
     return GameModel(
         dt=dt,
-        week=week,
+        week=None,
         game_number=None,
         venue=venue_model,
-        teams=list(reversed(teams)),
+        teams=teams,
         end_dt=None,
         attendance=None,
         league=League.WNBA,

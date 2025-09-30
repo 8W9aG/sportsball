@@ -52,8 +52,14 @@ class FootballDataLeagueModel(LeagueModel):
         referee_cell = row.get("Referee")
         home_shots_cell = row.get("HS")
         away_shots_cell = row.get("AS")
+
         home_shots_on_target_cell = row.get("HST")
+        if home_shots_on_target_cell is not None and not home_shots_on_target_cell:
+            home_shots_on_target_cell = None
         away_shots_on_target_cell = row.get("AST")
+        if away_shots_on_target_cell is not None and not away_shots_on_target_cell:
+            away_shots_on_target_cell = None
+
         home_fouls_cell = row.get("HF")
         away_fouls_cell = row.get("AF")
         home_yellow_cards_cell = row.get("HY")
