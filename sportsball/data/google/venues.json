@@ -14518,6 +14518,39 @@
             "country": "Mexico",
             "type": "venue",
             "wiki": "Estadio_León"
+        },
+        "01ace76c-6a2a-4618-bf53-22fa2a8e91e8": {
+            "city": "Mönchengladbach",
+            "state": "North Rhine-Westphalia",
+            "postal": "",
+            "lat": 51.174722,
+            "lng": 6.385556,
+            "housenumber": "1",
+            "country": "Germany",
+            "type": "venue",
+            "wiki": "Borussia-Park"
+        },
+        "dd4a31a1-bd4c-435e-bdbd-70900f9d22a3": {
+            "city": "Nezahualcóyotl",
+            "state": "Mexico",
+            "postal": "",
+            "lat": 19.408056,
+            "lng": -99.018611,
+            "housenumber": "",
+            "country": "Mexico",
+            "type": "city",
+            "wiki": "Ciudad_Nezahualcóyotl"
+        },
+        "cf6b78d5-1394-42e6-82e2-a433cdbf4af2": {
+            "city": "Valladolid",
+            "state": "Castile and León",
+            "postal": "",
+            "lat": 41.644444,
+            "lng": -4.7611116,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "José_Zorrilla_Stadium"
         }
     },
     "searches": {
@@ -14609,6 +14642,7 @@
         "Coliseum, Cincinnati, Ohio": "d6652130-78e1-4e66-96d7-c67cff3b8f57",
         "Riverfront Coliseum, Cincinnati, Ohio": "d6652130-78e1-4e66-96d7-c67cff3b8f57",
         "Paycor Stadium, Cincinnati, OH, USA": "d6652130-78e1-4e66-96d7-c67cff3b8f57",
+        "PAYCOR STADIUM": "d6652130-78e1-4e66-96d7-c67cff3b8f57",
         "Emirates Stadium, London, England": "73955208-3bf4-4cb2-910a-4b378bb32e5f",
         "Emirates Stadium - London": "73955208-3bf4-4cb2-910a-4b378bb32e5f",
         "SoFi Stadium": "6e6ff45a-cf0a-4a15-a042-f3832491acd4",
@@ -17520,6 +17554,9 @@
         "Estadio Gran Canaria - Las Palmas de Gran Canaria": "8d8a7681-91f2-4eab-b0cc-78b807175e8e",
         "Sanford Pentagon, Sioux Falls, South Dakota": "b51b70a8-3d95-403b-ae71-99047fe03760",
         "Sanford Pentagon - Sioux Falls - SD": "b51b70a8-3d95-403b-ae71-99047fe03760",
-        "Nou Camp - Leon": "f7099471-11c1-446f-95df-0c4f45882036"
+        "Nou Camp - Leon": "f7099471-11c1-446f-95df-0c4f45882036",
+        "Borussia-Park - Mönchengladbach": "01ace76c-6a2a-4618-bf53-22fa2a8e91e8",
+        "Neza": "dd4a31a1-bd4c-435e-bdbd-70900f9d22a3",
+        "José Zorrilla - Valladolid": "cf6b78d5-1394-42e6-82e2-a433cdbf4af2"
     }
 }
