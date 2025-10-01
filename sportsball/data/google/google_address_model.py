@@ -31,15 +31,6 @@ THE_FORUM = SportsballGeocodeTuple(
     housenumber="3900",
     country="USA",
 )
-ORLANDO_ARENA = SportsballGeocodeTuple(
-    city="Orlando",
-    state="FL",
-    postal="32801",
-    lat=28.548889,
-    lng=-81.386667,
-    housenumber="600",
-    country="USA",
-)
 ATT_CENTER = SportsballGeocodeTuple(
     city="San Antonio",
     state="TX",
@@ -2863,7 +2854,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="770",
         country="USA",
     ),
-    "Orlando Arena": ORLANDO_ARENA,
     "Tokyo Metropolitan Gymnasium": SportsballGeocodeTuple(
         city="Tokyo",
         state="",
@@ -2875,7 +2865,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
     "Yokohama Arena": YOKOHAMA_ARENA,
     "Anaheim Convention Center": ANAHEIM_CONVENTION_CENTER,
-    "Amway Arena": ORLANDO_ARENA,
     "FTX Arena": FTX_ARENA,
     "Toyota Center - Kennewick, Washington - United States": TOYOTA_CENTER,
     "Etihad Arena - Yas Bay Waterfront, Yas Island, Abu Dhabi - United Arab Emirates": SportsballGeocodeTuple(
@@ -2891,7 +2880,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     "FTX Arena, Miami, Florida": FTX_ARENA,
     "Vivint Smart Home Arena, Salt Lake City, Utah": VIVINT_ARENA,
     "Chesapeake Energy Arena, Oklahoma City, Oklahoma": CHESAPEAKE_ENERGY_ARENA,
-    "Amway Center, Orlando, Florida": ORLANDO_ARENA,
     "Dunn–Oliver Acadome, Montgomery, Alabama": DUNN_OLIVER_ACADOME,
     "Texas A&M–Commerce Field House, Commerce, Texas": TEXAS_AM_COMMERCE_FIELD_HOUSE,
     "Detroit, Michigan": DETROIT,
@@ -4070,7 +4058,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Seattle, Washington": SEATTLE,
-    "Amway Arena, Orlando, Florida": ORLANDO_ARENA,
     "Izod Center, East Rutherford, New Jersey": SportsballGeocodeTuple(
         city="East Rutherford",
         state="NJ",
@@ -4146,7 +4133,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="1050",
         country="USA",
     ),
-    "TD Waterhouse Centre, Orlando, Florida": ORLANDO_ARENA,
     "Charlotte Coliseum, Charlotte, North Carolina": CHARLOTTE_COLISEUM,
     "Pyramid Arena, Memphis, Tennessee": SportsballGeocodeTuple(
         city="Memphis",
@@ -9159,7 +9145,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="2010",
         country="USA",
     ),
-    "Orlando Arena, Orlando, Florida": ORLANDO_ARENA,
     "Reno, NV, USA": RENO,
     "Larkspur, CA, USA": SportsballGeocodeTuple(
         city="Larkspur",

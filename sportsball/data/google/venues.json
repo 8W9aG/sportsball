@@ -14551,6 +14551,17 @@
             "country": "Spain",
             "type": "venue",
             "wiki": "José_Zorrilla_Stadium"
+        },
+        "692ac63d-c67b-4efd-ac54-5c0ac021f389": {
+            "city": "Orlando",
+            "state": "FL",
+            "postal": "32801",
+            "lat": 28.548889,
+            "lng": -81.386667,
+            "housenumber": "600",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Amway_Arena"
         }
     },
     "searches": {
@@ -14615,6 +14626,7 @@
         "EverBank Stadium - Jacksonville - FL - 32202": "2c1e4fba-1baa-403d-8292-1ea373f29813",
         "EverBank Stadium - Jacksonville, Florida - United States": "2c1e4fba-1baa-403d-8292-1ea373f29813",
         "EverBank Stadium, Jacksonville, FL, USA": "2c1e4fba-1baa-403d-8292-1ea373f29813",
+        "EVERBANK STADIUM": "2c1e4fba-1baa-403d-8292-1ea373f29813",
         "Nassau Coliseum, New York, NY, USA": "750518c9-729a-4d0b-bd3a-6e38fa7a3ec9",
         "Nassau Coliseum, Uniondale, New York": "750518c9-729a-4d0b-bd3a-6e38fa7a3ec9",
         "Nassau Veterans Memorial Coliseum, Uniondale, New York": "750518c9-729a-4d0b-bd3a-6e38fa7a3ec9",
@@ -17557,6 +17569,13 @@
         "Nou Camp - Leon": "f7099471-11c1-446f-95df-0c4f45882036",
         "Borussia-Park - Mönchengladbach": "01ace76c-6a2a-4618-bf53-22fa2a8e91e8",
         "Neza": "dd4a31a1-bd4c-435e-bdbd-70900f9d22a3",
-        "José Zorrilla - Valladolid": "cf6b78d5-1394-42e6-82e2-a433cdbf4af2"
+        "José Zorrilla - Valladolid": "cf6b78d5-1394-42e6-82e2-a433cdbf4af2",
+        "Amway Arena - Orlando - FL": "692ac63d-c67b-4efd-ac54-5c0ac021f389",
+        "Orlando Arena": "692ac63d-c67b-4efd-ac54-5c0ac021f389",
+        "Amway Arena": "692ac63d-c67b-4efd-ac54-5c0ac021f389",
+        "Amway Center, Orlando, Florida": "692ac63d-c67b-4efd-ac54-5c0ac021f389",
+        "Amway Arena, Orlando, Florida": "692ac63d-c67b-4efd-ac54-5c0ac021f389",
+        "TD Waterhouse Centre, Orlando, Florida": "692ac63d-c67b-4efd-ac54-5c0ac021f389",
+        "Orlando Arena, Orlando, Florida": "692ac63d-c67b-4efd-ac54-5c0ac021f389"
     }
 }
