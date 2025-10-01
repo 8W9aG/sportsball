@@ -14441,6 +14441,39 @@
             "country": "Germany",
             "type": "venue",
             "wiki": "Volkswagen_Arena"
+        },
+        "eb478a7f-080b-45d5-9d2b-cd63d5022f0a": {
+            "city": "Bochum",
+            "state": "",
+            "postal": "",
+            "lat": 51.49,
+            "lng": 7.236667,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "venue",
+            "wiki": "Ruhrstadion"
+        },
+        "dc7da4cd-c317-4801-acf0-e7d910bfea21": {
+            "city": "Madrid",
+            "state": "",
+            "postal": "",
+            "lat": 40.3404,
+            "lng": -3.7607,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Butarque_Stadium"
+        },
+        "8d2874fa-40f8-4485-aed5-a16241c59740": {
+            "city": "Metz",
+            "state": "",
+            "postal": "",
+            "lat": 49.120278,
+            "lng": 6.177778,
+            "housenumber": "",
+            "country": "France",
+            "type": "city",
+            "wiki": "Metz"
         }
     },
     "searches": {
@@ -14690,6 +14723,7 @@
         "Caesars Superdome, New Orleans, LA, USA": "b96a1332-d63b-45e0-9e1d-9f574adf386a",
         "New Orleans Arena, New Orleans, Louisiana": "b96a1332-d63b-45e0-9e1d-9f574adf386a",
         "Smoothie King Center - New Orleans - LA": "b96a1332-d63b-45e0-9e1d-9f574adf386a",
+        "CAESARS SUPERDOME": "b96a1332-d63b-45e0-9e1d-9f574adf386a",
         "Goodison Park, Liverpool, England": "eb777022-f027-41b7-9b78-27153091ff3d",
         "Goodison Park - Liverpool": "eb777022-f027-41b7-9b78-27153091ff3d",
         "Neo Química Arena": "23e7778f-d138-48c8-8401-5d2f275354c9",
@@ -17427,6 +17461,9 @@
         "Dee Glen Smith Spectrum, Logan, Utah": "0c1f2000-170f-477e-aec1-01a582047ef9",
         "Utah State Spectrum, Logan, Utah": "0c1f2000-170f-477e-aec1-01a582047ef9",
         "Estadi Olímpic Lluís Companys - Barcelona": "8a22be2f-f594-4fdc-abef-b4039a15d341",
-        "Volkswagen Arena - Wolfsburg": "e2ad4ab3-b268-4e25-9625-68c63537418a"
+        "Volkswagen Arena - Wolfsburg": "e2ad4ab3-b268-4e25-9625-68c63537418a",
+        "Vonovia Ruhrstadion - Bochum": "eb478a7f-080b-45d5-9d2b-cd63d5022f0a",
+        "Estadio Ontime Butarque - Leganés, Madrid": "dc7da4cd-c317-4801-acf0-e7d910bfea21",
+        "Metz": "8d2874fa-40f8-4485-aed5-a16241c59740"
     }
 }

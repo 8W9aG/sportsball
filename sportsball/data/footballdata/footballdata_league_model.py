@@ -39,7 +39,7 @@ class FootballDataLeagueModel(LeagueModel):
 
     def _row_to_game(self, row: Any) -> GameModel | None:
         division_cell = row.get("Div")
-        if division_cell in {"E0", "D1", "SP1"}:
+        if division_cell in {"E0", "E1", "E2", "E3", "EC", "D1", "D2", "SP1", "SP2"}:
             return None
         date_cell = str(row["Date"]).strip()
         if not date_cell:
@@ -132,14 +132,29 @@ class FootballDataLeagueModel(LeagueModel):
                         if not csv_url.endswith(".csv"):
                             continue
                         if (
-                            (self.league == League.EPL and csv_url.endswith("E0.csv"))
+                            (
+                                self.league == League.EPL
+                                and (
+                                    csv_url.endswith("E0.csv")
+                                    or csv_url.endswith("E1.csv")
+                                    or csv_url.endswith("E2.csv")
+                                    or csv_url.endswith("E3.csv")
+                                    or csv_url.endswith("EC.csv")
+                                )
+                            )
                             or (
                                 self.league == League.LALIGA
-                                and csv_url.endswith("SP1.csv")
+                                and (
+                                    csv_url.endswith("SP1.csv")
+                                    or csv_url.endswith("SP2.csv")
+                                )
                             )
                             or (
                                 self.league == League.BUNDESLIGA
-                                and csv_url.endswith("D1.csv")
+                                and (
+                                    csv_url.endswith("D1.csv")
+                                    or csv_url.endswith("D2.csv")
+                                )
                             )
                         ):
                             csv_urls.append(csv_url)
