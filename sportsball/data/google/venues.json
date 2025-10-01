@@ -14264,6 +14264,50 @@
             "country": "Serbia",
             "type": "city",
             "wiki": "Trnava"
+        },
+        "0a07207a-3a89-4b0d-a163-6b05dd594b48": {
+            "city": "Lima",
+            "state": "",
+            "postal": "",
+            "lat": -12.06,
+            "lng": -77.0375,
+            "housenumber": "",
+            "country": "Peru",
+            "type": "city",
+            "wiki": "Lima"
+        },
+        "e6cfa106-b6ac-4308-96aa-5d8be55cd41c": {
+            "city": "Hamburg",
+            "state": "",
+            "postal": "",
+            "lat": 53.587222,
+            "lng": 9.898611,
+            "housenumber": "7",
+            "country": "Germany",
+            "type": "venue",
+            "wiki": "Volksparkstadion"
+        },
+        "aec21c5d-cba7-447f-995c-6b3610612d05": {
+            "city": "El Paso",
+            "state": "TX",
+            "postal": "",
+            "lat": 31.759028,
+            "lng": -106.492667,
+            "housenumber": "1",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Southwest_University_Park"
+        },
+        "43086315-27b1-4635-992c-1fb6911ec3e0": {
+            "city": "Cedar Rapids",
+            "state": "IA",
+            "postal": "52401",
+            "lat": 41.980219,
+            "lng": -91.667442,
+            "housenumber": "370",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Alliant_Energy_PowerHouse"
         }
     },
     "searches": {
@@ -17222,6 +17266,10 @@
         "Estadio de la Cerámica - Villarreal": "1eb2671a-699e-40b5-9db0-09698bba3cac",
         "Monastir": "c3a8de30-1341-4b6b-ba47-e5b063410469",
         "Estadio Municipal de Anoeta - Anoeta Stadium": "44ae231f-4670-42fc-8fd4-6a8f9cd50ee2",
-        "ITF Trnava": "65b99a40-970e-4e03-9de3-a86c95c39324"
+        "ITF Trnava": "65b99a40-970e-4e03-9de3-a86c95c39324",
+        "Lima CH": "0a07207a-3a89-4b0d-a163-6b05dd594b48",
+        "Volksparkstadion - Hamburg Norderstedt": "e6cfa106-b6ac-4308-96aa-5d8be55cd41c",
+        "Southwest University Park - El Paso - TX - 79901": "aec21c5d-cba7-447f-995c-6b3610612d05",
+        "U.S. Cellular Center - Cedar Rapids - IA": "43086315-27b1-4635-992c-1fb6911ec3e0"
     }
 }

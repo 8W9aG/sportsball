@@ -98,6 +98,8 @@ _BAD_URLS = {
     "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/4896370?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2025/athletes/5107389?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2025/athletes/5109050?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2025/athletes/4684166?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/seasons/2025/athletes/5109050?lang=en&region=us",
 }
 _BAD_COLLEGE_URLS = {
     "http://sports.core.api.espn.com/v2/colleges/6638?lang=en&region=us",
