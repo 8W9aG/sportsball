@@ -14308,6 +14308,61 @@
             "country": "USA",
             "type": "venue",
             "wiki": "Alliant_Energy_PowerHouse"
+        },
+        "c07aba27-1966-45ba-9794-467415a8eb53": {
+            "city": "Toluca de Lerdo",
+            "state": "",
+            "postal": "",
+            "lat": 19.287222,
+            "lng": -99.666667,
+            "housenumber": "",
+            "country": "Mexico",
+            "type": "venue",
+            "wiki": "Estadio_Nemesio_Díez"
+        },
+        "3399c029-79a0-49ea-9078-2f9e80ccc2d6": {
+            "city": "Madrid",
+            "state": "",
+            "postal": "",
+            "lat": 40.436111,
+            "lng": -3.599444,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Metropolitano_Stadium"
+        },
+        "c7570309-54c8-4e0f-8e40-a7788d0be126": {
+            "city": "Belgrade",
+            "state": "",
+            "postal": "",
+            "lat": 44.817778,
+            "lng": 20.456944,
+            "housenumber": "",
+            "country": "Serbia",
+            "type": "city",
+            "wiki": "Belgrade"
+        },
+        "d9019b23-4654-4207-bed9-eb9e985fdfc0": {
+            "city": "San Juan",
+            "state": "PR",
+            "postal": "",
+            "lat": 18.416667,
+            "lng": -66.073056,
+            "housenumber": "",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Hiram_Bithorn_Stadium"
+        },
+        "78900443-216e-4bbb-b2f4-ffc0a264d256": {
+            "city": "Wuhan",
+            "state": "Hubei",
+            "postal": "",
+            "lat": 30.5934,
+            "lng": 114.3046,
+            "housenumber": "",
+            "country": "China",
+            "type": "city",
+            "wiki": "Belgrade"
         }
     },
     "searches": {
@@ -14596,6 +14651,7 @@
         "Deutsche Bank Park - Frankfurt, Germany - Germany": "d038edb8-439b-4cf8-b916-abdbedce45aa",
         "Deutsche Bank Park - Frankfurt - Germany": "d038edb8-439b-4cf8-b916-abdbedce45aa",
         "Deutsche Bank Park, Frankfurt, Germany": "d038edb8-439b-4cf8-b916-abdbedce45aa",
+        "Deutsche Bank Park - Frankfurt": "d038edb8-439b-4cf8-b916-abdbedce45aa",
         "Villa Park, Birmingham, England": "a065b054-56d6-47df-b1c7-8cf5740ac3fc",
         "Villa Park - Birmingham": "a065b054-56d6-47df-b1c7-8cf5740ac3fc",
         "Trans World Dome": "3cfa1db0-18c7-47d1-ae20-bb791bfc4a46",
@@ -16062,6 +16118,7 @@
         "Carrier Dome, Syracuse, New York": "2dd2f825-ada6-4fc3-bf9b-123d3a83f614",
         "Carrier Dome - Syracuse, New York, USA - United States": "2dd2f825-ada6-4fc3-bf9b-123d3a83f614",
         "Charles Koch Arena, Wichita, Kansas": "ce75f747-3a3c-4993-a0d0-29ccdeef341b",
+        "Charles Koch Arena - Wichita - KS": "ce75f747-3a3c-4993-a0d0-29ccdeef341b",
         "Levitt Arena, Wichita, Kansas": "ce75f747-3a3c-4993-a0d0-29ccdeef341b",
         "Utah State": "66e72fae-4259-4adb-988f-07385791b384",
         "Utah State College": "66e72fae-4259-4adb-988f-07385791b384",
@@ -16680,6 +16737,7 @@
         "PNC Park": "abfae575-5541-4ef0-ac03-19e87ba1f6e6",
         "Intrust Bank Arena, Wichita, Kansas": "2b25b256-8525-48ab-8c1d-3fe76e00fe63",
         "INTRUST Bank Arena - Wichita - KS - 67278": "2b25b256-8525-48ab-8c1d-3fe76e00fe63",
+        "INTRUST Bank Arena - Wichita - KS": "2b25b256-8525-48ab-8c1d-3fe76e00fe63",
         "Fritz-Walter Stadion - Kaiserslautern": "8bbc5245-544d-4e2a-9d1e-a9ab51969495",
         "Waldstadion - Frankfurt": "2fac0984-7e2d-402c-a1e9-7cd884584584",
         "Cleveland, Ohio": "e34545b3-7c76-4b4e-8014-d63b136133d4",
@@ -17035,6 +17093,7 @@
         "The O2 Arena, London": "81205b36-c6d1-45a3-9351-211399a15e2d",
         "O2 Arena": "81205b36-c6d1-45a3-9351-211399a15e2d",
         "O2 Arena (ENG) - London": "81205b36-c6d1-45a3-9351-211399a15e2d",
+        "O2 Arena - London": "81205b36-c6d1-45a3-9351-211399a15e2d",
         "Foster Pavilion, Waco, Texas": "895b1a4d-d9c8-49a3-b3f0-dadbb822a934",
         "Foster Pavilion - Waco - TX - 76706": "895b1a4d-d9c8-49a3-b3f0-dadbb822a934",
         "EST": "8c5d1867-6f2d-4777-ab35-9c08bcab5872",
@@ -17270,6 +17329,11 @@
         "Lima CH": "0a07207a-3a89-4b0d-a163-6b05dd594b48",
         "Volksparkstadion - Hamburg Norderstedt": "e6cfa106-b6ac-4308-96aa-5d8be55cd41c",
         "Southwest University Park - El Paso - TX - 79901": "aec21c5d-cba7-447f-995c-6b3610612d05",
-        "U.S. Cellular Center - Cedar Rapids - IA": "43086315-27b1-4635-992c-1fb6911ec3e0"
+        "U.S. Cellular Center - Cedar Rapids - IA": "43086315-27b1-4635-992c-1fb6911ec3e0",
+        "Luis Dosal - Toluca": "c07aba27-1966-45ba-9794-467415a8eb53",
+        "Riyadh Air Metropolitano - Madrid": "3399c029-79a0-49ea-9078-2f9e80ccc2d6",
+        "Belgrade": "c7570309-54c8-4e0f-8e40-a7788d0be126",
+        "Hiram Bithorn Stadium - San Juan - Puerto Rico": "d9019b23-4654-4207-bed9-eb9e985fdfc0",
+        "Wuhan": "78900443-216e-4bbb-b2f4-ffc0a264d256"
     }
 }
