@@ -14363,6 +14363,28 @@
             "country": "China",
             "type": "city",
             "wiki": "Belgrade"
+        },
+        "5fd57bb0-4734-4399-bfa6-f4eb0ebbb6e1": {
+            "city": "Hamburg",
+            "state": "",
+            "postal": "",
+            "lat": 53.5545872,
+            "lng": 9.9677539,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "venue",
+            "wiki": null
+        },
+        "a6567053-35b4-4b1e-a224-5fe6664a29e9": {
+            "city": "Valencia",
+            "state": "",
+            "postal": "",
+            "lat": 39.494722,
+            "lng": -0.364167,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Estadi_Ciutat_de_València"
         }
     },
     "searches": {
@@ -14618,6 +14640,7 @@
         "Tottenham Hotspur Stadium - London": "b1e15bb5-ca65-4c0a-a5f4-c6477c392fef",
         "Tottenham Hotspur Stadium - Bill Nicholson Way, Tottenham, London - England": "b1e15bb5-ca65-4c0a-a5f4-c6477c392fef",
         "Tottenham Hotspur Stadium, London, England": "b1e15bb5-ca65-4c0a-a5f4-c6477c392fef",
+        "TOTTENHAM HOTSPUR STADIUM": "b1e15bb5-ca65-4c0a-a5f4-c6477c392fef",
         "Legacy Arena - Birmingham, Alabama - United States": "a9e2fa02-4eb3-45c2-9663-f3bcaf567726",
         "Legacy Arena, Birmingham, Alabama": "a9e2fa02-4eb3-45c2-9663-f3bcaf567726",
         "Legacy Arena at BJCC - Birmingham - AL": "a9e2fa02-4eb3-45c2-9663-f3bcaf567726",
@@ -17226,6 +17249,7 @@
         "Luigi Ferraris - Génova": "c2d9bfbb-b40b-4915-8b22-679f67558bef",
         "Jacksonville Veteran's Memorial Arena, Jacksonville, Florida": "ebde0c2b-d9fa-470a-9e16-784111ca3772",
         "Veterans Memorial Arena - Jacksonville - FL": "ebde0c2b-d9fa-470a-9e16-784111ca3772",
+        "VyStar Veterans Memorial Arena - Jacksonville - FL - 32202": "ebde0c2b-d9fa-470a-9e16-784111ca3772",
         "Chengdu, China PR": "b8708de1-9237-445f-94f1-1ac9218372fb",
         "Chengdu": "b8708de1-9237-445f-94f1-1ac9218372fb",
         "Arco Arena - Sacramento, California - United States": "2820d127-8d30-4a61-802f-bd97ec2fe114",
@@ -17334,6 +17358,8 @@
         "Riyadh Air Metropolitano - Madrid": "3399c029-79a0-49ea-9078-2f9e80ccc2d6",
         "Belgrade": "c7570309-54c8-4e0f-8e40-a7788d0be126",
         "Hiram Bithorn Stadium - San Juan - Puerto Rico": "d9019b23-4654-4207-bed9-eb9e985fdfc0",
-        "Wuhan": "78900443-216e-4bbb-b2f4-ffc0a264d256"
+        "Wuhan": "78900443-216e-4bbb-b2f4-ffc0a264d256",
+        "Millerntor-Stadion - Hamburg Norderstedt": "5fd57bb0-4734-4399-bfa6-f4eb0ebbb6e1",
+        "Ciutat de Valencia - Manises": "a6567053-35b4-4b1e-a224-5fe6664a29e9"
     }
 }
