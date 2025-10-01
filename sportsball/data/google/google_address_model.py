@@ -391,15 +391,6 @@ SAN_DIEGO_SPORTS_ARENA = SportsballGeocodeTuple(
     housenumber="3500",
     country="USA",
 )
-SMITH_SPECTRUM = SportsballGeocodeTuple(
-    city="Logan",
-    state="UT",
-    postal="",
-    lat=41.748,
-    lng=-111.812,
-    housenumber="900",
-    country="USA",
-)
 MOBY_ARENA = SportsballGeocodeTuple(
     city="Fort Collins",
     state="CO",
@@ -1877,7 +1868,6 @@ BAXTER_ARENA = SportsballGeocodeTuple(
     country="USA",
 )
 _CACHED_GEOCODES: dict[str, Any] = {
-    "Dee Glen Smith Spectrum, Logan, Utah": SMITH_SPECTRUM,
     "Holmes Convocation Center, Boone, North Carolina": HOLMES_CENTER,
     "Convocation Center, Ypsilanti, Michigan": SportsballGeocodeTuple(
         city="Ypsilanti",
@@ -5036,7 +5026,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         country="USA",
     ),
     "Maple Leaf Gardens, Toronto, Canada": MAPLE_LEAF_GARDENS,
-    "Utah State Spectrum, Logan, Utah": SMITH_SPECTRUM,
     "Bayfront Arena, St. Petersburg, Florida": SportsballGeocodeTuple(
         city="St. Petersburg",
         state="FL",

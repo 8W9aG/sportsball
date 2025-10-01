@@ -14385,6 +14385,39 @@
             "country": "Spain",
             "type": "venue",
             "wiki": "Estadi_Ciutat_de_València"
+        },
+        "ddc1f470-57e6-4110-868b-de529e2237ca": {
+            "city": "Berlin",
+            "state": "",
+            "postal": "",
+            "lat": 52.457222,
+            "lng": 13.568056,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "venue",
+            "wiki": "Stadion_An_der_Alten_Försterei"
+        },
+        "c4607ab2-ffe1-45ca-874e-3a829b424de6": {
+            "city": "Barcelona",
+            "state": "",
+            "postal": "",
+            "lat": 41.374167,
+            "lng": 2.050556,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Johan_Cruyff_Stadium"
+        },
+        "0c1f2000-170f-477e-aec1-01a582047ef9": {
+            "city": "Logan",
+            "state": "UT",
+            "postal": "",
+            "lat": 41.748,
+            "lng": -111.812,
+            "housenumber": "900",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Smith_Spectrum"
         }
     },
     "searches": {
@@ -14418,6 +14451,7 @@
         "Hard Rock Stadium": "b7636e4f-4eb7-4874-8a90-84a0a089b99b",
         "HARD ROCK STADIUM": "b7636e4f-4eb7-4874-8a90-84a0a089b99b",
         "M&T Bank Stadium": "210e9d8a-9efb-47c6-bcda-bad075616325",
+        "M&T BANK STADIUM": "210e9d8a-9efb-47c6-bcda-bad075616325",
         "Highmark Stadium": "450b65a8-9438-4862-98cd-accb388e9181",
         "HIGHMARK STADIUM": "450b65a8-9438-4862-98cd-accb388e9181",
         "Pennsylvania State University": "ec23924c-3173-4b73-ad55-6409bf933efe",
@@ -17360,6 +17394,11 @@
         "Hiram Bithorn Stadium - San Juan - Puerto Rico": "d9019b23-4654-4207-bed9-eb9e985fdfc0",
         "Wuhan": "78900443-216e-4bbb-b2f4-ffc0a264d256",
         "Millerntor-Stadion - Hamburg Norderstedt": "5fd57bb0-4734-4399-bfa6-f4eb0ebbb6e1",
-        "Ciutat de Valencia - Manises": "a6567053-35b4-4b1e-a224-5fe6664a29e9"
+        "Ciutat de Valencia - Manises": "a6567053-35b4-4b1e-a224-5fe6664a29e9",
+        "An der alten Försterei - Berlin": "ddc1f470-57e6-4110-868b-de529e2237ca",
+        "Estadi Johan Cruyff - Barcelona": "c4607ab2-ffe1-45ca-874e-3a829b424de6",
+        "Dee Glen Smith Spectrum - Logan - UT": "0c1f2000-170f-477e-aec1-01a582047ef9",
+        "Dee Glen Smith Spectrum, Logan, Utah": "0c1f2000-170f-477e-aec1-01a582047ef9",
+        "Utah State Spectrum, Logan, Utah": "0c1f2000-170f-477e-aec1-01a582047ef9"
     }
 }
