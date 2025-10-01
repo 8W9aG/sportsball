@@ -2947,9 +2947,10 @@ def _create_espn_team_model(
                     elif stat["name"] == "penalties":
                         penalties = more_interesting(penalties, stat["value"])
                     elif stat["name"] == "penaltyMinutes":
-                        penalty_minutes = more_interesting(
-                            penalty_minutes, stat["value"]
-                        )
+                        if "value" in stat:
+                            penalty_minutes = more_interesting(
+                                penalty_minutes, stat["value"]
+                            )
                     elif stat["name"] == "score":
                         pass
                     elif stat["name"] == "points":

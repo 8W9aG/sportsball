@@ -86,7 +86,12 @@ class FootballDataLeagueModel(LeagueModel):
             away_red_cards_cell = None
 
         home_odds_cell = row.get("B365H")
+        if home_odds_cell is not None and not home_odds_cell:
+            home_odds_cell = None
         away_odds_cell = row.get("B365A")
+        if away_odds_cell is not None and not away_odds_cell:
+            away_odds_cell = None
+
         return create_footballdata_game_model(
             session=self.session,
             league=self.league,
@@ -161,7 +166,7 @@ class FootballDataLeagueModel(LeagueModel):
 
                     for count, csv_url in enumerate(sorted(csv_urls, reverse=True)):
                         response = None
-                        if count == 0:
+                        if count <= 5:
                             with self.session.cache_disabled():
                                 self.session.cache.delete(urls=[csv_url])
                                 response = self.session.get(csv_url)

@@ -14474,6 +14474,39 @@
             "country": "France",
             "type": "city",
             "wiki": "Metz"
+        },
+        "52658b70-1d00-4a2d-8c3d-ea0e6394bcc9": {
+            "city": "Bremen",
+            "state": "",
+            "postal": "",
+            "lat": 53.066389,
+            "lng": 8.8375,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "venue",
+            "wiki": "Weserstadion"
+        },
+        "8d8a7681-91f2-4eab-b0cc-78b807175e8e": {
+            "city": "Las Palmas",
+            "state": "",
+            "postal": "",
+            "lat": 28.100278,
+            "lng": -15.456667,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Gran_Canaria_Stadium"
+        },
+        "b51b70a8-3d95-403b-ae71-99047fe03760": {
+            "city": "Sioux Falls",
+            "state": "SD",
+            "postal": "",
+            "lat": 43.593056,
+            "lng": -96.758611,
+            "housenumber": "2210",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Sanford_Pentagon"
         }
     },
     "searches": {
@@ -14677,6 +14710,7 @@
         "Veterans Stadium": "e30221e9-51f0-4320-a6ab-209ca1b1fcab",
         "Lincoln Financial Field - Philadelphia, Pennsylvania - United States": "e30221e9-51f0-4320-a6ab-209ca1b1fcab",
         "Lincoln Financial Field, Philadelphia, PA, USA": "e30221e9-51f0-4320-a6ab-209ca1b1fcab",
+        "LINCOLN FINANCIAL FIELD": "e30221e9-51f0-4320-a6ab-209ca1b1fcab",
         "Accor Arena - Paris, France - France": "1f42a181-7ce3-4a8b-8b93-6dd590a9a360",
         "AccorHotels Arena, Paris, France": "1f42a181-7ce3-4a8b-8b93-6dd590a9a360",
         "Accor Arena, Paris, France": "1f42a181-7ce3-4a8b-8b93-6dd590a9a360",
@@ -16726,6 +16760,7 @@
         "USTA Billie Jean King NTC, New York, NY, USA": "7a5b2096-bf44-4862-bc72-490ae2a3a151",
         "Grandstand, New York, NY, USA": "7a5b2096-bf44-4862-bc72-490ae2a3a151",
         "Schottenstein Center - Columbus - OH": "584af5fc-381d-41f1-9685-327498e94b50",
+        "Value City Arena at Schottenstein Center - Columbus - OH": "584af5fc-381d-41f1-9685-327498e94b50",
         "Arena Amazonia - Manaus": "aea61495-f108-439d-994e-a6e5d9feffeb",
         "Scottsdale Stadium - Scottsdale - Arizona - 85271": "a0be2356-40e3-4af0-8bac-4c0339aca1a8",
         "O2 Arena (Prague) - Prague": "dc37e20f-892a-4fbc-8ea5-38d61769dea5",
@@ -17289,6 +17324,7 @@
         "First Bank & Trust Arena - Brookings - SD - 57006": "8db1dad7-f4ed-4700-b95b-04626f58a96e",
         "BJK Cup Finals": "326d63ae-6562-4de0-9786-59339186d528",
         "BJK Cup Qualifiers": "326d63ae-6562-4de0-9786-59339186d528",
+        "BJK Cup Playoffs": "326d63ae-6562-4de0-9786-59339186d528",
         "Antonio Bentegodi": "15e71d0a-f833-448d-9a61-f856f6475f0a",
         "Canberra CH": "efb09802-20b2-460f-8968-60e2e6b06454",
         "Hertz Arena, Estero, Florida": "1005fe08-7fcd-4f7c-a436-316200bbf8d8",
@@ -17315,6 +17351,7 @@
         "Rouen": "cef7a7ac-ebcf-4c0f-93ae-91fcd8e1c22f",
         "Palau Sant Jordi - Barcelona": "46a5c3b8-8fbe-4656-bde0-932760f88f64",
         "Paris": "55ad6fb6-5766-44ff-87c3-b78c474315a2",
+        "Paris Masters": "55ad6fb6-5766-44ff-87c3-b78c474315a2",
         "Renzo Barbera - Palermo": "88390d86-b457-4967-a8f7-d8bab7fd1075",
         "Dollar Loan Center, Henderson, Nevada": "9961b733-d191-43b9-aa9d-45dc79310241",
         "Lee's Family Forum - Henderson - NV": "9961b733-d191-43b9-aa9d-45dc79310241",
@@ -17464,6 +17501,10 @@
         "Volkswagen Arena - Wolfsburg": "e2ad4ab3-b268-4e25-9625-68c63537418a",
         "Vonovia Ruhrstadion - Bochum": "eb478a7f-080b-45d5-9d2b-cd63d5022f0a",
         "Estadio Ontime Butarque - Leganés, Madrid": "dc7da4cd-c317-4801-acf0-e7d910bfea21",
-        "Metz": "8d2874fa-40f8-4485-aed5-a16241c59740"
+        "Metz": "8d2874fa-40f8-4485-aed5-a16241c59740",
+        "Weserstadion - Bremen": "52658b70-1d00-4a2d-8c3d-ea0e6394bcc9",
+        "Estadio Gran Canaria - Las Palmas de Gran Canaria": "8d8a7681-91f2-4eab-b0cc-78b807175e8e",
+        "Sanford Pentagon, Sioux Falls, South Dakota": "b51b70a8-3d95-403b-ae71-99047fe03760",
+        "Sanford Pentagon - Sioux Falls - SD": "b51b70a8-3d95-403b-ae71-99047fe03760"
     }
 }
