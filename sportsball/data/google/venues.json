@@ -14418,6 +14418,17 @@
             "country": "USA",
             "type": "venue",
             "wiki": "Smith_Spectrum"
+        },
+        "8a22be2f-f594-4fdc-abef-b4039a15d341": {
+            "city": "Barcelona",
+            "state": "Catalonia",
+            "postal": "",
+            "lat": 41.364722,
+            "lng": 2.155556,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Estadi_Olímpic_Lluís_Companys"
         }
     },
     "searches": {
@@ -14559,6 +14570,7 @@
         "Bank of America Stadium - Charlotte - NC - 28202": "543d7f78-3dd0-4046-a366-80ca231e8898",
         "Bank of America Stadium - Charlotte, NC, United States - United States": "543d7f78-3dd0-4046-a366-80ca231e8898",
         "Bank of America Stadium, Charlotte, NC, USA": "543d7f78-3dd0-4046-a366-80ca231e8898",
+        "BANK OF AMERICA STADIUM": "543d7f78-3dd0-4046-a366-80ca231e8898",
         "Mexico City Arena - Mexico City - Mexico": "36dab08e-0823-479d-9022-a4c6ee6c3b08",
         "Mexico City Arena, Mexico City, Mexico": "36dab08e-0823-479d-9022-a4c6ee6c3b08",
         "Arena CDMX - Mexico City": "36dab08e-0823-479d-9022-a4c6ee6c3b08",
@@ -15538,6 +15550,7 @@
         "Elliott T. Bowers Stadium - Huntsville - TX - 77340": "6f41f376-229b-4b2e-ab6c-231fc7ee60ad",
         "Signal Iduna Park - Dortmund - Germany": "250fe196-7b71-4471-a238-92d74f0e477b",
         "Signal Iduna Park - Dortmund": "250fe196-7b71-4471-a238-92d74f0e477b",
+        "SIGNAL IDUNA PARK - Aue": "250fe196-7b71-4471-a238-92d74f0e477b",
         "Alumni Stadium (Chestnut Hill, MA) - Chestnut Hill - MA - 02467": "764bbd0b-3584-4bfa-a94b-9deb9b6c6a80",
         "Alumni Stadium": "764bbd0b-3584-4bfa-a94b-9deb9b6c6a80",
         "Seibert Stadium - Birmingham, Alabama, USA - United States": "3313fe8d-89bb-4006-a391-7300b206c06e",
@@ -17399,6 +17412,7 @@
         "Estadi Johan Cruyff - Barcelona": "c4607ab2-ffe1-45ca-874e-3a829b424de6",
         "Dee Glen Smith Spectrum - Logan - UT": "0c1f2000-170f-477e-aec1-01a582047ef9",
         "Dee Glen Smith Spectrum, Logan, Utah": "0c1f2000-170f-477e-aec1-01a582047ef9",
-        "Utah State Spectrum, Logan, Utah": "0c1f2000-170f-477e-aec1-01a582047ef9"
+        "Utah State Spectrum, Logan, Utah": "0c1f2000-170f-477e-aec1-01a582047ef9",
+        "Estadi Olímpic Lluís Companys - Barcelona": "8a22be2f-f594-4fdc-abef-b4039a15d341"
     }
 }
