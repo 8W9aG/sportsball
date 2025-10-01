@@ -65,7 +65,11 @@ class FootballDataLeagueModel(LeagueModel):
             away_shots_on_target_cell = None
 
         home_fouls_cell = row.get("HF")
+        if home_fouls_cell is not None and not home_fouls_cell:
+            home_fouls_cell = None
         away_fouls_cell = row.get("AF")
+        if away_fouls_cell is not None and not away_fouls_cell:
+            away_fouls_cell = None
 
         home_yellow_cards_cell = row.get("HY")
         if home_yellow_cards_cell is not None and not home_yellow_cards_cell:

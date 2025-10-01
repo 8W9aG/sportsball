@@ -14242,6 +14242,28 @@
             "country": "Tunisia",
             "type": "city",
             "wiki": "Monastir,_Tunisia"
+        },
+        "44ae231f-4670-42fc-8fd4-6a8f9cd50ee2": {
+            "city": "San Sebastián",
+            "state": "Gipuzkoa",
+            "postal": "",
+            "lat": 43.301389,
+            "lng": -1.973611,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Anoeta_Stadium"
+        },
+        "65b99a40-970e-4e03-9de3-a86c95c39324": {
+            "city": "Trnava",
+            "state": "",
+            "postal": "",
+            "lat": 48.3775,
+            "lng": 17.588333,
+            "housenumber": "",
+            "country": "Serbia",
+            "type": "city",
+            "wiki": "Trnava"
         }
     },
     "searches": {
@@ -15965,6 +15987,7 @@
         "McLeod Center, Cedar Falls, Iowa": "5479db82-82c4-45ba-aa3e-7a0036b2e6b9",
         "McLeod Center - Cedar Falls - IA": "5479db82-82c4-45ba-aa3e-7a0036b2e6b9",
         "Estadio Olímpico Universitario - Coyoacán, Mexico City - Mexico": "85195940-a6a6-4075-ba1a-84aff126414f",
+        "Olímpico Universitario": "85195940-a6a6-4075-ba1a-84aff126414f",
         "Desert Financial Arena, Tempe, Arizona": "3abd1282-fe9e-4b52-b99d-9f060e8b791b",
         "Desert Financial Arena - Tempe - AZ": "3abd1282-fe9e-4b52-b99d-9f060e8b791b",
         "Wells Fargo Arena, Tempe, Arizona": "3abd1282-fe9e-4b52-b99d-9f060e8b791b",
@@ -17197,6 +17220,8 @@
         "Europa-Park Stadion - Freiburg im Breisgau": "dd3416d5-a389-4a4b-b41a-1f74b3cfb929",
         "La Corregidora - Queretaro": "2da370ef-afa6-48d5-9a35-44b22545f940",
         "Estadio de la Cerámica - Villarreal": "1eb2671a-699e-40b5-9db0-09698bba3cac",
-        "Monastir": "c3a8de30-1341-4b6b-ba47-e5b063410469"
+        "Monastir": "c3a8de30-1341-4b6b-ba47-e5b063410469",
+        "Estadio Municipal de Anoeta - Anoeta Stadium": "44ae231f-4670-42fc-8fd4-6a8f9cd50ee2",
+        "ITF Trnava": "65b99a40-970e-4e03-9de3-a86c95c39324"
     }
 }
