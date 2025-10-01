@@ -2654,15 +2654,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
         housenumber="1277",
         country="USA",
     ),
-    "Sanford Pentagon, Sioux Falls, South Dakota": SportsballGeocodeTuple(
-        city="Sioux Falls",
-        state="SD",
-        postal="",
-        lat=43.593056,
-        lng=-96.758611,
-        housenumber="2210",
-        country="USA",
-    ),
     "Hilliard Gates Sports Center, Fort Wayne, Indiana": SportsballGeocodeTuple(
         city="Fort Wayne",
         state="IN",
