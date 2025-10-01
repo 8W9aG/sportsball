@@ -9513,7 +9513,8 @@
             "lng": 115.642778,
             "housenumber": "",
             "country": "Australia",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Hands_Oval"
         },
         "0658c6f3-c002-4be7-b246-dd68795d34b9": {
             "city": "Fortaleza",
@@ -14429,6 +14430,17 @@
             "country": "Spain",
             "type": "venue",
             "wiki": "Estadi_Olímpic_Lluís_Companys"
+        },
+        "e2ad4ab3-b268-4e25-9625-68c63537418a": {
+            "city": "Wolfsburg",
+            "state": "",
+            "postal": "",
+            "lat": 52.432778,
+            "lng": 10.803889,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "venue",
+            "wiki": "Volkswagen_Arena"
         }
     },
     "searches": {
@@ -14541,6 +14553,7 @@
         "Lucas Oil Stadium - Indianapolis, Indiana, USA - United States": "51b4f652-ab49-4c88-899f-570a0a4b4d97",
         "Lucas Oil Stadium, Indianapolis, IN, USA": "51b4f652-ab49-4c88-899f-570a0a4b4d97",
         "Lucas Oil Stadium, Indianapolis, Indiana": "51b4f652-ab49-4c88-899f-570a0a4b4d97",
+        "LUCAS OIL STADIUM": "51b4f652-ab49-4c88-899f-570a0a4b4d97",
         "NRG Stadium": "c2d6a773-c009-4fc7-bc8d-21ab92b17a0b",
         "NRG Stadium - Houston - TX - 77054": "c2d6a773-c009-4fc7-bc8d-21ab92b17a0b",
         "Astrodome": "c2d6a773-c009-4fc7-bc8d-21ab92b17a0b",
@@ -17413,6 +17426,7 @@
         "Dee Glen Smith Spectrum - Logan - UT": "0c1f2000-170f-477e-aec1-01a582047ef9",
         "Dee Glen Smith Spectrum, Logan, Utah": "0c1f2000-170f-477e-aec1-01a582047ef9",
         "Utah State Spectrum, Logan, Utah": "0c1f2000-170f-477e-aec1-01a582047ef9",
-        "Estadi Olímpic Lluís Companys - Barcelona": "8a22be2f-f594-4fdc-abef-b4039a15d341"
+        "Estadi Olímpic Lluís Companys - Barcelona": "8a22be2f-f594-4fdc-abef-b4039a15d341",
+        "Volkswagen Arena - Wolfsburg": "e2ad4ab3-b268-4e25-9625-68c63537418a"
     }
 }

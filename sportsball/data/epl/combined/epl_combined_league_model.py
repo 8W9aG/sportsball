@@ -42,6 +42,8 @@ SHEFFIELD_UNITED = "398"
 LUTON_TOWN = "301"
 NORWICH_CITY = "381"
 WATFORD = "395"
+WEST_BROMICH_ALBION = "383"
+THE_HAWTHORNS = "204"
 EPL_TEAM_IDENTITY_MAP: dict[str, str] = {
     # ESPN
     "358": BOLTON_WANDERERS,
@@ -76,6 +78,8 @@ EPL_TEAM_IDENTITY_MAP: dict[str, str] = {
     "301": LUTON_TOWN,
     "381": NORWICH_CITY,
     "395": WATFORD,
+    "383": WEST_BROMICH_ALBION,
+    "204": THE_HAWTHORNS,
     # FootballData
     "Brentford": BRENTFORD,
     "Arsenal": ARSENAL,
