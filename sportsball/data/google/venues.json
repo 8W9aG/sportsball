@@ -14562,6 +14562,61 @@
             "country": "USA",
             "type": "venue",
             "wiki": "Amway_Arena"
+        },
+        "9c208d8c-2c4d-47ca-9542-0bde91e77f59": {
+            "city": "Darmstadt",
+            "state": "",
+            "postal": "",
+            "lat": 49.857778,
+            "lng": 8.672222,
+            "housenumber": "",
+            "country": "Germany",
+            "type": "venue",
+            "wiki": "Merck-Stadion_am_Böllenfalltor"
+        },
+        "c5eb5cf9-6113-4cd3-84bd-298aebc9f19a": {
+            "city": "Granada",
+            "state": "",
+            "postal": "",
+            "lat": 37.153056,
+            "lng": -3.595833,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Nuevo_Estadio_de_Los_Cármenes"
+        },
+        "04d0d431-20fc-4d7b-a038-d3bbba1497b8": {
+            "city": "Bratislava",
+            "state": "",
+            "postal": "",
+            "lat": 48.143889,
+            "lng": 17.109722,
+            "housenumber": "",
+            "country": "Slovakia",
+            "type": "city",
+            "wiki": "Bratislava"
+        },
+        "415ce8ad-252b-4e30-9f0b-ecbc3e0ec42c": {
+            "city": "Manila",
+            "state": "",
+            "postal": "",
+            "lat": 14.531944,
+            "lng": 120.983611,
+            "housenumber": "",
+            "country": "Philippines",
+            "type": "venue",
+            "wiki": "SM_Mall_of_Asia_Arena"
+        },
+        "163e202f-0109-4a9e-81b5-69f75a987469": {
+            "city": "Riyadh",
+            "state": "",
+            "postal": "",
+            "lat": 24.633333,
+            "lng": 46.716667,
+            "housenumber": "",
+            "country": "Saudi Arabia",
+            "type": "city",
+            "wiki": "Riyadh"
         }
     },
     "searches": {
@@ -17576,6 +17631,11 @@
         "Amway Center, Orlando, Florida": "692ac63d-c67b-4efd-ac54-5c0ac021f389",
         "Amway Arena, Orlando, Florida": "692ac63d-c67b-4efd-ac54-5c0ac021f389",
         "TD Waterhouse Centre, Orlando, Florida": "692ac63d-c67b-4efd-ac54-5c0ac021f389",
-        "Orlando Arena, Orlando, Florida": "692ac63d-c67b-4efd-ac54-5c0ac021f389"
+        "Orlando Arena, Orlando, Florida": "692ac63d-c67b-4efd-ac54-5c0ac021f389",
+        "Merck-Stadion am Böllenfalltor - Darmstadt": "9c208d8c-2c4d-47ca-9542-0bde91e77f59",
+        "Nuevo Los Cármenes - Granada": "c5eb5cf9-6113-4cd3-84bd-298aebc9f19a",
+        "Bratislava 2 CH": "04d0d431-20fc-4d7b-a038-d3bbba1497b8",
+        "Mall of Asia Arena - Manila": "415ce8ad-252b-4e30-9f0b-ecbc3e0ec42c",
+        "Riyadh Finals": "163e202f-0109-4a9e-81b5-69f75a987469"
     }
 }

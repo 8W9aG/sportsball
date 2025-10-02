@@ -69,6 +69,40 @@ BURTON = "Burton"
 EXETER = "Exeter"
 BRISTOL_RVS = "Bristol Rvs"
 BARNSLEY = "Barnsley"
+BROMLEY = "Bromley"
+PORT_VALE = "Port Vale"
+COLCHESTER = "Colchester"
+NEWPORT_COUNTY = "Newport County"
+CARLISLE = "Carlisle"
+MORECAMBE = "Morecambe"
+GRIMSBY = "Grimsby"
+HARROGATE = "Harrogate"
+MILTON_KEYNES_DONS = "Milton Keynes Dons"
+GILLINGHAM = "Gillingham"
+FLEETWOOD_TOWN = "Fleetwood Town"
+CHESTERFIELD = "Chesterfield"
+WALSALL = "Walsall"
+BARROW = "Barrow"
+TRANMERE = "Tranmere"
+ACCRINGTON = "Accrington"
+ALDERSHOT = "Aldershot"
+YORK = "York"
+OLDHAM = "Oldham"
+YEOVIL = "Yeovil"
+FYLDE = "Fylde"
+WOKING = "Woking"
+BRAINTREE_TOWN = "Braintree Town"
+TAMWORTH = "Tamworth"
+SOLIHULL = "Solihull"
+SOUTHEND = "Southend"
+EASTLEIGH = "Eastleigh"
+ROCHDALE = "Rochdale"
+MAIDENHEAD = "Maidenhead"
+HALIFAX = "Halifax"
+SUTTON = "Sutton"
+EBBSFLEET = "Ebbsfleet"
+HARTLEPOOL = "Hartlepool"
+DAG_AND_RED = "Dag and Red"
 EPL_TEAM_IDENTITY_MAP: dict[str, str] = {
     # ESPN
     "358": BOLTON_WANDERERS,
@@ -164,6 +198,40 @@ EPL_TEAM_IDENTITY_MAP: dict[str, str] = {
     "Bristol Rvs": BRISTOL_RVS,
     "Bolton": BOLTON_WANDERERS,
     "Barnsley": BARNSLEY,
+    "Bromley": BROMLEY,
+    "Port Vale": PORT_VALE,
+    "Colchester": COLCHESTER,
+    "Newport County": NEWPORT_COUNTY,
+    "Carlisle": CARLISLE,
+    "Morecambe": MORECAMBE,
+    "Grimsby": GRIMSBY,
+    "Harrogate": HARROGATE,
+    "Milton Keynes Dons": MILTON_KEYNES_DONS,
+    "Gillingham": GILLINGHAM,
+    "Fleetwood Town": FLEETWOOD_TOWN,
+    "Chesterfield": CHESTERFIELD,
+    "Walsall": WALSALL,
+    "Barrow": BARROW,
+    "Tranmere": TRANMERE,
+    "Accrington": ACCRINGTON,
+    "Aldershot": ALDERSHOT,
+    "York": YORK,
+    "Oldham": OLDHAM,
+    "Yeovil": YEOVIL,
+    "Fylde": FYLDE,
+    "Woking": WOKING,
+    "Braintree Town": BRAINTREE_TOWN,
+    "Tamworth": TAMWORTH,
+    "Solihull": SOLIHULL,
+    "Southend": SOUTHEND,
+    "Eastleigh": EASTLEIGH,
+    "Rochdale": ROCHDALE,
+    "Maidenhead": MAIDENHEAD,
+    "Halifax": HALIFAX,
+    "Sutton": SUTTON,
+    "Ebbsfleet": EBBSFLEET,
+    "Hartlepool": HARTLEPOOL,
+    "Dag and Red": DAG_AND_RED,
 }
 BOLEYN_GROUND = "304"
 STADIUM_OF_LIGHT = "194"
