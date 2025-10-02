@@ -26,25 +26,9 @@ def _season_type_from_name(name: str) -> SeasonType:
         or "Spring Regular Season" in name
         or "Round of" in name
         or "Second Round" in name
-        or "2015-2016 Barclays Premier League" in name
-        or "2014-2015 Barclays Premier League" in name
-        or "2013-2014 Barclays Premier League" in name
-        or "2012-2013 Barclays Premier League" in name
-        or "2011-2012 Barclays Premier League" in name
-        or "2010-2011 Barclays Premier League" in name
-        or "2009-2010 Barclays Premier League" in name
-        or "2008-2009 Barclays Premier League" in name
-        or "2007-2008 Barclays Premier League" in name
-        or "2006-2007 Barclays Premier League" in name
-        or "2005-2006 Barclays Premier League" in name
-        or "2004-2005 Barclays Premier League" in name
-        or "2003-2004 Barclays Premier League" in name
-        or "2002-2003 Barclays Premier League" in name
-        or "2001-2002 Barclays Premier League" in name
-        or "2025-26 LALIGA" in name
-        or "2025-26 German Bundesliga" in name
-        or "2024-25 German Bundesliga" in name
-        or "2024-25 LALIGA" in name
+        or "Premier League" in name
+        or "LALIGA" in name
+        or "German Bundesliga" in name
     ):
         return SeasonType.REGULAR
     if name == "Preseason" or "Spring Training" in name:

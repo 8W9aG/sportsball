@@ -2921,7 +2921,8 @@ def _create_espn_team_model(
                         )
                     elif stat["name"] == "shootingPct":
                         shooting_percentage = more_interesting(
-                            shooting_percentage, stat["value"]
+                            shooting_percentage,
+                            stat.get("value", float(stat["displayValue"])),
                         )
                     elif stat["name"] == "totalFaceOffs":
                         total_face_offs = more_interesting(

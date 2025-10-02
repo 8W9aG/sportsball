@@ -45,6 +45,30 @@ WATFORD = "395"
 WEST_BROMICH_ALBION = "383"
 HUDDERSFIELD_TOWN = "335"
 CARDIFF_CITY = "347"
+GATESHEAD = "Gateshead"
+FOREST_GREEN = "Forest Green"
+SWANSEA = "Swansea"
+OXFORD = "Oxford"
+SHEFFIELD_WEDS = "Sheffield Weds"
+BRISTOL_CITY = "Bristol City"
+QPR = "QPR"
+PORTSMOUTH = "Portsmouth"
+MIDDLESBROUGH = "Middlesbrough"
+MILLWALL = "Millwall"
+STOKE = "Stoke"
+ROTHERHAM = "Rotherham"
+STOCKPORT = "Stockport"
+READING = "Reading"
+NORTHAMPTON = "Northampton"
+SHREWSBURY = "Shrewsbury"
+LINCOLN = "Lincoln"
+LEYTON_ORIENT = "Leyton Orient"
+CRAWLEY_TOWN = "Crawley Town"
+CAMBRIDGE = "Cambridge"
+BURTON = "Burton"
+EXETER = "Exeter"
+BRISTOL_RVS = "Bristol Rvs"
+BARNSLEY = "Barnsley"
 EPL_TEAM_IDENTITY_MAP: dict[str, str] = {
     # ESPN
     "358": BOLTON_WANDERERS,
@@ -106,6 +130,40 @@ EPL_TEAM_IDENTITY_MAP: dict[str, str] = {
     "Sunderland": SUNDERLAND,
     "Burnley": BURNLEY,
     "Leeds": LEEDS_UNITED,
+    "Sheffield United": SHEFFIELD_UNITED,
+    "Gateshead": GATESHEAD,
+    "Forest Green": FOREST_GREEN,
+    "Watford": WATFORD,
+    "West Brom": WEST_BROMICH_ALBION,
+    "Swansea": SWANSEA,
+    "Oxford": OXFORD,
+    "Sheffield Weds": SHEFFIELD_WEDS,
+    "Bristol City": BRISTOL_CITY,
+    "QPR": QPR,
+    "Derby": DERBY_COUNTY,
+    "Portsmouth": PORTSMOUTH,
+    "Middlesbrough": MIDDLESBROUGH,
+    "Millwall": MILLWALL,
+    "Blackburn": BLACKBURN_ROVERS,
+    "Luton": LUTON_TOWN,
+    "Stoke": STOKE,
+    "Cardiff": CARDIFF_CITY,
+    "Rotherham": ROTHERHAM,
+    "Stockport": STOCKPORT,
+    "Reading": READING,
+    "Northampton": NORTHAMPTON,
+    "Shrewsbury": SHREWSBURY,
+    "Lincoln": LINCOLN,
+    "Leyton Orient": LEYTON_ORIENT,
+    "Crawley Town": CRAWLEY_TOWN,
+    "Charlton": CHARLTON_ATHLETIC,
+    "Cambridge": CAMBRIDGE,
+    "Huddersfield": HUDDERSFIELD_TOWN,
+    "Burton": BURTON,
+    "Exeter": EXETER,
+    "Bristol Rvs": BRISTOL_RVS,
+    "Bolton": BOLTON_WANDERERS,
+    "Barnsley": BARNSLEY,
 }
 BOLEYN_GROUND = "304"
 STADIUM_OF_LIGHT = "194"
@@ -193,6 +251,7 @@ EPL_VENUE_IDENTITY_MAP: dict[str, str] = {
     "10318": HILL_DICKINSON_STADIUM,
     "4974": ACCU_STADIUM,
     "3703": WEMBLEY_STADIUM,
+    "3893": CARDIFF_CITY_STADIUM,
 }
 EPL_PLAYER_IDENTITY_MAP: dict[str, str] = {}
 
