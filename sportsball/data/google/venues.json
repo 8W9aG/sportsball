@@ -14617,6 +14617,39 @@
             "country": "Saudi Arabia",
             "type": "city",
             "wiki": "Riyadh"
+        },
+        "5a76f972-c601-42a1-91ef-37592fe79e42": {
+            "city": "Cádiz",
+            "state": "",
+            "postal": "",
+            "lat": 36.502778,
+            "lng": -6.273056,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "venue",
+            "wiki": "Nuevo_Mirandilla"
+        },
+        "e3cd51a9-df65-4b82-8546-d3ff10cd8467": {
+            "city": "Milwaukee",
+            "state": "WI",
+            "postal": "53233",
+            "lat": 43.039722,
+            "lng": -87.926389,
+            "housenumber": "770",
+            "country": "USA",
+            "type": "venue",
+            "wiki": "Al_McGuire_Center"
+        },
+        "8e24cb93-d5cb-4f46-96d4-63fadde36174": {
+            "city": "Ningbo",
+            "state": "Zhejiang",
+            "postal": "",
+            "lat": 29.8603,
+            "lng": 121.6245,
+            "housenumber": "",
+            "country": "China",
+            "type": "city",
+            "wiki": "Ningbo"
         }
     },
     "searches": {
@@ -16005,6 +16038,7 @@
         "UNF Arena - Jacksonville - FL": "3cc88686-3cfc-469c-b1f1-a9fc0c4d7121",
         "Alumni Gymnasium, Lawrenceville, New Jersey": "82515d2c-d11f-4d24-b191-494c739ecd1e",
         "Etihad Arena - Abu Dhabi": "d2f0195d-086d-4a7c-ad7b-db60348fd036",
+        "Etihad Arena, Abu Dhabi, ": "d2f0195d-086d-4a7c-ad7b-db60348fd036",
         "MVP Arena, Albany, New York": "386f452f-b7ab-48dd-bf6f-84a64dda063c",
         "MVP Arena - Albany - NY": "386f452f-b7ab-48dd-bf6f-84a64dda063c",
         "Pepsi Arena, Albany, New York": "386f452f-b7ab-48dd-bf6f-84a64dda063c",
@@ -17608,6 +17642,7 @@
         "Millerntor-Stadion - Hamburg Norderstedt": "5fd57bb0-4734-4399-bfa6-f4eb0ebbb6e1",
         "Ciutat de Valencia - Manises": "a6567053-35b4-4b1e-a224-5fe6664a29e9",
         "An der alten Försterei - Berlin": "ddc1f470-57e6-4110-868b-de529e2237ca",
+        "Stadion An der Alten Försterei - Berlin": "ddc1f470-57e6-4110-868b-de529e2237ca",
         "Estadi Johan Cruyff - Barcelona": "c4607ab2-ffe1-45ca-874e-3a829b424de6",
         "Dee Glen Smith Spectrum - Logan - UT": "0c1f2000-170f-477e-aec1-01a582047ef9",
         "Dee Glen Smith Spectrum, Logan, Utah": "0c1f2000-170f-477e-aec1-01a582047ef9",
@@ -17636,6 +17671,10 @@
         "Nuevo Los Cármenes - Granada": "c5eb5cf9-6113-4cd3-84bd-298aebc9f19a",
         "Bratislava 2 CH": "04d0d431-20fc-4d7b-a038-d3bbba1497b8",
         "Mall of Asia Arena - Manila": "415ce8ad-252b-4e30-9f0b-ecbc3e0ec42c",
-        "Riyadh Finals": "163e202f-0109-4a9e-81b5-69f75a987469"
+        "Riyadh Finals": "163e202f-0109-4a9e-81b5-69f75a987469",
+        "Nuevo Mirandilla - La Línea de la Concepción": "5a76f972-c601-42a1-91ef-37592fe79e42",
+        "Al McGuire Center, Milwaukee, Wisconsin": "e3cd51a9-df65-4b82-8546-d3ff10cd8467",
+        "Al McGuire Center - Milwaukee - WI": "e3cd51a9-df65-4b82-8546-d3ff10cd8467",
+        "Ningbo": "8e24cb93-d5cb-4f46-96d4-63fadde36174"
     }
 }

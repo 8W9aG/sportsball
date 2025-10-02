@@ -103,6 +103,28 @@ SUTTON = "Sutton"
 EBBSFLEET = "Ebbsfleet"
 HARTLEPOOL = "Hartlepool"
 DAG_AND_RED = "Dag and Red"
+ALTRINCHAM = "Altrincham"
+BOSTON_UTD = "Boston Utd"
+PLYMOUTH = "Plymouth"
+PRESTON = "Preston"
+STEVENAGE = "Stevenage"
+WYCOMBE = "Wycombe"
+WREXHAM = "Wrexham"
+WIGAN = "Wigan"
+BRADFORD = "Bradford"
+SWINDON = "Swindon"
+AFC_WIMBLEDON = "AFC Wimbledon"
+DONCASTER = "Doncaster"
+WEALDSTONE = "Wealdstone"
+BARNET = "Barnet"
+HULL = "Hull"
+SALFORD = "Salford"
+NOTTS_COUNTY = "Notts County"
+COVENTRY = "Coventry"
+MANSFIELD = "Mansfield"
+BLACKPOOL = "Blackpool"
+BIRMINGHAM = "Birmingham"
+CHELTENHAM = "Cheltenham"
 EPL_TEAM_IDENTITY_MAP: dict[str, str] = {
     # ESPN
     "358": BOLTON_WANDERERS,
@@ -232,6 +254,29 @@ EPL_TEAM_IDENTITY_MAP: dict[str, str] = {
     "Ebbsfleet": EBBSFLEET,
     "Hartlepool": HARTLEPOOL,
     "Dag and Red": DAG_AND_RED,
+    "Altrincham": ALTRINCHAM,
+    "Boston Utd": BOSTON_UTD,
+    "Plymouth": PLYMOUTH,
+    "Preston": PRESTON,
+    "Stevenage": STEVENAGE,
+    "Wycombe": WYCOMBE,
+    "Wrexham": WREXHAM,
+    "Wigan": WIGAN,
+    "Bradford": BRADFORD,
+    "Swindon": SWINDON,
+    "AFC Wimbledon": AFC_WIMBLEDON,
+    "Doncaster": DONCASTER,
+    "Wealdstone": WEALDSTONE,
+    "Barnet": BARNET,
+    "Hull": HULL,
+    "Norwich": NORWICH_CITY,
+    "Salford": SALFORD,
+    "Notts County": NOTTS_COUNTY,
+    "Coventry": COVENTRY,
+    "Mansfield": MANSFIELD,
+    "Blackpool": BLACKPOOL,
+    "Birmingham": BIRMINGHAM,
+    "Cheltenham": CHELTENHAM,
 }
 BOLEYN_GROUND = "304"
 STADIUM_OF_LIGHT = "194"
