@@ -19,32 +19,34 @@ class WNBAWNBAComLeagueModel(LeagueModel):
 
     @classmethod
     def name(cls) -> str:
-        return "wnba-nflcom-league-model"
+        return "wnba-wnbacom-league-model"
 
     @property
     def games(self) -> Iterator[GameModel]:
         try:
-            response = self.session.get(
-                "https://content-api-prod.nba.com/public/1/leagues/wnba/schedule"
-            )
-            response.raise_for_status()
-            data = response.json()
-            now_utc = datetime.datetime.now(datetime.timezone.utc)
-            for game_dict in data["results"]["schedule"]:
-                dt = datetime.datetime.fromisoformat(game_dict["utcTime"])
-                if dt <= now_utc:
-                    continue
-                home_dict = game_dict["home"]
-                away_dict = game_dict["home"]
-                home_id = home_dict["tid"]
-                away_id = away_dict["tid"]
-                if home_id is None or away_id is None:
-                    continue
-                yield create_wnba_wnbacom_game_model(
-                    game_dict=game_dict,
-                    session=self.session,
-                    version=VERSION,
-                )
+            with self.session.cache_disabled():
+                with self.session.wayback_disabled():
+                    response = self.session.get(
+                        "https://content-api-prod.nba.com/public/1/leagues/wnba/schedule"
+                    )
+                    response.raise_for_status()
+                    data = response.json()
+                    now_utc = datetime.datetime.now(datetime.timezone.utc)
+                    for game_dict in data["results"]["schedule"]:
+                        dt = datetime.datetime.fromisoformat(game_dict["utcTime"])
+                        if dt <= now_utc:
+                            continue
+                        home_dict = game_dict["home"]
+                        away_dict = game_dict["home"]
+                        home_id = home_dict["tid"]
+                        away_id = away_dict["tid"]
+                        if home_id is None or away_id is None:
+                            continue
+                        yield create_wnba_wnbacom_game_model(
+                            game_dict=game_dict,
+                            session=self.session,
+                            version=VERSION,
+                        )
         except Exception as exc:
             SHUTDOWN_FLAG.set()
             raise exc
