@@ -28,7 +28,8 @@
             "lng": -81.4028911,
             "housenumber": "",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Tom_Benson_Hall_of_Fame_Stadium"
         },
         "7b9c3f52-bb1a-43d9-b074-4b39f5ab12ef": {
             "city": "East Rutherford",
@@ -38,7 +39,8 @@
             "lng": -74.0770319,
             "housenumber": "1",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "MetLife_Stadium"
         },
         "3219c262-e48f-46bf-94fe-fb037f71dad8": {
             "city": "Foxborough",
@@ -48,7 +50,8 @@
             "lng": -71.2669214,
             "housenumber": "1",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Gillette_Stadium"
         },
         "5596c265-234f-40a0-8dab-88d5a7d91858": {
             "city": "Pittsburgh",
@@ -68,7 +71,8 @@
             "lng": -80.2421728,
             "housenumber": "100",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Hard_Rock_Stadium"
         },
         "210e9d8a-9efb-47c6-bcda-bad075616325": {
             "city": "Baltimore",
@@ -88,7 +92,8 @@
             "lng": -78.7895472,
             "housenumber": "1",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Highmark_Stadium_(New_York)"
         },
         "ec23924c-3173-4b73-ad55-6409bf933efe": {
             "city": "University Park",
@@ -158,7 +163,8 @@
             "lng": -93.2600694,
             "housenumber": "401",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "U.S._Bank_Stadium"
         },
         "1163c6fe-3065-422e-8bea-3486697c4774": {
             "city": "Lawrenceville",
@@ -178,7 +184,8 @@
             "lng": -81.702123,
             "housenumber": "100",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Huntington_Bank_Field"
         },
         "6cd34760-1f9e-439d-8dd9-f6a6c627672d": {
             "city": "Boise",
@@ -198,7 +205,8 @@
             "lng": -81.6399246,
             "housenumber": "1",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "EverBank_Stadium"
         },
         "750518c9-729a-4d0b-bd3a-6e38fa7a3ec9": {
             "city": "Uniondale",
@@ -218,7 +226,8 @@
             "lng": -86.7738744,
             "housenumber": "1",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Nissan_Stadium_(Nashville)"
         },
         "12a7f917-294d-4750-9b50-b110ffb23172": {
             "city": "San Diego",
@@ -238,7 +247,8 @@
             "lng": -84.5186326,
             "housenumber": "1",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Paycor_Stadium"
         },
         "73955208-3bf4-4cb2-910a-4b378bb32e5f": {
             "city": "London",
@@ -258,7 +268,8 @@
             "lng": -118.3416145,
             "housenumber": "1001",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "SoFi_Stadium"
         },
         "b9dbb46f-ce57-402c-b93c-c1895414b252": {
             "city": "Peoria",
@@ -278,7 +289,8 @@
             "lng": -112.2651342,
             "housenumber": "1001",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "State_Farm_Stadium"
         },
         "d324a072-025e-4f64-98c9-ea90dd0c0478": {
             "city": "Las Cruces",
@@ -298,7 +310,8 @@
             "lng": -86.1664626,
             "housenumber": "500",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Lucas_Oil_Stadium"
         },
         "c2d6a773-c009-4fc7-bc8d-21ab92b17a0b": {
             "city": "Houston",
@@ -308,7 +321,8 @@
             "lng": -95.4132823,
             "housenumber": "",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "NRG_Stadium"
         },
         "df5de05a-c2e5-4f74-b7ad-5cc900296d68": {
             "city": "Lidkoping",
@@ -328,7 +342,8 @@
             "lng": -87.6192633,
             "housenumber": "1410",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Soldier_Field"
         },
         "8685f819-e3c0-4452-9e73-008e3757b027": {
             "city": "Puerto Ordaz",
@@ -348,7 +363,8 @@
             "lng": -94.486589,
             "housenumber": "1",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Arrowhead_Stadium"
         },
         "697520ca-d03b-45b1-a913-afe3d13a3371": {
             "city": "London",
@@ -368,7 +384,8 @@
             "lng": -80.8555399,
             "housenumber": "800",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Bank_of_America_Stadium"
         },
         "36dab08e-0823-479d-9022-a4c6ee6c3b08": {
             "city": "Mexico City",
@@ -398,7 +415,8 @@
             "lng": -115.1858971,
             "housenumber": "3333",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Allegiant_Stadium"
         },
         "845a387c-642c-4690-b353-ba92bf132a88": {
             "city": "Denver",
@@ -408,7 +426,8 @@
             "lng": -105.0226843,
             "housenumber": "1701",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Empower_Field_at_Mile_High"
         },
         "c1e0afe0-4e36-4826-a949-53a4649416f9": {
             "city": "El Paso",
@@ -428,7 +447,8 @@
             "lng": -121.9719523,
             "housenumber": "4900",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Levi's_Stadium"
         },
         "41307395-a924-4b45-be89-7ea5d2e24dd6": {
             "city": "Atlanta",
@@ -438,7 +458,8 @@
             "lng": -84.4031654,
             "housenumber": "1",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Mercedes-Benz_Stadium"
         },
         "b0a4fafb-dd4d-44e3-b881-93d548847cec": {
             "city": "Tempe",
@@ -458,7 +479,8 @@
             "lng": -82.5059093,
             "housenumber": "4201",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Raymond_James_Stadium"
         },
         "5eb492b6-8472-4691-94a7-36a30fb59f1e": {
             "city": "West Sacramento",
@@ -478,7 +500,8 @@
             "lng": -88.0647832,
             "housenumber": "1265",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Lambeau_Field"
         },
         "de7d8506-d16d-4dda-b542-d2a9f11f9a80": {
             "city": "Blackburn",
@@ -498,7 +521,8 @@
             "lng": -75.1700964,
             "housenumber": "",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Lincoln_Financial_Field"
         },
         "1f42a181-7ce3-4a8b-8b93-6dd590a9a360": {
             "city": "Paris",
@@ -518,7 +542,8 @@
             "lng": -83.0481779,
             "housenumber": "2000",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Ford_Field"
         },
         "a14302f8-4be7-499f-a4db-eabdbf542cde": {
             "city": "Tucson",
@@ -538,7 +563,8 @@
             "lng": -97.0959914,
             "housenumber": "1",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "AT%26T_Stadium"
         },
         "fdeac258-f422-40ee-aeab-cd760b4dfb79": {
             "city": "Landover",
@@ -548,7 +574,8 @@
             "lng": -76.8665633,
             "housenumber": "1600",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Northwest_Stadium"
         },
         "9e532228-dacd-4323-8e69-565073dc5b8f": {
             "city": "Seattle",
@@ -558,7 +585,8 @@
             "lng": -122.3342143,
             "housenumber": "800",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Lumen_Field"
         },
         "a97e1e30-a0ac-42f8-b95b-dca8a6828769": {
             "city": "San Francisco",
@@ -578,7 +606,8 @@
             "lng": -90.0838191,
             "housenumber": "1500",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Caesars_Superdome"
         },
         "eb777022-f027-41b7-9b78-27153091ff3d": {
             "city": "Liverpool",
@@ -618,7 +647,8 @@
             "lng": -0.071094,
             "housenumber": "782",
             "country": "UK",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Tottenham_Hotspur_Stadium"
         },
         "a9e2fa02-4eb3-45c2-9663-f3bcaf567726": {
             "city": "Birmingham",
@@ -638,7 +668,8 @@
             "lng": -0.2821926,
             "housenumber": "",
             "country": "UK",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Wembley_Stadium"
         },
         "5d8bbf93-1288-4569-b28a-e395aa3b5015": {
             "city": "Chapel Hill",
@@ -678,7 +709,8 @@
             "lng": 11.6221325,
             "housenumber": "25",
             "country": "Germany",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Allianz_Arena"
         },
         "189335f3-b55c-4501-9b90-d8385384f9ac": {
             "city": "St. Louis",
@@ -698,7 +730,8 @@
             "lng": 8.6428971,
             "housenumber": "362",
             "country": "Germany",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Waldstadion_(Frankfurt)"
         },
         "a065b054-56d6-47df-b1c7-8cf5740ac3fc": {
             "city": "Birmingham",
@@ -718,7 +751,8 @@
             "lng": -90.1910817,
             "housenumber": "701",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "The_Dome_at_America's_Center"
         },
         "588dcb38-26ad-4c4c-a6b0-d492a498dd41": {
             "city": "Nashville",
@@ -738,7 +772,8 @@
             "lng": -84.401,
             "housenumber": "1",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Georgia_Dome"
         },
         "f11aafd1-cddd-490f-ad3c-e23bed6f7a92": {
             "city": "Canton",
@@ -838,7 +873,8 @@
             "lng": -76.6255186,
             "housenumber": "101",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "M%26T_Bank_Stadium"
         },
         "ab3222a8-061e-4d79-9808-4d6330602069": {
             "city": "Brooklyn",
@@ -859,7 +895,8 @@
             "lng": -80.0183352,
             "housenumber": "100",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Acrisure_Stadium"
         },
         "660c09a2-e123-4ce6-9f31-d1b2724126fa": {
             "city": "Piscataway",
@@ -1039,7 +1076,8 @@
             "lng": -81.4033962,
             "housenumber": "1",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Camping_World_Stadium"
         },
         "acf65d25-2161-4d92-8153-fa345b470a26": {
             "city": "Minneapolis",
@@ -1059,7 +1097,8 @@
             "lng": -99.1553986,
             "housenumber": "3465",
             "country": "Mexico",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Estadio_Azteca"
         },
         "c7b513eb-e5d9-40f7-a917-8af41af51588": {
             "city": "London",
@@ -1099,7 +1138,8 @@
             "lng": -118.2660135,
             "housenumber": "18400",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Dignity_Health_Sports_Park"
         },
         "a2e9a49f-cbc1-451f-94f9-56bb224ed222": {
             "city": "Milwaukee",
@@ -1139,7 +1179,8 @@
             "lng": -122.2034855,
             "housenumber": "204-206",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Oakland_Coliseum"
         },
         "c9f1c69e-b394-4e4a-9126-63956eb4c62b": {
             "city": "Brenham",
@@ -1159,7 +1200,8 @@
             "lng": -118.2904104,
             "housenumber": "3911",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Los_Angeles_Memorial_Coliseum"
         },
         "da1f647b-9753-4544-8ae2-7db80937e033": {
             "city": "Fairborn",
@@ -1199,7 +1241,8 @@
             "lng": -0.34408,
             "housenumber": "200",
             "country": "UK",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Twickenham_Stadium"
         },
         "20b89361-bb34-41de-a5df-5114554361b1": {
             "city": "El Paso",
@@ -1239,7 +1282,8 @@
             "lng": -117.1244523,
             "housenumber": "9449",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "San_Diego_Stadium"
         },
         "1145772b-06fd-48d7-a155-0c9312d543ef": {
             "city": "Inglewood",
@@ -1299,7 +1343,8 @@
             "lng": -122.4064101,
             "housenumber": "",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Candlestick_Park"
         },
         "5fd66472-3d98-4028-bf9a-5cdc7b3bb7bb": {
             "city": "Statesboro",
@@ -1339,7 +1384,8 @@
             "lng": -79.3942991,
             "housenumber": "580",
             "country": "Canada",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Rogers_Centre"
         },
         "adbf816a-e885-4477-a484-08f310b58967": {
             "city": "Manhattan",
@@ -1379,7 +1425,8 @@
             "lng": -157.9348645,
             "housenumber": "99-500",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Aloha_Stadium"
         },
         "b57f7d58-dd32-45a4-9856-a0cab5251a1b": {
             "city": "Cardiff",
@@ -1419,7 +1466,8 @@
             "lng": -96.9146954,
             "housenumber": "",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Texas_Stadium"
         },
         "5641734b-6f1f-4a97-9483-ac8d6798fd51": {
             "city": "Mlada Boleslav",
@@ -1499,7 +1547,8 @@
             "lng": -111.9374442,
             "housenumber": "500",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Mountain_America_Stadium"
         },
         "68e86bf5-0e83-4923-af40-557e94dafef9": {
             "city": "Notre Dame",
@@ -1519,7 +1568,8 @@
             "lng": -83.2572144,
             "housenumber": "",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Pontiac_Silverdome"
         },
         "c28435ef-717b-4b46-b5c9-47c4fae983a8": {
             "city": "St. Louis",
@@ -1909,7 +1959,8 @@
             "lng": -97.1456866,
             "housenumber": "315",
             "country": "Canada",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Princess_Auto_Stadium"
         },
         "813087f1-33d7-48ee-8c3d-486254f9eb03": {
             "city": "St. Petersburg",
@@ -1989,7 +2040,8 @@
             "lng": -93.7944423,
             "housenumber": "3301",
             "country": "USA",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Independence_Stadium_(Shreveport)"
         },
         "58e5afdf-783d-46bd-b5ba-5743b3c9b0f9": {
             "city": "Fort Worth",
@@ -4800,7 +4852,8 @@
             "lng": -6.2519,
             "housenumber": "",
             "country": "Ireland",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Croke_Park"
         },
         "a75443bd-80b7-45e1-b3c5-419bca5e1707": {
             "city": "Anaheim",
@@ -9584,7 +9637,8 @@
             "lng": -46.474278,
             "housenumber": "",
             "country": "Brazil",
-            "type": "venue"
+            "type": "venue",
+            "wiki": "Arena_Corinthians"
         },
         "609dc264-2e02-49d7-afe4-2f1e9bda7a7a": {
             "city": "Melbourne",
