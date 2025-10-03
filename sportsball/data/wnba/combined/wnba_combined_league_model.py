@@ -96,6 +96,7 @@ WNBA_TEAM_IDENTITY_MAP: dict[str, str] = {
     # WNBACom
     "1611661319": SILVER_STARS,
     "1611661325": FEVER,
+    "1611661317": MERCURY,
 }
 MADISON_SQUARE_GARDEN = "1830"
 CAPITAL_ONE_ARENA = "1823"
@@ -247,6 +248,7 @@ WNBA_VENUE_IDENTITY_MAP: dict[str, str] = {
     "282": PURCELL_PAVILION,
     # WNBA.com
     "Michelob ULTRA Arena - Las Vegas - NV": MICHELOB_ULTRA_ARENA,
+    "Mortgage Matchup Center - Phoenix - AZ": PHX_ARENA,
 }
 WNBA_PLAYER_IDENTITY_MAP: dict[str, str] = {}
 
