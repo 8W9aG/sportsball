@@ -2845,15 +2845,6 @@ _CACHED_GEOCODES: dict[str, Any] = {
     ),
     "Charlotte Coliseum": CHARLOTTE_COLISEUM,
     "Miami Arena": MIAMI_ARENA,
-    "Al McGuire Center, Milwaukee, Wisconsin": SportsballGeocodeTuple(
-        city="Milwaukee",
-        state="WI",
-        postal="53233",
-        lat=43.039722,
-        lng=-87.926389,
-        housenumber="770",
-        country="USA",
-    ),
     "Tokyo Metropolitan Gymnasium": SportsballGeocodeTuple(
         city="Tokyo",
         state="",
