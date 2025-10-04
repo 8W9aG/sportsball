@@ -39,7 +39,7 @@ class FootballDataLeagueModel(LeagueModel):
 
     def _row_to_game(self, row: Any) -> GameModel | None:
         division_cell = row.get("Div")
-        if division_cell in {"E0", "E1", "E2", "E3", "EC", "D1", "D2", "SP1", "SP2"}:
+        if division_cell in {"E0", "D1", "SP1"}:
             return None
         date_cell = str(row["Date"]).strip()
         if not date_cell:
