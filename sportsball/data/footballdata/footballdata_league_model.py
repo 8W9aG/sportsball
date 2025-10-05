@@ -2,6 +2,7 @@
 
 import csv
 import io
+import logging
 import urllib.parse
 from typing import Any, Iterator
 
@@ -39,7 +40,7 @@ class FootballDataLeagueModel(LeagueModel):
 
     def _row_to_game(self, row: Any) -> GameModel | None:
         division_cell = row.get("Div")
-        if division_cell in {"E0", "D1", "SP1"}:
+        if division_cell not in {"E0", "D1", "SP1"}:
             return None
         date_cell = str(row["Date"]).strip()
         if not date_cell:
@@ -164,7 +165,8 @@ class FootballDataLeagueModel(LeagueModel):
                         ):
                             csv_urls.append(csv_url)
 
-                    for count, csv_url in enumerate(sorted(csv_urls, reverse=True)):
+                    for count, csv_url in enumerate(sorted(csv_urls)):
+                        logging.info("Processing %s", csv_url)
                         response = None
                         if count <= 5:
                             with self.session.cache_disabled():

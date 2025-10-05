@@ -125,6 +125,7 @@ MANSFIELD = "Mansfield"
 BLACKPOOL = "Blackpool"
 BIRMINGHAM = "Birmingham"
 CHELTENHAM = "Cheltenham"
+WIMBLEDON = "Wimbledon"
 EPL_TEAM_IDENTITY_MAP: dict[str, str] = {
     # ESPN
     "358": BOLTON_WANDERERS,
@@ -277,6 +278,7 @@ EPL_TEAM_IDENTITY_MAP: dict[str, str] = {
     "Blackpool": BLACKPOOL,
     "Birmingham": BIRMINGHAM,
     "Cheltenham": CHELTENHAM,
+    "Wimbledon": WIMBLEDON,
 }
 BOLEYN_GROUND = "304"
 STADIUM_OF_LIGHT = "194"
