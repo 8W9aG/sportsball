@@ -215,7 +215,10 @@ class ESPNLeagueModel(LeagueModel):
                         week, week_count, season_type_json, pbar, cache_disabled
                     ):
                         found_pages = True
-                        if game_model.dt.date() >= datetime.datetime.now().date():
+                        if game_model.dt.date() >= (
+                            datetime.datetime.now().date()
+                            + datetime.timedelta(days=7.0)
+                        ):
                             continue
                         yield game_model
                     week_count += 1
@@ -237,8 +240,8 @@ class ESPNLeagueModel(LeagueModel):
             events_count = 0
             while calendar_dates:
                 calendar_date = calendar_dates.pop()
-                if calendar_date > datetime.datetime.now().date() - datetime.timedelta(
-                    days=2
+                if calendar_date > datetime.datetime.now().date() + datetime.timedelta(
+                    days=7
                 ):
                     continue
                 dt = calendar_date.strftime("%Y%m%d")
