@@ -43,5 +43,6 @@ class TestCombinedVenueModel(unittest.TestCase):
                 [venue_model, venue_model_2],
                 "a",
                 self._session,
+                {},
             )
             self.assertTrue(combined_venue_model.is_turf)

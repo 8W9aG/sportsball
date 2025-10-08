@@ -118,6 +118,7 @@ class CombinedLeagueModel(LeagueModel):
         coach_ffill: dict[str, dict[str, Any]] = {}
         umpire_ffill: dict[str, dict[str, Any]] = {}
         team_players_ffill: dict[str, list[PlayerModel]] = {}
+        venue_ffill: dict[str, dict[str, Any]] = {}
         last_game_number = None
         keys = sorted(list(games.keys()), key=lambda x: games[x][0].dt.date())
         with tqdm.tqdm() as pbar:
@@ -139,6 +140,7 @@ class CombinedLeagueModel(LeagueModel):
                     coach_ffill=coach_ffill,
                     umpire_ffill=umpire_ffill,
                     team_players_ffill=team_players_ffill,
+                    venue_ffill=venue_ffill,
                 )
                 last_game_number = game_model.game_number
                 yield game_model

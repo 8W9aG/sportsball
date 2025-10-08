@@ -1,10 +1,13 @@
 """Combined venue model."""
 
+from typing import Any
+
 import requests
 
 from ..venue_model import VERSION, VenueModel
 from ..wikipedia.wikipedia_venue_model import create_wikipedia_venue_model
 from .combined_address_model import create_combined_address_model
+from .ffill import ffill
 from .most_interesting import more_interesting
 from .null_check import is_null
 
@@ -13,6 +16,7 @@ def create_combined_venue_model(
     venue_models: list[VenueModel],
     identifier: str | None,
     session: requests.Session,
+    venue_ffill: dict[str, dict[str, Any]],
 ) -> VenueModel | None:
     """Create a venue model by combining many venue models."""
     if not venue_models or identifier is None:
@@ -49,7 +53,8 @@ def create_combined_venue_model(
         is_turf = more_interesting(is_turf, venue_model.is_turf)
         is_dirt = more_interesting(is_dirt, venue_model.is_dirt)
         is_hard = more_interesting(is_hard, venue_model.is_hard)
-    return VenueModel.model_construct(
+
+    venue_model = VenueModel.model_construct(
         identifier=identifier,
         name=venue_models[0].name,
         address=create_combined_address_model(address_models),  # type: ignore
@@ -60,3 +65,7 @@ def create_combined_venue_model(
         is_hard=is_hard,
         version=VERSION,
     )
+
+    ffill(venue_ffill, identifier, venue_model)
+
+    return venue_model

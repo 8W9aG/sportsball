@@ -122,6 +122,7 @@ def create_combined_game_model(
     coach_ffill: dict[str, dict[str, Any]],
     umpire_ffill: dict[str, dict[str, Any]],
     team_players_ffill: dict[str, list[PlayerModel]],
+    venue_ffill: dict[str, dict[str, Any]],
 ) -> GameModel:
     """Create a game model by combining many game models."""
     umpires: dict[str, list[UmpireModel]] = {}
@@ -206,7 +207,9 @@ def create_combined_game_model(
         dt=dt,
         week=week,
         game_number=game_number,
-        venue=create_combined_venue_model(venue_models, full_venue_identity, session),  # pyright: ignore
+        venue=create_combined_venue_model(
+            venue_models, full_venue_identity, session, venue_ffill
+        ),  # pyright: ignore
         teams=full_team_models,
         end_dt=end_dt,
         attendance=attendance,
