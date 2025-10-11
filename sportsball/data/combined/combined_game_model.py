@@ -193,7 +193,7 @@ def create_combined_game_model(
     league = game_models[0].league
 
     # Forward fill for team player models
-    if league == str(League.NFL) or league == str(League.WNBA):
+    if league in {str(League.NFL), str(League.WNBA), str(League.EPL)}:
         for team_model in full_team_models:
             if team_model.players:
                 team_players_ffill[team_model.identifier] = team_model.players

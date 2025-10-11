@@ -125,7 +125,6 @@ class CombinedLeagueModel(LeagueModel):
             for key in keys:
                 game_models = games.pop(key)
                 pbar.update(1)
-                pbar.set_description(f"Combining Game Models {len(game_models)}")
                 game_model = create_combined_game_model(  # type: ignore
                     game_models=game_models,
                     venue_identity_map=self.venue_identity_map(),
@@ -141,6 +140,9 @@ class CombinedLeagueModel(LeagueModel):
                     umpire_ffill=umpire_ffill,
                     team_players_ffill=team_players_ffill,
                     venue_ffill=venue_ffill,
+                )
+                pbar.set_description(
+                    f"Combining Game Models {len(game_models)} - {game_model.dt}"
                 )
                 last_game_number = game_model.game_number
                 yield game_model

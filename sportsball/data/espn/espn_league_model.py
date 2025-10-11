@@ -225,7 +225,7 @@ class ESPNLeagueModel(LeagueModel):
                 if game_page >= weeks["pageCount"]:
                     break
                 game_page += 1
-        if not found_pages and self.league != League.NFL:
+        if not found_pages and self.league not in {League.NFL, League.NCAAF}:
             # Lets check the scoreboards via the calendar
             o = urlparse(season_type_json["$ref"])
             path_components = o.path.split("/")
@@ -246,7 +246,11 @@ class ESPNLeagueModel(LeagueModel):
                     continue
                 dt = calendar_date.strftime("%Y%m%d")
                 url = f"https://site.api.espn.com/apis/site/v2/sports/{sport_slug}/{league_slug}/scoreboard?lang=en&region=us&calendartype=whitelist&limit=100&dates={dt}&league={league_slug}"
-                scoreboard_response = self.session.get(url)
+                if calendar_date >= datetime.datetime.now().date():
+                    with self.session.cache_disabled():
+                        scoreboard_response = self.session.get(url)
+                else:
+                    scoreboard_response = self.session.get(url)
                 scoreboard_response.raise_for_status()
                 try:
                     scoreboard = scoreboard_response.json()
@@ -266,16 +270,23 @@ class ESPNLeagueModel(LeagueModel):
                             logging.error(str(exc))
                             logging.error(event)
                             raise exc
-                        event_response = self.session.get(
-                            f"https://sports.core.api.espn.com/v2/sports/{sport_slug}/leagues/{league_slug}/events/{event_id}?lang=en&region=us"
-                        )
+                        if calendar_date >= datetime.datetime.now().date():
+                            with self.session.cache_disabled():
+                                event_response = self.session.get(
+                                    f"https://sports.core.api.espn.com/v2/sports/{sport_slug}/leagues/{league_slug}/events/{event_id}?lang=en&region=us"
+                                )
+                        else:
+                            event_response = self.session.get(
+                                f"https://sports.core.api.espn.com/v2/sports/{sport_slug}/leagues/{league_slug}/events/{event_id}?lang=en&region=us"
+                            )
                         event_response.raise_for_status()
                         for game_model in self._produce_game(
                             event_item=event_response.json(),
                             game_number=events_count,
                             season_type_json=season_type_json,
                             pbar=pbar,
-                            cache_disabled=False,
+                            cache_disabled=calendar_date
+                            >= datetime.datetime.now().date(),
                             week_count=None,
                         ):
                             yield game_model

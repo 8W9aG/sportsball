@@ -9,6 +9,8 @@ from ..espn.epl_espn_league_model import EPLESPNLeagueModel
 from ..footballdata.epl_footballdata_league_model import \
     EPLFootballDataLeagueModel
 from ..oddsportal.epl_oddsportal_league_model import EPLOddsPortalLeagueModel
+from ..premierleague.epl_premierleague_league_model import \
+    EPLPremierLeagueLeagueModel
 
 BOLTON_WANDERERS = "358"
 WEST_HAM_UNITED = "371"
@@ -433,6 +435,7 @@ class EPLCombinedLeagueModel(CombinedLeagueModel):
                 EPLESPNLeagueModel(session, position=0),
                 EPLOddsPortalLeagueModel(session, position=1),
                 EPLFootballDataLeagueModel(session, position=2),
+                EPLPremierLeagueLeagueModel(session, position=3),
                 # EPLSportsDBLeagueModel(session, position=3),
                 # EPLSportsReferenceLeagueModel(session, position=4),
             ],
