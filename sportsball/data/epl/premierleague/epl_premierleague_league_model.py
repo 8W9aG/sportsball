@@ -15,6 +15,8 @@ from .epl_premierleague_game_model import create_epl_premierleague_game_model
 class EPLPremierLeagueLeagueModel(LeagueModel):
     """EPL PremierLeague implementation of the league model."""
 
+    _found_matches: set[str]
+
     def __init__(self, session: ScrapeSession, position: int | None = None) -> None:
         super().__init__(League.NFL, session, position=position)
         self._found_matches = set()

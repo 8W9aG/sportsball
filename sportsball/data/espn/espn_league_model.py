@@ -55,6 +55,8 @@ def _season_type_from_name(name: str) -> SeasonType:
 class ESPNLeagueModel(LeagueModel):
     """ESPN implementation of the league model."""
 
+    _found_games: set[str]
+
     def __init__(
         self,
         start_url: str,
@@ -64,6 +66,7 @@ class ESPNLeagueModel(LeagueModel):
     ) -> None:
         super().__init__(league, session, position=position)
         self._start_url = start_url
+        self._found_games = set()
 
     @classmethod
     def name(cls) -> str:
@@ -107,6 +110,9 @@ class ESPNLeagueModel(LeagueModel):
                 status = status_response.json()
                 if not status["type"]["completed"]:
                     continue
+            competition_ref = competition["$ref"]
+            if competition_ref in self._found_games:
+                continue
             game_model = create_espn_game_model(
                 competition,
                 week_count,
@@ -123,6 +129,7 @@ class ESPNLeagueModel(LeagueModel):
                 f"ESPN {game_model.year} - {game_model.season_type} - {game_model.dt}"
             )
             yield game_model
+            self._found_games.add(competition_ref)
 
     def _produce_games(
         self,
@@ -298,6 +305,7 @@ class ESPNLeagueModel(LeagueModel):
 
     @property
     def games(self) -> Iterator[GameModel]:
+        self._found_games = set()
         try:
             with self.session.wayback_disabled():
                 page = 1
