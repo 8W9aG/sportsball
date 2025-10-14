@@ -22,7 +22,7 @@ def create_epl_premierleague_game_model(
     dt = parse(game["kickoff"] + game["kickoffTimezone"])
     return GameModel(
         dt=dt,
-        week=game["matchWeek"],
+        week=game.get("matchWeek"),
         game_number=None,
         venue=create_epl_premierleague_venue_model(
             venue_name=game["ground"], session=session, dt=dt, version=VERSION
