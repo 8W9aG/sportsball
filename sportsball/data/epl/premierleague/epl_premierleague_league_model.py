@@ -35,24 +35,22 @@ class EPLPremierLeagueLeagueModel(LeagueModel):
                         response = self.session.get(url)
                         response.raise_for_status()
                         data = response.json()
-                        for games_data in data["data"]:
+                        for game_data in data["data"]:
                             if needs_shutdown():
                                 return
-                            for game_data in games_data:
-                                game_model = create_epl_premierleague_game_model(
-                                    game=game_data,
-                                    session=self.session,
-                                    version=VERSION,
-                                )
-                                pbar.update(1)
-                                pbar.set_description(f"PremierLeague - {game_model.dt}")
-                                yield game_model
-                                if (
-                                    game_model.dt
-                                    >= datetime.datetime.now()
-                                    + datetime.timedelta(days=7)
-                                ):
-                                    return
+                            game_model = create_epl_premierleague_game_model(
+                                game=game_data,
+                                session=self.session,
+                                version=VERSION,
+                            )
+                            pbar.update(1)
+                            pbar.set_description(f"PremierLeague - {game_model.dt}")
+                            yield game_model
+                            if (
+                                game_model.dt
+                                >= datetime.datetime.now() + datetime.timedelta(days=7)
+                            ):
+                                return
                         pagination_token = data["pagination"]["_next"]
             except Exception as exc:
                 SHUTDOWN_FLAG.set()
