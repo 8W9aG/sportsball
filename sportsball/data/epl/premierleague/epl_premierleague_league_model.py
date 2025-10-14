@@ -47,8 +47,10 @@ class EPLPremierLeagueLeagueModel(LeagueModel):
                             pbar.set_description(f"PremierLeague - {game_model.dt}")
                             yield game_model
                             if (
-                                game_model.dt
-                                >= datetime.datetime.now() + datetime.timedelta(days=7)
+                                game_model.dt.date()
+                                >= (
+                                    datetime.datetime.now() + datetime.timedelta(days=7)
+                                ).date()
                             ):
                                 return
                         pagination_token = data["pagination"]["_next"]
