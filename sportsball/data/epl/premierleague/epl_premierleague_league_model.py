@@ -28,55 +28,59 @@ class EPLPremierLeagueLeagueModel(LeagueModel):
     @property
     def games(self) -> Iterator[GameModel]:
         self._found_matches = set()
-        with tqdm.tqdm(position=self.position) as pbar:
-            try:
-                pagination_token = None
-                current_date = None
-                while True:
+        with self.session.wayback_disabled():
+            with tqdm.tqdm(position=self.position) as pbar:
+                try:
+                    pagination_token = None
+                    current_date = None
+                    while True:
 
-                    def find_games() -> Iterator[GameModel]:
-                        nonlocal current_date
-                        nonlocal pagination_token
-                        url = "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v2/matches?competition=8"
-                        if pagination_token is not None:
-                            url += "&_next=" + pagination_token
-                        response = self.session.get(url)
-                        response.raise_for_status()
-                        data = response.json()
-                        for game_data in data["data"]:
-                            if needs_shutdown():
-                                return
-                            if game_data["matchId"] in self._found_matches:
-                                continue
-                            game_model = create_epl_premierleague_game_model(
-                                game=game_data,
-                                session=self.session,
-                                version=VERSION,
-                            )
-                            pbar.update(1)
-                            pbar.set_description(f"PremierLeague - {game_model.dt}")
-                            yield game_model
-                            current_date = game_model.dt.date()
-                            self._found_matches.add(game_data["matchId"])
-                            if (
-                                game_model.dt.date()
-                                >= (
-                                    datetime.datetime.now() + datetime.timedelta(days=7)
-                                ).date()
-                            ):
-                                return
-                        pagination_token = data["pagination"]["_next"]
+                        def find_games() -> Iterator[GameModel]:
+                            nonlocal current_date
+                            nonlocal pagination_token
+                            url = "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v2/matches?competition=8"
+                            if pagination_token is not None:
+                                url += "&_next=" + pagination_token
+                            response = self.session.get(url)
+                            response.raise_for_status()
+                            data = response.json()
+                            for game_data in data["data"]:
+                                if needs_shutdown():
+                                    return
+                                if game_data["matchId"] in self._found_matches:
+                                    continue
+                                game_model = create_epl_premierleague_game_model(
+                                    game=game_data,
+                                    session=self.session,
+                                    version=VERSION,
+                                )
+                                pbar.update(1)
+                                pbar.set_description(f"PremierLeague - {game_model.dt}")
+                                yield game_model
+                                current_date = game_model.dt.date()
+                                self._found_matches.add(game_data["matchId"])
+                                if (
+                                    game_model.dt.date()
+                                    >= (
+                                        datetime.datetime.now()
+                                        + datetime.timedelta(days=7)
+                                    ).date()
+                                ):
+                                    return
+                            pagination_token = data["pagination"]["_next"]
 
-                    if (
-                        current_date is None
-                        or current_date
-                        < (datetime.datetime.now() - datetime.timedelta(days=7)).date()
-                    ):
-                        yield from find_games()
-                    else:
-                        with self.session.cache_disabled():
+                        if (
+                            current_date is None
+                            or current_date
+                            < (
+                                datetime.datetime.now() - datetime.timedelta(days=7)
+                            ).date()
+                        ):
                             yield from find_games()
+                        else:
+                            with self.session.cache_disabled():
+                                yield from find_games()
 
-            except Exception as exc:
-                SHUTDOWN_FLAG.set()
-                raise exc
+                except Exception as exc:
+                    SHUTDOWN_FLAG.set()
+                    raise exc

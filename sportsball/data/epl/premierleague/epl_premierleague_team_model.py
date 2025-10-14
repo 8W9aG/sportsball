@@ -155,7 +155,7 @@ def create_epl_premierleague_team_model(
         minutes=None,
         own_goals=None,
         pass_percentage=None,
-        red_cards=team["redCards"],
+        red_cards=team.get("redCards"),
         starts=None,
         sub_ins=None,
         pitch_count=None,
