@@ -26,9 +26,13 @@ class EPLPremierLeagueLeagueModel(LeagueModel):
     def games(self) -> Iterator[GameModel]:
         with tqdm.tqdm(position=self.position) as pbar:
             try:
-                with self.session.cache_disabled():
-                    pagination_token = None
-                    while True:
+                pagination_token = None
+                current_date = None
+                while True:
+
+                    def find_games() -> Iterator[GameModel]:
+                        nonlocal current_date
+                        nonlocal pagination_token
                         url = "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v2/matches?competition=8"
                         if pagination_token is not None:
                             url += "&_next=" + pagination_token
@@ -46,6 +50,7 @@ class EPLPremierLeagueLeagueModel(LeagueModel):
                             pbar.update(1)
                             pbar.set_description(f"PremierLeague - {game_model.dt}")
                             yield game_model
+                            current_date = game_model.dt.date()
                             if (
                                 game_model.dt.date()
                                 >= (
@@ -54,6 +59,17 @@ class EPLPremierLeagueLeagueModel(LeagueModel):
                             ):
                                 return
                         pagination_token = data["pagination"]["_next"]
+
+                    if (
+                        current_date is None
+                        or current_date
+                        < (datetime.datetime.now() - datetime.timedelta(days=7)).date()
+                    ):
+                        yield from find_games()
+                    else:
+                        with self.session.cache_disabled():
+                            yield from find_games()
+
             except Exception as exc:
                 SHUTDOWN_FLAG.set()
                 raise exc
