@@ -17,6 +17,7 @@ class EPLPremierLeagueLeagueModel(LeagueModel):
 
     def __init__(self, session: ScrapeSession, position: int | None = None) -> None:
         super().__init__(League.NFL, session, position=position)
+        self._found_matches = set()
 
     @classmethod
     def name(cls) -> str:
@@ -24,6 +25,7 @@ class EPLPremierLeagueLeagueModel(LeagueModel):
 
     @property
     def games(self) -> Iterator[GameModel]:
+        self._found_matches = set()
         with tqdm.tqdm(position=self.position) as pbar:
             try:
                 pagination_token = None
@@ -42,6 +44,8 @@ class EPLPremierLeagueLeagueModel(LeagueModel):
                         for game_data in data["data"]:
                             if needs_shutdown():
                                 return
+                            if game_data["matchId"] in self._found_matches:
+                                continue
                             game_model = create_epl_premierleague_game_model(
                                 game=game_data,
                                 session=self.session,
@@ -51,6 +55,7 @@ class EPLPremierLeagueLeagueModel(LeagueModel):
                             pbar.set_description(f"PremierLeague - {game_model.dt}")
                             yield game_model
                             current_date = game_model.dt.date()
+                            self._found_matches.add(game_data["matchId"])
                             if (
                                 game_model.dt.date()
                                 >= (
