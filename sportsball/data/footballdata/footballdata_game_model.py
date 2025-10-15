@@ -40,6 +40,7 @@ def _create_footballdata_game_model(
     away_red_cards: str | None,
     home_odds: str | None,
     away_odds: str | None,
+    draw_odds: str | None,
     version: str,
 ) -> GameModel:
     home_team_model = create_footballdata_team_model(
@@ -54,6 +55,7 @@ def _create_footballdata_game_model(
         yellow_cards=home_yellow_cards,
         red_cards=home_red_cards,
         odds=home_odds,
+        draw_odds=draw_odds,
         version=TEAM_VERSION,
     )
     away_team_model = create_footballdata_team_model(
@@ -68,6 +70,7 @@ def _create_footballdata_game_model(
         yellow_cards=away_yellow_cards,
         red_cards=away_red_cards,
         odds=away_odds,
+        draw_odds=draw_odds,
         version=TEAM_VERSION,
     )
     return GameModel(
@@ -118,6 +121,7 @@ def _cached_create_footballdata_game_model(
     away_red_cards: str | None,
     home_odds: str | None,
     away_odds: str | None,
+    draw_odds: str | None,
     version: str,
 ) -> GameModel:
     return _create_footballdata_game_model(
@@ -141,6 +145,7 @@ def _cached_create_footballdata_game_model(
         away_red_cards=away_red_cards,
         home_odds=home_odds,
         away_odds=away_odds,
+        draw_odds=draw_odds,
         version=version,
     )
 
@@ -167,6 +172,7 @@ def create_footballdata_game_model(
     away_red_cards: str | None,
     home_odds: str | None,
     away_odds: str | None,
+    draw_odds: str | None,
 ) -> GameModel:
     """Create a game model based off footballdata."""
     dt = None
@@ -200,6 +206,7 @@ def create_footballdata_game_model(
             away_red_cards=away_red_cards,
             home_odds=home_odds,
             away_odds=away_odds,
+            draw_odds=draw_odds,
             version=GAME_VERSION,
         )
     with session.cache_disabled():
@@ -224,5 +231,6 @@ def create_footballdata_game_model(
             away_red_cards=away_red_cards,
             home_odds=home_odds,
             away_odds=away_odds,
+            draw_odds=draw_odds,
             version=GAME_VERSION,
         )

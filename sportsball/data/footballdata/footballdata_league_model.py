@@ -92,6 +92,9 @@ class FootballDataLeagueModel(LeagueModel):
         away_odds_cell = row.get("B365A")
         if away_odds_cell is not None and not away_odds_cell:
             away_odds_cell = None
+        draw_odds_cell = row.get("B365D")
+        if draw_odds_cell is not None and not draw_odds_cell:
+            draw_odds_cell = None
 
         return create_footballdata_game_model(
             session=self.session,
@@ -115,6 +118,7 @@ class FootballDataLeagueModel(LeagueModel):
             away_red_cards=away_red_cards_cell,
             home_odds=home_odds_cell,
             away_odds=away_odds_cell,
+            draw_odds=draw_odds_cell,
         )
 
     @property
