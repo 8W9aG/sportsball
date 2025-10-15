@@ -56,17 +56,16 @@ class EPLPremierLeagueLeagueModel(LeagueModel):
                                 )
                                 pbar.update(1)
                                 pbar.set_description(f"PremierLeague - {game_model.dt}")
-                                yield game_model
                                 current_date = game_model.dt.date()
                                 self._found_matches.add(game_data["matchId"])
                                 if (
                                     current_date
-                                    >= (
+                                    <= (
                                         datetime.datetime.now()
                                         + datetime.timedelta(days=7)
                                     ).date()
                                 ):
-                                    return
+                                    yield game_model
                             pagination_token = data["pagination"]["_next"]
 
                         if (
