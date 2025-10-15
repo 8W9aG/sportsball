@@ -24,7 +24,7 @@ def create_epl_premierleague_team_model(
         location=None,
         players=[],
         odds=[],
-        points=team["score"],
+        points=team.get("score"),
         ladder_rank=None,
         kicks=None,
         news=create_google_news_models(team_name, session, dt, League.EPL),
