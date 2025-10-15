@@ -60,7 +60,7 @@ class EPLPremierLeagueLeagueModel(LeagueModel):
                                 current_date = game_model.dt.date()
                                 self._found_matches.add(game_data["matchId"])
                                 if (
-                                    game_model.dt.date()
+                                    current_date
                                     >= (
                                         datetime.datetime.now()
                                         + datetime.timedelta(days=7)
@@ -80,6 +80,8 @@ class EPLPremierLeagueLeagueModel(LeagueModel):
                         else:
                             with self.session.cache_disabled():
                                 yield from find_games()
+                        if pagination_token is None:
+                            break
 
                 except Exception as exc:
                     SHUTDOWN_FLAG.set()

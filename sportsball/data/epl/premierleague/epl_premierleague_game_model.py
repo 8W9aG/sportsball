@@ -19,7 +19,7 @@ def create_epl_premierleague_game_model(
     version: str,
 ) -> GameModel:
     """Create a game model from the EPL premierleague site."""
-    dt = parse(game["kickoff"] + game["kickoffTimezone"])
+    dt = parse(game["kickoff"] + game.get("kickoffTimezone", ""))
     return GameModel(
         dt=dt,
         week=game.get("matchWeek"),
