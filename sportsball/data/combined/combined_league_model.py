@@ -77,7 +77,7 @@ class CombinedLeagueModel(LeagueModel):
             try:
                 for future in as_completed(futures):
                     result = future.result()  # Raises if an exception occurred
-                    results.append(sorted(result, key=lambda x: x.dt))
+                    results.append(sorted(result, key=lambda x: x.dt.date()))
             except Exception:
                 # Cancel all pending futures
                 for f in futures:
