@@ -172,11 +172,8 @@ class FootballDataLeagueModel(LeagueModel):
                     for count, csv_url in enumerate(sorted(csv_urls)):
                         logging.info("Processing %s", csv_url)
                         response = None
-                        if count <= 5:
-                            with self.session.cache_disabled():
-                                self.session.cache.delete(urls=[csv_url])
-                                response = self.session.get(csv_url)
-                        else:
+                        with self.session.cache_disabled():
+                            self.session.cache.delete(urls=[csv_url])
                             response = self.session.get(csv_url)
                         response.raise_for_status()
                         handle = io.StringIO(response.text)
