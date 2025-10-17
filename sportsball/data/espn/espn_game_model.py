@@ -22,8 +22,8 @@ from ..umpire_model import UmpireModel
 from ..venue_model import VERSION as VENUE_VERSION
 from ..venue_model import VenueModel
 from ..x.x_social_model import create_x_social_model
-from .espn_bookie_model import create_espn_bookie_model
-from .espn_odds_model import MONEYLINE_KEY, create_espn_odds_model
+# from .espn_bookie_model import create_espn_bookie_model
+# from .espn_odds_model import MONEYLINE_KEY, create_espn_odds_model
 from .espn_player_model import create_espn_player_model
 from .espn_team_model import ID_KEY, create_espn_team_model
 from .espn_umpire_model import create_espn_umpire_model
@@ -709,6 +709,7 @@ def _create_espn_team(
         team_dict.update(competitor)
 
     odds: list[OddsModel] = []
+    """
     if odds_dict:
         if "homeAway" in competitor:
             odds_key = competitor["homeAway"] + "TeamOdds"
@@ -720,6 +721,7 @@ def _create_espn_team(
                 for x in odds_dict["items"]
                 if odds_key in x and MONEYLINE_KEY in x[odds_key]
             ]
+    """
 
     roster_dict = {}
     if "roster" in competitor:
