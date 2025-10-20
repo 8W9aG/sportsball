@@ -169,11 +169,11 @@ class FootballDataLeagueModel(LeagueModel):
                         ):
                             csv_urls.append(csv_url)
 
+                    logging.info("CSV URLs: %s", " - ".join(csv_urls))
                     for count, csv_url in enumerate(sorted(csv_urls)):
                         logging.info("Processing %s", csv_url)
                         response = None
                         with self.session.cache_disabled():
-                            self.session.cache.delete(urls=[csv_url])
                             response = self.session.get(csv_url)
                         response.raise_for_status()
                         handle = io.StringIO(response.text)

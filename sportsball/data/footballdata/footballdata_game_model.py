@@ -177,7 +177,7 @@ def create_footballdata_game_model(
     """Create a game model based off footballdata."""
     dt = None
     try:
-        dt = parse(" ".join([date, time]))
+        dt = parse(" ".join([date, time]), dayfirst=False)
     except parser._parser.ParserError as exc:  # type: ignore
         logging.error(str(exc))
         logging.error("%s %s", date, time)
