@@ -39,7 +39,7 @@ class FootballDataLeagueModel(LeagueModel):
         return {str(x): str(x) for x in Position}
 
     def _row_to_game(self, row: Any) -> GameModel | None:
-        div_headers = [x for x in row.keys() if x.endswith("Div")]
+        div_headers = [x for x in row.keys() if x is not None and x.endswith("Div")]
         if not div_headers:
             return None
         div_header = div_headers[0]
