@@ -37,7 +37,7 @@ class NFLNFLComLeagueModel(LeagueModel):
                 soup = BeautifulSoup(page.content(), "lxml")
                 game_urls = []
                 for a in soup.find_all(
-                    "a", {"class": "nfl-c-matchup-strip__left-area"}
+                    "a", {"class": "group flex !-outline-offset-1 w-full"}
                 ):
                     game_url = urllib.parse.urljoin(url, a.get("href"))
                     game_urls.append(game_url)
