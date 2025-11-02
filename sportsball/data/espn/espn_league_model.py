@@ -338,14 +338,24 @@ class ESPNLeagueModel(LeagueModel):
                         response.raise_for_status()
                         seasons = response.json()
                         for item in seasons.get("items", []):
-                            season_response = self.session.get(item["$ref"])
+                            if first:
+                                with self.session.cache_disabled():
+                                    season_response = self.session.get(item["$ref"])
+                            else:
+                                season_response = self.session.get(item["$ref"])
                             season_response.raise_for_status()
                             season_json = season_response.json()
 
                             for season_item in season_json["types"]["items"]:
-                                season_type_response = self.session.get(
-                                    season_item["$ref"]
-                                )
+                                if first:
+                                    with self.session.cache_disabled():
+                                        season_type_response = self.session.get(
+                                            season_item["$ref"]
+                                        )
+                                else:
+                                    season_type_response = self.session.get(
+                                        season_item["$ref"]
+                                    )
                                 season_type_response.raise_for_status()
                                 season_type_json = season_type_response.json()
 
