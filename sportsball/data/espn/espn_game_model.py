@@ -41,6 +41,7 @@ _BAD_URLS = {
     "http://sports.core.api.espn.com/v2/sports/tennis/leagues/atp/events/5-2025/competitions/162722/competitors/2147483647?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/tennis/leagues/atp/events/5-2025/competitions/162721/competitors/2147483647?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/tennis/leagues/atp/events/5-2025/competitions/162737/competitors/2147483647?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/200824013/competitions/200824013/competitors/13/roster?lang=en&region=us",
 }
 
 
@@ -743,9 +744,11 @@ def _create_espn_team(
 
     roster_dict = {}
     if "roster" in competitor:
-        roster_response = session.get(competitor["roster"]["$ref"])
-        roster_response.raise_for_status()
-        roster_dict = roster_response.json()
+        roster_url = competitor["roster"]["$ref"]
+        if roster_url not in _BAD_URLS:
+            roster_response = session.get(roster_url)
+            roster_response.raise_for_status()
+            roster_dict = roster_response.json()
 
     score_dict = {}
     if "score" in competitor:
