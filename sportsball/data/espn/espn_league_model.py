@@ -144,9 +144,15 @@ class ESPNLeagueModel(LeagueModel):
         while True:
             if "events" not in week:
                 break
-            events_response = self.session.get(
-                week["events"]["$ref"] + f"&page={events_page}"
-            )
+            if cache_disabled:
+                with self.session.cache_disabled():
+                    events_response = self.session.get(
+                        week["events"]["$ref"] + f"&page={events_page}"
+                    )
+            else:
+                events_response = self.session.get(
+                    week["events"]["$ref"] + f"&page={events_page}"
+                )
             events_response.raise_for_status()
             events = events_response.json()
             for event_item in events["items"]:
@@ -168,7 +174,15 @@ class ESPNLeagueModel(LeagueModel):
         while True:
             if "qbr" not in week:
                 break
-            qbr_response = self.session.get(week["qbr"]["$ref"] + f"&page={qbr_page}")
+            if cache_disabled:
+                with self.session.cache_disabled():
+                    qbr_response = self.session.get(
+                        week["qbr"]["$ref"] + f"&page={qbr_page}"
+                    )
+            else:
+                qbr_response = self.session.get(
+                    week["qbr"]["$ref"] + f"&page={qbr_page}"
+                )
             qbr = qbr_response.json()
             for qbr_item in qbr["items"]:
                 for game_model in self._produce_game(

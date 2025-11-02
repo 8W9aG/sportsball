@@ -23,6 +23,19 @@ from .espn_coach_model import create_espn_coach_model
 from .espn_player_model import create_espn_player_model
 
 ID_KEY = "id"
+BAD_TEAM_URLS = {
+    "http://sports.core.api.espn.com/v2/sports/tennis/leagues/atp/events/5-2025/competitions/162716/competitors/2147483647?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/tennis/leagues/atp/events/5-2025/competitions/162735/competitors/2147483647?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/tennis/leagues/atp/events/23-2025/competitions/164419/competitors/2147483647?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/tennis/leagues/atp/events/5-2025/competitions/162718/competitors/2147483647?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/tennis/leagues/atp/events/5-2025/competitions/162736/competitors/2147483647?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/tennis/leagues/atp/events/5-2025/competitions/162736/competitors/1092?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/tennis/leagues/atp/events/23-2025/competitions/164404/competitors/2147483647?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/tennis/leagues/atp/events/5-2025/competitions/162720/competitors/2147483647?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/tennis/leagues/atp/events/5-2025/competitions/162722/competitors/2147483647?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/tennis/leagues/atp/events/5-2025/competitions/162721/competitors/2147483647?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/tennis/leagues/atp/events/5-2025/competitions/162737/competitors/2147483647?lang=en&region=us",
+}
 
 
 def _create_espn_team_model(
@@ -52,16 +65,20 @@ def _create_espn_team_model(
     except KeyError:
         try:
             points = float(int(team["winner"]))
-        except KeyError:
-            response = session.get(team["$ref"])
-            response.raise_for_status()
-            team = response.json()
-            try:
-                points = float(int(team["winner"]))
-            except KeyError as exc:
-                logging.error(str(exc))
-                logging.error(team)
-                raise exc
+        except KeyError as exc:
+            url = team["$ref"]
+            if url not in BAD_TEAM_URLS:
+                response = session.get(team["$ref"])
+                response.raise_for_status()
+                team = response.json()
+                try:
+                    points = float(int(team["winner"]))
+                except KeyError as exc2:
+                    logging.error(str(exc2))
+                    logging.error(team)
+                    raise exc
+            else:
+                logging.warning(str(exc))
     coaches_urls = []
     if "coaches" in team:
         try:

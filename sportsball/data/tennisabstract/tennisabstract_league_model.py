@@ -13,6 +13,11 @@ from ..league import League
 from ..league_model import SHUTDOWN_FLAG, LeagueModel, needs_shutdown
 from .tennisabstract_game_model import create_tennisabstract_game_model
 
+BAD_GAME_URLS = {
+    "https://www.tennisabstract.com/charting/20230325-M-Miami_Masters-R64-Ben_Shelton-Adrian_Mannarino.html",
+    "https://www.tennisabstract.com/charting/20230225-M-Marseille-SF-Alexander_Bublik-Hubert_Hurkacz.html",
+}
+
 
 class TennisAbstractLeagueModel(LeagueModel):
     """TennisAbstract implementation of the league model."""
@@ -59,6 +64,8 @@ class TennisAbstractLeagueModel(LeagueModel):
                         if not match_name.endswith("(WTA)"):
                             continue
                     match_url = urllib.parse.urljoin(url, a.get("href"))
+                    if match_url in BAD_GAME_URLS:
+                        continue
                     filename = os.path.basename(match_url)
                     datestr = filename.split("-")[0]
                     if len(datestr) == 8 and datestr.isnumeric():

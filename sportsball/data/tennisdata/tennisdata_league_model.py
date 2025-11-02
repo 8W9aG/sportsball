@@ -46,6 +46,8 @@ class TennisDataLeagueModel(LeagueModel):
         court_cell = str(row[5].value).strip()
         surface_cell = str(row[6].value).strip()
         best_of_cell = str(row[8].value).strip()
+        if best_of_cell == "None":
+            return None
         winner_cell = str(row[9].value).strip()
         loser_cell = str(row[10].value).strip()
         winner_rank_cell = (
@@ -184,7 +186,6 @@ class TennisDataLeagueModel(LeagueModel):
                     url = "http://www.tennis-data.co.uk/alldata.php"
                     response = None
                     with self.session.cache_disabled():
-                        self.session.cache.delete(urls=[url])
                         response = self.session.get(url)
                     response.raise_for_status()
                     soup = BeautifulSoup(response.text, "lxml")
