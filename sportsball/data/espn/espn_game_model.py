@@ -43,6 +43,14 @@ _BAD_URLS = {
     "http://sports.core.api.espn.com/v2/sports/tennis/leagues/atp/events/5-2025/competitions/162737/competitors/2147483647?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/200824013/competitions/200824013/competitors/13/roster?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/200824013/competitions/200824013/competitors/26/roster?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/200825004/competitions/200825004/competitors/4/roster?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/200825004/competitions/200825004/competitors/8/roster?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/200825027/competitions/200825027/competitors/27/roster?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/200825027/competitions/200825027/competitors/12/roster?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/200825003/competitions/200825003/competitors/3/roster?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/200825003/competitions/200825003/competitors/10/roster?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/200825018/competitions/200825018/competitors/18/roster?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/200825018/competitions/200825018/competitors/15/roster?lang=en&region=us",
 }
 
 
@@ -745,11 +753,12 @@ def _create_espn_team(
 
     roster_dict = {}
     if "roster" in competitor:
-        roster_url = competitor["roster"]["$ref"]
-        if roster_url not in _BAD_URLS:
-            roster_response = session.get(roster_url)
-            roster_response.raise_for_status()
-            roster_dict = roster_response.json()
+        if not (league == League.NFL and dt.date() < datetime.date(2000, 8, 27)):
+            roster_url = competitor["roster"]["$ref"]
+            if roster_url not in _BAD_URLS:
+                roster_response = session.get(roster_url)
+                roster_response.raise_for_status()
+                roster_dict = roster_response.json()
 
     score_dict = {}
     if "score" in competitor:

@@ -16038,6 +16038,17 @@
             "country": "Turkey",
             "type": "city",
             "wiki": "Istanbul"
+        },
+        "99aa1044-a63a-47c4-9965-ba1f7e4f30ea": {
+            "city": "Shenzhen",
+            "state": "Guangdong",
+            "postal": "",
+            "lat": 22.546667,
+            "lng": 114.054444,
+            "housenumber": "",
+            "country": "China",
+            "type": "city",
+            "wiki": "Shenzhen"
         }
     },
     "searches": {
@@ -17045,6 +17056,7 @@
         "The Riverside Stadium": "5e0b1d7a-7402-491e-a645-9ab761544408",
         "Riverside Stadium, Middlesbrough": "5e0b1d7a-7402-491e-a645-9ab761544408",
         "The Riverside Stadium, Middlesbrough": "5e0b1d7a-7402-491e-a645-9ab761544408",
+        "Riverside Stadium - Middlesbrough": "5e0b1d7a-7402-491e-a645-9ab761544408",
         "Vaught-Hemingway Stadium - Oxford - MS - 38655": "35236654-4a0b-4eef-9fdc-2d1448078610",
         "Vaught-Hemingway Stadium": "35236654-4a0b-4eef-9fdc-2d1448078610",
         "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur, India": "525c8f71-1670-4fea-b3cb-cf7356f3e857",
@@ -19325,6 +19337,7 @@
         "Pau CH": "5d704225-0a90-4648-8c96-2952de319353",
         "Tenerife CH": "97d2be92-df5d-45e4-a2a6-b7d3edeede10",
         "Eckental CH": "7b9761cf-03f5-47ee-af3c-45cb6a6b4f11",
-        "Istanbul": "bf5a024d-f680-43fc-9805-9f5601415449"
+        "Istanbul": "bf5a024d-f680-43fc-9805-9f5601415449",
+        "Shenzhen": "99aa1044-a63a-47c4-9965-ba1f7e4f30ea"
     }
 }
