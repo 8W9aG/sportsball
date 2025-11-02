@@ -105,7 +105,10 @@ class ESPNLeagueModel(LeagueModel):
 
         for competition in competitions:
             if "status" in competition:
-                status_response = self.session.get(competition["status"]["$ref"])
+                if cache_disabled:
+                    status_response = self.session.get(competition["status"]["$ref"])
+                else:
+                    status_response = self.session.get(competition["status"]["$ref"])
                 status_response.raise_for_status()
                 status = status_response.json()
                 if not status["type"]["completed"]:
