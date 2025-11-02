@@ -42,6 +42,7 @@ _BAD_URLS = {
     "http://sports.core.api.espn.com/v2/sports/tennis/leagues/atp/events/5-2025/competitions/162721/competitors/2147483647?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/tennis/leagues/atp/events/5-2025/competitions/162737/competitors/2147483647?lang=en&region=us",
     "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/200824013/competitions/200824013/competitors/13/roster?lang=en&region=us",
+    "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/200824013/competitions/200824013/competitors/26/roster?lang=en&region=us",
 }
 
 
