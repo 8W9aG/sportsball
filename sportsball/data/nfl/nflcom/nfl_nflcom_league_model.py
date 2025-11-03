@@ -33,7 +33,14 @@ class NFLNFLComLeagueModel(LeagueModel):
                 context = browser.new_context()
                 page = context.new_page()
                 url = "https://www.nfl.com/schedules/"
-                page.goto(url, wait_until="load")
+                try:
+                    page.goto(
+                        url,
+                        wait_until="networkidle",
+                        timeout=60000.0,
+                    )
+                except:  # noqa: E722
+                    pass
                 soup = BeautifulSoup(page.content(), "lxml")
                 game_urls = []
                 for a in soup.find_all(

@@ -16049,6 +16049,17 @@
             "country": "China",
             "type": "city",
             "wiki": "Shenzhen"
+        },
+        "f54e6ab6-649a-498e-bbd4-e409dfbb858e": {
+            "city": "Pozoblanco",
+            "state": "Andalusia",
+            "postal": "",
+            "lat": 38.383333,
+            "lng": -4.85,
+            "housenumber": "",
+            "country": "Spain",
+            "type": "city",
+            "wiki": "Pozoblanco"
         }
     },
     "searches": {
@@ -19338,6 +19349,7 @@
         "Tenerife CH": "97d2be92-df5d-45e4-a2a6-b7d3edeede10",
         "Eckental CH": "7b9761cf-03f5-47ee-af3c-45cb6a6b4f11",
         "Istanbul": "bf5a024d-f680-43fc-9805-9f5601415449",
-        "Shenzhen": "99aa1044-a63a-47c4-9965-ba1f7e4f30ea"
+        "Shenzhen": "99aa1044-a63a-47c4-9965-ba1f7e4f30ea",
+        "Pozoblanco CH": "f54e6ab6-649a-498e-bbd4-e409dfbb858e"
     }
 }
