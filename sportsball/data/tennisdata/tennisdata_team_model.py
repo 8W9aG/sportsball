@@ -37,7 +37,9 @@ def create_tennisdata_team_model(
         name=name,
         location=None,
         players=[create_tennisdata_player_model(name=name, league=league)],
-        odds=[create_tennisdata_odds_model(odds=odds)] if odds is not None else [],
+        odds=[create_tennisdata_odds_model(odds=odds)]
+        if odds is not None and odds
+        else [],
         points=points,
         ladder_rank=rank,
         news=create_google_news_models(name, session, dt, league),

@@ -16,6 +16,7 @@ from .tennisabstract_game_model import create_tennisabstract_game_model
 BAD_GAME_URLS = {
     "https://www.tennisabstract.com/charting/20230325-M-Miami_Masters-R64-Ben_Shelton-Adrian_Mannarino.html",
     "https://www.tennisabstract.com/charting/20230225-M-Marseille-SF-Alexander_Bublik-Hubert_Hurkacz.html",
+    "https://www.tennisabstract.com/charting/20190729-M-Washington-R64-Hubert_Hurkacz-Donald_Young.html",
 }
 
 
