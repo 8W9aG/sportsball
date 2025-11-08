@@ -17,6 +17,12 @@ BAD_GAME_URLS = {
     "https://www.tennisabstract.com/charting/20230325-M-Miami_Masters-R64-Ben_Shelton-Adrian_Mannarino.html",
     "https://www.tennisabstract.com/charting/20230225-M-Marseille-SF-Alexander_Bublik-Hubert_Hurkacz.html",
     "https://www.tennisabstract.com/charting/20190729-M-Washington-R64-Hubert_Hurkacz-Donald_Young.html",
+    "https://www.tennisabstract.com/charting/20151008-M-Mons_CH-R16-Jan_Lennard_Struff-Mirza_Basic.html",
+    "https://www.tennisabstract.com/charting/20150610-M-s%C2%A0Hertogenbosch-R16-Vasek_Pospisil-Gilles_Muller.html",
+    "https://www.tennisabstract.com/charting/20150610-M-s Hertogenbosch-R16-Vasek_Pospisil-Gilles_Muller.html",
+    "https://www.tennisabstract.com/charting/20141103-M-Charlottesville_CH-F-Liam_Broady-James_Duckworth.html",
+    "https://www.tennisabstract.com/charting/20140710-M-Bastad-R16-Victor_Hanescu-David_Ferrer.html",
+    "https://www.tennisabstract.com/charting/20131012-M-Shanghai_Masters-SF-Rafael_Nadal-Juan_Martin_Del_Potro",
 }
 
 

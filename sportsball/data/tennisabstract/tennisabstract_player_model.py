@@ -594,43 +594,107 @@ def _create_tennisabstract_player_model(
             offensive_rating=None,
             defensive_rating=None,
             box_plus_minus=None,
-            ace_percentage=ace_percentages[team_idx],
-            double_fault_percentage=double_fault_percentages[team_idx],
-            first_serves_in=first_serves_ins[team_idx],
-            first_serve_percentage=first_serve_percentages[team_idx],
-            second_serve_percentage=second_serve_percentages[team_idx],
-            break_points_saved=break_points_saveds[team_idx],
-            return_points_won_percentage=return_points_won_percentages[team_idx],
-            winners=winners[team_idx],
-            winners_fronthand=winners_fronthands[team_idx],
-            winners_backhand=winners_backhands[team_idx],
-            unforced_errors=unforced_errors[team_idx],
-            unforced_errors_fronthand=unforced_errors_fronthand[team_idx],
-            unforced_errors_backhand=unforced_errors_backhand[team_idx],
-            serve_points=serve_points[team_idx],
-            serves_won=serves_won[team_idx],
-            serves_aces=serves_aces[team_idx],
-            serves_unreturned=serves_unreturned[team_idx],
-            serves_forced_error_percentage=serves_forced_error_percentage[team_idx],
+            ace_percentage=ace_percentages[team_idx]
+            if team_idx < len(ace_percentages)
+            else None,
+            double_fault_percentage=double_fault_percentages[team_idx]
+            if team_idx < len(double_fault_percentages)
+            else None,
+            first_serves_in=first_serves_ins[team_idx]
+            if team_idx < len(first_serves_ins)
+            else None,
+            first_serve_percentage=first_serve_percentages[team_idx]
+            if team_idx < len(first_serve_percentages)
+            else None,
+            second_serve_percentage=second_serve_percentages[team_idx]
+            if team_idx < len(second_serve_percentages)
+            else None,
+            break_points_saved=break_points_saveds[team_idx]
+            if team_idx < len(break_points_saveds)
+            else None,
+            return_points_won_percentage=return_points_won_percentages[team_idx]
+            if team_idx < len(return_points_won_percentages)
+            else None,
+            winners=winners[team_idx] if team_idx < len(winners) else None,
+            winners_fronthand=winners_fronthands[team_idx]
+            if team_idx < len(winners_fronthands)
+            else None,
+            winners_backhand=winners_backhands[team_idx]
+            if team_idx < len(winners_backhands)
+            else None,
+            unforced_errors=unforced_errors[team_idx]
+            if team_idx < len(unforced_errors)
+            else None,
+            unforced_errors_fronthand=unforced_errors_fronthand[team_idx]
+            if team_idx < len(unforced_errors_fronthand)
+            else None,
+            unforced_errors_backhand=unforced_errors_backhand[team_idx]
+            if team_idx < len(unforced_errors_backhand)
+            else None,
+            serve_points=serve_points[team_idx]
+            if team_idx < len(serve_points)
+            else None,
+            serves_won=serves_won[team_idx] if team_idx < len(serves_won) else None,
+            serves_aces=serves_aces[team_idx] if team_idx < len(serves_aces) else None,
+            serves_unreturned=serves_unreturned[team_idx]
+            if team_idx < len(serves_unreturned)
+            else None,
+            serves_forced_error_percentage=serves_forced_error_percentage[team_idx]
+            if team_idx < len(serves_forced_error_percentage)
+            else None,
             serves_won_in_three_shots_or_less=serves_won_in_three_shots_or_less[
                 team_idx
-            ],
-            serves_wide_percentage=serves_wide_percentage[team_idx],
-            serves_body_percentage=serves_body_percentage[team_idx],
-            serves_t_percentage=serves_t_percentage[team_idx],
-            serves_wide_deuce_percentage=serves_wide_deuce_percentage[team_idx],
-            serves_body_deuce_percentage=serves_body_deuce_percentage[team_idx],
-            serves_t_deuce_percentage=serves_t_deuce_percentage[team_idx],
-            serves_wide_ad_percentage=serves_wide_ad_percentage[team_idx],
-            serves_body_ad_percentage=serves_body_ad_percentage[team_idx],
-            serves_t_ad_percentage=serves_t_ad_percentage[team_idx],
-            serves_net_percentage=serves_net_percentage[team_idx],
-            serves_wide_direction_percentage=serves_wide_direction_percentage[team_idx],
-            shots_deep_percentage=shots_deep_percentage[team_idx],
-            shots_deep_wide_percentage=shots_deep_wide_percentage[team_idx],
-            shots_foot_errors_percentage=shots_foot_errors_percentage[team_idx],
-            shots_unknown_percentage=shots_unknown_percentage[team_idx],
-            points_won_percentage=points_won_percentage[team_idx],
+            ]
+            if team_idx < len(serves_won_in_three_shots_or_less)
+            else None,
+            serves_wide_percentage=serves_wide_percentage[team_idx]
+            if team_idx < len(serves_wide_percentage)
+            else None,
+            serves_body_percentage=serves_body_percentage[team_idx]
+            if team_idx < len(serves_body_percentage)
+            else None,
+            serves_t_percentage=serves_t_percentage[team_idx]
+            if team_idx < len(serves_t_percentage)
+            else None,
+            serves_wide_deuce_percentage=serves_wide_deuce_percentage[team_idx]
+            if team_idx < len(serves_wide_deuce_percentage)
+            else None,
+            serves_body_deuce_percentage=serves_body_deuce_percentage[team_idx]
+            if team_idx < len(serves_body_deuce_percentage)
+            else None,
+            serves_t_deuce_percentage=serves_t_deuce_percentage[team_idx]
+            if team_idx < len(serves_t_deuce_percentage)
+            else None,
+            serves_wide_ad_percentage=serves_wide_ad_percentage[team_idx]
+            if team_idx < len(serves_wide_ad_percentage)
+            else None,
+            serves_body_ad_percentage=serves_body_ad_percentage[team_idx]
+            if team_idx < len(serves_body_ad_percentage)
+            else None,
+            serves_t_ad_percentage=serves_t_ad_percentage[team_idx]
+            if team_idx < len(serves_t_ad_percentage)
+            else None,
+            serves_net_percentage=serves_net_percentage[team_idx]
+            if team_idx < len(serves_net_percentage)
+            else None,
+            serves_wide_direction_percentage=serves_wide_direction_percentage[team_idx]
+            if team_idx < len(serves_wide_direction_percentage)
+            else None,
+            shots_deep_percentage=shots_deep_percentage[team_idx]
+            if team_idx < len(shots_deep_percentage)
+            else None,
+            shots_deep_wide_percentage=shots_deep_wide_percentage[team_idx]
+            if team_idx < len(shots_deep_wide_percentage)
+            else None,
+            shots_foot_errors_percentage=shots_foot_errors_percentage[team_idx]
+            if team_idx < len(shots_foot_errors_percentage)
+            else None,
+            shots_unknown_percentage=shots_unknown_percentage[team_idx]
+            if team_idx < len(shots_unknown_percentage)
+            else None,
+            points_won_percentage=points_won_percentage[team_idx]
+            if team_idx < len(points_won_percentage)
+            else None,
             centre_clearances=None,
             disposal_efficiency=None,
             tackles_inside_50=None,
